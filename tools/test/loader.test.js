@@ -86,3 +86,36 @@ test('deriveKey is empty for empty input', () => {
     assert.strictEqual(deriveKey('', noopNormalizer), '');
     assert.strictEqual(deriveKey(null, noopNormalizer), '');
 });
+
+test('registerAlias stores normalized alias → key', () => {
+    const { registerAlias } = require(loaderPath);
+    const faction = { armyIds: [], profiles: {}, nameToKey: {} };
+    const normalizer = (s) => String(s).toLowerCase();
+    registerAlias(faction, 'Plague Marines', 'plague_marines', normalizer);
+    assert.strictEqual(faction.nameToKey['plague marines'], 'plague_marines');
+});
+
+test('registerAlias also stores compact (no-space) variant', () => {
+    const { registerAlias } = require(loaderPath);
+    const faction = { armyIds: [], profiles: {}, nameToKey: {} };
+    const normalizer = (s) => String(s).toLowerCase();
+    registerAlias(faction, 'Plague Marines', 'plague_marines', normalizer);
+    assert.strictEqual(faction.nameToKey['plaguemarines'], 'plague_marines');
+});
+
+test('registerAlias is a no-op when alias or key is empty', () => {
+    const { registerAlias } = require(loaderPath);
+    const faction = { armyIds: [], profiles: {}, nameToKey: {} };
+    const normalizer = (s) => String(s || '').toLowerCase();
+    registerAlias(faction, '', 'k', normalizer);
+    registerAlias(faction, 'a', '', normalizer);
+    assert.deepStrictEqual(faction.nameToKey, {});
+});
+
+test('registerAlias is a no-op when normalizer returns empty', () => {
+    const { registerAlias } = require(loaderPath);
+    const faction = { armyIds: [], profiles: {}, nameToKey: {} };
+    const stripNormalizer = () => '';
+    registerAlias(faction, 'whatever', 'k', stripNormalizer);
+    assert.deepStrictEqual(faction.nameToKey, {});
+});

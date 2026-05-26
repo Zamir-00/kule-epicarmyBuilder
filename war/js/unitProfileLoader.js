@@ -36,7 +36,14 @@ var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
     }
 
     function registerAlias(faction, alias, key, normalizer) {
-        // placeholder, replaced in Task 5
+        if (!alias || !key) return;
+        var normalized = normalizer(alias);
+        if (!normalized) return;
+        faction.nameToKey[normalized] = key;
+        var compact = normalized.replace(/\s+/g, '');
+        if (compact && compact !== normalized) {
+            faction.nameToKey[compact] = key;
+        }
     }
 
     function buildFinder(namespace, normalizer) {
