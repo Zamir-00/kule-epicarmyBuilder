@@ -6,16 +6,16 @@
 | Metric | Count |
 |---|---|
 | JS profiles | 23 |
-| Source-JSON profiles | 22 |
-| Shared (by name, case-insensitive) | 22 |
-| **Missing in source-json (needs transcription)** | **1** |
+| Source-JSON profiles | 23 |
+| Shared (by name, case-insensitive) | 23 |
+| **Missing in source-json (needs transcription)** | **0** |
 | Missing in JS (informational) | 0 |
 
 ## Missing in source-json
 
 These profiles exist in the JS literal but not in source-json. They need to be transcribed into source-json (Phase 2 of S1.4).
 
-- `Warbike Outriders`
+_(none — source-json appears complete for this faction)_
 
 ## Missing in JS (informational)
 

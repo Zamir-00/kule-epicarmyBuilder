@@ -6,73 +6,16 @@
 | Metric | Count |
 |---|---|
 | JS profiles | 80 |
-| Source-JSON profiles | 36 |
-| Shared (by name, case-insensitive) | 22 |
-| **Missing in source-json (needs transcription)** | **58** |
+| Source-JSON profiles | 94 |
+| Shared (by name, case-insensitive) | 80 |
+| **Missing in source-json (needs transcription)** | **0** |
 | Missing in JS (informational) | 14 |
 
 ## Missing in source-json
 
 These profiles exist in the JS literal but not in source-json. They need to be transcribed into source-json (Phase 2 of S1.4).
 
-- `2 Bunkers + Minefields`
-- `2 Bunkers + Trenches`
-- `4 Land Raiders or Redeemers`
-- `Ambush`
-- `Assault Marines`
-- `Bastion`
-- `Bike Unit`
-- `Blood Claws`
-- `Centurion`
-- `Devastators`
-- `Dreadnought`
-- `Dreadnought (Hellfire config.)`
-- `Emplacement`
-- `Fast Attack`
-- `Fellblade`
-- `Fenrisian Wolves`
-- `Fortified Positions`
-- `Grey Hunters`
-- `Hyperios Platform`
-- `Land Raider`
-- `Land Raider Achilles`
-- `Land Raider Crusader`
-- `Land Raider Helios`
-- `Land Raider Prometheus`
-- `Land Raider Redeemer`
-- `Landing Craft`
-- `Long Fangs`
-- `Planetfall`
-- `Predator Annihilator`
-- `Predator Destructor`
-- `Predator Incinerator`
-- `Rapier`
-- `Razorback (Twin Heavy Bolter)`
-- `Razorback (Twin Laser Cannon)`
-- `Scouts`
-- `Sky Claws`
-- `Spacecraft`
-- `Sternguard Veterans`
-- `Supreme Commander in Land Raider`
-- `Supreme Commander in Prometheus`
-- `Tactical Marines`
-- `Tarantula + Emplacement`
-- `Tarantula Sentry Gun`
-- `Techmarine`
-- `Terminators`
-- `Thudd Gun`
-- `Thunderfire Cannon`
-- `Thunderhawk`
-- `Thunderhawk (Close Air Support configuration)`
-- `Thunderhawk (Saturation Bombing configuration)`
-- `Thunderhawk Transporter`
-- `Vanguard Veterans`
-- `Venerable Dreadnought`
-- `Vindicator`
-- `Vulcan Dreadnought`
-- `Whirlwind`
-- `Wolf Guard Terminators`
-- `Wolf Scouts`
+_(none — source-json appears complete for this faction)_
 
 ## Missing in JS (informational)
 
