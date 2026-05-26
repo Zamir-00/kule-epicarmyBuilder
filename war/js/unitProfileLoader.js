@@ -61,8 +61,28 @@ var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
         };
     }
 
-    function loadSourceJsonSync(path) {
-        return null;  // placeholder, replaced in Task 7
+    function loadSourceJsonSync(sourcePath) {
+        var responseText = null;
+        try {
+            new Ajax.Request(sourcePath, {
+                method: 'get',
+                asynchronous: false,
+                onSuccess: function(response) { responseText = response.responseText; }
+            });
+        } catch (err) {
+            console.warn('unitProfileLoader: Ajax error for ' + sourcePath, err);
+            return null;
+        }
+        if (!responseText) {
+            console.warn('unitProfileLoader: empty response for ' + sourcePath);
+            return null;
+        }
+        try {
+            return JSON.parse(responseText);
+        } catch (err2) {
+            console.warn('unitProfileLoader: JSON parse error for ' + sourcePath, err2);
+            return null;
+        }
     }
 
     function registerFaction(config) {
