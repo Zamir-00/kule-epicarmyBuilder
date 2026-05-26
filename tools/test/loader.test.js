@@ -66,3 +66,23 @@ test('cloneProfile drops provenance fields (parse_confidence etc.)', () => {
     assert.strictEqual(result.ambiguity_reasons, undefined);
     assert.strictEqual(result.is_reference_or_ambiguous, undefined);
 });
+
+test('deriveKey converts name to snake_case via normalizer', () => {
+    const { deriveKey } = require(loaderPath);
+    const noopNormalizer = (s) => String(s).toLowerCase();
+    assert.strictEqual(deriveKey('Lord of Contagion', noopNormalizer), 'lord_of_contagion');
+    assert.strictEqual(deriveKey('Plague  Marines', noopNormalizer), 'plague_marines');
+});
+
+test('deriveKey returns empty string when normalizer returns empty', () => {
+    const { deriveKey } = require(loaderPath);
+    const stripNormalizer = () => '';
+    assert.strictEqual(deriveKey('whatever', stripNormalizer), '');
+});
+
+test('deriveKey is empty for empty input', () => {
+    const { deriveKey } = require(loaderPath);
+    const noopNormalizer = (s) => String(s || '').toLowerCase();
+    assert.strictEqual(deriveKey('', noopNormalizer), '');
+    assert.strictEqual(deriveKey(null, noopNormalizer), '');
+});

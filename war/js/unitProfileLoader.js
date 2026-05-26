@@ -29,7 +29,10 @@ var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
     }
 
     function deriveKey(name, normalizer) {
-        return '';  // placeholder, replaced in Task 4
+        if (!name) return '';
+        var normalized = normalizer(name);
+        if (!normalized) return '';
+        return normalized.replace(/\s+/g, '_');
     }
 
     function registerAlias(faction, alias, key, normalizer) {
