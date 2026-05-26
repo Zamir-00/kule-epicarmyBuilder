@@ -40,179 +40,84 @@ ArmyforgeUnitProfiles.normalizeThousandSonsName = ArmyforgeUnitProfiles.normaliz
 		.strip();
 };
 
-ArmyforgeUnitProfiles.thousandSons = ArmyforgeUnitProfiles.thousandSons || {
-	armyIds: ['CHAOS_ts_NETEA'],
-	profiles: {},
-	nameToKey: {}
-};
-
-(function() {
-	function registerAlias(alias, key) {
-		if (!alias || !key) {
-			return;
-		}
-		var normalized = ArmyforgeUnitProfiles.normalizeThousandSonsName(alias);
-		if (!normalized) {
-			return;
-		}
-		ArmyforgeUnitProfiles.thousandSons.nameToKey[normalized] = key;
-		var compact = normalized.replace(/\s+/g, '');
-		if (compact) {
-			ArmyforgeUnitProfiles.thousandSons.nameToKey[compact] = key;
-		}
+ArmyforgeUnitProfiles.registerFaction({
+	namespace: ‘thousandSons’,
+	findFunctionName: ‘findThousandSonsProfileByName’,
+	armyIds: [‘CHAOS_ts_NETEA’],
+	sourceJsonPaths: [‘./source-json/thousand-sons.json’],
+	normalizer: ArmyforgeUnitProfiles.normalizeThousandSonsName,
+	aliases: {
+		‘0-1 Wraithgate’: ‘Wraithgate’,
+		‘Wraithgate’: ‘Wraithgate’,
+		‘0-1 Scarab Occult’: ‘Thousand Sons Sorcerer Lord’,
+		‘Scarab Occult’: ‘Thousand Sons Sorcerer Lord’,
+		‘Thousand Sons Sorcerer Lord’: ‘Thousand Sons Sorcerer Lord’,
+		‘Thousand Sons Adeptus’: ‘Thousand Sons Adeptus’,
+		"0-1 Ahriman’s Chosen": ‘Thousand Sons Sorcerer’,
+		"Ahriman’s Chosen": ‘Thousand Sons Sorcerer’,
+		‘Thousand Sons Sorcerer’: ‘Thousand Sons Sorcerer’,
+		‘Thousand Sons Marine units’: ‘Thousand Sons Marines’,
+		‘Thousand Sons Marines’: ‘Thousand Sons Marines’,
+		‘1+ Rubric Fellowship’: ‘Thousand Sons Sorcerer’,
+		‘Rubric Fellowship’: ‘Thousand Sons Sorcerer’,
+		‘Thousand Sons Armour’: ‘Thousand Sons Predator’,
+		‘Thousand Sons Armor’: ‘Thousand Sons Predator’,
+		‘Thousand Sons Predators’: ‘Thousand Sons Predator’,
+		‘Thousand Sons Predator’: ‘Thousand Sons Predator’,
+		‘Thousand Sons Land Raiders’: ‘Thousand Sons Land Raider’,
+		‘Thousand Sons Land Raider’: ‘Thousand Sons Land Raider’,
+		‘Silver Tower Company’: ‘Silver Tower’,
+		‘Silver Towers’: ‘Silver Tower’,
+		‘Silver Tower’: ‘Silver Tower’,
+		‘Thousand Sons Warcoven’: ‘Thousand Sons Terminators’,
+		‘Thousand Sons Terminator units’: ‘Thousand Sons Terminators’,
+		‘Thousand Sons Terminators’: ‘Thousand Sons Terminators’,
+		‘Sekhmet Disc Riders’: ‘Sekhmet Disc Riders’,
+		‘Disc Riders’: ‘Sekhmet Disc Riders’,
+		‘Neophyte Class’: ‘Thousand Sons Neophyte’,
+		‘Neophyte units’: ‘Thousand Sons Neophyte’,
+		‘Thousand Sons Neophyte’: ‘Thousand Sons Neophyte’,
+		‘Deceivers Formation’: ‘Deceiver’,
+		‘Deceivers’: ‘Deceiver’,
+		‘Deceiver’: ‘Deceiver’,
+		‘Deceiver Dreadnoughts’: ‘Deceiver’,
+		‘0-1 Daemon Prince of Tzeentch’: ‘Daemon Prince of Tzeentch’,
+		‘Daemon Prince of Tzeentch’: ‘Daemon Prince of Tzeentch’,
+		‘Champion of Tzeentch’: ‘Champion of Tzeentch’,
+		‘Daemonic Pact’: ‘Daemonic Pact’,
+		‘Dreadclaws’: ‘Dreadclaw’,
+		‘Dreadclaw’: ‘Dreadclaw’,
+		‘Dreadnoughts’: ‘Thousand Sons Dreadnought’,
+		‘Chaos Dreadnoughts’: ‘Thousand Sons Dreadnought’,
+		‘Thousand Sons Dreadnought’: ‘Thousand Sons Dreadnought’,
+		‘Icon Bearer’: ‘Icon Bearer’,
+		‘Rhinos’: ‘Thousand Sons Rhino’,
+		‘Thousand Sons Rhinos’: ‘Thousand Sons Rhino’,
+		‘Thousand Sons Rhino’: ‘Thousand Sons Rhino’,
+		‘Land Raiders’: ‘Thousand Sons Land Raider’,
+		‘0-1 Greater Daemon’: ‘Lord of Change’,
+		‘Greater Daemon’: ‘Lord of Change’,
+		‘Lord of Change’: ‘Lord of Change’,
+		‘Lesser Daemons’: ‘Tzeentch Flamers’,
+		‘Lesser Daemon’: ‘Tzeentch Flamers’,
+		‘Tzeentch Flamers’: ‘Tzeentch Flamers’,
+		‘Tzeentch Horrors’: ‘Tzeentch Horrors’,
+		‘Tzeentch Screamers’: ‘Tzeentch Screamers’,
+		‘Doomwing Interceptors’: ‘Doomwing’,
+		‘Doomwings’: ‘Doomwing’,
+		‘Doomwing’: ‘Doomwing’,
+		‘Firelord Bombers’: ‘Firelord’,
+		‘Firelords’: ‘Firelord’,
+		‘Firelord’: ‘Firelord’,
+		‘Devastation Class Cruiser’: ‘Devastation Class Cruiser’,
+		‘Despoiler Battleship’: ‘Despoiler Class Battleship’,
+		‘Despoiler Class Battleship’: ‘Despoiler Class Battleship’,
+		‘Greater Spires’: ‘Greater Spires of Tzeentch’,
+		‘Greater Spires of Tzeentch’: ‘Greater Spires of Tzeentch’,
+		‘Warp Palace’: ‘Warp Palace of Tzeentch’,
+		‘Warp Palace of Tzeentch’: ‘Warp Palace of Tzeentch’
 	}
-
-	function cloneProfile(profile) {
-		return {
-			name: profile.name,
-			type: profile.type,
-			speed: profile.speed,
-			armour: profile.armour,
-			cc: profile.cc,
-			ff: profile.ff,
-			weapons: (profile.weapons || []).map(function(weapon) {
-				return {
-					name: weapon.name,
-					range: weapon.range,
-					firepower: weapon.firepower,
-					notes: (weapon.notes || []).slice()
-				};
-			}),
-			abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
-		};
-	}
-
-	function loadSourceData() {
-		var responseText = null;
-		try {
-			new Ajax.Request('./source-json/thousand-sons.json', {
-				method: 'get',
-				asynchronous: false,
-				onSuccess: function(response) {
-					responseText = response.responseText;
-				}
-			});
-		}
-		catch (err) {
-			return null;
-		}
-		if (!responseText) {
-			return null;
-		}
-		try {
-			return JSON.parse(responseText);
-		}
-		catch (err2) {
-			return null;
-		}
-	}
-
-	var sourceData = loadSourceData();
-	if (sourceData && sourceData.profiles && sourceData.profiles.length) {
-		sourceData.profiles.each(function(profile) {
-			var key = ArmyforgeUnitProfiles.normalizeThousandSonsName(profile.name).replace(/\s+/g, '_');
-			if (!key) {
-				return;
-			}
-			ArmyforgeUnitProfiles.thousandSons.profiles[key] = cloneProfile(profile);
-			registerAlias(profile.name, key);
-		});
-	}
-
-	var aliases = {
-		'0-1 Wraithgate': 'Wraithgate',
-		'Wraithgate': 'Wraithgate',
-		'0-1 Scarab Occult': 'Thousand Sons Sorcerer Lord',
-		'Scarab Occult': 'Thousand Sons Sorcerer Lord',
-		'Thousand Sons Sorcerer Lord': 'Thousand Sons Sorcerer Lord',
-		'Thousand Sons Adeptus': 'Thousand Sons Adeptus',
-		"0-1 Ahriman's Chosen": 'Thousand Sons Sorcerer',
-		"Ahriman's Chosen": 'Thousand Sons Sorcerer',
-		"Ahriman’s Chosen": 'Thousand Sons Sorcerer',
-		'Thousand Sons Sorcerer': 'Thousand Sons Sorcerer',
-		'Thousand Sons Marine units': 'Thousand Sons Marines',
-		'Thousand Sons Marines': 'Thousand Sons Marines',
-		'1+ Rubric Fellowship': 'Thousand Sons Sorcerer',
-		'Rubric Fellowship': 'Thousand Sons Sorcerer',
-		'Thousand Sons Armour': 'Thousand Sons Predator',
-		'Thousand Sons Armor': 'Thousand Sons Predator',
-		'Thousand Sons Predators': 'Thousand Sons Predator',
-		'Thousand Sons Predator': 'Thousand Sons Predator',
-		'Thousand Sons Land Raiders': 'Thousand Sons Land Raider',
-		'Thousand Sons Land Raider': 'Thousand Sons Land Raider',
-		'Silver Tower Company': 'Silver Tower',
-		'Silver Towers': 'Silver Tower',
-		'Silver Tower': 'Silver Tower',
-		'Thousand Sons Warcoven': 'Thousand Sons Terminators',
-		'Thousand Sons Terminator units': 'Thousand Sons Terminators',
-		'Thousand Sons Terminators': 'Thousand Sons Terminators',
-		'Sekhmet Disc Riders': 'Sekhmet Disc Riders',
-		'Disc Riders': 'Sekhmet Disc Riders',
-		'Neophyte Class': 'Thousand Sons Neophyte',
-		'Neophyte units': 'Thousand Sons Neophyte',
-		'Thousand Sons Neophyte': 'Thousand Sons Neophyte',
-		'Deceivers Formation': 'Deceiver',
-		'Deceivers': 'Deceiver',
-		'Deceiver': 'Deceiver',
-		'Deceiver Dreadnoughts': 'Deceiver',
-		'0-1 Daemon Prince of Tzeentch': 'Daemon Prince of Tzeentch',
-		'Daemon Prince of Tzeentch': 'Daemon Prince of Tzeentch',
-		'Champion of Tzeentch': 'Champion of Tzeentch',
-		'Daemonic Pact': 'Daemonic Pact',
-		'Dreadclaws': 'Dreadclaw',
-		'Dreadclaw': 'Dreadclaw',
-		'Dreadnoughts': 'Thousand Sons Dreadnought',
-		'Chaos Dreadnoughts': 'Thousand Sons Dreadnought',
-		'Thousand Sons Dreadnought': 'Thousand Sons Dreadnought',
-		'Icon Bearer': 'Icon Bearer',
-		'Rhinos': 'Thousand Sons Rhino',
-		'Thousand Sons Rhinos': 'Thousand Sons Rhino',
-		'Thousand Sons Rhino': 'Thousand Sons Rhino',
-		'Land Raiders': 'Thousand Sons Land Raider',
-		'0-1 Greater Daemon': 'Lord of Change',
-		'Greater Daemon': 'Lord of Change',
-		'Lord of Change': 'Lord of Change',
-		'Lesser Daemons': 'Tzeentch Flamers',
-		'Lesser Daemon': 'Tzeentch Flamers',
-		'Tzeentch Flamers': 'Tzeentch Flamers',
-		'Tzeentch Horrors': 'Tzeentch Horrors',
-		'Tzeentch Screamers': 'Tzeentch Screamers',
-		'Doomwing Interceptors': 'Doomwing',
-		'Doomwings': 'Doomwing',
-		'Doomwing': 'Doomwing',
-		'Firelord Bombers': 'Firelord',
-		'Firelords': 'Firelord',
-		'Firelord': 'Firelord',
-		'Devastation Class Cruiser': 'Devastation Class Cruiser',
-		'Despoiler Battleship': 'Despoiler Class Battleship',
-		'Despoiler Class Battleship': 'Despoiler Class Battleship',
-		'Greater Spires': 'Greater Spires of Tzeentch',
-		'Greater Spires of Tzeentch': 'Greater Spires of Tzeentch',
-		'Warp Palace': 'Warp Palace of Tzeentch',
-		'Warp Palace of Tzeentch': 'Warp Palace of Tzeentch'
-	};
-
-	for (var alias in aliases) {
-		if (aliases.hasOwnProperty(alias)) {
-			registerAlias(alias, ArmyforgeUnitProfiles.normalizeThousandSonsName(aliases[alias]).replace(/\s+/g, '_'));
-		}
-	}
-})();
-
-ArmyforgeUnitProfiles.findThousandSonsProfileByName = function(displayName, listId) {
-	if (!displayName) {
-		return null;
-	}
-	if (listId && !ArmyforgeUnitProfiles.thousandSons.armyIds.member(listId)) {
-		return null;
-	}
-	var normalized = ArmyforgeUnitProfiles.normalizeThousandSonsName(displayName);
-	var key = ArmyforgeUnitProfiles.thousandSons.nameToKey[normalized] || ArmyforgeUnitProfiles.thousandSons.nameToKey[normalized.replace(/\s+/g, '')];
-	if (!key) {
-		return null;
-	}
-	return ArmyforgeUnitProfiles.thousandSons.profiles[key] || null;
-};
+});
 
 ArmyforgeUnitProfiles.thousandSonsAdditionalProfilesForFormation = function(formation) {
 	var extras = [];
