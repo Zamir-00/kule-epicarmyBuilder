@@ -1235,6 +1235,19 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Artillery Battery",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for the Squat Artillery Battery formation slot.",
+        "Options: Mole Mortar, Rapier, Tarantula, Thudd Gun."
+      ]
     }
   ],
   "army_notes": [

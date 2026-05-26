@@ -1217,6 +1217,32 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Armour Support Group",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for the Tau Armour Support Group formation slot.",
+        "Options: Hammerhead gunship, Skyray."
+      ]
+    },
+    {
+      "name": "Spacecraft",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for the Tau spacecraft formation slot.",
+        "One of the following units: Protector Class Cruiser, Custodian Class Battleship"
+      ]
     }
   ],
   "army_notes": [

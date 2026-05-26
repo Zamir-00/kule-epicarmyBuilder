@@ -1302,6 +1302,306 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "2 Haemonculi, 2 Grotesques",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 200",
+        "Used in: Kabal Coterie"
+      ]
+    },
+    {
+      "name": "2 Haemonculi, 4 Grotesques",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 0"
+      ]
+    },
+    {
+      "name": "2 Hellions",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 50",
+        "Used in: Wych Cult"
+      ]
+    },
+    {
+      "name": "2 Perditors",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 300",
+        "Used in: Haemonculi Coven, Talos Swarm"
+      ]
+    },
+    {
+      "name": "2 Reavers",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 50",
+        "Used in: Wych Cult"
+      ]
+    },
+    {
+      "name": "2 Talos",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 100",
+        "Used in: Haemonculi Coven"
+      ]
+    },
+    {
+      "name": "3 Haemonculi, 5 Grotesques",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 100"
+      ]
+    },
+    {
+      "name": "4 Ravagers",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 0"
+      ]
+    },
+    {
+      "name": "6 Ravagers",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 100"
+      ]
+    },
+    {
+      "name": "8 Incubi",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 150"
+      ]
+    },
+    {
+      "name": "8 Mandrakes",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 75"
+      ]
+    },
+    {
+      "name": "8 Scourges",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 75"
+      ]
+    },
+    {
+      "name": "8 Warriors",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 50"
+      ]
+    },
+    {
+      "name": "8 Wyches",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 50"
+      ]
+    },
+    {
+      "name": "Bomber Formation",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list formation.",
+        "Section: SPACESHIPS, AIRCRAFT & HORRORS",
+        "Points: 0",
+        "Options: Razorwing Bomber"
+      ]
+    },
+    {
+      "name": "Corsair Escorts",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list formation.",
+        "Section: SPACESHIPS, AIRCRAFT & HORRORS",
+        "Points: 0",
+        "Options: Corsair Class Escort"
+      ]
+    },
+    {
+      "name": "Executioner Landing Module",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list formation.",
+        "Section: SPACESHIPS, AIRCRAFT & HORRORS",
+        "Points: 750"
+      ]
+    },
+    {
+      "name": "Fighter Formation",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list formation.",
+        "Section: SPACESHIPS, AIRCRAFT & HORRORS",
+        "Points: 0",
+        "Options: Raven Fighter"
+      ]
+    },
+    {
+      "name": "Haemonculus, Grotesque",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 100",
+        "Used in: Kabal Coterie, Kabal Syndicate"
+      ]
+    },
+    {
+      "name": "Razorwing Bomber",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 125",
+        "Used in: Bomber Formation"
+      ]
+    },
+    {
+      "name": "Slavebringer",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 200",
+        "Used in: Kabal Coterie, Kabal Syndicate, Talos Swarm, Wych Cult"
+      ]
+    },
+    {
+      "name": "Webway Portal",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "At the start of the game nominate one objective on your half of the table as a Webway Portal before setting up spacecraft and garrisons. The Webway Portal functions both as a Webway Portal and as an objective for the rules purposes. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the Walker ability may use the Webway Portal to enter play."
+      ]
     }
   ],
   "army_notes": [

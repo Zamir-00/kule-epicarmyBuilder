@@ -815,6 +815,72 @@
       ],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bile Launcher",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 0"
+      ]
+    },
+    {
+      "name": "Bio-Titan Bio-Cannon",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 0"
+      ]
+    },
+    {
+      "name": "Brood Nest",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list formation.",
+        "Section: TYRANID INDIVIDUALS",
+        "Points: 50"
+      ]
+    },
+    {
+      "name": "Cluster Spines",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 0"
+      ]
+    },
+    {
+      "name": "Pyro-Acid Spray",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Source list option.",
+        "Points: 0"
+      ]
     }
   ],
   "army_notes": [

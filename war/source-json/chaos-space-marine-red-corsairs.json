@@ -1527,6 +1527,18 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Spaceship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a Chaos spacecraft slot."
+      ]
     }
   ],
   "army_notes": [

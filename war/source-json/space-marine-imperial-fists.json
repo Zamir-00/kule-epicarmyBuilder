@@ -1683,6 +1683,1158 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "2 Bunkers + Minefields",
+      "type": "Static Defences",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for bunker and minefield fortifications."
+      ]
+    },
+    {
+      "name": "2 Bunkers + Trenches",
+      "type": "Static Defences",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for bunker and trench fortifications."
+      ]
+    },
+    {
+      "name": "4 Land Raiders or Redeemers",
+      "type": "Formation Upgrade",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a mixed Land Raider / Land Raider Redeemer upgrade group."
+      ]
+    },
+    {
+      "name": "Ambush",
+      "type": "Tactical Upgrade",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for an ambush deployment upgrade."
+      ]
+    },
+    {
+      "name": "Assault Marines",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ]
+    },
+    {
+      "name": "Attack Bike",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Battle Barge",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Bike Unit",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ]
+    },
+    {
+      "name": "Blood Claws",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols and Chainswords",
+          "range": "15cm/base",
+          "firepower": "Small Arms / Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Centurion",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Siege Drills",
+          "range": "base contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Devastators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Heavy Weapons",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "base contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ]
+    },
+    {
+      "name": "Dreadnought (Hellfire config.)",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Hellfire Missiles",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ]
+    },
+    {
+      "name": "Drop Pod",
+      "type": "Transport Drop Pod",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "Reference card for drop pod insertion rather than a normal battlefield unit profile."
+      ]
+    },
+    {
+      "name": "Emplacement",
+      "type": "Fortification",
+      "speed": "0cm",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a fixed gun emplacement."
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a fast attack formation composed from bikes, attack bikes, and/or land speeders."
+      ]
+    },
+    {
+      "name": "Fenrisian Wolves",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Teeth and Claws",
+          "range": "base contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator"
+      ]
+    },
+    {
+      "name": "Fortified Positions",
+      "type": "Static Defences",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for minefields or trenches with 2 bunkers.",
+        "Represents battlefield fortifications rather than a normal unit statline."
+      ]
+    },
+    {
+      "name": "Grey Hunters",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Land Raider Helios",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Helios Missile Launcher",
+          "range": "60cm",
+          "firepower": "1BP / AA5+",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Land Raider Prometheus",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Quad Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport",
+        "Commander"
+      ]
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Flamestorm Cannons",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Land Speeder Storm",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Land Speeder Tempest",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Tempest Launcher",
+          "range": "45cm",
+          "firepower": "2BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Landing Craft",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2× Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "3× Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Long Fangs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Heavy Weapons",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2× Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Planetfall",
+      "type": "Tactical Upgrade",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a planetfall deployment upgrade."
+      ]
+    },
+    {
+      "name": "Predator Incinerator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Flame Cannon",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Razorback (Twin Heavy Bolter)",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport"
+      ]
+    },
+    {
+      "name": "Razorback (Twin Laser Cannon)",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport"
+      ]
+    },
+    {
+      "name": "Scouts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Sky Claws",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ]
+    },
+    {
+      "name": "Spacecraft",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a spacecraft formation slot; commonly upgraded to a Strike Cruiser or Battle Barge."
+      ]
+    },
+    {
+      "name": "Sternguard Veterans",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Special Issue Bolters",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Storm Eagle",
+      "type": "AC/WE",
+      "speed": "n/a",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Vengeance Launcher",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Multi-melta",
+          "range": "15cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Strike Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport"
+      ]
+    },
+    {
+      "name": "Supreme Commander in Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Inspiring",
+        "Reinforced Armour",
+        "Supreme Commander",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Supreme Commander in Prometheus",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Quad Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Inspiring",
+        "Reinforced Armour",
+        "Supreme Commander",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Tactical Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Tarantula + Emplacement",
+      "type": "Static Defences",
+      "speed": "0cm",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for a Tarantula and emplacement upgrade."
+      ]
+    },
+    {
+      "name": "Tarantula Sentry Gun",
+      "type": "INF",
+      "speed": "0cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Immobile"
+      ]
+    },
+    {
+      "name": "Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Thunderhawk",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2× Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Thunderhawk (Close Air Support configuration)",
+      "type": "AC/WE",
+      "speed": "n/a",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Close Air Support Weapons",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Thunderhawk (Saturation Bombing configuration)",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed."
+      ]
+    },
+    {
+      "name": "Thunderhawk Transporter",
+      "type": "AC/WE",
+      "speed": "n/a",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Vanguard Veterans",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Power Weapons",
+          "range": "base contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ]
+    },
+    {
+      "name": "Venerable Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "base contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Vulcan Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Power Fist",
+          "range": "base contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ]
+    },
+    {
+      "name": "Warhound Class Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Titan Weapons",
+          "range": "varies",
+          "firepower": "varies",
+          "notes": [
+            "Configuration-dependent"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Void Shields",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Wolf Guard Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Wolf Scouts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout",
+        "Teleport"
+      ]
     }
   ],
   "army_notes": [

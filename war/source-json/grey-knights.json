@@ -1483,6 +1483,18 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Eternal Warrior Formation",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card: this formation has two alternatives in the source list, Grey Knight Dreadnoughts or Nemesis Dreadknights, with different printed costs."
+      ]
     }
   ],
   "army_notes": [
