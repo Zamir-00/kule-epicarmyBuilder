@@ -86,7 +86,60 @@ var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
     }
 
     function registerFaction(config) {
-        // placeholder, replaced in Task 8
+        if (!config ||
+            !config.namespace ||
+            !config.findFunctionName ||
+            !config.armyIds ||
+            !config.sourceJsonPaths ||
+            !config.normalizer) {
+            throw new Error('unitProfileLoader: registerFaction config missing required fields ' +
+                            '(namespace, findFunctionName, armyIds, sourceJsonPaths, normalizer)');
+        }
+
+        var profilesGlobal = (typeof global !== 'undefined' ? global : window).ArmyforgeUnitProfiles;
+
+        var faction = profilesGlobal[config.namespace] || {
+            armyIds: config.armyIds.slice(),
+            profiles: {},
+            nameToKey: {}
+        };
+        profilesGlobal[config.namespace] = faction;
+
+        // Load and merge profiles from all source paths.
+        var allProfiles = [];
+        for (var i = 0; i < config.sourceJsonPaths.length; i++) {
+            var data = loadSourceJsonSync(config.sourceJsonPaths[i]);
+            if (data && data.profiles && data.profiles.length) {
+                for (var j = 0; j < data.profiles.length; j++) {
+                    allProfiles.push(data.profiles[j]);
+                }
+            }
+        }
+
+        // Register each profile under its derived key, plus self-alias by its name.
+        for (var p = 0; p < allProfiles.length; p++) {
+            var profile = allProfiles[p];
+            var key = deriveKey(profile.name, config.normalizer);
+            if (!key) continue;
+            if (faction.profiles[key]) {
+                console.warn('unitProfileLoader: profile key collision for "' + key +
+                             '" (namespace: ' + config.namespace + ')');
+            }
+            faction.profiles[key] = cloneProfile(profile);
+            registerAlias(faction, profile.name, key, config.normalizer);
+        }
+
+        // Register the explicit aliases.
+        var aliases = config.aliases || {};
+        for (var alias in aliases) {
+            if (!Object.prototype.hasOwnProperty.call(aliases, alias)) continue;
+            var targetName = aliases[alias];
+            var targetKey = deriveKey(targetName, config.normalizer);
+            if (!targetKey) continue;
+            registerAlias(faction, alias, targetKey, config.normalizer);
+        }
+
+        profilesGlobal[config.findFunctionName] = buildFinder(config.namespace, config.normalizer);
     }
 
     // Public API

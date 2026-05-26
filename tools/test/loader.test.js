@@ -166,3 +166,56 @@ test('buildFinder returns null when key resolution fails', () => {
     const finder = buildFinder('testNs', (s) => String(s).toLowerCase());
     assert.strictEqual(finder('Plague Marines', 'TEST_NETEA'), null);
 });
+
+test('registerFaction loads source-json, registers profiles and aliases, attaches finder', () => {
+    const { registerFaction } = require(loaderPath);
+    const fs = require('fs');
+    const fixturePath = path.resolve(__dirname, 'fixtures', 'sample-source.json');
+    const fixtureBody = fs.readFileSync(fixturePath, 'utf8');
+
+    // Stub Prototype.js Ajax.Request — captures the path and returns the fixture body.
+    global.Ajax = {
+        Request: function(reqPath, opts) {
+            opts.onSuccess({ responseText: fixtureBody });
+        }
+    };
+    if (!Array.prototype.member) {
+        Array.prototype.member = function(value) { return this.indexOf(value) !== -1; };
+    }
+    global.ArmyforgeUnitProfiles = global.ArmyforgeUnitProfiles || {};
+
+    registerFaction({
+        namespace: 'sampleFaction',
+        findFunctionName: 'findSampleFactionProfileByName',
+        armyIds: ['TEST_NETEA'],
+        sourceJsonPaths: [fixturePath],
+        normalizer: (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(),
+        aliases: {
+            'Plague Marine Retinue': 'Plague Marines',
+            'Lord of Contagion': 'Lord of Contagion'
+        }
+    });
+
+    const ns = global.ArmyforgeUnitProfiles.sampleFaction;
+    assert.ok(ns, 'namespace attached');
+    assert.deepStrictEqual(ns.armyIds, ['TEST_NETEA']);
+    assert.ok(ns.profiles.plague_marines, 'plague_marines profile registered');
+    assert.strictEqual(ns.profiles.plague_marines.name, 'Plague Marines');
+    assert.ok(ns.profiles.lord_of_contagion, 'lord_of_contagion profile registered');
+
+    // Aliases were registered.
+    assert.strictEqual(ns.nameToKey['plague marine retinue'], 'plague_marines');
+
+    // Finder function attached and resolves both direct names and aliases.
+    const finder = global.ArmyforgeUnitProfiles.findSampleFactionProfileByName;
+    assert.ok(typeof finder === 'function', 'finder attached');
+    assert.strictEqual(finder('Plague Marines', 'TEST_NETEA').name, 'Plague Marines');
+    assert.strictEqual(finder('Plague Marine Retinue', 'TEST_NETEA').name, 'Plague Marines');
+    assert.strictEqual(finder('Unknown Unit', 'TEST_NETEA'), null);
+});
+
+test('registerFaction throws when required config field missing', () => {
+    const { registerFaction } = require(loaderPath);
+    assert.throws(() => registerFaction({}), /missing required fields/);
+    assert.throws(() => registerFaction({ namespace: 'x' }), /missing required fields/);
+});
