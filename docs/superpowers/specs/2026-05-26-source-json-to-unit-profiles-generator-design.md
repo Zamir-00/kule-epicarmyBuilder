@@ -1,296 +1,318 @@
-# Source-JSON → Unit-Profiles Generator
+# Unit-Profile Shared Loader
 
 **Status:** Design — pending implementation
-**Date:** 2026-05-26
+**Date:** 2026-05-26 (revised after structural survey)
 **Owner:** mirza.sahinkaya@efsora.com
+
+## Revision note
+
+This spec originally proposed a build-time codegen tool that would emit `war/js/unitProfiles.*.js` from `war/source-json/*.json` + per-faction sidecars. A pre-implementation survey of the 50 existing unitProfile files revealed three structural shapes, not one:
+
+- 43 **STATIC** files with hardcoded profile literals (e.g. `unitProfiles.smCodexAstartes.js`)
+- 6 **DYNAMIC** files that already load source-json at runtime via Prototype.js `Ajax.Request` (e.g. `unitProfiles.deathGuard.js`) — these were the most recent additions and they already solve the drift problem differently
+- 1 **multi-source** file (`unitProfiles.eldarCraftworlds.js`) that covers four source-json files under a single namespace
+
+Given that 6 files already prove the runtime-loader pattern works in production, the design pivots to **standardizing what works** rather than introducing build-time codegen. The shared-loader approach is smaller (no build step, no codegen, no sidecars, no extractor), aligns with the direction the recent commits were already heading, and reduces the migration surface area from "every file changes" to "every file changes in a uniform way that's already established."
+
+The earlier codegen direction is preserved in git history (commit `21c607d`) for reference.
 
 ## Background
 
 The repo carries three parallel data layers for army-list content:
 
 1. `war/source-json/*.json` — scraped from `tp.net-armageddon.org/army-lists/...`. Authoritative source. 56 files.
-2. `war/js/unitProfiles.*.js` — UI unit-card statlines plus a `nameToKey` synonym table and a `find<Faction>ProfileByName` lookup function. Loaded by `war/js/chooser.js` and indexed via the `profileFindersByListId` switch at `chooser.js:260-315`. 50 files.
-3. `war/lists/*.json` — the actual army-builder data (formations, point costs, upgrades). References units by free-text names which the JS layer resolves via `nameToKey`. 157 files.
+2. `war/js/unitProfiles.*.js` — UI unit-card statlines plus per-faction normalizer regexes, alias tables, finder functions, and (for some factions) formation-extras logic. Loaded by `war/js/chooser.js` and indexed via the `profileFindersByListId` switch at `chooser.js:260-315`. 50 files.
+3. `war/lists/*.json` — the actual army-builder data (formations, point costs, upgrades). References units by free-text names which the JS layer resolves via the alias tables. 157 files.
 
-Layer 2 was hand-translated from layer 1. Drift is inevitable — that is exactly why `war/source-json/*.audit.md` files exist (e.g. `death-guard.audit.md` enumerates compressed table rows, parse warnings, and formation-to-profile name mismatches).
+Layer 2 today contains 6 files that fetch their data from layer 1 at runtime (mostly drift-free) and 43 files that hardcode their data inline (drift-prone — `war/source-json/*.audit.md` exists to babysit). All 6 dynamic files share heavy copy-paste: each duplicates a synchronous `Ajax.Request` loader, a `cloneProfile` helper, a `registerAlias` helper, and an identical-shape `find<Faction>ProfileByName` function.
 
-The user's stated goal: stop hand-translating, eliminate the drift class. UI behavior, list-builder behavior, and on-disk structure of layers 1 and 3 are unchanged. This spec is narrowly about producing layer 2 from layer 1 + a sidecar that captures the human-curated bits.
+The user's stated goal: stop hand-translating, eliminate the drift class.
 
 ## Goals
 
-- Generate `war/js/unitProfiles.<faction>.js` deterministically from `war/source-json/<faction>.json` + a sidecar `war/source-json/<faction>.synonyms.json`.
-- Preserve current UI behavior: same profile keys, same `armyIds`, same `find<Faction>ProfileByName` function name, same `nameToKey` resolution, same per-faction `normalize<Faction>ListName` regex behavior.
-- One-time migration: mine the 50 existing JS files into sidecars so future drift only happens in source-json or sidecars, never both.
-- Pilot on two factions, verify in browser, then regenerate the remaining 48 in one commit.
+- Extract the shared mechanical bits (sync Ajax load, profile cloning, alias registration, finder construction) into a single `war/js/unitProfileLoader.js` library.
+- Each `war/js/unitProfiles.<faction>.js` becomes ~40-100 lines: a per-faction normalizer regex, an aliases object literal, a `registerFaction(...)` call into the shared loader, and optionally a per-faction `<faction>AdditionalProfilesForFormation` function. No copy-pasted plumbing.
+- Migrate the 43 STATIC files to this shape: source-json becomes their single source of truth at runtime; the hardcoded profile literals get deleted.
+- Refactor the 6 existing DYNAMIC files to use the shared loader instead of their inline copy-paste.
+- Migrate `unitProfiles.eldarCraftworlds.js` by extending the shared loader to merge profiles from N source-jsons in a single registration.
 
 ## Non-goals
 
-- No changes to `chooser.js`, `ArmyList.js`, `Force.js`, or any `war/lists/*.json` file.
-- No new build pipeline, no `package.json`, no test framework adoption — the generator is a standalone Node script run manually (and optionally from a pre-commit hook).
-- No byte-for-byte equivalence with today's hand-written JS. Goal is *semantically equivalent* output. `nameToKey` ordering will differ (the generator emits alphabetical, today's is semi-arbitrary).
-- The 6 source-json factions that lack a JS counterpart are not addressed by this spec. The generator can produce them later, but wiring into `chooser.js:260-315` is a separate task.
-- No migration of `lists/*.json` to profile keys. That is the higher-leverage but out-of-scope option B from the earlier audit.
+- No changes to `chooser.js`'s `profileFindersByListId` switch at lines 260-315. The function names that switch references (`find<Faction>ProfileByName`) must continue to exist with the same names.
+- No changes to `ArmyList.js`, `Force.js`, or any `war/lists/*.json` file.
+- No changes to the source-json shape itself. Loader handles existing fields (`abilities_or_notes`, `(base contact)` parens, etc.).
+- No relocation of the existing per-faction `*AdditionalProfilesForFormation` functions. 5 live inline in dynamic files and stay there; ~5+ live inside `chooser.js` (at lines 645, 681, 763, 900, 1077, …) and stay there. A future spec can consolidate them.
+- No new build pipeline, no `package.json`, no test framework adoption. The shared loader is loaded by a `<script>` tag like every other JS file in `war/js/`.
+- No conversion from synchronous to asynchronous loading. The 6 working DYNAMIC files use `Ajax.Request` with `asynchronous: false`; the shared loader keeps that. A future modernization can move to async + `Promise.all`.
+- No changes to which factions exist in the UI. The 5 source-jsons without an existing JS counterpart (55 source-json minus 50 JS, minus extra eldarCraftworlds coverage) are not wired in by this spec.
 
 ## Architecture
 
-### Repository layout (post-implementation)
+### New shared library
 
-```
-kule-epicarmyBuilder/
-├── tools/                                  ← new directory
-│   ├── gen-unit-profiles.js                ← the generator
-│   ├── extract-synonyms.js                 ← one-time mining script
-│   ├── faction-config.js                   ← registry of factions
-│   ├── lib/
-│   │   ├── transform.js                    ← pure source-json → profile-object transform
-│   │   └── emit.js                         ← profile-object → JS source string (template)
-│   └── README.md                           ← how to run + when
-├── war/
-│   ├── source-json/
-│   │   ├── death-guard.json                ← already exists, canonical, untouched
-│   │   ├── death-guard.synonyms.json       ← NEW sidecar, hand-maintained going forward
-│   │   ├── death-guard.audit.md            ← already exists, untouched
-│   │   └── …
-│   └── js/
-│       └── unitProfiles.deathGuard.js      ← REGENERATED, header marks it generated
-```
-
-`tools/` lives at repo root because it is build-time tooling, not deployed content (`war/` is the deployable webroot). Sidecars live next to their source-json siblings because they pair 1:1.
-
-### Faction registry
-
-`tools/faction-config.js` is the single source of truth for which factions exist and how they map between source-json filenames and JS output filenames:
+A single new file at `war/js/unitProfileLoader.js`. Loaded by every `index<RULESET>.html` page before any `unitProfiles.<faction>.js`. Provides one public API:
 
 ```js
-module.exports = [
-  {
-    slug: 'death-guard',
-    sourceJson: 'death-guard.json',
-    jsOut: 'unitProfiles.deathGuard.js',
-    generated: true   // opt-in flag; see Rollout
-  },
-  {
-    slug: 'space-marine-codex-astartes',
-    sourceJson: 'space-marine-codex-astartes.json',
-    jsOut: 'unitProfiles.smCodexAstartes.js',
-    generated: true
-  },
-  // ... 48 more, all with generated: false during the pilot phase
-];
+ArmyforgeUnitProfiles.registerFaction({
+    namespace: 'deathGuard',
+    findFunctionName: 'findDeathGuardProfileByName',
+    armyIds: ['CHAOS_dg_NETEA'],
+    sourceJsonPaths: ['./source-json/death-guard.json'],
+    normalizer: ArmyforgeUnitProfiles.normalizeDeathGuardName,
+    aliases: {
+        '1+ Plague Marine Retinue': 'Plague Marines',
+        'Plague Marine Retinue': 'Plague Marines',
+        // ... ~80 entries
+    }
+});
 ```
 
-The `slug` matches the source-json filename root. The `jsOut` filename's namespace (e.g. `smCodexAstartes`, `deathGuard`, `igSteelLegion`) varies unpredictably and is preserved verbatim from the existing JS files.
+What `registerFaction` does internally:
 
-The `generated: true` opt-in flag exists so `--check` mode can run during the pilot without flagging the 48 still-hand-written files as out-of-date. The flag flips to `true` for a faction in the same commit that regenerates its JS file.
+1. For each path in `sourceJsonPaths`: synchronous `Ajax.Request` (matching the existing DYNAMIC files), JSON parse. Failures are logged via `console.warn` and the path is skipped (matches current DYNAMIC behavior — robustness against missing files during local dev).
+2. Merge all resulting `profiles[]` arrays into one list.
+3. For each merged profile: derive a snake_case key via `normalizer(profile.name).replace(/\s+/g, '_')`, clone the profile (normalize `abilities_or_notes`→`abilities`, deep-copy weapons), store in `ArmyforgeUnitProfiles[namespace].profiles[key]`, and register the profile's own name as a self-alias.
+4. For each entry in `aliases`: normalize the key (free-text), look up the target name's snake_case key, and store the mapping in `ArmyforgeUnitProfiles[namespace].nameToKey`. Also store a compact-no-spaces variant for resilience.
+5. Attach `ArmyforgeUnitProfiles[findFunctionName] = function(displayName, listId) { ... }` — body identical across all factions, parameterized only on `namespace` and `normalizer`.
 
-### Sidecar shape
+The loader's three internal helpers (`loadSourceJsonSync`, `cloneProfile`, `registerAlias`) are private to the file. They are the exact functions copy-pasted across today's 6 DYNAMIC files, moved once.
 
-`war/source-json/<slug>.synonyms.json` carries everything the generator needs that is *not* in source-json:
+### Per-faction file shape, post-migration
 
-```json
-{
-  "armyIds": ["CHAOS_dg_NETEA"],
-  "namespace": "deathGuard",
-  "findFunctionName": "findDeathGuardProfileByName",
-  "normalizerName": "normalizeDeathGuardListName",
-  "normalizerBody": "function(displayName) { ... full function source ... }",
-  "nameToKey": {
-    "plague marines": "plague_marines",
-    "plague marine retinue": "plague_marines"
-  },
-  "keyOverrides": {
-    "Razorback (Twin Heavy Bolter)": "razorback_hb"
-  },
-  "includeReferenceProfiles": ["spacecraft", "ambush", "planetfall"]
+```js
+// Source: war/source-json/death-guard.json
+var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
+
+ArmyforgeUnitProfiles.normalizeDeathGuardName = function(displayName) {
+    if (!displayName) return '';
+    return String(displayName).toLowerCase()
+        .replace(/<[^>]*>/g, ' ')
+        .normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[''']/g, '')
+        // ... faction-specific replacements
+        .strip();
+};
+
+ArmyforgeUnitProfiles.registerFaction({
+    namespace: 'deathGuard',
+    findFunctionName: 'findDeathGuardProfileByName',
+    armyIds: ['CHAOS_dg_NETEA'],
+    sourceJsonPaths: ['./source-json/death-guard.json'],
+    normalizer: ArmyforgeUnitProfiles.normalizeDeathGuardName,
+    aliases: {
+        // ~80 entries
+    }
+});
+
+// Formation-extras (only on factions that have it; stays inline)
+ArmyforgeUnitProfiles.deathGuardAdditionalProfilesForFormation = function(formation) {
+    // unchanged from today
+};
+```
+
+Compared to today's DYNAMIC files (~410 lines for deathGuard.js), the post-migration shape is ~150 lines for deathGuard (a normalizer + aliases + registration + extras logic). The ~80 lines of copy-pasted loader/clone/alias-register machinery are gone.
+
+Compared to today's STATIC files (~150 lines for smCodexAstartes.js, but with hardcoded profile literals), the post-migration shape is ~30-40 lines (no statline data; that lives in source-json).
+
+### Multi-source factions
+
+For `unitProfiles.eldarCraftworlds.js`, which today merges four sub-faction profiles into one namespace:
+
+```js
+ArmyforgeUnitProfiles.registerFaction({
+    namespace: 'eldarCraftworlds',
+    findFunctionName: 'findEldarCraftworldProfileByName',
+    armyIds: ['EL_alaitoc_NETEA', 'EL_bieltan_NETEA', 'EL_iyanden_NETEA', 'EL_saimhann_NETEA'],
+    sourceJsonPaths: [
+        './source-json/eldar-alaitoc.json',
+        './source-json/eldar-biel-tan.json',
+        './source-json/eldar-iyanden.json',
+        './source-json/eldar-saim-hann.json'
+    ],
+    // ...
+});
+```
+
+The loader merges profiles from all four sources. Key collisions (two source-jsons defining the same profile name) are resolved last-write-wins, matching today's behavior; a `console.warn` flags any collision so the operator notices.
+
+### Loader API contract
+
+```
+registerFaction(config) → void
+
+config: {
+    namespace: string                                  // required, ArmyforgeUnitProfiles[namespace] key
+    findFunctionName: string                            // required, must match chooser.js:260-315 references
+    armyIds: string[]                                   // required, list-ids that route to this faction
+    sourceJsonPaths: string[]                           // required, relative paths from war/ (e.g. './source-json/x.json')
+    normalizer: (string) => string                      // required, faction-specific name normalizer
+    aliases: { [freeText: string]: string }             // required, may be empty {}, free-text → canonical-profile-name
 }
 ```
 
-Fields:
+Side effects:
+- Sets `ArmyforgeUnitProfiles[namespace] = { armyIds, profiles: {key: profile}, nameToKey: {normalized: key} }`
+- Sets `ArmyforgeUnitProfiles[findFunctionName] = (displayName, listId) => profile | null`
 
-- `armyIds` — values used by `chooser.js` to match a list to its profile finder.
-- `namespace` — the `ArmyforgeUnitProfiles.<namespace>` key. Doesn't appear in source-json.
-- `findFunctionName` — must match `chooser.js:260-315` references exactly; the generator emits a function with this exact name.
-- `normalizerName` — name of the per-faction list-name normalizer.
-- `normalizerBody` — full source text of the normalizer function, captured verbatim by the extractor. Each faction's normalizer has subtle regex quirks (e.g. `smCodexAstartes` strips chapter names like `salamander`, `white scar`); reconstructing this from declarative rules would be more brittle than carrying the source as a string.
-- `nameToKey` — synonym map. Lowercase keys → snake_case profile keys.
-- `keyOverrides` (optional) — display-name → key, for cases where the slug-derived key doesn't match today's key (e.g. `Razorback (Twin Heavy Bolter)` → `razorback_hb`, not `razorback_twin_heavy_bolter`).
-- `includeReferenceProfiles` (optional) — profile keys to include even though their source-json entry is flagged `is_reference_or_ambiguous: true`. Preserves curated "reference card" entries like `spacecraft`, `ambush`, `planetfall`.
+The `<faction>AdditionalProfilesForFormation` functions, where they exist, remain attached directly to `ArmyforgeUnitProfiles` by each faction file — they are not part of the loader API.
 
-## Transform rules
+## Loader behavior details
 
-Pure function `(sourceJsonProfile, sidecar) → jsProfileObject`. Six rules:
+### Sync Ajax wrapper
 
-**R1. Field rename.** `abilities_or_notes` (source-json) → `abilities` (JS).
-
-**R2. Drop provenance fields.** Strip from each profile: `source_section`, `parse_confidence`, `parse_warnings`, `ambiguity_reasons`, `is_reference_or_ambiguous`. UI does not consume them.
-
-**R3. Range normalization.** Strip leading/trailing parens on weapon range strings. `"(base contact)"` → `"base contact"`. Confirmed against `source-json/death-guard.json` vs `js/unitProfiles.deathGuard.js`. No other range edits.
-
-**R4. Key derivation.** Profile key = `name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '')`. So `"Lord of Contagion"` → `"lord_of_contagion"`. If `sidecar.keyOverrides[name]` exists, use that instead.
-
-**R5. Reference-profile filter.** Skip source-json profiles flagged `"is_reference_or_ambiguous": true` UNLESS the profile key appears in `sidecar.includeReferenceProfiles`.
-
-**R6. Key collision handling.** If two source-json profiles slug to the same key after R4, the generator errors and exits, printing both source rows and suggesting a `keyOverrides` entry. Silent overwrites are how data gets lost.
-
-**Output formatting.** One profile per line (matching today's style at `js/unitProfiles.smCodexAstartes.js:15`). Strings JSON-stringified so apostrophes in critical-hit text escape correctly. Profiles emitted in source-json `profiles[]` array order (mirrors rulebook order, minimizes diffs against existing files). `nameToKey` emitted alphabetically by key for stable diffs.
-
-The transform does not:
-- Add new synonyms. Synonyms only come from the sidecar.
-- Edit source-json. Read-only.
-- Generate `normalize<Faction>ListName` from scratch. The body is inlined from `sidecar.normalizerBody`.
-
-## Generator behavior
-
-### Invocation
-
-```
-node tools/gen-unit-profiles.js                       # all factions where generated: true
-node tools/gen-unit-profiles.js death-guard           # one faction
-node tools/gen-unit-profiles.js death-guard --check   # exit 1 if output differs from on-disk
-node tools/gen-unit-profiles.js --check               # CI-friendly: all generated factions, no writes
-```
-
-No watch mode, no parallelism. 50 files, milliseconds.
-
-### Per-faction pipeline
-
-1. Read `war/source-json/<sourceJson>`. Error if missing.
-2. Read `war/source-json/<slug>.synonyms.json`. Error if missing — point user at `extract-synonyms.js`.
-3. Validate sidecar: required fields present (`armyIds`, `namespace`, `findFunctionName`, `normalizerName`, `normalizerBody`, `nameToKey`).
-4. Run transform (R1–R6) over `sourceJson.profiles[]`. Collect errors. Bail on first error per faction with a clear message; never half-write.
-5. Cross-check: every value in `sidecar.nameToKey` must resolve to a profile key that exists after step 4. Otherwise error.
-6. Render the JS file via `emit.js`.
-7. If `--check`: read current `<jsOut>`, string-compare, exit 1 with diff on mismatch. Otherwise write atomically (tmp + rename).
-
-### Emit template (sketch)
+Same shape as today's copy-pasted `loadSourceData()`:
 
 ```js
-// DO NOT EDIT — generated by tools/gen-unit-profiles.js from source-json/<sourceJson>
-// Hand-curated bits live in source-json/<slug>.synonyms.json
-
-var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
-
-ArmyforgeUnitProfiles.<namespace> = {
-    armyIds: <armyIds>,
-    profiles: {
-        <profileLines>
-    },
-    nameToKey: {
-        <nameToKeyLines>
+function loadSourceJsonSync(path) {
+    var responseText = null;
+    try {
+        new Ajax.Request(path, {
+            method: 'get',
+            asynchronous: false,
+            onSuccess: function(response) { responseText = response.responseText; }
+        });
+    } catch (err) {
+        console.warn('unitProfileLoader: Ajax error for ' + path, err);
+        return null;
     }
-};
+    if (!responseText) {
+        console.warn('unitProfileLoader: empty response for ' + path);
+        return null;
+    }
+    try {
+        return JSON.parse(responseText);
+    } catch (err2) {
+        console.warn('unitProfileLoader: JSON parse error for ' + path, err2);
+        return null;
+    }
+}
+```
 
-ArmyforgeUnitProfiles.<normalizerName> = <normalizerBody>;
+Returning null on any failure (rather than throwing) preserves today's behavior — factions that fail to load show no profiles rather than breaking the whole page. Affected lists will show no unit cards but the army-builder UI still works.
 
-ArmyforgeUnitProfiles.<findFunctionName> = function(displayName, listId) {
+### Profile cloning
+
+Same shape as today's `cloneProfile`:
+
+```js
+function cloneProfile(profile) {
+    return {
+        name: profile.name,
+        type: profile.type,
+        speed: profile.speed,
+        armour: profile.armour,
+        cc: profile.cc,
+        ff: profile.ff,
+        weapons: (profile.weapons || []).map(function(w) {
+            return {
+                name: w.name,
+                range: w.range,
+                firepower: w.firepower,
+                notes: (w.notes || []).slice()
+            };
+        }),
+        abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
+    };
+}
+```
+
+The `abilities_or_notes || abilities` fallback handles both source-json (uses `abilities_or_notes`) and existing JS literals (uses `abilities`) without separate code paths. Source-json fields like `parse_confidence`, `source_section`, etc. are dropped by not being copied.
+
+### Finder body (parameterized)
+
+Emitted once by the loader per registration:
+
+```js
+ArmyforgeUnitProfiles[config.findFunctionName] = function(displayName, listId) {
     if (!displayName) return null;
-    if (listId && !ArmyforgeUnitProfiles.<namespace>.armyIds.member(listId)) return null;
-    var normalized = ArmyforgeUnitProfiles.<normalizerName>(displayName);
-    var key = ArmyforgeUnitProfiles.<namespace>.nameToKey[normalized];
+    if (listId && !ArmyforgeUnitProfiles[config.namespace].armyIds.member(listId)) return null;
+    var normalized = config.normalizer(displayName);
+    var faction = ArmyforgeUnitProfiles[config.namespace];
+    var key = faction.nameToKey[normalized] || faction.nameToKey[normalized.replace(/\s+/g, '')];
     if (!key) return null;
-    return ArmyforgeUnitProfiles.<namespace>.profiles[key] || null;
+    return faction.profiles[key] || null;
 };
 ```
 
-The finder function body is identical across all 50 existing files (compare `unitProfiles.smCodexAstartes.js:140-153`); the template parameterizes only `namespace`, `normalizerName`, and `findFunctionName`. `<normalizerBody>` is dropped in as raw source string from the sidecar.
+This body is byte-identical across the 6 existing DYNAMIC files (see `unitProfiles.deathGuard.js:208-221`). Centralizing it removes another copy-paste class.
 
-### Determinism
+### Alias registration
 
-Same input → byte-identical output. No timestamps, no environment variables, no randomness. This is what makes `--check` viable as a correctness gate.
-
-### Failure modes
-
-| Condition | Behavior | Message includes |
-|---|---|---|
-| Missing source-json | exit 1 | expected path |
-| Missing sidecar | exit 1 | "run extract-synonyms.js first" |
-| Sidecar missing required field | exit 1 | which field |
-| Key collision (R6) | exit 1 | both colliding profile names + suggested `keyOverrides` entry |
-| Broken synonym (points at non-existent key) | exit 1 | synonym key + nearest existing keys |
-| `--check` mismatch | exit 1 | first ~20 lines of diff |
-| Success | exit 0 | one line per faction: `wrote <jsOut> (N profiles)` |
-
-## Extractor (one-time)
-
-`tools/extract-synonyms.js` runs once per faction. Reads `war/js/unitProfiles.<faction>.js`, writes `war/source-json/<slug>.synonyms.json`. After all 50 sidecars exist, the extractor stays in the repo for reproducibility but is not part of the steady-state workflow.
-
-### Invocation
-
-```
-node tools/extract-synonyms.js death-guard               # one faction
-node tools/extract-synonyms.js death-guard codex         # multiple by slug
-node tools/extract-synonyms.js --all                     # every row in faction-config.js
+```js
+function registerAlias(namespace, normalizer, alias, key) {
+    if (!alias || !key) return;
+    var normalized = normalizer(alias);
+    if (!normalized) return;
+    ArmyforgeUnitProfiles[namespace].nameToKey[normalized] = key;
+    var compact = normalized.replace(/\s+/g, '');
+    if (compact) ArmyforgeUnitProfiles[namespace].nameToKey[compact] = key;
+}
 ```
 
-The extractor reads `tools/faction-config.js` to learn which factions exist and where their JS files live.
+Same logic as today's inline `registerAlias` in `unitProfiles.deathGuard.js:41-54`. The compact-variant entry handles cases where the input has irregular whitespace.
 
-### Parser
+### Profile registration loop
 
-Use `acorn` (zero-dep, vendored or `npx`-invoked). Existing JS is valid ES5. AST parsing beats regex because `nameToKey` keys can contain commas inside string values.
+After loading & merging source-json profiles, the loader runs this for each:
 
-### Extraction targets
+```js
+profiles.forEach(function(profile) {
+    var key = config.normalizer(profile.name).replace(/\s+/g, '_');
+    if (!key) return;
+    if (ArmyforgeUnitProfiles[config.namespace].profiles[key]) {
+        console.warn('unitProfileLoader: profile key collision for ' + key +
+                     ' (source: ' + config.namespace + ')');
+    }
+    ArmyforgeUnitProfiles[config.namespace].profiles[key] = cloneProfile(profile);
+    registerAlias(config.namespace, config.normalizer, profile.name, key);
+});
+```
 
-For each JS file:
+Then it iterates over `config.aliases` and registers each entry the same way (resolving alias-target → key first via the same normalize+key derivation).
 
-1. `armyIds` — from the `armyIds:[...]` array on the object literal.
-2. `namespace` — from `ArmyforgeUnitProfiles.<namespace> = {...}`.
-3. `findFunctionName` — from `ArmyforgeUnitProfiles.findXProfileByName = function(...)`.
-4. `normalizerName` — same idea (`normalizeXListName`).
-5. `normalizerBody` — full function source as a string.
-6. `nameToKey` — the synonym map.
-7. `keyOverrides` — derived. For each profile, if `slug(profile.name) !== existingKey`, add `{[profile.name]: existingKey}`.
-8. `includeReferenceProfiles` — derived. Profile keys present in the JS that source-json flags `is_reference_or_ambiguous: true`. Computed by joining JS keys against source-json on slugified name.
+## HTML loading order
 
-### What it does not extract
+Only `war/chooser.html` loads `unitProfiles.*.js` script tags (49 of them, starting at line 11). The other index HTML files (`indexNETEA.html`, `indexEPICUK.html`, etc.) do not — they redirect into or frame `chooser.html`. Confirmed by `grep`.
 
-Profile statlines (weapons, abilities, armour). Those come from source-json. If the JS has a statline that source-json doesn't, the extractor logs a warning. This is the one place migration can lose data, and the warning makes it loud.
+The new `unitProfileLoader.js` script tag must be added to `chooser.html` once, positioned *before* the first `unitProfiles.*.js` tag. One file, one edit.
 
-### Diagnostics produced per faction
+## Migration plan
 
-- **UNRESOLVED warning** — profile in JS but not in source-json. Requires human resolution before regen (edit source-json or accept loss).
-- **NOT-YET-IN-UI info** — non-reference profile in source-json but not in JS. Candidate for future UI work; informational, no action needed.
-- **BROKEN-SYNONYM error** — `nameToKey` value pointing at a key absent from both JS and post-transform source-json. Sidecar-level decision required.
+Seven steps, each independently revertable. Estimated total effort: 4-6 hours of focused work, plus another 4-8 hours of bulk migration and browser verification.
 
-Sidecars are pretty-printed JSON, alphabetical where order is irrelevant. They get hand-edited going forward, so legibility matters.
+**Step 1 — Land the loader, zero behavior change.**
+Add `war/js/unitProfileLoader.js` with the API above. Add a `<script>` tag for it to every index HTML file, *before* any `unitProfiles.*.js` tag. Smoke test: open `war/indexNETEA.html`, load a STATIC faction list (e.g. SM_codex_NETEA) and a DYNAMIC faction list (e.g. CHAOS_dg_NETEA), confirm both still work — the loader is loaded but unused so nothing should change.
 
-## Rollout
+**Step 2 — Pilot one DYNAMIC migration.**
+Refactor `unitProfiles.deathGuard.js` to use `registerFaction(...)` instead of its inline IIFE. Delete the inline `loadSourceData`, `cloneProfile`, `registerAlias`, IIFE, and the `findDeathGuardProfileByName` definition. Keep the normalizer, aliases, and `deathGuardAdditionalProfilesForFormation`. Browser-verify CHAOS_dg_NETEA renders identically.
 
-Six commits, each independently revertable.
+**Step 3 — Pilot one STATIC migration.**
+Pick `unitProfiles.smCodexAstartes.js` (most-used, largest profile count). Delete the hardcoded `profiles: {...}` literal. Replace with a `registerFaction(...)` call pointing at `./source-json/space-marine-codex-astartes.json`. Keep the existing `nameToKey` entries as the `aliases` map. Browser-verify SM_codex_NETEA list renders correctly *and* shows the same statlines as before (diff the visible cards against a screenshot from before the migration). This is the validation gate; any drift surfaced here is real drift that the spec exists to expose.
 
-**Step 1 — Land tooling, generate nothing.**
-Add `tools/{gen-unit-profiles.js, extract-synonyms.js, faction-config.js, lib/, README.md}`. `faction-config.js` ships with all 50+ rows but only the two pilot factions carry `generated: true`. Smoke test: `node tools/gen-unit-profiles.js --check` exits 0 (because no faction yet has its `jsOut` regenerated, and `--check` only inspects `generated: true` rows). No changes to `war/`.
+**Step 4 — Bulk refactor the remaining 5 DYNAMIC files.**
+Same pattern as Step 2 applied to exploratorFleet, hedonicCrusade, thousandSons, traitorTitanLegions, vraksianTraitors. Each is mechanical: delete the copy-pasted plumbing, wrap the existing aliases in a `registerFaction(...)` call. Spot-check 2 of the 5 in the browser.
 
-**Step 2 — Extract pilot sidecars.**
-`node tools/extract-synonyms.js death-guard space-marine-codex-astartes`. Produces two sidecars + a diagnostic report. Resolve UNRESOLVED warnings and BROKEN-SYNONYM errors before committing. Commit the sidecars.
+**Step 5 — Bulk migrate the remaining 42 STATIC files.**
+For each: confirm a corresponding source-json exists (script: list which JS namespaces lack a source-json), delete the inline `profiles: {...}` literal, convert the existing `nameToKey` entries into an `aliases` map, wrap in a `registerFaction(...)` call. Any faction whose source-json doesn't exist gets skipped and listed for a follow-up. Spot-check 4-5 factions in the browser across different rulesets.
 
-**Step 3 — Regenerate the two pilot JS files.**
-`node tools/gen-unit-profiles.js death-guard space-marine-codex-astartes`. Eyeball the diff: identical profile data (modulo R1–R3 rules), `nameToKey` reordered alphabetically, generated header banner added. Open `war/indexNETEA.html` in a browser. For `CHAOS_dg_NETEA` and `SM_codex_NETEA`, load a list and confirm unit cards render with correct statlines for a handful of formations including upgrades. This is the validation gate — no claiming success without it. Flip `generated: true` for both factions in the same commit.
+**Step 6 — Migrate eldarCraftworlds (multi-source).**
+Same as Step 5 but with 4 entries in `sourceJsonPaths`. Verify all four list IDs (EL_alaitoc, EL_bieltan, EL_iyanden, EL_saimhann) render correctly.
 
-**Step 4 — Extract remaining 48 sidecars.**
-`node tools/extract-synonyms.js --all` (excluding pilots). Bulk-review diagnostics; cluster warnings (factions with no `normalize<X>ListName`, factions with broken synonyms, etc.) and resolve. Commit the 48 sidecars.
-
-**Step 5 — Regenerate remaining 48 JS files.**
-`node tools/gen-unit-profiles.js`. Review the bulk diff. Expect only header banners + alphabetical `nameToKey` for most files; flag anything else. Spot-check 4–5 factions in the browser across different rulesets. Flip `generated: true` for all 48 in the same commit.
-
-**Step 6 — Lock it down.**
-Document in `tools/README.md` that source-json edits require running `node tools/gen-unit-profiles.js` before commit. Provide an opt-in `.git/hooks/pre-commit` script that runs `--check`. The hook is not tracked by git; document the install command. CI workflow is optional and punted unless explicitly requested.
+**Step 7 — Lock it down.**
+Add `tools/README.md` (or `war/js/unitProfileLoader.md`) documenting the new pattern and what each faction file should look like. Optional: write a small `tools/check-faction-shape.js` linter that scans `war/js/unitProfiles.*.js` and warns if any file still contains the legacy patterns (hardcoded `profiles: {...}` literal, inline `Ajax.Request`, inline `cloneProfile`). Not required to ship.
 
 ### Rollback strategy
 
-Each step is a single commit and revertable in isolation. Step 3 failure → revert the regenerated JS, fix the transform or sidecar, retry. Step 5 failure on a specific faction → revert just that file, mark `generated: false`, ship the rest, deal with the outlier as a follow-up. The pilot exists precisely to surface transform bugs before they hit 48 files at once.
+Each step is one commit, revertable independently. Step 3 (STATIC pilot) is the riskiest — a failure means the migrated faction shows wrong/missing cards in the browser. Rollback: revert the commit, investigate the drift (almost certainly a source-json field that the loader doesn't handle, or an alias mismatch), fix in the loader OR in the source-json, retry. The pilot exists precisely to surface these before they hit 42 files.
 
-### Estimated effort
+### Validation gate
 
-- Step 1: 3–4 hours (script + lib + asserts).
-- Step 2: 1 hour.
-- Step 3: 1–2 hours (most of it is browser verification).
-- Steps 4–5: 2–4 hours, dominated by sidecar hand-editing for factions whose JS isn't uniform.
-- Step 6: 30 minutes.
-
-Roughly one focused day if the 50 existing JS files are as structurally uniform as the `smCodexAstartes` sample suggested; longer if Step 4 surfaces lots of irregularities.
+At Step 3, before committing, the operator MUST open `war/indexNETEA.html` in a real browser, load a SM_codex_NETEA list, and compare unit-card rendering to a pre-migration screenshot. Drift between the static profile data and the source-json data WILL exist for some factions (that is the original problem); the validation step's job is to make that drift visible and resolved before the bulk migration. No claiming success without this step.
 
 ## Open issues
 
-- **Faction JS files that don't match the canonical shape.** If any of the 50 existing files lacks a `normalize<X>ListName` function, uses a different finder signature, or has multiple namespaces in one file, the extractor must fail loud and the operator decides between special-casing or normalizing the source JS. Known after running step 4.
-- **Pre-commit hook delivery.** Tracked git hooks require either Husky-style tooling or a `core.hooksPath` config. To avoid adding a dependency, the design opts for `.git/hooks/pre-commit` with documented manual install. If the user later wants this enforced, revisit.
-- **`acorn` delivery.** Either vendor it (small, ~150KB), require `npx acorn`, or write the extractor against a regex-and-state-machine approach. Recommendation: vendor, because the alternative is brittle.
+- **Faction JS files with non-canonical normalizer/alias shapes.** Some of the 43 STATIC files may have custom logic that doesn't cleanly fit a `{normalizer, aliases}` pair. Known after attempting Step 5 on each. Failure mode: skip the file, list for follow-up.
+- **STATIC files with no corresponding source-json.** A script in Step 5 will identify these. Likely action: leave them as-is or open follow-up tickets to scrape/author their source-json. Out of scope.
+- **Synchronous Ajax deprecation.** Modern browsers print a console warning for `XMLHttpRequest` with `async=false`. The pattern still works but is on the deprecation track. A future spec can switch to async + a global `Promise.all` boot phase that gates `chooser.js` initialization. Not addressed here.
+- **Page-load performance.** Each faction file triggers a sync Ajax round-trip on page load. With 50 factions, that's 50 sequential requests. In practice, only the factions referenced by a loaded list-id's UI path matter — but the loader runs on every page load regardless. Worth measuring after Step 5. Mitigations (if needed): lazy-load on first finder call, or bundle all source-jsons into a single `all-source-data.json`. Out of scope unless measurement shows it matters.
+- **Reference profiles.** Source-json marks some entries `is_reference_or_ambiguous: true` (e.g. UI-only entries like `spacecraft`, `ambush`, `planetfall` in the static space-marine file). Today's STATIC files include these as full profiles in their literals. The loader treats source-json entries uniformly — it loads them all. If a source-json doesn't include a reference profile that the static file did, that entry vanishes from the UI post-migration. Action: during Step 3 piloting, identify any vanished reference profiles and add them to source-json explicitly. Document this loss-of-fidelity check in the migration runbook.
