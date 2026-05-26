@@ -6,37 +6,16 @@
 | Metric | Count |
 |---|---|
 | JS profiles | 49 |
-| Source-JSON profiles | 27 |
-| Shared (by name, case-insensitive) | 27 |
-| **Missing in source-json (needs transcription)** | **22** |
+| Source-JSON profiles | 49 |
+| Shared (by name, case-insensitive) | 49 |
+| **Missing in source-json (needs transcription)** | **0** |
 | Missing in JS (informational) | 0 |
 
 ## Missing in source-json
 
 These profiles exist in the JS literal but not in source-json. They need to be transcribed into source-json (Phase 2 of S1.4).
 
-- `2 Haemonculi, 2 Grotesques`
-- `2 Haemonculi, 4 Grotesques`
-- `2 Hellions`
-- `2 Perditors`
-- `2 Reavers`
-- `2 Talos`
-- `3 Haemonculi, 5 Grotesques`
-- `4 Ravagers`
-- `6 Ravagers`
-- `8 Incubi`
-- `8 Mandrakes`
-- `8 Scourges`
-- `8 Warriors`
-- `8 Wyches`
-- `Bomber Formation`
-- `Corsair Escorts`
-- `Executioner Landing Module`
-- `Fighter Formation`
-- `Haemonculus, Grotesque`
-- `Razorwing Bomber`
-- `Slavebringer`
-- `Webway Portal`
+_(none — source-json appears complete for this faction)_
 
 ## Missing in JS (informational)
 
