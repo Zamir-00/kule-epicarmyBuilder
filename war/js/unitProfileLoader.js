@@ -9,7 +9,23 @@ var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
     // Pure helpers (also exported for unit tests under Node).
 
     function cloneProfile(profile) {
-        return profile;  // placeholder, replaced in Task 3
+        return {
+            name: profile.name,
+            type: profile.type,
+            speed: profile.speed,
+            armour: profile.armour,
+            cc: profile.cc,
+            ff: profile.ff,
+            weapons: (profile.weapons || []).map(function(w) {
+                return {
+                    name: w.name,
+                    range: w.range,
+                    firepower: w.firepower,
+                    notes: (w.notes || []).slice()
+                };
+            }),
+            abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
+        };
     }
 
     function deriveKey(name, normalizer) {
