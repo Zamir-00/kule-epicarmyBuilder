@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "army_name": "Sample",
+    "list_id": "TEST_NETEA"
+  },
+  "profiles": [
+    {
+      "name": "Plague Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": ["MW"]
+        }
+      ],
+      "abilities_or_notes": ["Reinforced Armour", "Slow and Steady"],
+      "source_section": "Reference (test)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lord of Contagion",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Manreaper",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": ["EA(+1)", "MW"]
+        }
+      ],
+      "abilities_or_notes": ["Invulnerable Save", "Supreme Commander"],
+      "ambiguity_reasons": []
+    }
+  ]
+}

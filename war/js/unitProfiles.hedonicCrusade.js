@@ -30,86 +30,13 @@ ArmyforgeUnitProfiles.normalizeHedonicCrusadeName = ArmyforgeUnitProfiles.normal
 		.strip();
 };
 
-ArmyforgeUnitProfiles.hedonicCrusade = ArmyforgeUnitProfiles.hedonicCrusade || {
+ArmyforgeUnitProfiles.registerFaction({
+	namespace: 'hedonicCrusade',
+	findFunctionName: 'findHedonicCrusadeProfileByName',
 	armyIds: ['CHAOS_House_Devine_NETEA'],
-	profiles: {},
-	nameToKey: {}
-};
-
-(function() {
-	function registerAlias(alias, key) {
-		if (!alias || !key) {
-			return;
-		}
-		var normalized = ArmyforgeUnitProfiles.normalizeHedonicCrusadeName(alias);
-		if (!normalized) {
-			return;
-		}
-		ArmyforgeUnitProfiles.hedonicCrusade.nameToKey[normalized] = key;
-		var compact = normalized.replace(/\s+/g, '');
-		if (compact) {
-			ArmyforgeUnitProfiles.hedonicCrusade.nameToKey[compact] = key;
-		}
-	}
-
-	function cloneProfile(profile) {
-		return {
-			name: profile.name,
-			type: profile.type,
-			speed: profile.speed,
-			armour: profile.armour,
-			cc: profile.cc,
-			ff: profile.ff,
-			weapons: (profile.weapons || []).map(function(weapon) {
-				return {
-					name: weapon.name,
-					range: weapon.range,
-					firepower: weapon.firepower,
-					notes: (weapon.notes || []).slice()
-				};
-			}),
-			abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
-		};
-	}
-
-	function loadSourceData() {
-		var responseText = null;
-		try {
-			new Ajax.Request('./source-json/hedonic-crusade.json', {
-				method: 'get',
-				asynchronous: false,
-				onSuccess: function(response) {
-					responseText = response.responseText;
-				}
-			});
-		}
-		catch (err) {
-			return null;
-		}
-		if (!responseText) {
-			return null;
-		}
-		try {
-			return JSON.parse(responseText);
-		}
-		catch (err2) {
-			return null;
-		}
-	}
-
-	var sourceData = loadSourceData();
-	if (sourceData && sourceData.profiles && sourceData.profiles.length) {
-		sourceData.profiles.each(function(profile) {
-			var key = ArmyforgeUnitProfiles.normalizeHedonicCrusadeName(profile.name).replace(/\s+/g, '_');
-			if (!key) {
-				return;
-			}
-			ArmyforgeUnitProfiles.hedonicCrusade.profiles[key] = cloneProfile(profile);
-			registerAlias(profile.name, key);
-		});
-	}
-
-	var aliases = {
+	sourceJsonPaths: ['./source-json/hedonic-crusade.json'],
+	normalizer: ArmyforgeUnitProfiles.normalizeHedonicCrusadeName,
+	aliases: {
 		'Knight Household': 'Hell-Knight',
 		'Hell-Knights': 'Hell-Knight',
 		'Hell-Knight': 'Hell-Knight',
@@ -163,29 +90,8 @@ ArmyforgeUnitProfiles.hedonicCrusade = ArmyforgeUnitProfiles.hedonicCrusade || {
 		'Fiend of Slaanesh': 'Fiends of Slaanesh',
 		'Steeds of Slaanesh': 'Steeds of Slaanesh',
 		'Steed of Slaanesh': 'Steeds of Slaanesh'
-	};
-
-	for (var alias in aliases) {
-		if (aliases.hasOwnProperty(alias)) {
-			registerAlias(alias, ArmyforgeUnitProfiles.normalizeHedonicCrusadeName(aliases[alias]).replace(/\s+/g, '_'));
-		}
 	}
-})();
-
-ArmyforgeUnitProfiles.findHedonicCrusadeProfileByName = function(displayName, listId) {
-	if (!displayName) {
-		return null;
-	}
-	if (listId && !ArmyforgeUnitProfiles.hedonicCrusade.armyIds.member(listId)) {
-		return null;
-	}
-	var normalized = ArmyforgeUnitProfiles.normalizeHedonicCrusadeName(displayName);
-	var key = ArmyforgeUnitProfiles.hedonicCrusade.nameToKey[normalized] || ArmyforgeUnitProfiles.hedonicCrusade.nameToKey[normalized.replace(/\s+/g, '')];
-	if (!key) {
-		return null;
-	}
-	return ArmyforgeUnitProfiles.hedonicCrusade.profiles[key] || null;
-};
+});
 
 ArmyforgeUnitProfiles.hedonicCrusadeAdditionalProfilesForFormation = function(formation) {
 	var extras = [];

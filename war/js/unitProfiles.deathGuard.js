@@ -31,86 +31,13 @@ ArmyforgeUnitProfiles.normalizeDeathGuardName = ArmyforgeUnitProfiles.normalizeD
 		.strip();
 };
 
-ArmyforgeUnitProfiles.deathGuard = ArmyforgeUnitProfiles.deathGuard || {
+ArmyforgeUnitProfiles.registerFaction({
+	namespace: 'deathGuard',
+	findFunctionName: 'findDeathGuardProfileByName',
 	armyIds: ['CHAOS_dg_NETEA'],
-	profiles: {},
-	nameToKey: {}
-};
-
-(function() {
-	function registerAlias(alias, key) {
-		if (!alias || !key) {
-			return;
-		}
-		var normalized = ArmyforgeUnitProfiles.normalizeDeathGuardName(alias);
-		if (!normalized) {
-			return;
-		}
-		ArmyforgeUnitProfiles.deathGuard.nameToKey[normalized] = key;
-		var compact = normalized.replace(/\s+/g, '');
-		if (compact) {
-			ArmyforgeUnitProfiles.deathGuard.nameToKey[compact] = key;
-		}
-	}
-
-	function cloneProfile(profile) {
-		return {
-			name: profile.name,
-			type: profile.type,
-			speed: profile.speed,
-			armour: profile.armour,
-			cc: profile.cc,
-			ff: profile.ff,
-			weapons: (profile.weapons || []).map(function(weapon) {
-				return {
-					name: weapon.name,
-					range: weapon.range,
-					firepower: weapon.firepower,
-					notes: (weapon.notes || []).slice()
-				};
-			}),
-			abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
-		};
-	}
-
-	function loadSourceData() {
-		var responseText = null;
-		try {
-			new Ajax.Request('./source-json/death-guard.json', {
-				method: 'get',
-				asynchronous: false,
-				onSuccess: function(response) {
-					responseText = response.responseText;
-				}
-			});
-		}
-		catch (err) {
-			return null;
-		}
-		if (!responseText) {
-			return null;
-		}
-		try {
-			return JSON.parse(responseText);
-		}
-		catch (err2) {
-			return null;
-		}
-	}
-
-	var sourceData = loadSourceData();
-	if (sourceData && sourceData.profiles && sourceData.profiles.length) {
-		sourceData.profiles.each(function(profile) {
-			var key = ArmyforgeUnitProfiles.normalizeDeathGuardName(profile.name).replace(/\s+/g, '_');
-			if (!key) {
-				return;
-			}
-			ArmyforgeUnitProfiles.deathGuard.profiles[key] = cloneProfile(profile);
-			registerAlias(profile.name, key);
-		});
-	}
-
-	var aliases = {
+	sourceJsonPaths: ['./source-json/death-guard.json'],
+	normalizer: ArmyforgeUnitProfiles.normalizeDeathGuardName,
+	aliases: {
 		'1+ Plague Marine Retinue': 'Plague Marines',
 		'Plague Marine Retinue': 'Plague Marines',
 		'Plague Marines': 'Plague Marines',
@@ -192,33 +119,8 @@ ArmyforgeUnitProfiles.deathGuard = ArmyforgeUnitProfiles.deathGuard || {
 		'Teleportarium': 'Teleportarium',
 		'Vindicators': 'Death Guard Vindicator',
 		'Walkers': 'Defiler'
-	};
-
-	for (var alias in aliases) {
-		if (aliases.hasOwnProperty(alias)) {
-			var target = aliases[alias];
-			var normalizedTarget = ArmyforgeUnitProfiles.normalizeDeathGuardName(target).replace(/\s+/g, '_');
-			if (normalizedTarget) {
-				registerAlias(alias, normalizedTarget);
-			}
-		}
 	}
-})();
-
-ArmyforgeUnitProfiles.findDeathGuardProfileByName = function(displayName, listId) {
-	if (!displayName) {
-		return null;
-	}
-	if (listId && !ArmyforgeUnitProfiles.deathGuard.armyIds.member(listId)) {
-		return null;
-	}
-	var normalized = ArmyforgeUnitProfiles.normalizeDeathGuardName(displayName);
-	var key = ArmyforgeUnitProfiles.deathGuard.nameToKey[normalized] || ArmyforgeUnitProfiles.deathGuard.nameToKey[normalized.replace(/\s+/g, '')];
-	if (!key) {
-		return null;
-	}
-	return ArmyforgeUnitProfiles.deathGuard.profiles[key] || null;
-};
+});
 
 ArmyforgeUnitProfiles.deathGuardFormationHasUpgrade = function(formation, pattern) {
 	if (!formation || !formation.upgrades || !pattern) {

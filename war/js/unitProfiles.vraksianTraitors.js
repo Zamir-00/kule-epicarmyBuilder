@@ -31,86 +31,13 @@ ArmyforgeUnitProfiles.normalizeVraksianTraitorsName = ArmyforgeUnitProfiles.norm
 		.strip();
 };
 
-ArmyforgeUnitProfiles.vraksianTraitors = ArmyforgeUnitProfiles.vraksianTraitors || {
+ArmyforgeUnitProfiles.registerFaction({
+	namespace: 'vraksianTraitors',
+	findFunctionName: 'findVraksianTraitorsProfileByName',
 	armyIds: ['CHAOS_VraksianTraitors_NETEA'],
-	profiles: {},
-	nameToKey: {}
-};
-
-(function() {
-	function registerAlias(alias, key) {
-		if (!alias || !key) {
-			return;
-		}
-		var normalized = ArmyforgeUnitProfiles.normalizeVraksianTraitorsName(alias);
-		if (!normalized) {
-			return;
-		}
-		ArmyforgeUnitProfiles.vraksianTraitors.nameToKey[normalized] = key;
-		var compact = normalized.replace(/\s+/g, '');
-		if (compact) {
-			ArmyforgeUnitProfiles.vraksianTraitors.nameToKey[compact] = key;
-		}
-	}
-
-	function cloneProfile(profile) {
-		return {
-			name: profile.name,
-			type: profile.type,
-			speed: profile.speed,
-			armour: profile.armour,
-			cc: profile.cc,
-			ff: profile.ff,
-			weapons: (profile.weapons || []).map(function(weapon) {
-				return {
-					name: weapon.name,
-					range: weapon.range,
-					firepower: weapon.firepower,
-					notes: (weapon.notes || []).slice()
-				};
-			}),
-			abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
-		};
-	}
-
-	function loadSourceData() {
-		var responseText = null;
-		try {
-			new Ajax.Request('./source-json/vraksian-traitors.json', {
-				method: 'get',
-				asynchronous: false,
-				onSuccess: function(response) {
-					responseText = response.responseText;
-				}
-			});
-		}
-		catch (err) {
-			return null;
-		}
-		if (!responseText) {
-			return null;
-		}
-		try {
-			return JSON.parse(responseText);
-		}
-		catch (err2) {
-			return null;
-		}
-	}
-
-	var sourceData = loadSourceData();
-	if (sourceData && sourceData.profiles && sourceData.profiles.length) {
-		sourceData.profiles.each(function(profile) {
-			var key = ArmyforgeUnitProfiles.normalizeVraksianTraitorsName(profile.name).replace(/\s+/g, '_');
-			if (!key) {
-				return;
-			}
-			ArmyforgeUnitProfiles.vraksianTraitors.profiles[key] = cloneProfile(profile);
-			registerAlias(profile.name, key);
-		});
-	}
-
-	var aliases = {
+	sourceJsonPaths: ['./source-json/vraksian-traitors.json'],
+	normalizer: ArmyforgeUnitProfiles.normalizeVraksianTraitorsName,
+	aliases: {
 		'1.1 Regimental HQ': 'Supreme Commander',
 		'Regimental HQ': 'Supreme Commander',
 		'Vraksian Supreme Commander': 'Supreme Commander',
@@ -223,33 +150,9 @@ ArmyforgeUnitProfiles.vraksianTraitors = ArmyforgeUnitProfiles.vraksianTraitors 
 		'Chaos Warlord Titan': 'Vraks Warlord',
 		'Chaos Warlord': 'Vraks Warlord',
 		'Vraks Warlord': 'Vraks Warlord',
-		'Enforcer': 'Enforcer',
-		'1.1 Regimental HQ': 'Supreme Commander',
-		'0-1 Malcador Tank Company': 'Malcador Tank',
-		'0-1 Deathstrike Battery': 'Death Strike Laucher'
-	};
-
-	for (var alias in aliases) {
-		if (aliases.hasOwnProperty(alias)) {
-			registerAlias(alias, ArmyforgeUnitProfiles.normalizeVraksianTraitorsName(aliases[alias]).replace(/\s+/g, '_'));
-		}
+		'Enforcer': 'Enforcer'
 	}
-})();
-
-ArmyforgeUnitProfiles.findVraksianTraitorsProfileByName = function(displayName, listId) {
-	if (!displayName) {
-		return null;
-	}
-	if (listId && !ArmyforgeUnitProfiles.vraksianTraitors.armyIds.member(listId)) {
-		return null;
-	}
-	var normalized = ArmyforgeUnitProfiles.normalizeVraksianTraitorsName(displayName);
-	var key = ArmyforgeUnitProfiles.vraksianTraitors.nameToKey[normalized] || ArmyforgeUnitProfiles.vraksianTraitors.nameToKey[normalized.replace(/\s+/g, '')];
-	if (!key) {
-		return null;
-	}
-	return ArmyforgeUnitProfiles.vraksianTraitors.profiles[key] || null;
-};
+});
 
 ArmyforgeUnitProfiles.vraksianTraitorsAdditionalProfilesForFormation = function(formation) {
 	var extras = [];

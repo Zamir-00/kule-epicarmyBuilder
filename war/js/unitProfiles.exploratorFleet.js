@@ -16,86 +16,13 @@ ArmyforgeUnitProfiles.normalizeExploratorFleetName = ArmyforgeUnitProfiles.norma
 		.strip();
 };
 
-ArmyforgeUnitProfiles.exploratorFleet = ArmyforgeUnitProfiles.exploratorFleet || {
+ArmyforgeUnitProfiles.registerFaction({
+	namespace: 'exploratorFleet',
+	findFunctionName: 'findExploratorFleetProfileByName',
 	armyIds: ['AMTL_MarsPrime_NETEA'],
-	profiles: {},
-	nameToKey: {}
-};
-
-(function() {
-	function registerAlias(alias, key) {
-		if (!alias || !key) {
-			return;
-		}
-		var normalized = ArmyforgeUnitProfiles.normalizeExploratorFleetName(alias);
-		if (!normalized) {
-			return;
-		}
-		ArmyforgeUnitProfiles.exploratorFleet.nameToKey[normalized] = key;
-		var compact = normalized.replace(/\s+/g, '');
-		if (compact) {
-			ArmyforgeUnitProfiles.exploratorFleet.nameToKey[compact] = key;
-		}
-	}
-
-	function cloneProfile(profile) {
-		return {
-			name: profile.name,
-			type: profile.type,
-			speed: profile.speed,
-			armour: profile.armour,
-			cc: profile.cc,
-			ff: profile.ff,
-			weapons: (profile.weapons || []).map(function(weapon) {
-				return {
-					name: weapon.name,
-					range: weapon.range,
-					firepower: weapon.firepower,
-					notes: (weapon.notes || []).slice()
-				};
-			}),
-			abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
-		};
-	}
-
-	function loadSourceData() {
-		var responseText = null;
-		try {
-			new Ajax.Request('./source-json/explorator-fleet.json', {
-				method: 'get',
-				asynchronous: false,
-				onSuccess: function(response) {
-					responseText = response.responseText;
-				}
-			});
-		}
-		catch (err) {
-			return null;
-		}
-		if (!responseText) {
-			return null;
-		}
-		try {
-			return JSON.parse(responseText);
-		}
-		catch (err2) {
-			return null;
-		}
-	}
-
-	var sourceData = loadSourceData();
-	if (sourceData && sourceData.profiles && sourceData.profiles.length) {
-		sourceData.profiles.each(function(profile) {
-			var key = ArmyforgeUnitProfiles.normalizeExploratorFleetName(profile.name).replace(/\s+/g, '_');
-			if (!key) {
-				return;
-			}
-			ArmyforgeUnitProfiles.exploratorFleet.profiles[key] = cloneProfile(profile);
-			registerAlias(profile.name, key);
-		});
-	}
-
-	var aliases = {
+	sourceJsonPaths: ['./source-json/explorator-fleet.json'],
+	normalizer: ArmyforgeUnitProfiles.normalizeExploratorFleetName,
+	aliases: {
 		'Arch Magos': 'Explorator Archmagos',
 		'Archmagos': 'Explorator Archmagos',
 		'Commander': 'Tech-Priest Dominus',
@@ -143,26 +70,5 @@ ArmyforgeUnitProfiles.exploratorFleet = ArmyforgeUnitProfiles.exploratorFleet ||
 		'Knight Paladin': 'Knight Paladin',
 		'Knight Errant': 'Knight Errant',
 		'Warhound Class Titan': 'Warhound Class Titan'
-	};
-
-	for (var alias in aliases) {
-		if (aliases.hasOwnProperty(alias)) {
-			registerAlias(alias, ArmyforgeUnitProfiles.normalizeExploratorFleetName(aliases[alias]).replace(/\s+/g, '_'));
-		}
 	}
-})();
-
-ArmyforgeUnitProfiles.findExploratorFleetProfileByName = function(displayName, listId) {
-	if (!displayName) {
-		return null;
-	}
-	if (listId && !ArmyforgeUnitProfiles.exploratorFleet.armyIds.member(listId)) {
-		return null;
-	}
-	var normalized = ArmyforgeUnitProfiles.normalizeExploratorFleetName(displayName);
-	var key = ArmyforgeUnitProfiles.exploratorFleet.nameToKey[normalized] || ArmyforgeUnitProfiles.exploratorFleet.nameToKey[normalized.replace(/\s+/g, '')];
-	if (!key) {
-		return null;
-	}
-	return ArmyforgeUnitProfiles.exploratorFleet.profiles[key] || null;
-};
+});

@@ -40,86 +40,13 @@ ArmyforgeUnitProfiles.normalizeThousandSonsName = ArmyforgeUnitProfiles.normaliz
 		.strip();
 };
 
-ArmyforgeUnitProfiles.thousandSons = ArmyforgeUnitProfiles.thousandSons || {
+ArmyforgeUnitProfiles.registerFaction({
+	namespace: 'thousandSons',
+	findFunctionName: 'findThousandSonsProfileByName',
 	armyIds: ['CHAOS_ts_NETEA'],
-	profiles: {},
-	nameToKey: {}
-};
-
-(function() {
-	function registerAlias(alias, key) {
-		if (!alias || !key) {
-			return;
-		}
-		var normalized = ArmyforgeUnitProfiles.normalizeThousandSonsName(alias);
-		if (!normalized) {
-			return;
-		}
-		ArmyforgeUnitProfiles.thousandSons.nameToKey[normalized] = key;
-		var compact = normalized.replace(/\s+/g, '');
-		if (compact) {
-			ArmyforgeUnitProfiles.thousandSons.nameToKey[compact] = key;
-		}
-	}
-
-	function cloneProfile(profile) {
-		return {
-			name: profile.name,
-			type: profile.type,
-			speed: profile.speed,
-			armour: profile.armour,
-			cc: profile.cc,
-			ff: profile.ff,
-			weapons: (profile.weapons || []).map(function(weapon) {
-				return {
-					name: weapon.name,
-					range: weapon.range,
-					firepower: weapon.firepower,
-					notes: (weapon.notes || []).slice()
-				};
-			}),
-			abilities: (profile.abilities_or_notes || profile.abilities || []).slice()
-		};
-	}
-
-	function loadSourceData() {
-		var responseText = null;
-		try {
-			new Ajax.Request('./source-json/thousand-sons.json', {
-				method: 'get',
-				asynchronous: false,
-				onSuccess: function(response) {
-					responseText = response.responseText;
-				}
-			});
-		}
-		catch (err) {
-			return null;
-		}
-		if (!responseText) {
-			return null;
-		}
-		try {
-			return JSON.parse(responseText);
-		}
-		catch (err2) {
-			return null;
-		}
-	}
-
-	var sourceData = loadSourceData();
-	if (sourceData && sourceData.profiles && sourceData.profiles.length) {
-		sourceData.profiles.each(function(profile) {
-			var key = ArmyforgeUnitProfiles.normalizeThousandSonsName(profile.name).replace(/\s+/g, '_');
-			if (!key) {
-				return;
-			}
-			ArmyforgeUnitProfiles.thousandSons.profiles[key] = cloneProfile(profile);
-			registerAlias(profile.name, key);
-		});
-	}
-
-	var aliases = {
+	sourceJsonPaths: ['./source-json/thousand-sons.json'],
+	normalizer: ArmyforgeUnitProfiles.normalizeThousandSonsName,
+	aliases: {
 		'0-1 Wraithgate': 'Wraithgate',
 		'Wraithgate': 'Wraithgate',
 		'0-1 Scarab Occult': 'Thousand Sons Sorcerer Lord',
@@ -128,7 +55,6 @@ ArmyforgeUnitProfiles.thousandSons = ArmyforgeUnitProfiles.thousandSons || {
 		'Thousand Sons Adeptus': 'Thousand Sons Adeptus',
 		"0-1 Ahriman's Chosen": 'Thousand Sons Sorcerer',
 		"Ahriman's Chosen": 'Thousand Sons Sorcerer',
-		"Ahriman’s Chosen": 'Thousand Sons Sorcerer',
 		'Thousand Sons Sorcerer': 'Thousand Sons Sorcerer',
 		'Thousand Sons Marine units': 'Thousand Sons Marines',
 		'Thousand Sons Marines': 'Thousand Sons Marines',
@@ -190,29 +116,8 @@ ArmyforgeUnitProfiles.thousandSons = ArmyforgeUnitProfiles.thousandSons || {
 		'Greater Spires of Tzeentch': 'Greater Spires of Tzeentch',
 		'Warp Palace': 'Warp Palace of Tzeentch',
 		'Warp Palace of Tzeentch': 'Warp Palace of Tzeentch'
-	};
-
-	for (var alias in aliases) {
-		if (aliases.hasOwnProperty(alias)) {
-			registerAlias(alias, ArmyforgeUnitProfiles.normalizeThousandSonsName(aliases[alias]).replace(/\s+/g, '_'));
-		}
 	}
-})();
-
-ArmyforgeUnitProfiles.findThousandSonsProfileByName = function(displayName, listId) {
-	if (!displayName) {
-		return null;
-	}
-	if (listId && !ArmyforgeUnitProfiles.thousandSons.armyIds.member(listId)) {
-		return null;
-	}
-	var normalized = ArmyforgeUnitProfiles.normalizeThousandSonsName(displayName);
-	var key = ArmyforgeUnitProfiles.thousandSons.nameToKey[normalized] || ArmyforgeUnitProfiles.thousandSons.nameToKey[normalized.replace(/\s+/g, '')];
-	if (!key) {
-		return null;
-	}
-	return ArmyforgeUnitProfiles.thousandSons.profiles[key] || null;
-};
+});
 
 ArmyforgeUnitProfiles.thousandSonsAdditionalProfilesForFormation = function(formation) {
 	var extras = [];
@@ -235,7 +140,7 @@ ArmyforgeUnitProfiles.thousandSonsAdditionalProfilesForFormation = function(form
 		add('Thousand Sons Sorcerer Lord');
 		add('Thousand Sons Adeptus');
 	}
-	else if (/^Ahriman['’]s Chosen$/i.test(formationName)) {
+	else if (/^Ahriman['']s Chosen$/i.test(formationName)) {
 		add('Thousand Sons Sorcerer');
 		add('Thousand Sons Marines');
 	}
