@@ -119,3 +119,50 @@ test('registerAlias is a no-op when normalizer returns empty', () => {
     registerAlias(faction, 'whatever', 'k', stripNormalizer);
     assert.deepStrictEqual(faction.nameToKey, {});
 });
+
+test('buildFinder returns null for empty displayName', () => {
+    const { buildFinder } = require(loaderPath);
+    // Set up a faction in the global namespace for the finder to look up.
+    global.ArmyforgeUnitProfiles = global.ArmyforgeUnitProfiles || {};
+    global.ArmyforgeUnitProfiles.testNs = {
+        armyIds: ['TEST_NETEA'],
+        profiles: { plague_marines: { name: 'Plague Marines' } },
+        nameToKey: { 'plague marines': 'plague_marines' }
+    };
+    // Stub Array.prototype.member (used by Prototype.js; absent in plain Node).
+    if (!Array.prototype.member) {
+        Array.prototype.member = function(value) { return this.indexOf(value) !== -1; };
+    }
+    const noopNormalizer = (s) => String(s || '').toLowerCase();
+    const finder = buildFinder('testNs', noopNormalizer);
+    assert.strictEqual(finder('', 'TEST_NETEA'), null);
+    assert.strictEqual(finder(null, 'TEST_NETEA'), null);
+});
+
+test('buildFinder returns null when listId does not match armyIds', () => {
+    const { buildFinder } = require(loaderPath);
+    const finder = buildFinder('testNs', (s) => String(s).toLowerCase());
+    assert.strictEqual(finder('Plague Marines', 'WRONG_ID'), null);
+});
+
+test('buildFinder resolves displayName via nameToKey', () => {
+    const { buildFinder } = require(loaderPath);
+    const finder = buildFinder('testNs', (s) => String(s).toLowerCase());
+    const result = finder('Plague Marines', 'TEST_NETEA');
+    assert.strictEqual(result.name, 'Plague Marines');
+});
+
+test('buildFinder falls back to compact (no-space) lookup', () => {
+    const { buildFinder } = require(loaderPath);
+    global.ArmyforgeUnitProfiles.testNs.nameToKey = { 'plaguemarines': 'plague_marines' };
+    const finder = buildFinder('testNs', (s) => String(s).toLowerCase());
+    const result = finder('Plague Marines', 'TEST_NETEA');
+    assert.strictEqual(result.name, 'Plague Marines');
+});
+
+test('buildFinder returns null when key resolution fails', () => {
+    const { buildFinder } = require(loaderPath);
+    global.ArmyforgeUnitProfiles.testNs.nameToKey = {};
+    const finder = buildFinder('testNs', (s) => String(s).toLowerCase());
+    assert.strictEqual(finder('Plague Marines', 'TEST_NETEA'), null);
+});

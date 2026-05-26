@@ -47,7 +47,18 @@ var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
     }
 
     function buildFinder(namespace, normalizer) {
-        return function() { return null; };  // placeholder, replaced in Task 6
+        return function(displayName, listId) {
+            if (!displayName) return null;
+            var globalProfiles = (typeof global !== 'undefined' ? global : window).ArmyforgeUnitProfiles;
+            var faction = globalProfiles[namespace];
+            if (!faction) return null;
+            if (listId && !faction.armyIds.member(listId)) return null;
+            var normalized = normalizer(displayName);
+            var key = faction.nameToKey[normalized] ||
+                      faction.nameToKey[normalized.replace(/\s+/g, '')];
+            if (!key) return null;
+            return faction.profiles[key] || null;
+        };
     }
 
     function loadSourceJsonSync(path) {
