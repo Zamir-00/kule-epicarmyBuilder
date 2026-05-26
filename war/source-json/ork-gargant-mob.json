@@ -1437,6 +1437,59 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "KillKroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+1BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": []
+    },
+    {
+      "name": "Supa Stompa",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Mega-Choppa",
+          "range": "45cm / base contact",
+          "firepower": "AP5+/AT5+ / Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "D3 Power Fields",
+        "Reinforced Armour",
+        "Walker"
+      ]
     }
   ],
   "army_notes": [

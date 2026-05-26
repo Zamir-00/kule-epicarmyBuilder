@@ -1392,6 +1392,20 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Zombies",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Teleport"
+      ]
     }
   ],
   "army_notes": [

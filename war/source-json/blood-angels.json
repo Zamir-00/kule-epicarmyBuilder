@@ -1416,6 +1416,18 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sniper",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Reference card for the Blood Angels Sniper upgrade. All units in the formation gain the Sniper ability when this option is selected."
+      ]
     }
   ],
   "army_notes": [

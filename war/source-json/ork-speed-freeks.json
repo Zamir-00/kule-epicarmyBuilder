@@ -708,6 +708,26 @@
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warbike Outriders",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Twin Sawn-Off Big Shoota",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Scout"
+      ]
     }
   ],
   "army_notes": [

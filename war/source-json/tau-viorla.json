@@ -1177,6 +1177,18 @@
       ],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bonded Team",
+      "type": "Formation",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Formation counts as having an additional leader and removes one additional blast marker when rallying or regrouping; this ability is not tied to any one unit in the formation."
+      ]
     }
   ],
   "army_notes": [
