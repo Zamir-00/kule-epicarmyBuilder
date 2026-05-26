@@ -1,0 +1,48 @@
+// war/js/unitProfileLoader.js
+// Shared loader for unit-profile faction files.
+// Loaded by chooser.html before any unitProfiles.<faction>.js script tag.
+// Provides ArmyforgeUnitProfiles.registerFaction(config) — see ./unitProfileLoader.md
+
+var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
+
+(function() {
+    // Pure helpers (also exported for unit tests under Node).
+
+    function cloneProfile(profile) {
+        return profile;  // placeholder, replaced in Task 3
+    }
+
+    function deriveKey(name, normalizer) {
+        return '';  // placeholder, replaced in Task 4
+    }
+
+    function registerAlias(faction, alias, key, normalizer) {
+        // placeholder, replaced in Task 5
+    }
+
+    function buildFinder(namespace, normalizer) {
+        return function() { return null; };  // placeholder, replaced in Task 6
+    }
+
+    function loadSourceJsonSync(path) {
+        return null;  // placeholder, replaced in Task 7
+    }
+
+    function registerFaction(config) {
+        // placeholder, replaced in Task 8
+    }
+
+    // Public API
+    ArmyforgeUnitProfiles.registerFaction = registerFaction;
+
+    // CJS export for unit tests under Node. Skipped in browser (no `module`).
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = {
+            cloneProfile: cloneProfile,
+            deriveKey: deriveKey,
+            registerAlias: registerAlias,
+            buildFinder: buildFinder,
+            registerFaction: registerFaction
+        };
+    }
+})();
