@@ -14,6 +14,7 @@ export interface TestApp {
 
 export interface TestTrpcClient {
   auth: AuthCalls;
+  lists: ListsCalls;
   withSession(sessionId: string): TestTrpcClient;
 }
 
@@ -22,6 +23,40 @@ interface AuthCalls {
   verifyMagicLink: { mutate(input: { token: string }): Promise<{ sessionId: string; userId: string }> };
   signOut: { mutate(): Promise<{ ok: true }> };
   me: { query(): Promise<unknown> };
+}
+
+interface SaveInput {
+  id?: string;
+  title: string;
+  list_id: string;
+  points_target?: number;
+  body?: unknown;
+  is_public?: boolean;
+}
+
+interface UserListRow {
+  id: string;
+  owner_id: string;
+  title: string;
+  list_id: string;
+  points_target: number | null;
+  body: unknown;
+  is_public: boolean;
+  created_at: number;
+  updated_at: number;
+}
+
+interface ListMineResult {
+  items: UserListRow[];
+  nextCursor: { updated_at: number; id: string } | null;
+}
+
+interface ListsCalls {
+  save: { mutate(input: SaveInput): Promise<UserListRow> };
+  load: { query(input: { id: string }): Promise<UserListRow> };
+  listMine: { query(input?: { limit?: number; cursor?: { updated_at: number; id: string } }): Promise<ListMineResult> };
+  setVisibility: { mutate(input: { id: string; is_public: boolean }): Promise<UserListRow> };
+  delete: { mutate(input: { id: string }): Promise<{ ok: true }> };
 }
 
 // In tRPC v11, createCallerFactory(router) returns (ctx) => caller
@@ -34,6 +69,7 @@ type AnyFn = (...args: any[]) => any;
 function buildClient(ctx: TrpcContext): TestTrpcClient {
   const caller = makeCallerForRouter(ctx);
   const auth = caller.auth as unknown as Record<string, AnyFn>;
+  const lists = caller.lists as unknown as Record<string, AnyFn>;
 
   return {
     auth: {
@@ -48,6 +84,24 @@ function buildClient(ctx: TrpcContext): TestTrpcClient {
       },
       me: {
         query: () => auth['me']!() as Promise<unknown>,
+      },
+    },
+    lists: {
+      save: {
+        mutate: (input: SaveInput) => lists['save']!(input) as Promise<UserListRow>,
+      },
+      load: {
+        query: (input: { id: string }) => lists['load']!(input) as Promise<UserListRow>,
+      },
+      listMine: {
+        query: (input?: { limit?: number; cursor?: { updated_at: number; id: string } }) =>
+          lists['listMine']!(input ?? {}) as Promise<ListMineResult>,
+      },
+      setVisibility: {
+        mutate: (input: { id: string; is_public: boolean }) => lists['setVisibility']!(input) as Promise<UserListRow>,
+      },
+      delete: {
+        mutate: (input: { id: string }) => lists['delete']!(input) as Promise<{ ok: true }>,
       },
     },
     withSession(sessionId: string): TestTrpcClient {
