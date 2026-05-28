@@ -3,11 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "description": "Net-EA Epic 40K army builder",
+  "main": "apps/api/dist/index.js",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "check": "npm run typecheck --workspace apps/api && npm test --workspace apps/api"
+    "build": "npm run build --workspace apps/api",
+    "start": "node apps/api/dist/index.js",
+    "dev": "npm run dev --workspace apps/api",
+    "test": "npm run test --workspace apps/api",
+    "typecheck": "npm run typecheck --workspace apps/api",
+    "check": "npm run typecheck --workspace apps/api && npm run test --workspace apps/api",
+    "deploy:zip": "node tools/build-deploy-zip.js"
   }
 }
