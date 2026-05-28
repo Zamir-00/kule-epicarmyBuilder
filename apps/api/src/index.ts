@@ -34,6 +34,10 @@ export async function buildApp() {
 
 // Only listen when this file is run directly (not when imported by tests)
 if (import.meta.url === `file://${process.argv[1]}`) {
+  const { db } = await import('./db/client.js');
+  const { runMigrations } = await import('./db/migrate.js');
+  runMigrations(db);
+
   const app = await buildApp();
   app.listen({ port: env.PORT, host: '0.0.0.0' }).catch((err) => {
     app.log.error(err);
