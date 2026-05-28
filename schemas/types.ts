@@ -124,6 +124,7 @@ export interface EpicArmyBuilderSourceJson {
 export interface EpicArmyBuilderArmyList {
   $schema?: string;
   id?: string;
+  list_id?: string;
   faction_id?: string;
   ruleset?: string;
   version?: string;
@@ -134,6 +135,7 @@ export interface EpicArmyBuilderArmyList {
     name: string;
     formations: {
       id?: number | string;
+      string_id?: string;
       name: string;
       pts?: unknown;
       units?: unknown;
@@ -145,6 +147,7 @@ export interface EpicArmyBuilderArmyList {
   }[];
   upgrades?: {
     id: number | string;
+    string_id?: string;
     name: string;
     pts?: unknown;
     cost_pts?: unknown;
