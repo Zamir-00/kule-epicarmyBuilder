@@ -9,6 +9,27 @@ covers the most common failure modes.
 
 ---
 
+## Setting up Resend for magic-link emails
+
+Magic-link emails are sent via [Resend](https://resend.com). The free tier is
+sufficient for low-volume use (no credit card required).
+
+1. Sign up at https://resend.com and create an API key.
+2. For initial testing, use `onboarding@resend.dev` as `EMAIL_FROM` — this
+   sender works out of the box with no DNS configuration.
+3. For a custom sender (e.g. `auth@yourdomain.com`), verify your domain by
+   adding DKIM and SPF DNS records. Resend's dashboard guides you through this
+   step-by-step. See: https://resend.com/docs/dashboard/domains/introduction
+4. Paste the API key into GoDaddy's Node.js Hosting environment variables panel
+   as `RESEND_API_KEY` (see the env vars table in step 3 below).
+
+If `RESEND_API_KEY` or `EMAIL_FROM` is missing at runtime, the server falls back
+to logging magic-link content to stdout — suitable for development but not
+production. The server logs a warning if `NODE_ENV=production` and the vars are
+absent.
+
+---
+
 ## Prerequisites
 
 - GoDaddy Node.js Hosting plan
@@ -97,8 +118,8 @@ In the Node.js Hosting UI, configure these environment variables:
 | `DATABASE_PATH` | `./data/prod.db` |
 | `SESSION_SECRET` | A 32+ byte random string. Generate: `openssl rand -base64 32` |
 | `BASE_URL` | The preview URL (e.g. `https://preview-xxxx.godaddy.com`) or your production domain |
-| `RESEND_API_KEY` | Your Resend API key (required for magic-link email; set after S2.6) |
-| `EMAIL_FROM` | `onboarding@resend.dev` while testing; `auth@yourdomain.com` in production |
+| `RESEND_API_KEY` | Your Resend API key — sign up at resend.com (free, no card required). If unset, magic-link URLs are logged to stdout only. |
+| `EMAIL_FROM` | `onboarding@resend.dev` for initial testing (no DNS needed); use `auth@yourdomain.com` after verifying your domain via DKIM+SPF in the Resend dashboard. |
 
 `PORT` is provided automatically by the platform — do not set it.
 

@@ -7,7 +7,11 @@ test('full magic-link sign-in flow', async () => {
 
   await trpc.auth.requestMagicLink.mutate({ email: 'a@example.com' });
   assert.strictEqual(emails.count(), 1);
-  const text = emails.last().text;
+  const lastEmail = emails.last();
+  assert.strictEqual(lastEmail.subject, 'Sign in to Kule Army Builder');
+  assert.match(lastEmail.text, /15 minutes/);
+  assert.match(lastEmail.html, /<p>/);
+  const text = lastEmail.text;
   const urlMatch = text.match(/https?:\/\/\S+/);
   assert.ok(urlMatch);
   const url = new URL(urlMatch[0]);

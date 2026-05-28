@@ -5,7 +5,7 @@ import { env } from './env.js';
 import { WAR_ROOT } from './paths.js';
 import { registerStaticRoutes } from './static/routes.js';
 import { db } from './db/client.js';
-import { createConsoleTransport } from './auth/email.js';
+import { createConsoleTransport, createResendTransport } from './auth/email.js';
 import { setSessionCookie } from './auth/cookie.js';
 import { hashToken } from './auth/magic-link.js';
 import { eq } from 'drizzle-orm';
@@ -19,11 +19,18 @@ export interface BuildAppOpts {
   deps: TrpcDeps;
 }
 
+function chooseEmailTransport() {
+  if (env.RESEND_API_KEY && env.EMAIL_FROM) {
+    return createResendTransport(env.RESEND_API_KEY, env.EMAIL_FROM);
+  }
+  return createConsoleTransport();
+}
+
 export async function buildApp(opts?: BuildAppOpts) {
   const deps: TrpcDeps = opts?.deps ?? {
     db,
-    emailTransport: createConsoleTransport(),
-    baseUrl: `http://localhost:${env.PORT}`,
+    emailTransport: chooseEmailTransport(),
+    baseUrl: env.BASE_URL,
   };
 
   const app = Fastify({ logger: { level: env.NODE_ENV === 'production' ? 'info' : 'debug' } });
