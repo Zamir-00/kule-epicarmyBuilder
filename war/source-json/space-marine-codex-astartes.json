@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/source-json.schema.json",
   "metadata": {
     "army_name": "Codex Astartes Space Marine",
     "source_url": "https://tp.net-armageddon.org/army-lists/space-marine-codex-astartes.html",

@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://kule.example/schemas/list.schema.json",
+  "title": "EpicArmyBuilder army list",
+  "description": "Schema for war/lists/*.json army list files. Intentionally loose (Phase 1): all existing files must validate. Two files (EL_mymeara_NETEA.json, TEMPLATE.json) are known-invalid JSON and are excluded from validation.",
+  "type": "object",
+  "required": ["sections"],
+  "additionalProperties": true,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": { "type": "string" },
+    "faction_id": { "type": "string" },
+    "ruleset": { "type": "string" },
+    "version": { "type": "string" },
+    "by": { "type": "string" },
+    "notes": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        { "type": "string" }
+      ]
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "formations"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {},
+          "name": { "type": "string" },
+          "formations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "additionalProperties": true,
+              "properties": {
+                "id": {
+                  "oneOf": [
+                    { "type": "integer" },
+                    { "type": "string" }
+                  ]
+                },
+                "name": { "type": "string" },
+                "pts": {},
+                "units": {},
+                "upgrades": {
+                  "type": "array",
+                  "items": {}
+                },
+                "cost_pts": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "upgrades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {
+            "oneOf": [
+              { "type": "integer" },
+              { "type": "string" }
+            ]
+          },
+          "name": { "type": "string" },
+          "pts": {},
+          "cost_pts": {},
+          "upgrades": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "formationConstraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "upgradeConstraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "fixedFormations": {
+      "type": "array",
+      "items": {}
+    }
+  }
+}

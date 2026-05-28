@@ -1,5 +1,6 @@
 
 {
+   "$schema": "../../schemas/list.schema.json",
    "id": "Death Guard",
    "version": "NetEA V0.7.2 <a href='http://www.tacticalwargames.net/taccmd/viewtopic.php?f=82&t=34027'>Taccoms Thread</a>",
    "by": "IJW Wartrader based on Kyussinchains' 0.2 file - last edit 9 October 2019 at 11:53:45 BST by IJW Wartrader",

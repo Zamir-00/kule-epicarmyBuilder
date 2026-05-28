@@ -1,0 +1,240 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://kule.example/schemas/source-json.schema.json",
+  "title": "EpicArmyBuilder source-json",
+  "description": "Schema for war/source-json/*.json army data files. Intentionally loose (Phase 1): all existing files must validate. Will be tightened in S1.11 (require id) and S1.12 (require structured stat fields).",
+  "type": "object",
+  "required": [],
+  "additionalProperties": true,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "army_name": { "type": "string" },
+        "source_url": { "type": ["string", "null"] },
+        "page_title": { "type": "string" },
+        "list_id": { "type": "string" },
+        "status_note": { "type": "string" },
+        "version": { "type": "string" },
+        "version_note": { "type": "string" },
+        "source_file": { "type": "string" },
+        "display_name": { "type": "string" },
+        "builder_source_file": { "type": "string" },
+        "primary_pdf_source": { "type": "string" },
+        "secondary_pdf_sources": {},
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "faction": { "type": "string" },
+        "rulebook_url": { "type": "string" }
+      }
+    },
+    "army_stats": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "strategy_rating": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "integer" }
+          ]
+        },
+        "faction": { "type": "string" },
+        "allegiance": { "type": "string" },
+        "initiative_rating": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "entries": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {
+                  "scope": { "type": "string" },
+                  "value": { "type": "string" }
+                }
+              }
+            },
+            "default": {},
+            "exceptions": {
+              "type": "array",
+              "items": {}
+            }
+          }
+        },
+        "faction_tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "special_rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "text"],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": "string" },
+          "text": { "type": "string" },
+          "id": { "type": "string" }
+        }
+      }
+    },
+    "formations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "entry_type": { "type": "string" },
+          "cost": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "null" }
+            ]
+          },
+          "units_text": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "null" }
+            ]
+          },
+          "upgrades_or_options_text": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "null" }
+            ]
+          },
+          "restrictions_or_notes": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "null" }
+            ]
+          },
+          "raw_text": { "type": "string" },
+          "parse_warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "speed": { "type": "string" },
+          "armour": { "type": "string" },
+          "cc": { "type": "string" },
+          "ff": { "type": "string" },
+          "weapons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "additionalProperties": true,
+              "properties": {
+                "name": { "type": "string" },
+                "range": { "type": "string" },
+                "firepower": { "type": "string" },
+                "notes": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          },
+          "abilities": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "abilities_or_notes": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "id": { "type": "string" },
+          "type_code": { "type": "string" },
+          "armour_save": {
+            "oneOf": [
+              { "type": "integer" },
+              { "type": "null" }
+            ]
+          },
+          "cc_target": {
+            "oneOf": [
+              { "type": "integer" },
+              { "type": "null" }
+            ]
+          },
+          "ff_target": {
+            "oneOf": [
+              { "type": "integer" },
+              { "type": "null" }
+            ]
+          },
+          "speed_cm": {
+            "oneOf": [
+              { "type": "integer" },
+              { "type": "null" }
+            ]
+          },
+          "source_section": { "type": "string" },
+          "parse_confidence": { "type": "string" },
+          "parse_warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "ambiguity_reasons": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "is_reference_or_ambiguous": { "type": "boolean" }
+        }
+      }
+    },
+    "army_notes": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "name": { "type": "string" },
+              "text": { "type": "string" },
+              "raw_text": { "type": "string" }
+            }
+          }
+        ]
+      }
+    },
+    "extraction_warnings": {
+      "type": "array",
+      "items": {}
+    },
+    "army_rules": {
+      "type": "array",
+      "items": {}
+    },
+    "rules": {
+      "type": "array",
+      "items": {}
+    }
+  }
+}
