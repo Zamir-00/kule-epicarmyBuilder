@@ -20,6 +20,7 @@
           "id": 500,
           "name": "Grey Knights Strike Team",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Grey Knights plus transports",
           "upgrades": [
             1,
@@ -41,6 +42,7 @@
           "id": 501,
           "name": "Grey Knights Terminators",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Grey Knights Terminators",
           "upgrades": [
             1,
@@ -60,6 +62,7 @@
           "id": 502,
           "name": "Inquisitorial Warband",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Inqusitor",
           "upgrades": [
             9,
@@ -81,6 +84,7 @@
           "id": 600,
           "name": "Grey Knights Interceptor Squad",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Grey Knights Interceptor",
           "upgrades": [
             1,
@@ -97,6 +101,7 @@
           "id": 601,
           "name": "Grey Knights Purgation Squad",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Grey Knights Purgation plus transports",
           "upgrades": [
             1,
@@ -121,6 +126,7 @@
           "id": 602,
           "name": "Grey Knights Land Raider",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             1,
             2,
@@ -136,6 +142,7 @@
           "id": 603,
           "name": "Grey Knights Thunderhawk Gunship",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -143,6 +150,7 @@
           "id": 604,
           "name": "Grey Knights Thunderhawk Transporters",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             26
           ]
@@ -152,6 +160,7 @@
           "id": 605,
           "name": "Grey Knights Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Grey Knigths Landing Craft",
           "upgrades": []
         },
@@ -160,6 +169,7 @@
           "id": 606,
           "name": "Grey Knights Strike Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Grey Knights Strike Cruiser",
           "upgrades": []
         },
@@ -168,6 +178,7 @@
           "id": 607,
           "name": "Stormraven Flight",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Grey Knights Stormraven Gunships",
           "upgrades": [
             1,
@@ -186,6 +197,7 @@
           "id": 700,
           "name": "Stormtalons",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Stormtalon Gunship Fighter-Bomber Aircraft",
           "upgrades": []
         },
@@ -194,6 +206,7 @@
           "id": 701,
           "name": "Thunderhawk Bomber",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Saturation Thunderhawk Bomber Aircraft",
           "upgrades": []
         },
@@ -202,6 +215,7 @@
           "id": 702,
           "name": "Psi-Pattern Warlord Titan",
           "pts": 850,
+          "cost_pts": 850,
           "units": "1 Psi-Pattern Warlord Titan",
           "upgrades": []
         },
@@ -210,6 +224,7 @@
           "id": 703,
           "name": "Reaver",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Titan",
           "upgrades": []
         },
@@ -218,6 +233,7 @@
           "id": 704,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhound Scout Titans",
           "upgrades": []
         },
@@ -226,6 +242,7 @@
           "id": 705,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Scout Titan",
           "upgrades": []
         }

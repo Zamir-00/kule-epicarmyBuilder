@@ -14,6 +14,7 @@
           "id": 532,
           "name": "Crisis Battlesuit Cadre",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             35
           ]
@@ -23,6 +24,7 @@
           "id": 531,
           "name": "Fire Warrior Cadre",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             62,
             63,
@@ -46,6 +48,7 @@
           "id": 516,
           "name": "Armour Support Group",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             87,
             88,
@@ -58,6 +61,7 @@
           "id": 514,
           "name": "Broadside Group",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 XV88 Broadsides",
           "upgrades": [
             35
@@ -68,6 +72,7 @@
           "id": 518,
           "name": "Kroot Kindred",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Kroot Master Shaper",
           "upgrades": [
             58,
@@ -79,6 +84,7 @@
           "id": 512,
           "name": "Pathfinder Group",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Pathfinders, 2 Devilfish",
           "upgrades": [
             35,
@@ -90,6 +96,7 @@
           "id": 515,
           "name": "Recon Skimmer Group",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             35,
             54
@@ -100,6 +107,7 @@
           "id": 517,
           "name": "Skysweep Support Group",
           "pts": 250,
+          "cost_pts": 250,
           "units": "3 Skyray Gunships",
           "upgrades": []
         },
@@ -108,6 +116,7 @@
           "id": 513,
           "name": "Stealth Group",
           "pts": 225,
+          "cost_pts": 225,
           "units": "6 XV15 Stealth Units",
           "upgrades": [
             35
@@ -123,6 +132,7 @@
           "id": 521,
           "name": "Barracuda Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Barracuda Fighters",
           "upgrades": []
         },
@@ -131,6 +141,7 @@
           "id": 524,
           "name": "Manta Dropship",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -138,6 +149,7 @@
           "id": 526,
           "name": "Orca Dropship",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -145,6 +157,7 @@
           "id": 525,
           "name": "Spacecraft",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -152,6 +165,7 @@
           "id": 522,
           "name": "Tiger Shark Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Tiger Sharks",
           "upgrades": [
             75
@@ -162,6 +176,7 @@
           "id": 523,
           "name": "AX-1-0 Squadron",
           "pts": 350,
+          "cost_pts": 350,
           "units": "2 Tiger Shark AX-1-0",
           "upgrades": []
         }

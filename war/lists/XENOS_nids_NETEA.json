@@ -17,7 +17,8 @@
           "string_id": "brood_nest",
           "id": 400,
           "name": "Brood Nest",
-          "pts": 50
+          "pts": 50,
+          "cost_pts": 50
         }
       ]
     },
@@ -29,6 +30,7 @@
           "id": 500,
           "name": "Tyranid swarm",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             9,
             11,
@@ -51,6 +53,7 @@
           "id": 501,
           "name": "Tyranid swarm (medium)",
           "pts": -5,
+          "cost_pts": -5,
           "upgrades": [
             9,
             11,
@@ -73,6 +76,7 @@
           "id": 502,
           "name": "Tyranid swarm (Large)",
           "pts": -45,
+          "cost_pts": -45,
           "upgrades": [
             9,
             11,
@@ -100,6 +104,7 @@
           "id": 517,
           "name": "Biovore Swarm",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             16
           ]
@@ -109,6 +114,7 @@
           "id": 518,
           "name": "Dactylis Swarm",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             27
           ]
@@ -118,6 +124,7 @@
           "id": 519,
           "name": "Exocrine Swarm",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             28
           ]
@@ -127,6 +134,7 @@
           "id": 520,
           "name": "Genestealer Swarm",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             80,
             81
@@ -137,6 +145,7 @@
           "id": 524,
           "name": "Lictor Swarm",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             41
           ]
@@ -151,6 +160,7 @@
           "id": 521,
           "name": "Harridian Swarm",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             38,
             21,
@@ -162,6 +172,7 @@
           "id": 522,
           "name": "Hierodule Bio-Titan",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -169,6 +180,7 @@
           "id": 523,
           "name": "Hierophant Bio-Titan",
           "pts": 525,
+          "cost_pts": 525,
           "upgrades": []
         },
         {
@@ -176,6 +188,7 @@
           "id": 526,
           "name": "Trygon Swarm",
           "pts": 20,
+          "cost_pts": 20,
           "upgrades": [
             29,
             26

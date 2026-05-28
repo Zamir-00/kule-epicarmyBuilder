@@ -17,6 +17,7 @@
           "id": 512,
           "name": "Regimental HQ",
           "pts": 475,
+          "cost_pts": 475,
           "upgrades": [
             25,
             26,
@@ -41,6 +42,7 @@
           "id": 513,
           "name": "Infantry Company",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             25,
             26,
@@ -65,6 +67,7 @@
           "id": 514,
           "name": "Mechanised Infantry Company",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [
             25,
             26,
@@ -89,6 +92,7 @@
           "id": 515,
           "name": "Tank Company",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             25,
             26,
@@ -112,6 +116,7 @@
           "id": 516,
           "name": "Super-Heavy Tank Company",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             25,
             26,
@@ -135,6 +140,7 @@
           "id": 517,
           "name": "Artillery Company",
           "pts": 550,
+          "cost_pts": 550,
           "upgrades": [
             25,
             26,
@@ -163,6 +169,7 @@
           "id": 500,
           "name": "Rough Rider Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             25
           ],
@@ -173,6 +180,7 @@
           "id": 501,
           "name": "Storm Trooper Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             25,
             36,
@@ -185,6 +193,7 @@
           "id": 502,
           "name": "Artillery Battery",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             25
           ]
@@ -194,6 +203,7 @@
           "id": 505,
           "name": "Sentinel Squadron",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             25
           ],
@@ -204,6 +214,7 @@
           "id": 506,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             25
           ],
@@ -214,6 +225,7 @@
           "id": 507,
           "name": "Super-Heavy Tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             25
           ]
@@ -223,6 +235,7 @@
           "id": 509,
           "name": "Flak Battery",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             25
           ],
@@ -233,6 +246,7 @@
           "id": 510,
           "name": "Vulture Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             25
           ],
@@ -243,6 +257,7 @@
           "id": 511,
           "name": "Basilisk Battery",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             25
           ],
@@ -258,6 +273,7 @@
           "id": 519,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "2 Thunderbolts"
         },
@@ -266,6 +282,7 @@
           "id": 520,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [],
           "units": "2 Marauders"
         },
@@ -274,6 +291,7 @@
           "id": 529,
           "name": "Orbital support",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         }
       ]
@@ -286,6 +304,7 @@
           "id": 522,
           "name": "Warlord Class Titan",
           "pts": 825,
+          "cost_pts": 825,
           "upgrades": []
         },
         {
@@ -293,6 +312,7 @@
           "id": 523,
           "name": "Reaver Class Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -300,6 +320,7 @@
           "id": 524,
           "name": "Warhound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -307,6 +328,7 @@
           "id": 526,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [],
           "units": "2 Warhounds"
         }

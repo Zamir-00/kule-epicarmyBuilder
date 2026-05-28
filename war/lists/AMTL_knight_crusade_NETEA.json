@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Knight Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             8,
             10,
@@ -34,6 +35,7 @@
           "id": 510,
           "name": "Castigator Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             16,
             13,
@@ -45,6 +47,7 @@
           "id": 511,
           "name": "Custodian Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             6,
             7,
@@ -56,6 +59,7 @@
           "id": 512,
           "name": "Lancer Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             9,
             13,
@@ -72,6 +76,7 @@
           "id": 520,
           "name": "Artillery Battery",
           "pts": 250,
+          "cost_pts": 250,
           "units": "3 Basilisks",
           "upgrades": []
         },
@@ -80,6 +85,7 @@
           "id": 521,
           "name": "Flak Battery",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Hydras",
           "upgrades": []
         },
@@ -88,6 +94,7 @@
           "id": 522,
           "name": "Infantry Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "units": "1 Commander, 8 Infantry",
           "upgrades": [
             5,
@@ -102,6 +109,7 @@
           "id": 523,
           "name": "Sentinel Squadron",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Sentinels",
           "upgrades": []
         }
@@ -115,6 +123,7 @@
           "id": 530,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers",
           "upgrades": []
         },
@@ -123,6 +132,7 @@
           "id": 531,
           "name": "Thunderbolt Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolt Fighters",
           "upgrades": []
         }
@@ -136,6 +146,7 @@
           "id": 540,
           "name": "Reaver",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Class Titan",
           "upgrades": []
         },
@@ -144,6 +155,7 @@
           "id": 541,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Class Titan",
           "upgrades": []
         },
@@ -152,6 +164,7 @@
           "id": 542,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhound Class Titan",
           "upgrades": []
         },
@@ -160,6 +173,7 @@
           "id": 543,
           "name": "Warlord",
           "pts": 825,
+          "cost_pts": 825,
           "units": "1 Warlord Class Titan",
           "upgrades": []
         }

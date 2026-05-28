@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Word Bearer Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12
@@ -32,6 +33,7 @@
           "id": 511,
           "name": "Anointed Coteire",
           "pts": 40,
+          "cost_pts": 40,
           "units": "Chaos Space Marine Lord",
           "upgrades": [
             31,
@@ -50,6 +52,7 @@
           "id": 512,
           "name": "Bike Coterie",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Chaos Space Marine Lord, 8 Bike units",
           "upgrades": [
             19,
@@ -61,6 +64,7 @@
           "id": 513,
           "name": "Legionaires Coterie",
           "pts": 275,
+          "cost_pts": 275,
           "units": "Chaos Space Marine Lord, 8 Chaos Space Marine units",
           "upgrades": [
             32,
@@ -85,6 +89,7 @@
           "id": 521,
           "name": "Armoured Coterie",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             13,
             27,
@@ -97,6 +102,7 @@
           "id": 522,
           "name": "Assault Coterie",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             22,
             23,
@@ -109,6 +115,7 @@
           "id": 523,
           "name": "Chaos Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Devastation Class Cruiser",
           "upgrades": []
         },
@@ -117,6 +124,7 @@
           "id": 524,
           "name": "Chaos Thunderhawk",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -124,6 +132,7 @@
           "id": 525,
           "name": "Defiler Assault Force",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Chaos Defilers",
           "upgrades": []
         },
@@ -132,6 +141,7 @@
           "id": 526,
           "name": "Katharses Pack",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Kathates units",
           "upgrades": []
         },
@@ -140,6 +150,7 @@
           "id": 527,
           "name": "Possessed Coterie",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Chaos Space Marine units with Scout",
           "upgrades": [
             32,
@@ -158,6 +169,7 @@
           "id": 541,
           "name": "Hellblade Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Hellblade Interceptors",
           "upgrades": []
         },
@@ -166,6 +178,7 @@
           "id": 542,
           "name": "Helltalon Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Hell Talon Fighter-bombers",
           "upgrades": []
         }

@@ -20,6 +20,7 @@
           "id": 541,
           "name": "Wraithgate",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -32,6 +33,7 @@
           "id": 500,
           "name": "Thousand Sons Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             24,
             25
@@ -47,6 +49,7 @@
           "id": 501,
           "name": "Scarab Occult",
           "pts": 400,
+          "cost_pts": 400,
           "units": "5 Thousand Sons Adeptus",
           "upgrades": [
             13,
@@ -63,6 +66,7 @@
           "id": 502,
           "name": "Ahriman's Chosen",
           "pts": 450,
+          "cost_pts": 450,
           "units": "Sorcerer, 9 Thousand Sons Marines units. All have the Teleport ability",
           "upgrades": []
         },
@@ -71,6 +75,7 @@
           "id": 503,
           "name": "Rubric Fellowship",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Sorcerer, 6 Thousand Sons Marines units.",
           "upgrades": [
             13,
@@ -87,6 +92,7 @@
           "id": 504,
           "name": "Thousand Sons Armor",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             21,
             19,
@@ -98,6 +104,7 @@
           "id": 505,
           "name": "Silver Tower Company",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             22
           ]
@@ -112,6 +119,7 @@
           "id": 511,
           "name": "Thousand Sons Warcoven",
           "pts": 0,
+          "cost_pts": 0,
           "units": "Sorcerer",
           "upgrades": [
             23,
@@ -129,6 +137,7 @@
           "id": 512,
           "name": "Sekhmet Disc Riders",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             13,
             29
@@ -139,6 +148,7 @@
           "id": 513,
           "name": "Neophyte Class",
           "pts": 175,
+          "cost_pts": 175,
           "units": "One Sorcerer, 9 Neophyte units",
           "upgrades": [
             13,
@@ -152,6 +162,7 @@
           "id": 514,
           "name": "Decievers",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Deciever units",
           "upgrades": [
             14
@@ -167,6 +178,7 @@
           "id": 521,
           "name": "Greater Spires of Tzeentch",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             26
           ]
@@ -176,6 +188,7 @@
           "id": 522,
           "name": "Warp Palace of Tzeentch",
           "pts": 550,
+          "cost_pts": 550,
           "upgrades": []
         }
       ]
@@ -188,6 +201,7 @@
           "id": 531,
           "name": "Doomwing fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Doomwing Fighters",
           "upgrades": []
         },
@@ -196,6 +210,7 @@
           "id": 532,
           "name": "Firelord Bombers",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             27
           ]

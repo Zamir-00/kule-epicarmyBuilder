@@ -16,6 +16,7 @@
           "id": 500,
           "name": "Speed Freaks Warband",
           "pts": -10,
+          "cost_pts": -10,
           "upgrades": [
             12,
             120,
@@ -38,6 +39,7 @@
           "id": 501,
           "name": "Speed Freaks Warband (Big)",
           "pts": -70,
+          "cost_pts": -70,
           "upgrades": [
             12,
             120,
@@ -60,6 +62,7 @@
           "id": 502,
           "name": "Speed Freaks Warband ('Uge)",
           "pts": -130,
+          "cost_pts": -130,
           "upgrades": [
             12,
             120,
@@ -82,6 +85,7 @@
           "id": 503,
           "name": "Kult of Speed",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             20,
             21,
@@ -98,6 +102,7 @@
           "id": 504,
           "name": "Kult of Speed (Big)",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             20,
             21,
@@ -114,6 +119,7 @@
           "id": 505,
           "name": "Kult of Speed ('Uge)",
           "pts": -100,
+          "cost_pts": -100,
           "upgrades": [
             20,
             21,
@@ -130,6 +136,7 @@
           "id": 506,
           "name": "Blitz Brigade",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             66,
             20,
@@ -150,6 +157,7 @@
           "id": 507,
           "name": "Blitz Brigade (Big)",
           "pts": -30,
+          "cost_pts": -30,
           "upgrades": [
             66,
             20,
@@ -170,6 +178,7 @@
           "id": 508,
           "name": "Blitz Brigade ('Uge)",
           "pts": -70,
+          "cost_pts": -70,
           "upgrades": [
             66,
             20,
@@ -190,6 +199,7 @@
           "id": 509,
           "name": "Warbike Outriders",
           "pts": 150,
+          "cost_pts": 150,
           "units": "5 Warbikes",
           "upgrades": [
             110
@@ -200,6 +210,7 @@
           "id": 510,
           "name": "Warbike Outriders (Big)",
           "pts": 225,
+          "cost_pts": 225,
           "units": "10 Warbikes",
           "upgrades": [
             110
@@ -210,6 +221,7 @@
           "id": 511,
           "name": "Warbike Outriders ('Uge)",
           "pts": 300,
+          "cost_pts": 300,
           "units": "15 Warbikes",
           "upgrades": [
             110
@@ -220,6 +232,7 @@
           "id": 512,
           "name": "Fortress Mob",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             66,
             46,
@@ -235,6 +248,7 @@
           "id": 513,
           "name": "Fortress Mob (Big)",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             66,
             46,
@@ -250,6 +264,7 @@
           "id": 514,
           "name": "Fortress Mob ('Uge)",
           "pts": 700,
+          "cost_pts": 700,
           "upgrades": [
             66,
             46,
@@ -270,6 +285,7 @@
           "id": 516,
           "name": "Fighta Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             65
           ]
@@ -279,6 +295,7 @@
           "id": 517,
           "name": "Landa",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -286,6 +303,7 @@
           "id": 519,
           "name": "Kill Kroozer",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -293,6 +311,7 @@
           "id": 520,
           "name": "Battle Kroozer",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Warlock Titan",
           "pts": 825,
+          "cost_pts": 825,
           "units": "1 Warlock Titan",
           "upgrades": [
             10
@@ -24,6 +25,7 @@
           "id": 502,
           "name": "Phantom Titan",
           "pts": 750,
+          "cost_pts": 750,
           "units": "1 Phantom Titan",
           "upgrades": [
             10,
@@ -40,6 +42,7 @@
           "id": 521,
           "name": "Revenant Titan",
           "pts": 325,
+          "cost_pts": 325,
           "units": "1 Revenant Titan",
           "upgrades": [
             11
@@ -50,6 +53,7 @@
           "id": 522,
           "name": "Wraithknight Troupe",
           "pts": 325,
+          "cost_pts": 325,
           "units": "3 Wraithknights",
           "upgrades": [
             11
@@ -60,6 +64,7 @@
           "id": 523,
           "name": "War Walker Troupe",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 War Walkers",
           "upgrades": [
             11
@@ -75,6 +80,7 @@
           "id": 531,
           "name": "Air Superiority Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Nightwing Interceptors",
           "upgrades": [
             22
@@ -85,6 +91,7 @@
           "id": 532,
           "name": "Spacecraft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             20,
             21

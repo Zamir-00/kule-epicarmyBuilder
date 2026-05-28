@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Regimental HQ",
           "pts": 400,
+          "cost_pts": 400,
           "units": "Death Korps Supreme Commander, 19 Death Korps Infantry units",
           "upgrades": [
             114,
@@ -31,6 +32,7 @@
           "id": 502,
           "name": "Infantry Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Death Korps Commander, 19 Death Korps Infantry units",
           "upgrades": [
             114,
@@ -48,6 +50,7 @@
           "id": 503,
           "name": "Death Rider Company",
           "pts": 325,
+          "cost_pts": 325,
           "units": "12 Death Korps Rough Rider units",
           "upgrades": [
             114,
@@ -69,6 +72,7 @@
           "id": 521,
           "name": "Artillery Battery",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Earthshaker Platforms",
           "upgrades": [
             46,
@@ -80,6 +84,7 @@
           "id": 519,
           "name": "Death Rider Scout Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "units": "6 Death Korps Rough Rider units (with 'scout' ability)",
           "upgrades": []
         },
@@ -88,6 +93,7 @@
           "id": 520,
           "name": "Deathstrike Battery",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Death Korps Deathstrike Missile Launchers",
           "upgrades": []
         },
@@ -96,6 +102,7 @@
           "id": 512,
           "name": "Medusa Battery",
           "pts": 125,
+          "cost_pts": 125,
           "units": "3 Medusa Platforms",
           "upgrades": [
             46,
@@ -107,6 +114,7 @@
           "id": 511,
           "name": "Grenadiers Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "units": "8 Death Korps Grenadier units",
           "upgrades": [
             51,
@@ -118,6 +126,7 @@
           "id": 516,
           "name": "Flak Battery",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Heavy AA gun platforms",
           "upgrades": [
             46,
@@ -129,6 +138,7 @@
           "id": 514,
           "name": "Heavy Tank Platoon",
           "pts": 325,
+          "cost_pts": 325,
           "units": "3 Macharius Heavy Tanks",
           "upgrades": []
         },
@@ -137,6 +147,7 @@
           "id": 515,
           "name": "Support Battery",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Imperial Guard Light Artillery",
           "upgrades": [
             48,
@@ -148,6 +159,7 @@
           "id": 517,
           "name": "Self-Propelled Heavy Support",
           "pts": 250,
+          "cost_pts": 250,
           "units": "3 Bombards",
           "upgrades": []
         },
@@ -156,6 +168,7 @@
           "id": 518,
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -163,6 +176,7 @@
           "id": 513,
           "name": "Tank Platoon",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": []
         }
       ]
@@ -175,6 +189,7 @@
           "id": 526,
           "name": "Trenchworks",
           "pts": 75,
+          "cost_pts": 75,
           "units": "100cm of Trenches and Razor Wire, up to 3 bunkers",
           "upgrades": []
         }
@@ -188,6 +203,7 @@
           "id": 531,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolts",
           "upgrades": []
         },
@@ -196,6 +212,7 @@
           "id": 532,
           "name": "2 Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauders",
           "upgrades": []
         }
@@ -209,6 +226,7 @@
           "id": 536,
           "name": "Warlord Titan",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": []
         },
         {
@@ -216,6 +234,7 @@
           "id": 537,
           "name": "Reaver Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -223,6 +242,7 @@
           "id": 538,
           "name": "Warhound Titan Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhounds",
           "upgrades": []
         }

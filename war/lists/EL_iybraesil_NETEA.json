@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Wraithgate",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -29,6 +30,7 @@
           "id": 510,
           "name": "Crone World Raiders",
           "pts": 200,
+          "cost_pts": 200,
           "units": "Farseer",
           "upgrades": [
             40,
@@ -43,6 +45,7 @@
           "id": 511,
           "name": "Daughters of the Crone Warhost",
           "pts": 250,
+          "cost_pts": 250,
           "units": "8 howling Banshees",
           "upgrades": [
             30,
@@ -61,6 +64,7 @@
           "id": 520,
           "name": "Deathwalker Troupe",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Farseer, 3 Guardian units, 4 wraithguards",
           "upgrades": [
             40,
@@ -73,6 +77,7 @@
           "id": 522,
           "name": "Far Rider Troupe",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -80,6 +85,7 @@
           "id": 521,
           "name": "Relic hunter Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             13
@@ -90,6 +96,7 @@
           "id": 523,
           "name": "Swords of Fate Troupe",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -97,6 +104,7 @@
           "id": 524,
           "name": "Skeins of Fate Troupe",
           "pts": 400,
+          "cost_pts": 400,
           "units": "4 Night Spinners, 1 Firestorm",
           "upgrades": []
         },
@@ -105,6 +113,7 @@
           "id": 525,
           "name": "Engine of Vaul Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             34,
             35,
@@ -121,6 +130,7 @@
           "id": 530,
           "name": "Wraithship",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -128,6 +138,7 @@
           "id": 531,
           "name": "Dragonship",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -135,6 +146,7 @@
           "id": 532,
           "name": "Revenant Titans",
           "pts": 650,
+          "cost_pts": 650,
           "units": "2 Revenant Titans",
           "upgrades": []
         },
@@ -143,6 +155,7 @@
           "id": 533,
           "name": "Nightwings",
           "pts": 300,
+          "cost_pts": 300,
           "units": "3 Nightwing Interceptors",
           "upgrades": []
         },
@@ -151,6 +164,7 @@
           "id": 534,
           "name": "Phoenix Bombers",
           "pts": 400,
+          "cost_pts": 400,
           "units": "3 Phoenix Bombers",
           "upgrades": []
         },
@@ -159,6 +173,7 @@
           "id": 535,
           "name": "Vampire Hunter",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -166,6 +181,7 @@
           "id": 535,
           "name": "Vampire Raider",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         }
       ]

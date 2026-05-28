@@ -14,6 +14,7 @@
           "id": 500,
           "name": "Infantry Company",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             16,
             17,
@@ -28,6 +29,7 @@
           "id": 501,
           "name": "Mechanized Infantry Company",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             16,
             17,
@@ -43,6 +45,7 @@
           "id": 502,
           "name": "Mukaali Assault Company",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             16,
             17,
@@ -61,6 +64,7 @@
           "id": 511,
           "name": "Sentinel Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "8 Tallarn Sentinels"
         },
@@ -69,6 +73,7 @@
           "id": 512,
           "name": "Fire Support Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             25,
             17,
@@ -82,6 +87,7 @@
           "id": 513,
           "name": "Light Artillery Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             26,
             20
@@ -93,6 +99,7 @@
           "id": 514,
           "name": "Desert Raiders Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             27,
             28
@@ -104,6 +111,7 @@
           "id": 515,
           "name": "Hellhound Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             26
           ]
@@ -113,6 +121,7 @@
           "id": 516,
           "name": "Griffon Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             26
           ]
@@ -122,6 +131,7 @@
           "id": 517,
           "name": "Anti-Aircraft Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "4 Sabre Platforms and 4 Chimeras"
         },
@@ -130,6 +140,7 @@
           "id": 518,
           "name": "Rough Rider Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "1 Calvary Commander character, and 6 Rough Rider units"
         },
@@ -138,6 +149,7 @@
           "id": 519,
           "name": "Tauros Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "4 Tauros and 4 Tauros Venator"
         },
@@ -146,6 +158,7 @@
           "id": 520,
           "name": "Conqueror Platoon",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [],
           "units": "6 Leman Russ Conquerors"
         }
@@ -159,6 +172,7 @@
           "id": 531,
           "name": "Thunderbolt Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "2 Thunderbolts"
         },
@@ -167,6 +181,7 @@
           "id": 532,
           "name": "Destroyer Squadron",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [],
           "units": "2 Marauder Destroyers"
         }
@@ -180,6 +195,7 @@
           "id": 533,
           "name": "Questoris Knights",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             37
           ]

@@ -14,6 +14,7 @@
           "id": 500,
           "name": "Iron Hands Clan",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             30,
             31,
@@ -32,13 +33,15 @@
           "string_id": "clan_mobile_fortress",
           "id": 501,
           "name": "Clan Mobile Fortress",
-          "pts": 850
+          "pts": 850,
+          "cost_pts": 850
         },
         {
           "string_id": "dreadnaught_phalanx",
           "id": 502,
           "name": "Dreadnaught Phalanx",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             1,
             2,
@@ -62,6 +65,7 @@
           "id": 510,
           "name": "Heavy Infantry",
           "pts": 325,
+          "cost_pts": 325,
           "units": "2 Tactical units, 4 Devastator units",
           "upgrades": [
             1,
@@ -84,6 +88,7 @@
           "id": 511,
           "name": "Scout",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scout units",
           "upgrades": [
             1,
@@ -101,6 +106,7 @@
           "id": 512,
           "name": "Predators",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             1,
             2,
@@ -113,6 +119,7 @@
           "id": 513,
           "name": "Vindicators",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             1,
             2,
@@ -125,6 +132,7 @@
           "id": 514,
           "name": "Whirlwind",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             1,
             2,
@@ -137,13 +145,15 @@
           "string_id": "strike_cruser",
           "id": 515,
           "name": "Strike Cruser",
-          "pts": 150
+          "pts": 150,
+          "cost_pts": 150
         },
         {
           "string_id": "assault",
           "id": 516,
           "name": "Assault",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault units",
           "upgrades": [
             1,
@@ -161,6 +171,7 @@
           "id": 520,
           "name": "Bike",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             1,
             2,
@@ -173,6 +184,7 @@
           "name": "Land Speeder",
           "units": "5 Land Speeders",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             1,
             2,
@@ -184,6 +196,7 @@
           "id": 522,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Thunderhawk Gunship"
         },
         {
@@ -191,6 +204,7 @@
           "id": 523,
           "name": "Thunderhawk Saturation Bomber",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Thunderhawk Bomber"
         },
         {
@@ -198,6 +212,7 @@
           "id": 524,
           "name": "Storm Talon Gunship",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Storm Talon Gunships"
         },
         {
@@ -205,6 +220,7 @@
           "id": 525,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Landing Craft"
         },
         {
@@ -212,6 +228,7 @@
           "id": 526,
           "name": "Warlord Titan",
           "pts": 825,
+          "cost_pts": 825,
           "units": "1 Warlord Titan (any variant)"
         },
         {
@@ -219,6 +236,7 @@
           "id": 527,
           "name": "Reaver Titan",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Titan (any variant)"
         },
         {
@@ -226,6 +244,7 @@
           "id": 528,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhounds (One of each variant)"
         },
         {
@@ -233,6 +252,7 @@
           "id": 529,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound (any variant)"
         }
       ]

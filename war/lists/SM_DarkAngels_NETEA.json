@@ -15,6 +15,7 @@
           "name": "Tacticals",
           "units": "6 Tacticals plus Transport",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             13,
             14,
@@ -30,6 +31,7 @@
           "name": "Land Raiders",
           "units": "3 Land Raiders",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             13,
             14,
@@ -48,6 +50,7 @@
           "name": "Scout Infiltrators",
           "units": "4 Space Marine Sniper Scouts, 2 Rhinos",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             17
           ]
@@ -58,6 +61,7 @@
           "name": "Assaults",
           "units": "6 Dark Angels Assault Marines, 1 Dark Angels Captain",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -66,6 +70,7 @@
           "name": "Devastators",
           "units": "4 Dark Angels Devastators plus Transport",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             13,
             14,
@@ -80,6 +85,7 @@
           "name": "Predators",
           "units": "4 Predator Destructors",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             13,
             14,
@@ -92,6 +98,7 @@
           "name": "Siege Breachers",
           "units": "3 Land Raider Ares",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             13,
             14,
@@ -104,6 +111,7 @@
           "name": "Whirlwinds",
           "units": "4 Whirlwinds",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             29
           ]
@@ -119,6 +127,7 @@
           "name": "Deathwing Terminators",
           "units": "4 Deathwing Terminators",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             13,
             14,
@@ -133,6 +142,7 @@
           "name": "Ravenwing Attack",
           "units": "1x Ravenwing Black Knights, 3x Ravenwing Land Speeder",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             13,
             14,
@@ -151,6 +161,7 @@
           "name": "Deathwing Overwatch",
           "units": "4 Deathwing Cyclone Terminators",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             13,
             14
@@ -162,6 +173,7 @@
           "name": "Deathwing Knights",
           "units": "4 Deathwing Knights, 2 Interrogator Chaplains",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": []
         },
         {
@@ -170,6 +182,7 @@
           "name": "Deathwing Dreadnoughts",
           "units": "5 Deathwing Dreadnoughts plus Transport",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -177,6 +190,7 @@
           "id": 522,
           "name": "Ravenwing Support",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         }
       ]
@@ -190,6 +204,7 @@
           "name": "Relic Deimos",
           "units": "4 Predator Executioners, 3 Deimos Vindicator Laser Destroyers",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [
             29
           ]
@@ -199,6 +214,7 @@
           "id": 536,
           "name": "Relic Glaive",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             34
           ]
@@ -214,6 +230,7 @@
           "name": "Ravenwing Nephilim",
           "units": "2 Ravenwing Nephilim Interceptors",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -222,6 +239,7 @@
           "name": "Ravenwing Dark Talon",
           "units": "2 Ravenwing Dark Talons",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -229,6 +247,7 @@
           "id": 542,
           "name": "Thunderhawk Transporter",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             21
           ]
@@ -238,6 +257,7 @@
           "id": 543,
           "name": "Strike Cruiser",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             35,
             36

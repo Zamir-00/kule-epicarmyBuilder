@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Assault",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Four Assault units",
           "upgrades": [
             1,
@@ -33,6 +34,7 @@
           "id": 501,
           "name": "Devastator",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Four Devastator units",
           "upgrades": [
             1,
@@ -52,6 +54,7 @@
           "id": 502,
           "name": "Scout",
           "pts": 150,
+          "cost_pts": 150,
           "units": "Four Scout units",
           "upgrades": [
             1,
@@ -70,6 +73,7 @@
           "id": 503,
           "name": "Tactical",
           "pts": 200,
+          "cost_pts": 200,
           "units": "Four Tactical units",
           "upgrades": [
             1,
@@ -94,6 +98,7 @@
           "id": 510,
           "name": "Sternguard Veteran",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Four Sternguard Veteran units",
           "upgrades": [
             1,
@@ -114,6 +119,7 @@
           "id": 511,
           "name": "Terminator",
           "pts": 350,
+          "cost_pts": 350,
           "units": "Four Terminator units",
           "upgrades": [
             1,
@@ -127,6 +133,7 @@
           "id": 512,
           "name": "Vanguard Assault Veteran",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Four Vanguard Assault Veteran units",
           "upgrades": [
             1,
@@ -143,6 +150,7 @@
           "id": 513,
           "name": "Vanguard Veteran",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Four Vanguard Veteran units",
           "upgrades": [
             1,
@@ -167,6 +175,7 @@
           "id": 520,
           "name": "Bike",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             1,
             2,
@@ -181,6 +190,7 @@
           "id": 521,
           "name": "Land Speeder",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             1,
             2,
@@ -198,6 +208,7 @@
           "id": 522,
           "name": "Strike Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Strike Cruiser",
           "upgrades": [
             16
@@ -213,6 +224,7 @@
           "id": 532,
           "name": "Storm Talon Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "Two Storm Talons"
         },
         {
@@ -220,6 +232,7 @@
           "id": 530,
           "name": "Storm Eagle",
           "pts": 150,
+          "cost_pts": 150,
           "units": "One Storm Eagle"
         },
         {
@@ -227,6 +240,7 @@
           "id": 531,
           "name": "Thunderhawk Gunship",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Thunderhawk Gunship"
         }
       ]
@@ -239,6 +253,7 @@
           "id": 540,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers",
           "upgrades": []
         },
@@ -247,6 +262,7 @@
           "id": 541,
           "name": "Thunderbolt Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Thunderbolt Fighters",
           "upgrades": []
         }
@@ -260,6 +276,7 @@
           "id": 550,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Class Titan",
           "upgrades": []
         },
@@ -268,6 +285,7 @@
           "id": 551,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhound Class Titan",
           "upgrades": []
         }

@@ -16,6 +16,7 @@
           "id": 512,
           "name": "Regimental HQ",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             26,
             27,
@@ -35,6 +36,7 @@
           "id": 513,
           "name": "Infantry Company",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             26,
             27,
@@ -54,6 +56,7 @@
           "id": 514,
           "name": "Mechanised Infantry Company",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [
             26,
             27,
@@ -73,6 +76,7 @@
           "id": 515,
           "name": "Tank Company",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             26,
             27,
@@ -91,6 +95,7 @@
           "id": 516,
           "name": "Super-Heavy Tank Company",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             26,
             27,
@@ -109,6 +114,7 @@
           "id": 517,
           "name": "Artillery Company",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             26,
             27,
@@ -132,6 +138,7 @@
           "id": 500,
           "name": "Rough Rider Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "6 Rough Riders"
         },
@@ -140,6 +147,7 @@
           "id": 501,
           "name": "Storm Trooper Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             36
           ],
@@ -150,6 +158,7 @@
           "id": 502,
           "name": "Artillery Battery",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         },
         {
@@ -157,6 +166,7 @@
           "id": 505,
           "name": "Sentinel Squadron",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [],
           "units": "4 Sentinels"
         },
@@ -165,6 +175,7 @@
           "id": 506,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "2 Deathstrike Missile Launchers"
         },
@@ -173,6 +184,7 @@
           "id": 507,
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -180,6 +192,7 @@
           "id": 508,
           "name": "Orbital Support",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -187,6 +200,7 @@
           "id": 509,
           "name": "Flak Battery",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "3 Hydra"
         },
@@ -195,6 +209,7 @@
           "id": 510,
           "name": "Vulture Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "4 Vultures"
         }
@@ -208,6 +223,7 @@
           "id": 519,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "2 Thunderbolts"
         },
@@ -216,6 +232,7 @@
           "id": 520,
           "name": "Marauder Bombers",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "2 Marauders"
         }
@@ -229,6 +246,7 @@
           "id": 522,
           "name": "Warlord Class Titan",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": []
         },
         {
@@ -236,6 +254,7 @@
           "id": 523,
           "name": "Reaver Class Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -243,6 +262,7 @@
           "id": 524,
           "name": "Warhound Titan",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

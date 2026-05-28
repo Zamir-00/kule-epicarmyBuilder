@@ -19,6 +19,7 @@
           "id": 511,
           "name": "Airborne Regimental HQ",
           "pts": 260,
+          "cost_pts": 260,
           "upgrades": [
             13,
             14,
@@ -47,6 +48,7 @@
           "id": 512,
           "name": "Airborne Infantry Company",
           "pts": 160,
+          "cost_pts": 160,
           "upgrades": [
             13,
             14,
@@ -80,6 +82,7 @@
           "id": 501,
           "name": "Sentinels",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             15,
             40,
@@ -99,6 +102,7 @@
           "id": 502,
           "name": "Airborne Support Platoons",
           "pts": 145,
+          "cost_pts": 145,
           "upgrades": [
             15,
             28,
@@ -123,6 +127,7 @@
           "id": 503,
           "name": "0-1 Veterans",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             15
           ],
@@ -133,6 +138,7 @@
           "id": 504,
           "name": "Airborne Storm Trooper Platoon",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             15
           ],
@@ -143,6 +149,7 @@
           "id": 513,
           "name": "Airborne Ogryn Company",
           "pts": 135,
+          "cost_pts": 135,
           "upgrades": [
             15,
             18,
@@ -159,6 +166,7 @@
           "id": 505,
           "name": "Vulture Punishers",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             15,
             22,
@@ -173,6 +181,7 @@
           "id": 506,
           "name": "Vultures",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             15,
             22,
@@ -190,6 +199,7 @@
           "id": 520,
           "name": "Lightning Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "2 Lightning Strike Fighter"
         },
@@ -198,6 +208,7 @@
           "id": 521,
           "name": "Thunderbolt Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -205,6 +216,7 @@
           "id": 522,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [],
           "units": "2 Marauders"
         },
@@ -213,6 +225,7 @@
           "id": 523,
           "name": "Spacecraft",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         }
       ]

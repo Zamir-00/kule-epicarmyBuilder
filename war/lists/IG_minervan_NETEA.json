@@ -17,6 +17,7 @@
           "id": 517,
           "name": "Artillery Company",
           "pts": 550,
+          "cost_pts": 550,
           "upgrades": [
             14,
             51,
@@ -39,6 +40,7 @@
           "id": 516,
           "name": "Super-heavy Tank Company",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             14,
             51,
@@ -61,6 +63,7 @@
           "id": 515,
           "name": "Tank Company",
           "pts": 425,
+          "cost_pts": 425,
           "upgrades": [
             14,
             51,
@@ -83,6 +86,7 @@
           "id": 514,
           "name": "Tank Demi-Company",
           "pts": 280,
+          "cost_pts": 280,
           "upgrades": [
             14,
             51,
@@ -112,13 +116,15 @@
           "upgrades": [
             14
           ],
-          "pts": 250
+          "pts": 250,
+          "cost_pts": 250
         },
         {
           "string_id": "assault_gun_platoon",
           "id": 511,
           "name": "Assault Gun Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             14
           ],
@@ -129,6 +135,7 @@
           "id": 512,
           "name": "Basilisk Battery",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             14
           ],
@@ -139,6 +146,7 @@
           "id": 509,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14
           ],
@@ -149,6 +157,7 @@
           "id": 527,
           "name": "Griffon Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14
           ],
@@ -159,6 +168,7 @@
           "id": 528,
           "name": "Hellhound platoon",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             14
           ],
@@ -169,6 +179,7 @@
           "id": 529,
           "name": "Destroyer squadron",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14
           ],
@@ -179,6 +190,7 @@
           "id": 506,
           "name": "Flak Battery",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             14
           ],
@@ -189,6 +201,7 @@
           "id": 505,
           "name": "Mechanized Platoon",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             14,
             71
@@ -200,6 +213,7 @@
           "id": 504,
           "name": "Salamander Scout Platoon",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             14,
             71
@@ -211,6 +225,7 @@
           "id": 508,
           "name": "Storm Trooper Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14,
             70
@@ -224,13 +239,15 @@
           "upgrades": [
             14
           ],
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "tank_platoon",
           "id": 501,
           "name": "Tank Platoon",
           "pts": 280,
+          "cost_pts": 280,
           "upgrades": [
             14
           ]
@@ -240,6 +257,7 @@
           "id": 507,
           "name": "Vulture Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             14
           ],
@@ -255,6 +273,7 @@
           "id": 520,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2x Marauders"
         },
         {
@@ -262,13 +281,15 @@
           "id": 519,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2x Thunderbolts"
         },
         {
           "string_id": "orbital_support",
           "id": 510,
           "name": "Orbital Support",
-          "pts": 150
+          "pts": 150,
+          "cost_pts": 150
         }
       ]
     },
@@ -280,6 +301,7 @@
           "id": 523,
           "name": "Reaver",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Class Titan"
         },
         {
@@ -287,6 +309,7 @@
           "id": 524,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Class Titan"
         },
         {
@@ -294,6 +317,7 @@
           "id": 526,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhound Class Titans"
         },
         {
@@ -301,6 +325,7 @@
           "id": 522,
           "name": "Warlord",
           "pts": 825,
+          "cost_pts": 825,
           "units": "1 Warlord Class Titan"
         }
       ]

@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Baron Retinue",
           "pts": 600,
+          "cost_pts": 600,
           "units": "1 Baron, 5 Paladins",
           "upgrades": [
             8
@@ -27,6 +28,7 @@
           "id": 501,
           "name": "Knight Household",
           "pts": 500,
+          "cost_pts": 500,
           "units": "6 Paladins",
           "upgrades": [
             8,
@@ -43,6 +45,7 @@
           "id": 510,
           "name": "Support Household",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             6,
             7,
@@ -54,6 +57,7 @@
           "id": 511,
           "name": "Lancer Household",
           "pts": 300,
+          "cost_pts": 300,
           "units": "3 Lancers",
           "upgrades": [
             13
@@ -64,6 +68,7 @@
           "id": 512,
           "name": "Errant Household",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             8,
             13
@@ -79,6 +84,7 @@
           "id": 520,
           "name": "AA Gun Battery",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Heavy AA Guns, 3 tractors",
           "upgrades": []
         },
@@ -87,6 +93,7 @@
           "id": 521,
           "name": "Artillery Battery",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Earthshaker platforms, 3 tractors",
           "upgrades": []
         },
@@ -95,6 +102,7 @@
           "id": 522,
           "name": "Militia",
           "pts": 125,
+          "cost_pts": 125,
           "units": "6 Militia units",
           "upgrades": [
             5
@@ -105,6 +113,7 @@
           "id": 523,
           "name": "Field Guns",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 light artillery units, 4 tractors",
           "upgrades": []
         },
@@ -113,6 +122,7 @@
           "id": 524,
           "name": "Rapiers",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Rapier units, 4 tractors",
           "upgrades": []
         },
@@ -121,6 +131,7 @@
           "id": 525,
           "name": "Light Tank Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "units": "6 Siegfried light tanks",
           "upgrades": []
         }
@@ -134,6 +145,7 @@
           "id": 530,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers",
           "upgrades": []
         },
@@ -142,6 +154,7 @@
           "id": 531,
           "name": "Thunderbolt Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolt Fighters",
           "upgrades": []
         }

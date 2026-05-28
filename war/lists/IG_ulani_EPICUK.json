@@ -14,6 +14,7 @@
           "id": 521,
           "name": "Regimental HQ",
           "pts": 525,
+          "cost_pts": 525,
           "units": "Ulani SC Command Tank",
           "upgrades": [
             26,
@@ -35,6 +36,7 @@
           "id": 522,
           "name": "Tank Company",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [
             14,
             26,
@@ -56,6 +58,7 @@
           "id": 523,
           "name": "Conqueror Company",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Leman Russ Conquerors",
           "upgrades": []
         }
@@ -69,6 +72,7 @@
           "id": 501,
           "name": "Light Artillery Platoon",
           "pts": 100,
+          "cost_pts": 100,
           "units": "3 Griffons",
           "upgrades": []
         },
@@ -77,6 +81,7 @@
           "id": 502,
           "name": "Medium Artillery Platoon",
           "pts": 225,
+          "cost_pts": 225,
           "units": "3 Basilisks",
           "upgrades": []
         },
@@ -85,6 +90,7 @@
           "id": 503,
           "name": "Scout Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 Salamander Scout Tanks",
           "upgrades": []
         },
@@ -93,6 +99,7 @@
           "id": 505,
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -100,6 +107,7 @@
           "id": 506,
           "name": "Anti-tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Leman Russ Tank Hunters",
           "upgrades": []
         },
@@ -108,6 +116,7 @@
           "id": 507,
           "name": "Flak Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Hydra",
           "upgrades": []
         },
@@ -116,6 +125,7 @@
           "id": 509,
           "name": "Hellhound Support",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Hellhound Flame Tanks",
           "upgrades": [
             36
@@ -131,6 +141,7 @@
           "id": 531,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolts",
           "upgrades": []
         },
@@ -139,6 +150,7 @@
           "id": 532,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauders",
           "upgrades": []
         },
@@ -147,6 +159,7 @@
           "id": 504,
           "name": "Orbital Support",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         }
       ]

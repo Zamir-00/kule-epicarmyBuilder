@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Wraithgate",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -30,6 +31,7 @@
           "name": "Great Court of the Young King",
           "units": "One Avatar, escorted by the Court of the Young King. (All units in the Great Court gain the Invulnerable Save special ability if they do not already possess it.)",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             15,
             16,
@@ -48,6 +50,7 @@
           "id": 511,
           "name": "Aspect Warriors Warhost",
           "pts": -100,
+          "cost_pts": -100,
           "upgrades": [
             41,
             42,
@@ -65,6 +68,7 @@
           "id": 522,
           "name": "Greater Aspect Warrior Troupe",
           "pts": -75,
+          "cost_pts": -75,
           "upgrades": [
             30,
             41,
@@ -77,6 +81,7 @@
           "id": 521,
           "name": "Lesser Aspect Warrior Troupe",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             30,
             41,
@@ -89,6 +94,7 @@
           "id": 520,
           "name": "Ranger Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11
           ]
@@ -98,6 +104,7 @@
           "id": 523,
           "name": "Storm Serpent Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             36
           ]
@@ -107,6 +114,7 @@
           "id": 524,
           "name": "Swords of Vaul Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             30,
             31,
@@ -123,6 +131,7 @@
           "id": 530,
           "name": "Wraithship",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -130,6 +139,7 @@
           "id": 531,
           "name": "Dragonship",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -137,6 +147,7 @@
           "id": 533,
           "name": "Revenant Titans",
           "pts": 650,
+          "cost_pts": 650,
           "units": "2 Revenant Titans",
           "upgrades": []
         },
@@ -146,6 +157,7 @@
           "name": "Nightwings",
           "units": "3 Nightwing Interceptors",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -153,6 +165,7 @@
           "id": 535,
           "name": "Phoenix Bombers",
           "pts": 400,
+          "cost_pts": 400,
           "units": "3 Phoenix Bombers",
           "upgrades": []
         },
@@ -161,6 +174,7 @@
           "id": 536,
           "name": "Vampire Hunters",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Vampire Hunters",
           "upgrades": []
         },
@@ -169,6 +183,7 @@
           "id": 537,
           "name": "Vampire Raider",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Vampire Raider",
           "upgrades": []
         }

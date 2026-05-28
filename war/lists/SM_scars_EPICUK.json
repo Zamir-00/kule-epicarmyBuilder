@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Assault",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault units",
           "upgrades": [
             11,
@@ -30,6 +31,7 @@
           "id": 502,
           "name": "Bike",
           "pts": 375,
+          "cost_pts": 375,
           "upgrades": [
             11,
             12,
@@ -42,6 +44,7 @@
           "id": 505,
           "name": "Land Speeder",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -54,6 +57,7 @@
           "id": 506,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Landing Craft"
         },
         {
@@ -61,6 +65,7 @@
           "id": 507,
           "name": "Predators",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -75,6 +80,7 @@
           "id": 508,
           "name": "Scout",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scouts plus Transport",
           "upgrades": [
             11,
@@ -91,6 +97,7 @@
           "id": 509,
           "name": "Spaceship",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             29,
             30
@@ -101,6 +108,7 @@
           "id": 510,
           "name": "Tactical",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Tactical units plus Transport",
           "upgrades": [
             11,
@@ -117,6 +125,7 @@
           "id": 511,
           "name": "Terminator",
           "pts": 600,
+          "cost_pts": 600,
           "units": "4 Terminator units and 4 Land Raiders",
           "upgrades": [
             11,
@@ -130,6 +139,7 @@
           "id": 512,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Thunderhawk gunship"
         },
         {
@@ -137,6 +147,7 @@
           "id": 514,
           "name": "Whirlwind",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Whirlwinds",
           "upgrades": [
             11,
@@ -156,6 +167,7 @@
           "id": 551,
           "name": "Thunderbolts",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolt Fighters"
         },
         {
@@ -163,6 +175,7 @@
           "id": 552,
           "name": "Marauders",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers"
         },
         {
@@ -170,6 +183,7 @@
           "id": 555,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhound Titans"
         },
         {
@@ -177,6 +191,7 @@
           "id": 556,
           "name": "Warhound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Titan"
         }
       ]

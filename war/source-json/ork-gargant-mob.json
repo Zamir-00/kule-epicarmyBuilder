@@ -137,10 +137,15 @@
     {
       "name": "Banna",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "Leader"
@@ -156,10 +161,15 @@
     {
       "name": "Big Gun or Skorcha Head",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "0-1x Big Gun",
@@ -203,10 +213,15 @@
     {
       "name": "Deth Kannon",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Deth Kannon",
@@ -227,10 +242,15 @@
     {
       "name": "'Eavy Armour",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "Increase the unit's starting damage capacity by D3."
@@ -246,10 +266,15 @@
     {
       "name": "Flak Gunz",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Flak Gunz",
@@ -268,10 +293,15 @@
     {
       "name": "Gatling Cannon",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Gatling Cannon",
@@ -290,10 +320,15 @@
     {
       "name": "Gork or Mork Head",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "The unit may add its current DC to the unit count of all Ork formations for the purposes of Mob Rule , so long as it has a line of fire to and is within 15cm of a single unit in the formation. If the unit is destroyed all Ork formations receive a Blast marker if a single unit in the formation is within 15cm of the unit and has a line of fire to it."
@@ -309,10 +344,15 @@
     {
       "name": "Kart",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "For every point of starting damage capacity the unit may transport: two infantry units without Jump Packs or Mounted , light vehicle units, Killa Kans, or Dreadnoughts; plus one unit of Grotz. Light vehicles and Dreadnoughts count as two units each. A maximum of one unit of Big Gunz may be transported."
@@ -328,10 +368,15 @@
     {
       "name": "Krooz Missiles",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "2x Krooz Missile",
@@ -354,10 +399,15 @@
     {
       "name": "Krusha",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Krusha",
@@ -379,10 +429,15 @@
     {
       "name": "Lifta-Droppa",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Lifta-Droppa",
@@ -414,10 +469,15 @@
     {
       "name": "Loadz o' Guns",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "2-4x Big Gun",
@@ -467,10 +527,15 @@
     {
       "name": "Mega-Choppa",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Mega-Choppa",
@@ -500,10 +565,15 @@
     {
       "name": "Mega-Lobba",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Mega-Lobba",
@@ -522,10 +592,15 @@
     {
       "name": "Mekboy Big Boss",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Kustom Blastas",
@@ -549,10 +624,15 @@
     {
       "name": "Oddboy",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "0-1x Supa-Zzap-Gun",
@@ -586,10 +666,15 @@
     {
       "name": "Ordz Duruk",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "D3 Power Fields"
@@ -605,10 +690,15 @@
     {
       "name": "Soopagun",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Soopagun",
@@ -629,10 +719,15 @@
     {
       "name": "Snappa",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Snappa",
@@ -665,10 +760,15 @@
     {
       "name": "Supa-Lifta-Droppa",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Supa-Lifta-Droppa",
@@ -689,10 +789,15 @@
     {
       "name": "Supa-Zzap-Gun",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Supa-Zzap-Gun",
@@ -713,10 +818,15 @@
     {
       "name": "Twin Soopagun",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Twin Soopagun",
@@ -737,10 +847,15 @@
     {
       "name": "Ultra-Lobba",
       "type": "CH",
+      "type_code": "CH",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Ultra-Lobba",
@@ -759,10 +874,15 @@
     {
       "name": "Big Gunz",
       "type": "INF",
+      "type_code": "INF",
       "speed": "10cm",
+      "speed_cm": 10,
       "armour": "-",
+      "armour_save": null,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Big Gun",
@@ -781,10 +901,15 @@
     {
       "name": "Boyz",
       "type": "INF",
+      "type_code": "INF",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "6+",
+      "armour_save": 6,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "6+",
+      "ff_target": 6,
       "weapons": [
         {
           "name": "Big Shoota",
@@ -803,10 +928,15 @@
     {
       "name": "Grotz",
       "type": "INF",
+      "type_code": "INF",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "-",
+      "armour_save": null,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "6+",
+      "ff_target": 6,
       "weapons": [
         {
           "name": "Shootas",
@@ -828,10 +958,15 @@
     {
       "name": "Nobz",
       "type": "INF",
+      "type_code": "INF",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "2x Big Shoota",
@@ -860,10 +995,15 @@
     {
       "name": "Deth Kopta",
       "type": "LV",
+      "type_code": "LV",
       "speed": "35cm",
+      "speed_cm": 35,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Twin Big Shoota",
@@ -884,10 +1024,15 @@
     {
       "name": "Dreadnought",
       "type": "AV",
+      "type_code": "AV",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "2x Big Shoota",
@@ -917,10 +1062,15 @@
     {
       "name": "Flakwagon",
       "type": "AV",
+      "type_code": "AV",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "5+",
+      "cc_target": 5,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Flak Gun",
@@ -942,10 +1092,15 @@
     {
       "name": "Killa Kan",
       "type": "AV",
+      "type_code": "AV",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "5+",
+      "cc_target": 5,
       "ff": "6+",
+      "ff_target": 6,
       "weapons": [
         {
           "name": "Big Shoota",
@@ -975,10 +1130,15 @@
     {
       "name": "Stompa",
       "type": "AV",
+      "type_code": "AV",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "2-3x Big Gun",
@@ -1022,10 +1182,15 @@
     {
       "name": "Battlefortress",
       "type": "WE",
+      "type_code": "WE",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "4x Twin Big Shoota",
@@ -1054,10 +1219,15 @@
     {
       "name": "Gargant",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Gaze of Mork",
@@ -1088,10 +1258,15 @@
     {
       "name": "Great Gargant",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Gaze of Mork",
@@ -1150,10 +1325,15 @@
     {
       "name": "Gunfortress",
       "type": "WE",
+      "type_code": "WE",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "5x Twin Big Shoota",
@@ -1182,10 +1362,15 @@
     {
       "name": "Mega Gargant",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Gaze of Mork",
@@ -1293,10 +1478,15 @@
     {
       "name": "Supa-Stompa",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Gaze of Mork",
@@ -1327,10 +1517,15 @@
     {
       "name": "Fighta Bommer",
       "type": "AC",
+      "type_code": "AC",
       "speed": "Fighter-Bomber",
+      "speed_cm": null,
       "armour": "6+",
+      "armour_save": 6,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Heavy Shootas",
@@ -1355,10 +1550,15 @@
     {
       "name": "Bommer",
       "type": "AC/WE",
+      "type_code": "AC/WE",
       "speed": "Bomber",
+      "speed_cm": null,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Gun Turrets",
@@ -1389,10 +1589,15 @@
     {
       "name": "Battlekroozer",
       "type": "SC",
+      "type_code": "SC",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Orbital Bombardment",
@@ -1417,10 +1622,15 @@
     {
       "name": "Kill Kroozer",
       "type": "SC",
+      "type_code": "SC",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Orbital Bombardment",
@@ -1441,10 +1651,15 @@
     {
       "name": "KillKroozer",
       "type": "SC",
+      "type_code": "SC",
       "speed": "n/a",
+      "speed_cm": null,
       "armour": "n/a",
+      "armour_save": null,
       "cc": "n/a",
+      "cc_target": null,
       "ff": "n/a",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Orbital Bombardment",
@@ -1460,10 +1675,15 @@
     {
       "name": "Supa Stompa",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Soopagun",

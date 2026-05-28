@@ -18,6 +18,7 @@
           "id": 500,
           "name": "Forward Operating Base",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [],
           "units": "1 Forward Operating Base"
         }
@@ -31,6 +32,7 @@
           "id": 511,
           "name": "Mirali HQ Company",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             12,
             13,
@@ -52,6 +54,7 @@
           "id": 512,
           "name": "Air Cavalry Company",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             12,
             14,
@@ -75,6 +78,7 @@
           "id": 501,
           "name": "Vulture Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "4 Vultures"
         },
@@ -83,6 +87,7 @@
           "id": 502,
           "name": "Vulture Punisher Squadron",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [],
           "units": "4 Vulture Punishers"
         },
@@ -91,6 +96,7 @@
           "id": 503,
           "name": "Vulture Slick Squadron",
           "pts": 125,
+          "cost_pts": 125,
           "upgrades": [],
           "units": "4 Vulture Slicks"
         },
@@ -99,6 +105,7 @@
           "id": 504,
           "name": "Regimental Artillery Battery",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "3 Howitzer Weapons Platforms, 3 Gun Emplacements"
         },
@@ -107,6 +114,7 @@
           "id": 505,
           "name": "Regimental Anti-Air Battery",
           "pts": 125,
+          "cost_pts": 125,
           "upgrades": [],
           "units": "3 Blitzen Weapons Platforms, 3 Gun Emplacements"
         },
@@ -115,6 +123,7 @@
           "id": 506,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "2 Deathstrike Erector-Launchers, 2 Gun Emplacements"
         },
@@ -123,6 +132,7 @@
           "id": 507,
           "name": "Firebase Defense Company",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [],
           "units": "Commander, 8 Infantry Units, 3 Bunkers"
         },
@@ -131,6 +141,7 @@
           "id": 508,
           "name": "Mirali Trackers Company",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "6 Mirali Trackers"
         }
@@ -144,6 +155,7 @@
           "id": 521,
           "name": "Thunderbolt Flight",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "2 Thunderbolt Fighters"
         },
@@ -152,6 +164,7 @@
           "id": 522,
           "name": "Lightning Strike Flight",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "2 Lightning Strike Fighters"
         },
@@ -160,6 +173,7 @@
           "id": 523,
           "name": "Marauder",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "1 Marauder Heavy Bomber"
         },
@@ -168,6 +182,7 @@
           "id": 524,
           "name": "Marauder Destroyer",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "1 Mirali Heavy Marauder Destroyer"
         }

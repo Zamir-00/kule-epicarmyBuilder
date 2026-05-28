@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Hive Nexus Swarm (3-5 Instinctive Swarms)",
           "pts": 400,
+          "cost_pts": 400,
           "units": "Dagon Dominatrix",
           "upgrades": [
             101,
@@ -40,6 +41,7 @@
           "id": 502,
           "name": "Major Swarm (3-5 Instinctive Swarms)",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             101,
             102,
@@ -66,6 +68,7 @@
           "id": 503,
           "name": "Minor Swarm (2-4 Instinctive Swarms)",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             101,
             102,
@@ -95,6 +98,7 @@
           "id": 509,
           "name": "Attack Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             101,
             102,
@@ -115,6 +119,7 @@
           "id": 504,
           "name": "Infestation Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             101,
             102,
@@ -130,6 +135,7 @@
           "id": 505,
           "name": "Harasser Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             109,
             107,
@@ -146,6 +152,7 @@
           "id": 506,
           "name": "Genestealer Swarm",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             140,
             141
@@ -156,6 +163,7 @@
           "id": 507,
           "name": "Lictor Swarm",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             142
           ]
@@ -170,6 +178,7 @@
           "id": 510,
           "name": "Bio-Titan",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -177,6 +186,7 @@
           "id": 511,
           "name": "Bio-Vessel",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         }
       ]

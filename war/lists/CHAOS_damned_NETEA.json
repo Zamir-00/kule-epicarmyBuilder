@@ -17,6 +17,7 @@
           "id": 531,
           "name": "Stigmatus Coven",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             11,
             12,
@@ -41,6 +42,7 @@
           "id": 536,
           "name": "Plague Zombie Infestation",
           "pts": 175,
+          "cost_pts": 175,
           "units": "3 + 2D6 Plague Zombie Units",
           "upgrades": []
         },
@@ -49,6 +51,7 @@
           "id": 537,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             51,
             52
@@ -64,6 +67,7 @@
           "id": 501,
           "name": "Artillery Battery",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [],
           "units": "4 Basilisks"
         },
@@ -72,6 +76,7 @@
           "id": 502,
           "name": "Armoured Company",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [],
           "units": "6 Leman Russ"
         },
@@ -80,6 +85,7 @@
           "id": 503,
           "name": "Rough Rider Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "6 Rough Riders"
         },
@@ -88,6 +94,7 @@
           "id": 504,
           "name": "Sentinel Squadron",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [],
           "units": "4 Sentinels"
         }
@@ -101,6 +108,7 @@
           "id": 541,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "2 Thunderbolts"
         },
@@ -109,6 +117,7 @@
           "id": 542,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [],
           "units": "2 Marauders"
         }
@@ -122,6 +131,7 @@
           "id": 551,
           "name": "Khorne Lord of Battles",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             54
           ]
@@ -131,6 +141,7 @@
           "id": 552,
           "name": "Khorne Assault Engines",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Demonic Assault Engines",
           "upgrades": []
         },
@@ -139,6 +150,7 @@
           "id": 553,
           "name": "Nurgle Plague Tower",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             56
           ]
@@ -148,6 +160,7 @@
           "id": 554,
           "name": "Nurgle Contagion Towers",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Contagion Towers",
           "upgrades": []
         },
@@ -156,6 +169,7 @@
           "id": 555,
           "name": "Slaanesh Scout Titans",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             58,
             59
@@ -166,6 +180,7 @@
           "id": 556,
           "name": "Slaanesh Daemon Knights",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Daemon Knights",
           "upgrades": []
         },
@@ -174,6 +189,7 @@
           "id": 557,
           "name": "Tzeentch Firelord",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             61
           ]
@@ -183,6 +199,7 @@
           "id": 558,
           "name": "Tzeentch Doomwings",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Doomwings",
           "upgrades": []
         },
@@ -191,6 +208,7 @@
           "id": 559,
           "name": "Tzeentch Silver Towers",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Silver Towers",
           "upgrades": []
         },
@@ -199,6 +217,7 @@
           "id": 560,
           "name": "Hellfire Cannons",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Hellfire Cannons",
           "upgrades": []
         },
@@ -207,6 +226,7 @@
           "id": 561,
           "name": "Defilers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Defilers",
           "upgrades": []
         }

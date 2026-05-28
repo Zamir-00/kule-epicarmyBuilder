@@ -19,6 +19,7 @@
           "id": 500,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             12
           ]
@@ -33,6 +34,7 @@
           "id": 501,
           "name": "Hounds Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "units": "8 Chaos Space Marine Bike units",
           "upgrades": [
             13,
@@ -44,6 +46,7 @@
           "id": 502,
           "name": "Terminator Retinue",
           "pts": 100,
+          "cost_pts": 100,
           "units": "",
           "upgrades": [
             50,
@@ -62,6 +65,7 @@
           "id": 503,
           "name": "Renegade Warband",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             13,
             14,
@@ -86,6 +90,7 @@
           "id": 510,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             51,
             19,
@@ -98,20 +103,23 @@
           "string_id": "spaceship",
           "id": 511,
           "name": "Spaceship",
-          "pts": 0
+          "pts": 0,
+          "cost_pts": 0
         },
         {
           "string_id": "chaos_thunderhawk",
           "id": 512,
           "name": "Chaos Thunderhawk",
           "units": "1 Chaos Thunderhawk Gunship",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "chosen",
           "id": 513,
           "name": "Chosen",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             15,
             17,
@@ -124,6 +132,7 @@
           "name": "Khornate Cult Marines",
           "units": "8 Khorne Berzerker units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -139,6 +148,7 @@
           "name": "Tzeenchian Cult Marines",
           "units": "6 Thousand Sons units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -154,6 +164,7 @@
           "name": "Nurglesque Cult Marines",
           "units": "6 Plague Marine units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -169,6 +180,7 @@
           "name": "Slaaneeshi Cult Marines",
           "units": "6 Noise Marine units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -184,6 +196,7 @@
           "name": "Defiler Assaut Force",
           "units": "4 Defilers",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -192,6 +205,7 @@
           "name": "Brass Scorpion Onlsaught",
           "units": "2 Brass Scorpions",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         },
         {
@@ -200,6 +214,7 @@
           "name": "Silver Tower Circle",
           "units": "4 Silver Towers",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -208,6 +223,7 @@
           "name": "Blight Drone Swarm",
           "units": "4 Blight Drones",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -216,6 +232,7 @@
           "name": "Daemon Knight Pavane",
           "units": "4 Daemon Knights",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -223,6 +240,7 @@
           "id": 524,
           "name": "Raptor Cult",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             54,
             13
@@ -237,13 +255,15 @@
           "string_id": "three_hellblade_interceptors",
           "id": 531,
           "name": "Three Hellblade Interceptors",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "two_hell_talon_fighter_bombers",
           "id": 532,
           "name": "Two Hell Talon Fighter-Bombers",
-          "pts": 225
+          "pts": 225,
+          "cost_pts": 225
         }
       ]
     }

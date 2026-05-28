@@ -14,6 +14,7 @@
           "id": 500,
           "name": "World Eaters Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             31,
             32
@@ -29,6 +30,7 @@
           "id": 501,
           "name": "World Eaters Berzerker Retinue",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 World Eater Legionaires, 4 Khorne Berzerkers",
           "upgrades": [
             12,
@@ -48,6 +50,7 @@
           "id": 502,
           "name": "World Eaters Bike Retinue",
           "pts": 100,
+          "cost_pts": 100,
           "units": "1 Skull Lord character",
           "upgrades": [
             24,
@@ -61,6 +64,7 @@
           "id": 503,
           "name": "World Eaters Terminator Retinue",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             26,
             14,
@@ -74,6 +78,7 @@
           "id": 504,
           "name": "World Eaters Possessed Retinue",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 World Eaters Possessed, Chaos Pact",
           "upgrades": []
         },
@@ -82,6 +87,7 @@
           "id": 505,
           "name": "World Eaters Chosen Retinue",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 World Eaters Chosen",
           "upgrades": [
             21,
@@ -106,6 +112,7 @@
           "id": 511,
           "name": "Bloodpack",
           "pts": 375,
+          "cost_pts": 375,
           "units": "5 Khorne berzerkers, 3 Slaughterfiends",
           "upgrades": []
         },
@@ -114,6 +121,7 @@
           "id": 512,
           "name": "Defiler Engines",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             12,
             13
@@ -124,6 +132,7 @@
           "id": 513,
           "name": "Juggernauts",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             27
           ]
@@ -133,6 +142,7 @@
           "id": 514,
           "name": "Khorne Assault Engines",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             12,
             13,
@@ -145,6 +155,7 @@
           "id": 515,
           "name": "Khorne Support Engines",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             12,
             13,
@@ -162,6 +173,7 @@
           "id": 521,
           "name": "Greater Brass Scorpions",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             28
           ]
@@ -171,6 +183,7 @@
           "id": 522,
           "name": "Lords of Battle",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             40,
             41
@@ -181,6 +194,7 @@
           "id": 523,
           "name": "Banelord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "units": "1 Lord of Battle",
           "upgrades": [
             30
@@ -196,6 +210,7 @@
           "id": 531,
           "name": "Three Hellblade Interceptors",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -203,6 +218,7 @@
           "id": 532,
           "name": "Two Helltalon Fighter Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -215,6 +231,7 @@
           "id": 541,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -222,6 +239,7 @@
           "id": 542,
           "name": "World Eaters Battle Barge",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

@@ -17,6 +17,7 @@
           "id": 507,
           "name": "Blitz Brigade",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             81,
             53,
@@ -36,6 +37,7 @@
           "id": 508,
           "name": "Blitz Brigade (Big)",
           "pts": -30,
+          "cost_pts": -30,
           "upgrades": [
             81,
             53,
@@ -55,6 +57,7 @@
           "id": 509,
           "name": "Blitz Brigade ('Uge)",
           "pts": -70,
+          "cost_pts": -70,
           "upgrades": [
             81,
             53,
@@ -74,6 +77,7 @@
           "id": 520,
           "name": "Kroozer",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             81
           ]
@@ -83,6 +87,7 @@
           "id": 504,
           "name": "Kult of Speed",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             81,
             53,
@@ -101,6 +106,7 @@
           "id": 505,
           "name": "Kult of Speed (Big)",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             81,
             53,
@@ -119,6 +125,7 @@
           "id": 506,
           "name": "Kult of Speed ('Uge)",
           "pts": -100,
+          "cost_pts": -100,
           "upgrades": [
             81,
             53,
@@ -137,6 +144,7 @@
           "id": 513,
           "name": "Mekboy Gunzmob",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             81,
             43,
@@ -153,6 +161,7 @@
           "id": 514,
           "name": "Mekboy Gunzmob (Big)",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             81,
             43,
@@ -169,6 +178,7 @@
           "id": 515,
           "name": "Mekboy Gunzmob ('Uge)",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             81,
             43,
@@ -185,6 +195,7 @@
           "id": 510,
           "name": "Mekboy Stompamob",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             81,
             57,
@@ -201,6 +212,7 @@
           "id": 511,
           "name": "Mekboy Stompamob (Big)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             81,
             57,
@@ -217,6 +229,7 @@
           "id": 512,
           "name": "Mekboy Stompamob ('Uge)",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             81,
             57,
@@ -232,6 +245,7 @@
           "id": 503,
           "name": "Stormboyz Warhorde",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             81,
             52,
@@ -247,6 +261,7 @@
           "id": 550,
           "name": "Kommando Warhorde",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             81,
             51,
@@ -262,6 +277,7 @@
           "id": 500,
           "name": "Warband",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Nobz, 6 Boyz, 2 Grotz",
           "upgrades": [
             81,
@@ -294,6 +310,7 @@
           "id": 501,
           "name": "Warband (Big)",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Nobz, 12 Boyz, 4 Grotz",
           "upgrades": [
             81,
@@ -326,6 +343,7 @@
           "id": 502,
           "name": "Warband ('Uge)",
           "pts": 500,
+          "cost_pts": 500,
           "units": "6 Nobz, 18 Boyz, 6 Grotz",
           "upgrades": [
             81,
@@ -363,6 +381,7 @@
           "id": 517,
           "name": "Fighta Skwadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             49,
             81
@@ -373,6 +392,7 @@
           "id": 518,
           "name": "Landa",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             81
           ]
@@ -382,6 +402,7 @@
           "id": 522,
           "name": "Gargant",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             81
           ]
@@ -391,6 +412,7 @@
           "id": 523,
           "name": "Great Gargant",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": [
             81
           ]

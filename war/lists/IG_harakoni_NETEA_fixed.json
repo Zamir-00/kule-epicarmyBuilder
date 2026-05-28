@@ -13,6 +13,7 @@
           "id": 532,
           "name": "Strike Company",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Commander, 7 Warhawks, 2 Stormtroopers",
           "upgrades": [
             11,
@@ -30,6 +31,7 @@
           "id": 533,
           "name": "Airmobile Company",
           "pts": 325,
+          "cost_pts": 325,
           "units": "1 Commander, 3 Warhawks, 2 Stormtroopers, 3 Valkyries",
           "upgrades": [
             11,
@@ -48,6 +50,7 @@
           "id": 534,
           "name": "Storm Company",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Commander, 3 Warhawks, 4 Stormtroopers",
           "upgrades": [
             11,
@@ -70,6 +73,7 @@
           "id": 535,
           "name": "Reconnaissance Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -77,6 +81,7 @@
           "id": 536,
           "name": "Demolition Specialists",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             16,
             21
@@ -88,6 +93,7 @@
           "id": 537,
           "name": "Tank Hunter Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             22,
             23,
@@ -99,6 +105,7 @@
           "id": 538,
           "name": "Light Artillery Battery",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Support Sentinels"
         }
       ]
@@ -111,6 +118,7 @@
           "id": 539,
           "name": "Marauder Heavy Bomber",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "1 Heavy Bomber"
         },
@@ -119,6 +127,7 @@
           "id": 540,
           "name": "Marauder Destroyer",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "1 Marauder Destroyer"
         },
@@ -127,6 +136,7 @@
           "id": 541,
           "name": "Marauder Spectre",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [],
           "units": "1 Maurader Spectre"
         },
@@ -135,6 +145,7 @@
           "id": 542,
           "name": "Spacecraft",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -142,6 +153,7 @@
           "id": 543,
           "name": "Fighter Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             31
           ]
@@ -151,6 +163,7 @@
           "id": 544,
           "name": "Linebreaker Formation",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "6 Imperial Guard Infantry, 3 Chimeras"
         }

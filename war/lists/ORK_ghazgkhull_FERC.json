@@ -14,6 +14,7 @@
           "id": 500,
           "name": "Bande de Guerre",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Nobz, 6 Boyz, 2 Grots",
           "upgrades": [
             81,
@@ -43,6 +44,7 @@
           "id": 501,
           "name": "Bande de Guerre (Mastok')",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Nobz, 12 Boyz, 4 Grots",
           "upgrades": [
             81,
@@ -72,6 +74,7 @@
           "id": 502,
           "name": "Bande de Guerre (Tr&egrave; Mastok')",
           "pts": 500,
+          "cost_pts": 500,
           "units": "6 Nobz, 18 Boyz, 6 Grots",
           "upgrades": [
             81,
@@ -101,6 +104,7 @@
           "id": 503,
           "name": "Bande de Chokboyz",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             52,
             51,
@@ -115,6 +119,7 @@
           "id": 531,
           "name": "Bande de Kommandos",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             51
           ]
@@ -124,6 +129,7 @@
           "id": 504,
           "name": "Kulte d'la Vitesse",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             53,
             12,
@@ -139,6 +145,7 @@
           "id": 505,
           "name": "Kulte d'la Vitesse (Mastok')",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             53,
             12,
@@ -154,6 +161,7 @@
           "id": 506,
           "name": "Kulte d'la Vitesse (Tr&egrave; Mastok')",
           "pts": -100,
+          "cost_pts": -100,
           "upgrades": [
             53,
             12,
@@ -169,6 +177,7 @@
           "id": 507,
           "name": "Brigade Blitz",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             53,
             54,
@@ -185,6 +194,7 @@
           "id": 508,
           "name": "Brigade Blitz (Mastok')",
           "pts": -30,
+          "cost_pts": -30,
           "upgrades": [
             53,
             54,
@@ -201,6 +211,7 @@
           "id": 509,
           "name": "Brigade Blitz (Tr&egrave; Mastok')",
           "pts": -70,
+          "cost_pts": -70,
           "upgrades": [
             53,
             54,
@@ -217,6 +228,7 @@
           "id": 510,
           "name": "Bande de Krabouillators",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             57,
             60,
@@ -229,6 +241,7 @@
           "id": 511,
           "name": "Bande de Krabouillators (Mastok')",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             57,
             60,
@@ -241,6 +254,7 @@
           "id": 512,
           "name": "Bande de Krabouillators (Tr&egrave; Mastok')",
           "pts": -10,
+          "cost_pts": -10,
           "upgrades": [
             57,
             60,
@@ -253,6 +267,7 @@
           "id": 530,
           "name": "Bande du Super Krabouillator",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             57,
             60,
@@ -265,6 +280,7 @@
           "id": 513,
           "name": "Batterie de Grokalibr'",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             81,
             56,
@@ -279,6 +295,7 @@
           "id": 514,
           "name": "Batterie de Grokalibr' (Mastok')",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             81,
             56,
@@ -293,6 +310,7 @@
           "id": 515,
           "name": "Batterie de Grokalibr' (Tr&egrave; Mastok')",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             81,
             56,
@@ -312,6 +330,7 @@
           "id": 517,
           "name": "Escadron de Chassa-Bombas",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             49
           ]
@@ -321,6 +340,7 @@
           "id": 518,
           "name": "Vesso de Debark'ment",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         },
         {
@@ -328,6 +348,7 @@
           "id": 520,
           "name": "Kroiseur Kitu",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -335,6 +356,7 @@
           "id": 521,
           "name": "Kroiseur d'la Mort",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         },
         {
@@ -342,6 +364,7 @@
           "id": 522,
           "name": "Gargant",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             81
           ]
@@ -351,6 +374,7 @@
           "id": 523,
           "name": "Grand Gargant",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": [
             81
           ]

@@ -15,6 +15,7 @@
           "name": "Armored Cadre",
           "units": "6 Hammerhead Gunships",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             10,
             11,
@@ -30,6 +31,7 @@
           "name": "Mechanised Cadre",
           "units": "2 Hammerhead Gunships, 1 Skyray",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             11,
             12,
@@ -49,6 +51,7 @@
           "name": "Harassment Cadre",
           "units": "6 Stealth Battlesuit units",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             15
           ]
@@ -58,6 +61,7 @@
           "id": 511,
           "name": "Recon Cadre",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -65,6 +69,7 @@
           "id": 512,
           "name": "Scorpionfish Cadre",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             10,
             11,
@@ -77,6 +82,7 @@
           "name": "Sentry Drone Turrets",
           "units": "4 Sentry Drone turrets",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": []
         },
         {
@@ -85,6 +91,7 @@
           "name": "Skysweep Cadre",
           "units": "3 Skyrays",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -97,6 +104,7 @@
           "id": 520,
           "name": "AX-1-0 Squadron",
           "pts": 350,
+          "cost_pts": 350,
           "units": "2x Tiger Shark AX-1-0",
           "upgrades": []
         },
@@ -105,6 +113,7 @@
           "id": 521,
           "name": "Barracuda Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             45
           ]
@@ -114,6 +123,7 @@
           "id": 522,
           "name": "Manta Dropship",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -121,6 +131,7 @@
           "id": 525,
           "name": "Spacecraft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -128,6 +139,7 @@
           "id": 526,
           "name": "Tiger Shark Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Tiger Sharks",
           "upgrades": [
             60

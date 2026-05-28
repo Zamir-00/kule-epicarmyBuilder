@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Knight Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             8,
             10,
@@ -34,6 +35,7 @@
           "id": 510,
           "name": "Custodian Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             6,
             7,
@@ -45,6 +47,7 @@
           "id": 511,
           "name": "Lancer Household",
           "pts": 30,
+          "cost_pts": 30,
           "upgrades": [
             9,
             13,
@@ -56,6 +59,7 @@
           "id": 512,
           "name": "Warden Household",
           "pts": 20,
+          "cost_pts": 20,
           "upgrades": [
             16,
             13
@@ -71,6 +75,7 @@
           "id": 520,
           "name": "AA Gun Battery",
           "pts": 125,
+          "cost_pts": 125,
           "units": "3 AA Guns",
           "upgrades": [
             3,
@@ -82,6 +87,7 @@
           "id": 521,
           "name": "Howitzer Battery",
           "pts": 175,
+          "cost_pts": 175,
           "units": "3 Howitzers",
           "upgrades": [
             3,
@@ -93,6 +99,7 @@
           "id": 522,
           "name": "Infantry Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "units": "1 Levy Command, 8 Infantry Levy",
           "upgrades": [
             1,
@@ -108,6 +115,7 @@
           "id": 523,
           "name": "Rough Rider Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Rough Riders",
           "upgrades": [
             1
@@ -123,6 +131,7 @@
           "id": 530,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers",
           "upgrades": []
         },
@@ -131,6 +140,7 @@
           "id": 531,
           "name": "Thunderbolt Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolt Fighters",
           "upgrades": []
         }

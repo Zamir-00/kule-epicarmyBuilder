@@ -14,6 +14,7 @@
           "id": 6612,
           "name": "Regimental HQ Platoon",
           "pts": 375,
+          "cost_pts": 375,
           "upgrades": [
             19,
             25,
@@ -35,6 +36,7 @@
           "id": 6613,
           "name": "Infantry Company",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             25,
             26,
@@ -55,6 +57,7 @@
           "id": 6614,
           "name": "Leman Russ Tank Company",
           "pts": 625,
+          "cost_pts": 625,
           "upgrades": [
             11,
             12,
@@ -76,6 +79,7 @@
           "id": 6615,
           "name": "Malcador Tank Company",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             13,
             14,
@@ -98,6 +102,7 @@
           "id": 6616,
           "name": "Artillery Company",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             16,
             17,
@@ -125,6 +130,7 @@
           "id": 6602,
           "name": "Artillery Battery",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             20,
             21,
@@ -136,6 +142,7 @@
           "id": 6603,
           "name": "Sentinel Squadron",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [],
           "units": "4 Sentinels"
         },
@@ -144,6 +151,7 @@
           "id": 6604,
           "name": "Flak Battery",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "3 Hydra"
         },
@@ -152,6 +160,7 @@
           "id": 6605,
           "name": "Disciples of Xaphan",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "8 Disciples of Xaphan, 4 Chimeras"
         },
@@ -160,6 +169,7 @@
           "id": 6606,
           "name": "Heavy Artillery Squadron",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [],
           "units": "3 Minotaur Artillery Tanks"
         },
@@ -168,6 +178,7 @@
           "id": 6607,
           "name": "Tank Hunter Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             23,
             24
@@ -178,6 +189,7 @@
           "id": 6608,
           "name": "Armoured Fist Platoon",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [],
           "units": "10 Imperial Guard, 5 Chimeras, 1 Salamander Command Vehicle"
         },
@@ -186,6 +198,7 @@
           "id": 6609,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "2 Deathstrike Missile Launchers"
         }
@@ -199,6 +212,7 @@
           "id": 7702,
           "name": "Alpha Legion Retinue",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [],
           "units": "8 Alpha Legion Marines, 1 Alpha Legion Lord, 4 Alpha Legion Rhinos"
         },
@@ -207,6 +221,7 @@
           "id": 7703,
           "name": "Hellblade Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "3 Hellblade Fighters"
         },
@@ -215,6 +230,7 @@
           "id": 7704,
           "name": "HellTalon Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "2 HellTalon FighterBombers"
         },
@@ -223,6 +239,7 @@
           "id": 7705,
           "name": "Harbinger Bomber",
           "pts": 450,
+          "cost_pts": 450,
           "upgrades": [],
           "units": "1 Harbinger Bomber"
         }
@@ -236,6 +253,7 @@
           "id": 8802,
           "name": "Chaos Warhound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -243,6 +261,7 @@
           "id": 8803,
           "name": "Chaos Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [],
           "units": "2 Chaos Warhounds"
         },
@@ -251,6 +270,7 @@
           "id": 8804,
           "name": "Chaos Reaver Titan",
           "pts": 675,
+          "cost_pts": 675,
           "upgrades": []
         },
         {
@@ -258,6 +278,7 @@
           "id": 8805,
           "name": "Chaos Warlord Titan",
           "pts": 875,
+          "cost_pts": 875,
           "upgrades": []
         }
       ]

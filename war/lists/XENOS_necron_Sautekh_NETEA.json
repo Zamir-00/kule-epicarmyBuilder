@@ -16,7 +16,8 @@
           "string_id": "tomb_complex",
           "id": 500,
           "name": "Tomb Complex",
-          "pts": 75
+          "pts": 75,
+          "cost_pts": 75
         }
       ]
     },
@@ -28,6 +29,7 @@
           "id": 600,
           "name": "Warrior Phalanx",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             50,
             21,
@@ -42,6 +44,7 @@
           "id": 601,
           "name": "Warrior Phalanx in Ghost Arks",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             21,
             22,
@@ -55,6 +58,7 @@
           "id": 602,
           "name": "Immortal Phalanx",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             21,
             22,
@@ -73,6 +77,7 @@
           "id": 700,
           "name": "Iudicium Maniple",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             1,
             3
@@ -83,6 +88,7 @@
           "id": 701,
           "name": "Eques Maniple",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             1
           ]
@@ -92,6 +98,7 @@
           "id": 702,
           "name": "Monolith Maniple",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             26,
             27
@@ -103,6 +110,7 @@
           "name": "Venator Maniple",
           "units": "6 Flayed Ones units",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             22
           ]
@@ -113,6 +121,7 @@
           "name": "Letum Maniple",
           "units": "4 Deathmark units",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             1,
             5
@@ -123,6 +132,7 @@
           "id": 705,
           "name": "Triarch Maniple",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             1,
             2,
@@ -137,21 +147,24 @@
           "id": 706,
           "name": "Blade Maniple",
           "units": "6 Tomb Blade units",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "stalker_maniple",
           "id": 708,
           "name": "Stalker Maniple",
           "units": "4 Triarch Stalkers",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "sentry_pylon",
           "id": 709,
           "name": "Sentry Pylon",
           "units": "4 Sentry pylons",
-          "pts": 250
+          "pts": 250,
+          "cost_pts": 250
         }
       ]
     },
@@ -162,27 +175,31 @@
           "string_id": "harvester_engine",
           "id": 800,
           "name": "Harvester Engine",
-          "pts": 600
+          "pts": 600,
+          "cost_pts": 600
         },
         {
           "string_id": "spacecraft",
           "id": 801,
           "name": "Spacecraft",
           "units": "1 Scythe Class Harvester",
-          "pts": 250
+          "pts": 250,
+          "cost_pts": 250
         },
         {
           "string_id": "warbarques",
           "id": 802,
           "name": "Warbarques",
           "units": "1 Warbarque",
-          "pts": 300
+          "pts": 300,
+          "cost_pts": 300
         },
         {
           "string_id": "pylon",
           "id": 803,
           "name": "Pylon",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             72
           ]
@@ -192,13 +209,15 @@
           "id": 804,
           "name": "Tesseract Vault",
           "units": "1 Tesseract Vault",
-          "pts": 300
+          "pts": 300,
+          "cost_pts": 300
         },
         {
           "string_id": "doom_scythes",
           "id": 805,
           "name": "Doom Scythes",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             73
           ]
@@ -208,14 +227,16 @@
           "id": 806,
           "name": "Night Scythes",
           "units": "2 Night Scythes",
-          "pts": 175
+          "pts": 175,
+          "cost_pts": 175
         },
         {
           "string_id": "night_shroud_bomber",
           "id": 807,
           "name": "Night Shroud Bomber",
           "units": "2 Night Shroud Bombers",
-          "pts": 275
+          "pts": 275,
+          "cost_pts": 275
         }
       ]
     }

@@ -13,6 +13,7 @@
           "id": 500,
           "name": "Assault Detachment",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault units",
           "upgrades": [
             10,
@@ -27,6 +28,7 @@
           "id": 501,
           "name": "Bike Detachment",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             10,
             11,
@@ -39,6 +41,7 @@
           "id": 502,
           "name": "Devastator Detachment",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Devastators",
           "upgrades": [
             10,
@@ -66,6 +69,7 @@
           "id": 503,
           "name": "Land Raiders",
           "pts": 400,
+          "cost_pts": 400,
           "units": "4 Land Raiders",
           "upgrades": [
             10,
@@ -81,6 +85,7 @@
           "id": 504,
           "name": "Land Speeders",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             10,
             11,
@@ -92,13 +97,15 @@
           "string_id": "landing_craft",
           "id": 505,
           "name": "Landing Craft",
-          "pts": 350
+          "pts": 350,
+          "cost_pts": 350
         },
         {
           "string_id": "predators",
           "id": 506,
           "name": "Predators",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             10,
             11,
@@ -113,6 +120,7 @@
           "id": 507,
           "name": "Scout Detachment",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scouts",
           "upgrades": [
             10,
@@ -132,19 +140,22 @@
           "string_id": "strike_cruiser",
           "id": 509,
           "name": "Strike Cruiser",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "battle_barge",
           "id": 510,
           "name": "Battle Barge",
-          "pts": 350
+          "pts": 350,
+          "cost_pts": 350
         },
         {
           "string_id": "tactical_detachment",
           "id": 511,
           "name": "Tactical Detachment",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Tacticals",
           "upgrades": [
             10,
@@ -169,6 +180,7 @@
           "id": 512,
           "name": "Terminator Detachment",
           "pts": 325,
+          "cost_pts": 325,
           "units": "4 Terminators",
           "upgrades": [
             10,
@@ -184,13 +196,15 @@
           "string_id": "thunderhawk",
           "id": 513,
           "name": "Thunderhawk",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "vindicators",
           "id": 514,
           "name": "Vindicators",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Vindicators",
           "upgrades": [
             10,
@@ -205,6 +219,7 @@
           "id": 515,
           "name": "Whirlwinds",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Whirlwinds",
           "upgrades": [
             10,
@@ -224,6 +239,7 @@
           "id": 517,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Fighters"
         },
         {
@@ -231,6 +247,7 @@
           "id": 518,
           "name": "Marauder Bombers",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2 Bombers"
         }
       ]
@@ -242,19 +259,22 @@
           "string_id": "warlord_class_titan",
           "id": 520,
           "name": "Warlord Class Titan",
-          "pts": 850
+          "pts": 850,
+          "cost_pts": 850
         },
         {
           "string_id": "reaver_class_titan",
           "id": 521,
           "name": "Reaver Class Titan",
-          "pts": 650
+          "pts": 650,
+          "cost_pts": 650
         },
         {
           "string_id": "warhound_titan",
           "id": 522,
           "name": "Warhound Titan",
-          "pts": 250
+          "pts": 250,
+          "cost_pts": 250
         }
       ]
     }

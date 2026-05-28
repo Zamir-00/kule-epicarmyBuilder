@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Iron Warriors Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Chaos Space Marines and 2 Havocs",
           "upgrades": [
             53,
@@ -40,6 +41,7 @@
           "id": 502,
           "name": "Defiler Assault Pack",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Defilers",
           "upgrades": [
             57,
@@ -54,6 +56,7 @@
           "id": 541,
           "name": "Vindicator Company",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Chaos Vindicators",
           "upgrades": [
             54,
@@ -73,6 +76,7 @@
           "id": 507,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             27,
             28,
@@ -88,6 +92,7 @@
           "id": 508,
           "name": "Artillery Battery",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Chaos Basilisks",
           "upgrades": []
         },
@@ -96,6 +101,7 @@
           "id": 506,
           "name": "Stormsword Company",
           "pts": 550,
+          "cost_pts": 550,
           "units": "3 Chaos Stormswords",
           "upgrades": [
             69,
@@ -114,6 +120,7 @@
           "id": 505,
           "name": "Havocs",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             69,
             77,
@@ -136,6 +143,7 @@
           "id": 503,
           "name": "Iron Warrior Terminators",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             32,
             63,
@@ -157,6 +165,7 @@
           "id": 504,
           "name": "Chosen",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Chaos Space Marine Chosen units",
           "upgrades": [
             62,
@@ -168,6 +177,7 @@
           "id": 511,
           "name": "Obliterators",
           "pts": 425,
+          "cost_pts": 425,
           "units": "5 Obliterators",
           "upgrades": []
         },
@@ -176,6 +186,7 @@
           "id": 515,
           "name": "Decimators",
           "pts": 0,
+          "cost_pts": 0,
           "units": "",
           "upgrades": [
             25,
@@ -195,6 +206,7 @@
           "id": 513,
           "name": "Siegehammer",
           "pts": 225,
+          "cost_pts": 225,
           "units": "6 Iron Warrior Assault Marines",
           "upgrades": [
             62,
@@ -212,6 +224,7 @@
           "id": 514,
           "name": "Dreadnought Pack",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5 Chaos Dreadnoughts",
           "upgrades": [
             57,
@@ -230,6 +243,7 @@
           "id": 530,
           "name": "Hellblade Flight",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Fighters",
           "upgrades": []
         },
@@ -238,6 +252,7 @@
           "id": 531,
           "name": "Helltalon Flight",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Fighter Bombers",
           "upgrades": []
         },
@@ -246,6 +261,7 @@
           "id": 532,
           "name": "Harbinger Bomber",
           "pts": 450,
+          "cost_pts": 450,
           "upgrades": []
         },
         {
@@ -253,6 +269,7 @@
           "id": 533,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -260,6 +277,7 @@
           "id": 534,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -272,6 +290,7 @@
           "id": 520,
           "name": "Siegelord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -279,6 +298,7 @@
           "id": 521,
           "name": "Ravager Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -286,6 +306,7 @@
           "id": 522,
           "name": "Ordinatus Chaotica",
           "pts": 625,
+          "cost_pts": 625,
           "upgrades": []
         }
       ]

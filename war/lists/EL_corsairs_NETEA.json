@@ -14,6 +14,7 @@
           "id": 511,
           "name": "Corsair Warband",
           "pts": 250,
+          "cost_pts": 250,
           "units": "8 Corsairs",
           "upgrades": [
             14,
@@ -27,6 +28,7 @@
           "id": 512,
           "name": "Voidstorm Warband",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Voidstorms",
           "upgrades": [
             15
@@ -42,6 +44,7 @@
           "id": 521,
           "name": "Ghost Walkers",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Ghost Walkers",
           "upgrades": [
             13
@@ -52,6 +55,7 @@
           "id": 522,
           "name": "Cloud Dancers",
           "pts": 225,
+          "cost_pts": 225,
           "units": "6 Cloud Dancers",
           "upgrades": [
             16
@@ -62,6 +66,7 @@
           "id": 523,
           "name": "Wasp Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Wasp Walkers",
           "upgrades": [
             16
@@ -72,6 +77,7 @@
           "id": 524,
           "name": "Hornet Squadron",
           "pts": 225,
+          "cost_pts": 225,
           "units": "5 Hornets",
           "upgrades": [
             16
@@ -82,6 +88,7 @@
           "id": 525,
           "name": "Balestrike Band",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Balestrikes",
           "upgrades": [
             15
@@ -92,6 +99,7 @@
           "id": 526,
           "name": "Falcon Formation",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             16
           ]
@@ -106,6 +114,7 @@
           "id": 531,
           "name": "Lynx Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2 Lynx Heavy Grav Tanks",
           "upgrades": [
             16,
@@ -117,6 +126,7 @@
           "id": 532,
           "name": "0-1 Harlequin Troop",
           "pts": 450,
+          "cost_pts": 450,
           "units": "5 Players",
           "upgrades": [
             36,
@@ -128,6 +138,7 @@
           "id": 533,
           "name": "0-1 Kabal Syndicate",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Dracon",
           "upgrades": []
         }
@@ -141,6 +152,7 @@
           "id": 540,
           "name": "Nightwings",
           "pts": 300,
+          "cost_pts": 300,
           "units": "3 Nightwing Interceptors",
           "upgrades": []
         },
@@ -149,6 +161,7 @@
           "id": 541,
           "name": "Void Dragon Phoenix Bombers",
           "pts": 325,
+          "cost_pts": 325,
           "units": "3 Phoenix Bombers",
           "upgrades": []
         },
@@ -157,6 +170,7 @@
           "id": 542,
           "name": "Vampire Raider",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -164,6 +178,7 @@
           "id": 543,
           "name": "Vampire Hunter",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -171,6 +186,7 @@
           "id": 544,
           "name": "Eclipse Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "units": "Eclipse Cruiser",
           "upgrades": []
         },
@@ -179,6 +195,7 @@
           "id": 545,
           "name": "Void Dragon Battleship",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Void Dragon Battleship",
           "upgrades": []
         }

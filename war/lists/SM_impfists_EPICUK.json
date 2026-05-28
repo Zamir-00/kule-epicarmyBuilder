@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Centurion",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             22,
             41,
@@ -28,6 +29,7 @@
           "id": 502,
           "name": "Devastator",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Devastator units",
           "upgrades": [
             11,
@@ -54,6 +56,7 @@
           "id": 507,
           "name": "Land Raiders",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             11,
             12,
@@ -68,6 +71,7 @@
           "id": 508,
           "name": "Land Speeders",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             11,
             12,
@@ -80,6 +84,7 @@
           "id": 511,
           "name": "Predators",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             11,
             12,
@@ -95,6 +100,7 @@
           "name": "Scouts",
           "units": "4 Scout units",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             11,
             12,
@@ -112,6 +118,7 @@
           "name": "Tactical",
           "units": "6 Tactical units",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             11,
             12,
@@ -138,6 +145,7 @@
           "name": "Terminators",
           "units": "4 Terminator units",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             11,
             12,
@@ -154,6 +162,7 @@
           "id": 506,
           "name": "Thunderfire Battery",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Thunderfire Cannons",
           "upgrades": [
             15,
@@ -165,6 +174,7 @@
           "id": 509,
           "name": "Vindicator",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             11,
             12,
@@ -180,6 +190,7 @@
           "name": "Whirlwind Battery",
           "units": "4 Whirlwinds",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             11,
             12,
@@ -195,6 +206,7 @@
           "name": "Fellblade",
           "units": "1 Fellblade",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": []
         },
         {
@@ -203,6 +215,7 @@
           "name": "Bastion",
           "units": "1 Bastion",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             15,
             48,
@@ -219,6 +232,7 @@
           "id": 521,
           "name": "Fortified Positions",
           "pts": 50,
+          "cost_pts": 50,
           "units": "50cm x 2,5 cm Minefield or Trenches, 2 Bunkers",
           "upgrades": []
         },
@@ -227,6 +241,7 @@
           "id": 522,
           "name": "Hyperios Platforms",
           "pts": 125,
+          "cost_pts": 125,
           "units": "3 Hyperios Platforms",
           "upgrades": []
         },
@@ -235,6 +250,7 @@
           "id": 523,
           "name": "Tarantula Sentry Guns",
           "pts": 100,
+          "cost_pts": 100,
           "units": "4 Tarantulas, 4 Emplacements",
           "upgrades": []
         }
@@ -248,6 +264,7 @@
           "id": 531,
           "name": "2 Storm Talons",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -255,6 +272,7 @@
           "id": 532,
           "name": "1 Thunderhawk Saturation Bomber",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -267,6 +285,7 @@
           "id": 541,
           "name": "Warlord Class Titan (Deathstrike Configuration)",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": []
         },
         {
@@ -274,6 +293,7 @@
           "id": 542,
           "name": "Reaver Class Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         }
       ]

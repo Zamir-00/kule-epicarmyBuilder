@@ -14,6 +14,7 @@
           "id": 530,
           "name": "Webway Portal",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         },
         {
@@ -21,6 +22,7 @@
           "id": 531,
           "name": "Kashnarak",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -33,6 +35,7 @@
           "id": 511,
           "name": "Kabal Coterie",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             3,
             7,
@@ -52,6 +55,7 @@
           "id": 512,
           "name": "Kabal Syndicate",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             1,
             2,
@@ -71,6 +75,7 @@
           "id": 513,
           "name": "Kabal Flotilla",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             1,
             2,
@@ -88,6 +93,7 @@
           "id": 501,
           "name": "Haemonculi Coven",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             3,
             18,
@@ -102,6 +108,7 @@
           "id": 502,
           "name": "Talos Swarm",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             18,
             17
@@ -112,6 +119,7 @@
           "id": 503,
           "name": "Wych Cult",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             3,
             9,
@@ -127,6 +135,7 @@
           "id": 504,
           "name": "Hellion Murder",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             3
           ]
@@ -136,6 +145,7 @@
           "id": 505,
           "name": "Reaver Gang",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             3
           ]
@@ -145,6 +155,7 @@
           "id": 506,
           "name": "Mandrake Throng",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -152,6 +163,7 @@
           "id": 507,
           "name": "Scourge Flight",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             3
           ]
@@ -161,6 +173,7 @@
           "id": 508,
           "name": "Heavy Barges",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             19
           ]
@@ -175,6 +188,7 @@
           "id": 526,
           "name": "Fighter Formation",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             55
           ]
@@ -184,6 +198,7 @@
           "id": 527,
           "name": "Bomber Formation",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Voidraven Bombers",
           "upgrades": []
         },
@@ -192,6 +207,7 @@
           "id": 528,
           "name": "Slave Bringer",
           "pts": 200,
+          "cost_pts": 200,
           "units": "Slave Bringer",
           "upgrades": []
         },
@@ -200,6 +216,7 @@
           "id": 524,
           "name": "Tormentor Titan",
           "pts": 500,
+          "cost_pts": 500,
           "units": "Tormentor Titan",
           "upgrades": []
         },
@@ -208,6 +225,7 @@
           "id": 525,
           "name": "Executioner Landing Module",
           "pts": 750,
+          "cost_pts": 750,
           "units": "Executioner Landing Module",
           "upgrades": []
         },
@@ -216,6 +234,7 @@
           "id": 522,
           "name": "Torture Class Cruiser",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Torture Class Cruiser",
           "upgrades": []
         },
@@ -224,6 +243,7 @@
           "id": 523,
           "name": "Corsair Escorts",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             57
           ]

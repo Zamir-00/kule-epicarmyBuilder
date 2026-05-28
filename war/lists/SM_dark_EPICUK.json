@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Assault",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault units",
           "upgrades": [
             11,
@@ -33,6 +34,7 @@
           "id": 502,
           "name": "Ravenwing",
           "pts": 165,
+          "cost_pts": 165,
           "units": "4 Land Speeders",
           "upgrades": [
             11,
@@ -46,6 +48,7 @@
           "id": 503,
           "name": "Devastator",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Devastator Units plus Transport",
           "upgrades": [
             11,
@@ -67,6 +70,7 @@
           "id": 504,
           "name": "Land Raider",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Land Raiders",
           "upgrades": [
             11,
@@ -83,6 +87,7 @@
           "id": 505,
           "name": "Ravenwing Support",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -95,6 +100,7 @@
           "id": 506,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Landing Craft"
         },
         {
@@ -102,6 +108,7 @@
           "id": 507,
           "name": "Predators",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -117,6 +124,7 @@
           "id": 508,
           "name": "Scout",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scouts plus Transport",
           "upgrades": [
             11,
@@ -133,6 +141,7 @@
           "id": 509,
           "name": "Spaceship",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             29,
             30
@@ -143,6 +152,7 @@
           "id": 510,
           "name": "Tactical",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Tactical units plus Transport",
           "upgrades": [
             11,
@@ -163,6 +173,7 @@
           "id": 511,
           "name": "Deathwing",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Deathwing Terminator units",
           "upgrades": [
             11,
@@ -180,6 +191,7 @@
           "id": 513,
           "name": "Vindicator",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Vindicators",
           "upgrades": [
             11,
@@ -195,6 +207,7 @@
           "id": 514,
           "name": "Whirlwind",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Whirlwinds",
           "upgrades": [
             11,
@@ -215,6 +228,7 @@
           "id": 512,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Thunderhawk gunship"
         },
         {
@@ -222,6 +236,7 @@
           "id": 515,
           "name": "Nephilim",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Nephilim Fighters",
           "upgrades": []
         }

@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Crisis Battlesuit Cadre",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             17,
             50,
@@ -28,6 +29,7 @@
           "id": 502,
           "name": "Fire Warrior Cadre",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             64,
             65,
@@ -51,6 +53,7 @@
           "id": 511,
           "name": "Armour Support Group",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             55
           ]
@@ -60,6 +63,7 @@
           "id": 512,
           "name": "Broadside Group",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 XV88 Broadside battlesuits",
           "upgrades": []
         },
@@ -68,6 +72,7 @@
           "id": 513,
           "name": "Pathfinder Group",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Enclave Pathfinder units, 2 Devilfish",
           "upgrades": [
             34,
@@ -82,6 +87,7 @@
           "name": "Recon Skimmer Group",
           "units": "6 Piranhas",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             35,
             35,
@@ -94,6 +100,7 @@
           "id": 515,
           "name": "Skysweep Support Group",
           "pts": 275,
+          "cost_pts": 275,
           "units": "3 Skyray Gunships",
           "upgrades": []
         },
@@ -102,6 +109,7 @@
           "id": 516,
           "name": "Stealth Group",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 XV15 Stealth Units",
           "upgrades": [
             34,
@@ -119,6 +127,7 @@
           "id": 521,
           "name": "Barracuda Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Barracuda Fighters",
           "upgrades": []
         },
@@ -127,6 +136,7 @@
           "id": 524,
           "name": "Manta Dropship",
           "pts": 675,
+          "cost_pts": 675,
           "upgrades": []
         },
         {
@@ -134,6 +144,7 @@
           "id": 526,
           "name": "Orca Dropship",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -141,6 +152,7 @@
           "id": 525,
           "name": "Spacecraft",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -148,6 +160,7 @@
           "id": 522,
           "name": "Tiger Shark Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Tiger Sharks",
           "upgrades": [
             70
@@ -158,6 +171,7 @@
           "id": 523,
           "name": "Missile Strike Squadron",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Tiger Sharks - Missile Strike variant",
           "upgrades": []
         }
