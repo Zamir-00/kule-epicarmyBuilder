@@ -1,73 +1,466 @@
 {
-"id":"AMTL",
-"version":"EpicUK121013",
-"by":"EpicUK",
-"sections":[
-{
-"name":"COMPANIES",
-"formations":[
-        {"id":501,"name":"Warlord Battle Titan","pts":850,"units":"1 Warlord Battle Titan","upgrades":[10,11,12]},
-        {"id":502,"name":"Reaver Battle Titan","pts":650,"units":"1 Reaver Battle Titan","upgrades":[11,12]},
-        {"id":503,"name":"Warhound Scout Team","pts":550,"units":"2 Warhound Scout Titans","upgrades":[12]},
-        {"id":504,"name":"Warhound Scout Titan","pts":300,"units":"1 Warhound Scout Titan","upgrades":[12]}
-]},
-{"name":"SUPPORT FORMATIONS",
-"formations":[{
-        "id":521,"name":"Cybernetic Guards","pts":200,"units":"8 Robots","upgrades":[]}
-]},
-{"name":"IMPERIAL NAVY",
-"formations":[
-        {"id":531,"name":"Orbital Support","pts":150,"units":"1 Adeptus Mechanicus Mars Cruiser","upgrades":[]},
-        {"id":532,"name":"Fighter Cohort","pts":150,"units":"2 Thunderbolt Fighter-bombers","upgrades":[]},
-        {"id":533,"name":"MarauderBombers","pts":250,"units":"2 Marauder Bombers","upgrades":[]}
-]}
-],
-"upgrades":[
-        {"id":10,"name":"Legate","pts":50},
-        {"id":11,"name":"Carapace Multilasers","pts":50},
-        {"id":12,"name":"Veteran Princeps","pts":50},
-        {"id":13,"name":"Veteran Princeps + Quake Cannon","pts":50},
-        {"id":14,"name":"Veteran Princeps + Volcano Cannon","pts":50},
-        {"id":15,"name":"Veteran Princeps + Plasma Destructor","pts":50},
-        {"id":16,"name":"Veteran Princeps + Deathstrike Missile","pts":50},
-        {"id":17,"name":"Veteran Princeps + Barrage Missile","pts":50},
-        {"id":50,"name":"Quake Cannon","pts":0},
-        {"id":51,"name":"Volcano Cannon","pts":0},
-        {"id":52,"name":"Plasma Destructor","pts":0},
-        {"id":53,"name":"Deathstrike Missile","pts":0},
-        {"id":54,"name":"Barrage Missile","pts":0},
-        {"id":60,"name":"Gatling Blaster","pts":0},
-        {"id":61,"name":"Turbo Laser Destructor","pts":0},
-        {"id":62,"name":"Plasma Cannon","pts":0},
-        {"id":63,"name":"Multiple Rocket Launcher","pts":0},
-        {"id":64,"name":"Vulcan Mega Bolter","pts":0},
-        {"id":65,"name":"Inferno Gun","pts":0},
-        {"id":66,"name":"Melta Cannon","pts":0},
-        {"id":67,"name":"Lasburner","pts":0},
-        {"id":68,"name":"Close Combat Arm","pts":0},
-        {"id":69,"name":"Hydra Platfom (Carapace only)","pts":0},
-        {"id":70,"name":"Carapace Landing Platform (Carapace only)","pts":0},
-        {"id":80,"name":"Rocket Launcher","pts":0},
-        {"id":81,"name":"Scout Turbo Laser","pts":0},
-        {"id":82,"name":"Plasma Blastgun","pts":0},
-        {"id":83,"name":"Scout Inferno Gun","pts":0}
-],
-"formationConstraints":[
-        {"min":1,"from":[501]},
-        {"max":1, "perArmy":true, "from":[531]},
-        {"maxPercent":17,"name":"Imperial Navy","from":[531,532,533]},
-        {"max":1,"name":"Support Formations","from":[521],"forEach":[501,502,503,504],"name2":"Companies"}
-],
-"upgradeConstraints":[
-        {"max":1,"from":[11],"appliesTo":[501,502]},
-        {"max":1,"from":[12],"appliesTo":[501,502,503,504]},
-        {"max":1,"from":[12,13,14,15,16,17],"appliesTo":[501,502]},
-        {"max":1,"name":"Support Weapon","from":[50,51,52,53,54],"appliesTo":[501]},
-        {"max":1,"name":"Support Weapon","from":[12,13,14,15,16,17],"appliesTo":[501,502]},
-        {"max":1, "perArmy":true, "from":[10]},
-        {"min":4,"max":4,"from":[60,61,62,63,64,65,66,67,68,69,70,50,51,52,53,54,13,14,15,16,17],"appliesTo":[501]},
-        {"min":3,"max":3,"from":[60,61,62,63,64,65,66,67,68,69,70,13,14,15,16,17],"appliesTo":[502]},
-        {"min":4,"max":4,"from":[64,80,81,82,83],"appliesTo":[503]},
-        {"min":2,"max":2,"from":[64,80,81,82,83],"appliesTo":[504]}
-]
+  "id": "AMTL",
+  "list_id": "AMTL_EPICUK",
+  "ruleset": "EPICUK",
+  "version": "EpicUK121013",
+  "by": "EpicUK",
+  "sections": [
+    {
+      "name": "COMPANIES",
+      "formations": [
+        {
+          "string_id": "warlord_battle_titan",
+          "id": 501,
+          "name": "Warlord Battle Titan",
+          "pts": 850,
+          "units": "1 Warlord Battle Titan",
+          "upgrades": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "string_id": "reaver_battle_titan",
+          "id": 502,
+          "name": "Reaver Battle Titan",
+          "pts": 650,
+          "units": "1 Reaver Battle Titan",
+          "upgrades": [
+            11,
+            12
+          ]
+        },
+        {
+          "string_id": "warhound_scout_team",
+          "id": 503,
+          "name": "Warhound Scout Team",
+          "pts": 550,
+          "units": "2 Warhound Scout Titans",
+          "upgrades": [
+            12
+          ]
+        },
+        {
+          "string_id": "warhound_scout_titan",
+          "id": 504,
+          "name": "Warhound Scout Titan",
+          "pts": 300,
+          "units": "1 Warhound Scout Titan",
+          "upgrades": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORT FORMATIONS",
+      "formations": [
+        {
+          "string_id": "cybernetic_guards",
+          "id": 521,
+          "name": "Cybernetic Guards",
+          "pts": 200,
+          "units": "8 Robots",
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "IMPERIAL NAVY",
+      "formations": [
+        {
+          "string_id": "orbital_support",
+          "id": 531,
+          "name": "Orbital Support",
+          "pts": 150,
+          "units": "1 Adeptus Mechanicus Mars Cruiser",
+          "upgrades": []
+        },
+        {
+          "string_id": "fighter_cohort",
+          "id": 532,
+          "name": "Fighter Cohort",
+          "pts": 150,
+          "units": "2 Thunderbolt Fighter-bombers",
+          "upgrades": []
+        },
+        {
+          "string_id": "marauderbombers",
+          "id": 533,
+          "name": "MarauderBombers",
+          "pts": 250,
+          "units": "2 Marauder Bombers",
+          "upgrades": []
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "legate",
+      "id": 10,
+      "name": "Legate",
+      "pts": 50
+    },
+    {
+      "string_id": "carapace_multilasers",
+      "id": 11,
+      "name": "Carapace Multilasers",
+      "pts": 50
+    },
+    {
+      "string_id": "veteran_princeps",
+      "id": 12,
+      "name": "Veteran Princeps",
+      "pts": 50
+    },
+    {
+      "string_id": "veteran_princeps_quake_cannon",
+      "id": 13,
+      "name": "Veteran Princeps + Quake Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "veteran_princeps_volcano_cannon",
+      "id": 14,
+      "name": "Veteran Princeps + Volcano Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "veteran_princeps_plasma_destructor",
+      "id": 15,
+      "name": "Veteran Princeps + Plasma Destructor",
+      "pts": 50
+    },
+    {
+      "string_id": "veteran_princeps_deathstrike_missile",
+      "id": 16,
+      "name": "Veteran Princeps + Deathstrike Missile",
+      "pts": 50
+    },
+    {
+      "string_id": "veteran_princeps_barrage_missile",
+      "id": 17,
+      "name": "Veteran Princeps + Barrage Missile",
+      "pts": 50
+    },
+    {
+      "string_id": "quake_cannon",
+      "id": 50,
+      "name": "Quake Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "volcano_cannon",
+      "id": 51,
+      "name": "Volcano Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_destructor",
+      "id": 52,
+      "name": "Plasma Destructor",
+      "pts": 0
+    },
+    {
+      "string_id": "deathstrike_missile",
+      "id": 53,
+      "name": "Deathstrike Missile",
+      "pts": 0
+    },
+    {
+      "string_id": "barrage_missile",
+      "id": 54,
+      "name": "Barrage Missile",
+      "pts": 0
+    },
+    {
+      "string_id": "gatling_blaster",
+      "id": 60,
+      "name": "Gatling Blaster",
+      "pts": 0
+    },
+    {
+      "string_id": "turbo_laser_destructor",
+      "id": 61,
+      "name": "Turbo Laser Destructor",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_cannon",
+      "id": 62,
+      "name": "Plasma Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "multiple_rocket_launcher",
+      "id": 63,
+      "name": "Multiple Rocket Launcher",
+      "pts": 0
+    },
+    {
+      "string_id": "vulcan_mega_bolter",
+      "id": 64,
+      "name": "Vulcan Mega Bolter",
+      "pts": 0
+    },
+    {
+      "string_id": "inferno_gun",
+      "id": 65,
+      "name": "Inferno Gun",
+      "pts": 0
+    },
+    {
+      "string_id": "melta_cannon",
+      "id": 66,
+      "name": "Melta Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "lasburner",
+      "id": 67,
+      "name": "Lasburner",
+      "pts": 0
+    },
+    {
+      "string_id": "close_combat_arm",
+      "id": 68,
+      "name": "Close Combat Arm",
+      "pts": 0
+    },
+    {
+      "string_id": "hydra_platfom_carapace_only",
+      "id": 69,
+      "name": "Hydra Platfom (Carapace only)",
+      "pts": 0
+    },
+    {
+      "string_id": "carapace_landing_platform_carapace_only",
+      "id": 70,
+      "name": "Carapace Landing Platform (Carapace only)",
+      "pts": 0
+    },
+    {
+      "string_id": "rocket_launcher",
+      "id": 80,
+      "name": "Rocket Launcher",
+      "pts": 0
+    },
+    {
+      "string_id": "scout_turbo_laser",
+      "id": 81,
+      "name": "Scout Turbo Laser",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_blastgun",
+      "id": 82,
+      "name": "Plasma Blastgun",
+      "pts": 0
+    },
+    {
+      "string_id": "scout_inferno_gun",
+      "id": 83,
+      "name": "Scout Inferno Gun",
+      "pts": 0
+    }
+  ],
+  "formationConstraints": [
+    {
+      "min": 1,
+      "from": [
+        501
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        531
+      ]
+    },
+    {
+      "maxPercent": 17,
+      "name": "Imperial Navy",
+      "from": [
+        531,
+        532,
+        533
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Support Formations",
+      "from": [
+        521
+      ],
+      "forEach": [
+        501,
+        502,
+        503,
+        504
+      ],
+      "name2": "Companies"
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        501,
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        12
+      ],
+      "appliesTo": [
+        501,
+        502,
+        503,
+        504
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "appliesTo": [
+        501,
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Support Weapon",
+      "from": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Support Weapon",
+      "from": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "appliesTo": [
+        501,
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        10
+      ]
+    },
+    {
+      "min": 4,
+      "max": 4,
+      "from": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        50,
+        51,
+        52,
+        53,
+        54,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 4,
+      "max": 4,
+      "from": [
+        64,
+        80,
+        81,
+        82,
+        83
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        64,
+        80,
+        81,
+        82,
+        83
+      ],
+      "appliesTo": [
+        504
+      ]
+    }
+  ]
 }

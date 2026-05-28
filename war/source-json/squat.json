@@ -19,6 +19,7 @@
   "formations": [],
   "profiles": [
     {
+      "id": "grand_warlord",
       "name": "Grand Warlord",
       "type": "CH",
       "speed": "n/a",
@@ -46,6 +47,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "living_ancestor",
       "name": "Living Ancestor",
       "type": "CH",
       "speed": "n/a",
@@ -64,6 +66,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "berserkers",
       "name": "Berserkers",
       "type": "INF",
       "speed": "15cm",
@@ -88,6 +91,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "guild_bikers",
       "name": "Guild Bikers",
       "type": "INF",
       "speed": "35cm",
@@ -112,6 +116,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hearthguard",
       "name": "Hearthguard",
       "type": "INF",
       "speed": "15cm",
@@ -137,6 +142,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mole_mortar",
       "name": "Mole Mortar",
       "type": "INF",
       "speed": "10cm",
@@ -164,6 +170,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rapier",
       "name": "Rapier",
       "type": "INF",
       "speed": "10cm",
@@ -188,6 +195,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tarantula",
       "name": "Tarantula",
       "type": "INF",
       "speed": "10cm",
@@ -212,6 +220,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thudd_gun",
       "name": "Thudd Gun",
       "type": "INF",
       "speed": "10cm",
@@ -238,6 +247,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderers",
       "name": "Thunderers",
       "type": "INF",
       "speed": "15cm",
@@ -266,6 +276,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord",
       "name": "Warlord",
       "type": "INF",
       "speed": "15cm",
@@ -304,6 +315,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warriors",
       "name": "Warriors",
       "type": "INF",
       "speed": "15cm",
@@ -334,6 +346,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "guild_trike",
       "name": "Guild Trike",
       "type": "LV",
       "speed": "35cm",
@@ -366,6 +379,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "guildmaster",
       "name": "Guildmaster",
       "type": "LV",
       "speed": "35cm",
@@ -400,6 +414,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "colossus_class_robot",
       "name": "Colossus Class Robot",
       "type": "AV",
       "speed": "15cm",
@@ -450,6 +465,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "conqueror_class_robot",
       "name": "Conqueror Class Robot",
       "type": "AV",
       "speed": "15cm",
@@ -490,6 +506,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "iron_eagle",
       "name": "Iron Eagle",
       "type": "AV",
       "speed": "35cm",
@@ -521,6 +538,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "recon_iron_eagle",
       "name": "Recon Iron Eagle",
       "type": "AV",
       "speed": "35cm",
@@ -553,6 +571,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -578,6 +597,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "steel_hawk",
       "name": "Steel Hawk",
       "type": "AV",
       "speed": "35cm",
@@ -619,6 +639,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "termite",
       "name": "Termite",
       "type": "AV",
       "speed": "20cm",
@@ -640,6 +661,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "thunderfire",
       "name": "Thunderfire",
       "type": "AV",
       "speed": "Immobile",
@@ -668,6 +690,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "war_hawk",
       "name": "War Hawk",
       "type": "AV",
       "speed": "35cm",
@@ -701,6 +724,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "colossus",
       "name": "Colossus",
       "type": "WE",
       "speed": "15cm",
@@ -761,6 +785,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cyclops",
       "name": "Cyclops",
       "type": "WE",
       "speed": "15cm",
@@ -829,6 +854,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "goliath",
       "name": "Goliath",
       "type": "WE",
       "speed": "5cm",
@@ -857,6 +883,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_train",
       "name": "Land Train",
       "type": "WE",
       "speed": "15cm",
@@ -904,6 +931,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leviathan",
       "name": "Leviathan",
       "type": "WE",
       "speed": "15cm",
@@ -960,6 +988,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mole",
       "name": "Mole",
       "type": "WE",
       "speed": "20cm",
@@ -982,6 +1011,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "overlord",
       "name": "Overlord",
       "type": "WE",
       "speed": "20cm",
@@ -1052,6 +1082,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "berserker_battlecar",
       "name": "Berserker Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1081,6 +1112,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bomb_battlecar",
       "name": "Bomb Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1110,6 +1142,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dragon_battlecar",
       "name": "Dragon Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1138,6 +1171,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_shield_battlecar",
       "name": "Fire Shield Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1166,6 +1200,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "iron_eagle_battlecar",
       "name": "Iron Eagle Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1184,6 +1219,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "motar_battlecar",
       "name": "Motar Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1212,6 +1248,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skyhammer_battlecar",
       "name": "Skyhammer Battlecar",
       "type": "CH",
       "speed": "n/a",
@@ -1237,6 +1274,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "artillery_battery",
       "name": "Artillery Battery",
       "type": "Formation",
       "speed": "n/a",

@@ -25,40 +25,49 @@
   },
   "special_rules": [
     {
+      "id": "ts1_strategy_rating",
       "name": "TS1 Strategy Rating",
       "text": "A Thousand Sons Chaos Space Marine army has a Strategy rating of 5."
     },
     {
+      "id": "ts2_initiative_rating",
       "name": "TS2 Initiative Rating",
       "text": "Aircraft and Silver Tower formations have an initiative rating of 2+. All other formations have 1+."
     },
     {
+      "id": "ts3_summoned_units",
       "name": "TS3 Summoned Units",
       "text": "Unbroken formations with Daemonic Pact may summon daemons from the Daemon Pool by rolling 2D6 summoning points. The allegiance of the summoning formation determines what may be summoned. Summoned units are placed within 5cm of the formation, may not be chained, may not be placed in enemy zone of control or impassable terrain, and count as part of the formation while they remain in play. If the formation is broken, summoned units are removed from play. In the End phase, after rally tests, summoned daemons return to the Daemon Pool; war engine daemons keep their current DC when they return."
     },
     {
+      "id": "ts4_augment_summoning",
       "name": "TS4 Augment Summoning",
       "text": "Units with Augmented Summoning (+x) add x summoning points to the roll when the formation summons daemons."
     },
     {
+      "id": "ts5_rubric",
       "name": "TS5 Rubric",
       "text": "Units affected by the Rubric of Ahriman are treated as automatons. They may not take March actions, and when making a withdrawal move they may only make a single move rather than two. A Rubric unit’s special rule is one-shot only when it is listed as such."
     },
     {
+      "id": "ts6_daemonic_focus",
       "name": "TS6 Daemonic Focus",
       "text": "Units with Daemonic Focus may keep summoned units in play after the formation rallies, but not if the formation is broken."
     },
     {
+      "id": "ts7_fickle_masters",
       "name": "TS7 Fickle Masters",
       "text": "In the strategy phase, if the Chaos player rolls a 6, add 1D3 lesser daemons to the Daemon Pool. If the Chaos player rolls a 1, remove D3 lesser daemons from the Daemon Pool. If no daemons remain in the Daemon Pool, there is no further effect."
     },
     {
+      "id": "ts8_webway_portal",
       "name": "TS8 Webway Portal",
       "text": "Wraithgate is a webway portal reference item. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units, or armoured vehicle units with the Walker ability may use a Wraithgate to enter play."
     }
   ],
   "formations": [
     {
+      "id": "wraithgate",
       "category": "Individuals",
       "entry_type": "formation",
       "name": "Wraithgate",
@@ -70,6 +79,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thousand_sons_daemon_pool",
       "category": "Daemon Pool",
       "entry_type": "formation",
       "name": "Thousand Sons Daemon Pool",
@@ -81,6 +91,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scarab_occult",
       "category": "Thousand Sons Retinues",
       "entry_type": "formation",
       "name": "Scarab Occult",
@@ -92,6 +103,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ahriman_s_chosen",
       "category": "Thousand Sons Retinues",
       "entry_type": "formation",
       "name": "Ahriman's Chosen",
@@ -103,6 +115,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rubric_fellowship",
       "category": "Thousand Sons Retinues",
       "entry_type": "formation",
       "name": "Rubric Fellowship",
@@ -114,6 +127,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thousand_sons_armor",
       "category": "Thousand Sons Retinues",
       "entry_type": "formation",
       "name": "Thousand Sons Armor",
@@ -125,6 +139,7 @@
       "parse_warnings": []
     },
     {
+      "id": "silver_tower_company",
       "category": "Thousand Sons Retinues",
       "entry_type": "formation",
       "name": "Silver Tower Company",
@@ -136,6 +151,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thousand_sons_warcoven",
       "category": "Thousand Sons Support Formations",
       "entry_type": "formation",
       "name": "Thousand Sons Warcoven",
@@ -147,6 +163,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sekhmet_disc_riders",
       "category": "Thousand Sons Support Formations",
       "entry_type": "formation",
       "name": "Sekhmet Disc Riders",
@@ -158,6 +175,7 @@
       "parse_warnings": []
     },
     {
+      "id": "neophyte_class",
       "category": "Thousand Sons Support Formations",
       "entry_type": "formation",
       "name": "Neophyte Class",
@@ -169,6 +187,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deceivers_formation",
       "category": "Thousand Sons Support Formations",
       "entry_type": "formation",
       "name": "Deceivers Formation",
@@ -182,6 +201,7 @@
       ]
     },
     {
+      "id": "greater_spires_of_tzeentch",
       "category": "War Engines of Tzeentch",
       "entry_type": "formation",
       "name": "Greater Spires of Tzeentch",
@@ -193,6 +213,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warp_palace_of_tzeentch",
       "category": "War Engines of Tzeentch",
       "entry_type": "formation",
       "name": "Warp Palace of Tzeentch",
@@ -204,6 +225,7 @@
       "parse_warnings": []
     },
     {
+      "id": "doomwing_fighters",
       "category": "Chaos Navy and Spacecraft",
       "entry_type": "formation",
       "name": "Doomwing fighters",
@@ -215,6 +237,7 @@
       "parse_warnings": []
     },
     {
+      "id": "firelord_bombers",
       "category": "Chaos Navy and Spacecraft",
       "entry_type": "formation",
       "name": "Firelord Bombers",
@@ -226,6 +249,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sorcerer_lord",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Sorcerer Lord",
@@ -237,6 +261,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_prince_of_tzeentch",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Daemon Prince of Tzeentch",
@@ -248,6 +273,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemonic_pact",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Daemonic Pact",
@@ -259,6 +285,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_dreadnought",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Dreadnought",
@@ -270,6 +297,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deceiver",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Deceiver",
@@ -281,6 +309,7 @@
       "parse_warnings": []
     },
     {
+      "id": "dreadclaw",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Dreadclaw",
@@ -292,6 +321,7 @@
       "parse_warnings": []
     },
     {
+      "id": "icon_bearer",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Icon Bearer",
@@ -303,6 +333,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rhino",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Rhino",
@@ -314,6 +345,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raider",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Land Raider",
@@ -325,6 +357,7 @@
       "parse_warnings": []
     },
     {
+      "id": "champion_of_tzeentch",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Champion of Tzeentch",
@@ -336,6 +369,7 @@
       "parse_warnings": []
     },
     {
+      "id": "predator",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Predator",
@@ -347,6 +381,7 @@
       "parse_warnings": []
     },
     {
+      "id": "silver_tower",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Silver Tower",
@@ -358,6 +393,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thousand_sons_terminator",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Thousand Sons Terminator",
@@ -369,6 +405,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_lord_of_change",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Greater daemon (Lord of Change)",
@@ -380,6 +417,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lesser_daemons_horror_screamer_flamer_and_daemonic_beast_units",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Lesser Daemons (Horror, Screamer, Flamer and Daemonic Beast units)",
@@ -391,6 +429,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_spire_of_tzeentch",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Spire of Tzeentch",
@@ -413,6 +452,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sorcerer",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Sorcerer",
@@ -424,6 +464,7 @@
       "parse_warnings": []
     },
     {
+      "id": "disc_rider",
       "category": "Thousand Sons Upgrades",
       "entry_type": "upgrade",
       "name": "Disc Rider",
@@ -437,6 +478,7 @@
   ],
   "profiles": [
     {
+      "id": "wraithgate",
       "name": "Wraithgate",
       "type": "Special",
       "speed": "n/a",
@@ -460,6 +502,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "thousand_sons_sorcerer_lord",
       "name": "Thousand Sons Sorcerer Lord",
       "type": "CH",
       "speed": "n/a",
@@ -489,6 +532,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_sorcerer",
       "name": "Thousand Sons Sorcerer",
       "type": "CH",
       "speed": "n/a",
@@ -521,6 +565,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_marines",
       "name": "Thousand Sons Marines",
       "type": "INF",
       "speed": "15cm",
@@ -547,6 +592,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_adeptus",
       "name": "Thousand Sons Adeptus",
       "type": "INF",
       "speed": "15cm",
@@ -573,6 +619,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_terminators",
       "name": "Thousand Sons Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -616,6 +663,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sekhmet_disc_riders",
       "name": "Sekhmet Disc Riders",
       "type": "INF",
       "speed": "30cm",
@@ -651,6 +699,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_neophyte",
       "name": "Thousand Sons Neophyte",
       "type": "INF",
       "speed": "15cm",
@@ -683,6 +732,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deceiver",
       "name": "Deceiver",
       "type": "AV",
       "speed": "20cm",
@@ -709,6 +759,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_rhino",
       "name": "Thousand Sons Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -734,6 +785,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_land_raider",
       "name": "Thousand Sons Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -767,6 +819,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_predator",
       "name": "Thousand Sons Predator",
       "type": "AV",
       "speed": "30cm",
@@ -799,6 +852,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons_dreadnought",
       "name": "Thousand Sons Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -833,6 +887,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "silver_tower",
       "name": "Silver Tower",
       "type": "AV",
       "speed": "20cm",
@@ -865,6 +920,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dreadclaw",
       "name": "Dreadclaw",
       "type": "Special",
       "speed": "n/a",
@@ -884,6 +940,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "champion_of_tzeentch",
       "name": "Champion of Tzeentch",
       "type": "CH",
       "speed": "n/a",
@@ -912,6 +969,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "icon_bearer",
       "name": "Icon Bearer",
       "type": "CH",
       "speed": "n/a",
@@ -931,6 +989,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemon_prince_of_tzeentch",
       "name": "Daemon Prince of Tzeentch",
       "type": "INF",
       "speed": "15cm (30cm)",
@@ -972,6 +1031,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tzeentch_flamers",
       "name": "Tzeentch Flamers",
       "type": "INF",
       "speed": "15cm",
@@ -997,6 +1057,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tzeentch_horrors",
       "name": "Tzeentch Horrors",
       "type": "INF",
       "speed": "15cm",
@@ -1026,6 +1087,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tzeentch_screamers",
       "name": "Tzeentch Screamers",
       "type": "AV",
       "speed": "30cm",
@@ -1058,6 +1120,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lord_of_change",
       "name": "Lord of Change",
       "type": "WE",
       "speed": "30cm",
@@ -1102,6 +1165,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "doomwing",
       "name": "Doomwing",
       "type": "AC",
       "speed": "Fighter",
@@ -1129,6 +1193,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "firelord",
       "name": "Firelord",
       "type": "AC",
       "speed": "Bomber",
@@ -1173,6 +1238,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "devastation_class_cruiser",
       "name": "Devastation Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1208,6 +1274,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "despoiler_class_battleship",
       "name": "Despoiler Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1244,6 +1311,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "greater_spires_of_tzeentch",
       "name": "Greater Spires of Tzeentch",
       "type": "WE",
       "speed": "20cm",
@@ -1288,6 +1356,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warp_palace_of_tzeentch",
       "name": "Warp Palace of Tzeentch",
       "type": "WE",
       "speed": "20cm",

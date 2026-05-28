@@ -1,118 +1,853 @@
 {
-	"id":"Gryphonne IV Skitarii Legion",
-	"version":"NetEA Tournament Pack (2026-02-06)",
-	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."],
-	"by":"SpeakerToMachines, last edit by antitimm",
-	"sections":[
-		{"name":"SKITARII CORE FORMATIONS", "formations":[
-			{"id":566, "name":"Skitarii Demi-Century",	"pts":225, "upgrades":[103,104,113,105,225,226,227,228,229,231,232,233,234,235,237,238]},
-			{"id":567, "name":"Sagitarii Demi-Century",	"pts":250, "units":"5 Sagitarii units",	 "upgrades":[103,104,113,105,214,225,226,227,228,229,231,232,233,234,235,237,238]}	
-		]},
-		{"name":"CENTURIO ORDINATUS FORMATIONS", "formations":[
-			{"id":571, "name":"Ordinatus Minorus",	"pts":50, "upgrades":[225,226,227,228,229,231,232,233,234,235,237,238]},
-			{"id":572, "name":"Ordinatus Majoris",	"pts":0, "upgrades":[]}	
-		]},
-		{"name":"SKITARII SUPPORT FORMATIONS", "formations":[
-			{"id":561, "name":"Crusader Scout Maniple",		"pts":125, "units":"4 Crusader Robots", "upgrades":[]},
-			{"id":562, "name":"Colossus Assault Maniple",		"pts":200, "units":"4 Colossus Robots", "upgrades":[]},
-			{"id":563, "name":"Praetorian Servitor Maniple",	"pts":250, "units":"5 Praetorian Combat Servitor units", "upgrades":[113,225,226,227,228,229,231,232,233,234,235,237,238]},
-			{"id":564, "name":"Avenger Squadron",			"pts":200, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":565, "name":"Orbital Support",			"pts":200, "units":"One Ark Mechanicus Battleship", "upgrades":[]}
-		]},
-		{"name":"MECHANICUS ALLIES", "formations":[
-			{"id":502, "name":"Emperor Titan", 		"pts":1250,"upgrades":[82,83,84]},
-			{"id":503, "name":"Warlord Titan", 		"pts":725, "upgrades":[80,82,83,84]},
-			{"id":504, "name":"Reaver Titan",		"pts":575, "upgrades":[80,82,83,84]},
-			{"id":551, "name":"Warhound Titan",		"pts":275, "upgrades":[80,82]},
-			{"id":552, "name":"Warhound Titan Pack",	"pts":500, "upgrades":[80,82]},
-			{"id":553, "name":"Cataphracti Support",	"pts":350, "upgrades":[]}
-		]}
-	],
-	"upgrades":[	
-		{"id":101, "name":"5 Gun Servitor Unit",		"pts":0},
-		{"id":102, "name":"3 Rapier Laser Destroyer Unit",	"pts":0},
-		{"id":103, "name":"Hydra",				"pts":50},
-		{"id":104, "name":"10 Chimedons",			"pts":175},
-		{"id":105, "name":"Magos Character",			"pts":50},
-		{"id":110, "name":"Ordinatus Mars (Sonic Disruptor)",		"pts":450},
-		{"id":111, "name":"Ordinatus Golgotha (Hellfire Missiles)",	"pts":550},
-		{"id":112, "name":"Ordinatus Armageddon (Nova Cannon)",		"pts":500},
-		{"id":113, "name":"Linked Neural Network (Self-Reliant)",	"pts":25},
-		{"id":11, "name":"Imperator Configuration",	"pts":0},
-		{"id":12, "name":"Warmonger Configuration",	"pts":0},
-		{"id":13, "name":"Inferno Gun", 		"pts":0},
-		{"id":14, "name":"Vulcan Megabolter",		"pts":0},
-		{"id":15, "name":"Plasma Blastgun",		"pts":0},
-		{"id":16, "name":"Turbo-laser Destructor",	"pts":25},
-		{"id":30, "name":"Apocalypse Missile Launcher",	"pts":25},
-		{"id":25, "name":"Laser Burner",		"pts":0},
-		{"id":26, "name":"Corvus Assault Pod",		"pts":0},
-		{"id":27, "name":"Carapace Landing Pad",		"pts":0},
-		{"id":28, "name":"Plasma Cannon",			"pts":25},
-		{"id":29, "name":"Gatling Blaster",			"pts":25},
-		{"id":31, "name":"Close Combat Weapon",			"pts":25},
-		{"id":32, "name":"Melta Cannon",			"pts":50},
-		{"id":33, "name":"Laser Blaster",			"pts":50},
-		{"id":34, "name":"Volcano Cannon",			"pts":50},
-		{"id":35, "name":"Plasma Destructor",			"pts":75},
-		{"id":36, "name":"Support Missile",			"pts":75},
-		{"id":37, "name":"Quake Cannon",			"pts":75},
-		{"id":38, "name":"Minorus Support Missile",		"pts":50},
-		{"id":80, "name":"Single Weapon System Surcharge", 	"pts":25},
-		{"id":82, "name":"Veteran Princeps",			"pts":25},
-		{"id":83, "name":"Carapace Multi-Lasers",		"pts":50},
-		{"id":84, "name":"Sacred Icon",				"pts":50},
-		{"id":301, "name":"2 Secutor units, 8 Hypaspist units",				"pts":0},
-		{"id":302, "name":"5 Secutor units, 5 Gun Servitor Units", 			"pts":125},
-		{"id":303, "name":"2 Secutor units, 3 Hypaspist units, 5 Gun Servitor Units",	"pts":0},
-		{"id":304, "name":"5 Secutor units, 5 Hypaspist units",				"pts":125},
-		{"id":305, "name":"5 Gun Servitor Unit",					"pts":0},
-		{"id":214, "name":"Minorus with Vulcan Megabolter",				"pts":100},
-		
-		{"id":230, "name":"Minorus with Apocalypse Missile Launcher",	"pts":125},
-		{"id":225, "name":"Minorus with Laser Burner",			"pts":100},
-		{"id":226, "name":"Minorus with Corvus Assault Pod",		"pts":100},
-		{"id":227, "name":"Minorus with Carapace Landing Pad",		"pts":150},
-		{"id":228, "name":"Minorus with Plasma Cannon",			"pts":125},
-		{"id":229, "name":"Minorus with Gatling Blaster",		"pts":125},
-		{"id":231, "name":"Minorus with Close Combat Weapon",		"pts":125},
-		{"id":232, "name":"Minorus with Melta Cannon",			"pts":150},
-		{"id":233, "name":"Minorus with Laser Blaster",			"pts":150},
-		{"id":234, "name":"Minorus with Volcano Cannon",		"pts":150},
-		{"id":235, "name":"Minorus with Plasma Destructor",		"pts":175},
-		{"id":237, "name":"Minorus with Quake Cannon",			"pts":200},
-		{"id":238, "name":"Minorus with Support Missile",		"pts":150},
-    		{"id":239, "name":"Macharius", 					"pts":0},
-    		{"id":240, "name":"Macharius Command Tank (vulcan)",		"pts":0},
-    		{"id":241, "name":"Macharius Command Tank (vanquisher)", 	"pts":0}
-	],
-	"formationConstraints":[
-		{"max":1, "from":[565]},
-		{"max":1, "name":"Centurio Ordinatus Formation", "from":[571,572], "forEach":[566,567], "name2":"Core Formation"},
-		{"max":2, "name":"Support Formation", "from":[561,562,563,564,565], "forEach":[566,567], "name2":"Core Formation"},
-		{"maxPercent":33, "name":"Mechanicus Allies", "from":[502,503,504,551,552]}
-	],
-	"upgradeConstraints":[
-		{"min":1, "max":1, "from":[101,102], "appliesTo":[567]},
-		
-		{"max":1, "from":[104]},
-		{"max":1, "perArmy":true, "from":[105]},
-		{"min":1, "max":1, "from":[11,12], "appliesTo":[502]},
-		{"max":1, "from":[226]},
-		{"min":1, "max":1, "from":[301,302,303,304], "appliesTo":[566]},
-		{"min":2, "max":2, "from":[13,14,15,16], "appliesTo":[551]},
-		{"min":4, "max":4, "from":[13,14,15,16], "appliesTo":[552]},
-		{"min":2, "max":3, "from":[225,226,227,228,229,231,232,233,234,235,237,238], "appliesTo":[571]},
-		{"min":1, "max":1, "from":[110,111,112], "appliesTo":[572]},
-		{"min":3, "max":3, "from":[13,14,15,16,25,26,27,28,29,30,31,32,33,34,35,36,37], "appliesTo":[504]},
-		{"min":4, "max":4, "from":[13,14,15,16,25,26,27,28,29,30,31,32,33,34,35,36,37], "appliesTo":[503]},
-		{"max":3, "from":[103,104,105,214,225,226,227,228,229,231,232,233,234,235,237,238], "appliesTo":[563,566,567]},
-		{"max":1, "from":[80]},
-		{"max":1, "from":[82]},
-		{"max":1, "from":[83]},
-		{"max":1, "from":[84]},
-		{"max":1, "from":[113], "appliesTo":[563,566,567]},
- 		{"min":1, "max":1, "from":[240,241], "appliesTo":[553]},
- 		{"min":2, "from":[239], "appliesTo":[553]}
-	]
+  "id": "Gryphonne IV Skitarii Legion",
+  "list_id": "AMTL_skitarii_NETEA",
+  "faction_id": "skitarii",
+  "ruleset": "NETEA",
+  "version": "NetEA Tournament Pack (2026-02-06)",
+  "notes": [
+    "If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."
+  ],
+  "by": "SpeakerToMachines, last edit by antitimm",
+  "sections": [
+    {
+      "name": "SKITARII CORE FORMATIONS",
+      "formations": [
+        {
+          "string_id": "skitarii_demi_century",
+          "id": 566,
+          "name": "Skitarii Demi-Century",
+          "pts": 225,
+          "upgrades": [
+            103,
+            104,
+            113,
+            105,
+            225,
+            226,
+            227,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            237,
+            238
+          ]
+        },
+        {
+          "string_id": "sagitarii_demi_century",
+          "id": 567,
+          "name": "Sagitarii Demi-Century",
+          "pts": 250,
+          "units": "5 Sagitarii units",
+          "upgrades": [
+            103,
+            104,
+            113,
+            105,
+            214,
+            225,
+            226,
+            227,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            237,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CENTURIO ORDINATUS FORMATIONS",
+      "formations": [
+        {
+          "string_id": "ordinatus_minorus",
+          "id": 571,
+          "name": "Ordinatus Minorus",
+          "pts": 50,
+          "upgrades": [
+            225,
+            226,
+            227,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            237,
+            238
+          ]
+        },
+        {
+          "string_id": "ordinatus_majoris",
+          "id": 572,
+          "name": "Ordinatus Majoris",
+          "pts": 0,
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "SKITARII SUPPORT FORMATIONS",
+      "formations": [
+        {
+          "string_id": "crusader_scout_maniple",
+          "id": 561,
+          "name": "Crusader Scout Maniple",
+          "pts": 125,
+          "units": "4 Crusader Robots",
+          "upgrades": []
+        },
+        {
+          "string_id": "colossus_assault_maniple",
+          "id": 562,
+          "name": "Colossus Assault Maniple",
+          "pts": 200,
+          "units": "4 Colossus Robots",
+          "upgrades": []
+        },
+        {
+          "string_id": "praetorian_servitor_maniple",
+          "id": 563,
+          "name": "Praetorian Servitor Maniple",
+          "pts": 250,
+          "units": "5 Praetorian Combat Servitor units",
+          "upgrades": [
+            113,
+            225,
+            226,
+            227,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            237,
+            238
+          ]
+        },
+        {
+          "string_id": "avenger_squadron",
+          "id": 564,
+          "name": "Avenger Squadron",
+          "pts": 200,
+          "units": "2 Avenger Strike Fighters",
+          "upgrades": []
+        },
+        {
+          "string_id": "orbital_support",
+          "id": 565,
+          "name": "Orbital Support",
+          "pts": 200,
+          "units": "One Ark Mechanicus Battleship",
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "MECHANICUS ALLIES",
+      "formations": [
+        {
+          "string_id": "emperor_titan",
+          "id": 502,
+          "name": "Emperor Titan",
+          "pts": 1250,
+          "upgrades": [
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "string_id": "warlord_titan",
+          "id": 503,
+          "name": "Warlord Titan",
+          "pts": 725,
+          "upgrades": [
+            80,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "string_id": "reaver_titan",
+          "id": 504,
+          "name": "Reaver Titan",
+          "pts": 575,
+          "upgrades": [
+            80,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "string_id": "warhound_titan",
+          "id": 551,
+          "name": "Warhound Titan",
+          "pts": 275,
+          "upgrades": [
+            80,
+            82
+          ]
+        },
+        {
+          "string_id": "warhound_titan_pack",
+          "id": 552,
+          "name": "Warhound Titan Pack",
+          "pts": 500,
+          "upgrades": [
+            80,
+            82
+          ]
+        },
+        {
+          "string_id": "cataphracti_support",
+          "id": 553,
+          "name": "Cataphracti Support",
+          "pts": 350,
+          "upgrades": []
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "5_gun_servitor_unit",
+      "id": 101,
+      "name": "5 Gun Servitor Unit",
+      "pts": 0
+    },
+    {
+      "string_id": "3_rapier_laser_destroyer_unit",
+      "id": 102,
+      "name": "3 Rapier Laser Destroyer Unit",
+      "pts": 0
+    },
+    {
+      "string_id": "hydra",
+      "id": 103,
+      "name": "Hydra",
+      "pts": 50
+    },
+    {
+      "string_id": "10_chimedons",
+      "id": 104,
+      "name": "10 Chimedons",
+      "pts": 175
+    },
+    {
+      "string_id": "magos_character",
+      "id": 105,
+      "name": "Magos Character",
+      "pts": 50
+    },
+    {
+      "string_id": "ordinatus_mars_sonic_disruptor",
+      "id": 110,
+      "name": "Ordinatus Mars (Sonic Disruptor)",
+      "pts": 450
+    },
+    {
+      "string_id": "ordinatus_golgotha_hellfire_missiles",
+      "id": 111,
+      "name": "Ordinatus Golgotha (Hellfire Missiles)",
+      "pts": 550
+    },
+    {
+      "string_id": "ordinatus_armageddon_nova_cannon",
+      "id": 112,
+      "name": "Ordinatus Armageddon (Nova Cannon)",
+      "pts": 500
+    },
+    {
+      "string_id": "linked_neural_network_self_reliant",
+      "id": 113,
+      "name": "Linked Neural Network (Self-Reliant)",
+      "pts": 25
+    },
+    {
+      "string_id": "imperator_configuration",
+      "id": 11,
+      "name": "Imperator Configuration",
+      "pts": 0
+    },
+    {
+      "string_id": "warmonger_configuration",
+      "id": 12,
+      "name": "Warmonger Configuration",
+      "pts": 0
+    },
+    {
+      "string_id": "inferno_gun",
+      "id": 13,
+      "name": "Inferno Gun",
+      "pts": 0
+    },
+    {
+      "string_id": "vulcan_megabolter",
+      "id": 14,
+      "name": "Vulcan Megabolter",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_blastgun",
+      "id": 15,
+      "name": "Plasma Blastgun",
+      "pts": 0
+    },
+    {
+      "string_id": "turbo_laser_destructor",
+      "id": 16,
+      "name": "Turbo-laser Destructor",
+      "pts": 25
+    },
+    {
+      "string_id": "apocalypse_missile_launcher",
+      "id": 30,
+      "name": "Apocalypse Missile Launcher",
+      "pts": 25
+    },
+    {
+      "string_id": "laser_burner",
+      "id": 25,
+      "name": "Laser Burner",
+      "pts": 0
+    },
+    {
+      "string_id": "corvus_assault_pod",
+      "id": 26,
+      "name": "Corvus Assault Pod",
+      "pts": 0
+    },
+    {
+      "string_id": "carapace_landing_pad",
+      "id": 27,
+      "name": "Carapace Landing Pad",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_cannon",
+      "id": 28,
+      "name": "Plasma Cannon",
+      "pts": 25
+    },
+    {
+      "string_id": "gatling_blaster",
+      "id": 29,
+      "name": "Gatling Blaster",
+      "pts": 25
+    },
+    {
+      "string_id": "close_combat_weapon",
+      "id": 31,
+      "name": "Close Combat Weapon",
+      "pts": 25
+    },
+    {
+      "string_id": "melta_cannon",
+      "id": 32,
+      "name": "Melta Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "laser_blaster",
+      "id": 33,
+      "name": "Laser Blaster",
+      "pts": 50
+    },
+    {
+      "string_id": "volcano_cannon",
+      "id": 34,
+      "name": "Volcano Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "plasma_destructor",
+      "id": 35,
+      "name": "Plasma Destructor",
+      "pts": 75
+    },
+    {
+      "string_id": "support_missile",
+      "id": 36,
+      "name": "Support Missile",
+      "pts": 75
+    },
+    {
+      "string_id": "quake_cannon",
+      "id": 37,
+      "name": "Quake Cannon",
+      "pts": 75
+    },
+    {
+      "string_id": "minorus_support_missile",
+      "id": 38,
+      "name": "Minorus Support Missile",
+      "pts": 50
+    },
+    {
+      "string_id": "single_weapon_system_surcharge",
+      "id": 80,
+      "name": "Single Weapon System Surcharge",
+      "pts": 25
+    },
+    {
+      "string_id": "veteran_princeps",
+      "id": 82,
+      "name": "Veteran Princeps",
+      "pts": 25
+    },
+    {
+      "string_id": "carapace_multi_lasers",
+      "id": 83,
+      "name": "Carapace Multi-Lasers",
+      "pts": 50
+    },
+    {
+      "string_id": "sacred_icon",
+      "id": 84,
+      "name": "Sacred Icon",
+      "pts": 50
+    },
+    {
+      "string_id": "2_secutor_units_8_hypaspist_units",
+      "id": 301,
+      "name": "2 Secutor units, 8 Hypaspist units",
+      "pts": 0
+    },
+    {
+      "string_id": "5_secutor_units_5_gun_servitor_units",
+      "id": 302,
+      "name": "5 Secutor units, 5 Gun Servitor Units",
+      "pts": 125
+    },
+    {
+      "string_id": "2_secutor_units_3_hypaspist_units_5_gun_servitor_units",
+      "id": 303,
+      "name": "2 Secutor units, 3 Hypaspist units, 5 Gun Servitor Units",
+      "pts": 0
+    },
+    {
+      "string_id": "5_secutor_units_5_hypaspist_units",
+      "id": 304,
+      "name": "5 Secutor units, 5 Hypaspist units",
+      "pts": 125
+    },
+    {
+      "id": 305,
+      "name": "5 Gun Servitor Unit",
+      "pts": 0
+    },
+    {
+      "string_id": "minorus_with_vulcan_megabolter",
+      "id": 214,
+      "name": "Minorus with Vulcan Megabolter",
+      "pts": 100
+    },
+    {
+      "string_id": "minorus_with_apocalypse_missile_launcher",
+      "id": 230,
+      "name": "Minorus with Apocalypse Missile Launcher",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_laser_burner",
+      "id": 225,
+      "name": "Minorus with Laser Burner",
+      "pts": 100
+    },
+    {
+      "string_id": "minorus_with_corvus_assault_pod",
+      "id": 226,
+      "name": "Minorus with Corvus Assault Pod",
+      "pts": 100
+    },
+    {
+      "string_id": "minorus_with_carapace_landing_pad",
+      "id": 227,
+      "name": "Minorus with Carapace Landing Pad",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_plasma_cannon",
+      "id": 228,
+      "name": "Minorus with Plasma Cannon",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_gatling_blaster",
+      "id": 229,
+      "name": "Minorus with Gatling Blaster",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_close_combat_weapon",
+      "id": 231,
+      "name": "Minorus with Close Combat Weapon",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_melta_cannon",
+      "id": 232,
+      "name": "Minorus with Melta Cannon",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_laser_blaster",
+      "id": 233,
+      "name": "Minorus with Laser Blaster",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_volcano_cannon",
+      "id": 234,
+      "name": "Minorus with Volcano Cannon",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_plasma_destructor",
+      "id": 235,
+      "name": "Minorus with Plasma Destructor",
+      "pts": 175
+    },
+    {
+      "string_id": "minorus_with_quake_cannon",
+      "id": 237,
+      "name": "Minorus with Quake Cannon",
+      "pts": 200
+    },
+    {
+      "string_id": "minorus_with_support_missile",
+      "id": 238,
+      "name": "Minorus with Support Missile",
+      "pts": 150
+    },
+    {
+      "string_id": "macharius",
+      "id": 239,
+      "name": "Macharius",
+      "pts": 0
+    },
+    {
+      "string_id": "macharius_command_tank_vulcan",
+      "id": 240,
+      "name": "Macharius Command Tank (vulcan)",
+      "pts": 0
+    },
+    {
+      "string_id": "macharius_command_tank_vanquisher",
+      "id": 241,
+      "name": "Macharius Command Tank (vanquisher)",
+      "pts": 0
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "from": [
+        565
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Centurio Ordinatus Formation",
+      "from": [
+        571,
+        572
+      ],
+      "forEach": [
+        566,
+        567
+      ],
+      "name2": "Core Formation"
+    },
+    {
+      "max": 2,
+      "name": "Support Formation",
+      "from": [
+        561,
+        562,
+        563,
+        564,
+        565
+      ],
+      "forEach": [
+        566,
+        567
+      ],
+      "name2": "Core Formation"
+    },
+    {
+      "maxPercent": 33,
+      "name": "Mechanicus Allies",
+      "from": [
+        502,
+        503,
+        504,
+        551,
+        552
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        101,
+        102
+      ],
+      "appliesTo": [
+        567
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        104
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        105
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        11,
+        12
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        226
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        301,
+        302,
+        303,
+        304
+      ],
+      "appliesTo": [
+        566
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "appliesTo": [
+        551
+      ]
+    },
+    {
+      "min": 4,
+      "max": 4,
+      "from": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "appliesTo": [
+        552
+      ]
+    },
+    {
+      "min": 2,
+      "max": 3,
+      "from": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        231,
+        232,
+        233,
+        234,
+        235,
+        237,
+        238
+      ],
+      "appliesTo": [
+        571
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        110,
+        111,
+        112
+      ],
+      "appliesTo": [
+        572
+      ]
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        13,
+        14,
+        15,
+        16,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "appliesTo": [
+        504
+      ]
+    },
+    {
+      "min": 4,
+      "max": 4,
+      "from": [
+        13,
+        14,
+        15,
+        16,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        103,
+        104,
+        105,
+        214,
+        225,
+        226,
+        227,
+        228,
+        229,
+        231,
+        232,
+        233,
+        234,
+        235,
+        237,
+        238
+      ],
+      "appliesTo": [
+        563,
+        566,
+        567
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        80
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        82
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        83
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        84
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        113
+      ],
+      "appliesTo": [
+        563,
+        566,
+        567
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        240,
+        241
+      ],
+      "appliesTo": [
+        553
+      ]
+    },
+    {
+      "min": 2,
+      "from": [
+        239
+      ],
+      "appliesTo": [
+        553
+      ]
+    }
+  ]
 }

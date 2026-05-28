@@ -21,16 +21,19 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The They Shall Know No Fear rule applies to all Space Wolf formations (see They Shall Know No Fear )."
     },
     {
+      "id": "they_shall_know_no_fear",
       "name": "They Shall Know No Fear",
       "text": "How many Blast markers does a broken Space Marine unit count as having when working out the result of an assault?\nOne per unit.\nSpace Marines are renowned for their tenacity and bravery. This is represented by the following rules:\n* It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).\n* Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.\n* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.\n* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
     }
   ],
   "formations": [
     {
+      "id": "1_great_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "1+ Great Company",
@@ -42,6 +45,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raider",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Land Raider",
@@ -53,6 +57,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_speeder",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Land Speeder",
@@ -64,6 +69,7 @@
       "parse_warnings": []
     },
     {
+      "id": "landing_craft",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Landing Craft",
@@ -75,6 +81,7 @@
       "parse_warnings": []
     },
     {
+      "id": "predator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Predator",
@@ -86,6 +93,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_strike_cruiser",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Strike Cruiser",
@@ -97,6 +105,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Vindicator",
@@ -108,6 +117,7 @@
       "parse_warnings": []
     },
     {
+      "id": "whirlwind",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Whirlwind",
@@ -119,6 +129,7 @@
       "parse_warnings": []
     },
     {
+      "id": "blood_claws",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Blood Claws",
@@ -130,6 +141,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fenrisian_wolves",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Fenrisian Wolves",
@@ -141,6 +153,7 @@
       "parse_warnings": []
     },
     {
+      "id": "long_fangs",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Long Fangs",
@@ -152,6 +165,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skyclaws",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Skyclaws",
@@ -163,6 +177,7 @@
       "parse_warnings": []
     },
     {
+      "id": "swiftclaws",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Swiftclaws",
@@ -174,6 +189,7 @@
       "parse_warnings": []
     },
     {
+      "id": "wolf_guard_terminators",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Wolf Guard Terminators",
@@ -185,6 +201,7 @@
       "parse_warnings": []
     },
     {
+      "id": "wolf_scouts",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Wolf Scouts",
@@ -196,6 +213,7 @@
       "parse_warnings": []
     },
     {
+      "id": "battle_barge",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Battle Barge",
@@ -218,6 +236,7 @@
       "parse_warnings": []
     },
     {
+      "id": "add_up_to_two_of_the_following_options_no_option_may_be_selected_more_than_once",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Add up to two of the following options (no option may be selected more than once):",
@@ -229,6 +248,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hero",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hero",
@@ -240,6 +260,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hunter",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hunter",
@@ -251,6 +272,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Land Raiders",
@@ -262,6 +284,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorbacks",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Razorbacks",
@@ -284,6 +307,7 @@
       "parse_warnings": []
     },
     {
+      "id": "snipers",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Snipers",
@@ -306,6 +330,7 @@
       "parse_warnings": []
     },
     {
+      "id": "50_points",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "+50 points",
@@ -317,6 +342,7 @@
       "parse_warnings": []
     },
     {
+      "id": "typhoons",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Typhoons",
@@ -328,6 +354,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicators",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Vindicators",
@@ -339,6 +366,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_wolf_lord",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Wolf Lord",
@@ -350,6 +378,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -361,6 +390,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -372,6 +402,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Reaver",
@@ -383,6 +414,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warlord",
@@ -394,6 +426,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderhawk_gunship",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Thunderhawk Gunship",
@@ -407,6 +440,7 @@
   ],
   "profiles": [
     {
+      "id": "captain",
       "name": "Captain",
       "type": "CH",
       "speed": "n/a",
@@ -436,6 +470,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaplain",
       "name": "Chaplain",
       "type": "CH",
       "speed": "n/a",
@@ -465,6 +500,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "librarian",
       "name": "Librarian",
       "type": "CH",
       "speed": "n/a",
@@ -502,6 +538,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -530,6 +567,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_claws",
       "name": "Blood Claws",
       "type": "INF",
       "speed": "15cm",
@@ -552,6 +590,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fenrisian_wolves",
       "name": "Fenrisian Wolves",
       "type": "INF",
       "speed": "20cm",
@@ -571,6 +610,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "grey_hunters",
       "name": "Grey Hunters",
       "type": "INF",
       "speed": "15cm",
@@ -593,6 +633,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "long_fangs",
       "name": "Long Fangs",
       "type": "INF",
       "speed": "15cm",
@@ -615,6 +656,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skyclaws",
       "name": "Skyclaws",
       "type": "INF",
       "speed": "30cm",
@@ -639,6 +681,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "swiftclaw_bikes",
       "name": "Swiftclaw Bikes",
       "type": "INF",
       "speed": "35cm",
@@ -663,6 +706,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wolf_guard_terminators",
       "name": "Wolf Guard Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -698,6 +742,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wolf_scouts",
       "name": "Wolf Scouts",
       "type": "INF",
       "speed": "15cm",
@@ -724,6 +769,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder",
       "name": "Land Speeder",
       "type": "LV",
       "speed": "35cm",
@@ -759,6 +805,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_tornado",
       "name": "Land Speeder Tornado",
       "type": "LV",
       "speed": "35cm",
@@ -790,6 +837,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_typhoon",
       "name": "Land Speeder Typhoon",
       "type": "LV",
       "speed": "35cm",
@@ -821,6 +869,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "multi_melta_attack_bike",
       "name": "Multi-melta Attack Bike",
       "type": "LV",
       "speed": "35cm",
@@ -855,6 +904,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dreadnought",
       "name": "Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -907,6 +957,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "hunter",
       "name": "Hunter",
       "type": "AV",
       "speed": "30cm",
@@ -929,6 +980,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider",
       "name": "Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -962,6 +1014,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_crusader",
       "name": "Land Raider Crusader",
       "type": "AV",
       "speed": "25cm",
@@ -997,6 +1050,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_annihilator",
       "name": "Predator Annihilator",
       "type": "AV",
       "speed": "30cm",
@@ -1025,6 +1079,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_destructor",
       "name": "Predator Destructor",
       "type": "AV",
       "speed": "30cm",
@@ -1053,6 +1108,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razorback",
       "name": "Razorback",
       "type": "AV",
       "speed": "30cm",
@@ -1088,6 +1144,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -1113,6 +1170,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "venerable_dreadnought",
       "name": "Venerable Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1167,6 +1225,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "vindicator",
       "name": "Vindicator",
       "type": "AV",
       "speed": "25cm",
@@ -1193,6 +1252,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "whirlwind",
       "name": "Whirlwind",
       "type": "AV",
       "speed": "30cm",
@@ -1217,6 +1277,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "landing_craft",
       "name": "Landing Craft",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1252,6 +1313,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_gunship",
       "name": "Thunderhawk Gunship",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1306,6 +1368,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_barge",
       "name": "Battle Barge",
       "type": "SC",
       "speed": "n/a",
@@ -1334,6 +1397,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_cruiser",
       "name": "Strike Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1361,6 +1425,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "space_wolf_drop_pod",
       "name": "Space Wolf Drop Pod",
       "type": "Special",
       "speed": "n/a",
@@ -1387,6 +1452,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1425,6 +1491,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1465,6 +1532,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1491,6 +1559,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1523,6 +1592,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1562,6 +1632,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1602,6 +1673,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1651,6 +1723,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "2_bunkers_minefields",
       "name": "2 Bunkers + Minefields",
       "type": "Static Defences",
       "speed": "n/a",
@@ -1663,6 +1736,7 @@
       ]
     },
     {
+      "id": "2_bunkers_trenches",
       "name": "2 Bunkers + Trenches",
       "type": "Static Defences",
       "speed": "n/a",
@@ -1675,6 +1749,7 @@
       ]
     },
     {
+      "id": "4_land_raiders_or_redeemers",
       "name": "4 Land Raiders or Redeemers",
       "type": "Formation Upgrade",
       "speed": "n/a",
@@ -1687,6 +1762,7 @@
       ]
     },
     {
+      "id": "ambush",
       "name": "Ambush",
       "type": "Tactical Upgrade",
       "speed": "n/a",
@@ -1699,6 +1775,7 @@
       ]
     },
     {
+      "id": "assault_marines",
       "name": "Assault Marines",
       "type": "INF",
       "speed": "30cm",
@@ -1718,6 +1795,7 @@
       ]
     },
     {
+      "id": "attack_bike",
       "name": "Attack Bike",
       "type": "LV",
       "speed": "35cm",
@@ -1735,6 +1813,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "bastion",
       "name": "Bastion",
       "type": "Fortification",
       "speed": "n/a",
@@ -1754,6 +1833,7 @@
       ]
     },
     {
+      "id": "bike_unit",
       "name": "Bike Unit",
       "type": "INF",
       "speed": "35cm",
@@ -1773,6 +1853,7 @@
       ]
     },
     {
+      "id": "centurion",
       "name": "Centurion",
       "type": "INF",
       "speed": "10cm",
@@ -1800,6 +1881,7 @@
       ]
     },
     {
+      "id": "devastators",
       "name": "Devastators",
       "type": "INF",
       "speed": "15cm",
@@ -1817,6 +1899,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "dreadnought_hellfire_config",
       "name": "Dreadnought (Hellfire config.)",
       "type": "AV",
       "speed": "15cm",
@@ -1838,6 +1921,7 @@
       ]
     },
     {
+      "id": "drop_pod",
       "name": "Drop Pod",
       "type": "Transport Drop Pod",
       "speed": "n/a",
@@ -1852,6 +1936,7 @@
       ]
     },
     {
+      "id": "emplacement",
       "name": "Emplacement",
       "type": "Fortification",
       "speed": "0cm",
@@ -1864,6 +1949,7 @@
       ]
     },
     {
+      "id": "fast_attack",
       "name": "Fast Attack",
       "type": "Formation",
       "speed": "n/a",
@@ -1876,6 +1962,7 @@
       ]
     },
     {
+      "id": "fellblade",
       "name": "Fellblade",
       "type": "WE",
       "speed": "25cm",
@@ -1896,6 +1983,7 @@
       ]
     },
     {
+      "id": "fortified_positions",
       "name": "Fortified Positions",
       "type": "Static Defences",
       "speed": "n/a",
@@ -1909,6 +1997,7 @@
       ]
     },
     {
+      "id": "hyperios_platform",
       "name": "Hyperios Platform",
       "type": "LV",
       "speed": "0cm",
@@ -1930,6 +2019,7 @@
       ]
     },
     {
+      "id": "land_raider_achilles",
       "name": "Land Raider Achilles",
       "type": "AV",
       "speed": "25cm",
@@ -1952,6 +2042,7 @@
       ]
     },
     {
+      "id": "land_raider_helios",
       "name": "Land Raider Helios",
       "type": "AV",
       "speed": "25cm",
@@ -1974,6 +2065,7 @@
       ]
     },
     {
+      "id": "land_raider_prometheus",
       "name": "Land Raider Prometheus",
       "type": "AV",
       "speed": "25cm",
@@ -1995,6 +2087,7 @@
       ]
     },
     {
+      "id": "land_raider_redeemer",
       "name": "Land Raider Redeemer",
       "type": "AV",
       "speed": "25cm",
@@ -2017,6 +2110,7 @@
       ]
     },
     {
+      "id": "land_speeder_storm",
       "name": "Land Speeder Storm",
       "type": "LV",
       "speed": "35cm",
@@ -2039,6 +2133,7 @@
       ]
     },
     {
+      "id": "land_speeder_tempest",
       "name": "Land Speeder Tempest",
       "type": "LV",
       "speed": "35cm",
@@ -2060,6 +2155,7 @@
       ]
     },
     {
+      "id": "planetfall",
       "name": "Planetfall",
       "type": "Tactical Upgrade",
       "speed": "n/a",
@@ -2072,6 +2168,7 @@
       ]
     },
     {
+      "id": "predator_incinerator",
       "name": "Predator Incinerator",
       "type": "AV",
       "speed": "30cm",
@@ -2091,6 +2188,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "rapier",
       "name": "Rapier",
       "type": "INF",
       "speed": "10cm",
@@ -2108,6 +2206,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "razorback_twin_heavy_bolter",
       "name": "Razorback (Twin Heavy Bolter)",
       "type": "AV",
       "speed": "30cm",
@@ -2127,6 +2226,7 @@
       ]
     },
     {
+      "id": "razorback_twin_laser_cannon",
       "name": "Razorback (Twin Laser Cannon)",
       "type": "AV",
       "speed": "30cm",
@@ -2146,6 +2246,7 @@
       ]
     },
     {
+      "id": "scouts",
       "name": "Scouts",
       "type": "INF",
       "speed": "15cm",
@@ -2166,6 +2267,7 @@
       ]
     },
     {
+      "id": "sky_claws",
       "name": "Sky Claws",
       "type": "INF",
       "speed": "30cm",
@@ -2185,6 +2287,7 @@
       ]
     },
     {
+      "id": "spacecraft",
       "name": "Spacecraft",
       "type": "SC",
       "speed": "n/a",
@@ -2197,6 +2300,7 @@
       ]
     },
     {
+      "id": "sternguard_veterans",
       "name": "Sternguard Veterans",
       "type": "INF",
       "speed": "15cm",
@@ -2214,6 +2318,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "storm_eagle",
       "name": "Storm Eagle",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2246,6 +2351,7 @@
       ]
     },
     {
+      "id": "storm_talon_gunship",
       "name": "Storm Talon Gunship",
       "type": "AC Fighter-Bomber",
       "speed": "n/a",
@@ -2273,6 +2379,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "supreme_commander_in_land_raider",
       "name": "Supreme Commander in Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -2302,6 +2409,7 @@
       ]
     },
     {
+      "id": "supreme_commander_in_prometheus",
       "name": "Supreme Commander in Prometheus",
       "type": "AV",
       "speed": "25cm",
@@ -2325,6 +2433,7 @@
       ]
     },
     {
+      "id": "tactical_marines",
       "name": "Tactical Marines",
       "type": "INF",
       "speed": "15cm",
@@ -2342,6 +2451,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "tarantula_emplacement",
       "name": "Tarantula + Emplacement",
       "type": "Static Defences",
       "speed": "0cm",
@@ -2354,6 +2464,7 @@
       ]
     },
     {
+      "id": "tarantula_sentry_gun",
       "name": "Tarantula Sentry Gun",
       "type": "INF",
       "speed": "0cm",
@@ -2373,6 +2484,7 @@
       ]
     },
     {
+      "id": "techmarine",
       "name": "Techmarine",
       "type": "CH",
       "speed": "n/a",
@@ -2396,6 +2508,7 @@
       ]
     },
     {
+      "id": "terminators",
       "name": "Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -2415,6 +2528,7 @@
       ]
     },
     {
+      "id": "thudd_gun",
       "name": "Thudd Gun",
       "type": "INF",
       "speed": "10cm",
@@ -2434,6 +2548,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "thunderfire_cannon",
       "name": "Thunderfire Cannon",
       "type": "INF",
       "speed": "10cm",
@@ -2453,6 +2568,7 @@
       "abilities_or_notes": []
     },
     {
+      "id": "thunderhawk",
       "name": "Thunderhawk",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -2501,6 +2617,7 @@
       ]
     },
     {
+      "id": "thunderhawk_close_air_support_configuration",
       "name": "Thunderhawk (Close Air Support configuration)",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2524,6 +2641,7 @@
       ]
     },
     {
+      "id": "thunderhawk_saturation_bombing_configuration",
       "name": "Thunderhawk (Saturation Bombing configuration)",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2547,6 +2665,7 @@
       ]
     },
     {
+      "id": "thunderhawk_transporter",
       "name": "Thunderhawk Transporter",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2570,6 +2689,7 @@
       ]
     },
     {
+      "id": "vanguard_veterans",
       "name": "Vanguard Veterans",
       "type": "INF",
       "speed": "30cm",
@@ -2591,6 +2711,7 @@
       ]
     },
     {
+      "id": "vulcan_dreadnought",
       "name": "Vulcan Dreadnought",
       "type": "AV",
       "speed": "15cm",

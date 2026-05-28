@@ -1,157 +1,1049 @@
 {
-	"id":"ADEPTUS MECHANICUS – Gryphonne IV Cataphractii",
-	"version":"Experimental",
-	"by":"Norto",
-	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."],
-	"sections":[
-
-		{"name":"Skitarii Cataphractii Core Formations", "formations": [
-			{ "id":501, "name":"Leman Russ Maniple", "pts":400, "upgrades":[109,110,111,112,115] },
-			{ "id":502, "name":"Dunecrawler Onager Maniple", "pts":250, "units":"5x Dunecrawler Onagers", "upgrades":[109,110,113,114,115] },
-			{ "id":503, "name":"Dunecrawler Annihilator Maniple", "pts":400, "units":"5x Dunecrawler Annihilators", "upgrades":[110,113,114,115] }
-		]},
-		{"name":"Cataphractii Support Formations", "formations": [
-			{ "id":510, "name":"Conqueror Maniple", "pts":275, "units":"5x Skitarii Leman Russ Conquerors", "upgrades":[110] },
-			{ "id":511, "name":"Icarian Cohort", "pts":150, "units":"3x Dunecrawler Icarians", "upgrades":[110] },
-			{ "id":512, "name":"Ironstrider Cohort", "pts":200, "upgrades":[110] },
-			{ "id":513, "name":"Avenger Squadron", "pts":225, "units":"2 Avenger Strike Fighters", "upgrades":[110] },
-			{ "id":514, "name":"Lightning Squadron", "pts":175, "units":"2 Lightning Primaris Interceptors", "upgrades":[110] },
-			{ "id":515, "name":"Tetrarch Heavy Lander", "pts":475, "units":"1 Tetrarch Heavy Lander", "upgrades":[110] },
-			{ "id":516, "name":"Orbital Support", "pts":200, "units":"1 Ark Mechanicus", "upgrades":[110] }
-		]},
-		{"name":"Skitarii Cataphractii Heavy Assault Formations", "formations": [
-			{ "id":520, "name":"Heavy Tank Century", "pts":340, "upgrades":[109,110] },			
-			{ "id":521, "name":"Super Heavy Tank Century", "pts":500, "upgrades":[109,110] }
-		]},
-
-		{"name":"ATML ALLIES", "formations":[
-			{"id":530, "name":"Skitarii Demi-Century",	"pts":225, "upgrades":[141,142,125,126,127,128,129,130,131,132,133,134,135,137,138]},
-			{"id":531, "name":"Sagitarii Demi-Century",	"pts":250, "units":"5 Sagitarii units",	 "upgrades":[141,142,125,126,127,128,129,130,131,132,133,134,135,137,138]},	
-			{"id":532, "name":"Ordinatus Minorus",		"pts":50, "upgrades":[125,126,127,128,129,130,131,132,133,134,135,137,138]},
-			{"id":537, "name":"Emperor Titan", 		"pts":1250,"upgrades":[82,83,84]},
-			{"id":533, "name":"Warlord Titan", 		"pts":725, "upgrades":[80,82,83,84]},
-			{"id":534, "name":"Reaver Titan",		"pts":575, "upgrades":[80,82,83,84]},
-			{"id":535, "name":"Warhound Titan",		"pts":275, "upgrades":[80,82]}
-		]}
-
-
-
-	],
-	"upgrades":[	
-		{"id":11, "name":"Imperator Configuration",		"pts":0},
-		{"id":12, "name":"Warmonger Configuration",		"pts":0},
-		{"id":13, "name":"Inferno Gun", 			"pts":0},
-		{"id":14, "name":"Vulcan Megabolter",			"pts":0},
-		{"id":15, "name":"Plasma Blastgun",			"pts":0},
-		{"id":16, "name":"Turbo-laser Destructor",		"pts":25},
-		{"id":30, "name":"Apocalypse Missile Launcher",		"pts":25},
-		{"id":25, "name":"Laser Burner",			"pts":0},
-		{"id":26, "name":"Corvus Assault Pod",			"pts":0},
-		{"id":27, "name":"Carapace Landing Pad",		"pts":0},
-		{"id":28, "name":"Plasma Cannon",			"pts":25},
-		{"id":29, "name":"Gatling Blaster",			"pts":25},
-		{"id":31, "name":"Close Combat Weapon",			"pts":25},
-		{"id":32, "name":"Melta Cannon",			"pts":50},
-		{"id":33, "name":"Laser Blaster",			"pts":50},
-		{"id":34, "name":"Volcano Cannon",			"pts":50},
-		{"id":35, "name":"Plasma Destructor",			"pts":75},
-		{"id":36, "name":"Support Missile",			"pts":75},
-		{"id":37, "name":"Quake Cannon",			"pts":75},
-		{"id":38, "name":"Minorus Support Missile",		"pts":50},
-		{"id":80, "name":"Single Weapon System Surcharge", 	"pts":25},
-		{"id":82, "name":"Veteran Princeps",			"pts":25},
-		{"id":83, "name":"Carapace Multi-Lasers",		"pts":50},
-		{"id":84, "name":"Sacred Icon", "pts":50},
-
-		{"id":101, "name":"5x Leman Russ Vanquishers",		"pts":0},
-		{"id":102, "name":"5x Leman Russ Executioners",		"pts":0},
-		{"id":103, "name":"5x Dunecrawler Onagers",		"pts":0},
-		{"id":104, "name":"5x Dunecrawler Annihilators",	"pts":0},
-		{"id":105, "name":"Skitarii Leman Russ Conquerors",	"pts":0},
-		{"id":106, "name":"Dunecrawler Icarians",		"pts":0},
-		{"id":107, "name":"4x Ironstrider Balistarii",		"pts":0},
-		{"id":108, "name":"4x Ironstrider Dragoons",		"pts":0},
-		{"id":109, "name":"Strategos",				"pts":50},
-		{"id":110, "name":"Skitarii Alpha",			"pts":0},
-		{"id":111, "name":"Add 3x Leman Russ Vanquishers",		"pts":200},
-		{"id":112, "name":"Add 3x Leman Russ Executioners",		"pts":200},
-		{"id":113, "name":"Add 3x Dunecrawler Onagers",			"pts":150},
-		{"id":114, "name":"Add 3x Dunecrawler Annihilators",		"pts":200},
-		{"id":115, "name":"Dunecrawler Icarian",			"pts":50},
-		{"id":116, "name":"Macharius Heavy Tank",			"pts":0},
-		{"id":117, "name":"Macharius Vulcan",				"pts":10},
-		{"id":118, "name":"Macharius Vanquisher",			"pts":10},
-		{"id":119, "name":"2 Secutor units, 8 Hypaspist units",					"pts":0},
-		{"id":120, "name":"5 Secutor units, 5 Gun Servitor Units",				"pts":125},
-		{"id":121, "name":"2 Secutor units, 3 Hypaspist units, 5 Gun Servitor Units",		"pts":0},
-		{"id":122, "name":"5 Secutor units, 5 Hypaspist units",					"pts":125},
-		{"id":123, "name":"5 Gun Servitor Unit",						"pts":0},
-		{"id":124, "name":"5 Rapier Laser Destroyer Unit",					"pts":25},
-		{"id":125, "name":"Minorus with Apocalypse Missile Launcher",				"pts":125},
-		{"id":126, "name":"Minorus with Laser Burner",						"pts":100},
-		{"id":127, "name":"Minorus with Corvus Assault Pod",					"pts":100},
-		{"id":128, "name":"Minorus with Carapace Landing Pad",					"pts":100},
-		{"id":129, "name":"Minorus with Plasma Cannon",						"pts":125},
-		{"id":130, "name":"Minorus with Gatling Blaster",					"pts":125},
-		{"id":131, "name":"Minorus with Close Combat Weapon",					"pts":125},
-		{"id":132, "name":"Minorus with Melta Cannon",						"pts":150},
-		{"id":133, "name":"Minorus with Laser Blaster",						"pts":150},
-		{"id":134, "name":"Minorus with Volcano Cannon",					"pts":150},
-		{"id":135, "name":"Minorus with Plasma Destructor",					"pts":175},
-		{"id":137, "name":"Minorus with Quake Cannon",						"pts":175},
-		{"id":138, "name":"Minorus with Support Missile",					"pts":150},
-		{"id":139, "name":"Baneblades",								"pts":0},
-		{"id":140, "name":"Stormblades",							"pts":0},
-
-		{"id":141, "name":"Hydra",								"pts":50},
-		{"id":142, "name":"10 Chimedons",							 "pts":175}
-
-
-	],
-	"formationConstraints":[
-		{"max":1, "from":[561]},
-		{"max":2, "name":"SUPPORT FORMATIONS", "from":[510,511,512,513,514,515,516], "forEach":[501,502,503], "name2":"CORE FORMATIONS"},
-		{"max":1, "name":"HEAVY ASSAULT FORMATIONS", "from":[520,521], "forEach":[501,502,503], "name2":"CORE FORMATIONS"},
-		{"maxPercent":33.34, "from":[530,531,532,533,534,535,536]},
-		{"max":1, "name":"Skitarii Support", "from":[530,531,532]},
-		{"max":1, "name":"Collegia Titanica Support", "from":[533,534,535,537]}
-	],
-	"upgradeConstraints":[
-
-
-		{"max":1, "from":[109]},
-		{"max":1, "from":[110]},
-		{"max":1, "from":[113]},
-		{"max":1, "from":[114]},
-		{"max":1, "from":[104]},
-		{"max":2, "from":[115]},
-		{"max":1, "from":[111]},
-		{"max":1, "from":[112]},
-
-		{"max":1, "perArmy":true, "from":[109]},
-		{"min":1, "max":1, "from":[107,108], "appliesTo":[512]},
-		{"min":1, "max":3, "from":[117,118], "appliesTo":[520]},
-		{"min":2, "max":3, "from":[116,117,118], "appliesTo":[520]},
-		{"min":3, "max":3, "from":[139,140], "appliesTo":[521]},
-		{"min":1, "max":1, "from":[101,102], "appliesTo":[501]},
-
-		{"min":1, "max":1, "from":[119,120,121,122], "appliesTo":[530]},
-
-		{"min":1, "max":1, "from":[123,124], "appliesTo":[531]},
-		{"min":1, "max":1, "from":[11,12], "appliesTo":[537]},
-		{"min":2, "max":2, "from":[13,14,15,16], "appliesTo":[535]},
-		{"min":3, "max":3, "from":[30,13,14,15,16,25,26,27,28,29,31,32,33,34,35,36,37], "appliesTo":[534]},
-		{"min":4, "max":4, "from":[16,13,14,15,25,26,27,28,29,30,31,32,33,34,35,36,37], "appliesTo":[533]},
-    		{"max":2, "from":[35,36], "appliesTo":[533]},
-    		{"max":1, "from":[35,36], "appliesTo":[534]},
-		{"max":3, "from":[125,126,127,128,129,130,131,132,133,134,135,136,137,138]},
-		{"min":2, "max":3, "from":[125,126,127,128,129,130,131,132,133,134,135,137,138], "appliesTo":[532]},
-    		{"max":1, "from":[80]},
-		{"max":1, "from":[82]},
-		{"max":1, "from":[83]},
-		{"max":1, "from":[141]},
-		{"max":1, "from":[142]},
-		{"max":1, "from":[84]}
-	
-	]
+  "id": "ADEPTUS MECHANICUS – Gryphonne IV Cataphractii",
+  "list_id": "AMTL_Cataphractii_NETEA",
+  "faction_id": "cataphractii",
+  "ruleset": "NETEA",
+  "version": "Experimental",
+  "by": "Norto",
+  "notes": [
+    "If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."
+  ],
+  "sections": [
+    {
+      "name": "Skitarii Cataphractii Core Formations",
+      "formations": [
+        {
+          "string_id": "leman_russ_maniple",
+          "id": 501,
+          "name": "Leman Russ Maniple",
+          "pts": 400,
+          "upgrades": [
+            109,
+            110,
+            111,
+            112,
+            115
+          ]
+        },
+        {
+          "string_id": "dunecrawler_onager_maniple",
+          "id": 502,
+          "name": "Dunecrawler Onager Maniple",
+          "pts": 250,
+          "units": "5x Dunecrawler Onagers",
+          "upgrades": [
+            109,
+            110,
+            113,
+            114,
+            115
+          ]
+        },
+        {
+          "string_id": "dunecrawler_annihilator_maniple",
+          "id": 503,
+          "name": "Dunecrawler Annihilator Maniple",
+          "pts": 400,
+          "units": "5x Dunecrawler Annihilators",
+          "upgrades": [
+            110,
+            113,
+            114,
+            115
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cataphractii Support Formations",
+      "formations": [
+        {
+          "string_id": "conqueror_maniple",
+          "id": 510,
+          "name": "Conqueror Maniple",
+          "pts": 275,
+          "units": "5x Skitarii Leman Russ Conquerors",
+          "upgrades": [
+            110
+          ]
+        },
+        {
+          "string_id": "icarian_cohort",
+          "id": 511,
+          "name": "Icarian Cohort",
+          "pts": 150,
+          "units": "3x Dunecrawler Icarians",
+          "upgrades": [
+            110
+          ]
+        },
+        {
+          "string_id": "ironstrider_cohort",
+          "id": 512,
+          "name": "Ironstrider Cohort",
+          "pts": 200,
+          "upgrades": [
+            110
+          ]
+        },
+        {
+          "string_id": "avenger_squadron",
+          "id": 513,
+          "name": "Avenger Squadron",
+          "pts": 225,
+          "units": "2 Avenger Strike Fighters",
+          "upgrades": [
+            110
+          ]
+        },
+        {
+          "string_id": "lightning_squadron",
+          "id": 514,
+          "name": "Lightning Squadron",
+          "pts": 175,
+          "units": "2 Lightning Primaris Interceptors",
+          "upgrades": [
+            110
+          ]
+        },
+        {
+          "string_id": "tetrarch_heavy_lander",
+          "id": 515,
+          "name": "Tetrarch Heavy Lander",
+          "pts": 475,
+          "units": "1 Tetrarch Heavy Lander",
+          "upgrades": [
+            110
+          ]
+        },
+        {
+          "string_id": "orbital_support",
+          "id": 516,
+          "name": "Orbital Support",
+          "pts": 200,
+          "units": "1 Ark Mechanicus",
+          "upgrades": [
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skitarii Cataphractii Heavy Assault Formations",
+      "formations": [
+        {
+          "string_id": "heavy_tank_century",
+          "id": 520,
+          "name": "Heavy Tank Century",
+          "pts": 340,
+          "upgrades": [
+            109,
+            110
+          ]
+        },
+        {
+          "string_id": "super_heavy_tank_century",
+          "id": 521,
+          "name": "Super Heavy Tank Century",
+          "pts": 500,
+          "upgrades": [
+            109,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATML ALLIES",
+      "formations": [
+        {
+          "string_id": "skitarii_demi_century",
+          "id": 530,
+          "name": "Skitarii Demi-Century",
+          "pts": 225,
+          "upgrades": [
+            141,
+            142,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            137,
+            138
+          ]
+        },
+        {
+          "string_id": "sagitarii_demi_century",
+          "id": 531,
+          "name": "Sagitarii Demi-Century",
+          "pts": 250,
+          "units": "5 Sagitarii units",
+          "upgrades": [
+            141,
+            142,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            137,
+            138
+          ]
+        },
+        {
+          "string_id": "ordinatus_minorus",
+          "id": 532,
+          "name": "Ordinatus Minorus",
+          "pts": 50,
+          "upgrades": [
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            137,
+            138
+          ]
+        },
+        {
+          "string_id": "emperor_titan",
+          "id": 537,
+          "name": "Emperor Titan",
+          "pts": 1250,
+          "upgrades": [
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "string_id": "warlord_titan",
+          "id": 533,
+          "name": "Warlord Titan",
+          "pts": 725,
+          "upgrades": [
+            80,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "string_id": "reaver_titan",
+          "id": 534,
+          "name": "Reaver Titan",
+          "pts": 575,
+          "upgrades": [
+            80,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "string_id": "warhound_titan",
+          "id": 535,
+          "name": "Warhound Titan",
+          "pts": 275,
+          "upgrades": [
+            80,
+            82
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "imperator_configuration",
+      "id": 11,
+      "name": "Imperator Configuration",
+      "pts": 0
+    },
+    {
+      "string_id": "warmonger_configuration",
+      "id": 12,
+      "name": "Warmonger Configuration",
+      "pts": 0
+    },
+    {
+      "string_id": "inferno_gun",
+      "id": 13,
+      "name": "Inferno Gun",
+      "pts": 0
+    },
+    {
+      "string_id": "vulcan_megabolter",
+      "id": 14,
+      "name": "Vulcan Megabolter",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_blastgun",
+      "id": 15,
+      "name": "Plasma Blastgun",
+      "pts": 0
+    },
+    {
+      "string_id": "turbo_laser_destructor",
+      "id": 16,
+      "name": "Turbo-laser Destructor",
+      "pts": 25
+    },
+    {
+      "string_id": "apocalypse_missile_launcher",
+      "id": 30,
+      "name": "Apocalypse Missile Launcher",
+      "pts": 25
+    },
+    {
+      "string_id": "laser_burner",
+      "id": 25,
+      "name": "Laser Burner",
+      "pts": 0
+    },
+    {
+      "string_id": "corvus_assault_pod",
+      "id": 26,
+      "name": "Corvus Assault Pod",
+      "pts": 0
+    },
+    {
+      "string_id": "carapace_landing_pad",
+      "id": 27,
+      "name": "Carapace Landing Pad",
+      "pts": 0
+    },
+    {
+      "string_id": "plasma_cannon",
+      "id": 28,
+      "name": "Plasma Cannon",
+      "pts": 25
+    },
+    {
+      "string_id": "gatling_blaster",
+      "id": 29,
+      "name": "Gatling Blaster",
+      "pts": 25
+    },
+    {
+      "string_id": "close_combat_weapon",
+      "id": 31,
+      "name": "Close Combat Weapon",
+      "pts": 25
+    },
+    {
+      "string_id": "melta_cannon",
+      "id": 32,
+      "name": "Melta Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "laser_blaster",
+      "id": 33,
+      "name": "Laser Blaster",
+      "pts": 50
+    },
+    {
+      "string_id": "volcano_cannon",
+      "id": 34,
+      "name": "Volcano Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "plasma_destructor",
+      "id": 35,
+      "name": "Plasma Destructor",
+      "pts": 75
+    },
+    {
+      "string_id": "support_missile",
+      "id": 36,
+      "name": "Support Missile",
+      "pts": 75
+    },
+    {
+      "string_id": "quake_cannon",
+      "id": 37,
+      "name": "Quake Cannon",
+      "pts": 75
+    },
+    {
+      "string_id": "minorus_support_missile",
+      "id": 38,
+      "name": "Minorus Support Missile",
+      "pts": 50
+    },
+    {
+      "string_id": "single_weapon_system_surcharge",
+      "id": 80,
+      "name": "Single Weapon System Surcharge",
+      "pts": 25
+    },
+    {
+      "string_id": "veteran_princeps",
+      "id": 82,
+      "name": "Veteran Princeps",
+      "pts": 25
+    },
+    {
+      "string_id": "carapace_multi_lasers",
+      "id": 83,
+      "name": "Carapace Multi-Lasers",
+      "pts": 50
+    },
+    {
+      "string_id": "sacred_icon",
+      "id": 84,
+      "name": "Sacred Icon",
+      "pts": 50
+    },
+    {
+      "string_id": "5x_leman_russ_vanquishers",
+      "id": 101,
+      "name": "5x Leman Russ Vanquishers",
+      "pts": 0
+    },
+    {
+      "string_id": "5x_leman_russ_executioners",
+      "id": 102,
+      "name": "5x Leman Russ Executioners",
+      "pts": 0
+    },
+    {
+      "string_id": "5x_dunecrawler_onagers",
+      "id": 103,
+      "name": "5x Dunecrawler Onagers",
+      "pts": 0
+    },
+    {
+      "string_id": "5x_dunecrawler_annihilators",
+      "id": 104,
+      "name": "5x Dunecrawler Annihilators",
+      "pts": 0
+    },
+    {
+      "string_id": "skitarii_leman_russ_conquerors",
+      "id": 105,
+      "name": "Skitarii Leman Russ Conquerors",
+      "pts": 0
+    },
+    {
+      "string_id": "dunecrawler_icarians",
+      "id": 106,
+      "name": "Dunecrawler Icarians",
+      "pts": 0
+    },
+    {
+      "string_id": "4x_ironstrider_balistarii",
+      "id": 107,
+      "name": "4x Ironstrider Balistarii",
+      "pts": 0
+    },
+    {
+      "string_id": "4x_ironstrider_dragoons",
+      "id": 108,
+      "name": "4x Ironstrider Dragoons",
+      "pts": 0
+    },
+    {
+      "string_id": "strategos",
+      "id": 109,
+      "name": "Strategos",
+      "pts": 50
+    },
+    {
+      "string_id": "skitarii_alpha",
+      "id": 110,
+      "name": "Skitarii Alpha",
+      "pts": 0
+    },
+    {
+      "string_id": "add_3x_leman_russ_vanquishers",
+      "id": 111,
+      "name": "Add 3x Leman Russ Vanquishers",
+      "pts": 200
+    },
+    {
+      "string_id": "add_3x_leman_russ_executioners",
+      "id": 112,
+      "name": "Add 3x Leman Russ Executioners",
+      "pts": 200
+    },
+    {
+      "string_id": "add_3x_dunecrawler_onagers",
+      "id": 113,
+      "name": "Add 3x Dunecrawler Onagers",
+      "pts": 150
+    },
+    {
+      "string_id": "add_3x_dunecrawler_annihilators",
+      "id": 114,
+      "name": "Add 3x Dunecrawler Annihilators",
+      "pts": 200
+    },
+    {
+      "string_id": "dunecrawler_icarian",
+      "id": 115,
+      "name": "Dunecrawler Icarian",
+      "pts": 50
+    },
+    {
+      "string_id": "macharius_heavy_tank",
+      "id": 116,
+      "name": "Macharius Heavy Tank",
+      "pts": 0
+    },
+    {
+      "string_id": "macharius_vulcan",
+      "id": 117,
+      "name": "Macharius Vulcan",
+      "pts": 10
+    },
+    {
+      "string_id": "macharius_vanquisher",
+      "id": 118,
+      "name": "Macharius Vanquisher",
+      "pts": 10
+    },
+    {
+      "string_id": "2_secutor_units_8_hypaspist_units",
+      "id": 119,
+      "name": "2 Secutor units, 8 Hypaspist units",
+      "pts": 0
+    },
+    {
+      "string_id": "5_secutor_units_5_gun_servitor_units",
+      "id": 120,
+      "name": "5 Secutor units, 5 Gun Servitor Units",
+      "pts": 125
+    },
+    {
+      "string_id": "2_secutor_units_3_hypaspist_units_5_gun_servitor_units",
+      "id": 121,
+      "name": "2 Secutor units, 3 Hypaspist units, 5 Gun Servitor Units",
+      "pts": 0
+    },
+    {
+      "string_id": "5_secutor_units_5_hypaspist_units",
+      "id": 122,
+      "name": "5 Secutor units, 5 Hypaspist units",
+      "pts": 125
+    },
+    {
+      "string_id": "5_gun_servitor_unit",
+      "id": 123,
+      "name": "5 Gun Servitor Unit",
+      "pts": 0
+    },
+    {
+      "string_id": "5_rapier_laser_destroyer_unit",
+      "id": 124,
+      "name": "5 Rapier Laser Destroyer Unit",
+      "pts": 25
+    },
+    {
+      "string_id": "minorus_with_apocalypse_missile_launcher",
+      "id": 125,
+      "name": "Minorus with Apocalypse Missile Launcher",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_laser_burner",
+      "id": 126,
+      "name": "Minorus with Laser Burner",
+      "pts": 100
+    },
+    {
+      "string_id": "minorus_with_corvus_assault_pod",
+      "id": 127,
+      "name": "Minorus with Corvus Assault Pod",
+      "pts": 100
+    },
+    {
+      "string_id": "minorus_with_carapace_landing_pad",
+      "id": 128,
+      "name": "Minorus with Carapace Landing Pad",
+      "pts": 100
+    },
+    {
+      "string_id": "minorus_with_plasma_cannon",
+      "id": 129,
+      "name": "Minorus with Plasma Cannon",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_gatling_blaster",
+      "id": 130,
+      "name": "Minorus with Gatling Blaster",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_close_combat_weapon",
+      "id": 131,
+      "name": "Minorus with Close Combat Weapon",
+      "pts": 125
+    },
+    {
+      "string_id": "minorus_with_melta_cannon",
+      "id": 132,
+      "name": "Minorus with Melta Cannon",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_laser_blaster",
+      "id": 133,
+      "name": "Minorus with Laser Blaster",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_volcano_cannon",
+      "id": 134,
+      "name": "Minorus with Volcano Cannon",
+      "pts": 150
+    },
+    {
+      "string_id": "minorus_with_plasma_destructor",
+      "id": 135,
+      "name": "Minorus with Plasma Destructor",
+      "pts": 175
+    },
+    {
+      "string_id": "minorus_with_quake_cannon",
+      "id": 137,
+      "name": "Minorus with Quake Cannon",
+      "pts": 175
+    },
+    {
+      "string_id": "minorus_with_support_missile",
+      "id": 138,
+      "name": "Minorus with Support Missile",
+      "pts": 150
+    },
+    {
+      "string_id": "baneblades",
+      "id": 139,
+      "name": "Baneblades",
+      "pts": 0
+    },
+    {
+      "string_id": "stormblades",
+      "id": 140,
+      "name": "Stormblades",
+      "pts": 0
+    },
+    {
+      "string_id": "hydra",
+      "id": 141,
+      "name": "Hydra",
+      "pts": 50
+    },
+    {
+      "string_id": "10_chimedons",
+      "id": 142,
+      "name": "10 Chimedons",
+      "pts": 175
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "from": [
+        561
+      ]
+    },
+    {
+      "max": 2,
+      "name": "SUPPORT FORMATIONS",
+      "from": [
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516
+      ],
+      "forEach": [
+        501,
+        502,
+        503
+      ],
+      "name2": "CORE FORMATIONS"
+    },
+    {
+      "max": 1,
+      "name": "HEAVY ASSAULT FORMATIONS",
+      "from": [
+        520,
+        521
+      ],
+      "forEach": [
+        501,
+        502,
+        503
+      ],
+      "name2": "CORE FORMATIONS"
+    },
+    {
+      "maxPercent": 33.34,
+      "from": [
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Skitarii Support",
+      "from": [
+        530,
+        531,
+        532
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Collegia Titanica Support",
+      "from": [
+        533,
+        534,
+        535,
+        537
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        109
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        110
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        113
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        114
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        104
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        115
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        111
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        112
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        109
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        107,
+        108
+      ],
+      "appliesTo": [
+        512
+      ]
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "from": [
+        117,
+        118
+      ],
+      "appliesTo": [
+        520
+      ]
+    },
+    {
+      "min": 2,
+      "max": 3,
+      "from": [
+        116,
+        117,
+        118
+      ],
+      "appliesTo": [
+        520
+      ]
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        139,
+        140
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        101,
+        102
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "appliesTo": [
+        530
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        123,
+        124
+      ],
+      "appliesTo": [
+        531
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        11,
+        12
+      ],
+      "appliesTo": [
+        537
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "appliesTo": [
+        535
+      ]
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        30,
+        13,
+        14,
+        15,
+        16,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "appliesTo": [
+        534
+      ]
+    },
+    {
+      "min": 4,
+      "max": 4,
+      "from": [
+        16,
+        13,
+        14,
+        15,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        35,
+        36
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        35,
+        36
+      ],
+      "appliesTo": [
+        534
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138
+      ]
+    },
+    {
+      "min": 2,
+      "max": 3,
+      "from": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        137,
+        138
+      ],
+      "appliesTo": [
+        532
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        80
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        82
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        83
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        141
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        142
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        84
+      ]
+    }
+  ]
 }

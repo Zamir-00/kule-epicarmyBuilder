@@ -19,32 +19,39 @@
   },
   "special_rules": [
     {
+      "id": "commissars",
       "name": "Commissars",
       "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.\nCommissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations.\nYou may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
     },
     {
+      "id": "skyborne",
       "name": "Skyborne",
       "text": "Harakoni Warhawks train extensively to function as rapid-deploying heavy infantry, acting as shock troops to open holes in an enemies defense. Warhawks use the Skitarii Hypaspists profile. Commanders, Sappers, and Fire Support teams gain a 5+ Armour Save. Fire Support teams replace both Autocannons with Lascannons. All infantry and Light Vehicles gain Planetfall. All Skimmers gain Planetfall."
     },
     {
+      "id": "cap_garrison",
       "name": "CAP Garrison",
       "text": "Rather than placing one ground garrison on overwatch a Harakoni army may place one fighter formation on CAP. The player may still place as many ground garrisons as their army allows, but only one may start the game on overwatch. The fighters follow the setup rules for CAP, but this is done during the garrisoning phase of the pre-game setup."
     },
     {
+      "id": "air_cavalry",
       "name": "Air Cavalry",
       "text": "Units in any Strike Company formation with assigned Valkyrie transports may use their transport slots as normal. Unless otherwise specified, light vehicles count as two models for the purposes of transport."
     },
     {
+      "id": "expendable",
       "name": "Expendable",
       "text": "Formations do not receive blast markers when Expendable units are killed, nor are they counted as casualties for assault resolution."
     },
     {
+      "id": "playtest_rule_marauder_drop",
       "name": "Playtest Rule – Marauder Drop",
       "text": "Marauder Heavy Bombers gain \"Transport (1 formation consisting only of Infantry or Light Vehicles)\". While transporting units, the Marauder is unable to use its Bomb Racks. Marauder Heavy Bombers are unable to conduct an Air-Assault, and can never load any troops after the game begins. When transported troops disembark from the Marauder during a Ground Attack action, the Bomber does not count as \"landed,\" and Infantry or units with the Skimmer special rule may deploy as if they were equipped with Jump Packs."
     }
   ],
   "formations": [
     {
+      "id": "harakoni_strike_company",
       "category": "Harakoni Companies",
       "entry_type": "formation",
       "name": "Harakoni Strike Company",
@@ -56,6 +63,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_regimental_command",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "0-1 Regimental Command",
@@ -67,6 +75,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support",
@@ -78,6 +87,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhawk_infantry",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "Warhawk Infantry",
@@ -89,6 +99,7 @@
       "parse_warnings": []
     },
     {
+      "id": "harakoni_veterans",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "Harakoni Veterans",
@@ -100,6 +111,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_liaison_officer",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "Artillery Liaison Officer",
@@ -111,6 +123,7 @@
       "parse_warnings": []
     },
     {
+      "id": "grav_glider",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "Grav-Glider",
@@ -122,6 +135,7 @@
       "parse_warnings": []
     },
     {
+      "id": "close_air_support",
       "category": "Harakoni Company Upgrades",
       "entry_type": "upgrade",
       "name": "Close Air Support",
@@ -133,6 +147,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reconnaissance_squadron",
       "category": "Harakoni Support Formations",
       "entry_type": "formation",
       "name": "Reconnaissance Squadron",
@@ -144,6 +159,7 @@
       "parse_warnings": []
     },
     {
+      "id": "demolition_specialists",
       "category": "Harakoni Support Formations",
       "entry_type": "formation",
       "name": "Demolition Specialists",
@@ -155,6 +171,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_hunter_squadron",
       "category": "Harakoni Support Formations",
       "entry_type": "formation",
       "name": "Tank Hunter Squadron",
@@ -166,6 +183,7 @@
       "parse_warnings": []
     },
     {
+      "id": "harakoni_light_artillery_squadron",
       "category": "Harakoni Support Formations",
       "entry_type": "formation",
       "name": "Harakoni Light Artillery Squadron",
@@ -177,6 +195,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_spacecraft_onero_overflight",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "0-1 Spacecraft - Onero Overflight",
@@ -190,6 +209,7 @@
       ]
     },
     {
+      "id": "0_1_spacecraft_lunar_cruiser",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "0-1 Spacecraft - Lunar Cruiser",
@@ -203,6 +223,7 @@
       ]
     },
     {
+      "id": "0_1_spacecraft_emperor_battleship",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "0-1 Spacecraft - Emperor Battleship",
@@ -216,6 +237,7 @@
       ]
     },
     {
+      "id": "fighter_squadron",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "Fighter Squadron",
@@ -227,6 +249,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_heavy_bomber",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "Marauder Heavy Bomber",
@@ -238,6 +261,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_destroyer",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "Marauder Destroyer",
@@ -249,6 +273,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_spectre",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "Marauder Spectre",
@@ -260,6 +285,7 @@
       "parse_warnings": []
     },
     {
+      "id": "linebreaker_relief_column",
       "category": "Imperial Allies",
       "entry_type": "formation",
       "name": "Linebreaker Relief Column",
@@ -275,6 +301,7 @@
   ],
   "profiles": [
     {
+      "id": "warhawks",
       "name": "Warhawks",
       "type": "INF",
       "speed": "15cm",
@@ -306,6 +333,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "harakoni_commander",
       "name": "Harakoni Commander",
       "type": "INF",
       "speed": "15cm",
@@ -338,6 +366,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tech_priest",
       "name": "Tech Priest",
       "type": "INF",
       "speed": "15cm",
@@ -377,6 +406,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "sappers",
       "name": "Sappers",
       "type": "INF",
       "speed": "15cm",
@@ -422,6 +452,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "harakoni_supreme_commander",
       "name": "Harakoni Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -463,6 +494,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "harakoni_fire_support",
       "name": "Harakoni Fire Support",
       "type": "INF",
       "speed": "15cm",
@@ -493,6 +525,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "storm_troopers",
       "name": "Storm Troopers",
       "type": "INF",
       "speed": "15cm",
@@ -524,6 +557,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "forward_observer",
       "name": "Forward Observer",
       "type": "CH",
       "speed": "n/a",
@@ -548,6 +582,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sentinel",
       "name": "Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -574,6 +609,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_sentinel",
       "name": "Support Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -603,6 +639,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -646,6 +683,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture",
       "name": "Vulture",
       "type": "AV",
       "speed": "35cm",
@@ -686,6 +724,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture_punisher",
       "name": "Vulture Punisher",
       "type": "AV",
       "speed": "35cm",
@@ -718,6 +757,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vendetta",
       "name": "Vendetta",
       "type": "AV",
       "speed": "35cm",
@@ -746,6 +786,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grav_glider",
       "name": "Grav-Glider",
       "type": "WE/AC",
       "speed": "Bomber",
@@ -777,6 +818,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_infantry",
       "name": "Imperial Guard Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -805,6 +847,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -836,6 +879,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lightning_interceptor",
       "name": "Lightning Interceptor",
       "type": "AC",
       "speed": "Fighter",
@@ -872,6 +916,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "lightning_strike_fighter",
       "name": "Lightning Strike Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -904,6 +949,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter / Bomber",
@@ -944,6 +990,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_heavy_bomber",
       "name": "Marauder Heavy Bomber",
       "type": "WE/AC",
       "speed": "Bomber",
@@ -987,6 +1034,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_destroyer",
       "name": "Marauder Destroyer",
       "type": "WE/AC",
       "speed": "Bomber",
@@ -1036,6 +1084,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_spectre",
       "name": "Marauder Spectre",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1069,6 +1118,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "Spacecraft",
       "speed": "n/a",
@@ -1105,6 +1155,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "Spacecraft",
       "speed": "n/a",
@@ -1131,6 +1182,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "onero_overflight",
       "name": "Onero Overflight",
       "type": "Spacecraft",
       "speed": "n/a",
@@ -1160,6 +1212,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "leman_russ_conqueror",
       "name": "Leman Russ Conqueror",
       "type": "AV",
       "speed": "30cm",

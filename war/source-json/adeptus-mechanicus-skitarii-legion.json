@@ -22,6 +22,7 @@
   "special_rules": [],
   "formations": [
     {
+      "id": "sagitarii",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Sagitarii",
@@ -33,6 +34,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skitarii",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Skitarii",
@@ -44,6 +46,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_of_the_following_ordinatus_majoris",
       "category": "army_list",
       "entry_type": "formation",
       "name": "One of the following Ordinatus Majoris:",
@@ -55,6 +58,7 @@
       "parse_warnings": []
     },
     {
+      "id": "550_points",
       "category": "army_list",
       "entry_type": "formation",
       "name": "550 points",
@@ -66,6 +70,7 @@
       "parse_warnings": []
     },
     {
+      "id": "minorus",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Minorus",
@@ -77,6 +82,7 @@
       "parse_warnings": []
     },
     {
+      "id": "assault_maniple",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Assault Maniple",
@@ -88,6 +94,7 @@
       "parse_warnings": []
     },
     {
+      "id": "avengers",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Avengers",
@@ -99,6 +106,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_orbital_support",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Orbital Support",
@@ -110,6 +118,7 @@
       "parse_warnings": []
     },
     {
+      "id": "praetorian_maniple",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Praetorian Maniple",
@@ -121,6 +130,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scout_maniple",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Scout Maniple",
@@ -132,6 +142,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chimedons",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Chimedons",
@@ -143,6 +154,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Flak",
@@ -154,6 +166,7 @@
       "parse_warnings": []
     },
     {
+      "id": "linked_neural_network",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Linked Neural Network",
@@ -165,6 +178,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_magos",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Magos",
@@ -176,6 +190,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ordinatus",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Ordinatus",
@@ -187,6 +202,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cataphractii",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Cataphractii",
@@ -198,6 +214,7 @@
       "parse_warnings": []
     },
     {
+      "id": "emperor",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Emperor",
@@ -209,6 +226,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Reaver",
@@ -220,6 +238,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warhound",
@@ -231,6 +250,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -242,6 +262,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warlord",
@@ -253,6 +274,7 @@
       "parse_warnings": []
     },
     {
+      "id": "upgrade",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Upgrade",
@@ -264,6 +286,7 @@
       "parse_warnings": []
     },
     {
+      "id": "carapace_landing_pad",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Carapace Landing Pad",
@@ -275,6 +298,7 @@
       "parse_warnings": []
     },
     {
+      "id": "corvus_assault_pod",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Corvus Assault Pod",
@@ -286,6 +310,7 @@
       "parse_warnings": []
     },
     {
+      "id": "laser_burner",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Laser Burner",
@@ -297,6 +322,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plasma_cannon",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Plasma Cannon",
@@ -308,6 +334,7 @@
       "parse_warnings": []
     },
     {
+      "id": "quake_cannon",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Quake Cannon",
@@ -319,6 +346,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plasma_blastgun",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Plasma Blastgun",
@@ -341,6 +369,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sacred_icon",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Sacred Icon",
@@ -354,6 +383,7 @@
   ],
   "profiles": [
     {
+      "id": "apocalypse_missile_launcher",
       "name": "Apocalypse Missile Launcher",
       "type": "CH",
       "speed": "n/a",
@@ -378,6 +408,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "carapace_landing_pad",
       "name": "Carapace Landing Pad",
       "type": "CH",
       "speed": "n/a",
@@ -395,6 +426,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "carapace_multilasers",
       "name": "Carapace Multilasers",
       "type": "CH",
       "speed": "n/a",
@@ -417,6 +449,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "close_combat_weapon",
       "name": "Close Combat Weapon",
       "type": "CH",
       "speed": "n/a",
@@ -442,6 +475,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "corvus_assault_pod",
       "name": "Corvus Assault Pod",
       "type": "CH",
       "speed": "n/a",
@@ -460,6 +494,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gatling_blaster",
       "name": "Gatling Blaster",
       "type": "CH",
       "speed": "n/a",
@@ -482,6 +517,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inferno_gun",
       "name": "Inferno Gun",
       "type": "CH",
       "speed": "n/a",
@@ -506,6 +542,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "laser_blaster",
       "name": "Laser Blaster",
       "type": "CH",
       "speed": "n/a",
@@ -528,6 +565,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "laser_burner",
       "name": "Laser Burner",
       "type": "CH",
       "speed": "n/a",
@@ -562,6 +600,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "magos",
       "name": "Magos",
       "type": "CH",
       "speed": "n/a",
@@ -591,6 +630,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "melta_cannon",
       "name": "Melta Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -626,6 +666,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plasma_blastgun",
       "name": "Plasma Blastgun",
       "type": "CH",
       "speed": "n/a",
@@ -650,6 +691,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plasma_cannon",
       "name": "Plasma Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -674,6 +716,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plasma_destructor",
       "name": "Plasma Destructor",
       "type": "CH",
       "speed": "n/a",
@@ -698,6 +741,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "quake_cannon",
       "name": "Quake Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -722,6 +766,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sacred_icon",
       "name": "Sacred Icon",
       "type": "CH",
       "speed": "n/a",
@@ -739,6 +784,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_missile",
       "name": "Support Missile",
       "type": "CH",
       "speed": "n/a",
@@ -798,6 +844,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "turbo_laser_destructor",
       "name": "Turbo-Laser Destructor",
       "type": "CH",
       "speed": "n/a",
@@ -820,6 +867,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "veteran_princeps",
       "name": "Veteran Princeps",
       "type": "CH",
       "speed": "n/a",
@@ -838,6 +886,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "volcano_cannon",
       "name": "Volcano Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -862,6 +911,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulcan_mega_bolter",
       "name": "Vulcan Mega-Bolter",
       "type": "CH",
       "speed": "n/a",
@@ -884,6 +934,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gun_servitor",
       "name": "Gun Servitor",
       "type": "INF",
       "speed": "15cm",
@@ -908,6 +959,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hypaspist",
       "name": "Hypaspist",
       "type": "INF",
       "speed": "15cm",
@@ -930,6 +982,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "praetorian_combat_servitor",
       "name": "Praetorian Combat Servitor",
       "type": "INF",
       "speed": "15cm",
@@ -964,6 +1017,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sagitarii",
       "name": "Sagitarii",
       "type": "INF",
       "speed": "15cm",
@@ -986,6 +1040,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "secutor",
       "name": "Secutor",
       "type": "INF",
       "speed": "15cm",
@@ -1030,6 +1085,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rapier",
       "name": "Rapier",
       "type": "INF",
       "speed": "10cm",
@@ -1052,6 +1108,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "crusader_robot",
       "name": "Crusader Robot",
       "type": "LV",
       "speed": "25cm",
@@ -1103,6 +1160,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimedon",
       "name": "Chimedon",
       "type": "AV",
       "speed": "30cm",
@@ -1134,6 +1192,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "colossus_robot",
       "name": "Colossus Robot",
       "type": "AV",
       "speed": "15cm",
@@ -1173,6 +1232,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -1201,6 +1261,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperator_class_titan",
       "name": "Imperator Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1274,6 +1335,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "macharius",
       "name": "Macharius",
       "type": "WE",
       "speed": "15cm",
@@ -1312,6 +1374,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "macharius_command",
       "name": "Macharius Command",
       "type": "WE",
       "speed": "15cm",
@@ -1356,6 +1419,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ordinatus_majoris",
       "name": "Ordinatus Majoris",
       "type": "WE",
       "speed": "10cm",
@@ -1421,6 +1485,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ordinatus_minorus",
       "name": "Ordinatus Minorus",
       "type": "WE",
       "speed": "15cm (25cm)",
@@ -1451,6 +1516,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1476,6 +1542,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1500,6 +1567,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1526,6 +1594,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warmonger_class_titan",
       "name": "Warmonger Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1623,6 +1692,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "avenger_strike_fighter",
       "name": "Avenger Strike Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1663,6 +1733,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lysander_fighter",
       "name": "Lysander Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -1695,6 +1766,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ark_mechanicus_battleship",
       "name": "Ark Mechanicus Battleship",
       "type": "SC",
       "speed": "n/a",

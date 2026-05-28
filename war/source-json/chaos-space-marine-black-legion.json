@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "Certain units have special abilities described in Augmented Summoning (see Augmented Summoning ) and Daemonic Focus (see Daemonic Focus )."
     }
   ],
   "formations": [
     {
+      "id": "retinue",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Retinue",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chosen",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Chosen",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bike_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Bike Company",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "defiler_assault_pack",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Defiler Assault Pack",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "four_havocs_one_with_a_chaos_lord_character_and_two_chaos_rhinos_or_chaos_land_raiders",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Four Havocs, one with a Chaos Lord character, and two Chaos Rhinos or Chaos Land Raiders",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_champion",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Champion",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_chaos_warlord",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Chaos Warlord",
@@ -104,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cult_marines",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Cult Marines",
@@ -115,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_daemon_prince_per_faction",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Daemon Prince per faction",
@@ -126,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemonic_pact",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Daemonic Pact",
@@ -137,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "defilers",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Defilers",
@@ -148,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "dreadnoughts",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Dreadnoughts",
@@ -159,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "havocs",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Havocs",
@@ -170,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "icon_bearer",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Icon Bearer",
@@ -181,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Land Raiders",
@@ -192,6 +208,7 @@
       "parse_warnings": []
     },
     {
+      "id": "obliterators",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Obliterators",
@@ -203,6 +220,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rhinos",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Rhinos",
@@ -214,6 +232,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicators",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Vindicators",
@@ -225,6 +244,7 @@
       "parse_warnings": []
     },
     {
+      "id": "harbinger",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Harbinger",
@@ -236,6 +256,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_blades",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Hell Blades",
@@ -247,6 +268,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_talons",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Hell Talons",
@@ -258,6 +280,7 @@
       "parse_warnings": []
     },
     {
+      "id": "150_points_or",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "150 points or",
@@ -269,6 +292,7 @@
       "parse_warnings": []
     },
     {
+      "id": "banelord",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Banelord",
@@ -280,6 +304,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwheels",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Deathwheels",
@@ -291,6 +316,7 @@
       "parse_warnings": []
     },
     {
+      "id": "decimators",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Decimators",
@@ -302,6 +328,7 @@
       "parse_warnings": []
     },
     {
+      "id": "feral",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Feral",
@@ -313,6 +340,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravager",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Ravager",
@@ -324,6 +352,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cost",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Cost",
@@ -337,6 +366,7 @@
   ],
   "profiles": [
     {
+      "id": "champion_of_chaos",
       "name": "Champion of Chaos",
       "type": "CH",
       "speed": "n/a",
@@ -375,6 +405,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_lord",
       "name": "Chaos Lord",
       "type": "CH",
       "speed": "n/a",
@@ -404,6 +435,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_warlord",
       "name": "Chaos Warlord",
       "type": "CH",
       "speed": "n/a",
@@ -421,6 +453,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "icon_bearer",
       "name": "Icon Bearer",
       "type": "CH",
       "speed": "n/a",
@@ -440,6 +473,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sorcerer_lord",
       "name": "Sorcerer Lord",
       "type": "CH",
       "speed": "n/a",
@@ -469,6 +503,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "berzerkers",
       "name": "Berzerkers",
       "type": "INF",
       "speed": "15cm",
@@ -493,6 +528,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bloodletters",
       "name": "Bloodletters",
       "type": "INF",
       "speed": "15cm",
@@ -520,6 +556,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_space_marine_bikes",
       "name": "Chaos Space Marine Bikes",
       "type": "INF",
       "speed": "35cm",
@@ -544,6 +581,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_space_marine_chosen",
       "name": "Chaos Space Marine Chosen",
       "type": "INF",
       "speed": "15cm",
@@ -568,6 +606,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_space_marine_terminators",
       "name": "Chaos Space Marine Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -603,6 +642,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_space_marines",
       "name": "Chaos Space Marines",
       "type": "INF",
       "speed": "15cm",
@@ -625,6 +665,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemon_prince",
       "name": "Daemon Prince",
       "type": "INF",
       "speed": "15cm (30cm)",
@@ -666,6 +707,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonettes",
       "name": "Daemonettes",
       "type": "INF",
       "speed": "20cm",
@@ -687,6 +729,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "daemonic_beasts",
       "name": "Daemonic Beasts",
       "type": "INF",
       "speed": "20cm",
@@ -708,6 +751,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "flamers",
       "name": "Flamers",
       "type": "INF",
       "speed": "15cm",
@@ -733,6 +777,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "havocs",
       "name": "Havocs",
       "type": "INF",
       "speed": "15cm",
@@ -755,6 +800,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "noise_marines",
       "name": "Noise Marines",
       "type": "INF",
       "speed": "15cm",
@@ -781,6 +827,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "obliterators",
       "name": "Obliterators",
       "type": "INF",
       "speed": "15cm",
@@ -808,6 +855,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_marines",
       "name": "Plague Marines",
       "type": "INF",
       "speed": "15cm",
@@ -832,6 +880,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguebearers",
       "name": "Plaguebearers",
       "type": "INF",
       "speed": "15cm",
@@ -857,6 +906,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "raptors",
       "name": "Raptors",
       "type": "INF",
       "speed": "30cm",
@@ -881,6 +931,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thousand_sons",
       "name": "Thousand Sons",
       "type": "INF",
       "speed": "15cm",
@@ -906,6 +957,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_dreadnought",
       "name": "Chaos Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -940,6 +992,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_land_raider",
       "name": "Chaos Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -973,6 +1026,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_predator",
       "name": "Chaos Predator",
       "type": "AV",
       "speed": "30cm",
@@ -1001,6 +1055,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_rhino",
       "name": "Chaos Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -1026,6 +1081,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_vindicator",
       "name": "Chaos Vindicator",
       "type": "AV",
       "speed": "25cm",
@@ -1052,6 +1108,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "defiler",
       "name": "Defiler",
       "type": "AV",
       "speed": "20cm",
@@ -1102,6 +1159,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "banelord_titan",
       "name": "Banelord Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1188,6 +1246,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bloodthirster",
       "name": "Bloodthirster",
       "type": "WE",
       "speed": "30cm",
@@ -1224,6 +1283,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwheel",
       "name": "Deathwheel",
       "type": "WE",
       "speed": "30cm",
@@ -1278,6 +1338,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "decimator",
       "name": "Decimator",
       "type": "WE",
       "speed": "15cm",
@@ -1325,6 +1386,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "feral_titan",
       "name": "Feral Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1373,6 +1435,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "great_unclean_one",
       "name": "Great Unclean One",
       "type": "WE",
       "speed": "15cm",
@@ -1426,6 +1489,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "keeper_of_secrets",
       "name": "Keeper of Secrets",
       "type": "WE",
       "speed": "20cm",
@@ -1480,6 +1544,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lord_of_change",
       "name": "Lord of Change",
       "type": "WE",
       "speed": "30cm",
@@ -1533,6 +1598,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravager_titan",
       "name": "Ravager Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1598,6 +1664,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "harbinger",
       "name": "Harbinger",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1652,6 +1719,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_blade",
       "name": "Hell Blade",
       "type": "AC",
       "speed": "Fighter",
@@ -1676,6 +1744,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_talon",
       "name": "Hell Talon",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1717,6 +1786,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "despoiler_class_battleship",
       "name": "Despoiler Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1753,6 +1823,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "devastation_class_cruiser",
       "name": "Devastation Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1788,6 +1859,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dreadclaw",
       "name": "Dreadclaw",
       "type": "Special",
       "speed": "n/a",

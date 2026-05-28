@@ -24,28 +24,34 @@
   },
   "special_rules": [
     {
+      "id": "hedonic_crusade_epic_tournament_special_rules",
       "name": "Hedonic Crusade Epic Tournament Special Rules",
       "text": "All formations in a Hedonic Crusade Slaanesh Cultist army owe allegiance to Slaanesh and may summon Daemonettes, Fiends of Slaanesh, Steeds of Slaanesh or Keeper of Secrets if they are unbroken and have Daemonic Pact. Lesser Daemons: Daemonettes 1, Fiends of Slaanesh 1, Steeds of Slaanesh 2. Greater Daemons: Keeper of Secrets 8."
     },
     {
+      "id": "fickle_masters",
       "name": "Fickle Masters",
       "text": "In the strategy phase, if the Chaos player rolls a 6, add 1D3 lesser daemons to the Daemon Pool. If the Chaos player rolls a 1, remove D3 lesser daemons from the Daemon Pool. If no daemons remain in the Daemon Pool, there is no further effect."
     },
     {
+      "id": "summoned_units",
       "name": "Summoned Units",
       "text": "Chaos formations must declare allegiance before the battle. Unbroken formations with Daemonic Pact may summon daemons from the Daemon Pool by rolling 2D3 summoning points; the allegiance of the summoning formation determines what may be summoned. Summoned daemons are placed within 5cm of the formation, may not be chained, may not be placed in enemy zone of control or impassable terrain, and only one greater daemon of a given allegiance may be on the battlefield at once. Summoned units count as part of the formation that summoned them. Destroyed daemons are removed from play. If the formation is broken, all summoned daemons are removed from play. In the End phase, after rally tests, summoned daemons return to the Daemon Pool; war engine daemons keep their current DC when they return."
     },
     {
+      "id": "augmented_summoning",
       "name": "Augmented Summoning",
       "text": "Units with Augmented Summoning (+x) add x summoning points to the roll when the formation summons daemons."
     },
     {
+      "id": "daemonic_focus",
       "name": "Daemonic Focus",
       "text": "Units with Daemonic Focus may keep summoned units in play after the formation rallies, but not if the formation is broken."
     }
   ],
   "formations": [
     {
+      "id": "knight_household",
       "category": "House Devine Households",
       "entry_type": "formation",
       "name": "Knight Household",
@@ -57,6 +63,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_strider_household",
       "category": "House Devine Households",
       "entry_type": "formation",
       "name": "Hell-Strider Household",
@@ -68,6 +75,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cultist",
       "category": "Vassal Formations",
       "entry_type": "formation",
       "name": "Cultist",
@@ -79,6 +87,7 @@
       "parse_warnings": []
     },
     {
+      "id": "debaser",
       "category": "Vassal Formations",
       "entry_type": "formation",
       "name": "Debaser",
@@ -90,6 +99,7 @@
       "parse_warnings": []
     },
     {
+      "id": "noise_marine",
       "category": "Vassal Formations",
       "entry_type": "formation",
       "name": "Noise Marine",
@@ -101,6 +111,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_blade",
       "category": "Chaos Navy",
       "entry_type": "formation",
       "name": "Hell Blade",
@@ -112,6 +123,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_talon",
       "category": "Chaos Navy",
       "entry_type": "formation",
       "name": "Hell Talon",
@@ -123,6 +135,7 @@
       "parse_warnings": []
     },
     {
+      "id": "questor",
       "category": "Chaos War Engines",
       "entry_type": "formation",
       "name": "Questor",
@@ -134,6 +147,7 @@
       "parse_warnings": []
     },
     {
+      "id": "subjugator",
       "category": "Chaos War Engines",
       "entry_type": "formation",
       "name": "Subjugator",
@@ -145,6 +159,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravisher",
       "category": "Chaos War Engines",
       "entry_type": "formation",
       "name": "Ravisher",
@@ -156,6 +171,7 @@
       "parse_warnings": []
     },
     {
+      "id": "painlord",
       "category": "Chaos War Engines",
       "entry_type": "formation",
       "name": "Painlord",
@@ -167,6 +183,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_pool",
       "category": "Daemon Pool",
       "entry_type": "formation",
       "name": "Daemon Pool",
@@ -180,6 +197,7 @@
   ],
   "profiles": [
     {
+      "id": "champion_of_slaanesh",
       "name": "Champion of Slaanesh",
       "type": "CH",
       "speed": "n/a",
@@ -208,6 +226,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_lord",
       "name": "Chaos Lord",
       "type": "CH",
       "speed": "n/a",
@@ -237,6 +256,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "icon_bearer",
       "name": "Icon Bearer",
       "type": "CH",
       "speed": "n/a",
@@ -256,6 +276,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sorcerer_lord",
       "name": "Sorcerer Lord",
       "type": "CH",
       "speed": "n/a",
@@ -285,6 +306,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "voluptuary",
       "name": "Voluptuary",
       "type": "CH",
       "speed": "n/a",
@@ -303,6 +325,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_marine_aspiring_champion",
       "name": "Chaos Marine Aspiring Champion",
       "type": "INF",
       "speed": "15cm",
@@ -338,6 +361,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cultists",
       "name": "Cultists",
       "type": "INF",
       "speed": "15cm",
@@ -360,6 +384,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonettes",
       "name": "Daemonettes",
       "type": "INF",
       "speed": "20cm",
@@ -379,6 +404,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "demagogue",
       "name": "Demagogue",
       "type": "INF",
       "speed": "15cm",
@@ -423,6 +449,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "fiends_of_slaanesh",
       "name": "Fiends of Slaanesh",
       "type": "INF",
       "speed": "20cm",
@@ -442,6 +469,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mutants",
       "name": "Mutants",
       "type": "INF",
       "speed": "15cm",
@@ -464,6 +492,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "noise_marines",
       "name": "Noise Marines",
       "type": "INF",
       "speed": "15cm",
@@ -490,6 +519,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "steeds_of_slaanesh",
       "name": "Steeds of Slaanesh",
       "type": "INF",
       "speed": "20cm",
@@ -511,6 +541,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_transporter",
       "name": "Land Transporter",
       "type": "LV",
       "speed": "30cm",
@@ -536,6 +567,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_rhino",
       "name": "Chaos Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -561,6 +593,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "debaser",
       "name": "Debaser",
       "type": "AV",
       "speed": "20cm",
@@ -615,6 +648,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_strider",
       "name": "Hell-Strider",
       "type": "AV",
       "speed": "30cm",
@@ -655,6 +689,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "arch_hedonist",
       "name": "Arch-Hedonist",
       "type": "WE",
       "speed": "30cm",
@@ -709,6 +744,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "hell_knight",
       "name": "Hell-Knight",
       "type": "WE",
       "speed": "30cm",
@@ -756,6 +792,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_scourge",
       "name": "Hell-Scourge",
       "type": "WE",
       "speed": "30cm",
@@ -787,6 +824,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_slicer",
       "name": "Hell-Slicer",
       "type": "WE",
       "speed": "30cm",
@@ -827,6 +865,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "keeper_of_secrets",
       "name": "Keeper of Secrets",
       "type": "WE",
       "speed": "20cm",
@@ -883,6 +922,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "painlord_titan",
       "name": "Painlord Titan",
       "type": "WE",
       "speed": "20cm",
@@ -951,6 +991,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "questor_titan",
       "name": "Questor Titan",
       "type": "WE",
       "speed": "35cm",
@@ -987,6 +1028,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravisher_titan",
       "name": "Ravisher Titan",
       "type": "WE",
       "speed": "25cm",
@@ -1053,6 +1095,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "subjugator_titan",
       "name": "Subjugator Titan",
       "type": "WE",
       "speed": "35cm",
@@ -1092,6 +1135,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_blade",
       "name": "Hell Blade",
       "type": "AC Fighter",
       "speed": "6+",
@@ -1116,6 +1160,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_talon",
       "name": "Hell Talon",
       "type": "AC Fighter-Bomber",
       "speed": "5+",

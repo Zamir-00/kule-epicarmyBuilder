@@ -1,124 +1,959 @@
 {
-	"id": "Nazdreg Ug Urdgrub's Bad Moon Waaagh",
-	"version": "3.2 - EpicUK",
-	"notes": ["If the army includes any great gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit.",
-		"Each ork Boyz unit added to a warband allows the inclusion of one free grotz unit"
-	],
-	"by": "Reedar + Kyussinchains",
-	"sections": [
-
-		{
-			"name": "WAR HORDES",
-			"formations": [
-				{"id": 500,"name": "Bad Moons Warband","pts": -25,"upgrades": [81, 50, 82, 10, 11, 12, 13, 14, 57, 60, 61, 71, 72, 43, 67, 68, 69]},
-				{"id": 501,"name": "Bad Moons Warband (Big)","pts": -100,"upgrades": [81, 50, 82, 10, 11, 12, 13, 14, 57, 60, 61, 71, 72, 43, 67, 68, 69]},
-				{"id": 502,"name": "Bad Moons Warband ('Uge)","pts": -175,"upgrades": [81, 50, 82, 10, 11, 12, 13, 14, 57, 60, 61, 71, 72, 43, 67, 68, 69]},
-				{"id": 503,"name": "Flash Gitz","pts": 60,"upgrades": [10, 11, 12, 67]},
-				{"id": 533,"name": "Flash Gitz (Big)","pts": 70,"upgrades": [10, 11, 12, 67]},
-				{"id": 504,"name": "'Eavy Walker Mob","pts": 25,"upgrades": [61, 81, 13, 14]},
-				{"id": 530,"name": "'Eavy Walker Mob (Big)","pts": 0,"upgrades": [61, 81, 13, 14]},
-				{"id": 531,"name": "'Eavy Walker Mob ('Uge)","pts": -25,"upgrades": [61, 81, 13, 14]},
-				{"id": 505,"name": "Mekboy 'Eavy Tanks Mob","pts": 0,"upgrades": [61, 81, 15, 16]},
-				{"id": 532,"name": "Mekboy 'Eavy Tanks Mob (Big)","pts": -50,"upgrades": [61, 81, 15, 16]},
-				{"id": 513,"name": "Grot Horde","pts": 25,"upgrades": [57, 43, 68, 69]},
-				{"id": 514,"name": "Grot Horde (Big)","pts": 0,"upgrades": [57, 43, 68, 69]},
-				{"id": 515,"name": "Grot Horde ('Uge)","pts": -25,"upgrades": [57, 43, 68, 69]},
-				{"id": 510,"name": "Mekboy Walker mob","pts": 25,"upgrades": [81, 68, 69, 71, 72, 57, 60, 61]},
-				{"id": 511,"name": "Mekboy Walker mob (Big)","pts": 0,"upgrades": [81, 68, 69, 71, 72, 57, 60, 61]},
-				{"id": 599,"name": "Tellyporta Array","pts": 50,"upgrades": []}
-			]
-		},
-		{
-			"name": "AIRCRAFT, SPACECRAFT AND GARGANTS",
-			"formations": [
-				{"id": 520,"name": "Spacecraft","pts": 100,"upgrades": []},
-				{"id": 517,"name": "Fighta Skwadron","pts": 0,"upgrades": [49]},
-				{"id": 518,"name": "Bommer","pts": 175,"upgrades": []},
-				{"id": 522,"name": "Gargant","pts": 650,"upgrades": [81]},
-				{"id": 523, "name": "Great Gargant", "pts": 850, "upgrades": [81]}
-			]
-		}
-	],
-	"upgrades": [
-		{"id": 81,"name": "Warlord","pts": 0},
-		{"id": 50,"name": "Boyz","pts": 25},
-		{"id": 20,"name": "Grotz","pts": 0},
-		{"id": 82,"name": "Boyz + Grotz","pts": 25},
-		{"id": 10,"name": "Meganobz","pts": 50},
-		{"id": 11,"name": "Flash Gits","pts": 35},
-		{"id": 12,"name": "'Ardwagon","pts": 75},
-		{"id": 13,"name": "Gorkanaut","pts": 100},
-		{"id": 14,"name": "Morkanaut","pts": 100},
-		{"id": 15,"name": "Kill Blasta","pts": 150},
-		{"id": 16,"name": "Kill Bursta","pts": 175},
-		{"id": 57,"name": "Killa Kan","pts": 25},
-		{"id": 60,"name": "Dreadnought","pts": 35},
-		{"id": 61,"name": "Flakwagon","pts": 35},
-		{"id": 67,"name": "Oddboy - D3+1 Powerfields","pts": 50},
-		{"id": 68,"name": "Oddboy - Zzap","pts": 50},
-		{"id": 69,"name": "Oddboy - Soopagun","pts": 50},
-		{"id": 71,"name": "Stompa","pts": 50},
-		{"id": 72,"name": "Mega Dread","pts": 50},
-		{"id": 43,"name": "Big Gunz","pts": 25},
-		{"id": 49,"name": "Fighta Bomba","pts": 50},
-		{"id": 80,"name": "Kill Kroozer","pts": 0},
-		{"id": 91,"name": "Battle Kroozer","pts": 0},
-		{"id": 92,"name": "Soopagun","pts": 0},
-		{"id": 93,"name": "Twin Soopagun","pts": 0},
-		{"id": 94,"name": "Supa-Zzap Gun","pts": 0},
-		{"id": 95,"name": "Mega Choppa","pts": 0},
-		{"id": 96,"name": "Lifta droppa","pts": 0}
-	],
-	"formationConstraints": [{"max": 1,"name": "Spacecraft","from": [520]},
-		{"max": 3,"name": "Tellyporta Array","from": [599]},
-		{"max": 1,"name": "'Eavy Walker Mob","from": [504, 530, 531], "forEach": [500, 501, 502], "name2": "Bad Moons Warband" },
-		{"maxPercent": 33.34,"name": "Gargants, Aircraft and Spacecraft","from": [520, 517, 518, 522, 523]}
-	],
-	"upgradeConstraints": 
-		[{"max": 1,"from": [81],"perArmy": true},
-		{"min": 3,"max": 3,"from": [92, 94, 95],"appliesTo": [522]},
-		{"max": 1,"from": [94, 95],"appliesTo": [522]},
-		{"min": 1,"max": 1,"from": [92],"appliesTo": [523]},
-		{"min": 2,"max": 2,"from": [93, 96],"appliesTo": [523]},
-		{"max": 1,"from": [96],"appliesTo": [523]},
-		{"max": 1,"from": [68, 69],"appliesTo": [504, 507, 510, 513]},
-		{"max": 1,"from": [67, 68, 69],"appliesTo": [500]},
-		{"max": 2,"from": [68, 69],"appliesTo": [505, 508, 511, 514]},
-		{"max": 2,"from": [67, 68, 69],"appliesTo": [501]},
-		{"max": 3,"from": [68, 69],"appliesTo": [506, 509, 515]},
-		{"max": 3,"from": [67, 68, 69],"appliesTo": [502]},
-		{"max": 1,"from": [67],"appliesTo": [503]},
-		{"max": 2,"from": [67],"appliesTo": [533]},
-		{"min": 4,"from": [11],"appliesTo": [503]},
-		{"min": 2,"from": [20],"appliesTo": [503]},
-		{"min": 8,"from": [11],"appliesTo": [533]},
-		{"min": 4,"from": [20],"appliesTo": [533]},
-		{"min": 2,"max": 4,"from": [13, 14],"appliesTo": [504]},
-		{"min": 4,"max": 8,"from": [13, 14],"appliesTo": [530]},
-		{"min": 6,"max": 12,"from": [13, 14],"appliesTo": [531]},
-		{"min": 2,"from": [15, 16],"appliesTo": [505]},
-		{"min": 4,"from": [15, 16],"appliesTo": [532]},
-		{"min": 2,"max": 4,"from": [10],"appliesTo": [500]},
-		{"min": 4,"max": 8,"from": [10],"appliesTo": [501]},
-		{"min": 6,"max": 12,"from": [10],"appliesTo": [502]},
-		{"min": 6,"from": [50],"appliesTo": [500]},
-		{"min": 12,"from": [50],"appliesTo": [501]},
-		{"min": 18,"from": [50],"appliesTo": [502]},
-		{"min": 2,"from": [20],"appliesTo": [500]},
-		{"min": 4,"from": [20],"appliesTo": [501]},
-		{"min": 6,"from": [20],"appliesTo": [502]},
-		{"max": 2,"from": [11],"appliesTo": [500]},
-		{"max": 4,"from": [11],"appliesTo": [501]},
-		{"max": 6,"from": [11],"appliesTo": [502]},
-		{"min": 2,"from": [20],"appliesTo": [513]},
-		{"min": 4,"from": [20],"appliesTo": [514]},
-		{"min": 6,"from": [20],"appliesTo": [515]},
-		{"min": 4,"from": [71, 72],"appliesTo": [510]},
-		{"min": 8,"from": [71, 72],"appliesTo": [511]},
-		{"min": 6,"from": [43, 57],"appliesTo": [513]},
-		{"min": 12,"from": [43, 57],"appliesTo": [514]},
-		{"min": 18,"from": [43, 57],"appliesTo": [515]},
-		{"max": 9,"min": 3,"from": [49],"appliesTo": [517]},
-		{"max": 1, "min": 1, "from": [80, 91], "appliesTo": [520]}
-	]
+  "id": "Nazdreg Ug Urdgrub's Bad Moon Waaagh",
+  "list_id": "ORK_Bad_moons_EPICUK",
+  "faction_id": "bad-moons",
+  "ruleset": "EPICUK",
+  "version": "3.2 - EpicUK",
+  "notes": [
+    "If the army includes any great gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit.",
+    "Each ork Boyz unit added to a warband allows the inclusion of one free grotz unit"
+  ],
+  "by": "Reedar + Kyussinchains",
+  "sections": [
+    {
+      "name": "WAR HORDES",
+      "formations": [
+        {
+          "string_id": "bad_moons_warband",
+          "id": 500,
+          "name": "Bad Moons Warband",
+          "pts": -25,
+          "upgrades": [
+            81,
+            50,
+            82,
+            10,
+            11,
+            12,
+            13,
+            14,
+            57,
+            60,
+            61,
+            71,
+            72,
+            43,
+            67,
+            68,
+            69
+          ]
+        },
+        {
+          "string_id": "bad_moons_warband_big",
+          "id": 501,
+          "name": "Bad Moons Warband (Big)",
+          "pts": -100,
+          "upgrades": [
+            81,
+            50,
+            82,
+            10,
+            11,
+            12,
+            13,
+            14,
+            57,
+            60,
+            61,
+            71,
+            72,
+            43,
+            67,
+            68,
+            69
+          ]
+        },
+        {
+          "string_id": "bad_moons_warband_uge",
+          "id": 502,
+          "name": "Bad Moons Warband ('Uge)",
+          "pts": -175,
+          "upgrades": [
+            81,
+            50,
+            82,
+            10,
+            11,
+            12,
+            13,
+            14,
+            57,
+            60,
+            61,
+            71,
+            72,
+            43,
+            67,
+            68,
+            69
+          ]
+        },
+        {
+          "string_id": "flash_gitz",
+          "id": 503,
+          "name": "Flash Gitz",
+          "pts": 60,
+          "upgrades": [
+            10,
+            11,
+            12,
+            67
+          ]
+        },
+        {
+          "string_id": "flash_gitz_big",
+          "id": 533,
+          "name": "Flash Gitz (Big)",
+          "pts": 70,
+          "upgrades": [
+            10,
+            11,
+            12,
+            67
+          ]
+        },
+        {
+          "string_id": "eavy_walker_mob",
+          "id": 504,
+          "name": "'Eavy Walker Mob",
+          "pts": 25,
+          "upgrades": [
+            61,
+            81,
+            13,
+            14
+          ]
+        },
+        {
+          "string_id": "eavy_walker_mob_big",
+          "id": 530,
+          "name": "'Eavy Walker Mob (Big)",
+          "pts": 0,
+          "upgrades": [
+            61,
+            81,
+            13,
+            14
+          ]
+        },
+        {
+          "string_id": "eavy_walker_mob_uge",
+          "id": 531,
+          "name": "'Eavy Walker Mob ('Uge)",
+          "pts": -25,
+          "upgrades": [
+            61,
+            81,
+            13,
+            14
+          ]
+        },
+        {
+          "string_id": "mekboy_eavy_tanks_mob",
+          "id": 505,
+          "name": "Mekboy 'Eavy Tanks Mob",
+          "pts": 0,
+          "upgrades": [
+            61,
+            81,
+            15,
+            16
+          ]
+        },
+        {
+          "string_id": "mekboy_eavy_tanks_mob_big",
+          "id": 532,
+          "name": "Mekboy 'Eavy Tanks Mob (Big)",
+          "pts": -50,
+          "upgrades": [
+            61,
+            81,
+            15,
+            16
+          ]
+        },
+        {
+          "string_id": "grot_horde",
+          "id": 513,
+          "name": "Grot Horde",
+          "pts": 25,
+          "upgrades": [
+            57,
+            43,
+            68,
+            69
+          ]
+        },
+        {
+          "string_id": "grot_horde_big",
+          "id": 514,
+          "name": "Grot Horde (Big)",
+          "pts": 0,
+          "upgrades": [
+            57,
+            43,
+            68,
+            69
+          ]
+        },
+        {
+          "string_id": "grot_horde_uge",
+          "id": 515,
+          "name": "Grot Horde ('Uge)",
+          "pts": -25,
+          "upgrades": [
+            57,
+            43,
+            68,
+            69
+          ]
+        },
+        {
+          "string_id": "mekboy_walker_mob",
+          "id": 510,
+          "name": "Mekboy Walker mob",
+          "pts": 25,
+          "upgrades": [
+            81,
+            68,
+            69,
+            71,
+            72,
+            57,
+            60,
+            61
+          ]
+        },
+        {
+          "string_id": "mekboy_walker_mob_big",
+          "id": 511,
+          "name": "Mekboy Walker mob (Big)",
+          "pts": 0,
+          "upgrades": [
+            81,
+            68,
+            69,
+            71,
+            72,
+            57,
+            60,
+            61
+          ]
+        },
+        {
+          "string_id": "tellyporta_array",
+          "id": 599,
+          "name": "Tellyporta Array",
+          "pts": 50,
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "AIRCRAFT, SPACECRAFT AND GARGANTS",
+      "formations": [
+        {
+          "string_id": "spacecraft",
+          "id": 520,
+          "name": "Spacecraft",
+          "pts": 100,
+          "upgrades": []
+        },
+        {
+          "string_id": "fighta_skwadron",
+          "id": 517,
+          "name": "Fighta Skwadron",
+          "pts": 0,
+          "upgrades": [
+            49
+          ]
+        },
+        {
+          "string_id": "bommer",
+          "id": 518,
+          "name": "Bommer",
+          "pts": 175,
+          "upgrades": []
+        },
+        {
+          "string_id": "gargant",
+          "id": 522,
+          "name": "Gargant",
+          "pts": 650,
+          "upgrades": [
+            81
+          ]
+        },
+        {
+          "string_id": "great_gargant",
+          "id": 523,
+          "name": "Great Gargant",
+          "pts": 850,
+          "upgrades": [
+            81
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "warlord",
+      "id": 81,
+      "name": "Warlord",
+      "pts": 0
+    },
+    {
+      "string_id": "boyz",
+      "id": 50,
+      "name": "Boyz",
+      "pts": 25
+    },
+    {
+      "string_id": "grotz",
+      "id": 20,
+      "name": "Grotz",
+      "pts": 0
+    },
+    {
+      "string_id": "boyz_grotz",
+      "id": 82,
+      "name": "Boyz + Grotz",
+      "pts": 25
+    },
+    {
+      "string_id": "meganobz",
+      "id": 10,
+      "name": "Meganobz",
+      "pts": 50
+    },
+    {
+      "string_id": "flash_gits",
+      "id": 11,
+      "name": "Flash Gits",
+      "pts": 35
+    },
+    {
+      "string_id": "ardwagon",
+      "id": 12,
+      "name": "'Ardwagon",
+      "pts": 75
+    },
+    {
+      "string_id": "gorkanaut",
+      "id": 13,
+      "name": "Gorkanaut",
+      "pts": 100
+    },
+    {
+      "string_id": "morkanaut",
+      "id": 14,
+      "name": "Morkanaut",
+      "pts": 100
+    },
+    {
+      "string_id": "kill_blasta",
+      "id": 15,
+      "name": "Kill Blasta",
+      "pts": 150
+    },
+    {
+      "string_id": "kill_bursta",
+      "id": 16,
+      "name": "Kill Bursta",
+      "pts": 175
+    },
+    {
+      "string_id": "killa_kan",
+      "id": 57,
+      "name": "Killa Kan",
+      "pts": 25
+    },
+    {
+      "string_id": "dreadnought",
+      "id": 60,
+      "name": "Dreadnought",
+      "pts": 35
+    },
+    {
+      "string_id": "flakwagon",
+      "id": 61,
+      "name": "Flakwagon",
+      "pts": 35
+    },
+    {
+      "string_id": "oddboy_d3_1_powerfields",
+      "id": 67,
+      "name": "Oddboy - D3+1 Powerfields",
+      "pts": 50
+    },
+    {
+      "string_id": "oddboy_zzap",
+      "id": 68,
+      "name": "Oddboy - Zzap",
+      "pts": 50
+    },
+    {
+      "string_id": "oddboy_soopagun",
+      "id": 69,
+      "name": "Oddboy - Soopagun",
+      "pts": 50
+    },
+    {
+      "string_id": "stompa",
+      "id": 71,
+      "name": "Stompa",
+      "pts": 50
+    },
+    {
+      "string_id": "mega_dread",
+      "id": 72,
+      "name": "Mega Dread",
+      "pts": 50
+    },
+    {
+      "string_id": "big_gunz",
+      "id": 43,
+      "name": "Big Gunz",
+      "pts": 25
+    },
+    {
+      "string_id": "fighta_bomba",
+      "id": 49,
+      "name": "Fighta Bomba",
+      "pts": 50
+    },
+    {
+      "string_id": "kill_kroozer",
+      "id": 80,
+      "name": "Kill Kroozer",
+      "pts": 0
+    },
+    {
+      "string_id": "battle_kroozer",
+      "id": 91,
+      "name": "Battle Kroozer",
+      "pts": 0
+    },
+    {
+      "string_id": "soopagun",
+      "id": 92,
+      "name": "Soopagun",
+      "pts": 0
+    },
+    {
+      "string_id": "twin_soopagun",
+      "id": 93,
+      "name": "Twin Soopagun",
+      "pts": 0
+    },
+    {
+      "string_id": "supa_zzap_gun",
+      "id": 94,
+      "name": "Supa-Zzap Gun",
+      "pts": 0
+    },
+    {
+      "string_id": "mega_choppa",
+      "id": 95,
+      "name": "Mega Choppa",
+      "pts": 0
+    },
+    {
+      "string_id": "lifta_droppa",
+      "id": 96,
+      "name": "Lifta droppa",
+      "pts": 0
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "name": "Spacecraft",
+      "from": [
+        520
+      ]
+    },
+    {
+      "max": 3,
+      "name": "Tellyporta Array",
+      "from": [
+        599
+      ]
+    },
+    {
+      "max": 1,
+      "name": "'Eavy Walker Mob",
+      "from": [
+        504,
+        530,
+        531
+      ],
+      "forEach": [
+        500,
+        501,
+        502
+      ],
+      "name2": "Bad Moons Warband"
+    },
+    {
+      "maxPercent": 33.34,
+      "name": "Gargants, Aircraft and Spacecraft",
+      "from": [
+        520,
+        517,
+        518,
+        522,
+        523
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        81
+      ],
+      "perArmy": true
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        92,
+        94,
+        95
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        94,
+        95
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        92
+      ],
+      "appliesTo": [
+        523
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        93,
+        96
+      ],
+      "appliesTo": [
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        96
+      ],
+      "appliesTo": [
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        68,
+        69
+      ],
+      "appliesTo": [
+        504,
+        507,
+        510,
+        513
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        67,
+        68,
+        69
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        68,
+        69
+      ],
+      "appliesTo": [
+        505,
+        508,
+        511,
+        514
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        67,
+        68,
+        69
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        68,
+        69
+      ],
+      "appliesTo": [
+        506,
+        509,
+        515
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        67,
+        68,
+        69
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        67
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        67
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "min": 2,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "min": 8,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "min": 2,
+      "max": 4,
+      "from": [
+        13,
+        14
+      ],
+      "appliesTo": [
+        504
+      ]
+    },
+    {
+      "min": 4,
+      "max": 8,
+      "from": [
+        13,
+        14
+      ],
+      "appliesTo": [
+        530
+      ]
+    },
+    {
+      "min": 6,
+      "max": 12,
+      "from": [
+        13,
+        14
+      ],
+      "appliesTo": [
+        531
+      ]
+    },
+    {
+      "min": 2,
+      "from": [
+        15,
+        16
+      ],
+      "appliesTo": [
+        505
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        15,
+        16
+      ],
+      "appliesTo": [
+        532
+      ]
+    },
+    {
+      "min": 2,
+      "max": 4,
+      "from": [
+        10
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "min": 4,
+      "max": 8,
+      "from": [
+        10
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 6,
+      "max": 12,
+      "from": [
+        10
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        50
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "min": 12,
+      "from": [
+        50
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 18,
+      "from": [
+        50
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 2,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 6,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 2,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        513
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        514
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        20
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        71,
+        72
+      ],
+      "appliesTo": [
+        510
+      ]
+    },
+    {
+      "min": 8,
+      "from": [
+        71,
+        72
+      ],
+      "appliesTo": [
+        511
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        43,
+        57
+      ],
+      "appliesTo": [
+        513
+      ]
+    },
+    {
+      "min": 12,
+      "from": [
+        43,
+        57
+      ],
+      "appliesTo": [
+        514
+      ]
+    },
+    {
+      "min": 18,
+      "from": [
+        43,
+        57
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "max": 9,
+      "min": 3,
+      "from": [
+        49
+      ],
+      "appliesTo": [
+        517
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        80,
+        91
+      ],
+      "appliesTo": [
+        520
+      ]
+    }
+  ]
 }

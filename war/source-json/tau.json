@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "Certain units and weapons have special abilities described in Coordinated Fire (see Coordinated Fire ) and Tau Technology (see Tau Technology )."
     }
   ],
   "formations": [
     {
+      "id": "crisis_battlesuit_cadre",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Crisis Battlesuit Cadre",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_warrior_cadre",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Fire Warrior Cadre",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "four_hammerheads",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Four Hammerheads",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "broadside_group",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Broadside Group",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kroot_kindred",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Kroot Kindred",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pathfinder_group",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Pathfinder Group",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "recon_skimmer_group",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Recon Skimmer Group",
@@ -104,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skysweep_support_group",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Skysweep Support Group",
@@ -115,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "stealth_group",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Stealth Group",
@@ -126,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bonded_team",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Bonded Team",
@@ -137,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "broadsides",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Broadsides",
@@ -148,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "crisis_suits",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Crisis Suits",
@@ -159,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_ethereal",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Ethereal",
@@ -170,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "100_points",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "+100 points",
@@ -181,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gun_drones",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Gun Drones",
@@ -192,6 +208,7 @@
       "parse_warnings": []
     },
     {
+      "id": "75_points",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "+75 points",
@@ -203,6 +220,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kroot",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Kroot",
@@ -214,6 +232,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kroot_hounds",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Kroot Hounds",
@@ -225,6 +244,7 @@
       "parse_warnings": []
     },
     {
+      "id": "krootox",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Krootox",
@@ -236,6 +256,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pathfinders",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Pathfinders",
@@ -247,6 +268,7 @@
       "parse_warnings": []
     },
     {
+      "id": "piranhas",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Piranhas",
@@ -258,6 +280,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_shas_o",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Shas’o",
@@ -269,6 +292,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skyray",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Skyray",
@@ -280,6 +304,7 @@
       "parse_warnings": []
     },
     {
+      "id": "barracuda_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Barracuda Squadron",
@@ -291,6 +316,7 @@
       "parse_warnings": []
     },
     {
+      "id": "manta_dropship",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Manta Dropship",
@@ -302,6 +328,7 @@
       "parse_warnings": []
     },
     {
+      "id": "orca_dropship",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Orca Dropship",
@@ -313,6 +340,7 @@
       "parse_warnings": []
     },
     {
+      "id": "any_one_of_the_following_units",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Any one of the following units:",
@@ -324,6 +352,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tiger_shark_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tiger Shark Squadron",
@@ -335,6 +364,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tiger_shark_ax_1_0_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tiger Shark AX-1-0 Squadron",
@@ -348,6 +378,7 @@
   ],
   "profiles": [
     {
+      "id": "ethereal",
       "name": "Ethereal",
       "type": "CH",
       "speed": "n/a",
@@ -376,6 +407,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shas_el",
       "name": "Shas'el",
       "type": "CH",
       "speed": "n/a",
@@ -394,6 +426,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shas_o",
       "name": "Shas'o",
       "type": "CH",
       "speed": "n/a",
@@ -420,6 +453,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "crisis_battlesuits",
       "name": "Crisis Battlesuits",
       "type": "INF",
       "speed": "20cm",
@@ -457,6 +491,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_warriors",
       "name": "Fire Warriors",
       "type": "INF",
       "speed": "15cm",
@@ -487,6 +522,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gun_drones",
       "name": "Gun Drones",
       "type": "INF",
       "speed": "20cm",
@@ -513,6 +549,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kroot_hounds",
       "name": "Kroot Hounds",
       "type": "INF",
       "speed": "20cm",
@@ -538,6 +575,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kroot_master_shapers",
       "name": "Kroot Master Shapers",
       "type": "INF",
       "speed": "15cm",
@@ -572,6 +610,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kroot_warriors",
       "name": "Kroot Warriors",
       "type": "INF",
       "speed": "15cm",
@@ -597,6 +636,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "krootox",
       "name": "Krootox",
       "type": "INF",
       "speed": "15cm",
@@ -627,6 +667,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pathfinders",
       "name": "Pathfinders",
       "type": "INF",
       "speed": "15cm",
@@ -663,6 +704,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stealth_battlesuits",
       "name": "Stealth Battlesuits",
       "type": "INF",
       "speed": "20cm",
@@ -694,6 +736,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "broadside_battlesuit",
       "name": "Broadside Battlesuit",
       "type": "LV",
       "speed": "15cm",
@@ -727,6 +770,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "piranha",
       "name": "Piranha",
       "type": "LV",
       "speed": "35cm",
@@ -759,6 +803,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tetra",
       "name": "Tetra",
       "type": "LV",
       "speed": "35cm",
@@ -786,6 +831,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "devilfish",
       "name": "Devilfish",
       "type": "AV",
       "speed": "30cm",
@@ -820,6 +866,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hammerhead",
       "name": "Hammerhead",
       "type": "AV",
       "speed": "30cm",
@@ -883,6 +930,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skyray",
       "name": "Skyray",
       "type": "AV",
       "speed": "30cm",
@@ -924,6 +972,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "barracuda",
       "name": "Barracuda",
       "type": "AC",
       "speed": "Fighter",
@@ -962,6 +1011,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "manta",
       "name": "Manta",
       "type": "WE",
       "speed": "20cm",
@@ -1027,6 +1077,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "orca",
       "name": "Orca",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1068,6 +1119,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tiger_shark",
       "name": "Tiger Shark",
       "type": "AC",
       "speed": "Bomber",
@@ -1109,6 +1161,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tiger_shark_ax_1_0",
       "name": "Tiger Shark AX-1-0",
       "type": "AC",
       "speed": "Bomber",
@@ -1156,6 +1209,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "custodian_class_battleship",
       "name": "Custodian Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1192,6 +1246,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "protector_class_cruiser",
       "name": "Protector Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1219,6 +1274,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "armour_support_group",
       "name": "Armour Support Group",
       "type": "Formation",
       "speed": "n/a",
@@ -1232,6 +1288,7 @@
       ]
     },
     {
+      "id": "spacecraft",
       "name": "Spacecraft",
       "type": "Formation",
       "speed": "n/a",

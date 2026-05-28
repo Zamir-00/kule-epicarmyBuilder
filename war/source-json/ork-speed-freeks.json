@@ -17,12 +17,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all Ork formations."
     }
   ],
   "formations": [
     {
+      "id": "blitz_brigade",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Blitz Brigade",
@@ -34,6 +36,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fortress_mob",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Fortress Mob",
@@ -45,6 +48,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_kill_kroozer",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Kill Kroozer",
@@ -56,6 +60,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kult_of_speed",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Kult Of Speed",
@@ -67,6 +72,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warband",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warband",
@@ -78,6 +84,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warbike_outriders",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warbike Outriders",
@@ -89,6 +96,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fighta_sqwadron",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Fighta Sqwadron",
@@ -100,6 +108,7 @@
       "parse_warnings": []
     },
     {
+      "id": "landa",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Landa",
@@ -113,6 +122,7 @@
   ],
   "profiles": [
     {
+      "id": "big_gunz",
       "name": "Big Gunz",
       "type": "INF",
       "speed": "10cm",
@@ -135,6 +145,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "boyz",
       "name": "Boyz",
       "type": "INF",
       "speed": "15cm",
@@ -157,6 +168,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mekboy_bad_ork_bikerboy",
       "name": "Mekboy Bad Ork Bikerboy",
       "type": "INF",
       "speed": "40cm",
@@ -205,6 +217,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nob_warbikes",
       "name": "Nob Warbikes",
       "type": "INF",
       "speed": "35cm",
@@ -238,6 +251,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nobz",
       "name": "Nobz",
       "type": "INF",
       "speed": "15cm",
@@ -270,6 +284,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormboyz",
       "name": "Stormboyz",
       "type": "INF",
       "speed": "30cm",
@@ -295,6 +310,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warbikes",
       "name": "Warbikes",
       "type": "INF",
       "speed": "35cm",
@@ -319,6 +335,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deth_kopta",
       "name": "Deth Kopta",
       "type": "LV",
       "speed": "35cm",
@@ -343,6 +360,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "guntrukk",
       "name": "Guntrukk",
       "type": "LV",
       "speed": "35cm",
@@ -365,6 +383,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skorcha",
       "name": "Skorcha",
       "type": "LV",
       "speed": "35cm",
@@ -389,6 +408,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "trukk",
       "name": "Trukk",
       "type": "LV",
       "speed": "35cm",
@@ -409,6 +429,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warbuggy",
       "name": "Warbuggy",
       "type": "LV",
       "speed": "35cm",
@@ -431,6 +452,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battlewagon",
       "name": "Battlewagon",
       "type": "AV",
       "speed": "30cm",
@@ -456,6 +478,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "flakwagon",
       "name": "Flakwagon",
       "type": "AV",
       "speed": "30cm",
@@ -481,6 +504,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gunwagon",
       "name": "Gunwagon",
       "type": "AV",
       "speed": "30cm",
@@ -506,6 +530,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mekboy_speedsta",
       "name": "Mekboy Speedsta",
       "type": "AV",
       "speed": "35cm",
@@ -530,6 +555,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battlefortress",
       "name": "Battlefortress",
       "type": "WE",
       "speed": "30cm",
@@ -562,6 +588,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gunfortress",
       "name": "Gunfortress",
       "type": "WE",
       "speed": "30cm",
@@ -594,6 +621,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fighta_bommer",
       "name": "Fighta Bommer",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -622,6 +650,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "landa",
       "name": "Landa",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -658,6 +687,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battlekroozer",
       "name": "Battlekroozer",
       "type": "SC",
       "speed": "n/a",
@@ -686,6 +716,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kill_kroozer",
       "name": "Kill Kroozer",
       "type": "SC",
       "speed": "n/a",
@@ -710,6 +741,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warbike_outriders",
       "name": "Warbike Outriders",
       "type": "INF",
       "speed": "35cm",

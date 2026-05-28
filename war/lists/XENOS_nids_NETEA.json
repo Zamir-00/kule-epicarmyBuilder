@@ -1,131 +1,764 @@
 {
-   "id": "Tyranids",
-   "version": "NetEA Tournament Pack",
-   "notes":[
-      "A symbiote character may only be added to a Hive Tyrant or Dominatrix unit.",
-      "Up to one Dominatrix may be taken per full two thousand points."
-   ],
-   "by": "Borka, last update 2026-02-21 Abetillo",
-   "sections": [
-      {
-         "name": "TYRANID INDIVIDUALS",
-         "formations": [
-            {"id": 400, "name": "Brood Nest", "pts": 50}
-         ]
-      },
-      {
-         "name": "SYNAPSE SWARM FORMATIONS",
-         "formations": [
-            {"id": 500, "name": "Tyranid swarm", "pts": 10, "upgrades": [9,11,12,15,16,21,22,23,24,25,26,27,28,35]},
-            {"id": 501, "name": "Tyranid swarm (medium)", "pts": -5, "upgrades": [9,11,12,15,16,21,22,23,24,25,26,27,28,35]},
-            {"id": 502, "name": "Tyranid swarm (Large)", "pts": -45, "upgrades": [9,11,12,15,16,21,22,23,24,25,26,27,28,35]}
-         ]
-      },
-      {
-         "name": "INDEPENDENT SWARM FORMATIONS",
-         "formations": [
-            {"id": 517, "name": "Biovore Swarm", "pts": 0, "upgrades": [16]},
-            {"id": 518, "name": "Dactylis Swarm", "pts": 0, "upgrades": [27]},
-            {"id": 519, "name": "Exocrine Swarm", "pts": 0,"upgrades": [28]},
-            {"id": 520, "name": "Genestealer Swarm", "pts": 30, "upgrades": [80,81]},
-            {"id": 524, "name": "Lictor Swarm", "pts": 10, "upgrades": [41]}
-         ]
-      },
-      {
-         "name": "WAR ENGINE FORMATIONS",
-         "formations": [
-            {"id": 521, "name": "Harridian Swarm", "pts": 0, "upgrades": [38,21,90]},
-            {"id": 522, "name": "Hierodule Bio-Titan", "pts": 350, "upgrades": []},
-            {"id": 523, "name": "Hierophant Bio-Titan", "pts": 525, "upgrades": []},
-            {"id": 526, "name": "Trygon Swarm", "pts": 20, "upgrades": [29,26]}
-         ]
-      }
-   ],
-   "upgrades": [
-      {"id": 11, "name": "Termagants", "pts": 15},
-      {"id": 12, "name": "Hormagaunts", "pts": 15},
-      {"id": 13, "name": "2x Tyranid Warriors", "pts": 100},
-      {"id": 14, "name": "Hive tyrant", "pts": 100},
-      {"id": 15, "name": "Tyranid Warriors", "pts": 50},
-      {"id": 10, "name": "Dominatrix", "pts": 325},
-      {"id": 9, "name": "Symbiote", "pts": 50},
-      {"id": 8, "name": "3x Tyranid Warriors", "pts": 150},
-
-      {"id": 16, "name": "Biovore", "pts": 25},
-      {"id": 160, "name": "5 Biovores (Small Swarm)", "pts": 150},
-      {"id": 161, "name": "10 Biovores (Medium Swarm)", "pts": 275},
-      {"id": 162, "name": "15 Biovores (Large Swarm)", "pts": 375},
-
-      {"id": 21, "name": "Gargoyles", "pts": 20},
-      {"id": 22, "name": "Zoanthrope", "pts": 25},
-      {"id": 23, "name": "Malefactor", "pts": 50},
-      {"id": 24, "name": "Carnifex", "pts": 50},
-      {"id": 25, "name": "Haruspex", "pts": 50},
-      {"id": 26, "name": "Raveners", "pts": 30},
-
-      {"id": 27, "name": "Dactylis", "pts": 75},
-      {"id": 32, "name": "3 Dactylis (Small Swarm)", "pts": 250},
-      {"id": 33, "name": "6 Dactylis (Medium Swarm)", "pts": 475},
-      {"id": 34, "name": "9 Dactylis (Large Swarm)", "pts": 675},
-
-      {"id": 28, "name": "Exocrine", "pts": 50},
-      {"id": 280, "name": "3 Exocrines (Small Swarm)", "pts": 175},
-      {"id": 281, "name": "6 Exocrines (Medium Swarm)", "pts": 325},
-      {"id": 282, "name": "9 Exocrines (Large Swarm)", "pts": 450},
-
-      {"id": 38, "name": "Harridan", "pts": 150},
-
-      {"id": 41, "name": "Lictors", "pts": 35},
-
-      {"id": 35, "name": "Trygon", "pts": 50},
-      {"id": 29, "name": "Trygon", "pts": 60},
-
-      {"id": 60, "name": "Bile Launcher", "pts": 0},
-      {"id": 61, "name": "Bio-Titan Bio-Cannon", "pts": 0},
-      {"id": 62, "name": "Cluster Spines", "pts": 0},
-      {"id": 63, "name": "Pyro-Acid Spray", "pts": 0},
-      {"id": 64, "name": "Razorclaw", "pts": 0},
-
-      {"id": 80, "name": "Genestealers", "pts": 20},
-      {"id": 81, "name": "Brood Lord", "pts": 25},
-
-      {"id": 90, "name": "4x Gargoyles", "pts": 75}
-   ],
-   "formationConstraints": [
-      {"max": 1, "name": "Brood Nest", "from":[400]},
-      {"max": 1, "name": "Independent Swarm", "from":[517,518,519,520,524], "forEach":[500,501,502], "name2":"Synapse Swarm"},
-      {"max": 2, "name": "Lictor Swarms", "from": [524]},
-      {"maxPercent": 33.34, "name": "War Engine Formations", "from": [521,522,523,526]}
-   ],
-   "upgradeConstraints": [
-      {"max": 1, "from": [10], "appliesTo": [500,501,502]},
-      {"max": 1, "from": [10], "perPoints": 2000},
-      {"max": 1, "from": [9], "perArmy": true},
-      {"max": 1, "from": [15], "appliesTo": [500]},
-      {"max": 1, "from": [8,15], "appliesTo": [500]},
-      {"max": 2, "from": [8,15], "appliesTo": [501]},
-      {"max": 3, "from": [8,15], "appliesTo": [502]},
-      {"max": 6, "from": [30], "appliesTo": [500]},
-      {"max": 12, "from": [30], "appliesTo": [501]},
-      {"max": 18, "from": [30], "appliesTo": [502]},
-      {"min": 6, "from": [11,12], "appliesTo": [500], "name": "Gaunts"},
-      {"max": 1, "min": 1, "from": [13,14,10,8], "appliesTo": [500], "name": "Synapse"},
-      {"min": 12, "from": [11,12], "appliesTo": [501], "name": "Gaunts"},
-      {"max": 2, "min": 2, "from": [13,14,10,8], "appliesTo": [501], "name": "Synapse"},
-      {"min": 18, "from": [11,12], "appliesTo": [502], "name": "Gaunts"},
-      {"max": 3, "min": 3, "from": [13,14,10,8], "appliesTo": [502], "name": "Synapse"},
-      {"min": 1, "from": [160,161,162], "appliesTo": [517]},
-      {"max": 1, "min": 1, "from": [32,33,34], "appliesTo": [518]},
-      {"min": 1	, "from": [280,281,282], "appliesTo": [519]},
-      {"min": 6, "from": [80], "appliesTo": [520]},
-      {"max": 1, "from": [81], "appliesTo": [520]},
-      {"max": 3, "min": 1, "from": [38], "appliesTo": [521]},
-      {"max": 6, "min": 4, "from": [41], "appliesTo": [524]},
-      {"max": 6, "min": 3, "from": [29], "appliesTo": [526]},
-      {"max": 2, "min": 2, "from": [64,60,61,62,63], "appliesTo": [522,523]},
-      {"max": 1, "from": [60], "appliesTo": [522,523]},
-      {"max": 1, "from": [61], "appliesTo": [522,523]},
-      {"max": 1, "from": [62], "appliesTo": [522,523]},
-      {"max": 1, "from": [63], "appliesTo": [522,523]}
-   ]
+  "id": "Tyranids",
+  "list_id": "XENOS_nids_NETEA",
+  "faction_id": "nids",
+  "ruleset": "NETEA",
+  "version": "NetEA Tournament Pack",
+  "notes": [
+    "A symbiote character may only be added to a Hive Tyrant or Dominatrix unit.",
+    "Up to one Dominatrix may be taken per full two thousand points."
+  ],
+  "by": "Borka, last update 2026-02-21 Abetillo",
+  "sections": [
+    {
+      "name": "TYRANID INDIVIDUALS",
+      "formations": [
+        {
+          "string_id": "brood_nest",
+          "id": 400,
+          "name": "Brood Nest",
+          "pts": 50
+        }
+      ]
+    },
+    {
+      "name": "SYNAPSE SWARM FORMATIONS",
+      "formations": [
+        {
+          "string_id": "tyranid_swarm",
+          "id": 500,
+          "name": "Tyranid swarm",
+          "pts": 10,
+          "upgrades": [
+            9,
+            11,
+            12,
+            15,
+            16,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            35
+          ]
+        },
+        {
+          "string_id": "tyranid_swarm_medium",
+          "id": 501,
+          "name": "Tyranid swarm (medium)",
+          "pts": -5,
+          "upgrades": [
+            9,
+            11,
+            12,
+            15,
+            16,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            35
+          ]
+        },
+        {
+          "string_id": "tyranid_swarm_large",
+          "id": 502,
+          "name": "Tyranid swarm (Large)",
+          "pts": -45,
+          "upgrades": [
+            9,
+            11,
+            12,
+            15,
+            16,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INDEPENDENT SWARM FORMATIONS",
+      "formations": [
+        {
+          "string_id": "biovore_swarm",
+          "id": 517,
+          "name": "Biovore Swarm",
+          "pts": 0,
+          "upgrades": [
+            16
+          ]
+        },
+        {
+          "string_id": "dactylis_swarm",
+          "id": 518,
+          "name": "Dactylis Swarm",
+          "pts": 0,
+          "upgrades": [
+            27
+          ]
+        },
+        {
+          "string_id": "exocrine_swarm",
+          "id": 519,
+          "name": "Exocrine Swarm",
+          "pts": 0,
+          "upgrades": [
+            28
+          ]
+        },
+        {
+          "string_id": "genestealer_swarm",
+          "id": 520,
+          "name": "Genestealer Swarm",
+          "pts": 30,
+          "upgrades": [
+            80,
+            81
+          ]
+        },
+        {
+          "string_id": "lictor_swarm",
+          "id": 524,
+          "name": "Lictor Swarm",
+          "pts": 10,
+          "upgrades": [
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WAR ENGINE FORMATIONS",
+      "formations": [
+        {
+          "string_id": "harridian_swarm",
+          "id": 521,
+          "name": "Harridian Swarm",
+          "pts": 0,
+          "upgrades": [
+            38,
+            21,
+            90
+          ]
+        },
+        {
+          "string_id": "hierodule_bio_titan",
+          "id": 522,
+          "name": "Hierodule Bio-Titan",
+          "pts": 350,
+          "upgrades": []
+        },
+        {
+          "string_id": "hierophant_bio_titan",
+          "id": 523,
+          "name": "Hierophant Bio-Titan",
+          "pts": 525,
+          "upgrades": []
+        },
+        {
+          "string_id": "trygon_swarm",
+          "id": 526,
+          "name": "Trygon Swarm",
+          "pts": 20,
+          "upgrades": [
+            29,
+            26
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "termagants",
+      "id": 11,
+      "name": "Termagants",
+      "pts": 15
+    },
+    {
+      "string_id": "hormagaunts",
+      "id": 12,
+      "name": "Hormagaunts",
+      "pts": 15
+    },
+    {
+      "string_id": "2x_tyranid_warriors",
+      "id": 13,
+      "name": "2x Tyranid Warriors",
+      "pts": 100
+    },
+    {
+      "string_id": "hive_tyrant",
+      "id": 14,
+      "name": "Hive tyrant",
+      "pts": 100
+    },
+    {
+      "string_id": "tyranid_warriors",
+      "id": 15,
+      "name": "Tyranid Warriors",
+      "pts": 50
+    },
+    {
+      "string_id": "dominatrix",
+      "id": 10,
+      "name": "Dominatrix",
+      "pts": 325
+    },
+    {
+      "string_id": "symbiote",
+      "id": 9,
+      "name": "Symbiote",
+      "pts": 50
+    },
+    {
+      "string_id": "3x_tyranid_warriors",
+      "id": 8,
+      "name": "3x Tyranid Warriors",
+      "pts": 150
+    },
+    {
+      "string_id": "biovore",
+      "id": 16,
+      "name": "Biovore",
+      "pts": 25
+    },
+    {
+      "string_id": "5_biovores_small_swarm",
+      "id": 160,
+      "name": "5 Biovores (Small Swarm)",
+      "pts": 150
+    },
+    {
+      "string_id": "10_biovores_medium_swarm",
+      "id": 161,
+      "name": "10 Biovores (Medium Swarm)",
+      "pts": 275
+    },
+    {
+      "string_id": "15_biovores_large_swarm",
+      "id": 162,
+      "name": "15 Biovores (Large Swarm)",
+      "pts": 375
+    },
+    {
+      "string_id": "gargoyles",
+      "id": 21,
+      "name": "Gargoyles",
+      "pts": 20
+    },
+    {
+      "string_id": "zoanthrope",
+      "id": 22,
+      "name": "Zoanthrope",
+      "pts": 25
+    },
+    {
+      "string_id": "malefactor",
+      "id": 23,
+      "name": "Malefactor",
+      "pts": 50
+    },
+    {
+      "string_id": "carnifex",
+      "id": 24,
+      "name": "Carnifex",
+      "pts": 50
+    },
+    {
+      "string_id": "haruspex",
+      "id": 25,
+      "name": "Haruspex",
+      "pts": 50
+    },
+    {
+      "string_id": "raveners",
+      "id": 26,
+      "name": "Raveners",
+      "pts": 30
+    },
+    {
+      "string_id": "dactylis",
+      "id": 27,
+      "name": "Dactylis",
+      "pts": 75
+    },
+    {
+      "string_id": "3_dactylis_small_swarm",
+      "id": 32,
+      "name": "3 Dactylis (Small Swarm)",
+      "pts": 250
+    },
+    {
+      "string_id": "6_dactylis_medium_swarm",
+      "id": 33,
+      "name": "6 Dactylis (Medium Swarm)",
+      "pts": 475
+    },
+    {
+      "string_id": "9_dactylis_large_swarm",
+      "id": 34,
+      "name": "9 Dactylis (Large Swarm)",
+      "pts": 675
+    },
+    {
+      "string_id": "exocrine",
+      "id": 28,
+      "name": "Exocrine",
+      "pts": 50
+    },
+    {
+      "string_id": "3_exocrines_small_swarm",
+      "id": 280,
+      "name": "3 Exocrines (Small Swarm)",
+      "pts": 175
+    },
+    {
+      "string_id": "6_exocrines_medium_swarm",
+      "id": 281,
+      "name": "6 Exocrines (Medium Swarm)",
+      "pts": 325
+    },
+    {
+      "string_id": "9_exocrines_large_swarm",
+      "id": 282,
+      "name": "9 Exocrines (Large Swarm)",
+      "pts": 450
+    },
+    {
+      "string_id": "harridan",
+      "id": 38,
+      "name": "Harridan",
+      "pts": 150
+    },
+    {
+      "string_id": "lictors",
+      "id": 41,
+      "name": "Lictors",
+      "pts": 35
+    },
+    {
+      "string_id": "trygon",
+      "id": 35,
+      "name": "Trygon",
+      "pts": 50
+    },
+    {
+      "id": 29,
+      "name": "Trygon",
+      "pts": 60
+    },
+    {
+      "string_id": "bile_launcher",
+      "id": 60,
+      "name": "Bile Launcher",
+      "pts": 0
+    },
+    {
+      "string_id": "bio_titan_bio_cannon",
+      "id": 61,
+      "name": "Bio-Titan Bio-Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "cluster_spines",
+      "id": 62,
+      "name": "Cluster Spines",
+      "pts": 0
+    },
+    {
+      "string_id": "pyro_acid_spray",
+      "id": 63,
+      "name": "Pyro-Acid Spray",
+      "pts": 0
+    },
+    {
+      "string_id": "razorclaw",
+      "id": 64,
+      "name": "Razorclaw",
+      "pts": 0
+    },
+    {
+      "string_id": "genestealers",
+      "id": 80,
+      "name": "Genestealers",
+      "pts": 20
+    },
+    {
+      "string_id": "brood_lord",
+      "id": 81,
+      "name": "Brood Lord",
+      "pts": 25
+    },
+    {
+      "string_id": "4x_gargoyles",
+      "id": 90,
+      "name": "4x Gargoyles",
+      "pts": 75
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "name": "Brood Nest",
+      "from": [
+        400
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Independent Swarm",
+      "from": [
+        517,
+        518,
+        519,
+        520,
+        524
+      ],
+      "forEach": [
+        500,
+        501,
+        502
+      ],
+      "name2": "Synapse Swarm"
+    },
+    {
+      "max": 2,
+      "name": "Lictor Swarms",
+      "from": [
+        524
+      ]
+    },
+    {
+      "maxPercent": 33.34,
+      "name": "War Engine Formations",
+      "from": [
+        521,
+        522,
+        523,
+        526
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        10
+      ],
+      "appliesTo": [
+        500,
+        501,
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        10
+      ],
+      "perPoints": 2000
+    },
+    {
+      "max": 1,
+      "from": [
+        9
+      ],
+      "perArmy": true
+    },
+    {
+      "max": 1,
+      "from": [
+        15
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        8,
+        15
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        8,
+        15
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        8,
+        15
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 6,
+      "from": [
+        30
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "max": 12,
+      "from": [
+        30
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 18,
+      "from": [
+        30
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        11,
+        12
+      ],
+      "appliesTo": [
+        500
+      ],
+      "name": "Gaunts"
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        13,
+        14,
+        10,
+        8
+      ],
+      "appliesTo": [
+        500
+      ],
+      "name": "Synapse"
+    },
+    {
+      "min": 12,
+      "from": [
+        11,
+        12
+      ],
+      "appliesTo": [
+        501
+      ],
+      "name": "Gaunts"
+    },
+    {
+      "max": 2,
+      "min": 2,
+      "from": [
+        13,
+        14,
+        10,
+        8
+      ],
+      "appliesTo": [
+        501
+      ],
+      "name": "Synapse"
+    },
+    {
+      "min": 18,
+      "from": [
+        11,
+        12
+      ],
+      "appliesTo": [
+        502
+      ],
+      "name": "Gaunts"
+    },
+    {
+      "max": 3,
+      "min": 3,
+      "from": [
+        13,
+        14,
+        10,
+        8
+      ],
+      "appliesTo": [
+        502
+      ],
+      "name": "Synapse"
+    },
+    {
+      "min": 1,
+      "from": [
+        160,
+        161,
+        162
+      ],
+      "appliesTo": [
+        517
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        32,
+        33,
+        34
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "min": 1,
+      "from": [
+        280,
+        281,
+        282
+      ],
+      "appliesTo": [
+        519
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        80
+      ],
+      "appliesTo": [
+        520
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        81
+      ],
+      "appliesTo": [
+        520
+      ]
+    },
+    {
+      "max": 3,
+      "min": 1,
+      "from": [
+        38
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "max": 6,
+      "min": 4,
+      "from": [
+        41
+      ],
+      "appliesTo": [
+        524
+      ]
+    },
+    {
+      "max": 6,
+      "min": 3,
+      "from": [
+        29
+      ],
+      "appliesTo": [
+        526
+      ]
+    },
+    {
+      "max": 2,
+      "min": 2,
+      "from": [
+        64,
+        60,
+        61,
+        62,
+        63
+      ],
+      "appliesTo": [
+        522,
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        60
+      ],
+      "appliesTo": [
+        522,
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        61
+      ],
+      "appliesTo": [
+        522,
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        62
+      ],
+      "appliesTo": [
+        522,
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        522,
+        523
+      ]
+    }
+  ]
 }

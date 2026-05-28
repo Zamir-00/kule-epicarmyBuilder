@@ -17,12 +17,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Commissars rule applies to Baran Siegemasters Imperial Guard armies (see Commissars )."
     }
   ],
   "formations": [
     {
+      "id": "infantry_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Infantry Company",
@@ -34,6 +36,7 @@
       "parse_warnings": []
     },
     {
+      "id": "1_regimental_hq",
       "category": "army_list",
       "entry_type": "formation",
       "name": "1 Regimental HQ",
@@ -45,6 +48,7 @@
       "parse_warnings": []
     },
     {
+      "id": "griffon_battery",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Griffon Battery",
@@ -56,6 +60,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hellhound Squadron",
@@ -67,6 +72,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rapier_platoon",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Rapier Platoon",
@@ -78,6 +84,7 @@
       "parse_warnings": []
     },
     {
+      "id": "siege_infantry_platoon",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Siege Infantry Platoon",
@@ -89,6 +96,7 @@
       "parse_warnings": []
     },
     {
+      "id": "snipers",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Snipers",
@@ -100,6 +108,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thudd_gun_platoon",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Thudd Gun Platoon",
@@ -111,6 +120,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Artillery Battery",
@@ -122,6 +132,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_company",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Artillery Company",
@@ -133,6 +144,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bombard_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Bombard Battery",
@@ -144,6 +156,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_deathstrike_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "0–1 Deathstrike Battery",
@@ -155,6 +168,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Flak Battery",
@@ -166,6 +180,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Heavy Tank Platoon",
@@ -177,6 +192,7 @@
       "parse_warnings": []
     },
     {
+      "id": "light_tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Light Tank Platoon",
@@ -188,6 +204,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rough_rider_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Rough Rider Platoon",
@@ -199,6 +216,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eight_sappers",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Eight Sappers",
@@ -210,6 +228,7 @@
       "parse_warnings": []
     },
     {
+      "id": "super_heavy_tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Super-heavy Tank Platoon",
@@ -221,6 +240,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fortified_positions",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Fortified Positions",
@@ -232,6 +252,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -243,6 +264,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -256,6 +278,7 @@
   ],
   "profiles": [
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -285,6 +308,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commander",
       "name": "Commander",
       "type": "INF",
       "speed": "15cm",
@@ -309,6 +333,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rapier_laser_destroyer",
       "name": "Rapier Laser Destroyer",
       "type": "INF",
       "speed": "10cm",
@@ -331,6 +356,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rough_riders",
       "name": "Rough Riders",
       "type": "INF",
       "speed": "20cm",
@@ -366,6 +392,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sappers",
       "name": "Sappers",
       "type": "INF",
       "speed": "15cm",
@@ -411,6 +438,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "siege_infantry",
       "name": "Siege Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -433,6 +461,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "snipers",
       "name": "Snipers",
       "type": "INF",
       "speed": "15cm",
@@ -458,6 +487,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -491,6 +521,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thudd_gun",
       "name": "Thudd Gun",
       "type": "INF",
       "speed": "10cm",
@@ -515,6 +546,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blitzen_aa_gun",
       "name": "Blitzen AA Gun",
       "type": "LV",
       "speed": "0cm",
@@ -537,6 +569,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bruenhilde",
       "name": "Bruenhilde",
       "type": "LV",
       "speed": "15cm",
@@ -564,6 +597,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "go_tterda_mmerung_howitzer",
       "name": "Götterdämmerung Howitzer",
       "type": "LV",
       "speed": "0cm",
@@ -588,6 +622,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "siegfried_light_tank",
       "name": "Siegfried Light Tank",
       "type": "AV",
       "speed": "30cm",
@@ -612,6 +647,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bombard",
       "name": "Bombard",
       "type": "AV",
       "speed": "20cm",
@@ -643,6 +679,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathstrike",
       "name": "Deathstrike",
       "type": "AV",
       "speed": "20cm",
@@ -675,6 +712,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "griffon",
       "name": "Griffon",
       "type": "AV",
       "speed": "30cm",
@@ -705,6 +743,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -735,6 +774,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ragnarok_heavy_tank",
       "name": "Ragnarok Heavy Tank",
       "type": "AV",
       "speed": "15cm",
@@ -766,6 +806,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "baneblade",
       "name": "Baneblade",
       "type": "WE",
       "speed": "15cm",
@@ -819,6 +860,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shadowsword",
       "name": "Shadowsword",
       "type": "WE",
       "speed": "15cm",
@@ -854,6 +896,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -892,6 +935,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -932,6 +976,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -958,6 +1003,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",

@@ -18,28 +18,34 @@
   },
   "special_rules": [
     {
+      "id": "commissars",
       "name": "Commissars",
       "text": "You may include 1 Commissar for every 500 points. The first must join the Regimental HQ Company. Commissars cannot join the Grey Ghosts. Any that does tend to die from mysterious accidents. Once all core formations have a Commissar, support formations may have a Commissar allocated to them."
     },
     {
+      "id": "drop_troops",
       "name": "Drop Troops",
       "text": "Any Elysian unit with this rule arrives via Grav Chutes using Planetfall rules. Air Cav Response Platoons do not benefit from this rule."
     },
     {
+      "id": "iron_discipline",
       "name": "Iron Discipline",
       "text": "All Elysian units, excluding Imperial Navy and allies, do not incur a -1 while rallying if an enemy is within 30cm."
     },
     {
+      "id": "masters_of_stealth",
       "name": "Masters of Stealth",
       "text": "Grey Ghosts add 1 to their cover save, gain First Strike in engagements, have Scout and Sniper, can call in artillery strikes, and are limited to one formation."
     },
     {
+      "id": "limited_garrisons",
       "name": "Limited Garrisons",
       "text": "Only Elysian Drop Scout Sentinels and Grey Ghosts may garrison."
     }
   ],
   "formations": [
     {
+      "id": "0_1_elysian_regimental_hq",
       "category": "Elysian Drop Troop Companies",
       "entry_type": "formation",
       "name": "0-1 Elysian Regimental HQ",
@@ -51,6 +57,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_drop_troop_company",
       "category": "Elysian Drop Troop Companies",
       "entry_type": "formation",
       "name": "Elysian Drop Troop Company",
@@ -62,6 +69,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_drop_mortar_company",
       "category": "Elysian Drop Troop Companies",
       "entry_type": "formation",
       "name": "Elysian Drop Mortar Company",
@@ -73,6 +81,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_anti_tank_platoon",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Elysian Anti-tank Platoon",
@@ -84,6 +93,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_droppable_sabre_battery",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Elysian droppable Sabre Battery",
@@ -95,6 +105,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vulture_squadron",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Vulture Squadron",
@@ -106,6 +117,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_drop_sentinel_squadron",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Elysian Drop Sentinel Squadron",
@@ -117,6 +129,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_drop_rocket_sentinels",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Elysian Drop Rocket Sentinels",
@@ -128,6 +141,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tauros_squadron",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Tauros Squadron",
@@ -139,6 +153,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_trooper_company",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Storm Trooper Company",
@@ -150,6 +165,7 @@
       "parse_warnings": []
     },
     {
+      "id": "grey_ghosts_platoon",
       "category": "Elysian Drop Support Platoons/Squadrons",
       "entry_type": "formation",
       "name": "Grey Ghosts Platoon",
@@ -161,6 +177,7 @@
       "parse_warnings": []
     },
     {
+      "id": "drop_hardened_veterans",
       "category": "Drop Troop Company Upgrades",
       "entry_type": "upgrade",
       "name": "Drop Hardened Veterans",
@@ -172,6 +189,7 @@
       "parse_warnings": []
     },
     {
+      "id": "drop_fire_support",
       "category": "Drop Troop Company Upgrades",
       "entry_type": "upgrade",
       "name": "Drop Fire Support",
@@ -183,6 +201,7 @@
       "parse_warnings": []
     },
     {
+      "id": "elysian_cyclops",
       "category": "Drop Troop Company Upgrades",
       "entry_type": "upgrade",
       "name": "Elysian Cyclops",
@@ -194,6 +213,7 @@
       "parse_warnings": []
     },
     {
+      "id": "space_ship",
       "category": "Elysian Air and Allied Units",
       "entry_type": "formation",
       "name": "Space Ship",
@@ -205,6 +225,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lightning_wing",
       "category": "Elysian Air and Allied Units",
       "entry_type": "formation",
       "name": "Lightning Wing",
@@ -216,6 +237,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lightning_strike",
       "category": "Elysian Air and Allied Units",
       "entry_type": "formation",
       "name": "Lightning Strike",
@@ -227,6 +249,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_destroyer",
       "category": "Elysian Air and Allied Units",
       "entry_type": "formation",
       "name": "Marauder Destroyer",
@@ -238,6 +261,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_bomber",
       "category": "Elysian Air and Allied Units",
       "entry_type": "formation",
       "name": "Marauder Bomber",
@@ -249,6 +273,7 @@
       "parse_warnings": []
     },
     {
+      "id": "line_breaker_column",
       "category": "Elysian Air and Allied Units",
       "entry_type": "formation",
       "name": "Line Breaker Column",
@@ -262,6 +287,7 @@
   ],
   "profiles": [
     {
+      "id": "elysian_supreme_commander",
       "name": "Elysian Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -303,6 +329,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_commander",
       "name": "Elysian Commander",
       "type": "INF",
       "speed": "15cm",
@@ -345,6 +372,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "-",
@@ -374,6 +402,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_drop_troop_infantry",
       "name": "Elysian Drop Troop Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -406,6 +435,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_drop_hardened_veterans",
       "name": "Elysian Drop Hardened Veterans",
       "type": "INF",
       "speed": "15cm",
@@ -445,6 +475,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_ghosts",
       "name": "Grey Ghosts",
       "type": "INF",
       "speed": "15cm",
@@ -499,6 +530,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "storm_troopers",
       "name": "Storm Troopers",
       "type": "INF",
       "speed": "15cm",
@@ -529,6 +561,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_support_squad",
       "name": "Elysian Support Squad",
       "type": "INF",
       "speed": "15cm",
@@ -553,6 +586,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_mortar_squad",
       "name": "Elysian Mortar Squad",
       "type": "INF",
       "speed": "15cm",
@@ -586,6 +620,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_cyclops",
       "name": "Elysian Cyclops",
       "type": "LV",
       "speed": "25cm",
@@ -616,6 +651,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "taurus",
       "name": "Taurus",
       "type": "LV",
       "speed": "35cm",
@@ -641,6 +677,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "taurus_venator",
       "name": "Taurus Venator",
       "type": "LV",
       "speed": "35cm",
@@ -678,6 +715,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_drop_rocket_sentinel",
       "name": "Elysian Drop Rocket Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -707,6 +745,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_drop_sentinel",
       "name": "Elysian Drop Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -742,6 +781,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_sabre_platform",
       "name": "Elysian Sabre Platform",
       "type": "INF",
       "speed": "10cm",
@@ -770,6 +810,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "elysian_valkyrie_transport",
       "name": "Elysian Valkyrie Transport",
       "type": "AV",
       "speed": "35cm",
@@ -812,6 +853,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture_gunship",
       "name": "Vulture Gunship",
       "type": "AV",
       "speed": "35cm",
@@ -864,6 +906,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "35cm",
@@ -895,6 +938,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_conqueror",
       "name": "Leman Russ Conqueror",
       "type": "AV",
       "speed": "30cm",
@@ -927,6 +971,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ig_infantry_unit",
       "name": "IG Infantry unit",
       "type": "INF",
       "speed": "15cm",
@@ -957,6 +1002,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "Space Ship",
       "speed": "N/A",
@@ -991,6 +1037,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lightning_fighter",
       "name": "Lightning Fighter",
       "type": "Aircraft",
       "speed": "Fighter",
@@ -1023,6 +1070,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lightning_strike_fighter",
       "name": "Lightning Strike Fighter",
       "type": "Aircraft",
       "speed": "Fighter",
@@ -1055,6 +1103,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "Aircraft/WE",
       "speed": "Bomber",
@@ -1096,6 +1145,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_destroyer",
       "name": "Marauder Destroyer",
       "type": "Aircraft/WE",
       "speed": "Bomber",
@@ -1147,6 +1197,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vendetta",
       "name": "Vendetta",
       "type": "AV",
       "speed": "35cm",
@@ -1180,6 +1231,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie_sky_talon",
       "name": "Valkyrie Sky Talon",
       "type": "AV",
       "speed": "35cm",
@@ -1207,6 +1259,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",

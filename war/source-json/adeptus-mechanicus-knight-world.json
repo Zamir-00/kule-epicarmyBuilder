@@ -17,12 +17,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Fortified Positions rule applies to House Lakar Knight World Defense Force armies (see Fortified Positions )."
     }
   ],
   "formations": [
     {
+      "id": "marauder_squadron",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -34,6 +36,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -47,6 +50,7 @@
   ],
   "profiles": [
     {
+      "id": "aspirant",
       "name": "Aspirant",
       "type": "CH",
       "speed": "n/a",
@@ -76,6 +80,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "seneschal",
       "name": "Seneschal",
       "type": "CH",
       "speed": "n/a",
@@ -94,6 +99,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "infantry_levy",
       "name": "Infantry Levy",
       "type": "INF",
       "speed": "15cm",
@@ -124,6 +130,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "levy_command",
       "name": "Levy Command",
       "type": "INF",
       "speed": "15cm",
@@ -148,6 +155,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rapier",
       "name": "Rapier",
       "type": "INF",
       "speed": "10cm",
@@ -170,6 +178,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rough_riders",
       "name": "Rough Riders",
       "type": "INF",
       "speed": "20cm",
@@ -205,6 +214,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "snipers",
       "name": "Snipers",
       "type": "INF",
       "speed": "15cm",
@@ -230,6 +240,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thudd_gun",
       "name": "Thudd Gun",
       "type": "INF",
       "speed": "10cm",
@@ -254,6 +265,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "aa_gun",
       "name": "AA Gun",
       "type": "LV",
       "speed": "0cm",
@@ -276,6 +288,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gun_transporter",
       "name": "Gun Transporter",
       "type": "LV",
       "speed": "15cm",
@@ -301,6 +314,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "howitzer",
       "name": "Howitzer",
       "type": "LV",
       "speed": "0cm",
@@ -325,6 +339,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "baron",
       "name": "Baron",
       "type": "WE",
       "speed": "30cm",
@@ -386,6 +401,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_castellan",
       "name": "Knight Castellan",
       "type": "WE",
       "speed": "20cm",
@@ -434,6 +450,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_crusader",
       "name": "Knight Crusader",
       "type": "WE",
       "speed": "20cm",
@@ -482,6 +499,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_errant",
       "name": "Knight Errant",
       "type": "WE",
       "speed": "25cm",
@@ -540,6 +558,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_lancer",
       "name": "Knight Lancer",
       "type": "WE",
       "speed": "30cm",
@@ -581,6 +600,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_paladin",
       "name": "Knight Paladin",
       "type": "WE",
       "speed": "25cm",
@@ -629,6 +649,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warden",
       "name": "Warden",
       "type": "WE",
       "speed": "20cm",
@@ -690,6 +711,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -728,6 +750,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -768,6 +791,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -794,6 +818,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",

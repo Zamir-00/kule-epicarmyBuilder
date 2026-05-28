@@ -18,36 +18,44 @@
   },
   "special_rules": [
     {
+      "id": "unforgiven",
       "name": "Unforgiven",
       "text": "The Dark Angel's secret is theirs alone. No Imperial Allies can be taken in this Dark Angel Force."
     },
     {
+      "id": "optional_special_victory_condition_hunt_for_the_fallen",
       "name": "Optional Special Victory Condition - Hunt for the Fallen",
       "text": "May only be used if the Dark Angels army contains at least one Interrogator-Chaplain and/or a Grand Master character in a Ravenwing Attack formation. Before deployment: The Dark Angels player decides whether to use the Hunt for the Fallen Victory Condition. If it is used, the opponent must choose one formation that has either at least one infantry unit or a character upgrade and designates that formation as the one containing the Fallen. The Dark Angels player must destroy this formation completely to score the Hunt for the Fallen VC. If the formation is off the table during turn 3 and afterwards, it counts as destroyed. Replaces the Break Their Spirits (BTS) objective."
     },
     {
+      "id": "teleport_homer",
       "name": "Teleport Homer",
       "text": "Teleporting models may re-roll Teleport Mishap 1s if their base is within 15cm of an unbroken unit with the \"Teleport Homer\" special rule."
     },
     {
+      "id": "coordinated_teleport",
       "name": "Coordinated Teleport",
       "text": "Formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or they may choose to perform a Coordinated Teleport during the activation of the space ship. A Coordinated Teleport functions like an ordinary Teleport except that all models in the formation must be placed so that they benefit from the Teleport Homer special rule. If they are unable to benefit from Teleport Homer, they cannot carry out a Coordinated Teleport but must wait and teleport normally in later turns. Coordinated Teleports happen after Barrage, Planetfall and Deathwind have been resolved. All Coordinated Teleports counts as taking place simultaneously, not one after the other."
     },
     {
+      "id": "deathwing",
       "name": "Deathwing",
       "text": "Formations containing at least one model with the rule \"Deathwing\" removes an additional blast marker whenever that formation rallies or regroups."
     },
     {
+      "id": "space_marine_transports",
       "name": "Space Marine Transports",
       "text": "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\nIn addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from. Before each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the “plus transport” aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
     },
     {
+      "id": "atsknf",
       "name": "ATSKNF",
       "text": "It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).\nSpace Marine formations are only broken if they have 2 Blast markers per unit in the formation.\nSpace Marines formations only count half their number of Blast markers in assault resolution (rounding down - note that in assault resolution Space Marines will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down).\nHalve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.\nWhen a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
     }
   ],
   "formations": [
     {
+      "id": "tacticals",
       "category": "Dark Angels Core Detachments",
       "entry_type": "formation",
       "name": "Tacticals",
@@ -59,6 +67,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "Dark Angels Core Detachments",
       "entry_type": "formation",
       "name": "Land Raiders",
@@ -70,6 +79,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scouts",
       "category": "Dark Angels Support Detachments",
       "entry_type": "formation",
       "name": "Scouts",
@@ -81,6 +91,7 @@
       "parse_warnings": []
     },
     {
+      "id": "assaults",
       "category": "Dark Angels Support Detachments",
       "entry_type": "formation",
       "name": "Assaults",
@@ -92,6 +103,7 @@
       "parse_warnings": []
     },
     {
+      "id": "devastators",
       "category": "Dark Angels Support Detachments",
       "entry_type": "formation",
       "name": "Devastators",
@@ -103,6 +115,7 @@
       "parse_warnings": []
     },
     {
+      "id": "predators",
       "category": "Dark Angels Support Detachments",
       "entry_type": "formation",
       "name": "Predators",
@@ -114,6 +127,7 @@
       "parse_warnings": []
     },
     {
+      "id": "siege_breachers",
       "category": "Dark Angels Support Detachments",
       "entry_type": "formation",
       "name": "Siege Breachers",
@@ -125,6 +139,7 @@
       "parse_warnings": []
     },
     {
+      "id": "whirlwinds",
       "category": "Dark Angels Support Detachments",
       "entry_type": "formation",
       "name": "Whirlwinds",
@@ -136,6 +151,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwing_terminators",
       "category": "Deathwing & Ravenwing Strike Detachments",
       "entry_type": "formation",
       "name": "Deathwing Terminators",
@@ -147,6 +163,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravenwing_attack",
       "category": "Deathwing & Ravenwing Strike Detachments",
       "entry_type": "formation",
       "name": "Ravenwing Attack",
@@ -158,6 +175,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwing_overwatch",
       "category": "Deathwing & Ravenwing Specialist Detachments",
       "entry_type": "formation",
       "name": "Deathwing Overwatch",
@@ -169,6 +187,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwing_knights",
       "category": "Deathwing & Ravenwing Specialist Detachments",
       "entry_type": "formation",
       "name": "Deathwing Knights",
@@ -180,6 +199,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwing_dreadnoughts",
       "category": "Deathwing & Ravenwing Specialist Detachments",
       "entry_type": "formation",
       "name": "Deathwing Dreadnoughts",
@@ -191,6 +211,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwing_land_raiders",
       "category": "Deathwing & Ravenwing Specialist Detachments",
       "entry_type": "formation",
       "name": "Deathwing Land Raiders",
@@ -202,6 +223,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravenwing_support",
       "category": "Deathwing & Ravenwing Specialist Detachments",
       "entry_type": "formation",
       "name": "Ravenwing Support",
@@ -213,6 +235,7 @@
       "parse_warnings": []
     },
     {
+      "id": "relic_deimos",
       "category": "Dreadwing Relic Detachments",
       "entry_type": "formation",
       "name": "Relic Deimos",
@@ -224,6 +247,7 @@
       "parse_warnings": []
     },
     {
+      "id": "relic_glaive",
       "category": "Dreadwing Relic Detachments",
       "entry_type": "formation",
       "name": "Relic Glaive",
@@ -235,6 +259,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravenwing_nephilim",
       "category": "Dark Angels Aircraft and Swordwing",
       "entry_type": "formation",
       "name": "Ravenwing Nephilim",
@@ -246,6 +271,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravenwing_dark_talon",
       "category": "Dark Angels Aircraft and Swordwing",
       "entry_type": "formation",
       "name": "Ravenwing Dark Talon",
@@ -257,6 +283,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderhawk_transporter",
       "category": "Dark Angels Aircraft and Swordwing",
       "entry_type": "formation",
       "name": "Thunderhawk Transporter",
@@ -268,6 +295,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_swordwing",
       "category": "Dark Angels Aircraft and Swordwing",
       "entry_type": "formation",
       "name": "0-1 Swordwing",
@@ -279,6 +307,7 @@
       "parse_warnings": []
     },
     {
+      "id": "commander",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Commander",
@@ -290,6 +319,7 @@
       "parse_warnings": []
     },
     {
+      "id": "interrogator",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Interrogator",
@@ -301,6 +331,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_grand_master",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "0-1 Grand Master",
@@ -312,6 +343,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorbacks",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Razorbacks",
@@ -323,6 +355,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mortis",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Mortis",
@@ -334,6 +367,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicators",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Vindicators",
@@ -345,6 +379,7 @@
       "parse_warnings": []
     },
     {
+      "id": "stalker",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Stalker",
@@ -356,6 +391,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hunter",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Hunter",
@@ -378,6 +414,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathwing_transport",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Deathwing Transport",
@@ -389,6 +426,7 @@
       "parse_warnings": []
     },
     {
+      "id": "attack_bikes",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Attack Bikes",
@@ -400,6 +438,7 @@
       "parse_warnings": []
     },
     {
+      "id": "venegance",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Venegance",
@@ -411,6 +450,7 @@
       "parse_warnings": []
     },
     {
+      "id": "glaive",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Glaive",
@@ -422,6 +462,7 @@
       "parse_warnings": []
     },
     {
+      "id": "transporter",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Transporter",
@@ -433,6 +474,7 @@
       "parse_warnings": []
     },
     {
+      "id": "strike_cruiser",
       "category": "Dark Angels Upgrades",
       "entry_type": "upgrade",
       "name": "Strike Cruiser",
@@ -446,6 +488,7 @@
   ],
   "profiles": [
     {
+      "id": "grand_master",
       "name": "Grand Master",
       "type": "CH",
       "speed": "n/a",
@@ -474,6 +517,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_angels_captain",
       "name": "Dark Angels Captain",
       "type": "CH",
       "speed": "n/a",
@@ -504,6 +548,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "interrogator_chaplain",
       "name": "Interrogator Chaplain",
       "type": "CH",
       "speed": "n/a",
@@ -533,6 +578,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "librarian",
       "name": "Librarian",
       "type": "CH",
       "speed": "n/a",
@@ -570,6 +616,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tactical_marines",
       "name": "Tactical Marines",
       "type": "INF",
       "speed": "15cm",
@@ -592,6 +639,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sniper_scouts",
       "name": "Sniper Scouts",
       "type": "INF",
       "speed": "15cm",
@@ -619,6 +667,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_angels_assault_marines",
       "name": "Dark Angels Assault Marines",
       "type": "INF",
       "speed": "30cm",
@@ -643,6 +692,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_angels_devastators",
       "name": "Dark Angels Devastators",
       "type": "INF",
       "speed": "15cm",
@@ -665,6 +715,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwing_terminators",
       "name": "Deathwing Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -701,6 +752,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwing_cyclone_terminators",
       "name": "Deathwing Cyclone Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -737,6 +789,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwing_knights",
       "name": "Deathwing Knights",
       "type": "INF",
       "speed": "15cm",
@@ -768,6 +821,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_black_knights",
       "name": "Ravenwing Black Knights",
       "type": "INF",
       "speed": "35cm",
@@ -803,6 +857,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_assault_bikes",
       "name": "Ravenwing Assault Bikes",
       "type": "INF",
       "speed": "35cm",
@@ -828,6 +883,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_attack_bike",
       "name": "Ravenwing Attack Bike",
       "type": "LV",
       "speed": "35cm",
@@ -853,6 +909,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_land_speeder",
       "name": "Ravenwing Land Speeder",
       "type": "LV",
       "speed": "35cm",
@@ -891,6 +948,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_land_speeder_tornado",
       "name": "Ravenwing Land Speeder Tornado",
       "type": "LV",
       "speed": "35cm",
@@ -923,6 +981,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_land_speeder_venegance",
       "name": "Ravenwing Land Speeder Venegance",
       "type": "LV",
       "speed": "30cm",
@@ -955,6 +1014,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mortis_dreadnought",
       "name": "Mortis Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -977,6 +1037,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwing_dreadnought",
       "name": "Deathwing Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1010,6 +1071,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -1035,6 +1097,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_angels_razorback",
       "name": "Dark Angels Razorback",
       "type": "AV",
       "speed": "30cm",
@@ -1066,6 +1129,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_destructor",
       "name": "Predator Destructor",
       "type": "AV",
       "speed": "30cm",
@@ -1094,6 +1158,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "whirlwind",
       "name": "Whirlwind",
       "type": "AV",
       "speed": "30cm",
@@ -1118,6 +1183,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hunter",
       "name": "Hunter",
       "type": "AV",
       "speed": "30cm",
@@ -1140,6 +1206,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_angels_stalker",
       "name": "Dark Angels Stalker",
       "type": "AV",
       "speed": "30cm",
@@ -1162,6 +1229,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vindicator",
       "name": "Vindicator",
       "type": "AV",
       "speed": "25cm",
@@ -1188,6 +1256,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider",
       "name": "Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -1221,6 +1290,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwing_land_raider",
       "name": "Deathwing Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -1256,6 +1326,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_ares",
       "name": "Land Raider Ares",
       "type": "AV",
       "speed": "25cm",
@@ -1308,6 +1379,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deimos_predator_executioner",
       "name": "Deimos Predator Executioner",
       "type": "AV",
       "speed": "30cm",
@@ -1338,6 +1410,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deimos_vindicator_laser_destroyer",
       "name": "Deimos Vindicator Laser Destroyer",
       "type": "AV",
       "speed": "30cm",
@@ -1362,6 +1435,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "glaive",
       "name": "Glaive",
       "type": "WE",
       "speed": "15cm",
@@ -1415,6 +1489,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_nephilim_interceptor",
       "name": "Ravenwing Nephilim Interceptor",
       "type": "AC",
       "speed": "Fighter",
@@ -1457,6 +1532,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravenwing_dark_talon",
       "name": "Ravenwing Dark Talon",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1502,6 +1578,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_angels_thunderhawk_transporter",
       "name": "Dark Angels Thunderhawk Transporter",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1544,6 +1621,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hunter_class_destroyer",
       "name": "Hunter Class Destroyer",
       "type": "SC",
       "speed": "n/a",
@@ -1568,6 +1646,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_cruiser",
       "name": "Strike Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1594,6 +1673,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "drop_pods",
       "name": "Drop Pods",
       "type": "Special",
       "speed": "n/a",

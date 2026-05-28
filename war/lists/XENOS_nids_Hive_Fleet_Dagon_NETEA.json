@@ -1,5 +1,8 @@
 {
   "id": "Hive Fleet Dagon",
+  "list_id": "XENOS_nids_Hive_Fleet_Dagon_NETEA",
+  "faction_id": "nids-hive-fleet-dagon",
+  "ruleset": "NETEA",
   "version": "4.5 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=21&t=32946\">TCMD forum</a>",
   "by": "Argol & MrDieAlot",
   "sections": [
@@ -7,126 +10,129 @@
       "name": "Primary Nexus Swarms",
       "formations": [
         {
+          "string_id": "hive_nexus_swarm_3_5_instinctive_swarms",
           "id": 501,
           "name": "Hive Nexus Swarm (3-5 Instinctive Swarms)",
           "pts": 400,
-		  "units": "Dagon Dominatrix",
+          "units": "Dagon Dominatrix",
           "upgrades": [
-			101,
-			102,
-			103,
-			104,
-			105,
-			107,
-			108,
-			109,
-			110,
-			111,
-			112,
-			113,
-			114,
-			115,
-			116,
-			117,
-			118
-
+            101,
+            102,
+            103,
+            104,
+            105,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118
           ]
         },
         {
+          "string_id": "major_swarm_3_5_instinctive_swarms",
           "id": 502,
           "name": "Major Swarm (3-5 Instinctive Swarms)",
           "pts": 150,
           "upgrades": [
-		  	101,
-			102,
-			103,
-			104,
-			105,
-			107,
-			108,
-			109,
-			110,
-			111,
-			112,
-			113,
-			114,
-			115,
-			116,
-			117,
-			118,
-			120
-
+            101,
+            102,
+            103,
+            104,
+            105,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            120
           ]
         },
         {
+          "string_id": "minor_swarm_2_4_instinctive_swarms",
           "id": 503,
           "name": "Minor Swarm (2-4 Instinctive Swarms)",
           "pts": 100,
           "upgrades": [
-			101,
-			102,
-			103,
-			104,
-			105,
-			107,
-			108,
-			109,
-			110,
-			113,
-			114,
-			115,
-			116,
-			117,
-			118,
-			120
+            101,
+            102,
+            103,
+            104,
+            105,
+            107,
+            108,
+            109,
+            110,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            120
           ]
-        }      
+        }
       ]
     },
-	{
+    {
       "name": "Secondary Nexus Swarms (One Secondary Nexus Swarm may be taken for each Primary Nexus Swarm)",
       "formations": [
-	    {
+        {
+          "string_id": "attack_swarm_1_2_instinctive_swarms",
           "id": 509,
           "name": "Attack Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "upgrades": [
-			101,
-			102,
-			103,
-			104,
-			105,
-			110,
-			111,
-			112,
-			113,
-			114,
-			115,
-			116
-		  
-          ]
-		},
-          {
-          "id": 504,
-          "name": "Infestation Swarm (1-2 Instinctive Swarms)",
-          "pts": 0,
-           "upgrades": [
             101,
-			102,
-			103,
-			104,
-			105,
-            117,
-			118
+            102,
+            103,
+            104,
+            105,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116
           ]
         },
         {
+          "string_id": "infestation_swarm_1_2_instinctive_swarms",
+          "id": 504,
+          "name": "Infestation Swarm (1-2 Instinctive Swarms)",
+          "pts": 0,
+          "upgrades": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            117,
+            118
+          ]
+        },
+        {
+          "string_id": "harasser_swarm_1_2_instinctive_swarms",
           "id": 505,
           "name": "Harasser Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "upgrades": [
             109,
-			107,
+            107,
             130
           ]
         }
@@ -136,6 +142,7 @@
       "name": "Common Independent Swarms (One Common Independent Swarm may be taken for each Primary Nexus Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
         {
+          "string_id": "genestealer_swarm",
           "id": 506,
           "name": "Genestealer Swarm",
           "pts": 0,
@@ -143,8 +150,9 @@
             140,
             141
           ]
-    },
-    {
+        },
+        {
+          "string_id": "lictor_swarm",
           "id": 507,
           "name": "Lictor Swarm",
           "pts": 100,
@@ -157,220 +165,260 @@
     {
       "name": "Rare Independent Swarms (One Rare Independent Swarm may be taken for each Primary Nexus Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
-    {
+        {
+          "string_id": "bio_titan",
           "id": 510,
           "name": "Bio-Titan",
           "pts": 0,
-          "upgrades": [
-          ]
-    },
-    {
+          "upgrades": []
+        },
+        {
+          "string_id": "bio_vessel",
           "id": 511,
           "name": "Bio-Vessel",
           "pts": 0,
-          "upgrades": [
-          ]
-      }
+          "upgrades": []
+        }
       ]
     }
   ],
   "upgrades": [
     {
+      "string_id": "gaunts_4_termagaunts",
       "id": 101,
       "name": "Gaunts (4 Termagaunts)",
       "pts": 50
     },
-	    {
+    {
+      "string_id": "gaunts_3_termagaunts_1_hormagaunt",
       "id": 102,
       "name": "Gaunts (3 Termagaunts, 1 Hormagaunt)",
       "pts": 50
     },
-	    {
+    {
+      "string_id": "gaunts_2_termagaunts_2_hormagaunts",
       "id": 103,
       "name": "Gaunts (2 Termagaunts, 2 Hormagaunts)",
       "pts": 50
     },
-	    {
+    {
+      "string_id": "gaunts_1_termagaunts_3_hormagaunts",
       "id": 104,
       "name": "Gaunts (1 Termagaunts, 3 Hormagaunts)",
       "pts": 50
     },
-	    {
+    {
+      "string_id": "gaunts_4_hormagaunts",
       "id": 105,
       "name": "Gaunts (4 Hormagaunts)",
       "pts": 50
     },
     {
+      "string_id": "bio_bomber_2_harpies",
       "id": 107,
       "name": "Bio-Bomber (2 Harpies)",
       "pts": 100
     },
     {
+      "string_id": "biovores_4_biovores",
       "id": 108,
       "name": "Biovores (4 Biovores)",
       "pts": 75
     },
     {
+      "string_id": "gargoyles_4_dagon_gargoyles",
       "id": 109,
       "name": "Gargoyles (4 Dagon Gargoyles)",
       "pts": 50
     },
     {
+      "string_id": "carnifex_3_carnifex",
       "id": 110,
       "name": "Carnifex (3 Carnifex)",
       "pts": 100
     },
     {
+      "string_id": "bio_support_3_dagon_dactylis",
       "id": 111,
       "name": "Bio-Support (3 Dagon Dactylis)",
       "pts": 125
     },
     {
+      "string_id": "bio_support_3_dagon_exocrine",
       "id": 112,
       "name": "Bio-Support (3 Dagon Exocrine)",
       "pts": 125
     },
     {
+      "string_id": "bio_attack_2_dagon_haruspex",
       "id": 113,
       "name": "Bio-Attack (2 Dagon Haruspex)",
       "pts": 75
     },
     {
+      "string_id": "bio_attack_2_malefactors",
       "id": 114,
       "name": "Bio-Attack (2 Malefactors)",
       "pts": 75
     },
     {
+      "string_id": "hierodule_1_barbed_hierodule",
       "id": 115,
       "name": "Hierodule (1 Barbed Hierodule)",
       "pts": 125
     },
     {
+      "string_id": "hierodule_1_scythed_hierodule",
       "id": 116,
       "name": "Hierodule (1 Scythed Hierodule)",
       "pts": 125
     },
     {
+      "string_id": "burrower_1_trygon",
       "id": 117,
       "name": "Burrower (1 Trygon)",
       "pts": 50
     },
-		{
+    {
+      "string_id": "burrower_3_dagon_raveners",
       "id": 118,
       "name": "Burrower (3 Dagon Raveners)",
       "pts": 50
     },
     {
+      "string_id": "mycetic_spore_may_transport_termagaunts_hormagaunts_biovores_carnifex_raveners_hive_tyrants_dagon_overlord_tyranid_warriors_zoanthropes_transported_units_may_not_have_wings",
       "id": 120,
       "name": "Mycetic Spore // May transport Termagaunts, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Dagon Overlord, Tyranid Warriors, Zoanthropes // Transported units may not have Wings",
       "pts": 50
     },
     {
+      "string_id": "harridan",
       "id": 130,
       "name": "Harridan",
       "pts": 150
     },
     {
+      "string_id": "genestealers",
       "id": 140,
       "name": "Genestealers",
       "pts": 25
     },
     {
+      "string_id": "broodlord",
       "id": 141,
       "name": "Broodlord",
       "pts": 25
     },
     {
+      "string_id": "dagon_lictors",
       "id": 142,
       "name": "Dagon Lictors",
       "pts": 25
     },
     {
+      "string_id": "harpies",
       "id": 150,
       "name": "Harpies",
       "pts": 50
     },
     {
+      "string_id": "dagon_hierophant",
       "id": 160,
       "name": "Dagon Hierophant",
       "pts": 350
     },
     {
+      "string_id": "hydraphant",
       "id": 161,
       "name": "Hydraphant",
       "pts": 550
     },
     {
+      "string_id": "razorfiend_may_carry_2_mycetic_spores_including_cargo",
       "id": 170,
       "name": "Razorfiend (May carry 2 Mycetic Spores including cargo)",
       "pts": 150
     },
     {
+      "string_id": "hive_ship_may_carry_5_mycetic_spores_including_cargo",
       "id": 171,
       "name": "Hive Ship (May carry 5 Mycetic Spores including cargo)",
       "pts": 250
     },
     {
+      "string_id": "tyranid_warriors",
       "id": 201,
       "name": "Tyranid Warriors",
       "pts": 0
     },
     {
+      "string_id": "zoanthrope",
       "id": 202,
       "name": "Zoanthrope",
       "pts": 0
     },
     {
+      "string_id": "hive_tyrant",
       "id": 203,
       "name": "Hive Tyrant",
       "pts": 0
     },
     {
+      "string_id": "dagon_overlord",
       "id": 204,
       "name": "Dagon Overlord",
       "pts": 100
     },
-	{
+    {
+      "string_id": "dagon_overlord_shrike_wings",
       "id": 205,
       "name": "Dagon Overlord Shrike (Wings)",
       "pts": 100
     },
-	{
+    {
+      "string_id": "barbed_hierodule",
       "id": 209,
       "name": "Barbed Hierodule",
       "pts": 0
     },
-	{
+    {
+      "string_id": "scythed_hierodule",
       "id": 210,
       "name": "Scythed Hierodule",
       "pts": 0
     },
     {
+      "string_id": "tyranid_warrior_shrikes_wings",
       "id": 211,
       "name": "Tyranid Warrior Shrikes (Wings)",
       "pts": 0
     },
     {
+      "string_id": "hive_tyrant_shrike_wings",
       "id": 213,
       "name": "Hive Tyrant Shrike (Wings)",
       "pts": 0
     },
-	{
+    {
+      "string_id": "trygon_prime",
       "id": 214,
       "name": "Trygon Prime",
       "pts": 150
     },
-	{
+    {
+      "string_id": "3_ravener_alphas",
       "id": 215,
       "name": "3 Ravener Alphas",
       "pts": 100
     },
-		{
+    {
+      "string_id": "barbed_hierodule_prime",
       "id": 216,
       "name": "Barbed Hierodule Prime",
       "pts": 150
     },
-		{
+    {
+      "string_id": "scythed_hierodule_prime",
       "id": 217,
       "name": "Scythed Hierodule Prime",
       "pts": 150
@@ -393,7 +441,7 @@
       "maxPercent": 33,
       "name": "Common Independent Swarms",
       "from": [
-		506,
+        506,
         507
       ]
     },
@@ -403,7 +451,7 @@
       "from": [
         504,
         505,
-		509
+        509
       ],
       "forEach": [
         501,
@@ -411,7 +459,7 @@
         503
       ],
       "name2": "Primary Nexus Swarm"
-	},
+    },
     {
       "max": 1,
       "name": "Common Independent Swarms",
@@ -425,16 +473,16 @@
         503
       ],
       "name2": "Primary Nexus Swarm"
-	},
-	{
+    },
+    {
       "maxPercent": 33,
       "name": "Rare Independent Swarms",
       "from": [
         508,
         510,
         511,
-		512,
-		513
+        512,
+        513
       ]
     },
     {
@@ -454,35 +502,34 @@
     }
   ],
   "upgradeConstraints": [
-  
     {
       "max": 1,
       "name": "Mycetic Spore",
       "from": [
-		120
+        120
       ],
       "appliesTo": [
         502,
-		503
+        503
       ]
     },
     {
       "max": 5,
-	  "perArmy": true,
+      "perArmy": true,
       "name": "Mycetic Spore",
       "from": [
-		120
+        120
       ]
-	},
-	{
+    },
+    {
       "max": 1,
       "perArmy": true,
       "from": [
         204,
-		205
+        205
       ]
     },
-	{
+    {
       "max": 1,
       "perArmy": true,
       "from": [
@@ -490,8 +537,8 @@
         301
       ]
     },
-	{
-	  "min": 3,
+    {
+      "min": 3,
       "max": 5,
       "from": [
         101,
@@ -499,18 +546,18 @@
         103,
         104,
         105,
-		107,
+        107,
         108,
         109,
         110,
         111,
         112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
       ],
       "appliesTo": [
         501
@@ -522,7 +569,7 @@
       "from": [
         203,
         204,
-		205,
+        205,
         213
       ],
       "appliesTo": [
@@ -550,18 +597,18 @@
         103,
         104,
         105,
-		107,
+        107,
         108,
         109,
         110,
         111,
         112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
         120
       ],
       "appliesTo": [
@@ -598,34 +645,34 @@
         103,
         104,
         105,
-		107,
+        107,
         108,
         109,
         110,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
         120
       ],
       "appliesTo": [
         503
       ]
     },
-	{
+    {
       "max": 1,
       "min": 1,
       "from": [
-		216,
-		217
+        216,
+        217
       ],
       "appliesTo": [
         509
       ]
     },
-	{
+    {
       "max": 2,
       "min": 1,
       "from": [
@@ -634,19 +681,19 @@
         103,
         104,
         105,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
       ],
       "appliesTo": [
         509
       ]
     },
-	{
+    {
       "max": 1,
       "min": 1,
       "from": [
@@ -663,25 +710,25 @@
       "from": [
         101,
         102,
-		103,
-		104,
-		105,
+        103,
+        104,
+        105,
         117,
-		118
+        118
       ],
       "appliesTo": [
         504
       ]
     },
-	{
+    {
       "max": 1,
       "min": 0,
       "from": [
         101,
         102,
-		103,
-		104,
-		105
+        103,
+        104,
+        105
       ],
       "appliesTo": [
         504
@@ -702,7 +749,7 @@
       "min": 1,
       "from": [
         109,
-		107
+        107
       ],
       "appliesTo": [
         505

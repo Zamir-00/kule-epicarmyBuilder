@@ -1,46 +1,272 @@
 {
-"id":"Tyranid Bio-Titan",
-"version":"EpicUK",
-"by":"Mephiston",
-"sections":[
-{
-"name":"CORE BROODS",
-"formations":[
-	{"id":501,"name":"Dominatrix","pts":500,"units":"1 Dominatrix","upgrades":[10]},
-	{"id":502,"name":"Hydraphant","pts":450,"units":"1 Hydraphant","upgrades":[10,14,50,51,52,53]}
-]},
-{"name":"SUPPORT BROODS",
-"formations":[
-    {"id":521,"name":"Hierophant","pts":250,"units":"1 Hierophant","upgrades":[10,11,14,50,51,52,53]},
-	{"id":522,"name":"Hierodule Brood","pts":350,"units":"3 Hierodules","upgrades":[10]},
-	{"id":523,"name":"Harridan","pts":250,"units":"1 Harridan","upgrades":[12]},
-	{"id":524,"name":"Burrowing Brood","pts":250,"units":"2 Trygons","upgrades":[13]},
-	{"id":525,"name":"Hive Nest","pts":200,"units":"1 Hive Nest and 1 Hierodule","upgrades":[10]}
-]}
-],
-"upgrades":[
-	{"id":10,"name":"Hierodules","pts":100},
-	{"id":11,"name":"Hierophants","pts":200,"upgrades":[50,51,52,53]},
-	{"id":12,"name":"Haridan","pts":200},
-	{"id":13,"name":"Trygon","pts":100},
-	{"id":14,"name":"Neuro Linked","pts":25},
-	{"id":50,"name":"Razor Claw and Adrenal Sac","pts":0},
-	{"id":51,"name":"Large Bore Bio-Cannon Arm","pts":0},
-	{"id":52,"name":"Pyro-Acid Spray Arm","pts":0},
-	{"id":53,"name":"Cluster Spines Arm","pts":0}
-	
-],
-"formationConstraints":[
-	{"max":3,"name":"Support Broods","from":[521,522,523,524,525],"forEach":[501,502],"name2":"Core Broods"}
-],
-"upgradeConstraints":[
-	{"max":3,"from":[10],"appliesTo":[501,502,521,522,525]},
-	{"max":2,"from":[11],"appliesTo":[521]},
-	{"max":2,"from":[12],"appliesTo":[523]},
-	{"max":2,"from":[13],"appliesTo":[524]},
-	{"max":1,"from":[14],"appliesTo":[502,521]},
-	{"min":2,"max":2,"from":[50,51,52,53],"appliesTo":[521]},
-	{"min":3,"max":3,"from":[50,51,52,53],"appliesTo":[502]},
-	{"min":2,"max":2,"from":[50,51,52,53],"appliesTo":[11]}
-]
+  "id": "Tyranid Bio-Titan",
+  "list_id": "XENOS_Nidtitan_EPICUK",
+  "faction_id": "nidtitan",
+  "ruleset": "EPICUK",
+  "version": "EpicUK",
+  "by": "Mephiston",
+  "sections": [
+    {
+      "name": "CORE BROODS",
+      "formations": [
+        {
+          "string_id": "dominatrix",
+          "id": 501,
+          "name": "Dominatrix",
+          "pts": 500,
+          "units": "1 Dominatrix",
+          "upgrades": [
+            10
+          ]
+        },
+        {
+          "string_id": "hydraphant",
+          "id": 502,
+          "name": "Hydraphant",
+          "pts": 450,
+          "units": "1 Hydraphant",
+          "upgrades": [
+            10,
+            14,
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORT BROODS",
+      "formations": [
+        {
+          "string_id": "hierophant",
+          "id": 521,
+          "name": "Hierophant",
+          "pts": 250,
+          "units": "1 Hierophant",
+          "upgrades": [
+            10,
+            11,
+            14,
+            50,
+            51,
+            52,
+            53
+          ]
+        },
+        {
+          "string_id": "hierodule_brood",
+          "id": 522,
+          "name": "Hierodule Brood",
+          "pts": 350,
+          "units": "3 Hierodules",
+          "upgrades": [
+            10
+          ]
+        },
+        {
+          "string_id": "harridan",
+          "id": 523,
+          "name": "Harridan",
+          "pts": 250,
+          "units": "1 Harridan",
+          "upgrades": [
+            12
+          ]
+        },
+        {
+          "string_id": "burrowing_brood",
+          "id": 524,
+          "name": "Burrowing Brood",
+          "pts": 250,
+          "units": "2 Trygons",
+          "upgrades": [
+            13
+          ]
+        },
+        {
+          "string_id": "hive_nest",
+          "id": 525,
+          "name": "Hive Nest",
+          "pts": 200,
+          "units": "1 Hive Nest and 1 Hierodule",
+          "upgrades": [
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "hierodules",
+      "id": 10,
+      "name": "Hierodules",
+      "pts": 100
+    },
+    {
+      "string_id": "hierophants",
+      "id": 11,
+      "name": "Hierophants",
+      "pts": 200,
+      "upgrades": [
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "string_id": "haridan",
+      "id": 12,
+      "name": "Haridan",
+      "pts": 200
+    },
+    {
+      "string_id": "trygon",
+      "id": 13,
+      "name": "Trygon",
+      "pts": 100
+    },
+    {
+      "string_id": "neuro_linked",
+      "id": 14,
+      "name": "Neuro Linked",
+      "pts": 25
+    },
+    {
+      "string_id": "razor_claw_and_adrenal_sac",
+      "id": 50,
+      "name": "Razor Claw and Adrenal Sac",
+      "pts": 0
+    },
+    {
+      "string_id": "large_bore_bio_cannon_arm",
+      "id": 51,
+      "name": "Large Bore Bio-Cannon Arm",
+      "pts": 0
+    },
+    {
+      "string_id": "pyro_acid_spray_arm",
+      "id": 52,
+      "name": "Pyro-Acid Spray Arm",
+      "pts": 0
+    },
+    {
+      "string_id": "cluster_spines_arm",
+      "id": 53,
+      "name": "Cluster Spines Arm",
+      "pts": 0
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 3,
+      "name": "Support Broods",
+      "from": [
+        521,
+        522,
+        523,
+        524,
+        525
+      ],
+      "forEach": [
+        501,
+        502
+      ],
+      "name2": "Core Broods"
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 3,
+      "from": [
+        10
+      ],
+      "appliesTo": [
+        501,
+        502,
+        521,
+        522,
+        525
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        12
+      ],
+      "appliesTo": [
+        523
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        13
+      ],
+      "appliesTo": [
+        524
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        14
+      ],
+      "appliesTo": [
+        502,
+        521
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "appliesTo": [
+        11
+      ]
+    }
+  ]
 }

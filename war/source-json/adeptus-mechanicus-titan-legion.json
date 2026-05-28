@@ -22,6 +22,7 @@
   "special_rules": [],
   "formations": [
     {
+      "id": "emperor",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Emperor",
@@ -33,6 +34,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Reaver",
@@ -44,6 +46,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warlord",
@@ -55,6 +58,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warhound",
@@ -66,6 +70,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -77,6 +82,7 @@
       "parse_warnings": []
     },
     {
+      "id": "upgrade",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Upgrade",
@@ -88,6 +94,7 @@
       "parse_warnings": []
     },
     {
+      "id": "carapace_landing_pad",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Carapace Landing Pad",
@@ -99,6 +106,7 @@
       "parse_warnings": []
     },
     {
+      "id": "corvus_assault_pod",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Corvus Assault Pod",
@@ -110,6 +118,7 @@
       "parse_warnings": []
     },
     {
+      "id": "laser_burner",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Laser Burner",
@@ -121,6 +130,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plasma_cannon",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Plasma Cannon",
@@ -132,6 +142,7 @@
       "parse_warnings": []
     },
     {
+      "id": "quake_cannon",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Quake Cannon",
@@ -143,6 +154,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plasma_blastgun",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Plasma Blastgun",
@@ -165,6 +177,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_legate_per_army",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Legate per army",
@@ -176,6 +189,7 @@
       "parse_warnings": []
     },
     {
+      "id": "crusader_scout_maniple",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Crusader Scout Maniple",
@@ -187,6 +201,7 @@
       "parse_warnings": []
     },
     {
+      "id": "forge_knight_maniple",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Forge Knight Maniple",
@@ -198,6 +213,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_lysander_fighter_per_warmonger_class_titan",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Lysander Fighter per Warmonger Class Titan",
@@ -209,6 +225,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -220,6 +237,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_orbital_support",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Orbital Support",
@@ -231,6 +249,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skitarii_demi_century",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Skitarii Demi-Century",
@@ -242,6 +261,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -255,6 +275,7 @@
   ],
   "profiles": [
     {
+      "id": "apocalypse_missile_launcher",
       "name": "Apocalypse Missile Launcher",
       "type": "CH",
       "speed": "n/a",
@@ -279,6 +300,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "carapace_landing_pad",
       "name": "Carapace Landing Pad",
       "type": "CH",
       "speed": "n/a",
@@ -296,6 +318,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "carapace_multilasers",
       "name": "Carapace Multilasers",
       "type": "CH",
       "speed": "n/a",
@@ -318,6 +341,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "close_combat_weapon",
       "name": "Close Combat Weapon",
       "type": "CH",
       "speed": "n/a",
@@ -343,6 +367,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "corvus_assault_pod",
       "name": "Corvus Assault Pod",
       "type": "CH",
       "speed": "n/a",
@@ -361,6 +386,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gatling_blaster",
       "name": "Gatling Blaster",
       "type": "CH",
       "speed": "n/a",
@@ -383,6 +409,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inferno_gun",
       "name": "Inferno Gun",
       "type": "CH",
       "speed": "n/a",
@@ -407,6 +434,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "laser_blaster",
       "name": "Laser Blaster",
       "type": "CH",
       "speed": "n/a",
@@ -429,6 +457,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "laser_burner",
       "name": "Laser Burner",
       "type": "CH",
       "speed": "n/a",
@@ -463,6 +492,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "legate",
       "name": "Legate",
       "type": "CH",
       "speed": "n/a",
@@ -480,6 +510,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "melta_cannon",
       "name": "Melta Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -515,6 +546,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plasma_blastgun",
       "name": "Plasma Blastgun",
       "type": "CH",
       "speed": "n/a",
@@ -539,6 +571,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plasma_cannon",
       "name": "Plasma Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -563,6 +596,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plasma_destructor",
       "name": "Plasma Destructor",
       "type": "CH",
       "speed": "n/a",
@@ -587,6 +621,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "quake_cannon",
       "name": "Quake Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -611,6 +646,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sacred_icon",
       "name": "Sacred Icon",
       "type": "CH",
       "speed": "n/a",
@@ -628,6 +664,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_missile",
       "name": "Support Missile",
       "type": "CH",
       "speed": "n/a",
@@ -687,6 +724,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "turbo_laser_destructor",
       "name": "Turbo-Laser Destructor",
       "type": "CH",
       "speed": "n/a",
@@ -709,6 +747,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "veteran_princeps",
       "name": "Veteran Princeps",
       "type": "CH",
       "speed": "n/a",
@@ -727,6 +766,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "volcano_cannon",
       "name": "Volcano Cannon",
       "type": "CH",
       "speed": "n/a",
@@ -751,6 +791,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulcan_mega_bolter",
       "name": "Vulcan Mega-Bolter",
       "type": "CH",
       "speed": "n/a",
@@ -773,6 +814,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hypaspist",
       "name": "Hypaspist",
       "type": "INF",
       "speed": "15cm",
@@ -795,6 +837,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "secutor",
       "name": "Secutor",
       "type": "INF",
       "speed": "15cm",
@@ -839,6 +882,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "crusader_robot",
       "name": "Crusader Robot",
       "type": "LV",
       "speed": "25cm",
@@ -890,6 +934,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "forge_knight",
       "name": "Forge Knight",
       "type": "AV",
       "speed": "20cm",
@@ -926,6 +971,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperator_class_titan",
       "name": "Imperator Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -999,6 +1045,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1024,6 +1071,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1048,6 +1096,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1074,6 +1123,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "warmonger_class_titan",
       "name": "Warmonger Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1171,6 +1221,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lysander_fighter",
       "name": "Lysander Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -1203,6 +1254,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ark_mechanicus_battleship",
       "name": "Ark Mechanicus Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1237,6 +1289,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1275,6 +1328,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1315,6 +1369,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1341,6 +1396,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",

@@ -1,123 +1,750 @@
 {
-   "id": "Adepta Sororitas",
-   "version": "V2.02 - Developmental",
-   "by": "Kyussinchains",
-   "notes":["If Using transports (Immolator, Repressor, Rhinos, Valkyries) you must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible."],
-   
-   "sections": [
-        {"name": "COMPANIES", "formations": [
-            {"id": 512, "name": "Mission", "pts": 275 , "upgrades": [16,19,11,9,18,22,23,24,53]},
-            {"id": 513, "name": "Exorcism", "pts": 75, "upgrades": [16,17]}
-	  ]},
-	   
-        {"name": "SUPPORT FORMATIONS", "formations": [
-
-	    {"id": 514, "name": "Choir", "pts": 225, "units": "6 Seraphim Sister Units", "upgrades": [11,18,9]},
-	    {"id": 515, "name": "Retribution", "pts":250 , "upgrades": [19,11,9,18,22,23,24,53]},
-            {"id": 516, "name": "Coven", "pts": 200, "upgrades": [22,23,24]},
-            {"id": 517, "name": "Repentance", "pts": 225, "units": "One Mistress Character and 6 Repentia Sister Units", "upgrades": [53]},
-	    {"id": 519, "name": "Purgeance", "pts": 100, "upgrades": [17] }     
-         ]},
-
-        {"name": "AUXILIARY FORMATIONS", "formations": [
-
-            {"id": 518, "name": "Inquisitor Hereticus Retinue", "pts": 200, "units": "One Inquisitor Hereticus Character", "upgrades": [21,13,19]},
-	    {"id": 600, "name": "Crusaders", "pts": 200, "units": "1 Priest Character and 10 Redemptionist Units", "upgrades": [15,13]},
-            {"id": 602, "name": "Conclave", "pts": 250, "units": "6 Arco-Flagellant Units", "upgrades": [15,22,23,24]},
-            {"id": 605, "name": "Pentinence", "pts": 35, "upgrades": [32]}
-         ]},
-	   
-        {"name": "WAR ENGINES AND IMPERIAL NAVY", "formations": [
-            {"id": 719, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Strike Fighters", "upgrades": [] },
-            {"id": 720, "name": "Marauder Squadron", "pts": 250, "units": "2 Marauder Bombers", "upgrades": [] },
-	    {"id": 708, "name": "Orbital Support", "pts": 150, "units": "1 Lunar Class Cruiser", "upgrades": [] },
-            {"id": 607, "name": "Cathedral of Purification", "pts": 550, "upgrades": [] }
-         ]}
-		
-   ],
-   "upgrades": [
-	  {"id": 9, "name": "Living Saint","pts": 75},
-	  {"id": 11, "name": "Canoness","pts": 100},
-	  {"id": 13, "name": "Inquisitorial Chimera","pts": 25},
-          {"id": 14, "name": "2 Dominion Sister Units","pts": 75},
-	  {"id": 15, "name": "Pentinent Engine","pts": 35},
-	  {"id": 30, "name": "2 Pentinent Engines","pts": 70},
-	  {"id": 31, "name": "3 Pentinent Engines","pts": 105},
-	  {"id": 16, "name": "Exorcist","pts": 35},
-          {"id": 17, "name": "Hunter","pts": 50},
-	  {"id": 18, "name": "Palatine","pts": 50},
-          {"id": 19, "name": "Priest","pts": 50},
-	  {"id": 21, "name": "4 Inquisitorial Valyries","pts": 150},
-          {"id": 22, "name": "Immolator","pts": 25},
-	  {"id": 23, "name": "Repressor","pts": 25},
-          {"id": 24, "name": "Rhino","pts": 0},
-	  {"id": 32, "name": "Pentinent Engine","pts": 35},
-	  {"id": 60, "name": "2 Inquisitorial Storm Trooper","pts": 0},
-	   
-	  {"id": 26, "name": "Inquisitorial Storm Trooper","pts": 0},
-	  {"id": 27, "name": "Inquisitorial Veteran Warrior Acolyte","pts": 0},
-	  {"id": 28, "name": "Inquisitorial Support Staff","pts": 25},
-	  {"id": 29, "name": "2 Death Cult Assassin","pts": 35},
-	  {"id": 42, "name": "8 Battle Sister","pts": 0},
-	  {"id": 33, "name": "6 Battle Sisters 2 Celestian Sisters","pts": 25},
-	  {"id": 34, "name": "6 Battle Sisters 2 Dominion Sisters","pts": 15},
-	  {"id": 35, "name": "6 Battle Sisters 2 Retribution Sisters","pts": 15}, 
-	  
-	  {"id": 38, "name": "6 Retribution Sisters","pts": 0}, 
-	  {"id": 39, "name": "4 Retribution Sisters 2 Celestian Sisters","pts": 25},
-	  {"id": 40, "name": "4 Retribution Sisters 2 Dominion Sisters","pts": 15},
-	  {"id": 50, "name": "4 Dominion Sisters","pts": 0},
-	  {"id": 51, "name": "4 Dominion ","pts": 0},
-	  {"id": 52, "name": "4 Dominion ","pts": 0},
-	  {"id": 53, "name": "Emperors Chapel","pts": 125}
-	   
-
-
-   ],
-   "formationConstraints": [
-      {"max": 1, "from": [518]},
-      
-      {"maxPercent": 33, "name": "Aircraft and Spacecraft", "from": [719,720,708,606,607]},
-      {"max": 2, "name": "Support Formations", "from": [514,515,516,517,519], "forEach": [512,513], "name2": "Company" },
-      {"max": 2, "name": "Auxiliary formations", "from": [518,600,602,605], "forEach": [512,513], "name2": "Company" }
-   ],
-   "upgradeConstraints": [
-      {"max": 1, "from": [11,18,9] },
-	  {"max": 1, "from": [19] },
-	  {"max": 1, "perArmy": true, "from": [11]},
-      	  {"max": 1, "perArmy": true, "from": [9]},
-
-	  {"max": 1, "from": [12]},
-	  {"max": 1, "from": [14]},
-	  {"max": 3, "from": [15]},
-	  {"max": 1, "from": [17]},
-	  {"max": 1, "from": [20]},
-	  {"max": 1, "from": [53]},
-	  {"max": 1, "from": [10,21], "appliesTo": [518]},
-	  {"max": 2, "from": [16], "appliesTo":[512,515,519]},
-          {"max": 4, "from": [21] },
-	  {"min": 4, "max": 7, "from": [32], "appliesTo": [605] },
-	  {"min": 5, "max": 7, "from": [16], "appliesTo": [513] },
-	  {"min": 6, "max": 6, "from": [22,23], "appliesTo": [519] },
-	  {"min": 1, "max": 1, "from": [50], "appliesTo": [516] },
-	  {"min": 1, "max": 1, "from": [60,29], "appliesTo": [518] },
-	  {"min": 6, "max": 6, "from": [26,27,28], "appliesTo": [518] },
-	  {"min": 1, "max": 1, "from": [42,33,34,35], "appliesTo": [512] },
-	  {"min": 1, "max": 1, "from": [38,39,40], "appliesTo": [515] },
-	  {"max": 2, "from": [33], "appliesTo": [512,515] },
-	  {"max": 2, "from": [34], "appliesTo": [512,515] },
-	  {"max": 4, "from": [24,23], "appliesTo": [512] },
-	  {"max": 3, "from": [24,23], "appliesTo": [515] },
-	  {"max": 4, "from": [13], "appliesTo": [518] },
-	  {"max": 6, "from": [22], "appliesTo": [515] },
-	  {"max": 8, "from": [22], "appliesTo": [512] },
-	  {"max": 3, "from": [24,23], "appliesTo": [517] },
-	  {"max": 6, "from": [22], "appliesTo": [517] },
-	  {"max": 3, "from": [24,23], "appliesTo": [602] },
-	  {"max": 6, "from": [22], "appliesTo": [602] },
-	  {"max": 2, "from": [27], "appliesTo": [518] },
-	  {"max": 1, "from": [28], "appliesTo": [518] },
-	  {"max": 1, "from": [29], "appliesTo": [518] }
-	  
-   ]
+  "id": "Adepta Sororitas",
+  "list_id": "INQ_sisters2018_NETEA",
+  "faction_id": "sisters2018",
+  "ruleset": "NETEA",
+  "version": "V2.02 - Developmental",
+  "by": "Kyussinchains",
+  "notes": [
+    "If Using transports (Immolator, Repressor, Rhinos, Valkyries) you must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible."
+  ],
+  "sections": [
+    {
+      "name": "COMPANIES",
+      "formations": [
+        {
+          "string_id": "mission",
+          "id": 512,
+          "name": "Mission",
+          "pts": 275,
+          "upgrades": [
+            16,
+            19,
+            11,
+            9,
+            18,
+            22,
+            23,
+            24,
+            53
+          ]
+        },
+        {
+          "string_id": "exorcism",
+          "id": 513,
+          "name": "Exorcism",
+          "pts": 75,
+          "upgrades": [
+            16,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORT FORMATIONS",
+      "formations": [
+        {
+          "string_id": "choir",
+          "id": 514,
+          "name": "Choir",
+          "pts": 225,
+          "units": "6 Seraphim Sister Units",
+          "upgrades": [
+            11,
+            18,
+            9
+          ]
+        },
+        {
+          "string_id": "retribution",
+          "id": 515,
+          "name": "Retribution",
+          "pts": 250,
+          "upgrades": [
+            19,
+            11,
+            9,
+            18,
+            22,
+            23,
+            24,
+            53
+          ]
+        },
+        {
+          "string_id": "coven",
+          "id": 516,
+          "name": "Coven",
+          "pts": 200,
+          "upgrades": [
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "string_id": "repentance",
+          "id": 517,
+          "name": "Repentance",
+          "pts": 225,
+          "units": "One Mistress Character and 6 Repentia Sister Units",
+          "upgrades": [
+            53
+          ]
+        },
+        {
+          "string_id": "purgeance",
+          "id": 519,
+          "name": "Purgeance",
+          "pts": 100,
+          "upgrades": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AUXILIARY FORMATIONS",
+      "formations": [
+        {
+          "string_id": "inquisitor_hereticus_retinue",
+          "id": 518,
+          "name": "Inquisitor Hereticus Retinue",
+          "pts": 200,
+          "units": "One Inquisitor Hereticus Character",
+          "upgrades": [
+            21,
+            13,
+            19
+          ]
+        },
+        {
+          "string_id": "crusaders",
+          "id": 600,
+          "name": "Crusaders",
+          "pts": 200,
+          "units": "1 Priest Character and 10 Redemptionist Units",
+          "upgrades": [
+            15,
+            13
+          ]
+        },
+        {
+          "string_id": "conclave",
+          "id": 602,
+          "name": "Conclave",
+          "pts": 250,
+          "units": "6 Arco-Flagellant Units",
+          "upgrades": [
+            15,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "string_id": "pentinence",
+          "id": 605,
+          "name": "Pentinence",
+          "pts": 35,
+          "upgrades": [
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WAR ENGINES AND IMPERIAL NAVY",
+      "formations": [
+        {
+          "string_id": "lightning_squadron",
+          "id": 719,
+          "name": "Lightning Squadron",
+          "pts": 150,
+          "units": "2 Lightning Strike Fighters",
+          "upgrades": []
+        },
+        {
+          "string_id": "marauder_squadron",
+          "id": 720,
+          "name": "Marauder Squadron",
+          "pts": 250,
+          "units": "2 Marauder Bombers",
+          "upgrades": []
+        },
+        {
+          "string_id": "orbital_support",
+          "id": 708,
+          "name": "Orbital Support",
+          "pts": 150,
+          "units": "1 Lunar Class Cruiser",
+          "upgrades": []
+        },
+        {
+          "string_id": "cathedral_of_purification",
+          "id": 607,
+          "name": "Cathedral of Purification",
+          "pts": 550,
+          "upgrades": []
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "living_saint",
+      "id": 9,
+      "name": "Living Saint",
+      "pts": 75
+    },
+    {
+      "string_id": "canoness",
+      "id": 11,
+      "name": "Canoness",
+      "pts": 100
+    },
+    {
+      "string_id": "inquisitorial_chimera",
+      "id": 13,
+      "name": "Inquisitorial Chimera",
+      "pts": 25
+    },
+    {
+      "string_id": "2_dominion_sister_units",
+      "id": 14,
+      "name": "2 Dominion Sister Units",
+      "pts": 75
+    },
+    {
+      "string_id": "pentinent_engine",
+      "id": 15,
+      "name": "Pentinent Engine",
+      "pts": 35
+    },
+    {
+      "string_id": "2_pentinent_engines",
+      "id": 30,
+      "name": "2 Pentinent Engines",
+      "pts": 70
+    },
+    {
+      "string_id": "3_pentinent_engines",
+      "id": 31,
+      "name": "3 Pentinent Engines",
+      "pts": 105
+    },
+    {
+      "string_id": "exorcist",
+      "id": 16,
+      "name": "Exorcist",
+      "pts": 35
+    },
+    {
+      "string_id": "hunter",
+      "id": 17,
+      "name": "Hunter",
+      "pts": 50
+    },
+    {
+      "string_id": "palatine",
+      "id": 18,
+      "name": "Palatine",
+      "pts": 50
+    },
+    {
+      "string_id": "priest",
+      "id": 19,
+      "name": "Priest",
+      "pts": 50
+    },
+    {
+      "string_id": "4_inquisitorial_valyries",
+      "id": 21,
+      "name": "4 Inquisitorial Valyries",
+      "pts": 150
+    },
+    {
+      "string_id": "immolator",
+      "id": 22,
+      "name": "Immolator",
+      "pts": 25
+    },
+    {
+      "string_id": "repressor",
+      "id": 23,
+      "name": "Repressor",
+      "pts": 25
+    },
+    {
+      "string_id": "rhino",
+      "id": 24,
+      "name": "Rhino",
+      "pts": 0
+    },
+    {
+      "id": 32,
+      "name": "Pentinent Engine",
+      "pts": 35
+    },
+    {
+      "string_id": "2_inquisitorial_storm_trooper",
+      "id": 60,
+      "name": "2 Inquisitorial Storm Trooper",
+      "pts": 0
+    },
+    {
+      "string_id": "inquisitorial_storm_trooper",
+      "id": 26,
+      "name": "Inquisitorial Storm Trooper",
+      "pts": 0
+    },
+    {
+      "string_id": "inquisitorial_veteran_warrior_acolyte",
+      "id": 27,
+      "name": "Inquisitorial Veteran Warrior Acolyte",
+      "pts": 0
+    },
+    {
+      "string_id": "inquisitorial_support_staff",
+      "id": 28,
+      "name": "Inquisitorial Support Staff",
+      "pts": 25
+    },
+    {
+      "string_id": "2_death_cult_assassin",
+      "id": 29,
+      "name": "2 Death Cult Assassin",
+      "pts": 35
+    },
+    {
+      "string_id": "8_battle_sister",
+      "id": 42,
+      "name": "8 Battle Sister",
+      "pts": 0
+    },
+    {
+      "string_id": "6_battle_sisters_2_celestian_sisters",
+      "id": 33,
+      "name": "6 Battle Sisters 2 Celestian Sisters",
+      "pts": 25
+    },
+    {
+      "string_id": "6_battle_sisters_2_dominion_sisters",
+      "id": 34,
+      "name": "6 Battle Sisters 2 Dominion Sisters",
+      "pts": 15
+    },
+    {
+      "string_id": "6_battle_sisters_2_retribution_sisters",
+      "id": 35,
+      "name": "6 Battle Sisters 2 Retribution Sisters",
+      "pts": 15
+    },
+    {
+      "string_id": "6_retribution_sisters",
+      "id": 38,
+      "name": "6 Retribution Sisters",
+      "pts": 0
+    },
+    {
+      "string_id": "4_retribution_sisters_2_celestian_sisters",
+      "id": 39,
+      "name": "4 Retribution Sisters 2 Celestian Sisters",
+      "pts": 25
+    },
+    {
+      "string_id": "4_retribution_sisters_2_dominion_sisters",
+      "id": 40,
+      "name": "4 Retribution Sisters 2 Dominion Sisters",
+      "pts": 15
+    },
+    {
+      "string_id": "4_dominion_sisters",
+      "id": 50,
+      "name": "4 Dominion Sisters",
+      "pts": 0
+    },
+    {
+      "string_id": "4_dominion",
+      "id": 51,
+      "name": "4 Dominion ",
+      "pts": 0
+    },
+    {
+      "id": 52,
+      "name": "4 Dominion ",
+      "pts": 0
+    },
+    {
+      "string_id": "emperors_chapel",
+      "id": 53,
+      "name": "Emperors Chapel",
+      "pts": 125
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "from": [
+        518
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "Aircraft and Spacecraft",
+      "from": [
+        719,
+        720,
+        708,
+        606,
+        607
+      ]
+    },
+    {
+      "max": 2,
+      "name": "Support Formations",
+      "from": [
+        514,
+        515,
+        516,
+        517,
+        519
+      ],
+      "forEach": [
+        512,
+        513
+      ],
+      "name2": "Company"
+    },
+    {
+      "max": 2,
+      "name": "Auxiliary formations",
+      "from": [
+        518,
+        600,
+        602,
+        605
+      ],
+      "forEach": [
+        512,
+        513
+      ],
+      "name2": "Company"
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        11,
+        18,
+        9
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        19
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        11
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        9
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        12
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        14
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        15
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        17
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        20
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        53
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        10,
+        21
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        16
+      ],
+      "appliesTo": [
+        512,
+        515,
+        519
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        21
+      ]
+    },
+    {
+      "min": 4,
+      "max": 7,
+      "from": [
+        32
+      ],
+      "appliesTo": [
+        605
+      ]
+    },
+    {
+      "min": 5,
+      "max": 7,
+      "from": [
+        16
+      ],
+      "appliesTo": [
+        513
+      ]
+    },
+    {
+      "min": 6,
+      "max": 6,
+      "from": [
+        22,
+        23
+      ],
+      "appliesTo": [
+        519
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        50
+      ],
+      "appliesTo": [
+        516
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        60,
+        29
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "min": 6,
+      "max": 6,
+      "from": [
+        26,
+        27,
+        28
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        42,
+        33,
+        34,
+        35
+      ],
+      "appliesTo": [
+        512
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        38,
+        39,
+        40
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        33
+      ],
+      "appliesTo": [
+        512,
+        515
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        34
+      ],
+      "appliesTo": [
+        512,
+        515
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        24,
+        23
+      ],
+      "appliesTo": [
+        512
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        24,
+        23
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        13
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "max": 6,
+      "from": [
+        22
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "max": 8,
+      "from": [
+        22
+      ],
+      "appliesTo": [
+        512
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        24,
+        23
+      ],
+      "appliesTo": [
+        517
+      ]
+    },
+    {
+      "max": 6,
+      "from": [
+        22
+      ],
+      "appliesTo": [
+        517
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        24,
+        23
+      ],
+      "appliesTo": [
+        602
+      ]
+    },
+    {
+      "max": 6,
+      "from": [
+        22
+      ],
+      "appliesTo": [
+        602
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        27
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        28
+      ],
+      "appliesTo": [
+        518
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        29
+      ],
+      "appliesTo": [
+        518
+      ]
+    }
+  ]
 }

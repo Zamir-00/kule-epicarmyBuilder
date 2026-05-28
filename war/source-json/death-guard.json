@@ -26,36 +26,44 @@
   },
   "special_rules": [
     {
+      "id": "implacable_advance",
       "name": "Implacable Advance",
       "text": "No formations can March. All formations in the army receive a +1 modifier to their action test roll when attempting a Marshal action."
     },
     {
+      "id": "nurgle_s_rot",
       "name": "Nurgle's Rot",
       "text": "If a formation with Nurgle’s Rot assaults or is assaulted, and causes any enemy casualties during the activation Step 1.12.5 Resolve Attacks, add one Lesser Daemon to the Death Guard Daemon Pool after step 1.12.9 Winner consolidates. It has no effect if the enemy formation belongs to the Chaos faction, Nurgle."
     },
     {
+      "id": "transport",
       "name": "Transport",
       "text": "Death Guard Rhino may transport two infantry units except Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle, and Chaos Spawn. Death Guard Land Raider may transport two infantry units; Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle, and Chaos Spawn take up two spaces each. Plague Tower may transport sixteen Great Unclean Ones or infantry units; Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle, Chaos Spawn, and Great Unclean Ones take up two spaces each."
     },
     {
+      "id": "nurgling_swarms_transport_rule",
       "name": "Nurgling Swarms transport rule",
       "text": "Any Armoured Vehicle in the Death Guard list can transport one Nurgling Swarm unit in addition to any transport capacity it may already have. Any War Engine in the list can transport as many Nurgling Swarm units as its starting Damage Capacity in addition to any transport capacity it may already have."
     },
     {
+      "id": "daemonic_pact",
       "name": "Daemonic Pact",
       "text": "The formation may summon daemons from the Daemon Pool. One Lesser Daemon is added to the Death Guard Daemon Pool. The formation has Nurgle's Rot."
     },
     {
+      "id": "daemonic_focus",
       "name": "Daemonic Focus",
       "text": "Units with Daemonic Focus may keep summoned units in play when the formation rallies, provided the formation is not broken."
     },
     {
+      "id": "augment_summoning",
       "name": "Augment Summoning",
       "text": "Units with Augment Summoning add the listed bonus to their summoning points when the formation summons daemons. The bonus stacks with the formation's normal summoning roll."
     }
   ],
   "formations": [
     {
+      "id": "1_plague_marine_retinue",
       "category": "Death Guard Core Formations",
       "entry_type": "formation",
       "name": "1+ Plague Marine Retinue",
@@ -67,6 +75,7 @@
       "parse_warnings": []
     },
     {
+      "id": "armoured_assault_company",
       "category": "Death Guard Core Formations",
       "entry_type": "formation",
       "name": "Armoured Assault Company",
@@ -78,6 +87,7 @@
       "parse_warnings": []
     },
     {
+      "id": "blightlord_terminators",
       "category": "Death Guard Elite Formations",
       "entry_type": "formation",
       "name": "Blightlord Terminators",
@@ -89,6 +99,7 @@
       "parse_warnings": []
     },
     {
+      "id": "blight_drone_swarm_4_blight_drones",
       "category": "Death Guard Elite Formations",
       "entry_type": "formation",
       "name": "Blight Drone Swarm - 4 Blight Drones",
@@ -100,6 +111,7 @@
       "parse_warnings": []
     },
     {
+      "id": "blight_drone_swarm_6_blight_drones",
       "category": "Death Guard Elite Formations",
       "entry_type": "formation",
       "name": "Blight Drone Swarm - 6 Blight Drones",
@@ -111,6 +123,7 @@
       "parse_warnings": []
     },
     {
+      "id": "armoured_company",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Armoured Company",
@@ -122,6 +135,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plague_marine_chosen",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Plague Marine Chosen",
@@ -133,6 +147,7 @@
       "parse_warnings": []
     },
     {
+      "id": "walker_horde",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Walker Horde",
@@ -144,6 +159,7 @@
       "parse_warnings": []
     },
     {
+      "id": "contagion_towers",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Contagion Towers",
@@ -155,6 +171,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plague_towers",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Plague Towers",
@@ -166,6 +183,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plague_zombie_infestation",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Plague Zombie Infestation",
@@ -177,6 +195,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plaguereaper_company",
       "category": "Death Guard Support Formations",
       "entry_type": "formation",
       "name": "Plaguereaper Company",
@@ -188,6 +207,7 @@
       "parse_warnings": []
     },
     {
+      "id": "beasts",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Beasts",
@@ -199,6 +219,7 @@
       "parse_warnings": []
     },
     {
+      "id": "champion_of_nurgle",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Champion of Nurgle",
@@ -221,6 +242,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_daemon_prince",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "0-1 Daemon Prince",
@@ -232,6 +254,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemonic_pact",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Daemonic Pact",
@@ -243,6 +266,7 @@
       "parse_warnings": []
     },
     {
+      "id": "nurgle_s_rot",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Nurgle's Rot",
@@ -254,6 +278,7 @@
       "parse_warnings": []
     },
     {
+      "id": "havocs",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Havocs",
@@ -265,6 +290,7 @@
       "parse_warnings": []
     },
     {
+      "id": "icon_bearer",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Icon Bearer",
@@ -276,6 +302,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Land Raiders",
@@ -287,6 +314,7 @@
       "parse_warnings": []
     },
     {
+      "id": "nurgling_infestation",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Nurgling Infestation",
@@ -298,6 +326,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_nurgle_warlord",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "0-1 Nurgle Warlord",
@@ -320,6 +349,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rhinos",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Rhinos",
@@ -331,6 +361,7 @@
       "parse_warnings": []
     },
     {
+      "id": "teleportarium",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Teleportarium",
@@ -344,6 +375,7 @@
       ]
     },
     {
+      "id": "vindicators",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Vindicators",
@@ -355,6 +387,7 @@
       "parse_warnings": []
     },
     {
+      "id": "walkers",
       "category": "Death Guard Upgrades",
       "entry_type": "upgrade",
       "name": "Walkers",
@@ -366,6 +399,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_pool",
       "category": "Daemon Pool",
       "entry_type": "formation",
       "name": "Daemon Pool",
@@ -377,6 +411,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plague_reapers",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "Plague Reapers",
@@ -388,6 +423,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fester_titan",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "Fester Titan",
@@ -399,6 +435,7 @@
       "parse_warnings": []
     },
     {
+      "id": "repugnant_titan",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "Repugnant Titan",
@@ -410,6 +447,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plaguelord_titan",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "Plaguelord Titan",
@@ -421,6 +459,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellblades",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "Hellblades",
@@ -432,6 +471,7 @@
       "parse_warnings": []
     },
     {
+      "id": "helltalons",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "Helltalons",
@@ -443,6 +483,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_plague_ship",
       "category": "War Engines and Chaos Navy",
       "entry_type": "formation",
       "name": "0-1 Plague Ship",
@@ -456,6 +497,7 @@
   ],
   "profiles": [
     {
+      "id": "lord_of_contagion",
       "name": "Lord of Contagion",
       "type": "CH",
       "speed": "n/a",
@@ -485,6 +527,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vectorium_lord",
       "name": "Vectorium Lord",
       "type": "CH",
       "speed": "n/a",
@@ -514,6 +557,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguecaster_lord",
       "name": "Plaguecaster Lord",
       "type": "CH",
       "speed": "n/a",
@@ -543,6 +587,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_guard_daemon_prince",
       "name": "Death Guard Daemon Prince",
       "type": "INF",
       "speed": "15cm",
@@ -589,6 +634,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "champion_of_nurgle",
       "name": "Champion of Nurgle",
       "type": "CH",
       "speed": "n/a",
@@ -618,6 +664,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blightbringer_icon_bearer",
       "name": "Blightbringer Icon Bearer",
       "type": "CH",
       "speed": "n/a",
@@ -637,6 +684,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_marines",
       "name": "Plague Marines",
       "type": "INF",
       "speed": "15cm",
@@ -667,6 +715,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_marine_chosen",
       "name": "Plague Marine Chosen",
       "type": "INF",
       "speed": "15cm",
@@ -698,6 +747,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_marine_havocs",
       "name": "Plague Marine Havocs",
       "type": "INF",
       "speed": "15cm",
@@ -728,6 +778,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blightlord_terminators",
       "name": "Blightlord Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -770,6 +821,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "beast_of_nurgle_non_summoned",
       "name": "Beast of Nurgle, non-summoned",
       "type": "INF",
       "speed": "15cm",
@@ -808,6 +860,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_spawn",
       "name": "Chaos Spawn",
       "type": "INF",
       "speed": "15cm",
@@ -835,6 +888,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nurgling_swarm",
       "name": "Nurgling Swarm",
       "type": "INF",
       "speed": "15cm",
@@ -862,6 +916,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_zombies",
       "name": "Plague Zombies",
       "type": "INF",
       "speed": "10cm",
@@ -889,6 +944,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blight_drone",
       "name": "Blight Drone",
       "type": "AV",
       "speed": "35cm",
@@ -923,6 +979,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "contagion_tower",
       "name": "Contagion Tower",
       "type": "AV",
       "speed": "15cm",
@@ -959,6 +1016,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_guard_rhino",
       "name": "Death Guard Rhino",
       "type": "AV",
       "speed": "25cm",
@@ -985,6 +1043,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_guard_predator",
       "name": "Death Guard Predator",
       "type": "AV",
       "speed": "25cm",
@@ -1015,6 +1074,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_guard_land_raider",
       "name": "Death Guard Land Raider",
       "type": "AV",
       "speed": "20cm",
@@ -1049,6 +1109,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_guard_dreadnought",
       "name": "Death Guard Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1093,6 +1154,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_guard_vindicator",
       "name": "Death Guard Vindicator",
       "type": "AV",
       "speed": "20cm",
@@ -1120,6 +1182,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "defiler",
       "name": "Defiler",
       "type": "AV",
       "speed": "20cm",
@@ -1170,6 +1233,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "desecrator",
       "name": "Desecrator",
       "type": "AV",
       "speed": "15cm",
@@ -1216,6 +1280,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_hulk",
       "name": "Plague Hulk",
       "type": "AV",
       "speed": "20cm",
@@ -1263,6 +1328,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_hulk_test_070",
       "name": "Plague Hulk (test 070)",
       "type": "AV",
       "speed": "20cm",
@@ -1309,6 +1375,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguereaper",
       "name": "Plaguereaper",
       "type": "WE",
       "speed": "15cm",
@@ -1365,6 +1432,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_tower",
       "name": "Plague Tower",
       "type": "WE",
       "speed": "15cm",
@@ -1412,6 +1480,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fester_titan",
       "name": "Fester Titan",
       "type": "WE",
       "speed": "25cm",
@@ -1453,6 +1522,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "repugnant_titan",
       "name": "Repugnant Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1511,6 +1581,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguelord_titan",
       "name": "Plaguelord Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1568,6 +1639,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_ship",
       "name": "Plague Ship",
       "type": "SC",
       "speed": "n/a",
@@ -1596,6 +1668,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellblade",
       "name": "Hellblade",
       "type": "AC",
       "speed": "Fighter",
@@ -1620,6 +1693,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_talon",
       "name": "Hell Talon",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1661,6 +1735,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguebearers",
       "name": "Plaguebearers",
       "type": "INF",
       "speed": "15cm",
@@ -1693,6 +1768,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "great_unclean_one",
       "name": "Great Unclean One",
       "type": "WE",
       "speed": "15cm",
