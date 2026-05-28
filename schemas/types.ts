@@ -55,6 +55,9 @@ export interface EpicArmyBuilderSourceJson {
     id?: string;
     [k: string]: unknown;
   }[];
+  /**
+   * INFORMATIONAL ONLY — scraped from rulebook prose. The authoritative formation configuration for any ruleset lives in war/lists/<faction>_<ruleset>.json. Consumers building army lists or rendering formation UI MUST read from war/lists/*.json; source-json's formations[] captures the rulebook description (units_text, raw_text, etc.) for reference only. Per Decision C in docs/design/data-model.md.
+   */
   formations?: {
     name: string;
     category?: string;

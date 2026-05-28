@@ -152,9 +152,9 @@ A list file (e.g. `lists/CHAOS_dg_NETEA.json`) references formations and upgrade
 
 The current source-json contains a `formations[]` array with cost/units/upgrades-text. This duplicates information that lives in `lists/<faction>_NETEA.json` (the NETEA ruleset). For NETEA the costs match; for other rulesets (EPICUK, FERC) the source-json's costs would be wrong.
 
-Resolution: `source-json/<faction>.json.formations[]` is informational only — it describes formations as the rulebook page presents them. The authoritative formation config for any ruleset comes from `lists/<faction>_<ruleset>.json`. Tools and the new backend (stage 2) should ignore `formations[]` in source-json.
+Resolution (landed via S1.13, issue #7): `source-json/<faction>.json.formations[]` is informational only — it describes formations as the rulebook page presents them. The authoritative formation config for any ruleset comes from `lists/<faction>_<ruleset>.json`. Tools and the new backend (stage 2) MUST ignore `formations[]` in source-json. This rule is documented as a `description` on the `formations` field in `schemas/source-json.schema.json`, so editors and validators surface it during contributor work.
 
-Long-term option: delete `formations[]` from source-json entirely. Out of scope for the immediate decision; document the rule and revisit during stage 2 implementation.
+Long-term option: delete `formations[]` from source-json entirely. Out of scope for now; revisit during stage 2 implementation when we know whether any consumer (e.g. a "show rulebook prose" UI feature) actually uses the captured fields (`units_text`, `raw_text`, etc.). The rulebook prose is hard to reconstruct if deleted, so the conservative choice is to keep it marked informational.
 
 **Rationale:**
 
