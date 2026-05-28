@@ -1,101 +1,886 @@
 {
-	"id":"Ghazgkhull Thraka's War Horde",
-	"version":"EA Rulebook Oct09",
-	"by":"Iron Bloke",
-	"notes":["A Warlord must be selected. If the army has a Great Gargant, then the Warlord must be assigned to it, otherwise, assign to a Nobz or Gargant unit."],
-	"sections":[
-		{"name":"WAR HORDES", "formations":[
-			{"id":500, "name":"Warband",				"pts":130, "units":"6 Boyz, 2 Grotz", "upgrades":[81,63,50,82,51,25,11,12,13,43,94,95,57,58,24,60,25,23,90,91,37,72,73,92,93]},
-			{"id":501, "name":"Warband (Big)",			"pts":210, "units":"12 Boyz, 4 Grotz", "upgrades":[81,63,50,82,51,25,11,12,13,43,94,95,57,58,24,60,25,23,90,91,37,72,73,92,93]},
-			{"id":502, "name":"Warband ('Uge)",		"pts":290, "units":"18 Boyz, 6 Grotz", "upgrades":[81,63,50,82,51,25,11,12,13,43,94,95,57,58,24,60,25,23,90,91,37,72,73,92,93]},
-			{"id":503, "name":"Stormboyz Warhorde",		"pts":0, "upgrades":[35,51, 11,12,13,24]},
-			{"id":504, "name":"Kult of Speed",			"pts":0, "upgrades":[11,12,13,24,25,23,90,91]},
-			{"id":505, "name":"Kult of Speed (Big)",	"pts":-50, "upgrades":[11,12,13,24,25,23,90,91]},
-			{"id":506, "name":"Kult of Speed ('Uge)",	"pts":-100, "upgrades":[11,12,13,24,25,23,90,91]},
-			{"id":507, "name":"Blitz Brigade",			"pts":10, "upgrades":[11,12,13,23,90,91,24,25,73,92,93]},
-			{"id":508, "name":"Blitz Brigade (Big)",	"pts":-30, "upgrades":[11,12,13,23,90,91,24,25,73,92,93]},
-			{"id":509, "name":"Blitz Brigade ('Uge)",	"pts":-70, "upgrades":[11,12,13,23,90,91,24,25,73,92,93]},
-			{"id":510, "name":"Mekboy Stompamob",		"pts":0, "upgrades":[57,60,25,37,77,78]},
-			{"id":513, "name":"Mekboy Gunmob",			"pts":0, "upgrades":[81,43,94,95,58,25,63]},
-			{"id":514, "name":"Mekboy Gunmob (Big)",	"pts":-25, "upgrades":[81,43,94,95,58,25,63]},
-			{"id":515, "name":"Mekboy Gunmob ('Uge)",	"pts":-50, "upgrades":[81,43,94,95,58,25,63]}
-		]},
-		{"name":"AIRCRAFT, SPACECRAFT &amp, GARGANTS", "formations":[
-		 	{"id":517, "name":"Fighta Squadron",	"pts":0, "upgrades":[49]},
-			{"id":518, "name":"Landa",				"pts":200},
-			{"id":520, "name":"Kill Kroozer",		"pts":200},
-			{"id":521, "name":"Battle Kroozer",		"pts":250},
-			{"id":522, "name":"Gargant",			"pts":650, "upgrades":[81]},
-			{"id":523, "name":"Great Gargant",		"pts":850, "upgrades":[81]}
-		]}
-	],
-	"upgrades":[
-		{"id":11, "name":"Buggy",						"pts":25},
-		{"id":12, "name":"Warbike",						"pts":25},
-		{"id":13, "name":"Skorcha",						"pts":25},
-		{"id":23, "name":"Gunwagon",					"pts":35},
-		{"id":24, "name":"Deth Kopta",					"pts":35},
-		{"id":25, "name":"Flakwagon",					"pts":35},
-		{"id":35, "name":"Stormboyz",					"pts":25},
-		{"id":37, "name":"Stompa",						"pts":75},
-		{"id":43, "name":"Big Gunz",					"pts":25},
-		{"id":49, "name":"Fighta Bomba",				"pts":50},
-		{"id":50, "name":"Boyz", 						"pts":25},
-		{"id":51, "name":"Commandos",					"pts":25},
-		{"id":57, "name":"Killa Kan",					"pts":25},
-		{"id":58, "name":"Battlewagon",					"pts":35},
-		{"id":60, "name":"Dreadnought",					"pts":35},
-		{"id":63, "name":"Nobz",						"pts":35},
-		{"id":72, "name":"Battlefortress",				"pts":125},
-		{"id":73, "name":"Gunfortress",					"pts":135},
-		{"id":77, "name":"Supa Stompa (3 Soopagunz)",	"pts":250},
-		{"id":78, "name":"Supa Stompa (2 Soopagunz, Mega-Chopper)",	"pts":250},
-		{"id":81, "name":"Warlord",						"pts":0},
-		{"id":82, "name":"Boyz and Grotz",				"pts":25},
-		{"id":83, "name":"3 Soopagun",					"pts":0},
-		{"id":84, "name":"2 Soopagun, Supa-Zzap-Gun",	"pts":0},
-		{"id":85, "name":"2 Soopagun, Mega-Chopper",	"pts":0},
-		{"id":86, "name":"2 Twin Soopagun",				"pts":0},
-		{"id":87, "name":"Twin Soopagun, Lifta-Dropper","pts":0},
-		{"id":90, "name":"Gunwagon (Soopagun Odd Boy)",	"pts":85},
-		{"id":91, "name":"Gunwagon (Supa-Zzap Odd Boy)","pts":85},
-		{"id":92, "name":"Gunfortress (Soopagun Odd Boy)","pts":185},
-		{"id":93, "name":"Gunfortress (Supa-Zzap Odd Boy)","pts":185},
-		{"id":94, "name":"Big Gunz (Soopagun Odd Boy)",	"pts":75},
-		{"id":95, "name":"Big Gunz (Supa-Zzap Odd Boy)","pts":75}
-	],
-	"formationConstraints":[
-		{"max":1, "name":"Kroozer", "from":[520,521]},
-		{"maxPercent":33, "name":"AIRCRAFT, SPACECRAFT &amp; GARGANTS", "from":[517,518,520,521,522,523]}
-	],
-	"upgradeConstraints":[
-		{"min":1, "max":1, "from":[81], "perArmy":true},
-		{"min":2, "max":4, "from":[63], "appliesTo":[500]},
-		{"min":4, "max":8, "from":[63], "appliesTo":[501]},
-		{"min":6, "max":12,"from":[63], "appliesTo":[502]},
-		{"min":8, "from":[11,12,13], "appliesTo":[504]},
-		{"min":16, "from":[11,12,13], "appliesTo":[505]},
-		{"min":24, "from":[11,12,13], "appliesTo":[506]},
-		{"min":4, "from":[23,24,25,90,91], "appliesTo":[507]},
-		{"min":8, "from":[23,24,25,90,91], "appliesTo":[508]},
-		{"min":12, "from":[23,24,25,90,91], "appliesTo":[509]},
-		{"min":6, "from":[35], "appliesTo":[503]},
-		{"min":5, "from":[43,94,95], "appliesTo":[513]},
-		{"min":10, "from":[43,94,95], "appliesTo":[514]},
-		{"min":15, "from":[43,94,95], "appliesTo":[515]},
-		{"min":3, "max":9, "from":[49], "appliesTo":[517]},
-		{"min":1, "max":1, "from":[83,84,85], "appliesTo":[522]},
-		{"min":1, "max":1, "from":[86,87], "appliesTo":[523]},
-		{"min":3, "from":[37], "appliesTo":[510]},
-		{"max":1, "from":[63], "appliesTo":[513]},
-		{"max":2, "from":[63], "appliesTo":[514]},
-		{"max":3, "from":[63], "appliesTo":[515]},
-		{"max":1, "name":"Odd Boy", "from":[90,91,92,93,94,95], "appliesTo":[500,504,507,513]},
-		{"max":2, "name":"Odd Boy", "from":[90,91,92,93,94,95], "appliesTo":[501,505,508,514]},
-		{"max":3, "name":"Odd Boy", "from":[90,91,92,93,94,95], "appliesTo":[502,506,509,515]},
-		{"max":1, "from":[73,92,93], "appliesTo":[507]},
-		{"max":2, "from":[73,92,93], "appliesTo":[508]},
-		{"max":3, "from":[73,92,93], "appliesTo":[509]},
-		{"max":1, "from":[77,78]}
-	]
+  "id": "Ghazgkhull Thraka's War Horde",
+  "list_id": "ORK_ghazgkhull",
+  "faction_id": "ghazgkhull",
+  "version": "EA Rulebook Oct09",
+  "by": "Iron Bloke",
+  "notes": [
+    "A Warlord must be selected. If the army has a Great Gargant, then the Warlord must be assigned to it, otherwise, assign to a Nobz or Gargant unit."
+  ],
+  "sections": [
+    {
+      "name": "WAR HORDES",
+      "formations": [
+        {
+          "string_id": "warband",
+          "id": 500,
+          "name": "Warband",
+          "pts": 130,
+          "units": "6 Boyz, 2 Grotz",
+          "upgrades": [
+            81,
+            63,
+            50,
+            82,
+            51,
+            25,
+            11,
+            12,
+            13,
+            43,
+            94,
+            95,
+            57,
+            58,
+            24,
+            60,
+            25,
+            23,
+            90,
+            91,
+            37,
+            72,
+            73,
+            92,
+            93
+          ]
+        },
+        {
+          "string_id": "warband_big",
+          "id": 501,
+          "name": "Warband (Big)",
+          "pts": 210,
+          "units": "12 Boyz, 4 Grotz",
+          "upgrades": [
+            81,
+            63,
+            50,
+            82,
+            51,
+            25,
+            11,
+            12,
+            13,
+            43,
+            94,
+            95,
+            57,
+            58,
+            24,
+            60,
+            25,
+            23,
+            90,
+            91,
+            37,
+            72,
+            73,
+            92,
+            93
+          ]
+        },
+        {
+          "string_id": "warband_uge",
+          "id": 502,
+          "name": "Warband ('Uge)",
+          "pts": 290,
+          "units": "18 Boyz, 6 Grotz",
+          "upgrades": [
+            81,
+            63,
+            50,
+            82,
+            51,
+            25,
+            11,
+            12,
+            13,
+            43,
+            94,
+            95,
+            57,
+            58,
+            24,
+            60,
+            25,
+            23,
+            90,
+            91,
+            37,
+            72,
+            73,
+            92,
+            93
+          ]
+        },
+        {
+          "string_id": "stormboyz_warhorde",
+          "id": 503,
+          "name": "Stormboyz Warhorde",
+          "pts": 0,
+          "upgrades": [
+            35,
+            51,
+            11,
+            12,
+            13,
+            24
+          ]
+        },
+        {
+          "string_id": "kult_of_speed",
+          "id": 504,
+          "name": "Kult of Speed",
+          "pts": 0,
+          "upgrades": [
+            11,
+            12,
+            13,
+            24,
+            25,
+            23,
+            90,
+            91
+          ]
+        },
+        {
+          "string_id": "kult_of_speed_big",
+          "id": 505,
+          "name": "Kult of Speed (Big)",
+          "pts": -50,
+          "upgrades": [
+            11,
+            12,
+            13,
+            24,
+            25,
+            23,
+            90,
+            91
+          ]
+        },
+        {
+          "string_id": "kult_of_speed_uge",
+          "id": 506,
+          "name": "Kult of Speed ('Uge)",
+          "pts": -100,
+          "upgrades": [
+            11,
+            12,
+            13,
+            24,
+            25,
+            23,
+            90,
+            91
+          ]
+        },
+        {
+          "string_id": "blitz_brigade",
+          "id": 507,
+          "name": "Blitz Brigade",
+          "pts": 10,
+          "upgrades": [
+            11,
+            12,
+            13,
+            23,
+            90,
+            91,
+            24,
+            25,
+            73,
+            92,
+            93
+          ]
+        },
+        {
+          "string_id": "blitz_brigade_big",
+          "id": 508,
+          "name": "Blitz Brigade (Big)",
+          "pts": -30,
+          "upgrades": [
+            11,
+            12,
+            13,
+            23,
+            90,
+            91,
+            24,
+            25,
+            73,
+            92,
+            93
+          ]
+        },
+        {
+          "string_id": "blitz_brigade_uge",
+          "id": 509,
+          "name": "Blitz Brigade ('Uge)",
+          "pts": -70,
+          "upgrades": [
+            11,
+            12,
+            13,
+            23,
+            90,
+            91,
+            24,
+            25,
+            73,
+            92,
+            93
+          ]
+        },
+        {
+          "string_id": "mekboy_stompamob",
+          "id": 510,
+          "name": "Mekboy Stompamob",
+          "pts": 0,
+          "upgrades": [
+            57,
+            60,
+            25,
+            37,
+            77,
+            78
+          ]
+        },
+        {
+          "string_id": "mekboy_gunmob",
+          "id": 513,
+          "name": "Mekboy Gunmob",
+          "pts": 0,
+          "upgrades": [
+            81,
+            43,
+            94,
+            95,
+            58,
+            25,
+            63
+          ]
+        },
+        {
+          "string_id": "mekboy_gunmob_big",
+          "id": 514,
+          "name": "Mekboy Gunmob (Big)",
+          "pts": -25,
+          "upgrades": [
+            81,
+            43,
+            94,
+            95,
+            58,
+            25,
+            63
+          ]
+        },
+        {
+          "string_id": "mekboy_gunmob_uge",
+          "id": 515,
+          "name": "Mekboy Gunmob ('Uge)",
+          "pts": -50,
+          "upgrades": [
+            81,
+            43,
+            94,
+            95,
+            58,
+            25,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AIRCRAFT, SPACECRAFT &amp, GARGANTS",
+      "formations": [
+        {
+          "string_id": "fighta_squadron",
+          "id": 517,
+          "name": "Fighta Squadron",
+          "pts": 0,
+          "upgrades": [
+            49
+          ]
+        },
+        {
+          "string_id": "landa",
+          "id": 518,
+          "name": "Landa",
+          "pts": 200
+        },
+        {
+          "string_id": "kill_kroozer",
+          "id": 520,
+          "name": "Kill Kroozer",
+          "pts": 200
+        },
+        {
+          "string_id": "battle_kroozer",
+          "id": 521,
+          "name": "Battle Kroozer",
+          "pts": 250
+        },
+        {
+          "string_id": "gargant",
+          "id": 522,
+          "name": "Gargant",
+          "pts": 650,
+          "upgrades": [
+            81
+          ]
+        },
+        {
+          "string_id": "great_gargant",
+          "id": 523,
+          "name": "Great Gargant",
+          "pts": 850,
+          "upgrades": [
+            81
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "buggy",
+      "id": 11,
+      "name": "Buggy",
+      "pts": 25
+    },
+    {
+      "string_id": "warbike",
+      "id": 12,
+      "name": "Warbike",
+      "pts": 25
+    },
+    {
+      "string_id": "skorcha",
+      "id": 13,
+      "name": "Skorcha",
+      "pts": 25
+    },
+    {
+      "string_id": "gunwagon",
+      "id": 23,
+      "name": "Gunwagon",
+      "pts": 35
+    },
+    {
+      "string_id": "deth_kopta",
+      "id": 24,
+      "name": "Deth Kopta",
+      "pts": 35
+    },
+    {
+      "string_id": "flakwagon",
+      "id": 25,
+      "name": "Flakwagon",
+      "pts": 35
+    },
+    {
+      "string_id": "stormboyz",
+      "id": 35,
+      "name": "Stormboyz",
+      "pts": 25
+    },
+    {
+      "string_id": "stompa",
+      "id": 37,
+      "name": "Stompa",
+      "pts": 75
+    },
+    {
+      "string_id": "big_gunz",
+      "id": 43,
+      "name": "Big Gunz",
+      "pts": 25
+    },
+    {
+      "string_id": "fighta_bomba",
+      "id": 49,
+      "name": "Fighta Bomba",
+      "pts": 50
+    },
+    {
+      "string_id": "boyz",
+      "id": 50,
+      "name": "Boyz",
+      "pts": 25
+    },
+    {
+      "string_id": "commandos",
+      "id": 51,
+      "name": "Commandos",
+      "pts": 25
+    },
+    {
+      "string_id": "killa_kan",
+      "id": 57,
+      "name": "Killa Kan",
+      "pts": 25
+    },
+    {
+      "string_id": "battlewagon",
+      "id": 58,
+      "name": "Battlewagon",
+      "pts": 35
+    },
+    {
+      "string_id": "dreadnought",
+      "id": 60,
+      "name": "Dreadnought",
+      "pts": 35
+    },
+    {
+      "string_id": "nobz",
+      "id": 63,
+      "name": "Nobz",
+      "pts": 35
+    },
+    {
+      "string_id": "battlefortress",
+      "id": 72,
+      "name": "Battlefortress",
+      "pts": 125
+    },
+    {
+      "string_id": "gunfortress",
+      "id": 73,
+      "name": "Gunfortress",
+      "pts": 135
+    },
+    {
+      "string_id": "supa_stompa_3_soopagunz",
+      "id": 77,
+      "name": "Supa Stompa (3 Soopagunz)",
+      "pts": 250
+    },
+    {
+      "string_id": "supa_stompa_2_soopagunz_mega_chopper",
+      "id": 78,
+      "name": "Supa Stompa (2 Soopagunz, Mega-Chopper)",
+      "pts": 250
+    },
+    {
+      "string_id": "warlord",
+      "id": 81,
+      "name": "Warlord",
+      "pts": 0
+    },
+    {
+      "string_id": "boyz_and_grotz",
+      "id": 82,
+      "name": "Boyz and Grotz",
+      "pts": 25
+    },
+    {
+      "string_id": "3_soopagun",
+      "id": 83,
+      "name": "3 Soopagun",
+      "pts": 0
+    },
+    {
+      "string_id": "2_soopagun_supa_zzap_gun",
+      "id": 84,
+      "name": "2 Soopagun, Supa-Zzap-Gun",
+      "pts": 0
+    },
+    {
+      "string_id": "2_soopagun_mega_chopper",
+      "id": 85,
+      "name": "2 Soopagun, Mega-Chopper",
+      "pts": 0
+    },
+    {
+      "string_id": "2_twin_soopagun",
+      "id": 86,
+      "name": "2 Twin Soopagun",
+      "pts": 0
+    },
+    {
+      "string_id": "twin_soopagun_lifta_dropper",
+      "id": 87,
+      "name": "Twin Soopagun, Lifta-Dropper",
+      "pts": 0
+    },
+    {
+      "string_id": "gunwagon_soopagun_odd_boy",
+      "id": 90,
+      "name": "Gunwagon (Soopagun Odd Boy)",
+      "pts": 85
+    },
+    {
+      "string_id": "gunwagon_supa_zzap_odd_boy",
+      "id": 91,
+      "name": "Gunwagon (Supa-Zzap Odd Boy)",
+      "pts": 85
+    },
+    {
+      "string_id": "gunfortress_soopagun_odd_boy",
+      "id": 92,
+      "name": "Gunfortress (Soopagun Odd Boy)",
+      "pts": 185
+    },
+    {
+      "string_id": "gunfortress_supa_zzap_odd_boy",
+      "id": 93,
+      "name": "Gunfortress (Supa-Zzap Odd Boy)",
+      "pts": 185
+    },
+    {
+      "string_id": "big_gunz_soopagun_odd_boy",
+      "id": 94,
+      "name": "Big Gunz (Soopagun Odd Boy)",
+      "pts": 75
+    },
+    {
+      "string_id": "big_gunz_supa_zzap_odd_boy",
+      "id": 95,
+      "name": "Big Gunz (Supa-Zzap Odd Boy)",
+      "pts": 75
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "name": "Kroozer",
+      "from": [
+        520,
+        521
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "AIRCRAFT, SPACECRAFT &amp; GARGANTS",
+      "from": [
+        517,
+        518,
+        520,
+        521,
+        522,
+        523
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        81
+      ],
+      "perArmy": true
+    },
+    {
+      "min": 2,
+      "max": 4,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        500
+      ]
+    },
+    {
+      "min": 4,
+      "max": 8,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 6,
+      "max": 12,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 8,
+      "from": [
+        11,
+        12,
+        13
+      ],
+      "appliesTo": [
+        504
+      ]
+    },
+    {
+      "min": 16,
+      "from": [
+        11,
+        12,
+        13
+      ],
+      "appliesTo": [
+        505
+      ]
+    },
+    {
+      "min": 24,
+      "from": [
+        11,
+        12,
+        13
+      ],
+      "appliesTo": [
+        506
+      ]
+    },
+    {
+      "min": 4,
+      "from": [
+        23,
+        24,
+        25,
+        90,
+        91
+      ],
+      "appliesTo": [
+        507
+      ]
+    },
+    {
+      "min": 8,
+      "from": [
+        23,
+        24,
+        25,
+        90,
+        91
+      ],
+      "appliesTo": [
+        508
+      ]
+    },
+    {
+      "min": 12,
+      "from": [
+        23,
+        24,
+        25,
+        90,
+        91
+      ],
+      "appliesTo": [
+        509
+      ]
+    },
+    {
+      "min": 6,
+      "from": [
+        35
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "min": 5,
+      "from": [
+        43,
+        94,
+        95
+      ],
+      "appliesTo": [
+        513
+      ]
+    },
+    {
+      "min": 10,
+      "from": [
+        43,
+        94,
+        95
+      ],
+      "appliesTo": [
+        514
+      ]
+    },
+    {
+      "min": 15,
+      "from": [
+        43,
+        94,
+        95
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "min": 3,
+      "max": 9,
+      "from": [
+        49
+      ],
+      "appliesTo": [
+        517
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        83,
+        84,
+        85
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        86,
+        87
+      ],
+      "appliesTo": [
+        523
+      ]
+    },
+    {
+      "min": 3,
+      "from": [
+        37
+      ],
+      "appliesTo": [
+        510
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        513
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        514
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        63
+      ],
+      "appliesTo": [
+        515
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Odd Boy",
+      "from": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "appliesTo": [
+        500,
+        504,
+        507,
+        513
+      ]
+    },
+    {
+      "max": 2,
+      "name": "Odd Boy",
+      "from": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "appliesTo": [
+        501,
+        505,
+        508,
+        514
+      ]
+    },
+    {
+      "max": 3,
+      "name": "Odd Boy",
+      "from": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "appliesTo": [
+        502,
+        506,
+        509,
+        515
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        73,
+        92,
+        93
+      ],
+      "appliesTo": [
+        507
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        73,
+        92,
+        93
+      ],
+      "appliesTo": [
+        508
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        73,
+        92,
+        93
+      ],
+      "appliesTo": [
+        509
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        77,
+        78
+      ]
+    }
+  ]
 }

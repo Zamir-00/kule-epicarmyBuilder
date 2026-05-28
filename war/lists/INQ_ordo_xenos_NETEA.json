@@ -1,6 +1,9 @@
 {
   "id": "Ordo Xenos",
-	"version": "NetEA Tournament Pack (2024-02-12)",
+  "list_id": "INQ_ordo_xenos_NETEA",
+  "faction_id": "ordo-xenos",
+  "ruleset": "NETEA",
+  "version": "NetEA Tournament Pack (2024-02-12)",
   "by": "",
   "notes": "",
   "sections": [
@@ -8,27 +11,50 @@
       "name": "DEATHWATCH DETACHMENTS",
       "formations": [
         {
+          "string_id": "assault",
           "id": 500,
           "name": "Assault",
           "pts": 225,
           "units": "Four Deathwatch Assault units",
-          "upgrades": [3,14,15,16,5]
+          "upgrades": [
+            3,
+            14,
+            15,
+            16,
+            5
+          ]
         },
         {
+          "string_id": "bike",
           "id": 501,
           "name": "Bike",
           "pts": 225,
           "units": "Four Deathwatch Bike units",
-          "upgrades": [3,14,15,16,5]
+          "upgrades": [
+            3,
+            14,
+            15,
+            16,
+            5
+          ]
         },
         {
+          "string_id": "land_speeder",
           "id": 502,
           "name": "Land Speeder",
           "pts": 200,
           "units": "Five Land Speeder Tornadoes",
-          "upgrades": [3,14,15,16,12,13]
+          "upgrades": [
+            3,
+            14,
+            15,
+            16,
+            12,
+            13
+          ]
         },
         {
+          "string_id": "landing_craft",
           "id": 503,
           "name": "Landing Craft",
           "pts": 350,
@@ -36,32 +62,64 @@
           "upgrades": []
         },
         {
+          "string_id": "scout",
           "id": 504,
           "name": "Scout",
           "pts": 250,
           "units": "Four Deathwatch Scout units plus transport",
-          "upgrades": [3,14,15,16,5,11]
+          "upgrades": [
+            3,
+            14,
+            15,
+            16,
+            5,
+            11
+          ]
         },
         {
+          "string_id": "0_1_strike_cruiser",
           "id": 505,
           "name": "0–1 Strike Cruiser",
           "pts": 200,
           "units": "One Strike Cruiser",
-          "upgrades": [1]
+          "upgrades": [
+            1
+          ]
         },
         {
+          "string_id": "terminator",
           "id": 506,
           "name": "Terminator",
           "pts": 350,
           "units": "Four Deathwatch Terminator units",
-          "upgrades": [3,14,15,16,5,6,8,9]
+          "upgrades": [
+            3,
+            14,
+            15,
+            16,
+            5,
+            6,
+            8,
+            9
+          ]
         },
         {
+          "string_id": "veterans",
           "id": 507,
           "name": "Veterans",
           "pts": 225,
           "units": "Four Deathwatch Veteran units plus transport",
-          "upgrades": [3,14,15,16,5,6,8,9,11]
+          "upgrades": [
+            3,
+            14,
+            15,
+            16,
+            5,
+            6,
+            8,
+            9,
+            11
+          ]
         }
       ]
     },
@@ -69,39 +127,61 @@
       "name": "IMPERIAL GUARD SUPPORT FORMATIONS",
       "formations": [
         {
+          "string_id": "infantry",
           "id": 600,
           "name": "Infantry",
           "pts": 250,
           "units": "One Ordo Xenos Inquisitor and twelve Infantry units",
-          "upgrades": [4,7,10,17]
+          "upgrades": [
+            4,
+            7,
+            10,
+            17
+          ]
         },
         {
+          "string_id": "rough_rider",
           "id": 601,
           "name": "Rough Rider",
           "pts": 150,
           "units": "Six Rough Riders",
-          "upgrades": [4]
+          "upgrades": [
+            4
+          ]
         },
         {
+          "string_id": "sentinel",
           "id": 602,
           "name": "Sentinel",
           "pts": 100,
           "units": "Four Sentinels",
-          "upgrades": [4]
+          "upgrades": [
+            4
+          ]
         },
         {
+          "string_id": "storm_trooper",
           "id": 603,
           "name": "Storm Trooper",
           "pts": 200,
           "units": "One Ordo Xenos Inquisitor, seven Inquisitorial Storm Troopers and four Rhinos",
-          "upgrades": [4,10,18,19]
+          "upgrades": [
+            4,
+            10,
+            18,
+            19
+          ]
         },
         {
+          "string_id": "leman_russ",
           "id": 604,
           "name": "Leman Russ",
           "pts": 400,
           "units": "Six Leman Russ",
-          "upgrades": [4,7]
+          "upgrades": [
+            4,
+            7
+          ]
         }
       ]
     },
@@ -109,12 +189,14 @@
       "name": "IMPERIAL NAVY AIRCRAFT",
       "formations": [
         {
+          "string_id": "marauder_squadron",
           "id": 700,
           "name": "Marauder Squadron",
           "pts": 250,
           "units": "Two Marauder Bombers"
         },
         {
+          "string_id": "thunderbolt_squadron",
           "id": 701,
           "name": "Thunderbolt Squadron",
           "pts": 175,
@@ -125,16 +207,45 @@
     {
       "name": "TITAN LEGION BATTLEGROUPS",
       "formations": [
-			{"id":702, "name":"Warhound", "units":"1 Warhound Class Titan",		"pts":275, "upgrades":[]},
-			{"id":703, "name":"Warhound Pack", "units":"2x Warhound Class Titan",	"pts":500, "upgrades":[]},
-			{"id":704, "name":"Reaver", "units":"1 Reaver Class Titan",	"pts":650, "upgrades":[]},
-			{"id":705, "name":"Warlord", "units":"1 Warlord Class Titan", "pts":825, "upgrades":[]}
+        {
+          "string_id": "warhound",
+          "id": 702,
+          "name": "Warhound",
+          "units": "1 Warhound Class Titan",
+          "pts": 275,
+          "upgrades": []
+        },
+        {
+          "string_id": "warhound_pack",
+          "id": 703,
+          "name": "Warhound Pack",
+          "units": "2x Warhound Class Titan",
+          "pts": 500,
+          "upgrades": []
+        },
+        {
+          "string_id": "reaver",
+          "id": 704,
+          "name": "Reaver",
+          "units": "1 Reaver Class Titan",
+          "pts": 650,
+          "upgrades": []
+        },
+        {
+          "string_id": "warlord",
+          "id": 705,
+          "name": "Warlord",
+          "units": "1 Warlord Class Titan",
+          "pts": 825,
+          "upgrades": []
+        }
       ]
     },
     {
       "name": "DEATHWATCH AIRCRAFT",
       "formations": [
         {
+          "string_id": "thunderhawk_gunship",
           "id": 706,
           "name": "Thunderhawk Gunship",
           "pts": 200,
@@ -145,110 +256,222 @@
   ],
   "upgrades": [
     {
+      "string_id": "battle_barge",
       "id": 1,
       "name": "Battle Barge",
       "pts": 150
     },
     {
+      "string_id": "0_1_supreme_commander_per_army",
       "id": 3,
       "name": "0–1 Supreme Commander per army",
       "pts": 100
     },
     {
+      "string_id": "commissar",
       "id": 4,
       "name": "Commissar",
       "pts": 25
     },
     {
+      "string_id": "corvus_blackstars",
       "id": 5,
       "name": "Corvus Blackstars",
       "pts": 50
     },
     {
+      "string_id": "dreadnoughts",
       "id": 6,
       "name": "Dreadnoughts",
       "pts": 75
     },
     {
+      "string_id": "hydra",
       "id": 7,
       "name": "Hydra",
       "pts": 50
     },
     {
+      "string_id": "land_raiders",
       "id": 8,
       "name": "Land Raiders",
       "pts": 75
     },
     {
+      "string_id": "2x_land_raiders",
       "id": 9,
       "name": "2x Land Raiders",
       "pts": 125
     },
     {
+      "string_id": "0_1_inquisitor_lord",
       "id": 10,
       "name": "0–1 Inquisitor Lord",
       "pts": 50
     },
     {
+      "string_id": "razorback",
       "id": 11,
       "name": "Razorback",
       "pts": 25
     },
     {
+      "string_id": "typhoon",
       "id": 12,
       "name": "Typhoon",
       "pts": 10
     },
     {
+      "string_id": "tornado",
       "id": 13,
       "name": "Tornado",
       "pts": 0
     },
     {
+      "string_id": "captain",
       "id": 14,
       "name": "Captain",
       "pts": 50
     },
     {
+      "string_id": "chaplain",
       "id": 15,
       "name": "Chaplain",
       "pts": 50
     },
     {
+      "string_id": "librarian",
       "id": 16,
       "name": "Librarian",
       "pts": 50
     },
     {
+      "string_id": "chimeras_7",
       "id": 17,
       "name": "Chimeras (7)",
       "pts": 150
     },
     {
+      "string_id": "replace_4_rhinos_with_4_chimera",
       "id": 18,
       "name": "Replace 4 Rhinos with 4 Chimera",
       "pts": 100
     },
     {
+      "string_id": "replace_4_rhinos_with_4_valkyries",
       "id": 19,
       "name": "Replace 4 Rhinos with 4 Valkyries",
       "pts": 150
     }
   ],
   "formationConstraints": [
-    { "max": 1, "from": [ 505 ] },
-    { "max": 1, "name": "IMPERIAL GUARD SUPPORT DETACHMENTS", "from": [600,601,602,603,604], "forEach": [500,501,502,503,504,506,507], "name2": "DEATH WATCH DETACHMENTS" },
-    { "maxPercent":33.34, "name":"Aircraft & Titans", "from":[700,701,702,703,704,705,706] }
+    {
+      "max": 1,
+      "from": [
+        505
+      ]
+    },
+    {
+      "max": 1,
+      "name": "IMPERIAL GUARD SUPPORT DETACHMENTS",
+      "from": [
+        600,
+        601,
+        602,
+        603,
+        604
+      ],
+      "forEach": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        506,
+        507
+      ],
+      "name2": "DEATH WATCH DETACHMENTS"
+    },
+    {
+      "maxPercent": 33.34,
+      "name": "Aircraft & Titans",
+      "from": [
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706
+      ]
+    }
   ],
   "upgradeConstraints": [
-    { "max": 1, "perArmy": true, "from": [ 3 ] },
-    { "max": 1, "perArmy": true, "from": [ 10 ] },
-    { "max": 1, "from": [ 3, 14, 15, 16 ], "name": "Commander" },
-    { "max": 5, "min": 5, "from": [ 13, 12 ], "appliesTo": [502] },
-    { "max": 1, "from": [ 1 ] },
-    { "max": 1, "from": [ 4 ] },
-    { "max": 2, "from": [ 6 ] },
-    { "max": 1, "from": [ 7 ] },
-    { "max": 1, "from": [18,19]}
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        3
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        10
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        3,
+        14,
+        15,
+        16
+      ],
+      "name": "Commander"
+    },
+    {
+      "max": 5,
+      "min": 5,
+      "from": [
+        13,
+        12
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        1
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        4
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        6
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        7
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        18,
+        19
+      ]
+    }
   ]
 }

@@ -1,63 +1,365 @@
 {
-"id":"Dai-Tan Craftworld",
-"version":"EpicUK",
-"by":"Mephiston",
-"sections":[
-{
-"name":"WARHOSTS",
-"formations":[
-	{"id":501,"name":"Warlock Titan","pts":825,"units":"1 Warlock Titan","upgrades":[10]},
-	{"id":502,"name":"Phantom Titan","pts":750,"units":"1 Phantom Titan","upgrades":[10,12]}
-]},
-{"name":"TROUPES",
-"formations":[{
-	"id":521,"name":"Revenant Titan","pts":325,"units":"1 Revenant Titan","upgrades":[11]},
-	{"id":522,"name":"Wraithknight Troupe","pts":325,"units":"3 Wraithknights","upgrades":[11]},
-	{"id":523,"name":"War Walker Troupe","pts":200,"units":"6 War Walkers","upgrades":[11]}
-]},
-{"name":"SUPPORT UNITS",
-"formations":[
-	{"id":531,"name":"Air Superiority Squadron","pts":200,"units":"2 Nightwing Interceptors","upgrades":[22]},
-	{"id":532,"name":"Spacecraft","pts":0,"upgrades":[20,21]}
-]}
-],
-"upgrades":[
-	{"id":10,"name":"Bonesinger","pts":50},
-	{"id":11,"name":"Spirit Stones","pts":25},
-	{"id":12,"name":"Titan Exarch","pts":25},
-	{"id":20,"name":"Wraithship","pts":125},
-	{"id":21,"name":"Dragonship","pts":250},
-	{"id":22,"name":"1 Nightwing Interceptor","pts":100},
-	{"id":50,"name":"Pulsar","pts":0},
-	{"id":51,"name":"Power Fist","pts":0},
-	{"id":52,"name":"Fusion Lance","pts":0},
-	{"id":53,"name":"Psychic Lance","pts":25},
-    {"id":54,"name":"D-Cannon","pts":0},
-	{"id":55,"name":"Tremor Cannon","pts":0},
-	{"id":56,"name":"Bright Lance","pts":0},
-	{"id":60,"name":"Wraithcannon","pts":0},
-	{"id":61,"name":"Ghostglaive","pts":0},
-	{"id":62,"name":"Scattershield","pts":0},
-	{"id":70,"name":"Pulse Laser","pts":0},
-	{"id":71,"name":"Sonic Lance","pts":0}
-],
-"formationConstraints":[
-	{"max":1, "perArmy":true, "from":[532]},
-	{"max":1, "perArmy":true, "from":[501]},
-	{"maxPercent":33,"name":"Support Units","from":[531,532]},
-	{"max":3,"name":"Troupes","from":[521,522,523],"forEach":[501,502],"name2":"Warhosts"}
-],
-"upgradeConstraints":[
-	{"min":1,"max":1,"from":[20,21],"appliesTo":[532]},
-	{"max":1, "perArmy":true, "from":[10]},
-	{"min":2,"max":2,"from":[50,51,52,53,54,55,56],"appliesTo":[501]},
-	{"min":2,"max":2,"from":[50,51,52,54,55,56],"appliesTo":[502]},
-	{"max":1,"from":[53],"appliesTo":[501]},
-	{"max":1,"from":[11],"appliesTo":[521,522,523]},
-	{"max":1,"from":[12],"appliesTo":[502]},
-	{"min":2,"max":2,"from":[60,61,62],"appliesTo":[522]},
-	{"max":1,"from":[62],"appliesTo":[522]},
-	{"min":2,"max":2,"from":[70,71],"appliesTo":[521]},
-	{"max":1,"from":[22],"appliesTo":[531]}
-]
+  "id": "Dai-Tan Craftworld",
+  "list_id": "EL_Daitan_EPICUK",
+  "faction_id": "daitan",
+  "ruleset": "EPICUK",
+  "version": "EpicUK",
+  "by": "Mephiston",
+  "sections": [
+    {
+      "name": "WARHOSTS",
+      "formations": [
+        {
+          "string_id": "warlock_titan",
+          "id": 501,
+          "name": "Warlock Titan",
+          "pts": 825,
+          "units": "1 Warlock Titan",
+          "upgrades": [
+            10
+          ]
+        },
+        {
+          "string_id": "phantom_titan",
+          "id": 502,
+          "name": "Phantom Titan",
+          "pts": 750,
+          "units": "1 Phantom Titan",
+          "upgrades": [
+            10,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TROUPES",
+      "formations": [
+        {
+          "string_id": "revenant_titan",
+          "id": 521,
+          "name": "Revenant Titan",
+          "pts": 325,
+          "units": "1 Revenant Titan",
+          "upgrades": [
+            11
+          ]
+        },
+        {
+          "string_id": "wraithknight_troupe",
+          "id": 522,
+          "name": "Wraithknight Troupe",
+          "pts": 325,
+          "units": "3 Wraithknights",
+          "upgrades": [
+            11
+          ]
+        },
+        {
+          "string_id": "war_walker_troupe",
+          "id": 523,
+          "name": "War Walker Troupe",
+          "pts": 200,
+          "units": "6 War Walkers",
+          "upgrades": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORT UNITS",
+      "formations": [
+        {
+          "string_id": "air_superiority_squadron",
+          "id": 531,
+          "name": "Air Superiority Squadron",
+          "pts": 200,
+          "units": "2 Nightwing Interceptors",
+          "upgrades": [
+            22
+          ]
+        },
+        {
+          "string_id": "spacecraft",
+          "id": 532,
+          "name": "Spacecraft",
+          "pts": 0,
+          "upgrades": [
+            20,
+            21
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "bonesinger",
+      "id": 10,
+      "name": "Bonesinger",
+      "pts": 50
+    },
+    {
+      "string_id": "spirit_stones",
+      "id": 11,
+      "name": "Spirit Stones",
+      "pts": 25
+    },
+    {
+      "string_id": "titan_exarch",
+      "id": 12,
+      "name": "Titan Exarch",
+      "pts": 25
+    },
+    {
+      "string_id": "wraithship",
+      "id": 20,
+      "name": "Wraithship",
+      "pts": 125
+    },
+    {
+      "string_id": "dragonship",
+      "id": 21,
+      "name": "Dragonship",
+      "pts": 250
+    },
+    {
+      "string_id": "1_nightwing_interceptor",
+      "id": 22,
+      "name": "1 Nightwing Interceptor",
+      "pts": 100
+    },
+    {
+      "string_id": "pulsar",
+      "id": 50,
+      "name": "Pulsar",
+      "pts": 0
+    },
+    {
+      "string_id": "power_fist",
+      "id": 51,
+      "name": "Power Fist",
+      "pts": 0
+    },
+    {
+      "string_id": "fusion_lance",
+      "id": 52,
+      "name": "Fusion Lance",
+      "pts": 0
+    },
+    {
+      "string_id": "psychic_lance",
+      "id": 53,
+      "name": "Psychic Lance",
+      "pts": 25
+    },
+    {
+      "string_id": "d_cannon",
+      "id": 54,
+      "name": "D-Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "tremor_cannon",
+      "id": 55,
+      "name": "Tremor Cannon",
+      "pts": 0
+    },
+    {
+      "string_id": "bright_lance",
+      "id": 56,
+      "name": "Bright Lance",
+      "pts": 0
+    },
+    {
+      "string_id": "wraithcannon",
+      "id": 60,
+      "name": "Wraithcannon",
+      "pts": 0
+    },
+    {
+      "string_id": "ghostglaive",
+      "id": 61,
+      "name": "Ghostglaive",
+      "pts": 0
+    },
+    {
+      "string_id": "scattershield",
+      "id": 62,
+      "name": "Scattershield",
+      "pts": 0
+    },
+    {
+      "string_id": "pulse_laser",
+      "id": 70,
+      "name": "Pulse Laser",
+      "pts": 0
+    },
+    {
+      "string_id": "sonic_lance",
+      "id": 71,
+      "name": "Sonic Lance",
+      "pts": 0
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        532
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        501
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "Support Units",
+      "from": [
+        531,
+        532
+      ]
+    },
+    {
+      "max": 3,
+      "name": "Troupes",
+      "from": [
+        521,
+        522,
+        523
+      ],
+      "forEach": [
+        501,
+        502
+      ],
+      "name2": "Warhosts"
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        20,
+        21
+      ],
+      "appliesTo": [
+        532
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        10
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        50,
+        51,
+        52,
+        54,
+        55,
+        56
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        53
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        521,
+        522,
+        523
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        12
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        60,
+        61,
+        62
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        62
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "from": [
+        70,
+        71
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        22
+      ],
+      "appliesTo": [
+        531
+      ]
+    }
+  ]
 }

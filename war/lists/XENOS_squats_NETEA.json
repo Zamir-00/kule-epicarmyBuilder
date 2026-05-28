@@ -1,590 +1,1021 @@
 {
   "id": "Grindel Stronghold Squats",
+  "list_id": "XENOS_squats_NETEA",
+  "faction_id": "squats",
+  "ruleset": "NETEA",
   "version": "NetEA Tournament Pack",
-  "by": "Dave, last update 2026-02-23 Abetillo",  
-  "sections": [{
+  "by": "Dave, last update 2026-02-23 Abetillo",
+  "sections": [
+    {
       "name": "Brotherhoods",
       "formations": [
         {
+          "string_id": "berserker",
           "id": 100,
           "name": "Berserker",
           "pts": 25,
-          "upgrades": [1, 28, 29, 30]
+          "upgrades": [
+            1,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "berserker_m",
           "id": 101,
           "name": "Berserker (M)",
           "pts": 0,
-          "upgrades": [1, 28, 29, 30]
+          "upgrades": [
+            1,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "berserker_l",
           "id": 102,
           "name": "Berserker (L)",
           "pts": -25,
-          "upgrades": [1, 28, 29, 30]
+          "upgrades": [
+            1,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "thunderer",
           "id": 110,
           "name": "Thunderer",
           "pts": 25,
-          "upgrades": [12, 16, 8, 28, 29, 30]
+          "upgrades": [
+            12,
+            16,
+            8,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "thunderer_m",
           "id": 111,
           "name": "Thunderer (M)",
           "pts": 0,
-          "upgrades": [12, 16, 8, 28, 29, 30]
+          "upgrades": [
+            12,
+            16,
+            8,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "thunderer_l",
           "id": 112,
           "name": "Thunderer (L)",
           "pts": -25,
-          "upgrades": [12, 16, 8, 28, 29, 30]
+          "upgrades": [
+            12,
+            16,
+            8,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "warrior",
           "id": 120,
           "name": "Warrior",
           "pts": 20,
-          "upgrades": [20, 12, 28, 29, 30]
+          "upgrades": [
+            20,
+            12,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "warrior_m",
           "id": 121,
           "name": "Warrior (M)",
           "pts": -10,
-          "upgrades": [20, 12, 28, 29, 30]
+          "upgrades": [
+            20,
+            12,
+            28,
+            29,
+            30
+          ]
         },
         {
+          "string_id": "warrior_l",
           "id": 122,
           "name": "Warrior (L)",
           "pts": -40,
-          "upgrades": [20, 12, 28, 29, 30]
+          "upgrades": [
+            20,
+            12,
+            28,
+            29,
+            30
+          ]
         }
       ]
     },
     {
       "name": "Support Formations",
-      "formations": [{
+      "formations": [
+        {
+          "string_id": "air_attack_corps",
           "id": 220,
           "name": "Air Attack Corps",
           "pts": 250,
           "units": "Overlord",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "air_attack_corps_m",
           "id": 221,
           "name": "Air Attack Corps (M)",
           "pts": 450,
           "units": "2x Overlords",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "air_attack_corps_l",
           "id": 222,
           "name": "Air Attack Corps (L)",
           "pts": 650,
           "units": "3x Overlords",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "artillery_battery",
           "id": 230,
           "name": "Artillery Battery",
           "pts": 25,
-          "upgrades": [11, 14, 15]
+          "upgrades": [
+            11,
+            14,
+            15
+          ]
         },
         {
+          "string_id": "artillery_battery_m",
           "id": 231,
           "name": "Artillery Battery (M)",
           "pts": 25,
-          "upgrades": [11, 14, 15]
+          "upgrades": [
+            11,
+            14,
+            15
+          ]
         },
         {
+          "string_id": "artillery_battery_l",
           "id": 232,
           "name": "Artillery Battery (L)",
           "pts": 0,
-          "upgrades": [11, 14, 15]
+          "upgrades": [
+            11,
+            14,
+            15
+          ]
         },
         {
+          "string_id": "gyrocopter_wing",
           "id": 240,
           "name": "Gyrocopter Wing",
           "pts": 75,
-          "upgrades": [9, 13, 18]
+          "upgrades": [
+            9,
+            13,
+            18
+          ]
         },
         {
+          "string_id": "gyrocopter_wing_m",
           "id": 241,
           "name": "Gyrocopter Wing (M)",
           "pts": 75,
-          "upgrades": [9, 13, 18]
+          "upgrades": [
+            9,
+            13,
+            18
+          ]
         },
         {
+          "string_id": "gyrocopter_wing_l",
           "id": 242,
           "name": "Gyrocopter Wing (L)",
           "pts": 75,
-          "upgrades": [9, 13, 18]
+          "upgrades": [
+            9,
+            13,
+            18
+          ]
         },
         {
+          "string_id": "guild_robot_squadron",
           "id": 260,
           "name": "Guild Robot Squadron",
           "pts": 0,
-          "upgrades": [2, 3]
+          "upgrades": [
+            2,
+            3
+          ]
         },
         {
+          "string_id": "guild_squadron",
           "id": 270,
           "name": "Guild Squadron",
           "pts": -25,
-          "upgrades": [5, 6]
+          "upgrades": [
+            5,
+            6
+          ]
         },
         {
+          "string_id": "guild_squadron_m",
           "id": 271,
           "name": "Guild Squadron (M)",
           "pts": -100,
-          "upgrades": [5, 6]
+          "upgrades": [
+            5,
+            6
+          ]
         },
         {
+          "string_id": "guild_squadron_l",
           "id": 272,
           "name": "Guild Squadron (L)",
           "pts": -175,
-          "upgrades": [5, 6]
+          "upgrades": [
+            5,
+            6
+          ]
         },
         {
+          "string_id": "super_heavy_artillery_battery",
           "id": 280,
           "name": "Super-Heavy Artillery Battery",
           "pts": 200,
           "units": "Goliath",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "super_heavy_artillery_battery_m",
           "id": 281,
           "name": "Super-Heavy Artillery Battery (M)",
           "pts": 300,
           "units": "2x Goliaths",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "super_heavy_artillery_battery_l",
           "id": 282,
           "name": "Super-Heavy Artillery Battery (L)",
           "pts": 400,
           "units": "3x Goliaths",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "thunderfire_battery",
           "id": 290,
           "name": "Thunderfire Battery",
           "pts": 100,
-          "upgrades": [17]
+          "upgrades": [
+            17
+          ]
         }
       ]
     },
     {
       "name": "War Engines",
-      "formations": [{
+      "formations": [
+        {
+          "string_id": "colossus",
           "id": 300,
           "name": "Colossus",
           "pts": 600,
           "units": "Colossus<br>Recon Iron Eagle",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "cyclops",
           "id": 310,
           "name": "Cyclops",
           "pts": 600,
           "units": "Cyclops",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         },
         {
+          "string_id": "land_train",
           "id": 320,
           "name": "Land Train",
           "pts": 275,
           "units": "Land Train",
-          "upgrades": [21, 22, 23, 24, 25, 26, 27, 10, 4]
+          "upgrades": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            10,
+            4
+          ]
         },
         {
+          "string_id": "leviathan",
           "id": 330,
           "name": "Leviathan",
           "pts": 400,
           "units": "Leviathan",
-          "upgrades": [4, 10]
+          "upgrades": [
+            4,
+            10
+          ]
         }
       ]
     }
   ],
-  "upgrades": [{
+  "upgrades": [
+    {
+      "string_id": "berserkers",
       "id": 1,
       "name": "Berserkers",
       "pts": 20
     },
     {
+      "string_id": "colossus_class_robot",
       "id": 2,
       "name": "Colossus Class Robot",
       "pts": 40
     },
     {
+      "string_id": "conqueror_class_robot",
       "id": 3,
       "name": "Conqueror Class Robot",
       "pts": 40
     },
     {
+      "string_id": "grand_warlord",
       "id": 4,
       "name": "Grand Warlord",
       "pts": 50
     },
     {
+      "string_id": "guild_bikers",
       "id": 5,
       "name": "Guild Bikers",
       "pts": 20
     },
     {
+      "string_id": "guild_trike",
       "id": 6,
       "name": "Guild Trike",
       "pts": 25
     },
     {
+      "string_id": "guildmaster",
       "id": 7,
       "name": "Guildmaster",
       "pts": 75
     },
     {
+      "string_id": "hearthguard",
       "id": 8,
       "name": "Hearthguard",
       "pts": 50
     },
     {
+      "string_id": "iron_eagle",
       "id": 9,
       "name": "Iron Eagle",
       "pts": 50
     },
     {
+      "string_id": "living_ancestor",
       "id": 10,
       "name": "Living Ancestor",
       "pts": 50
     },
     {
+      "string_id": "mole_mortar",
       "id": 11,
       "name": "Mole Mortar",
       "pts": 25
     },
     {
+      "string_id": "rapier",
       "id": 12,
       "name": "Rapier",
       "pts": 25
     },
     {
+      "string_id": "steel_hawk",
       "id": 13,
       "name": "Steel Hawk",
       "pts": 50
     },
     {
+      "string_id": "tarantula",
       "id": 14,
       "name": "Tarantula",
       "pts": 25
     },
     {
+      "string_id": "thudd_gun",
       "id": 15,
       "name": "Thudd Gun",
       "pts": 25
     },
     {
+      "string_id": "thunderers",
       "id": 16,
       "name": "Thunderers",
       "pts": 40
     },
     {
+      "string_id": "thunderfire",
       "id": 17,
       "name": "Thunderfire",
       "pts": 25
     },
     {
+      "string_id": "war_hawk",
       "id": 18,
       "name": "War Hawk",
       "pts": 50
     },
     {
+      "string_id": "warlord",
       "id": 19,
       "name": "Warlord",
       "pts": 75
     },
     {
+      "string_id": "warriors",
       "id": 20,
       "name": "Warriors",
       "pts": 20
     },
     {
+      "string_id": "berserker_battlecar",
       "id": 21,
       "name": "Berserker Battlecar",
       "pts": 50
     },
     {
+      "string_id": "dragon_battlecar",
       "id": 22,
       "name": "Dragon Battlecar",
       "pts": 75
     },
     {
+      "string_id": "fire_shield_battlecar",
       "id": 23,
       "name": "Fire Shield Battlecar",
       "pts": 75
     },
     {
+      "string_id": "skyhammer_battlecar",
       "id": 24,
       "name": "Skyhammer Battlecar",
       "pts": 75
     },
     {
+      "string_id": "mortar_battlecar",
       "id": 25,
       "name": "Mortar Battlecar",
       "pts": 75
     },
     {
+      "string_id": "iron_eagle_battlecar_and_1x_recon_iron_eagle",
       "id": 26,
       "name": "Iron Eagle Battlecar (and 1x Recon Iron Eagle)",
       "pts": 100
     },
     {
+      "string_id": "bomb_battlecar",
       "id": 27,
       "name": "Bomb Battlecar",
       "pts": 125
     },
     {
+      "string_id": "rhino",
       "id": 28,
       "name": "Rhino",
       "pts": 10
     },
     {
+      "string_id": "termite",
       "id": 29,
       "name": "Termite",
       "pts": 10
     },
     {
+      "string_id": "mole",
       "id": 30,
       "name": "Mole",
       "pts": 25
     },
     {
+      "string_id": "warlord_with_grand_warlord",
       "id": 40,
       "name": "Warlord with Grand Warlord",
       "pts": 125
     },
     {
+      "string_id": "warlord_with_grand_warlord_and_living_ancestor",
       "id": 41,
       "name": "Warlord with Grand Warlord and Living Ancestor",
       "pts": 175
     },
     {
+      "string_id": "guildmaster_with_grand_warlord",
       "id": 42,
       "name": "Guildmaster with Grand Warlord",
       "pts": 125
     },
     {
+      "string_id": "warlord_with_living_ancestor",
       "id": 43,
       "name": "Warlord with Living Ancestor",
       "pts": 125
     }
   ],
-  "formationConstraints": [{
+  "formationConstraints": [
+    {
       "name": "Support Formations",
-      "from": [220, 221, 222, 230, 231, 232, 240, 241, 242, 260, 270, 271, 272, 280, 281, 282, 290],
-      "forEach": [100, 101, 102, 110, 111, 112, 120, 121, 122],
+      "from": [
+        220,
+        221,
+        222,
+        230,
+        231,
+        232,
+        240,
+        241,
+        242,
+        260,
+        270,
+        271,
+        272,
+        280,
+        281,
+        282,
+        290
+      ],
+      "forEach": [
+        100,
+        101,
+        102,
+        110,
+        111,
+        112,
+        120,
+        121,
+        122
+      ],
       "max": 2,
       "name2": "Brotherhood"
     },
     {
       "name": "War Engines",
-      "from": [300, 310, 320, 330],
+      "from": [
+        300,
+        310,
+        320,
+        330
+      ],
       "maxPercent": 33.34
     }
   ],
-  "upgradeConstraints": [{
-      "from": [1],
+  "upgradeConstraints": [
+    {
+      "from": [
+        1
+      ],
       "min": 5,
-      "appliesTo": [100]
+      "appliesTo": [
+        100
+      ]
     },
     {
-      "from": [1],
+      "from": [
+        1
+      ],
       "min": 10,
-      "appliesTo": [101]
+      "appliesTo": [
+        101
+      ]
     },
     {
-      "from": [1],
+      "from": [
+        1
+      ],
       "min": 15,
-      "appliesTo": [102]
+      "appliesTo": [
+        102
+      ]
     },
     {
-      "from": [12],
+      "from": [
+        12
+      ],
       "max": 3,
-      "appliesTo": [110, 120]
+      "appliesTo": [
+        110,
+        120
+      ]
     },
     {
-      "from": [12],
+      "from": [
+        12
+      ],
       "max": 6,
-      "appliesTo": [111, 121]
+      "appliesTo": [
+        111,
+        121
+      ]
     },
     {
-      "from": [12],
+      "from": [
+        12
+      ],
       "max": 9,
-      "appliesTo": [112, 122]
+      "appliesTo": [
+        112,
+        122
+      ]
     },
     {
-      "from": [2, 3],
+      "from": [
+        2,
+        3
+      ],
       "min": 5,
       "max": 5,
-      "appliesTo": [260]
+      "appliesTo": [
+        260
+      ]
     },
     {
-      "from": [4, 40, 41, 42],
+      "from": [
+        4,
+        40,
+        41,
+        42
+      ],
       "max": 1,
       "perArmy": true
     },
     {
-      "from": [5, 6],
+      "from": [
+        5,
+        6
+      ],
       "min": 5,
-      "appliesTo": [270]
+      "appliesTo": [
+        270
+      ]
     },
     {
-      "from": [5, 6],
+      "from": [
+        5,
+        6
+      ],
       "min": 10,
-      "appliesTo": [271]
+      "appliesTo": [
+        271
+      ]
     },
     {
-      "from": [5, 6],
+      "from": [
+        5,
+        6
+      ],
       "min": 15,
-      "appliesTo": [272]
+      "appliesTo": [
+        272
+      ]
     },
     {
-      "from": [7,42],
-      "min": 1, "max":1,
-      "appliesTo": [270]
-    },
-    {
-      "from": [7,42],
-      "min": 2, "max":2,
-      "appliesTo": [271]
-    },
-    {
-      "from": [7,42],
-      "min": 3, "max":3,
-      "appliesTo": [272]
-    },
-    {
-      "from": [8],
-      "min": 1,
-      "appliesTo": [100]
-    },
-    {
-      "from": [8],
-      "max": 1,
-      "appliesTo": [110]
-    },
-    {
-      "from": [8],
-      "min": 2,
-      "appliesTo": [101]
-    },
-    {
-      "from": [8],
-      "max": 2,
-      "appliesTo": [111]
-    },
-    {
-      "from": [8],
-      "min": 3,
-      "appliesTo": [102]
-    },
-    {
-      "from": [8],
-      "max": 3,
-      "appliesTo": [112]
-    },
-    {
-      "from": [8, 19, 40, 41, 43],
+      "from": [
+        7,
+        42
+      ],
       "min": 1,
       "max": 1,
-      "appliesTo": [120]
+      "appliesTo": [
+        270
+      ]
     },
     {
-      "from": [8, 19, 40, 41, 43],
+      "from": [
+        7,
+        42
+      ],
       "min": 2,
       "max": 2,
-      "appliesTo": [121]
+      "appliesTo": [
+        271
+      ]
     },
     {
-      "from": [8, 19, 40, 41, 43],
+      "from": [
+        7,
+        42
+      ],
       "min": 3,
       "max": 3,
-      "appliesTo": [122]
+      "appliesTo": [
+        272
+      ]
     },
     {
-      "from": [9, 13, 18],
+      "from": [
+        8
+      ],
+      "min": 1,
+      "appliesTo": [
+        100
+      ]
+    },
+    {
+      "from": [
+        8
+      ],
+      "max": 1,
+      "appliesTo": [
+        110
+      ]
+    },
+    {
+      "from": [
+        8
+      ],
+      "min": 2,
+      "appliesTo": [
+        101
+      ]
+    },
+    {
+      "from": [
+        8
+      ],
+      "max": 2,
+      "appliesTo": [
+        111
+      ]
+    },
+    {
+      "from": [
+        8
+      ],
       "min": 3,
-      "appliesTo": [240]
+      "appliesTo": [
+        102
+      ]
     },
     {
-      "from": [9, 13, 18],
+      "from": [
+        8
+      ],
+      "max": 3,
+      "appliesTo": [
+        112
+      ]
+    },
+    {
+      "from": [
+        8,
+        19,
+        40,
+        41,
+        43
+      ],
+      "min": 1,
+      "max": 1,
+      "appliesTo": [
+        120
+      ]
+    },
+    {
+      "from": [
+        8,
+        19,
+        40,
+        41,
+        43
+      ],
+      "min": 2,
+      "max": 2,
+      "appliesTo": [
+        121
+      ]
+    },
+    {
+      "from": [
+        8,
+        19,
+        40,
+        41,
+        43
+      ],
+      "min": 3,
+      "max": 3,
+      "appliesTo": [
+        122
+      ]
+    },
+    {
+      "from": [
+        9,
+        13,
+        18
+      ],
+      "min": 3,
+      "appliesTo": [
+        240
+      ]
+    },
+    {
+      "from": [
+        9,
+        13,
+        18
+      ],
       "min": 6,
-      "appliesTo": [241]
+      "appliesTo": [
+        241
+      ]
     },
     {
-      "from": [9, 13, 18],
+      "from": [
+        9,
+        13,
+        18
+      ],
       "min": 9,
-      "appliesTo": [242]
+      "appliesTo": [
+        242
+      ]
     },
     {
-      "from": [10, 41, 43],
+      "from": [
+        10,
+        41,
+        43
+      ],
       "max": 1,
       "perArmy": true
     },
     {
-      "from": [11, 14, 15],
+      "from": [
+        11,
+        14,
+        15
+      ],
       "min": 5,
-      "appliesTo": [230]
+      "appliesTo": [
+        230
+      ]
     },
     {
-      "from": [11, 14, 15],
+      "from": [
+        11,
+        14,
+        15
+      ],
       "min": 10,
-      "appliesTo": [231]
+      "appliesTo": [
+        231
+      ]
     },
     {
-      "from": [11, 14, 15],
+      "from": [
+        11,
+        14,
+        15
+      ],
       "min": 15,
-      "appliesTo": [232]
+      "appliesTo": [
+        232
+      ]
     },
     {
-      "from": [16],
+      "from": [
+        16
+      ],
       "min": 5,
-      "appliesTo": [110]
+      "appliesTo": [
+        110
+      ]
     },
     {
-      "from": [16],
+      "from": [
+        16
+      ],
       "min": 10,
-      "appliesTo": [111]
+      "appliesTo": [
+        111
+      ]
     },
     {
-      "from": [16],
+      "from": [
+        16
+      ],
       "min": 15,
-      "appliesTo": [112]
+      "appliesTo": [
+        112
+      ]
     },
     {
-      "from": [17],
+      "from": [
+        17
+      ],
       "min": 2,
       "max": 3,
-      "appliesTo": [290]
+      "appliesTo": [
+        290
+      ]
     },
     {
-      "from": [20],
+      "from": [
+        20
+      ],
       "min": 9,
-      "appliesTo": [120]
+      "appliesTo": [
+        120
+      ]
     },
     {
-      "from": [20],
+      "from": [
+        20
+      ],
       "min": 18,
-      "appliesTo": [121]
+      "appliesTo": [
+        121
+      ]
     },
     {
-      "from": [20],
+      "from": [
+        20
+      ],
       "min": 27,
-      "appliesTo": [122]
+      "appliesTo": [
+        122
+      ]
     },
     {
-      "from": [21, 22, 23, 24, 25, 26, 27],
+      "from": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
       "min": 1,
       "max": 4,
-      "appliesTo": [320]
+      "appliesTo": [
+        320
+      ]
     }
   ]
 }

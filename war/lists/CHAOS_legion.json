@@ -1,92 +1,571 @@
 {
-	"id":"Black Legion",
-	"version":"Specialist Games Forum v1.0",
-	"notes":[
-		"If a Daemon Prince is selected, then it replaces a Chaos Marine unit.",
-		"If Dreadclaws are selected, then enough must be taken to transport the entire formation."],
-	"by":"Iron Bloke",
-	"sections":[
-		{"name":"DETACHMENTS", "formations":[
-			{"id":501, "name":"Armoured Company",			"pts":0, "upgrades":[20,21,42]},
-			{"id":502, "name":"Assault Company",			"pts":0, "upgrades":[23,24,42]},
-			{"id":503, "name":"Bike Company",				"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[47,40]},
-			{"id":504, "name":"Black Legion Retinue",		"pts":275, "units":"8 Chaos Space Marines", "upgrades":[48,49,50,41,42,43,44,45,40,46,47]},
-			{"id":505, "name":"Chaos Terminators",			"pts":0, "upgrades":[13,41,42,43,44,45, 40, 46, 47]},
-			{"id":507, "name":"Forlorn Hope",		"pts":125, "units":"4 Chaos Space Marines", "upgrades":[48,44,40]},
-			{"id":508, "name":"Raptor Cult", 				"pts":0, "upgrades":[11,40]}
-		]},
-		{"name":"Daemon Pool", "formations":[
-			{"id":506, "name":"Daemon Pool",				"pts":0, "upgrades":[51,52]}
-		]},
-		{"name":"CHAOS NAVY", "formations":[
-			{"id":530, "name":"Swiftdeath Interceptor",		"pts":200, "units":"3 Interceptors", "upgrades":[]},
-			{"id":531, "name":"Helltalon Fighter-bomber",	"pts":300, "units":"2 Bombers", "upgrades":[]},
-			{"id":533, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]}, 
-			{"id":534, "name":"Despoiler Class Battleship",	"pts":250, "upgrades":[]}
-		]},
-		{"name":"WAR ENGINES", "formations":[
-			{"id":520, "name":"Banelord Titan",	"pts":800, "upgrades":[]},
-			{"id":521, "name":"Ravager Titan",		"pts":650, "upgrades":[]},
-			{"id":522, "name":"Feral Titan",		"pts":300, "upgrades":[]}
-		]}
-	],
-	"upgrades":[
-		{"id":11, "name":"Raptor", "pts":35},
-		{"id":13, "name":"Chaos Terminator", "pts":65},
-		{"id":15, "name":"Chaos Lord", 	"pts":0},
-		{"id":16, "name":"Sorcerer Lord", 	"pts":0},
-		{"id":17, "name":"Daemon Prince", 	"pts":50},
-		{"id":18, "name":"Chaos Warlord (Supreme Commander)", 	"pts":0},
-		{"id":38, "name":"Daemon Prince (Supreme Commander)", 	"pts":50},
-		{"id":20, "name":"Chaos Predator", 	"pts":50},
-		{"id":21, "name":"Chaos Land Raider", 	"pts":75},
-		{"id":23, "name":"Decimator", 			"pts":225},
-		{"id":24, "name":"Death Wheel", 		"pts":275},
-		{"id":35, "name":"(Chaos Undivided)",	"pts":0},
-		{"id":31, "name":"(Khorne)",			"pts":0},
-		{"id":32, "name":"(Nurgle)",			"pts":0},
-		{"id":33, "name":"(Slaanesh)",			"pts":0},
-		{"id":34, "name":"(Tzeentch)",			"pts":0},
-		{"id":40, "name":"Daemonic Pact", "pts":25},
-		{"id":41, "name":"Dreadnought", "pts":50},
-		{"id":42, "name":"Defiler", "pts":75},
-		{"id":43, "name":"Chaos Land Raider", "pts":75},
-		{"id":44, "name":"Dreadclaw Drop Pod", "pts":5},
-		{"id":45, "name":"Obliterator", "pts":75},
-		{"id":46, "name":"Chaos Champion", "pts":50},
-		{"id":47, "name":"Icon Bearer", "pts":50},
-		{"id":48, "name":"Rhino", "pts":10},
-		{"id":49, "name":"4 Havocs", "pts":150},
-		{"id":50, "name":"4 Cult Marines", "pts":150},
-		{"id":51, "name":"Greater Daemon", "pts":100},
-		{"id":52, "name":"Lesser Daemon", "pts":20}
-	],
-	"formationConstraints":[
-		{"max":1, "name":"Forlorn Hope", "from":[507], "forEach":[504], "name2":"Retinue"},
-		{"max":2, "from":[502]},
-		{"max":2, "from":[505]},
-		{"max":1, "from":[506]},
-		{"max":1, "from":[508]},
-		{"max":1, "name":"Spacecraft", "from":[533,534]},		
-		{"maxPercent":33, "name":"War Engines & Navy", "from":[530,531,533,534,520,521,522]}
-	],
-	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[18,38]},
-		{"max":3, "from":[41]},
-		{"max":3, "from":[42]},
-		{"max":4, "from":[43]},
-		{"max":3, "from":[45]},
-		{"max":1, "from":[46]},
-		{"max":1, "from":[47]},
-		{"max":1, "from":[49]},
-		{"max":1, "from":[50]},
-		{"min":4, "max":8, "from":[11], "appliesTo":[508]},
-		{"min":4, "max":6, "from":[13], "appliesTo":[505]},
-		{"min":1, "max":1, "from":[15,16,17,18,38], "appliesTo":[503,504,505,508]},
-		{"min":4, "max":8, "name":"Vehicles", "from":[20,21], "appliesTo":[501]},
-		{"min":1, "max":3, "name":"Vehicles", "from":[23,24], "appliesTo":[502]},
-		{"min":1, "max":1, "from":[35,31,32,33,34], "appliesTo":[501,502,503,504,505,507,508,530,531,533,534,520,521,522]},
-		{"max":1, "from":[40]}
-	]
+  "id": "Black Legion",
+  "list_id": "CHAOS_legion",
+  "faction_id": "legion",
+  "version": "Specialist Games Forum v1.0",
+  "notes": [
+    "If a Daemon Prince is selected, then it replaces a Chaos Marine unit.",
+    "If Dreadclaws are selected, then enough must be taken to transport the entire formation."
+  ],
+  "by": "Iron Bloke",
+  "sections": [
+    {
+      "name": "DETACHMENTS",
+      "formations": [
+        {
+          "string_id": "armoured_company",
+          "id": 501,
+          "name": "Armoured Company",
+          "pts": 0,
+          "upgrades": [
+            20,
+            21,
+            42
+          ]
+        },
+        {
+          "string_id": "assault_company",
+          "id": 502,
+          "name": "Assault Company",
+          "pts": 0,
+          "upgrades": [
+            23,
+            24,
+            42
+          ]
+        },
+        {
+          "string_id": "bike_company",
+          "id": 503,
+          "name": "Bike Company",
+          "pts": 300,
+          "units": "8 Chaos Space Marines Bikes",
+          "upgrades": [
+            47,
+            40
+          ]
+        },
+        {
+          "string_id": "black_legion_retinue",
+          "id": 504,
+          "name": "Black Legion Retinue",
+          "pts": 275,
+          "units": "8 Chaos Space Marines",
+          "upgrades": [
+            48,
+            49,
+            50,
+            41,
+            42,
+            43,
+            44,
+            45,
+            40,
+            46,
+            47
+          ]
+        },
+        {
+          "string_id": "chaos_terminators",
+          "id": 505,
+          "name": "Chaos Terminators",
+          "pts": 0,
+          "upgrades": [
+            13,
+            41,
+            42,
+            43,
+            44,
+            45,
+            40,
+            46,
+            47
+          ]
+        },
+        {
+          "string_id": "forlorn_hope",
+          "id": 507,
+          "name": "Forlorn Hope",
+          "pts": 125,
+          "units": "4 Chaos Space Marines",
+          "upgrades": [
+            48,
+            44,
+            40
+          ]
+        },
+        {
+          "string_id": "raptor_cult",
+          "id": 508,
+          "name": "Raptor Cult",
+          "pts": 0,
+          "upgrades": [
+            11,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daemon Pool",
+      "formations": [
+        {
+          "string_id": "daemon_pool",
+          "id": 506,
+          "name": "Daemon Pool",
+          "pts": 0,
+          "upgrades": [
+            51,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CHAOS NAVY",
+      "formations": [
+        {
+          "string_id": "swiftdeath_interceptor",
+          "id": 530,
+          "name": "Swiftdeath Interceptor",
+          "pts": 200,
+          "units": "3 Interceptors",
+          "upgrades": []
+        },
+        {
+          "string_id": "helltalon_fighter_bomber",
+          "id": 531,
+          "name": "Helltalon Fighter-bomber",
+          "pts": 300,
+          "units": "2 Bombers",
+          "upgrades": []
+        },
+        {
+          "string_id": "devastation_class_cruiser",
+          "id": 533,
+          "name": "Devastation Class Cruiser",
+          "pts": 150,
+          "upgrades": []
+        },
+        {
+          "string_id": "despoiler_class_battleship",
+          "id": 534,
+          "name": "Despoiler Class Battleship",
+          "pts": 250,
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "WAR ENGINES",
+      "formations": [
+        {
+          "string_id": "banelord_titan",
+          "id": 520,
+          "name": "Banelord Titan",
+          "pts": 800,
+          "upgrades": []
+        },
+        {
+          "string_id": "ravager_titan",
+          "id": 521,
+          "name": "Ravager Titan",
+          "pts": 650,
+          "upgrades": []
+        },
+        {
+          "string_id": "feral_titan",
+          "id": 522,
+          "name": "Feral Titan",
+          "pts": 300,
+          "upgrades": []
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "raptor",
+      "id": 11,
+      "name": "Raptor",
+      "pts": 35
+    },
+    {
+      "string_id": "chaos_terminator",
+      "id": 13,
+      "name": "Chaos Terminator",
+      "pts": 65
+    },
+    {
+      "string_id": "chaos_lord",
+      "id": 15,
+      "name": "Chaos Lord",
+      "pts": 0
+    },
+    {
+      "string_id": "sorcerer_lord",
+      "id": 16,
+      "name": "Sorcerer Lord",
+      "pts": 0
+    },
+    {
+      "string_id": "daemon_prince",
+      "id": 17,
+      "name": "Daemon Prince",
+      "pts": 50
+    },
+    {
+      "string_id": "chaos_warlord_supreme_commander",
+      "id": 18,
+      "name": "Chaos Warlord (Supreme Commander)",
+      "pts": 0
+    },
+    {
+      "string_id": "daemon_prince_supreme_commander",
+      "id": 38,
+      "name": "Daemon Prince (Supreme Commander)",
+      "pts": 50
+    },
+    {
+      "string_id": "chaos_predator",
+      "id": 20,
+      "name": "Chaos Predator",
+      "pts": 50
+    },
+    {
+      "string_id": "chaos_land_raider",
+      "id": 21,
+      "name": "Chaos Land Raider",
+      "pts": 75
+    },
+    {
+      "string_id": "decimator",
+      "id": 23,
+      "name": "Decimator",
+      "pts": 225
+    },
+    {
+      "string_id": "death_wheel",
+      "id": 24,
+      "name": "Death Wheel",
+      "pts": 275
+    },
+    {
+      "string_id": "chaos_undivided",
+      "id": 35,
+      "name": "(Chaos Undivided)",
+      "pts": 0
+    },
+    {
+      "string_id": "khorne",
+      "id": 31,
+      "name": "(Khorne)",
+      "pts": 0
+    },
+    {
+      "string_id": "nurgle",
+      "id": 32,
+      "name": "(Nurgle)",
+      "pts": 0
+    },
+    {
+      "string_id": "slaanesh",
+      "id": 33,
+      "name": "(Slaanesh)",
+      "pts": 0
+    },
+    {
+      "string_id": "tzeentch",
+      "id": 34,
+      "name": "(Tzeentch)",
+      "pts": 0
+    },
+    {
+      "string_id": "daemonic_pact",
+      "id": 40,
+      "name": "Daemonic Pact",
+      "pts": 25
+    },
+    {
+      "string_id": "dreadnought",
+      "id": 41,
+      "name": "Dreadnought",
+      "pts": 50
+    },
+    {
+      "string_id": "defiler",
+      "id": 42,
+      "name": "Defiler",
+      "pts": 75
+    },
+    {
+      "id": 43,
+      "name": "Chaos Land Raider",
+      "pts": 75
+    },
+    {
+      "string_id": "dreadclaw_drop_pod",
+      "id": 44,
+      "name": "Dreadclaw Drop Pod",
+      "pts": 5
+    },
+    {
+      "string_id": "obliterator",
+      "id": 45,
+      "name": "Obliterator",
+      "pts": 75
+    },
+    {
+      "string_id": "chaos_champion",
+      "id": 46,
+      "name": "Chaos Champion",
+      "pts": 50
+    },
+    {
+      "string_id": "icon_bearer",
+      "id": 47,
+      "name": "Icon Bearer",
+      "pts": 50
+    },
+    {
+      "string_id": "rhino",
+      "id": 48,
+      "name": "Rhino",
+      "pts": 10
+    },
+    {
+      "string_id": "4_havocs",
+      "id": 49,
+      "name": "4 Havocs",
+      "pts": 150
+    },
+    {
+      "string_id": "4_cult_marines",
+      "id": 50,
+      "name": "4 Cult Marines",
+      "pts": 150
+    },
+    {
+      "string_id": "greater_daemon",
+      "id": 51,
+      "name": "Greater Daemon",
+      "pts": 100
+    },
+    {
+      "string_id": "lesser_daemon",
+      "id": 52,
+      "name": "Lesser Daemon",
+      "pts": 20
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "name": "Forlorn Hope",
+      "from": [
+        507
+      ],
+      "forEach": [
+        504
+      ],
+      "name2": "Retinue"
+    },
+    {
+      "max": 2,
+      "from": [
+        502
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        505
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        506
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        508
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Spacecraft",
+      "from": [
+        533,
+        534
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "War Engines & Navy",
+      "from": [
+        530,
+        531,
+        533,
+        534,
+        520,
+        521,
+        522
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        18,
+        38
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        41
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        42
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        43
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        45
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        46
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        47
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        49
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        50
+      ]
+    },
+    {
+      "min": 4,
+      "max": 8,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        508
+      ]
+    },
+    {
+      "min": 4,
+      "max": 6,
+      "from": [
+        13
+      ],
+      "appliesTo": [
+        505
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        15,
+        16,
+        17,
+        18,
+        38
+      ],
+      "appliesTo": [
+        503,
+        504,
+        505,
+        508
+      ]
+    },
+    {
+      "min": 4,
+      "max": 8,
+      "name": "Vehicles",
+      "from": [
+        20,
+        21
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "name": "Vehicles",
+      "from": [
+        23,
+        24
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        35,
+        31,
+        32,
+        33,
+        34
+      ],
+      "appliesTo": [
+        501,
+        502,
+        503,
+        504,
+        505,
+        507,
+        508,
+        530,
+        531,
+        533,
+        534,
+        520,
+        521,
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        40
+      ]
+    }
+  ]
 }
-

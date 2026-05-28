@@ -1,114 +1,734 @@
 {
-	"id":"Eldar Exodites",
-	"version":"Experimental",
-	"by":"",
-	"sections":[
-		{"name":"Eldar Exodite Indivuals", "formations":[
-			{"id":511, "name":"Webway Portal",	"pts":0,	"upgrades":[32]},
-			{"id":512, "name":"Great Drake",	"pts":50,	"upgrades":[]}
-		]},
-		{"name":"Eldar Exodite Warhosts", "formations":[
-			{"id":521, "name":"Exodite Dragon Knights","pts":300, "upgrades":[9,10,11]},
-			{"id":522, "name":"Exodite Wind Knights","pts":225, "upgrades":[9,10,11]}
-		]},
-
-		{"name":"Eldar Exodite troupes", "formations":[
-			{"id":531, "name":"Raptor Out Riders","pts":200, "upgrades":[]},
-			{"id":538, "name":"Dragon Riders","pts":200, "units":"6 Dragon Riders", "upgrades":[]},
-			{"id":532, "name":"Megadons Troupe","pts":200, "upgrades":[]},
-			{"id":539, "name":"Great Megadons","pts":0, "upgrades":[40,41]},
-			{"id":533, "name":"Outcast Rangers ","pts":0, "upgrades":[21]},
-			{"id":535, "name":"War Walker","pts":50, "upgrades":[24]},
-			{"id":536, "name":"Raptor Herder ","pts":225, "upgrades":[9,10,11]},
-			{"id":537, "name":"Exodite Militia","pts":150, "upgrades":[30]},
-			{"id":534, "name":"Dragon Keeper","pts":225, "upgrades":[9,10,11]},
-			{"id":555, "name":"Huntsmen","pts":175, "units":"5 Huntsmen", "upgrades":[11]}
-		]},
-
-		{"name":"SPACESHIPS, AIRCRAFT & TITANS", "formations":[
-			{"id":542, "name":"Colossal Carnosaur",			"pts":350, "units":"1 Colossal Carnosaurus", "upgrades":[]},
-			{"id":543, "name":"Colossal Carnosaur Pack",		"pts":650, "units":"2 Colossal Carnosaurus", "upgrades":[]},
-			{"id":545, "name":"Thunder Beast",			"pts":575, "units":"1 Thunder Beast ", "upgrades":[]},
-			{"id":544, "name":"Eldar Knights",			"pts":350, "upgrades":[]},
-			{"id":540, "name":"Corsair Nightwing",			"pts":225, "upgrades":[]},
-			{"id":541, "name":"Corsair Void Dragon Phoenix",	"pts":225, "upgrades":[]},
-			{"id":546, "name":"Corsair Spacecraft",			"pts":200, "units":"One Eclipse Cruiser", "upgrades":[]}
-
-		]}
-	],
-	"upgrades":[
-		{"id":9, "name":"Exodite Dragon King",				"pts":100},
-		{"id":10, "name":"Exodite Dragon Prince",			"pts":25},
-		{"id":11, "name":"Dragonsinger",				"pts":25},
-		{"id":12, "name":"8 Exodite Dragon Knights",			"pts":0},
-		{"id":13, "name":"Pteradon Riders",				"pts":0},
-		{"id":14, "name":"6 Exodite Wind Knights",			"pts":0},
-		{"id":15, "name":"6 Six Raptor Outriders ",			"pts":0},
-		{"id":16, "name":"Wraithskulls",				"pts":0},
-		{"id":17, "name":"Venom",					"pts":25},
-		{"id":18, "name":"Falcon",					"pts":50},
-		{"id":19, "name":"Megadons",					"pts":0},
-		{"id":20, "name":"Void Watcher Megadons",			"pts":25},
-		{"id":21, "name":"Outcast Rangers", 				"pts":25},
-		{"id":22, "name":"Heavy Weapon platforms",			"pts":0},
-		{"id":23, "name":"Megadon with D-Cannon",			"pts":50},
-		{"id":24, "name":"War Walkers",					"pts":25},
-		{"id":25, "name":"Maiden Sword Megadons",			"pts":200},
-		{"id":26, "name":"Maiden Spirit Megadons",			"pts":200},
-		{"id":27, "name":"Exodite Militia",				"pts":0},
-		{"id":28, "name":"Farseer",					"pts":0},
-		{"id":29, "name":"Megadon Mounted Heavy Weapons",		"pts":0},
-		{"id":30, "name":"3 Additional Megadon Mounted Heavy Weapons",	"pts":50},
-		{"id":32, "name":"Webway Portal",				"pts":50},
-		{"id":33, "name":"8 Exodite Wind Knights",			"pts":75},
-		{"id":34, "name":"Megadon with Heavy Weapon",			"pts":0},
-		{"id":35, "name":"Fire Gales",					"pts":0},
-		{"id":36, "name":"Towering Destroyers",				"pts":0},
-		{"id":37, "name":"Bright Stallions",				"pts":0},
-		{"id":38, "name":"10 Exodite Wind Knights",			"pts":125},
-		{"id":40, "name":"Sun Spear Megadon",				"pts":200},
-		{"id":41, "name":"Thundersaurs",				"pts":200},
-		{"id":42, "name":"6 Raptor Herders",				"pts":0},
-		{"id":43, "name":"8 Raptor Herders",				"pts":50},
-		{"id":44, "name":"6 Dragon Warders",				"pts":0},
-		{"id":45, "name":"8 Dragon Warders",				"pts":50},
-		{"id":46, "name":"2 Corsair Nightwing Interceptors",		"pts":0},
-		{"id":47, "name":"3 Corsair Nightwing Interceptors",		"pts":75},
-		{"id":48, "name":"2 Void Dragon Phoenix Bombers",		"pts":0},
-		{"id":49, "name":"3 Void Dragon Phoenix Bombers",		"pts":100}
-
-	],
-	"formationConstraints":[
-		{"max":2, "name":"Exodite troupes", "from":[531,532,533,534,535,536,537], "forEach":[521,522], "name2":"Exodite Warhosts"},
-		{"max":1, "name":"Exodite Wind Knights", "from":[522], "forEach":[521], "name1":"Exodite Wind Knights"},
-		{"max":1, "name":"Raptor Out Riders", "from":[531], "forEach":[521,522], "name1":"Exodite Warhosts"},
-		{"max":1, "name":"Huntsmen", "from":[555], "forEach":[521,522], "name1":"Exodite Warhosts"},
-		{"maxPercent":33, "name":"Aircraft & Titans", "from":[540,541,542,543,544,545,546]},		
-		{"max":1, "name":"Spacecraft", "from":[546]},
-	  	{"max": 1, "perArmy": true, "from": [511]},
-		{"max": 1, "perArmy": true, "from": [533]},
-		{"max": 1, "perArmy": true, "from": [512]}
-
-	],
-	"upgradeConstraints":[
-	  	{"max": 1, "perArmy": true, "from": [9]},
-	  	{"max": 2, "from": [20]},
-		{"max": 1, "from": [30]},
-	  	{"max": 1, "from": [9,10,11]},
-	  	{"min":1, "max":1, "from": [12], "appliesTo": [521]},
-	  	{"min":1, "max":1, "from": [14,33,38], "appliesTo": [522]},
-	  	{"min":1, "max":1, "from": [15], "appliesTo": [531]},
-	  	{"min":5, "max":5, "from": [19,20], "appliesTo": [532]},
-	  	{"min":4, "max":6, "from": [21], "appliesTo": [533]},
-	  	{"min":4, "max":6, "from": [24], "appliesTo": [535]},
-	  	{"min":1, "max":1, "from": [42,43], "appliesTo": [536]},
-	  	{"min":7, "max":7, "from": [27,22], "appliesTo": [537]},
-		{"min":1, "max":1, "from": [44,45], "appliesTo": [534]},
-		{"min":0, "max":3, "from": [22], "appliesTo": [537]},
-	  	{"min":3, "max":3, "from": [35,36,37], "appliesTo": [544]},
-		{"min":1, "max":1, "from": [46,47], "appliesTo": [540]},
-		{"min":1, "max":1, "from": [48,49], "appliesTo": [541]},
-		{"min":1, "max":3, "from": [40,41], "appliesTo": [539]},
-	  	{"min":1, "max":2, "from": [32], "appliesTo": [511]}
-	]
+  "id": "Eldar Exodites",
+  "list_id": "EL_exodites_NETEA",
+  "faction_id": "exodites",
+  "ruleset": "NETEA",
+  "version": "Experimental",
+  "by": "",
+  "sections": [
+    {
+      "name": "Eldar Exodite Indivuals",
+      "formations": [
+        {
+          "string_id": "webway_portal",
+          "id": 511,
+          "name": "Webway Portal",
+          "pts": 0,
+          "upgrades": [
+            32
+          ]
+        },
+        {
+          "string_id": "great_drake",
+          "id": 512,
+          "name": "Great Drake",
+          "pts": 50,
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "Eldar Exodite Warhosts",
+      "formations": [
+        {
+          "string_id": "exodite_dragon_knights",
+          "id": 521,
+          "name": "Exodite Dragon Knights",
+          "pts": 300,
+          "upgrades": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "string_id": "exodite_wind_knights",
+          "id": 522,
+          "name": "Exodite Wind Knights",
+          "pts": 225,
+          "upgrades": [
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eldar Exodite troupes",
+      "formations": [
+        {
+          "string_id": "raptor_out_riders",
+          "id": 531,
+          "name": "Raptor Out Riders",
+          "pts": 200,
+          "upgrades": []
+        },
+        {
+          "string_id": "dragon_riders",
+          "id": 538,
+          "name": "Dragon Riders",
+          "pts": 200,
+          "units": "6 Dragon Riders",
+          "upgrades": []
+        },
+        {
+          "string_id": "megadons_troupe",
+          "id": 532,
+          "name": "Megadons Troupe",
+          "pts": 200,
+          "upgrades": []
+        },
+        {
+          "string_id": "great_megadons",
+          "id": 539,
+          "name": "Great Megadons",
+          "pts": 0,
+          "upgrades": [
+            40,
+            41
+          ]
+        },
+        {
+          "string_id": "outcast_rangers",
+          "id": 533,
+          "name": "Outcast Rangers ",
+          "pts": 0,
+          "upgrades": [
+            21
+          ]
+        },
+        {
+          "string_id": "war_walker",
+          "id": 535,
+          "name": "War Walker",
+          "pts": 50,
+          "upgrades": [
+            24
+          ]
+        },
+        {
+          "string_id": "raptor_herder",
+          "id": 536,
+          "name": "Raptor Herder ",
+          "pts": 225,
+          "upgrades": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "string_id": "exodite_militia",
+          "id": 537,
+          "name": "Exodite Militia",
+          "pts": 150,
+          "upgrades": [
+            30
+          ]
+        },
+        {
+          "string_id": "dragon_keeper",
+          "id": 534,
+          "name": "Dragon Keeper",
+          "pts": 225,
+          "upgrades": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "string_id": "huntsmen",
+          "id": 555,
+          "name": "Huntsmen",
+          "pts": 175,
+          "units": "5 Huntsmen",
+          "upgrades": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPACESHIPS, AIRCRAFT & TITANS",
+      "formations": [
+        {
+          "string_id": "colossal_carnosaur",
+          "id": 542,
+          "name": "Colossal Carnosaur",
+          "pts": 350,
+          "units": "1 Colossal Carnosaurus",
+          "upgrades": []
+        },
+        {
+          "string_id": "colossal_carnosaur_pack",
+          "id": 543,
+          "name": "Colossal Carnosaur Pack",
+          "pts": 650,
+          "units": "2 Colossal Carnosaurus",
+          "upgrades": []
+        },
+        {
+          "string_id": "thunder_beast",
+          "id": 545,
+          "name": "Thunder Beast",
+          "pts": 575,
+          "units": "1 Thunder Beast ",
+          "upgrades": []
+        },
+        {
+          "string_id": "eldar_knights",
+          "id": 544,
+          "name": "Eldar Knights",
+          "pts": 350,
+          "upgrades": []
+        },
+        {
+          "string_id": "corsair_nightwing",
+          "id": 540,
+          "name": "Corsair Nightwing",
+          "pts": 225,
+          "upgrades": []
+        },
+        {
+          "string_id": "corsair_void_dragon_phoenix",
+          "id": 541,
+          "name": "Corsair Void Dragon Phoenix",
+          "pts": 225,
+          "upgrades": []
+        },
+        {
+          "string_id": "corsair_spacecraft",
+          "id": 546,
+          "name": "Corsair Spacecraft",
+          "pts": 200,
+          "units": "One Eclipse Cruiser",
+          "upgrades": []
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "exodite_dragon_king",
+      "id": 9,
+      "name": "Exodite Dragon King",
+      "pts": 100
+    },
+    {
+      "string_id": "exodite_dragon_prince",
+      "id": 10,
+      "name": "Exodite Dragon Prince",
+      "pts": 25
+    },
+    {
+      "string_id": "dragonsinger",
+      "id": 11,
+      "name": "Dragonsinger",
+      "pts": 25
+    },
+    {
+      "string_id": "8_exodite_dragon_knights",
+      "id": 12,
+      "name": "8 Exodite Dragon Knights",
+      "pts": 0
+    },
+    {
+      "string_id": "pteradon_riders",
+      "id": 13,
+      "name": "Pteradon Riders",
+      "pts": 0
+    },
+    {
+      "string_id": "6_exodite_wind_knights",
+      "id": 14,
+      "name": "6 Exodite Wind Knights",
+      "pts": 0
+    },
+    {
+      "string_id": "6_six_raptor_outriders",
+      "id": 15,
+      "name": "6 Six Raptor Outriders ",
+      "pts": 0
+    },
+    {
+      "string_id": "wraithskulls",
+      "id": 16,
+      "name": "Wraithskulls",
+      "pts": 0
+    },
+    {
+      "string_id": "venom",
+      "id": 17,
+      "name": "Venom",
+      "pts": 25
+    },
+    {
+      "string_id": "falcon",
+      "id": 18,
+      "name": "Falcon",
+      "pts": 50
+    },
+    {
+      "string_id": "megadons",
+      "id": 19,
+      "name": "Megadons",
+      "pts": 0
+    },
+    {
+      "string_id": "void_watcher_megadons",
+      "id": 20,
+      "name": "Void Watcher Megadons",
+      "pts": 25
+    },
+    {
+      "string_id": "outcast_rangers",
+      "id": 21,
+      "name": "Outcast Rangers",
+      "pts": 25
+    },
+    {
+      "string_id": "heavy_weapon_platforms",
+      "id": 22,
+      "name": "Heavy Weapon platforms",
+      "pts": 0
+    },
+    {
+      "string_id": "megadon_with_d_cannon",
+      "id": 23,
+      "name": "Megadon with D-Cannon",
+      "pts": 50
+    },
+    {
+      "string_id": "war_walkers",
+      "id": 24,
+      "name": "War Walkers",
+      "pts": 25
+    },
+    {
+      "string_id": "maiden_sword_megadons",
+      "id": 25,
+      "name": "Maiden Sword Megadons",
+      "pts": 200
+    },
+    {
+      "string_id": "maiden_spirit_megadons",
+      "id": 26,
+      "name": "Maiden Spirit Megadons",
+      "pts": 200
+    },
+    {
+      "string_id": "exodite_militia",
+      "id": 27,
+      "name": "Exodite Militia",
+      "pts": 0
+    },
+    {
+      "string_id": "farseer",
+      "id": 28,
+      "name": "Farseer",
+      "pts": 0
+    },
+    {
+      "string_id": "megadon_mounted_heavy_weapons",
+      "id": 29,
+      "name": "Megadon Mounted Heavy Weapons",
+      "pts": 0
+    },
+    {
+      "string_id": "3_additional_megadon_mounted_heavy_weapons",
+      "id": 30,
+      "name": "3 Additional Megadon Mounted Heavy Weapons",
+      "pts": 50
+    },
+    {
+      "string_id": "webway_portal",
+      "id": 32,
+      "name": "Webway Portal",
+      "pts": 50
+    },
+    {
+      "string_id": "8_exodite_wind_knights",
+      "id": 33,
+      "name": "8 Exodite Wind Knights",
+      "pts": 75
+    },
+    {
+      "string_id": "megadon_with_heavy_weapon",
+      "id": 34,
+      "name": "Megadon with Heavy Weapon",
+      "pts": 0
+    },
+    {
+      "string_id": "fire_gales",
+      "id": 35,
+      "name": "Fire Gales",
+      "pts": 0
+    },
+    {
+      "string_id": "towering_destroyers",
+      "id": 36,
+      "name": "Towering Destroyers",
+      "pts": 0
+    },
+    {
+      "string_id": "bright_stallions",
+      "id": 37,
+      "name": "Bright Stallions",
+      "pts": 0
+    },
+    {
+      "string_id": "10_exodite_wind_knights",
+      "id": 38,
+      "name": "10 Exodite Wind Knights",
+      "pts": 125
+    },
+    {
+      "string_id": "sun_spear_megadon",
+      "id": 40,
+      "name": "Sun Spear Megadon",
+      "pts": 200
+    },
+    {
+      "string_id": "thundersaurs",
+      "id": 41,
+      "name": "Thundersaurs",
+      "pts": 200
+    },
+    {
+      "string_id": "6_raptor_herders",
+      "id": 42,
+      "name": "6 Raptor Herders",
+      "pts": 0
+    },
+    {
+      "string_id": "8_raptor_herders",
+      "id": 43,
+      "name": "8 Raptor Herders",
+      "pts": 50
+    },
+    {
+      "string_id": "6_dragon_warders",
+      "id": 44,
+      "name": "6 Dragon Warders",
+      "pts": 0
+    },
+    {
+      "string_id": "8_dragon_warders",
+      "id": 45,
+      "name": "8 Dragon Warders",
+      "pts": 50
+    },
+    {
+      "string_id": "2_corsair_nightwing_interceptors",
+      "id": 46,
+      "name": "2 Corsair Nightwing Interceptors",
+      "pts": 0
+    },
+    {
+      "string_id": "3_corsair_nightwing_interceptors",
+      "id": 47,
+      "name": "3 Corsair Nightwing Interceptors",
+      "pts": 75
+    },
+    {
+      "string_id": "2_void_dragon_phoenix_bombers",
+      "id": 48,
+      "name": "2 Void Dragon Phoenix Bombers",
+      "pts": 0
+    },
+    {
+      "string_id": "3_void_dragon_phoenix_bombers",
+      "id": 49,
+      "name": "3 Void Dragon Phoenix Bombers",
+      "pts": 100
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 2,
+      "name": "Exodite troupes",
+      "from": [
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537
+      ],
+      "forEach": [
+        521,
+        522
+      ],
+      "name2": "Exodite Warhosts"
+    },
+    {
+      "max": 1,
+      "name": "Exodite Wind Knights",
+      "from": [
+        522
+      ],
+      "forEach": [
+        521
+      ],
+      "name1": "Exodite Wind Knights"
+    },
+    {
+      "max": 1,
+      "name": "Raptor Out Riders",
+      "from": [
+        531
+      ],
+      "forEach": [
+        521,
+        522
+      ],
+      "name1": "Exodite Warhosts"
+    },
+    {
+      "max": 1,
+      "name": "Huntsmen",
+      "from": [
+        555
+      ],
+      "forEach": [
+        521,
+        522
+      ],
+      "name1": "Exodite Warhosts"
+    },
+    {
+      "maxPercent": 33,
+      "name": "Aircraft & Titans",
+      "from": [
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Spacecraft",
+      "from": [
+        546
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        511
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        533
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        512
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        9
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        20
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        30
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        12
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        14,
+        33,
+        38
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        15
+      ],
+      "appliesTo": [
+        531
+      ]
+    },
+    {
+      "min": 5,
+      "max": 5,
+      "from": [
+        19,
+        20
+      ],
+      "appliesTo": [
+        532
+      ]
+    },
+    {
+      "min": 4,
+      "max": 6,
+      "from": [
+        21
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "min": 4,
+      "max": 6,
+      "from": [
+        24
+      ],
+      "appliesTo": [
+        535
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        42,
+        43
+      ],
+      "appliesTo": [
+        536
+      ]
+    },
+    {
+      "min": 7,
+      "max": 7,
+      "from": [
+        27,
+        22
+      ],
+      "appliesTo": [
+        537
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        44,
+        45
+      ],
+      "appliesTo": [
+        534
+      ]
+    },
+    {
+      "min": 0,
+      "max": 3,
+      "from": [
+        22
+      ],
+      "appliesTo": [
+        537
+      ]
+    },
+    {
+      "min": 3,
+      "max": 3,
+      "from": [
+        35,
+        36,
+        37
+      ],
+      "appliesTo": [
+        544
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        46,
+        47
+      ],
+      "appliesTo": [
+        540
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        48,
+        49
+      ],
+      "appliesTo": [
+        541
+      ]
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "from": [
+        40,
+        41
+      ],
+      "appliesTo": [
+        539
+      ]
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "from": [
+        32
+      ],
+      "appliesTo": [
+        511
+      ]
+    }
+  ]
 }

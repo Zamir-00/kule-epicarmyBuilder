@@ -1,123 +1,721 @@
 {
-	"id":"Blood Angels",
-	"version":"V3.1 <a href=\"hhttp://taccmd.tacticalwargames.net/viewtopic.php?f=73&t=33805\">TCMD forum</a>",
-	"by":"Kyussinchains && freefall",
-	
-"sections":[
-		
-{"name":"DETACHMENTS", "formations":[
-			
-{"id":534, "name":"Death Company", "units": "4 Death Company Units plus Transport",	"pts":250, "upgrades":[41,13]},
-{"id":532, "name":"Assault Detachment", 		"pts":0,   "upgrades":[11,30,60,31,32,33,14,71,18,53,26]},
-{"id":533, "name":"Bike Detachment", 			"pts":200, "upgrades":[30,31,32,33]},
-
-{"id":535, "name":"Devastator Detachment", "pts":250, "units":"4 Blood Angels Devastator Units plus Transport", "upgrades":[30,31,32,33,14,71,18,53,21,80,81,82,22,83,84,85,23,26,42,43]},	
-{"id":536, "name":"Land Speeders",			"pts":200, "upgrades":[30,31,32,33]},
-{"id":537, "name":"Landing Craft",			"pts":350, "upgrades":[]},
-{"id":538, "name":"Predators",				"pts":275, "upgrades":[30,31,32,33,23]},
-
-{"id":539, "name":"Scout Detachment",			"pts":150, "units":"4 Scouts plus Transport", "upgrades":[70,30,31,32,33,42,43]},
-{"id":540, "name":"Spacecraft",				"pts":200, "upgrades":[]}, 
-{"id":541, "name":"Stormraven",				"pts":300, "units":"4 Stormraven Gunships", "upgrades":[]},
-{"id":542, "name":"Tactical Detachment",		"pts":275, "units":"6 Blood Angels Tacticals plus Transport", "upgrades":[30,31,32,33,14,71,18,53,21,80,81,82,22,83,84,85,23,26,42,43]},
-{"id":543, "name":"Terminator Detachment",		"pts":350, "units":"4 Blood Angels Terminators", "upgrades":[30,31,32,33,14,71,18,53,21,80,81,82,22,83,84,85,26]}
-
-		]},
-
-		{"name":"AIR SUPPORT", "formations":[
-			
-{"id":549, "name":"Storm Talons",		"pts":200, "upgrades":[], "units":"2 Storm Talons"},			
-{"id":544, "name":"Thunderhawk",			"pts":200, "upgrades":[], "units":"1 Thunderhawk Gunship"}
-		]}],
-	
-"upgrades":[
-		
-{"id":11, "name":"4 Blood Angels Assault Marine Units",		"pts":200},
-{"id":50, "name":"6 Blood Angels Assault Marine Units",		"pts":250},
-{"id":12, "name":"Battlebarge",					"pts":150},
-{"id":13, "name":"Death Company Dreadnought",			"pts":75},
-{"id":14, "name":"Furioso Dreadnought (2x Power Fist)", 			"pts":50},
-{"id":71, "name":"Furioso Dreadnought (Frag Cannon)", 			"pts":50},
-{"id":15, "name":"2 Land Speeders",				"pts":100},
-{"id":16, "name":"Blood Angels Bike Unit",			"pts":0},
-{"id":17, "name":"Blood Angels Attack Bike",					"pts":0},
-{"id":18, "name":"Vindicator",			"pts":50},
-{"id":53, "name":"2 Vindicators",			"pts":75},
-{"id":70, "name":"Sniper",				"pts":10},
-
-{"id":19, "name":"Baal Predator",				"pts":0},
-{"id":44, "name":"Baal Predator Infernus",			"pts":0},
-{"id":74, "name":"Baal Predator Infernus (Magna Melta)",	"pts":0},
-{"id":20, "name":"Predator Annihilator",			"pts":75},
-{"id":21, "name":"Land Raider", 				"pts":75},
-{"id":80, "name":"2 Land Raider", 				"pts":125},
-{"id":81, "name":"3 Land Raider", 				"pts":200},
-{"id":82, "name":"4 Land Raider", 				"pts":250},
-{"id":22, "name":"Land Raider Redeemer", 			"pts":75},
-{"id":83, "name":"2 Land Raider Redeemer", 			"pts":125},
-{"id":84, "name":"3 Land Raider Redeemer", 			"pts":200},
-{"id":85, "name":"4 Land Raider Redeemer", 			"pts":250},
-{"id":23, "name":"Hunter",				"pts":75},
-{"id":24, "name":"Blood Angels TL Lascannon Razorback", 	"pts":25},
-{"id":25, "name":"Blood Angels TL Heavy Bolter Razorback", 	"pts":25},
-{"id":26, "name":"Stormraven Gunship", 				"pts":75},
-{"id":27, "name":"Land Speeder",				"pts":0},
-{"id":28, "name":"Land Speeder Tornado",			"pts":0},
-{"id":29, "name":"Land Speeder Typhoon",			"pts":10},
-{"id":30, "name":"Supreme Commander", 				"pts":100},
-{"id":60, "name":"Supreme Commander Honour Guard",		"pts":125},
-{"id":31, "name":"Captain",					"pts":50},
-{"id":32, "name":"Chaplain",					"pts":50},
-{"id":33, "name":"Librarian",					"pts":50},
-{"id":34, "name":"4 Death Company units", 			"pts":0},
-
-{"id":36, "name":"Strike Cruiser",				"pts":0},
-{"id":37, "name":"Blood Angels Bike",				"pts":0},
-{"id":38, "name":"Attack Bike",					"pts":0},
-{"id":39, "name":"Rhinos",					"pts":0},
-{"id":40, "name":"Drop Pods",					"pts":0},
-{"id":42, "name":"Razorback (Lascannon)",					"pts":25},
-{"id":43, "name":"Razorback (Heavy Bolter)",					"pts":25},
-{"id":41, "name":"Jump Packs",					"pts":25}
-
-
-
-	],
-	
-"formationConstraints":[
-		
-{"max":1, "name":"Spacecraft", "from":[540]},
-{"max":1, "name":"Death Company", "from":[534]},
-{"min":1, "name":"Death Company", "from":[534]},
-{"maxPercent":33, "name":"Air Support", "from":[549,544]}
-	],
-	
-"upgradeConstraints":[
-		
-{"max":1, "from":[41]},	
-{"max":1, "from":[23]},	
-{"max":4, "from":[70]},	
-{"min":5, "max":5, "from":[27,28,29], "appliesTo":[536]},		
-{"min":5, "max":5, "from":[16,17], "appliesTo":[533]},		
-{"min":4, "max":4, "from":[19,44,74], "appliesTo":[538]},		
-		
-{"max":6, "name":"Razorbacks", "from":[24,25]},
-{"min":1, "max":1, "from":[32], "appliesTo":[534]},	
-{"min":1, "max":1, "from":[11,50], "appliesTo":[532]},	
-{"max":1, "name":"Cmdr", "from":[30,60,31,32,33]},
-		
-{"max":1, "perArmy":true, "from":[30,60]},		
-{"max":2, "name":"Dreadnoughts", "from":[13]},
-{"max":2, "name":"Dreadnoughts", "from":[14,71]},
-		
-{"max":1, "from":[18,53]},
-{"max":1, "name":"Land Raiders", "from":[21,80,81,82,22,83,84,85]},
-{"max":4, "name":"Storm Ravens", "from":[26]},
-{"max":4, "name":"Razorbacks", "from":[42,43], "appliesTo":[535,539]},
-{"max":6, "name":"Razorbacks", "from":[42,43], "appliesTo":[542]},
-{"min":1, "max":1, "name":"Vindicator", "from":[50,51,52], "appliesTo":[550]},
-		
-{"min":1, "max":1, "from":[36,12], "appliesTo":[540]}
-
-	]
+  "id": "Blood Angels",
+  "list_id": "SM_bloodAngels_NETEA",
+  "faction_id": "bloodangels",
+  "ruleset": "NETEA",
+  "version": "V3.1 <a href=\"hhttp://taccmd.tacticalwargames.net/viewtopic.php?f=73&t=33805\">TCMD forum</a>",
+  "by": "Kyussinchains && freefall",
+  "sections": [
+    {
+      "name": "DETACHMENTS",
+      "formations": [
+        {
+          "string_id": "death_company",
+          "id": 534,
+          "name": "Death Company",
+          "units": "4 Death Company Units plus Transport",
+          "pts": 250,
+          "upgrades": [
+            41,
+            13
+          ]
+        },
+        {
+          "string_id": "assault_detachment",
+          "id": 532,
+          "name": "Assault Detachment",
+          "pts": 0,
+          "upgrades": [
+            11,
+            30,
+            60,
+            31,
+            32,
+            33,
+            14,
+            71,
+            18,
+            53,
+            26
+          ]
+        },
+        {
+          "string_id": "bike_detachment",
+          "id": 533,
+          "name": "Bike Detachment",
+          "pts": 200,
+          "upgrades": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        {
+          "string_id": "devastator_detachment",
+          "id": 535,
+          "name": "Devastator Detachment",
+          "pts": 250,
+          "units": "4 Blood Angels Devastator Units plus Transport",
+          "upgrades": [
+            30,
+            31,
+            32,
+            33,
+            14,
+            71,
+            18,
+            53,
+            21,
+            80,
+            81,
+            82,
+            22,
+            83,
+            84,
+            85,
+            23,
+            26,
+            42,
+            43
+          ]
+        },
+        {
+          "string_id": "land_speeders",
+          "id": 536,
+          "name": "Land Speeders",
+          "pts": 200,
+          "upgrades": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        {
+          "string_id": "landing_craft",
+          "id": 537,
+          "name": "Landing Craft",
+          "pts": 350,
+          "upgrades": []
+        },
+        {
+          "string_id": "predators",
+          "id": 538,
+          "name": "Predators",
+          "pts": 275,
+          "upgrades": [
+            30,
+            31,
+            32,
+            33,
+            23
+          ]
+        },
+        {
+          "string_id": "scout_detachment",
+          "id": 539,
+          "name": "Scout Detachment",
+          "pts": 150,
+          "units": "4 Scouts plus Transport",
+          "upgrades": [
+            70,
+            30,
+            31,
+            32,
+            33,
+            42,
+            43
+          ]
+        },
+        {
+          "string_id": "spacecraft",
+          "id": 540,
+          "name": "Spacecraft",
+          "pts": 200,
+          "upgrades": []
+        },
+        {
+          "string_id": "stormraven",
+          "id": 541,
+          "name": "Stormraven",
+          "pts": 300,
+          "units": "4 Stormraven Gunships",
+          "upgrades": []
+        },
+        {
+          "string_id": "tactical_detachment",
+          "id": 542,
+          "name": "Tactical Detachment",
+          "pts": 275,
+          "units": "6 Blood Angels Tacticals plus Transport",
+          "upgrades": [
+            30,
+            31,
+            32,
+            33,
+            14,
+            71,
+            18,
+            53,
+            21,
+            80,
+            81,
+            82,
+            22,
+            83,
+            84,
+            85,
+            23,
+            26,
+            42,
+            43
+          ]
+        },
+        {
+          "string_id": "terminator_detachment",
+          "id": 543,
+          "name": "Terminator Detachment",
+          "pts": 350,
+          "units": "4 Blood Angels Terminators",
+          "upgrades": [
+            30,
+            31,
+            32,
+            33,
+            14,
+            71,
+            18,
+            53,
+            21,
+            80,
+            81,
+            82,
+            22,
+            83,
+            84,
+            85,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AIR SUPPORT",
+      "formations": [
+        {
+          "string_id": "storm_talons",
+          "id": 549,
+          "name": "Storm Talons",
+          "pts": 200,
+          "upgrades": [],
+          "units": "2 Storm Talons"
+        },
+        {
+          "string_id": "thunderhawk",
+          "id": 544,
+          "name": "Thunderhawk",
+          "pts": 200,
+          "upgrades": [],
+          "units": "1 Thunderhawk Gunship"
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "4_blood_angels_assault_marine_units",
+      "id": 11,
+      "name": "4 Blood Angels Assault Marine Units",
+      "pts": 200
+    },
+    {
+      "string_id": "6_blood_angels_assault_marine_units",
+      "id": 50,
+      "name": "6 Blood Angels Assault Marine Units",
+      "pts": 250
+    },
+    {
+      "string_id": "battlebarge",
+      "id": 12,
+      "name": "Battlebarge",
+      "pts": 150
+    },
+    {
+      "string_id": "death_company_dreadnought",
+      "id": 13,
+      "name": "Death Company Dreadnought",
+      "pts": 75
+    },
+    {
+      "string_id": "furioso_dreadnought_2x_power_fist",
+      "id": 14,
+      "name": "Furioso Dreadnought (2x Power Fist)",
+      "pts": 50
+    },
+    {
+      "string_id": "furioso_dreadnought_frag_cannon",
+      "id": 71,
+      "name": "Furioso Dreadnought (Frag Cannon)",
+      "pts": 50
+    },
+    {
+      "string_id": "2_land_speeders",
+      "id": 15,
+      "name": "2 Land Speeders",
+      "pts": 100
+    },
+    {
+      "string_id": "blood_angels_bike_unit",
+      "id": 16,
+      "name": "Blood Angels Bike Unit",
+      "pts": 0
+    },
+    {
+      "string_id": "blood_angels_attack_bike",
+      "id": 17,
+      "name": "Blood Angels Attack Bike",
+      "pts": 0
+    },
+    {
+      "string_id": "vindicator",
+      "id": 18,
+      "name": "Vindicator",
+      "pts": 50
+    },
+    {
+      "string_id": "2_vindicators",
+      "id": 53,
+      "name": "2 Vindicators",
+      "pts": 75
+    },
+    {
+      "string_id": "sniper",
+      "id": 70,
+      "name": "Sniper",
+      "pts": 10
+    },
+    {
+      "string_id": "baal_predator",
+      "id": 19,
+      "name": "Baal Predator",
+      "pts": 0
+    },
+    {
+      "string_id": "baal_predator_infernus",
+      "id": 44,
+      "name": "Baal Predator Infernus",
+      "pts": 0
+    },
+    {
+      "string_id": "baal_predator_infernus_magna_melta",
+      "id": 74,
+      "name": "Baal Predator Infernus (Magna Melta)",
+      "pts": 0
+    },
+    {
+      "string_id": "predator_annihilator",
+      "id": 20,
+      "name": "Predator Annihilator",
+      "pts": 75
+    },
+    {
+      "string_id": "land_raider",
+      "id": 21,
+      "name": "Land Raider",
+      "pts": 75
+    },
+    {
+      "string_id": "2_land_raider",
+      "id": 80,
+      "name": "2 Land Raider",
+      "pts": 125
+    },
+    {
+      "string_id": "3_land_raider",
+      "id": 81,
+      "name": "3 Land Raider",
+      "pts": 200
+    },
+    {
+      "string_id": "4_land_raider",
+      "id": 82,
+      "name": "4 Land Raider",
+      "pts": 250
+    },
+    {
+      "string_id": "land_raider_redeemer",
+      "id": 22,
+      "name": "Land Raider Redeemer",
+      "pts": 75
+    },
+    {
+      "string_id": "2_land_raider_redeemer",
+      "id": 83,
+      "name": "2 Land Raider Redeemer",
+      "pts": 125
+    },
+    {
+      "string_id": "3_land_raider_redeemer",
+      "id": 84,
+      "name": "3 Land Raider Redeemer",
+      "pts": 200
+    },
+    {
+      "string_id": "4_land_raider_redeemer",
+      "id": 85,
+      "name": "4 Land Raider Redeemer",
+      "pts": 250
+    },
+    {
+      "string_id": "hunter",
+      "id": 23,
+      "name": "Hunter",
+      "pts": 75
+    },
+    {
+      "string_id": "blood_angels_tl_lascannon_razorback",
+      "id": 24,
+      "name": "Blood Angels TL Lascannon Razorback",
+      "pts": 25
+    },
+    {
+      "string_id": "blood_angels_tl_heavy_bolter_razorback",
+      "id": 25,
+      "name": "Blood Angels TL Heavy Bolter Razorback",
+      "pts": 25
+    },
+    {
+      "string_id": "stormraven_gunship",
+      "id": 26,
+      "name": "Stormraven Gunship",
+      "pts": 75
+    },
+    {
+      "string_id": "land_speeder",
+      "id": 27,
+      "name": "Land Speeder",
+      "pts": 0
+    },
+    {
+      "string_id": "land_speeder_tornado",
+      "id": 28,
+      "name": "Land Speeder Tornado",
+      "pts": 0
+    },
+    {
+      "string_id": "land_speeder_typhoon",
+      "id": 29,
+      "name": "Land Speeder Typhoon",
+      "pts": 10
+    },
+    {
+      "string_id": "supreme_commander",
+      "id": 30,
+      "name": "Supreme Commander",
+      "pts": 100
+    },
+    {
+      "string_id": "supreme_commander_honour_guard",
+      "id": 60,
+      "name": "Supreme Commander Honour Guard",
+      "pts": 125
+    },
+    {
+      "string_id": "captain",
+      "id": 31,
+      "name": "Captain",
+      "pts": 50
+    },
+    {
+      "string_id": "chaplain",
+      "id": 32,
+      "name": "Chaplain",
+      "pts": 50
+    },
+    {
+      "string_id": "librarian",
+      "id": 33,
+      "name": "Librarian",
+      "pts": 50
+    },
+    {
+      "string_id": "4_death_company_units",
+      "id": 34,
+      "name": "4 Death Company units",
+      "pts": 0
+    },
+    {
+      "string_id": "strike_cruiser",
+      "id": 36,
+      "name": "Strike Cruiser",
+      "pts": 0
+    },
+    {
+      "string_id": "blood_angels_bike",
+      "id": 37,
+      "name": "Blood Angels Bike",
+      "pts": 0
+    },
+    {
+      "string_id": "attack_bike",
+      "id": 38,
+      "name": "Attack Bike",
+      "pts": 0
+    },
+    {
+      "string_id": "rhinos",
+      "id": 39,
+      "name": "Rhinos",
+      "pts": 0
+    },
+    {
+      "string_id": "drop_pods",
+      "id": 40,
+      "name": "Drop Pods",
+      "pts": 0
+    },
+    {
+      "string_id": "razorback_lascannon",
+      "id": 42,
+      "name": "Razorback (Lascannon)",
+      "pts": 25
+    },
+    {
+      "string_id": "razorback_heavy_bolter",
+      "id": 43,
+      "name": "Razorback (Heavy Bolter)",
+      "pts": 25
+    },
+    {
+      "string_id": "jump_packs",
+      "id": 41,
+      "name": "Jump Packs",
+      "pts": 25
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "name": "Spacecraft",
+      "from": [
+        540
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Death Company",
+      "from": [
+        534
+      ]
+    },
+    {
+      "min": 1,
+      "name": "Death Company",
+      "from": [
+        534
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "Air Support",
+      "from": [
+        549,
+        544
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        41
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        23
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        70
+      ]
+    },
+    {
+      "min": 5,
+      "max": 5,
+      "from": [
+        27,
+        28,
+        29
+      ],
+      "appliesTo": [
+        536
+      ]
+    },
+    {
+      "min": 5,
+      "max": 5,
+      "from": [
+        16,
+        17
+      ],
+      "appliesTo": [
+        533
+      ]
+    },
+    {
+      "min": 4,
+      "max": 4,
+      "from": [
+        19,
+        44,
+        74
+      ],
+      "appliesTo": [
+        538
+      ]
+    },
+    {
+      "max": 6,
+      "name": "Razorbacks",
+      "from": [
+        24,
+        25
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        32
+      ],
+      "appliesTo": [
+        534
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        11,
+        50
+      ],
+      "appliesTo": [
+        532
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Cmdr",
+      "from": [
+        30,
+        60,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        30,
+        60
+      ]
+    },
+    {
+      "max": 2,
+      "name": "Dreadnoughts",
+      "from": [
+        13
+      ]
+    },
+    {
+      "max": 2,
+      "name": "Dreadnoughts",
+      "from": [
+        14,
+        71
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        18,
+        53
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Land Raiders",
+      "from": [
+        21,
+        80,
+        81,
+        82,
+        22,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "max": 4,
+      "name": "Storm Ravens",
+      "from": [
+        26
+      ]
+    },
+    {
+      "max": 4,
+      "name": "Razorbacks",
+      "from": [
+        42,
+        43
+      ],
+      "appliesTo": [
+        535,
+        539
+      ]
+    },
+    {
+      "max": 6,
+      "name": "Razorbacks",
+      "from": [
+        42,
+        43
+      ],
+      "appliesTo": [
+        542
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "name": "Vindicator",
+      "from": [
+        50,
+        51,
+        52
+      ],
+      "appliesTo": [
+        550
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        36,
+        12
+      ],
+      "appliesTo": [
+        540
+      ]
+    }
+  ]
 }

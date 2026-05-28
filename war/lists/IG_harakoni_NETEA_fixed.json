@@ -1,73 +1,481 @@
 {
-   "id":"Harakoni Warhawks",
-   "version":"v1.4.2",
-   "by":"Signal",
-   "sections":[
-      {"name":"Harakoni Company", "formations":[
-         {"id":532, "name":"Strike Company",       "pts":275, "units":"1 Commander, 7 Warhawks, 2 Stormtroopers", "upgrades":[11,12,13,14,15,16,17,18]},
-         {"id":533, "name":"Airmobile Company",      "pts":325, "units":"1 Commander, 3 Warhawks, 2 Stormtroopers, 3 Valkyries", "upgrades":[11,12,13,14,15,16,17,18,19]},
-         {"id":534, "name":"Storm Company",          "pts":250, "units":"1 Commander, 3 Warhawks, 4 Stormtroopers", "upgrades":[11,12,13,14,15,16,17,18]}
-      ]},
-      {"name":"SUPPORT COMPANIES", "formations":[
-         {"id":535, "name":"Reconnaissance Squadron",   "pts":0, "upgrades":[]},
-         {"id":536, "name":"Demolition Specialists",      "pts":200, "upgrades":[16,21], "units":"1 Tech Priest and 7 Sappers"},
-         {"id":537, "name":"Tank Hunter Squadron",      "pts":0, "upgrades":[22,23,24]},
-         {"id":538, "name":"Light Artillery Battery",   "pts":200, "units":"4 Support Sentinels"}
-      ]},
-      {"name":"IMPERIAL ALLIES", "formations":[
-         {"id":539, "name":"Marauder Heavy Bomber",   "pts":175, "upgrades":[], "units":"1 Heavy Bomber"},
-         {"id":540, "name":"Marauder Destroyer",      "pts":175, "upgrades":[], "units":"1 Marauder Destroyer"},
-         {"id":541, "name":"Marauder Spectre",      "pts":225, "upgrades":[], "units":"1 Maurader Spectre"},
-         {"id":542, "name":"Spacecraft",      "pts":150, "upgrades":[]},
-         {"id":543, "name":"Fighter Squadron",      "pts":0, "upgrades":[31]},
-         {"id":544, "name":"Linebreaker Formation",      "pts":300, "upgrades":[], "units":"6 Imperial Guard Infantry, 3 Chimeras"}
-      ]}
-   ],
-   "upgrades":[
-      {"id":11, "name":"Regimental Commander",         "pts":100},
-      {"id":12, "name":"4 Fire Support Teams",      "pts":100},
-      {"id":13, "name":"4 Warhawks",      "pts":75},
-      {"id":14, "name":"2 Stormtroopers",    "pts":50},
-      {"id":15, "name":"Forward Observer",   "pts":100},
-      {"id":16, "name":"Grav Glider",      "pts":50},
-      {"id":17, "name":"2 Vultures",   "pts":125},
-      {"id":18, "name":"2 Vulture Punishers",      "pts":175},
-      {"id":19, "name":"Valkyrie Transports",      "pts":25},
-      {"id":20, "name":"6 Sentinels",      "pts":150},
-      {"id":21, "name":"4 Vendetta Gunships",      "pts":150},
-      {"id":22, "name":"Vendetta Gunship",      "pts":75},
-      {"id":23, "name":"Vulture Gunship",      "pts":75},
-      {"id":24, "name":"Vulture Punisher",      "pts":100},
-      {"id":25, "name":"9 Sentinels",      "pts":200},
-      {"id":26, "name":"3 Conquerors",      "pts":0},
-      {"id":27, "name":"6 Conquerors",      "pts":150},
-      {"id":28, "name":"Lunar Cruiser",      "pts":0},
-      {"id":29, "name":"Emperor Battleship",      "pts":150},
-      {"id":30, "name":"Onero Overflight",      "pts":0},
-      {"id":31, "name":"Lightning Interceptor",      "pts":75},
-      {"id":32, "name":"Lightning Strike Fighters",      "pts":75},
-      {"id":33, "name":"Thunderbolts",      "pts":75},
-      {"id":34, "name":"Lightning Strike Fighters",      "pts":100},
-      {"id":35, "name":"Thunderbolts",      "pts":100},
-      {"id":36, "name":"3 Conquerors",      "pts":150}
-   ],
-   "formationConstraints":[
-      {"max":2, "name":"Support Formations", "from":[535,536,537,538], "forEach":[532,533,534], "name2":"Company"},
-      {"max":1, "name":"Light Artillery Battery", "from":[538], "forEach":[535], "name2":"Reconnaissance Squadron"},
-      {"max":1, "name":"Spacecraft", "from":[542]},
-     {"max":1, "name":"Forward Observer", "perPoints":2000, "from":[15]},
-      {"maxPercent":33, "name":"Navy & Support", "from":[539,540,541,542,543,544]}
-   ],
-   "upgradeConstraints":[
-      {"min":4, "max":6, "from":[22,23,24], "appliesTo":[537]},
-      {"min":0, "max":2, "from":[24], "appliesTo":[537]},
-      {"min":2, "max":4, "from":[31,32,33,34,35], "appliesTo":[543]},
-      {"min":0, "max":2, "from":[32,33], "appliesTo":[543]},
-      {"max":1, "perArmy":true, "from":[11]},
-      {"max":3, "from":[11,12,13,14,15,16,17,18]},
-      {"max":1, "from":[17,18]},
-      {"min":1, "max":1, "from":[20,25], "appliesTo":[535]},
-      {"min":1, "max":1, "from":[26,27], "appliesTo":[544]},
-      {"min":1, "max":1, "from":[28,29,30], "appliesTo":[542]}
-   ]
+  "id": "Harakoni Warhawks",
+  "list_id": "IG_harakoni_NETEA_fixed",
+  "faction_id": "harakoni-netea-fixed",
+  "version": "v1.4.2",
+  "by": "Signal",
+  "sections": [
+    {
+      "name": "Harakoni Company",
+      "formations": [
+        {
+          "string_id": "strike_company",
+          "id": 532,
+          "name": "Strike Company",
+          "pts": 275,
+          "units": "1 Commander, 7 Warhawks, 2 Stormtroopers",
+          "upgrades": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "string_id": "airmobile_company",
+          "id": 533,
+          "name": "Airmobile Company",
+          "pts": 325,
+          "units": "1 Commander, 3 Warhawks, 2 Stormtroopers, 3 Valkyries",
+          "upgrades": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "string_id": "storm_company",
+          "id": 534,
+          "name": "Storm Company",
+          "pts": 250,
+          "units": "1 Commander, 3 Warhawks, 4 Stormtroopers",
+          "upgrades": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORT COMPANIES",
+      "formations": [
+        {
+          "string_id": "reconnaissance_squadron",
+          "id": 535,
+          "name": "Reconnaissance Squadron",
+          "pts": 0,
+          "upgrades": []
+        },
+        {
+          "string_id": "demolition_specialists",
+          "id": 536,
+          "name": "Demolition Specialists",
+          "pts": 200,
+          "upgrades": [
+            16,
+            21
+          ],
+          "units": "1 Tech Priest and 7 Sappers"
+        },
+        {
+          "string_id": "tank_hunter_squadron",
+          "id": 537,
+          "name": "Tank Hunter Squadron",
+          "pts": 0,
+          "upgrades": [
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "string_id": "light_artillery_battery",
+          "id": 538,
+          "name": "Light Artillery Battery",
+          "pts": 200,
+          "units": "4 Support Sentinels"
+        }
+      ]
+    },
+    {
+      "name": "IMPERIAL ALLIES",
+      "formations": [
+        {
+          "string_id": "marauder_heavy_bomber",
+          "id": 539,
+          "name": "Marauder Heavy Bomber",
+          "pts": 175,
+          "upgrades": [],
+          "units": "1 Heavy Bomber"
+        },
+        {
+          "string_id": "marauder_destroyer",
+          "id": 540,
+          "name": "Marauder Destroyer",
+          "pts": 175,
+          "upgrades": [],
+          "units": "1 Marauder Destroyer"
+        },
+        {
+          "string_id": "marauder_spectre",
+          "id": 541,
+          "name": "Marauder Spectre",
+          "pts": 225,
+          "upgrades": [],
+          "units": "1 Maurader Spectre"
+        },
+        {
+          "string_id": "spacecraft",
+          "id": 542,
+          "name": "Spacecraft",
+          "pts": 150,
+          "upgrades": []
+        },
+        {
+          "string_id": "fighter_squadron",
+          "id": 543,
+          "name": "Fighter Squadron",
+          "pts": 0,
+          "upgrades": [
+            31
+          ]
+        },
+        {
+          "string_id": "linebreaker_formation",
+          "id": 544,
+          "name": "Linebreaker Formation",
+          "pts": 300,
+          "upgrades": [],
+          "units": "6 Imperial Guard Infantry, 3 Chimeras"
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "regimental_commander",
+      "id": 11,
+      "name": "Regimental Commander",
+      "pts": 100
+    },
+    {
+      "string_id": "4_fire_support_teams",
+      "id": 12,
+      "name": "4 Fire Support Teams",
+      "pts": 100
+    },
+    {
+      "string_id": "4_warhawks",
+      "id": 13,
+      "name": "4 Warhawks",
+      "pts": 75
+    },
+    {
+      "string_id": "2_stormtroopers",
+      "id": 14,
+      "name": "2 Stormtroopers",
+      "pts": 50
+    },
+    {
+      "string_id": "forward_observer",
+      "id": 15,
+      "name": "Forward Observer",
+      "pts": 100
+    },
+    {
+      "string_id": "grav_glider",
+      "id": 16,
+      "name": "Grav Glider",
+      "pts": 50
+    },
+    {
+      "string_id": "2_vultures",
+      "id": 17,
+      "name": "2 Vultures",
+      "pts": 125
+    },
+    {
+      "string_id": "2_vulture_punishers",
+      "id": 18,
+      "name": "2 Vulture Punishers",
+      "pts": 175
+    },
+    {
+      "string_id": "valkyrie_transports",
+      "id": 19,
+      "name": "Valkyrie Transports",
+      "pts": 25
+    },
+    {
+      "string_id": "6_sentinels",
+      "id": 20,
+      "name": "6 Sentinels",
+      "pts": 150
+    },
+    {
+      "string_id": "4_vendetta_gunships",
+      "id": 21,
+      "name": "4 Vendetta Gunships",
+      "pts": 150
+    },
+    {
+      "string_id": "vendetta_gunship",
+      "id": 22,
+      "name": "Vendetta Gunship",
+      "pts": 75
+    },
+    {
+      "string_id": "vulture_gunship",
+      "id": 23,
+      "name": "Vulture Gunship",
+      "pts": 75
+    },
+    {
+      "string_id": "vulture_punisher",
+      "id": 24,
+      "name": "Vulture Punisher",
+      "pts": 100
+    },
+    {
+      "string_id": "9_sentinels",
+      "id": 25,
+      "name": "9 Sentinels",
+      "pts": 200
+    },
+    {
+      "string_id": "3_conquerors",
+      "id": 26,
+      "name": "3 Conquerors",
+      "pts": 0
+    },
+    {
+      "string_id": "6_conquerors",
+      "id": 27,
+      "name": "6 Conquerors",
+      "pts": 150
+    },
+    {
+      "string_id": "lunar_cruiser",
+      "id": 28,
+      "name": "Lunar Cruiser",
+      "pts": 0
+    },
+    {
+      "string_id": "emperor_battleship",
+      "id": 29,
+      "name": "Emperor Battleship",
+      "pts": 150
+    },
+    {
+      "string_id": "onero_overflight",
+      "id": 30,
+      "name": "Onero Overflight",
+      "pts": 0
+    },
+    {
+      "string_id": "lightning_interceptor",
+      "id": 31,
+      "name": "Lightning Interceptor",
+      "pts": 75
+    },
+    {
+      "string_id": "lightning_strike_fighters",
+      "id": 32,
+      "name": "Lightning Strike Fighters",
+      "pts": 75
+    },
+    {
+      "string_id": "thunderbolts",
+      "id": 33,
+      "name": "Thunderbolts",
+      "pts": 75
+    },
+    {
+      "id": 34,
+      "name": "Lightning Strike Fighters",
+      "pts": 100
+    },
+    {
+      "id": 35,
+      "name": "Thunderbolts",
+      "pts": 100
+    },
+    {
+      "id": 36,
+      "name": "3 Conquerors",
+      "pts": 150
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 2,
+      "name": "Support Formations",
+      "from": [
+        535,
+        536,
+        537,
+        538
+      ],
+      "forEach": [
+        532,
+        533,
+        534
+      ],
+      "name2": "Company"
+    },
+    {
+      "max": 1,
+      "name": "Light Artillery Battery",
+      "from": [
+        538
+      ],
+      "forEach": [
+        535
+      ],
+      "name2": "Reconnaissance Squadron"
+    },
+    {
+      "max": 1,
+      "name": "Spacecraft",
+      "from": [
+        542
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Forward Observer",
+      "perPoints": 2000,
+      "from": [
+        15
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "Navy & Support",
+      "from": [
+        539,
+        540,
+        541,
+        542,
+        543,
+        544
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "min": 4,
+      "max": 6,
+      "from": [
+        22,
+        23,
+        24
+      ],
+      "appliesTo": [
+        537
+      ]
+    },
+    {
+      "min": 0,
+      "max": 2,
+      "from": [
+        24
+      ],
+      "appliesTo": [
+        537
+      ]
+    },
+    {
+      "min": 2,
+      "max": 4,
+      "from": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "appliesTo": [
+        543
+      ]
+    },
+    {
+      "min": 0,
+      "max": 2,
+      "from": [
+        32,
+        33
+      ],
+      "appliesTo": [
+        543
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        11
+      ]
+    },
+    {
+      "max": 3,
+      "from": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        17,
+        18
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        20,
+        25
+      ],
+      "appliesTo": [
+        535
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        26,
+        27
+      ],
+      "appliesTo": [
+        544
+      ]
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "from": [
+        28,
+        29,
+        30
+      ],
+      "appliesTo": [
+        542
+      ]
+    }
+  ]
 }

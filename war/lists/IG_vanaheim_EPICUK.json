@@ -1,392 +1,427 @@
 {
-   "id": "Vanaheim 7th Air Cavalry",
-   "version": "Epic UK v090625",
-   "by": "Kyussinchains",
-   "sections": [
-      {
-         "name": "COMPANIES",
-         "formations": [
-            {
-               "id": 521,
-               "name": "Regimental HQ",
-               "pts": 375,
-               "units": "Supreme Commander, 3 Vanaheim Troopers",
-               "upgrades": [
-                  26,
-                  27,
-                  28,
-                  29,
-                  33
-               ]
-            },
-            {
-               "id": 522,
-               "name": "Air Cavalry Company",
-               "pts": 325,
-               "units": "Commander, 3 Vanaheim Troopers",
-               "upgrades": [
-                  26,
-                  27,
-                  28,
-                  29,
-                  33
-               ]
-            }
-         ]
-      },
-      {
-         "name": "SUPPORT FORMATIONS",
-         "formations": [
-            {
-               "id": 501,
-               "name": "Vulture Squadron",
-               "pts": 300,
-               "units": "4 Vultures",
-               "upgrades": []
-            },
-            {
-               "id": 502,
-               "name": "Sentinel Squadron",
-               "pts": 100,
-               "upgrades": [
-                  35
-               ]
-            },
-            {
-               "id": 503,
-               "name": "Storm Troopers",
-               "pts": 350,
-               "units": "8 Storm Troopers, 4 Valkyries",
-               "upgrades": []
-            }
-        ]
-      },
-      {
-         "name": "IMPERIAL NAVY",
-         "formations": [
-            {
-               "id": 531,
-               "name": "Thunderbolt Fighters",
-               "pts": 0,
-               "upgrades": [13]
-            },
-            {
-               "id": 532,
-               "name": "Lightning Flight",
-               "pts": 0,
-               "upgrades": [14]
-            },
-            {
-               "id": 533,
-               "name": "Marauder Destroyers",
-               "pts": 275,
-               "units": "2 Marauder Destroyers",
-               "upgrades": []
-            },
-            {
-               "id": 534,
-               "name": "Marauder Bombers",
-               "pts": 250,
-               "units": "2 Marauder Bombers",
-               "upgrades": []
-            },
-			{
-               "id": 504,
-               "name": "Orbital Support",
-               "pts": 150,
-               "upgrades": []
-            }
-         ]
-      }
-   ],
-   "upgrades": [
-      {
-         "id": 26,
-         "name": "Fire Support Platoon (2 Fire Support, 1 Valkyrie)",
-         "pts": 100
-      },
-      {
-         "id": 27,
-         "name": "Mortar Platoon (2 Mortars, 1 Valkyrie)",
-         "pts": 75
-      },
-      {
-         "id": 28,
-         "name": "Infantry Platoon (2 Troopers, 1 Valkyrie)",
-         "pts": 75
-      },
-      {
-         "id": 29,
-         "name": "Infantry Platoon (4 Troopers, 2 Valkyrie)",
-         "pts": 125
-      },
-      {
-         "id": 30,
-         "name": "2 Vanaheim Troopers",
-         "pts": 0
-      },
-      {
-         "id": 31,
-         "name": "2 Mortar Support",
-         "pts": 0
-      },
-      {
-         "id": 32,
-         "name": "2 Sniper Support",
-         "pts": 25
-      },
-      {
-         "id": 33,
-         "name": "Sniper Platoon (2 Snipers, 1 Valkyrie)",
-         "pts": 100
-      },
-      {
-         "id": 11,
-         "name": "Valkyrie",
-         "pts": 0
-      },
-      {
-         "id": 12,
-         "name": "Vendetta",
-         "pts": 0
-      },
-      {
-         "id": 13,
-         "name": "Thunderbolt",
-         "pts": 75
-      },
-      {
-         "id": 14,
-         "name": "Lightning Strike Fighter",
-         "pts": 75
-      },
-      {
-         "id": 17,
-         "name": "4 Light Sentinels",
-         "pts": 0
-      },
-      {
-         "id": 18,
-         "name": "2 Light Sentinels, 2 Melta Sentinels",
-         "pts": 25
-      },
-      {
-         "id": 19,
-         "name": "4 Melta Sentinels",
-         "pts": 50
-      },
-      {
-         "id": 35,
-         "name": "2 Valkyries",
-         "pts": 100
-      },
-      {
-         "id": 14,
-         "name": "Lunar Class Cruiser",
-         "pts": 0
-      },
-      {
-         "id": 15,
-         "name": "Emperor Class Battleship",
-         "pts": 50
-      }
-   ],
-   "formationConstraints": [
-      {
-         "max": 1,
-         "from": [
-            521
-         ]
-      },
-      {
-         "max": 1,
-         "from": [
-            504
-         ]
-      },
-      {
-         "maxPercent": 33,
-         "name": "War Engines & Allies",
-         "from": [
-            531,
-            532,
-            533,
-            534,
-			504
-         ]
-      },
-      {
-         "max": 2,
-         "name": "Support Formations",
-         "from": [
-            501,
-            502,
-            503
-        ],
-         "forEach": [
-            521,
-            522
-         ],
-         "name2": "Company"
-      }
-   ],
-   "upgradeConstraints": [
-      {
-         "max": 1,
-         "from": [
-            26
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 1,
-         "from": [
-            27
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 1,
-         "from": [
-            28,
-            29
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 2,
-         "from": [
+  "id": "Vanaheim 7th Air Cavalry",
+  "list_id": "IG_vanaheim_EPICUK",
+  "faction_id": "vanaheim",
+  "ruleset": "EPICUK",
+  "version": "Epic UK v090625",
+  "by": "Kyussinchains",
+  "sections": [
+    {
+      "name": "COMPANIES",
+      "formations": [
+        {
+          "string_id": "regimental_hq",
+          "id": 521,
+          "name": "Regimental HQ",
+          "pts": 375,
+          "units": "Supreme Commander, 3 Vanaheim Troopers",
+          "upgrades": [
             26,
             27,
             28,
             29,
-            31,
-            32,
             33
-         ],
-         "appliesTo": [
-            521,
-            522
-         ],
-         "name": "Upgrades"
-      },
-      {
-         "max": 2,
-         "from": [
-            12
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 4,
-         "min": 4,
-         "from": [
-            11,
-            12
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 3,
-         "min": 2,
-         "from": [
-            13
-         ],
-         "appliesTo": [
-            531
-         ]
-      },
-      {
-         "max": 3,
-         "min": 2,
-         "from": [
-            14
-         ],
-         "appliesTo": [
-            532
-         ]
-      },
-      {
-         "max": 2,
-         "min": 2,
-         "from": [
-            30,
-            31,
-            32
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 1,
-         "from": [
-            31,
-            27
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 1,
-         "from": [
-            32,
+          ]
+        },
+        {
+          "string_id": "air_cavalry_company",
+          "id": 522,
+          "name": "Air Cavalry Company",
+          "pts": 325,
+          "units": "Commander, 3 Vanaheim Troopers",
+          "upgrades": [
+            26,
+            27,
+            28,
+            29,
             33
-         ],
-         "appliesTo": [
-            521,
-            522
-         ]
-      },
-      {
-         "max": 1,
-         "min": 1,
-         "from": [
-            17,
-            18,
-            19
-         ],
-         "appliesTo": [
-            502
-         ]
-      },
-      {
-         "max": 1,
-         "from": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPPORT FORMATIONS",
+      "formations": [
+        {
+          "string_id": "vulture_squadron",
+          "id": 501,
+          "name": "Vulture Squadron",
+          "pts": 300,
+          "units": "4 Vultures",
+          "upgrades": []
+        },
+        {
+          "string_id": "sentinel_squadron",
+          "id": 502,
+          "name": "Sentinel Squadron",
+          "pts": 100,
+          "upgrades": [
             35
-         ],
-         "appliesTo": [
-            502
-         ]
-      },
-      {
-         "max": 1,
-         "min": 1,
-         "from": [
-            14,
-            15
-         ],
-         "appliesTo": [
-            504
-         ]
-      }
-   ]
+          ]
+        },
+        {
+          "string_id": "storm_troopers",
+          "id": 503,
+          "name": "Storm Troopers",
+          "pts": 350,
+          "units": "8 Storm Troopers, 4 Valkyries",
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "IMPERIAL NAVY",
+      "formations": [
+        {
+          "string_id": "thunderbolt_fighters",
+          "id": 531,
+          "name": "Thunderbolt Fighters",
+          "pts": 0,
+          "upgrades": [
+            13
+          ]
+        },
+        {
+          "string_id": "lightning_flight",
+          "id": 532,
+          "name": "Lightning Flight",
+          "pts": 0,
+          "upgrades": [
+            14
+          ]
+        },
+        {
+          "string_id": "marauder_destroyers",
+          "id": 533,
+          "name": "Marauder Destroyers",
+          "pts": 275,
+          "units": "2 Marauder Destroyers",
+          "upgrades": []
+        },
+        {
+          "string_id": "marauder_bombers",
+          "id": 534,
+          "name": "Marauder Bombers",
+          "pts": 250,
+          "units": "2 Marauder Bombers",
+          "upgrades": []
+        },
+        {
+          "string_id": "orbital_support",
+          "id": 504,
+          "name": "Orbital Support",
+          "pts": 150,
+          "upgrades": []
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "string_id": "fire_support_platoon_2_fire_support_1_valkyrie",
+      "id": 26,
+      "name": "Fire Support Platoon (2 Fire Support, 1 Valkyrie)",
+      "pts": 100
+    },
+    {
+      "string_id": "mortar_platoon_2_mortars_1_valkyrie",
+      "id": 27,
+      "name": "Mortar Platoon (2 Mortars, 1 Valkyrie)",
+      "pts": 75
+    },
+    {
+      "string_id": "infantry_platoon_2_troopers_1_valkyrie",
+      "id": 28,
+      "name": "Infantry Platoon (2 Troopers, 1 Valkyrie)",
+      "pts": 75
+    },
+    {
+      "string_id": "infantry_platoon_4_troopers_2_valkyrie",
+      "id": 29,
+      "name": "Infantry Platoon (4 Troopers, 2 Valkyrie)",
+      "pts": 125
+    },
+    {
+      "string_id": "2_vanaheim_troopers",
+      "id": 30,
+      "name": "2 Vanaheim Troopers",
+      "pts": 0
+    },
+    {
+      "string_id": "2_mortar_support",
+      "id": 31,
+      "name": "2 Mortar Support",
+      "pts": 0
+    },
+    {
+      "string_id": "2_sniper_support",
+      "id": 32,
+      "name": "2 Sniper Support",
+      "pts": 25
+    },
+    {
+      "string_id": "sniper_platoon_2_snipers_1_valkyrie",
+      "id": 33,
+      "name": "Sniper Platoon (2 Snipers, 1 Valkyrie)",
+      "pts": 100
+    },
+    {
+      "string_id": "valkyrie",
+      "id": 11,
+      "name": "Valkyrie",
+      "pts": 0
+    },
+    {
+      "string_id": "vendetta",
+      "id": 12,
+      "name": "Vendetta",
+      "pts": 0
+    },
+    {
+      "string_id": "thunderbolt",
+      "id": 13,
+      "name": "Thunderbolt",
+      "pts": 75
+    },
+    {
+      "string_id": "lightning_strike_fighter",
+      "id": 14,
+      "name": "Lightning Strike Fighter",
+      "pts": 75
+    },
+    {
+      "string_id": "4_light_sentinels",
+      "id": 17,
+      "name": "4 Light Sentinels",
+      "pts": 0
+    },
+    {
+      "string_id": "2_light_sentinels_2_melta_sentinels",
+      "id": 18,
+      "name": "2 Light Sentinels, 2 Melta Sentinels",
+      "pts": 25
+    },
+    {
+      "string_id": "4_melta_sentinels",
+      "id": 19,
+      "name": "4 Melta Sentinels",
+      "pts": 50
+    },
+    {
+      "string_id": "2_valkyries",
+      "id": 35,
+      "name": "2 Valkyries",
+      "pts": 100
+    },
+    {
+      "string_id": "lunar_class_cruiser",
+      "id": 14,
+      "name": "Lunar Class Cruiser",
+      "pts": 0
+    },
+    {
+      "string_id": "emperor_class_battleship",
+      "id": 15,
+      "name": "Emperor Class Battleship",
+      "pts": 50
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "from": [
+        521
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        504
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "War Engines & Allies",
+      "from": [
+        531,
+        532,
+        533,
+        534,
+        504
+      ]
+    },
+    {
+      "max": 2,
+      "name": "Support Formations",
+      "from": [
+        501,
+        502,
+        503
+      ],
+      "forEach": [
+        521,
+        522
+      ],
+      "name2": "Company"
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "from": [
+        26
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        27
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        28,
+        29
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33
+      ],
+      "appliesTo": [
+        521,
+        522
+      ],
+      "name": "Upgrades"
+    },
+    {
+      "max": 2,
+      "from": [
+        12
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 4,
+      "min": 4,
+      "from": [
+        11,
+        12
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 3,
+      "min": 2,
+      "from": [
+        13
+      ],
+      "appliesTo": [
+        531
+      ]
+    },
+    {
+      "max": 3,
+      "min": 2,
+      "from": [
+        14
+      ],
+      "appliesTo": [
+        532
+      ]
+    },
+    {
+      "max": 2,
+      "min": 2,
+      "from": [
+        30,
+        31,
+        32
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        31,
+        27
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        32,
+        33
+      ],
+      "appliesTo": [
+        521,
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        17,
+        18,
+        19
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        35
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        14,
+        15
+      ],
+      "appliesTo": [
+        504
+      ]
+    }
+  ]
 }

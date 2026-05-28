@@ -1,100 +1,630 @@
 {
-  "id":"Raven Guard",
-  "version":"NetEA 2026-02-04",
-  "by":"Dave, updated 2026-02-07 by antitimm",
-  "notes":["Up to a third of the points available may be spent on Imperial Navy Aircraft and Titan Legion Battlegroup formations."],
-  "sections":[
-    {"name":"Raven Guard Detachments", "formations":[
-      {"id":500, "name":"Assault", "pts":175, "units": "Four Assault units", "upgrades":[1,2,3,4,5,6,7]},
-      {"id":501, "name":"Devastator", "pts":250, "units": "Four Devastator units", "upgrades":[1,2,3,4,5,6,7,8,9,10]},
-      {"id":502, "name":"Scout", "pts":150, "units": "Four Scout units", "upgrades":[1,2,3,4,17,19,5,6,7]},
-      {"id":503, "name":"Tactical", "pts":200, "units": "Four Tactical units", "upgrades":[1,2,3,4,5,6,7,8,9,10]}
-    ]},
-    {"name":"Raven Guard Elite Detachments", "formations":[
-      {"id":510, "name":"Sternguard Veteran", "pts":250, "units": "Four Sternguard Veteran units", "upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
-      {"id":511, "name":"Terminator", "pts":350, "units": "Four Terminator units", "upgrades":[1,2,3,4]},
-      {"id":512, "name":"Vanguard Assault Veteran", "pts":250, "units": "Four Vanguard Assault Veteran units", "upgrades":[1,2,3,4,5,6,7]},
-      {"id":513, "name":"Vanguard Veteran", "pts":250, "units": "Four Vanguard Veteran units", "upgrades":[1,2,3,4,5,6,7,8,9,10]}
-    ]},
-    {"name":"Raven Guard Support Detachments", "formations":[
-      {"id":520, "name":"Bike", "pts":200, "upgrades":[1,2,3,4,12,13]},
-      {"id":521, "name":"Land Speeder", "pts":25, "upgrades":[1,2,3,4,5,6,14,7,15]},
-      {"id":522, "name":"Strike Cruiser", "pts":200, "units": "One Strike Cruiser", "upgrades":[16]}
-    ]},
-    {"name":"Raven Guard Aircraft", "formations":[
-      {"id":532, "name":"Storm Talon Squadron", "pts":200, "units": "Two Storm Talons"},
-      {"id":530, "name":"Storm Eagle", "pts":150, "units": "One Storm Eagle"},
-      {"id":531, "name":"Thunderhawk Gunship", "pts":200, "units": "One Thunderhawk Gunship"}
-    ]},
-    {"name":"Imperial Navy Aircraft", "formations":[
-      {"id":540, "name":"Marauder Squadron", "pts":250, "units":"2 Marauder Bombers", "upgrades":[]},
-      {"id":541, "name":"Thunderbolt Squadron", "pts":175, "units":"2 Thunderbolt Fighters", "upgrades":[]}
-    ]},
-    {"name":"Titan Legion Battlegroups", "formations":[
-      {"id":550, "name":"Warhound", "pts":275, "units":"1 Warhound Class Titan", "upgrades":[]},
-      {"id":551, "name":"Warhound Pack", "pts":500, "units":"2 Warhound Class Titan", "upgrades":[]}
-    ]}
+  "id": "Raven Guard",
+  "list_id": "SM_Raven_Guard_NETEA",
+  "faction_id": "raven-guard",
+  "ruleset": "NETEA",
+  "version": "NetEA 2026-02-04",
+  "by": "Dave, updated 2026-02-07 by antitimm",
+  "notes": [
+    "Up to a third of the points available may be spent on Imperial Navy Aircraft and Titan Legion Battlegroup formations."
   ],
-  "upgrades":[
-    {"id":1, "name":"Supreme Commander", "pts":100},
-    {"id":2, "name":"Captain", "pts":50},
-    {"id":3, "name":"Chaplain", "pts":50},
-    {"id":4, "name":"Librarian", "pts":50},
-
-    {"id":5, "name":"Land Speeder", "pts":35},
-    {"id":6, "name":"Land Speeder Tornado", "pts":35},
-    {"id":7, "name":"Land Speeder Typhoon", "pts":45},
-
-    {"id":8, "name":"Hunter", "pts":75},
-    {"id":9, "name":"Razorback", "pts":25},
-    {"id":10, "name":"Rhino", "pts":0},
-
-    {"id":11, "name":"Ambush", "pts":50},
-
-    {"id":12, "name":"Bike", "pts":10},
-    {"id":13, "name":"Attack Bike", "pts":0},
-
-    {"id":14, "name":"Land Speeder Tempest", "pts":50},
-    {"id":15, "name":"Planetfall", "pts":25},
-
-    {"id":16, "name":"Battle Barge", "pts":150},
-
-    {"id":17, "name":"Sniper", "pts":10},
-    {"id":19, "name":"Land Speeder Storm", "pts":25},
-
-    {"id":20, "name":"Multi-melta Attack Bike", "pts":10}
+  "sections": [
+    {
+      "name": "Raven Guard Detachments",
+      "formations": [
+        {
+          "string_id": "assault",
+          "id": 500,
+          "name": "Assault",
+          "pts": 175,
+          "units": "Four Assault units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "string_id": "devastator",
+          "id": 501,
+          "name": "Devastator",
+          "pts": 250,
+          "units": "Four Devastator units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "string_id": "scout",
+          "id": 502,
+          "name": "Scout",
+          "pts": 150,
+          "units": "Four Scout units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            17,
+            19,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "string_id": "tactical",
+          "id": 503,
+          "name": "Tactical",
+          "pts": 200,
+          "units": "Four Tactical units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raven Guard Elite Detachments",
+      "formations": [
+        {
+          "string_id": "sternguard_veteran",
+          "id": 510,
+          "name": "Sternguard Veteran",
+          "pts": 250,
+          "units": "Four Sternguard Veteran units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "string_id": "terminator",
+          "id": 511,
+          "name": "Terminator",
+          "pts": 350,
+          "units": "Four Terminator units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "string_id": "vanguard_assault_veteran",
+          "id": 512,
+          "name": "Vanguard Assault Veteran",
+          "pts": 250,
+          "units": "Four Vanguard Assault Veteran units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "string_id": "vanguard_veteran",
+          "id": 513,
+          "name": "Vanguard Veteran",
+          "pts": 250,
+          "units": "Four Vanguard Veteran units",
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raven Guard Support Detachments",
+      "formations": [
+        {
+          "string_id": "bike",
+          "id": 520,
+          "name": "Bike",
+          "pts": 200,
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            12,
+            13
+          ]
+        },
+        {
+          "string_id": "land_speeder",
+          "id": 521,
+          "name": "Land Speeder",
+          "pts": 25,
+          "upgrades": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            14,
+            7,
+            15
+          ]
+        },
+        {
+          "string_id": "strike_cruiser",
+          "id": 522,
+          "name": "Strike Cruiser",
+          "pts": 200,
+          "units": "One Strike Cruiser",
+          "upgrades": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raven Guard Aircraft",
+      "formations": [
+        {
+          "string_id": "storm_talon_squadron",
+          "id": 532,
+          "name": "Storm Talon Squadron",
+          "pts": 200,
+          "units": "Two Storm Talons"
+        },
+        {
+          "string_id": "storm_eagle",
+          "id": 530,
+          "name": "Storm Eagle",
+          "pts": 150,
+          "units": "One Storm Eagle"
+        },
+        {
+          "string_id": "thunderhawk_gunship",
+          "id": 531,
+          "name": "Thunderhawk Gunship",
+          "pts": 200,
+          "units": "One Thunderhawk Gunship"
+        }
+      ]
+    },
+    {
+      "name": "Imperial Navy Aircraft",
+      "formations": [
+        {
+          "string_id": "marauder_squadron",
+          "id": 540,
+          "name": "Marauder Squadron",
+          "pts": 250,
+          "units": "2 Marauder Bombers",
+          "upgrades": []
+        },
+        {
+          "string_id": "thunderbolt_squadron",
+          "id": 541,
+          "name": "Thunderbolt Squadron",
+          "pts": 175,
+          "units": "2 Thunderbolt Fighters",
+          "upgrades": []
+        }
+      ]
+    },
+    {
+      "name": "Titan Legion Battlegroups",
+      "formations": [
+        {
+          "string_id": "warhound",
+          "id": 550,
+          "name": "Warhound",
+          "pts": 275,
+          "units": "1 Warhound Class Titan",
+          "upgrades": []
+        },
+        {
+          "string_id": "warhound_pack",
+          "id": 551,
+          "name": "Warhound Pack",
+          "pts": 500,
+          "units": "2 Warhound Class Titan",
+          "upgrades": []
+        }
+      ]
+    }
   ],
-  "formationConstraints":[
-    {"max":1, "name":"Terminator", "from":[511]},
-    {"max":1, "name":"Strike Cruiser", "from":[522]},
-
-    {"max":1, "name":"Elite Detachment", "from":[510,511,512,513], "forEach":[500,501,502,503], "name2":"Detachment"},
-    {"max":1, "name":"Support Detachment", "from":[520,521,522], "forEach":[500,501,502,503], "name2":"Detachment"},
-    {"max":1, "name":"Aircraft", "from":[530,531], "forEach":[500,501,502,503,510,511,512,513,520,521,522], "name2":"Detachment, Elite Detachment or Support Detachment"},
-
-    {"maxPercent":33.334, "name":"Imperial Ally and Ravenguard Aircraft Formations", "from":[530,531,532,540,541,550,551]}
+  "upgrades": [
+    {
+      "string_id": "supreme_commander",
+      "id": 1,
+      "name": "Supreme Commander",
+      "pts": 100
+    },
+    {
+      "string_id": "captain",
+      "id": 2,
+      "name": "Captain",
+      "pts": 50
+    },
+    {
+      "string_id": "chaplain",
+      "id": 3,
+      "name": "Chaplain",
+      "pts": 50
+    },
+    {
+      "string_id": "librarian",
+      "id": 4,
+      "name": "Librarian",
+      "pts": 50
+    },
+    {
+      "string_id": "land_speeder",
+      "id": 5,
+      "name": "Land Speeder",
+      "pts": 35
+    },
+    {
+      "string_id": "land_speeder_tornado",
+      "id": 6,
+      "name": "Land Speeder Tornado",
+      "pts": 35
+    },
+    {
+      "string_id": "land_speeder_typhoon",
+      "id": 7,
+      "name": "Land Speeder Typhoon",
+      "pts": 45
+    },
+    {
+      "string_id": "hunter",
+      "id": 8,
+      "name": "Hunter",
+      "pts": 75
+    },
+    {
+      "string_id": "razorback",
+      "id": 9,
+      "name": "Razorback",
+      "pts": 25
+    },
+    {
+      "string_id": "rhino",
+      "id": 10,
+      "name": "Rhino",
+      "pts": 0
+    },
+    {
+      "string_id": "ambush",
+      "id": 11,
+      "name": "Ambush",
+      "pts": 50
+    },
+    {
+      "string_id": "bike",
+      "id": 12,
+      "name": "Bike",
+      "pts": 10
+    },
+    {
+      "string_id": "attack_bike",
+      "id": 13,
+      "name": "Attack Bike",
+      "pts": 0
+    },
+    {
+      "string_id": "land_speeder_tempest",
+      "id": 14,
+      "name": "Land Speeder Tempest",
+      "pts": 50
+    },
+    {
+      "string_id": "planetfall",
+      "id": 15,
+      "name": "Planetfall",
+      "pts": 25
+    },
+    {
+      "string_id": "battle_barge",
+      "id": 16,
+      "name": "Battle Barge",
+      "pts": 150
+    },
+    {
+      "string_id": "sniper",
+      "id": 17,
+      "name": "Sniper",
+      "pts": 10
+    },
+    {
+      "string_id": "land_speeder_storm",
+      "id": 19,
+      "name": "Land Speeder Storm",
+      "pts": 25
+    },
+    {
+      "string_id": "multi_melta_attack_bike",
+      "id": 20,
+      "name": "Multi-melta Attack Bike",
+      "pts": 10
+    }
   ],
-  "upgradeConstraints":[
-    {"max":1, "perArmy":true, "from":[1]},
-    {"max":1, "from":[1,2,3,4], "appliesTo":[500,501,502,503,510,511,512,513,520,521]},
-
-    {"min":5,"max":5, "from":[5,6,7,14], "appliesTo":[521]},
-    {"max":2, "from":[5,6,7], "appliesTo":[500,501,502,503,510,512,513]},
-
-    {"max":1, "from":[8], "appliesTo":[501,503,510,513]},
-    {"max":4, "from":[9], "appliesTo":[501,503,510,513]},
-    {"max":2, "from":[10], "appliesTo":[501,503,510,513]},
-
-    {"max":1, "from":[11], "appliesTo":[510]},
-
-    {"min":5,"max":5, "from":[13,12,20], "appliesTo":[520]},
-
-    {"max":1, "from":[15], "appliesTo":[521]},
-
-    {"max":1, "from":[16], "appliesTo":[522]},
-
-    {"max":4, "from":[17], "appliesTo":[502]},
-
-    {"max":4, "from":[19], "appliesTo":[502]}
+  "formationConstraints": [
+    {
+      "max": 1,
+      "name": "Terminator",
+      "from": [
+        511
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Strike Cruiser",
+      "from": [
+        522
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Elite Detachment",
+      "from": [
+        510,
+        511,
+        512,
+        513
+      ],
+      "forEach": [
+        500,
+        501,
+        502,
+        503
+      ],
+      "name2": "Detachment"
+    },
+    {
+      "max": 1,
+      "name": "Support Detachment",
+      "from": [
+        520,
+        521,
+        522
+      ],
+      "forEach": [
+        500,
+        501,
+        502,
+        503
+      ],
+      "name2": "Detachment"
+    },
+    {
+      "max": 1,
+      "name": "Aircraft",
+      "from": [
+        530,
+        531
+      ],
+      "forEach": [
+        500,
+        501,
+        502,
+        503,
+        510,
+        511,
+        512,
+        513,
+        520,
+        521,
+        522
+      ],
+      "name2": "Detachment, Elite Detachment or Support Detachment"
+    },
+    {
+      "maxPercent": 33.334,
+      "name": "Imperial Ally and Ravenguard Aircraft Formations",
+      "from": [
+        530,
+        531,
+        532,
+        540,
+        541,
+        550,
+        551
+      ]
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        1
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "appliesTo": [
+        500,
+        501,
+        502,
+        503,
+        510,
+        511,
+        512,
+        513,
+        520,
+        521
+      ]
+    },
+    {
+      "min": 5,
+      "max": 5,
+      "from": [
+        5,
+        6,
+        7,
+        14
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        5,
+        6,
+        7
+      ],
+      "appliesTo": [
+        500,
+        501,
+        502,
+        503,
+        510,
+        512,
+        513
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        8
+      ],
+      "appliesTo": [
+        501,
+        503,
+        510,
+        513
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        9
+      ],
+      "appliesTo": [
+        501,
+        503,
+        510,
+        513
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        10
+      ],
+      "appliesTo": [
+        501,
+        503,
+        510,
+        513
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        11
+      ],
+      "appliesTo": [
+        510
+      ]
+    },
+    {
+      "min": 5,
+      "max": 5,
+      "from": [
+        13,
+        12,
+        20
+      ],
+      "appliesTo": [
+        520
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        15
+      ],
+      "appliesTo": [
+        521
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        16
+      ],
+      "appliesTo": [
+        522
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        17
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 4,
+      "from": [
+        19
+      ],
+      "appliesTo": [
+        502
+      ]
+    }
   ]
 }
