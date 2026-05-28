@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  loader-tests:
+    name: Loader unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run loader tests
+        run: node --test tools/test/loader.test.js
+
+  faction-syntax:
+    name: Faction file syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Syntax-check every unitProfiles.*.js
+        run: |
+          set -e
+          fail=0
+          for f in war/js/unitProfiles.*.js; do
+            if ! node --check "$f" 2>&1; then
+              echo "::error file=$f::JavaScript syntax error"
+              fail=1
+            fi
+          done
+          exit $fail
+
+  loader-syntax:
+    name: Loader file syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Syntax-check the loader
+        run: node --check war/js/unitProfileLoader.js
+
+  inventory:
+    name: Faction inventory (informational)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run inventory
+        run: |
+          {
+            echo '# Faction inventory'
+            echo
+            echo '```'
+            node tools/inventory-factions.js
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY
