@@ -30,48 +30,59 @@
   },
   "special_rules": [
     {
+      "id": "eternal_animosity",
       "name": "Eternal Animosity",
       "text": "Each non-Chaos Navy formation owes allegiance to one Chaos faction or Chaos Undivided. Khorne and Slaanesh cannot mix; Nurgle and Tzeentch cannot mix."
     },
     {
+      "id": "summoned_units",
       "name": "Summoned Units",
       "text": "Formations may summon daemons from a purchased Daemon Pool. Summoning uses 2D3 summoning points, units must be placed within 5cm of the summoning formation, summoned units are Expendable, and they are removed at the end phase unless retained by Daemonic Focus."
     },
     {
+      "id": "augment_summoning",
       "name": "Augment Summoning",
       "text": "Units with Augment Summoning add their bonus to the formation's summoning roll."
     },
     {
+      "id": "daemonic_focus",
       "name": "Daemonic Focus",
       "text": "Units with Daemonic Focus may keep summoned units in play after rallying if the formation is not broken."
     },
     {
+      "id": "fickle_masters",
       "name": "Fickle Masters",
       "text": "On a strategy roll of 6, add 1D3 summoning points to the Daemon Pool; on a 1, remove 1D3 summoning points."
     },
     {
+      "id": "unity_of_command",
       "name": "Unity of Command",
       "text": "If the army is mono-faction and includes at least one Supreme Commander, it gains the relevant faction bonus."
     },
     {
+      "id": "hell_forged_weaponry",
       "name": "Hell-forged Weaponry",
       "text": "Battle titans select an appropriate number of Battle and/or Scout weapons according to titan class and faction."
     },
     {
+      "id": "heretek_tech",
       "name": "Heretek Tech",
       "text": "Shield Piercer ignores Power Fields, Knight Shields, Ion Shields, Void Shields and Shadowfields; Shadowfields still provide cover from shooting."
     },
     {
+      "id": "towering_incarnations_of_chaos",
       "name": "Towering Incarnations of Chaos",
       "text": "Destroyed Chaos Warlords and Imperators inflict Blast Markers on friendly formations as specified by the rule."
     },
     {
+      "id": "split_fire",
       "name": "Split Fire",
       "text": "DC8+ war engines may Split Fire on Sustain Fire with an extra -1 activation penalty and special target allocation limits."
     }
   ],
   "formations": [
     {
+      "id": "carrion_lord_class",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Carrion Lord Class",
@@ -83,6 +94,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skullhoarder",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Skullhoarder",
@@ -94,6 +106,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vicekeeper",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Vicekeeper",
@@ -105,6 +118,7 @@
       "parse_warnings": []
     },
     {
+      "id": "blightspreader",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Blightspreader",
@@ -116,6 +130,7 @@
       "parse_warnings": []
     },
     {
+      "id": "giftgranter",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Giftgranter",
@@ -127,6 +142,7 @@
       "parse_warnings": []
     },
     {
+      "id": "forgelord_class",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Forgelord Class",
@@ -138,6 +154,7 @@
       "parse_warnings": []
     },
     {
+      "id": "banelord",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Banelord",
@@ -149,6 +166,7 @@
       "parse_warnings": []
     },
     {
+      "id": "painlord",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Painlord",
@@ -160,6 +178,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plaguelord",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Plaguelord",
@@ -171,6 +190,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warplord",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Warplord",
@@ -182,6 +202,7 @@
       "parse_warnings": []
     },
     {
+      "id": "herald_class",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Herald Class",
@@ -193,6 +214,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravager",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Ravager",
@@ -204,6 +226,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reviler",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Reviler",
@@ -215,6 +238,7 @@
       "parse_warnings": []
     },
     {
+      "id": "repugnant",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Repugnant",
@@ -226,6 +250,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mutator",
       "category": "Battle Titans",
       "entry_type": "formation",
       "name": "Mutator",
@@ -237,6 +262,7 @@
       "parse_warnings": []
     },
     {
+      "id": "forgehound_class",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Forgehound Class",
@@ -248,6 +274,7 @@
       "parse_warnings": []
     },
     {
+      "id": "forgehound_pack",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Forgehound Pack",
@@ -259,6 +286,7 @@
       "parse_warnings": []
     },
     {
+      "id": "feral_warhound_pack",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Feral Warhound Pack",
@@ -270,6 +298,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plaguehound",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Plaguehound",
@@ -281,6 +310,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plaguehound_pack",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Plaguehound Pack",
@@ -292,6 +322,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warphound",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Warphound",
@@ -303,6 +334,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warphound_pack",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Warphound Pack",
@@ -314,6 +346,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retlaxi_pattern_death_wheel",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Retlaxi Pattern Death Wheel",
@@ -325,6 +358,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lord_of_battles",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Lord of Battles",
@@ -336,6 +370,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_brass_scorpion",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Greater Brass Scorpion",
@@ -347,6 +382,7 @@
       "parse_warnings": []
     },
     {
+      "id": "subjugator_titan",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Subjugator Titan",
@@ -358,6 +394,7 @@
       "parse_warnings": []
     },
     {
+      "id": "questor_titan",
       "category": "Greater Daemon Engines",
       "entry_type": "formation",
       "name": "Questor Titan",
@@ -369,6 +406,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_knights_of_slaanesh_hell_scourges",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Daemon Knights of Slaanesh - Hell-Scourges",
@@ -380,6 +418,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_knights_of_slaanesh_hell_knights",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Daemon Knights of Slaanesh - Hell-Knights",
@@ -391,6 +430,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_knights_of_slaanesh_hell_striders",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Daemon Knights of Slaanesh - Hell-Striders",
@@ -402,6 +442,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_knights_chaos_undivided",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Chaos Knights (Chaos Undivided)",
@@ -413,6 +454,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_knights_khorne",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Chaos Knights (Khorne)",
@@ -424,6 +466,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_knights_nurgle",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Chaos Knights (Nurgle)",
@@ -435,6 +478,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_knights_tzeentch",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Chaos Knights (Tzeentch)",
@@ -446,6 +490,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemonic_assault_engine",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Daemonic Assault Engine",
@@ -457,6 +502,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retlaxi_pattern_defiler_chaos_undivided",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Retlaxi Pattern Defiler (Chaos Undivided)",
@@ -468,6 +514,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retlaxi_pattern_defiler_nurgle",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Retlaxi Pattern Defiler (Nurgle)",
@@ -479,6 +526,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retlaxi_pattern_defiler_tzeentch",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Retlaxi Pattern Defiler (Tzeentch)",
@@ -490,6 +538,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cannon_of_khorne",
       "category": "Lesser Daemon Engines",
       "entry_type": "formation",
       "name": "Cannon of Khorne",
@@ -501,6 +550,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lesser_daemon_pool",
       "category": "Daemon Pool",
       "entry_type": "formation",
       "name": "Lesser Daemon Pool",
@@ -512,6 +562,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_blade_squadron",
       "category": "Chaos Navy",
       "entry_type": "formation",
       "name": "Hell Blade Squadron",
@@ -523,6 +574,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_talon_squadron",
       "category": "Chaos Navy",
       "entry_type": "formation",
       "name": "Hell Talon Squadron",
@@ -534,6 +586,7 @@
       "parse_warnings": []
     },
     {
+      "id": "harbringer_bomber",
       "category": "Chaos Navy",
       "entry_type": "formation",
       "name": "Harbringer Bomber",
@@ -545,6 +598,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_battleship",
       "category": "Chaos Navy",
       "entry_type": "formation",
       "name": "Chaos Battleship",
@@ -556,6 +610,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retlaxi_cyclone_chaos_undivided_support_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm))",
@@ -567,6 +622,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retlaxi_cyclone_chaos_undivided_support_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace))",
@@ -578,6 +634,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cannon_of_chaos_chaos_undivided_support_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only))",
@@ -589,6 +646,7 @@
       "parse_warnings": []
     },
     {
+      "id": "havoc_vortex_missiles_chaos_undivided_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only))",
@@ -600,6 +658,7 @@
       "parse_warnings": []
     },
     {
+      "id": "havoc_warp_missiles_chaos_undivided_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only))",
@@ -611,6 +670,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plasma_incinerator_chaos_undivided_only_support_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Plasma Incinerator (Chaos Undivided Only Support Weapon (Arm Only))",
@@ -622,6 +682,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellstrike_cannon_khorne_support_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellstrike Cannon (Khorne Support Weapon (Arm))",
@@ -633,6 +694,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellstrike_cannon_khorne_support_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellstrike Cannon (Khorne Support Weapon (Carapace))",
@@ -644,6 +706,7 @@
       "parse_warnings": []
     },
     {
+      "id": "beam_of_change_tzeentch_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Beam of Change (Tzeentch Support Weapon (Carapace Only))",
@@ -655,6 +718,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_plague_mortar_nurgle_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only))",
@@ -666,6 +730,7 @@
       "parse_warnings": []
     },
     {
+      "id": "beam_of_ecstasy_slaanesh_support_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Beam of Ecstasy (Slaanesh Support Weapon (Arm Only))",
@@ -677,6 +742,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infernal_projector_chaos_undivided_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Infernal Projector (Chaos Undivided Battle Weapon (Arm))",
@@ -688,6 +754,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infernal_projector_chaos_undivided_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Infernal Projector (Chaos Undivided Battle Weapon (Carapace))",
@@ -699,6 +766,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heretek_shrine_chaos_undivided_battle_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only))",
@@ -710,6 +778,7 @@
       "parse_warnings": []
     },
     {
+      "id": "battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only))",
@@ -721,6 +790,7 @@
       "parse_warnings": []
     },
     {
+      "id": "havoc_barrage_missiles_chaos_undivided_battle_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only))",
@@ -732,6 +802,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_plasma_cremator_chaos_undivided_only_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Plasma Cremator (Chaos Undivided Only (Arm Only))",
@@ -743,6 +814,7 @@
       "parse_warnings": []
     },
     {
+      "id": "doom_burner_khorne_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Doom Burner (Khorne Battle Weapon (Arm))",
@@ -754,6 +826,7 @@
       "parse_warnings": []
     },
     {
+      "id": "doom_burner_khorne_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Doom Burner (Khorne Battle Weapon (Carapace))",
@@ -765,6 +838,7 @@
       "parse_warnings": []
     },
     {
+      "id": "doom_fist_khorne_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Doom Fist (Khorne Close Combat Battle Weapon (Arm Only))",
@@ -776,6 +850,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mangler_khorne_close_combat_battle_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Mangler (Khorne Close Combat Battle Weapon (Carapace Only))",
@@ -787,6 +862,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tzeentch_cannon_tzeentch_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only))",
@@ -798,6 +874,7 @@
       "parse_warnings": []
     },
     {
+      "id": "coruscant_hail_tzeentch_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Coruscant Hail (Tzeentch Battle Weapon (Arm))",
@@ -809,6 +886,7 @@
       "parse_warnings": []
     },
     {
+      "id": "coruscant_hail_tzeentch_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Coruscant Hail (Tzeentch Battle Weapon (Carapace))",
@@ -820,6 +898,7 @@
       "parse_warnings": []
     },
     {
+      "id": "corruption_cannon_nurgle_battle_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Corruption Cannon (Nurgle Battle Weapon (Carapace Only))",
@@ -831,6 +910,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plague_flail_nurgle_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only))",
@@ -842,6 +922,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rot_cannon_nurgle_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Rot Cannon (Nurgle Battle Weapon (Arm))",
@@ -853,6 +934,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rot_cannon_nurgle_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Rot Cannon (Nurgle Battle Weapon (Carapace))",
@@ -864,6 +946,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sonic_devastator_slaanesh_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Sonic Devastator (Slaanesh Battle Weapon (Arm))",
@@ -875,6 +958,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sonic_devastator_slaanesh_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Sonic Devastator (Slaanesh Battle Weapon (Carapace))",
@@ -886,6 +970,7 @@
       "parse_warnings": []
     },
     {
+      "id": "musk_flail_slaanesh_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only))",
@@ -897,6 +982,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_chaos_undivided_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm))",
@@ -908,6 +994,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_chaos_undivided_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace))",
@@ -919,6 +1006,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_chaos_undivided_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth (Chaos Undivided Scout Weapon (Arm))",
@@ -930,6 +1018,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_chaos_undivided_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth (Chaos Undivided Scout Weapon (Carapace))",
@@ -941,6 +1030,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_plasma_furnace_chaos_undivided_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
@@ -952,6 +1042,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_plasma_furnace_chaos_undivided_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
@@ -963,6 +1054,7 @@
       "parse_warnings": []
     },
     {
+      "id": "death_storm_khorne_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Death Storm (Khorne Scout Weapon (Arm))",
@@ -974,6 +1066,7 @@
       "parse_warnings": []
     },
     {
+      "id": "death_storm_khorne_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Death Storm (Khorne Scout Weapon (Carapace))",
@@ -985,6 +1078,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ursus_claw_khorne_scout_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Ursus Claw (Khorne Scout Weapon (Arm Only))",
@@ -996,6 +1090,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gaze_of_tzeentch_tzeentch_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Gaze of Tzeentch (Tzeentch Scout Weapon (Arm))",
@@ -1007,6 +1102,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gaze_of_tzeentch_tzeentch_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace))",
@@ -1018,6 +1114,7 @@
       "parse_warnings": []
     },
     {
+      "id": "arcane_cannons_tzeentch_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Arcane Cannons (Tzeentch Scout Weapon (Arm))",
@@ -1029,6 +1126,7 @@
       "parse_warnings": []
     },
     {
+      "id": "arcane_cannons_tzeentch_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Arcane Cannons (Tzeentch Scout Weapon (Carapace))",
@@ -1040,6 +1138,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pus_cannon_nurgle_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Pus Cannon (Nurgle Scout Weapon (Arm))",
@@ -1051,6 +1150,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pus_cannon_nurgle_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Pus Cannon (Nurgle Scout Weapon (Carapace))",
@@ -1062,6 +1162,7 @@
       "parse_warnings": []
     },
     {
+      "id": "boil_cannon_nurgle_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Boil Cannon (Nurgle Scout Weapon (Arm))",
@@ -1073,6 +1174,7 @@
       "parse_warnings": []
     },
     {
+      "id": "boil_cannon_nurgle_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Boil Cannon (Nurgle Scout Weapon (Carapace))",
@@ -1084,6 +1186,7 @@
       "parse_warnings": []
     },
     {
+      "id": "castigator_cannon_slaanesh_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Castigator Cannon (Slaanesh Scout Weapon (Arm))",
@@ -1095,6 +1198,7 @@
       "parse_warnings": []
     },
     {
+      "id": "castigator_cannon_slaanesh_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Castigator Cannon (Slaanesh Scout Weapon (Carapace))",
@@ -1106,6 +1210,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter x 2",
@@ -1117,6 +1222,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_hellmouth",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Hellmouth",
@@ -1128,6 +1234,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_chaos_plasma_furnace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Chaos Plasma Furnace",
@@ -1139,6 +1246,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth x 2",
@@ -1150,6 +1258,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_chaos_plasma_furnace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Chaos Plasma Furnace",
@@ -1161,6 +1270,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_plasma_furnace_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Plasma Furnace x 2",
@@ -1172,6 +1282,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_death_storm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Death Storm",
@@ -1183,6 +1294,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_ursus_claw",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Ursus Claw",
@@ -1194,6 +1306,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_death_storm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Death Storm",
@@ -1205,6 +1318,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_ursus_claw",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Ursus Claw",
@@ -1216,6 +1330,7 @@
       "parse_warnings": []
     },
     {
+      "id": "death_storm_ursus_claw",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Death Storm + Ursus Claw",
@@ -1227,6 +1342,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_gaze_of_tzeentch",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Gaze of Tzeentch",
@@ -1238,6 +1354,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_arcane_cannons",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Arcane Cannons",
@@ -1249,6 +1366,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_gaze_of_tzeentch",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Gaze of Tzeentch",
@@ -1260,6 +1378,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_arcane_cannons",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Arcane Cannons",
@@ -1271,6 +1390,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gaze_of_tzeentch_arcane_cannons",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Gaze of Tzeentch + Arcane Cannons",
@@ -1282,6 +1402,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gaze_of_tzeentch_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Gaze of Tzeentch x 2",
@@ -1293,6 +1414,7 @@
       "parse_warnings": []
     },
     {
+      "id": "arcane_cannons_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Arcane Cannons x 2",
@@ -1304,6 +1426,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_pus_cannon",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Pus Cannon",
@@ -1315,6 +1438,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaper_mega_bolter_boil_cannon",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Reaper Mega Bolter + Boil cannon",
@@ -1326,6 +1450,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_pus_cannon",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Pus Cannon",
@@ -1337,6 +1462,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellmouth_boil_cannon",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hellmouth + Boil Cannon",
@@ -1348,6 +1474,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pus_cannon_boild_cannon",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Pus Cannon + Boild Cannon",
@@ -1359,6 +1486,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pus_cannon_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Pus cannon x 2",
@@ -1370,6 +1498,7 @@
       "parse_warnings": []
     },
     {
+      "id": "boil_cannon_x_2",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Boil Cannon x 2",
@@ -1381,6 +1510,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession",
@@ -1392,6 +1522,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_chaos_plasma_incinerator_chaos_undivided_support_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only))",
@@ -1403,6 +1534,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_chaos_plasma_cremator_chaos_undivided_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",
@@ -1414,6 +1546,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_chaos_plasma_furnace_chaos_undivided_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
@@ -1425,6 +1558,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_chaos_plasma_furnace_chaos_undivided_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
@@ -1436,6 +1570,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_hellstrike_cannon_khorne_support_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm))",
@@ -1447,6 +1582,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_hellstrike_cannon_khorne_support_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace))",
@@ -1458,6 +1594,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_beam_of_change_tzeentch_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only))",
@@ -1469,6 +1606,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_heavy_plague_mortar_nurgle_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only))",
@@ -1480,6 +1618,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_beam_of_ecstasy_slaanesh_support_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only))",
@@ -1491,6 +1630,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_doom_burner_khorne_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm))",
@@ -1502,6 +1642,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_doom_burner_khorne_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace))",
@@ -1513,6 +1654,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_doom_fist_khorne_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only))",
@@ -1524,6 +1666,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_mangler_khorne_close_combat_battle_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only))",
@@ -1535,6 +1678,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_tzeentch_cannon_tzeentch_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only))",
@@ -1546,6 +1690,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_coruscant_hail_tzeentch_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm))",
@@ -1557,6 +1702,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_coruscant_hail_tzeentch_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace))",
@@ -1568,6 +1714,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_corruption_cannon_nurgle_battle_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only))",
@@ -1579,6 +1726,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_plague_flail_nurgle_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only))",
@@ -1590,6 +1738,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_rot_cannon_nurgle_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm))",
@@ -1601,6 +1750,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_rot_cannon_nurgle_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Carapace))",
@@ -1612,6 +1762,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_sonic_devastator_slaanesh_battle_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm))",
@@ -1623,6 +1774,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_sonic_devastator_slaanesh_battle_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace))",
@@ -1634,6 +1786,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_musk_flail_slaanesh_close_combat_battle_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only))",
@@ -1645,6 +1798,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_death_storm_khorne_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm))",
@@ -1656,6 +1810,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_death_storm_khorne_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace))",
@@ -1667,6 +1822,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_gaze_of_tzeentch_tzeentch_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm))",
@@ -1678,6 +1834,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_gaze_of_tzeentch_tzeentch_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace))",
@@ -1689,6 +1846,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_arcane_cannons_tzeentch_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm))",
@@ -1700,6 +1858,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_arcane_cannons_tzeentch_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace))",
@@ -1711,6 +1870,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_pus_cannon_nurgle_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm))",
@@ -1722,6 +1882,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_pus_cannon_nurgle_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace))",
@@ -1733,6 +1894,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_boil_cannon_nurgle_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm))",
@@ -1744,6 +1906,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_boil_cannon_nurgle_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace))",
@@ -1755,6 +1918,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_castigator_cannon_slaanesh_scout_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm))",
@@ -1766,6 +1930,7 @@
       "parse_warnings": []
     },
     {
+      "id": "greater_daemon_possession_castigator_cannon_slaanesh_scout_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace))",
@@ -1790,23 +1955,23 @@
     {
       "category": "Upgrades",
       "entry_type": "upgrade",
-      "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm only))",
+      "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only))",
       "cost": "0 points",
       "units_text": null,
       "upgrades_or_options_text": null,
       "restrictions_or_notes": null,
-      "raw_text": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm only)) | 0 points",
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only)) | 0 points",
       "parse_warnings": []
     },
     {
       "category": "Upgrades",
       "entry_type": "upgrade",
-      "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm only))",
+      "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",
       "cost": "0 points",
       "units_text": null,
       "upgrades_or_options_text": null,
       "restrictions_or_notes": null,
-      "raw_text": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm only)) | 0 points",
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only)) | 0 points",
       "parse_warnings": []
     },
     {
@@ -2162,6 +2327,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm))",
@@ -2173,6 +2339,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace))",
@@ -2184,6 +2351,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_cannons_of_chaos_chaos_undivided_support_weapon_arm_onlynly",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly))",
@@ -2195,6 +2363,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_havoc_vortex_missiles_chaos_undivided_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only))",
@@ -2206,6 +2375,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_havoc_warp_missiles_chaos_undivided_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)",
@@ -2217,6 +2387,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_plasma_incinerator_chaos_undivided_support_weapon_army_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Plasma Incinerator (Chaos Undivided Support Weapon (Army Only)",
@@ -2228,6 +2399,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_hellstrike_cannon_khorne_support_weapon_arm",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Arm))",
@@ -2239,6 +2411,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_hellstrike_cannon_khorne_support_weapon_carapace",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Carapace))",
@@ -2250,6 +2423,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_beam_of_change_chaos_undivided_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Beam of Change (Chaos Undivided Support Weapon (Carapace Only))",
@@ -2261,6 +2435,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_heavy_plague_mortar_chaos_undivided_support_weapon_carapace_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Heavy Plague Mortar (Chaos Undivided Support Weapon (Carapace Only))",
@@ -2272,6 +2447,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eye_of_the_gods_beam_of_ecstasy_chaos_undivided_support_weapon_arm_only",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Eye of the Gods & Beam of Ecstasy (Chaos Undivided Support Weapon (Arm Only))",
@@ -2283,6 +2459,7 @@
       "parse_warnings": []
     },
     {
+      "id": "command_head_chaos_undivided_head",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Command Head (Chaos Undivided (Head))",
@@ -2294,6 +2471,7 @@
       "parse_warnings": []
     },
     {
+      "id": "battle_head_chaos_undivided_head",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Battle Head (Chaos Undivided (Head))",
@@ -2305,6 +2483,7 @@
       "parse_warnings": []
     },
     {
+      "id": "void_head_chaos_undivided_head",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Void Head (Chaos Undivided (Head))",
@@ -2316,6 +2495,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemon_maw_tzeentch_head",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Daemon Maw (Tzeentch (Head))",
@@ -2327,6 +2507,7 @@
       "parse_warnings": []
     },
     {
+      "id": "plague_maw_nurgle_head",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Plague Maw (Nurgle (Head))",
@@ -2338,6 +2519,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gun_tail_chaos_undivided_tail",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Gun Tail (Chaos Undivided (Tail))",
@@ -2349,6 +2531,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razor_tail_chaos_undivided_tail",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Razor Tail (Chaos Undivided (Tail))",
@@ -2360,6 +2543,7 @@
       "parse_warnings": []
     },
     {
+      "id": "barrage_tail_chaos_undivided_tail",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Barrage Tail (Chaos Undivided (Tail))",
@@ -2371,6 +2555,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mace_tail_khorne_tail",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Mace Tail (Khorne (Tail))",
@@ -2382,6 +2567,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lust_lash_slaanesh_tail",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Lust Lash (Slaanesh (Tail))",
@@ -2393,6 +2579,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_death_wheel",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Death Wheel",
@@ -2404,6 +2591,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_death_wheels",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Death Wheels",
@@ -2415,6 +2603,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_lord_of_battles",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Lord of Battles",
@@ -2426,6 +2615,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_greater_brass_scorpion",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Greater Brass Scorpion",
@@ -2437,6 +2627,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_greater_brass_scorpions",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Greater Brass Scorpions",
@@ -2448,6 +2639,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_subjugator_scout_titan",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Subjugator Scout Titan",
@@ -2459,6 +2651,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_questor_scout_titan",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Questor Scout Titan",
@@ -2470,6 +2663,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_hell_scourge",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Hell-Scourge",
@@ -2481,6 +2675,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_hell_scourges",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Hell-Scourges",
@@ -2492,6 +2687,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_hell_knight",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Hell-Knight",
@@ -2503,6 +2699,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_hell_knights",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Hell-Knights",
@@ -2514,6 +2711,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_hell_strider",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Hell-Strider",
@@ -2525,6 +2723,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_hell_striders",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Hell-Striders",
@@ -2536,6 +2735,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_renegade_knight",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Renegade Knight",
@@ -2547,6 +2747,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_renegade_knights",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Renegade Knights",
@@ -2558,6 +2759,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_mauler_knight",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Mauler Knight",
@@ -2569,6 +2771,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_mauler_knights",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Mauler Knights",
@@ -2580,6 +2783,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_decay_knight",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Decay Knight",
@@ -2591,6 +2795,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_decay_knights",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Decay Knights",
@@ -2602,6 +2807,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_change_knight",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Change Knight",
@@ -2613,6 +2819,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_change_knights",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Change Knights",
@@ -2624,6 +2831,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_daemonic_assault_engine",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Daemonic Assault Engine",
@@ -2635,6 +2843,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_daemonic_assault_engines",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Daemonic Assault Engines",
@@ -2646,6 +2855,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_retlaxi_pattern_defiler_with_mark_of_chaos_undivided",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Retlaxi-Pattern Defiler with Mark of Chaos Undivided",
@@ -2657,6 +2867,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_retlaxi_pattern_defilers_with_mark_of_chaos_undivided",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Retlaxi-Pattern Defilers with Mark of Chaos Undivided",
@@ -2668,6 +2879,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_retlaxi_pattern_defiler_with_trappings_of_nurgle",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Retlaxi-Pattern Defiler with Trappings of Nurgle",
@@ -2679,6 +2891,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_retlaxi_pattern_defilers_with_trappings_of_nurgle",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Retlaxi-Pattern Defilers with Trappings of Nurgle",
@@ -2690,6 +2903,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_retlaxi_pattern_defiler_with_gifts_of_tzeentch",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Retlaxi-Pattern Defiler with Gifts of Tzeentch",
@@ -2701,6 +2915,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_retlaxi_pattern_defilers_with_gifts_of_tzeentch",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Retlaxi-Pattern Defilers with Gifts of Tzeentch",
@@ -2712,6 +2927,7 @@
       "parse_warnings": []
     },
     {
+      "id": "one_additional_cannon_of_khorne",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "One additional Cannon of Khorne",
@@ -2723,6 +2939,7 @@
       "parse_warnings": []
     },
     {
+      "id": "two_additional_cannons_of_khorne",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Two additional Cannons of Khorne",
@@ -2734,6 +2951,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lesser_daemons",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Lesser Daemons",
@@ -2747,6 +2965,7 @@
   ],
   "profiles": [
     {
+      "id": "chaos_emperor_titan",
       "name": "Chaos Emperor Titan",
       "type": "WE",
       "type_code": "WE",
@@ -2815,6 +3034,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_warlord_titan",
       "name": "Chaos Warlord Titan",
       "type": "WE",
       "type_code": "WE",
@@ -2865,6 +3085,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_reaver_titan",
       "name": "Chaos Reaver Titan",
       "type": "WE",
       "type_code": "WE",
@@ -2914,6 +3135,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_warhound_titan",
       "name": "Chaos Warhound Titan",
       "type": "WE",
       "type_code": "WE",
@@ -2954,6 +3176,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "retlaxi_pattern_death_wheel",
       "name": "Retlaxi Pattern Death Wheel",
       "type": "WE",
       "type_code": "WE",
@@ -3014,6 +3237,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lord_of_battles",
       "name": "Lord of Battles",
       "type": "WE",
       "type_code": "WE",
@@ -3067,6 +3291,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "greater_brass_scorpion",
       "name": "Greater Brass Scorpion",
       "type": "WE",
       "type_code": "WE",
@@ -3132,6 +3357,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "subjugator_titan",
       "name": "Subjugator Titan",
       "type": "WE",
       "type_code": "WE",
@@ -3179,6 +3405,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "questor_titan",
       "name": "Questor Titan",
       "type": "WE",
       "type_code": "WE",
@@ -3225,6 +3452,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_scourge",
       "name": "Hell-Scourge",
       "type": "WE",
       "type_code": "WE",
@@ -3260,6 +3488,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_knight",
       "name": "Hell-Knight",
       "type": "WE",
       "type_code": "WE",
@@ -3301,6 +3530,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_strider",
       "name": "Hell-Strider",
       "type": "AV",
       "type_code": "AV",
@@ -3347,6 +3577,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "renegade_knight_of_chaos_undivided",
       "name": "Renegade Knight of Chaos Undivided",
       "type": "WE",
       "type_code": "WE",
@@ -3399,6 +3630,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mauler_knight_of_khorne",
       "name": "Mauler Knight of Khorne",
       "type": "WE",
       "type_code": "WE",
@@ -3455,6 +3687,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "decay_knight_of_nurgle",
       "name": "Decay Knight of Nurgle",
       "type": "WE",
       "type_code": "WE",
@@ -3510,6 +3743,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "change_knight_of_tzeentch",
       "name": "Change Knight of Tzeentch",
       "type": "WE",
       "type_code": "WE",
@@ -3564,6 +3798,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonic_assault_engine",
       "name": "Daemonic Assault Engine",
       "type": "AV",
       "type_code": "AV",
@@ -3603,6 +3838,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "retlaxi_pattern_defiler",
       "name": "Retlaxi Pattern Defiler",
       "type": "AV",
       "type_code": "AV",
@@ -3669,6 +3905,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cannon_of_khorne",
       "name": "Cannon of Khorne",
       "type": "AV",
       "type_code": "AV",
@@ -3700,6 +3937,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "greater_daemon_possession",
       "name": "Greater Daemon Possession",
       "type": "CH",
       "type_code": "CH",
@@ -3727,6 +3965,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "eye_of_the_gods",
       "name": "Eye of the Gods",
       "type": "CH",
       "type_code": "CH",
@@ -3750,6 +3989,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bloodletters_of_khorne",
       "name": "Bloodletters of Khorne",
       "type": "INF",
       "type_code": "INF",
@@ -3784,6 +4024,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonettes_of_slaanesh",
       "name": "Daemonettes of Slaanesh",
       "type": "INF",
       "type_code": "INF",
@@ -3817,6 +4058,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "flamers_of_tzeentch",
       "name": "Flamers of Tzeentch",
       "type": "INF",
       "type_code": "INF",
@@ -3855,6 +4097,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguebearers_of_nurgle",
       "name": "Plaguebearers of Nurgle",
       "type": "INF",
       "type_code": "INF",
@@ -3893,6 +4136,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonic_beasts_of_chaos_undivided",
       "name": "Daemonic Beasts of Chaos Undivided",
       "type": "INF",
       "type_code": "INF",
@@ -3926,6 +4170,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "screamers_of_tzeentch",
       "name": "Screamers of Tzeentch",
       "type": "INF",
       "type_code": "INF",
@@ -3958,6 +4203,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "flesh_hounds_of_khorne",
       "name": "Flesh Hounds of Khorne",
       "type": "INF",
       "type_code": "INF",
@@ -3990,6 +4236,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonettes_on_steeds",
       "name": "Daemonettes on Steeds",
       "type": "INF",
       "type_code": "INF",
@@ -4023,6 +4270,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_blade",
       "name": "Hell Blade",
       "type": "AC",
       "type_code": "AC",
@@ -4052,6 +4300,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_talon",
       "name": "Hell Talon",
       "type": "AC",
       "type_code": "AC",
@@ -4098,6 +4347,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "harbringer_bomber",
       "name": "Harbringer Bomber",
       "type": "WE",
       "type_code": "WE",
@@ -4156,6 +4406,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "despoiler_class_battleship",
       "name": "Despoiler Class Battleship",
       "type": "SC",
       "type_code": "SC",
@@ -4195,6 +4446,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "retlaxi_cyclone",
       "name": "Retlaxi Cyclone",
       "type": "Reference",
       "type_code": "Reference",
@@ -4226,6 +4478,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "beam_blaster",
       "name": "Beam Blaster",
       "type": "Reference",
       "type_code": "Reference",
@@ -4257,6 +4510,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cannons_of_chaos",
       "name": "Cannons of Chaos",
       "type": "Reference",
       "type_code": "Reference",
@@ -4289,6 +4543,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "havoc_vortex_missiles",
       "name": "Havoc Vortex Missiles",
       "type": "Reference",
       "type_code": "Reference",
@@ -4323,6 +4578,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "havoc_warp_missiles",
       "name": "Havoc Warp Missiles",
       "type": "Reference",
       "type_code": "Reference",
@@ -4356,6 +4612,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_plasma_incinerator",
       "name": "Chaos Plasma Incinerator",
       "type": "Reference",
       "type_code": "Reference",
@@ -4388,6 +4645,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellstrike_cannon",
       "name": "Hellstrike Cannon",
       "type": "Reference",
       "type_code": "Reference",
@@ -4420,6 +4678,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "beam_of_change",
       "name": "Beam of Change",
       "type": "Reference",
       "type_code": "Reference",
@@ -4451,6 +4710,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "heavy_plague_mortar",
       "name": "Heavy Plague Mortar",
       "type": "Reference",
       "type_code": "Reference",
@@ -4482,6 +4742,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "beam_of_ecstasy",
       "name": "Beam of Ecstasy",
       "type": "Reference",
       "type_code": "Reference",
@@ -4513,6 +4774,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "retlaxi_trident",
       "name": "Retlaxi Trident",
       "type": "Reference",
       "type_code": "Reference",
@@ -4547,6 +4809,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "heretek_shrine",
       "name": "Heretek Shrine",
       "type": "Reference",
       "type_code": "Reference",
@@ -4581,6 +4844,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_titan_cc_weapon",
       "name": "Battle Titan CC Weapon",
       "type": "Reference",
       "type_code": "Reference",
@@ -4613,6 +4877,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "havoc_barrage_missiles",
       "name": "Havoc Barrage Missiles",
       "type": "Reference",
       "type_code": "Reference",
@@ -4645,6 +4910,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_plasma_cremator",
       "name": "Chaos Plasma Cremator",
       "type": "Reference",
       "type_code": "Reference",
@@ -4677,6 +4943,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "doom_burner",
       "name": "Doom Burner",
       "type": "Reference",
       "type_code": "Reference",
@@ -4709,6 +4976,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "doom_fist",
       "name": "Doom Fist",
       "type": "Reference",
       "type_code": "Reference",
@@ -4741,6 +5009,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mangler",
       "name": "Mangler",
       "type": "Reference",
       "type_code": "Reference",
@@ -4773,6 +5042,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tzeentch_cannon",
       "name": "Tzeentch Cannon",
       "type": "Reference",
       "type_code": "Reference",
@@ -4802,6 +5072,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "coruscant_hail",
       "name": "Coruscant Hail",
       "type": "Reference",
       "type_code": "Reference",
@@ -4833,6 +5104,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "corruption_cannon",
       "name": "Corruption Cannon",
       "type": "Reference",
       "type_code": "Reference",
@@ -4862,6 +5134,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_flail",
       "name": "Plague Flail",
       "type": "Reference",
       "type_code": "Reference",
@@ -4894,6 +5167,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rot_cannon",
       "name": "Rot Cannon",
       "type": "Reference",
       "type_code": "Reference",
@@ -4925,6 +5199,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sonic_devastator",
       "name": "Sonic Devastator",
       "type": "Reference",
       "type_code": "Reference",
@@ -4956,6 +5231,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "musk_flail",
       "name": "Musk Flail",
       "type": "Reference",
       "type_code": "Reference",
@@ -4989,6 +5265,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_reaper_mega_bolter",
       "name": "Chaos Reaper Mega Bolter",
       "type": "Reference",
       "type_code": "Reference",
@@ -5018,6 +5295,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellmouth",
       "name": "Hellmouth",
       "type": "Reference",
       "type_code": "Reference",
@@ -5049,6 +5327,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_plasma_furnace",
       "name": "Chaos Plasma Furnace",
       "type": "Reference",
       "type_code": "Reference",
@@ -5081,6 +5360,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_storm",
       "name": "Death Storm",
       "type": "Reference",
       "type_code": "Reference",
@@ -5110,6 +5390,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ursus_claw",
       "name": "Ursus Claw",
       "type": "Reference",
       "type_code": "Reference",
@@ -5144,6 +5425,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gaze_of_tzeentch",
       "name": "Gaze of Tzeentch",
       "type": "Reference",
       "type_code": "Reference",
@@ -5173,6 +5455,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "arcane_cannons",
       "name": "Arcane Cannons",
       "type": "Reference",
       "type_code": "Reference",
@@ -5202,6 +5485,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pus_cannon",
       "name": "Pus Cannon",
       "type": "Reference",
       "type_code": "Reference",
@@ -5234,6 +5518,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "boil_cannon",
       "name": "Boil Cannon",
       "type": "Reference",
       "type_code": "Reference",
@@ -5265,6 +5550,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "command_head",
       "name": "Command Head",
       "type": "Reference",
       "type_code": "Reference",
@@ -5299,6 +5585,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_head",
       "name": "Battle Head",
       "type": "Reference",
       "type_code": "Reference",
@@ -5332,6 +5619,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "void_head",
       "name": "Void Head",
       "type": "Reference",
       "type_code": "Reference",
@@ -5365,6 +5653,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemon_maw",
       "name": "Daemon Maw",
       "type": "Reference",
       "type_code": "Reference",
@@ -5399,6 +5688,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_maw",
       "name": "Plague Maw",
       "type": "Reference",
       "type_code": "Reference",
@@ -5434,6 +5724,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gun_tail",
       "name": "Gun Tail",
       "type": "Reference",
       "type_code": "Reference",
@@ -5500,6 +5791,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razor_tail",
       "name": "Razor Tail",
       "type": "Reference",
       "type_code": "Reference",
@@ -5566,6 +5858,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "barrage_tail",
       "name": "Barrage Tail",
       "type": "Reference",
       "type_code": "Reference",
@@ -5598,6 +5891,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mace_tail",
       "name": "Mace Tail",
       "type": "Reference",
       "type_code": "Reference",
@@ -5632,6 +5926,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lust_lash",
       "name": "Lust Lash",
       "type": "Reference",
       "type_code": "Reference",

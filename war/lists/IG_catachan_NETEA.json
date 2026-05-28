@@ -1,5 +1,8 @@
 {
   "id": "Catachan Deathworld Veterans",
+  "list_id": "IG_catachan_NETEA",
+  "faction_id": "catachan",
+  "ruleset": "NETEA",
   "version": "NetEA Army Compendium v2.7 *EXPERIMENTAL*",
   "by": "Norto",
   "sections": [
@@ -7,6 +10,7 @@
       "name": "DEATHWORLD VETERANS COMPANIES",
       "formations": [
         {
+          "string_id": "deathworld_air_cavalry_company",
           "id": 500,
           "name": "Deathworld Air Cavalry Company",
           "pts": 450,
@@ -26,6 +30,7 @@
           "units": "1 Imperial Guard Commander unit, plus 9 Imperial Guard Infantry units, plus 5 Catachan Valkyries"
         },
         {
+          "string_id": "deathworld_regimental_hq",
           "id": 502,
           "name": "Deathworld Regimental HQ",
           "pts": 300,
@@ -45,6 +50,7 @@
           "units": "1 Supreme Commander unit, plus 9 Imperial Guard Infantry units"
         },
         {
+          "string_id": "deathworld_infantry_company",
           "id": 501,
           "name": "Deathworld Infantry Company",
           "pts": 200,
@@ -69,6 +75,7 @@
       "name": "DEATHWORLD VETERANS SUPPORT FORMATIONS",
       "formations": [
         {
+          "string_id": "catachan_devils",
           "id": 510,
           "name": "Catachan Devils",
           "pts": 300,
@@ -77,6 +84,7 @@
           "units": "6 Catachan Devil units (Special rules; see list)"
         },
         {
+          "string_id": "deathworld_mortar_platoon",
           "id": 511,
           "name": "Deathworld Mortar Platoon",
           "pts": 75,
@@ -85,6 +93,7 @@
           "units": "6 Catachan Mortar Team units"
         },
         {
+          "string_id": "ogryn_platoon",
           "id": 515,
           "name": "Ogryn Platoon",
           "pts": 200,
@@ -93,6 +102,7 @@
           "units": "6 Ogryn Units"
         },
         {
+          "string_id": "deathworld_sentinel_squadron",
           "id": 512,
           "name": "Deathworld Sentinel Squadron",
           "pts": 150,
@@ -101,6 +111,7 @@
           "units": "6 Catachan Sentinels"
         },
         {
+          "string_id": "deathworld_veterans_platoon",
           "id": 513,
           "name": "Deathworld Veterans Platoon",
           "pts": 200,
@@ -111,6 +122,7 @@
           "units": "6 Deathworld Veteran units"
         },
         {
+          "string_id": "hellhound_platoon",
           "id": 514,
           "name": "Hellhound Platoon",
           "pts": 250,
@@ -119,6 +131,7 @@
           "units": "6 Hellhounds"
         },
         {
+          "string_id": "support_tank_squadron",
           "id": 516,
           "name": "Support Tank Squadron",
           "pts": 275,
@@ -127,6 +140,7 @@
           "units": "4 Leman Russ Demolishers"
         },
         {
+          "string_id": "vulture_squadron",
           "id": 517,
           "name": "Vulture Squadron",
           "pts": 275,
@@ -135,6 +149,7 @@
           "units": "4 Vultures"
         },
         {
+          "string_id": "artillery_firebase",
           "id": 518,
           "name": "Artillery Firebase",
           "pts": 275,
@@ -143,6 +158,7 @@
           "units": "6 Earthshaker platforms"
         },
         {
+          "string_id": "traitor_s_bane",
           "id": 519,
           "name": "Traitor's Bane",
           "pts": 225,
@@ -156,6 +172,7 @@
       "name": "NAVAL SUPPORT",
       "formations": [
         {
+          "string_id": "orbital_support",
           "id": 520,
           "name": "Orbital Support",
           "pts": 0,
@@ -163,6 +180,7 @@
           "upgrades": []
         },
         {
+          "string_id": "thunderbolt_fighters",
           "id": 521,
           "name": "Thunderbolt Fighters",
           "pts": 150,
@@ -171,6 +189,7 @@
           "units": "2 Thunderbolt Fighters"
         },
         {
+          "string_id": "marauder_bombers",
           "id": 522,
           "name": "Marauder Bombers",
           "pts": 250,
@@ -183,71 +202,84 @@
   ],
   "upgrades": [
     {
+      "string_id": "6_catachan_infantry_units",
       "id": 10,
       "name": "6 Catachan Infantry units",
       "pts": 100
     },
     {
+      "string_id": "4_support_squad_units",
       "id": 11,
       "name": "4 Support Squad units",
       "pts": 100
     },
     {
+      "string_id": "1_catachan_missile_team_unit",
       "id": 12,
       "name": "1 Catachan Missile Team unit",
       "pts": 25
     },
     {
+      "string_id": "2_catachan_mortar_squad_units",
       "id": 13,
       "name": "2 Catachan Mortar Squad units",
       "pts": 25
     },
     {
+      "string_id": "2_sniper_units",
       "id": 14,
       "name": "2 Sniper units",
       "pts": 50
     },
     {
+      "string_id": "2_ogryn_units",
       "id": 15,
       "name": "2 Ogryn Units",
       "pts": 50
     },
     {
       "id": 16,
-      "name": "2 Ogryn units",
+      "name": "2 Ogryn Units",
       "pts": 50
     },
     {
+      "string_id": "2_vultures",
       "id": 17,
       "name": "2 Vultures",
       "pts": 150
     },
     {
+      "string_id": "leman_russ_demolishers",
       "id": 18,
       "name": "Leman Russ Demolishers",
       "pts": 50
     },
     {
+      "string_id": "hellhounds",
       "id": 19,
       "name": "Hellhounds",
       "pts": 50
     },
     {
+      "string_id": "1_hydra_flak_tank",
       "id": 20,
       "name": "1 Hydra Flak Tank",
       "pts": 50
     },
     {
+      "string_id": "catachan_valkyries",
       "id": 30,
       "name": "Catachan Valkyries",
       "pts": 50
     },
     {
+      "string_id": "lunar_class_cruiser",
       "id": 31,
       "name": "Lunar Class Cruiser",
       "pts": 150
     },
     {
+      "string_id": "emperor_class_battleship",
       "id": 32,
       "name": "Emperor Class Battleship",
       "pts": 300

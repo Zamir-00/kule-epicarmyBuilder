@@ -1,5 +1,8 @@
 {
   "id": "Death Watch",
+  "list_id": "INQ_dw_NETEA",
+  "faction_id": "dw",
+  "ruleset": "NETEA",
   "version": "V1.4",
   "by": "Norto",
   "notes": [
@@ -12,6 +15,7 @@
       "name": "DEATH WATCH DETACHMENTS",
       "formations": [
         {
+          "string_id": "watch_company",
           "id": 500,
           "name": "Watch Company",
           "pts": 50,
@@ -39,6 +43,7 @@
           ]
         },
         {
+          "string_id": "strike_team_land_speeders",
           "id": 503,
           "name": "Strike Team - Land Speeders",
           "pts": 200,
@@ -56,6 +61,7 @@
       "name": "DEATH WATCH SUPPORT DETACHMENTS",
       "formations": [
         {
+          "string_id": "inquisitorial_warband",
           "id": 600,
           "name": "Inquisitorial Warband",
           "pts": 175,
@@ -65,6 +71,7 @@
           ]
         },
         {
+          "string_id": "0_1_inquisitorial_storm_trooper_platoon",
           "id": 601,
           "name": "0 -1 Inquisitorial Storm Trooper Platoon",
           "pts": 250,
@@ -80,6 +87,7 @@
       "name": "RESTRICTED SUPPORT FORMATIONS",
       "formations": [
         {
+          "string_id": "thunderbolt_fighters",
           "id": 700,
           "name": "Thunderbolt Fighters",
           "pts": 175,
@@ -88,6 +96,7 @@
           "upgrades": []
         },
         {
+          "string_id": "maurader_bombers",
           "id": 701,
           "name": "Maurader Bombers",
           "pts": 250,
@@ -96,6 +105,7 @@
           "upgrades": []
         },
         {
+          "string_id": "thunderhawk_gunship",
           "id": 603,
           "name": "Thunderhawk Gunship",
           "pts": 200,
@@ -103,6 +113,7 @@
           "upgrades": []
         },
         {
+          "string_id": "deathwatch_landing_craft",
           "id": 504,
           "name": "Deathwatch Landing Craft",
           "pts": 350,
@@ -111,6 +122,7 @@
           "upgrades": []
         },
         {
+          "string_id": "inquisitorial_black_ship",
           "id": 604,
           "name": "Inquisitorial Black ship",
           "pts": 175,
@@ -122,116 +134,139 @@
   ],
   "upgrades": [
     {
+      "string_id": "watch_master",
       "id": 1,
       "name": "Watch Master",
       "pts": 100
     },
     {
+      "string_id": "librarian",
       "id": 2,
       "name": "Librarian",
       "pts": 50
     },
     {
+      "string_id": "captain",
       "id": 3,
       "name": "Captain",
       "pts": 50
     },
     {
+      "string_id": "chaplain",
       "id": 4,
       "name": "Chaplain",
       "pts": 50
     },
     {
+      "string_id": "inquisitor",
       "id": 6,
       "name": "Inquisitor",
       "pts": 0
     },
     {
+      "string_id": "venerable_dreadnought",
       "id": 5,
       "name": "Venerable Dreadnought",
       "pts": 75
     },
     {
+      "string_id": "hunter",
       "id": 8,
       "name": "Hunter",
       "pts": 75
     },
     {
+      "string_id": "warrior_acolyte",
       "id": 9,
       "name": "Warrior Acolyte",
       "pts": 0
     },
     {
+      "string_id": "death_cult_assassins",
       "id": 10,
       "name": "Death Cult Assassins",
       "pts": 20
     },
     {
+      "string_id": "4_valkyries",
       "id": 11,
       "name": "4 Valkyries",
       "pts": 150
     },
     {
+      "string_id": "4_chimeras",
       "id": 12,
       "name": "4 Chimeras",
       "pts": 100
     },
     {
+      "string_id": "drop_pods",
       "id": 14,
-      "name": "Drop pods",
+      "name": "Drop Pods",
       "pts": 0
     },
     {
+      "string_id": "rhinos",
       "id": 15,
       "name": "Rhinos",
       "pts": 0
     },
     {
+      "string_id": "razorback",
       "id": 16,
       "name": "Razorback",
       "pts": 25
     },
     {
+      "string_id": "stormraven",
       "id": 17,
       "name": "Stormraven",
       "pts": 50
     },
     {
+      "string_id": "land_raider",
       "id": 18,
       "name": "Land Raider",
       "pts": 50
     },
     {
+      "string_id": "land_raider_crusader",
       "id": 19,
       "name": "Land Raider Crusader",
       "pts": 50
     },
     {
+      "string_id": "land_raider_redeemer",
       "id": 20,
       "name": "Land Raider Redeemer",
       "pts": 50
     },
     {
+      "string_id": "2x_land_raider",
       "id": 33,
       "name": "2x Land Raider",
       "pts": 125
     },
     {
+      "string_id": "2x_land_raider_crusader",
       "id": 34,
       "name": "2x Land Raider Crusader",
       "pts": 125
     },
     {
+      "string_id": "2x_land_raider_redeemer",
       "id": 35,
       "name": "2x Land Raider Redeemer",
       "pts": 125
     },
     {
+      "string_id": "3_arvus_lighters",
       "id": 21,
       "name": "3 Arvus Lighters",
       "pts": 0
     },
     {
+      "string_id": "3_chimeras",
       "id": 22,
       "name": "3 Chimeras",
       "pts": 0
@@ -252,81 +287,97 @@
       "pts": 75
     },
     {
+      "string_id": "inquisitorial_black_ship",
       "id": 30,
       "name": "Inquisitorial Black ship",
       "pts": 175
     },
     {
+      "string_id": "landspeeder_typhoon",
       "id": 31,
       "name": "Landspeeder Typhoon",
       "pts": 10
     },
     {
+      "string_id": "landspeeder_tornado",
       "id": 32,
       "name": "Landspeeder Tornado",
       "pts": 0
     },
     {
+      "string_id": "hydra",
       "id": 36,
       "name": "Hydra",
       "pts": 50
     },
     {
+      "string_id": "veteran",
       "id": 41,
       "name": "Veteran",
       "pts": 50
     },
     {
+      "string_id": "watch_sergeant",
       "id": 42,
       "name": "Watch Sergeant",
       "pts": 50
     },
     {
+      "string_id": "black_shield",
       "id": 43,
       "name": "Black Shield",
       "pts": 50
     },
     {
+      "string_id": "watch_terminator",
       "id": 44,
       "name": "Watch Terminator",
       "pts": 75
     },
     {
+      "string_id": "assault_bike",
       "id": 45,
       "name": "Assault Bike",
       "pts": 50
     },
     {
+      "string_id": "vanguard_assault_veteran",
       "id": 46,
       "name": "Vanguard Assault Veteran ",
       "pts": 75
     },
     {
+      "string_id": "no_transports",
       "id": 50,
       "name": "No Transports",
       "pts": 0
     },
     {
+      "string_id": "2_corvus_black_stars",
       "id": 51,
       "name": "2 Corvus Black Stars",
       "pts": 75
     },
     {
+      "string_id": "3_corvus_black_stars",
       "id": 52,
       "name": "3 Corvus Black Stars",
       "pts": 100
     },
     {
+      "string_id": "4_corvus_black_stars",
       "id": 53,
       "name": "4 Corvus Black Stars",
       "pts": 125
     },
     {
+      "string_id": "5_corvus_black_stars",
       "id": 55,
       "name": "5 Corvus Black Stars",
       "pts": 150
     },
     {
+      "string_id": "6_corvus_black_stars",
       "id": 56,
       "name": "6 Corvus Black Stars",
       "pts": 175

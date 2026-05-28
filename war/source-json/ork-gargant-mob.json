@@ -17,12 +17,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all formations."
     }
   ],
   "formations": [
     {
+      "id": "gargant",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Gargant",
@@ -34,6 +36,7 @@
       "parse_warnings": []
     },
     {
+      "id": "great_gargant",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Great Gargant",
@@ -45,6 +48,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mega_gargant",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Mega Gargant",
@@ -56,6 +60,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kan_mob",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Kan Mob",
@@ -67,6 +72,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_kill_kroozer",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Kill Kroozer",
@@ -78,6 +84,7 @@
       "parse_warnings": []
     },
     {
+      "id": "loota_warband",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Loota Warband",
@@ -89,6 +96,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mekboy_stompamob",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Mekboy Stompamob",
@@ -100,6 +108,7 @@
       "parse_warnings": []
     },
     {
+      "id": "supa_stompa_mob",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Supa-Stompa Mob",
@@ -111,6 +120,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fighta_sqwadron",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Fighta Sqwadron",
@@ -122,6 +132,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bommer",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Bommer",
@@ -135,6 +146,7 @@
   ],
   "profiles": [
     {
+      "id": "banna",
       "name": "Banna",
       "type": "CH",
       "type_code": "CH",
@@ -159,6 +171,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "big_gun_or_skorcha_head",
       "name": "Big Gun or Skorcha Head",
       "type": "CH",
       "type_code": "CH",
@@ -211,6 +224,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "deth_kannon",
       "name": "Deth Kannon",
       "type": "CH",
       "type_code": "CH",
@@ -240,6 +254,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "eavy_armour",
       "name": "'Eavy Armour",
       "type": "CH",
       "type_code": "CH",
@@ -264,6 +279,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "flak_gunz",
       "name": "Flak Gunz",
       "type": "CH",
       "type_code": "CH",
@@ -291,6 +307,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gatling_cannon",
       "name": "Gatling Cannon",
       "type": "CH",
       "type_code": "CH",
@@ -318,6 +335,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gork_or_mork_head",
       "name": "Gork or Mork Head",
       "type": "CH",
       "type_code": "CH",
@@ -342,6 +360,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "kart",
       "name": "Kart",
       "type": "CH",
       "type_code": "CH",
@@ -366,6 +385,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "krooz_missiles",
       "name": "Krooz Missiles",
       "type": "CH",
       "type_code": "CH",
@@ -397,6 +417,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "krusha",
       "name": "Krusha",
       "type": "CH",
       "type_code": "CH",
@@ -427,6 +448,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lifta_droppa",
       "name": "Lifta-Droppa",
       "type": "CH",
       "type_code": "CH",
@@ -467,6 +489,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "loadz_o_guns",
       "name": "Loadz o' Guns",
       "type": "CH",
       "type_code": "CH",
@@ -525,6 +548,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "mega_choppa",
       "name": "Mega-Choppa",
       "type": "CH",
       "type_code": "CH",
@@ -563,6 +587,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mega_lobba",
       "name": "Mega-Lobba",
       "type": "CH",
       "type_code": "CH",
@@ -590,6 +615,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mekboy_big_boss",
       "name": "Mekboy Big Boss",
       "type": "CH",
       "type_code": "CH",
@@ -622,6 +648,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "oddboy",
       "name": "Oddboy",
       "type": "CH",
       "type_code": "CH",
@@ -664,6 +691,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "ordz_duruk",
       "name": "Ordz Duruk",
       "type": "CH",
       "type_code": "CH",
@@ -688,6 +716,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "soopagun",
       "name": "Soopagun",
       "type": "CH",
       "type_code": "CH",
@@ -717,6 +746,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "snappa",
       "name": "Snappa",
       "type": "CH",
       "type_code": "CH",
@@ -758,6 +788,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supa_lifta_droppa",
       "name": "Supa-Lifta-Droppa",
       "type": "CH",
       "type_code": "CH",
@@ -787,6 +818,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supa_zzap_gun",
       "name": "Supa-Zzap-Gun",
       "type": "CH",
       "type_code": "CH",
@@ -816,6 +848,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "twin_soopagun",
       "name": "Twin Soopagun",
       "type": "CH",
       "type_code": "CH",
@@ -845,6 +878,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ultra_lobba",
       "name": "Ultra-Lobba",
       "type": "CH",
       "type_code": "CH",
@@ -872,6 +906,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "big_gunz",
       "name": "Big Gunz",
       "type": "INF",
       "type_code": "INF",
@@ -899,6 +934,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "boyz",
       "name": "Boyz",
       "type": "INF",
       "type_code": "INF",
@@ -926,6 +962,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grotz",
       "name": "Grotz",
       "type": "INF",
       "type_code": "INF",
@@ -956,6 +993,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nobz",
       "name": "Nobz",
       "type": "INF",
       "type_code": "INF",
@@ -993,6 +1031,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deth_kopta",
       "name": "Deth Kopta",
       "type": "LV",
       "type_code": "LV",
@@ -1022,6 +1061,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dreadnought",
       "name": "Dreadnought",
       "type": "AV",
       "type_code": "AV",
@@ -1060,6 +1100,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "flakwagon",
       "name": "Flakwagon",
       "type": "AV",
       "type_code": "AV",
@@ -1090,6 +1131,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "killa_kan",
       "name": "Killa Kan",
       "type": "AV",
       "type_code": "AV",
@@ -1128,6 +1170,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stompa",
       "name": "Stompa",
       "type": "AV",
       "type_code": "AV",
@@ -1180,6 +1223,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "battlefortress",
       "name": "Battlefortress",
       "type": "WE",
       "type_code": "WE",
@@ -1217,6 +1261,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gargant",
       "name": "Gargant",
       "type": "WE",
       "type_code": "WE",
@@ -1256,6 +1301,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "great_gargant",
       "name": "Great Gargant",
       "type": "WE",
       "type_code": "WE",
@@ -1323,6 +1369,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "gunfortress",
       "name": "Gunfortress",
       "type": "WE",
       "type_code": "WE",
@@ -1360,6 +1407,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mega_gargant",
       "name": "Mega Gargant",
       "type": "WE",
       "type_code": "WE",
@@ -1476,6 +1524,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supa_stompa",
       "name": "Supa-Stompa",
       "type": "WE",
       "type_code": "WE",
@@ -1515,6 +1564,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "fighta_bommer",
       "name": "Fighta Bommer",
       "type": "AC",
       "type_code": "AC",
@@ -1548,6 +1598,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bommer",
       "name": "Bommer",
       "type": "AC/WE",
       "type_code": "AC/WE",
@@ -1587,6 +1638,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battlekroozer",
       "name": "Battlekroozer",
       "type": "SC",
       "type_code": "SC",
@@ -1620,6 +1672,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kill_kroozer",
       "name": "Kill Kroozer",
       "type": "SC",
       "type_code": "SC",
@@ -1649,6 +1702,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "killkroozer",
       "name": "KillKroozer",
       "type": "SC",
       "type_code": "SC",
@@ -1673,7 +1727,7 @@
       "abilities_or_notes": []
     },
     {
-      "name": "Supa Stompa",
+      "name": "Supa-Stompa",
       "type": "WE",
       "type_code": "WE",
       "speed": "15cm",
