@@ -17,6 +17,7 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Mobility rule applies to all Tyranid units (see Xeno-Biology ). Additionally, formations with synapse units may return brood units to play via Swarming (see Xeno-Sociology )."
     }
@@ -24,6 +25,7 @@
   "formations": [],
   "profiles": [
     {
+      "id": "brood_lord",
       "name": "Brood Lord",
       "type": "CH",
       "speed": "n/a",
@@ -43,6 +45,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "symbiote",
       "name": "Symbiote",
       "type": "CH",
       "speed": "n/a",
@@ -62,6 +65,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gargoyles",
       "name": "Gargoyles",
       "type": "INF",
       "speed": "30cm",
@@ -90,6 +94,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "genestealers",
       "name": "Genestealers",
       "type": "INF",
       "speed": "20cm",
@@ -117,6 +122,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hormagaunts",
       "name": "Hormagaunts",
       "type": "INF",
       "speed": "20cm",
@@ -138,6 +144,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "raveners",
       "name": "Raveners",
       "type": "INF",
       "speed": "20cm",
@@ -167,6 +174,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "termagants",
       "name": "Termagants",
       "type": "INF",
       "speed": "20cm",
@@ -192,6 +200,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tyranid_warriors",
       "name": "Tyranid Warriors",
       "type": "INF",
       "speed": "20cm",
@@ -217,6 +226,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "biovore",
       "name": "Biovore",
       "type": "LV",
       "speed": "15cm",
@@ -242,6 +252,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lictor",
       "name": "Lictor",
       "type": "LV",
       "speed": "20cm",
@@ -278,6 +289,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "zoanthrope",
       "name": "Zoanthrope",
       "type": "LV",
       "speed": "15cm",
@@ -312,6 +324,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "carnifex",
       "name": "Carnifex",
       "type": "AV",
       "speed": "20cm",
@@ -346,6 +359,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dactylis",
       "name": "Dactylis",
       "type": "AV",
       "speed": "15cm",
@@ -373,6 +387,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "exocrine",
       "name": "Exocrine",
       "type": "AV",
       "speed": "15cm",
@@ -397,6 +412,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "haruspex",
       "name": "Haruspex",
       "type": "AV",
       "speed": "20cm",
@@ -430,6 +446,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hive_tyrant",
       "name": "Hive Tyrant",
       "type": "AV",
       "speed": "20cm",
@@ -467,6 +484,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "malefactor",
       "name": "Malefactor",
       "type": "AV",
       "speed": "25cm",
@@ -502,6 +520,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dominatrix",
       "name": "Dominatrix",
       "type": "WE",
       "speed": "20cm",
@@ -563,6 +582,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "harridan",
       "name": "Harridan",
       "type": "WE",
       "speed": "35cm",
@@ -603,6 +623,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "trygon",
       "name": "Trygon",
       "type": "WE",
       "speed": "25cm",
@@ -640,6 +661,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hierodule_bio_titan",
       "name": "Hierodule Bio-Titan",
       "type": "WE",
       "speed": "25cm",
@@ -724,6 +746,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hierophant_bio_titan",
       "name": "Hierophant Bio-Titan",
       "type": "WE",
       "speed": "25cm",
@@ -817,6 +840,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bile_launcher",
       "name": "Bile Launcher",
       "type": "Formation",
       "speed": "n/a",
@@ -830,6 +854,7 @@
       ]
     },
     {
+      "id": "bio_titan_bio_cannon",
       "name": "Bio-Titan Bio-Cannon",
       "type": "Formation",
       "speed": "n/a",
@@ -843,6 +868,7 @@
       ]
     },
     {
+      "id": "brood_nest",
       "name": "Brood Nest",
       "type": "Formation",
       "speed": "n/a",
@@ -857,6 +883,7 @@
       ]
     },
     {
+      "id": "cluster_spines",
       "name": "Cluster Spines",
       "type": "Formation",
       "speed": "n/a",
@@ -870,6 +897,7 @@
       ]
     },
     {
+      "id": "pyro_acid_spray",
       "name": "Pyro-Acid Spray",
       "type": "Formation",
       "speed": "n/a",

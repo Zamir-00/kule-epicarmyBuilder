@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Commissars and Fortified Positions rules apply to Death Korps of Krieg Imperial Guard armies (see Commissars and Fortified Positions )."
     }
   ],
   "formations": [
     {
+      "id": "0_1_death_rider_company_per_1500_points",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Death Rider Company per 1500 points",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Infantry Company",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_regimental_hq",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Regimental HQ",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support_battery",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support Battery",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gorgon_siege_transporters",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Gorgon Siege Transporters",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_tank",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Heavy Tank",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hellhound Squadron",
@@ -104,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_platoon",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Infantry Platoon",
@@ -115,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Tank Squadron",
@@ -126,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_support_company",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Artillery Support Company",
@@ -137,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_deathstrike_silo",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "0–1 Deathstrike Silo",
@@ -148,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "six_death_riders",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Six Death Riders",
@@ -159,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "engineers_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Engineers Platoon",
@@ -170,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "grenadiers_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Grenadiers Platoon",
@@ -181,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "three_gun_emplacements_and_one_of_the_following_options",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Three Gun Emplacements and one of the following options:",
@@ -192,6 +208,7 @@
       "parse_warnings": []
     },
     {
+      "id": "200_points",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "+200 points",
@@ -203,6 +220,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Heavy Tank Platoon",
@@ -214,6 +232,7 @@
       "parse_warnings": []
     },
     {
+      "id": "light_support_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Light Support Battery",
@@ -225,6 +244,7 @@
       "parse_warnings": []
     },
     {
+      "id": "self_propelled_heavy_support",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Self-Propelled Heavy Support",
@@ -236,6 +256,7 @@
       "parse_warnings": []
     },
     {
+      "id": "super_heavy_tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Super-Heavy Tank Platoon",
@@ -247,6 +268,7 @@
       "parse_warnings": []
     },
     {
+      "id": "super_heavy_tank_support_company",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Super-Heavy Tank Support Company",
@@ -258,6 +280,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tank Platoon",
@@ -269,6 +292,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cost",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Cost",
@@ -280,6 +304,7 @@
       "parse_warnings": []
     },
     {
+      "id": "20_points",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "+20 points",
@@ -291,6 +316,7 @@
       "parse_warnings": []
     },
     {
+      "id": "trenchworks",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Trenchworks",
@@ -302,6 +328,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_marauder",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Heavy Marauder",
@@ -313,6 +340,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -324,6 +352,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Reaver",
@@ -335,6 +364,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -346,6 +376,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warlord",
@@ -359,6 +390,7 @@
   ],
   "profiles": [
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -388,6 +420,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gorgon_mortars",
       "name": "Gorgon Mortars",
       "type": "CH",
       "speed": "n/a",
@@ -416,6 +449,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commander",
       "name": "Commander",
       "type": "INF",
       "speed": "15cm",
@@ -440,6 +474,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_riders",
       "name": "Death Riders",
       "type": "INF",
       "speed": "20cm",
@@ -474,6 +509,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "engineers",
       "name": "Engineers",
       "type": "INF",
       "speed": "15cm",
@@ -498,6 +534,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_support",
       "name": "Fire Support",
       "type": "INF",
       "speed": "15cm",
@@ -526,6 +563,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grenadiers",
       "name": "Grenadiers",
       "type": "INF",
       "speed": "15cm",
@@ -562,6 +600,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "heavy_mortar",
       "name": "Heavy Mortar",
       "type": "INF",
       "speed": "5cm",
@@ -586,6 +625,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "infantry",
       "name": "Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -608,6 +648,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "quad_launcher",
       "name": "Quad Launcher",
       "type": "INF",
       "speed": "5cm",
@@ -632,6 +673,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -665,6 +707,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "centaur",
       "name": "Centaur",
       "type": "LV",
       "speed": "35cm",
@@ -690,6 +733,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "earthshaker_platform",
       "name": "Earthshaker Platform",
       "type": "LV",
       "speed": "Immobile",
@@ -722,6 +766,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "heavy_aa_platform",
       "name": "Heavy AA Platform",
       "type": "LV",
       "speed": "Immobile",
@@ -744,6 +789,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra_platform",
       "name": "Hydra Platform",
       "type": "LV",
       "speed": "Immobile",
@@ -766,6 +812,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "medusa_platform",
       "name": "Medusa Platform",
       "type": "LV",
       "speed": "Immobile",
@@ -802,6 +849,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bombard",
       "name": "Bombard",
       "type": "AV",
       "speed": "20cm",
@@ -833,6 +881,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -863,6 +912,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ",
       "name": "Leman Russ",
       "type": "AV",
       "speed": "20cm",
@@ -899,6 +949,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_demolisher",
       "name": "Leman Russ Demolisher",
       "type": "AV",
       "speed": "20cm",
@@ -937,6 +988,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_vanquisher",
       "name": "Leman Russ Vanquisher",
       "type": "AV",
       "speed": "20cm",
@@ -973,6 +1025,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderer",
       "name": "Thunderer",
       "type": "AV",
       "speed": "20cm",
@@ -1000,6 +1053,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "trojan",
       "name": "Trojan",
       "type": "AV",
       "speed": "20cm",
@@ -1027,6 +1081,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "baneblade",
       "name": "Baneblade",
       "type": "WE",
       "speed": "15cm",
@@ -1080,6 +1135,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathstrike_silo",
       "name": "Deathstrike Silo",
       "type": "WE",
       "speed": "Immobile",
@@ -1109,6 +1165,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "gorgon",
       "name": "Gorgon",
       "type": "WE",
       "speed": "20cm",
@@ -1143,6 +1200,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "macharius",
       "name": "Macharius",
       "type": "WE",
       "speed": "15cm",
@@ -1181,6 +1239,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "macharius_command",
       "name": "Macharius Command",
       "type": "WE",
       "speed": "15cm",
@@ -1229,6 +1288,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "shadowsword",
       "name": "Shadowsword",
       "type": "WE",
       "speed": "15cm",
@@ -1264,6 +1324,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormblade",
       "name": "Stormblade",
       "type": "WE",
       "speed": "15cm",
@@ -1311,6 +1372,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormsword",
       "name": "Stormsword",
       "type": "WE",
       "speed": "15cm",
@@ -1371,6 +1433,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_heavy_bomber",
       "name": "Marauder Heavy Bomber",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1412,6 +1475,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hades_breaching_drill",
       "name": "Hades Breaching Drill",
       "type": "Special",
       "speed": "Immobile",
@@ -1433,6 +1497,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1471,6 +1536,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1511,6 +1577,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1537,6 +1604,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1569,6 +1637,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1608,6 +1677,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1648,6 +1718,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",

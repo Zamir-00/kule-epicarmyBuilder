@@ -23,12 +23,14 @@
   },
   "special_rules": [
     {
+      "id": "imperial_void_shields",
       "name": "Imperial Void Shields",
       "text": "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on its datasheet. Each void shield automatically stops one point of damage and then goes down. Do not make saves for damage stopped by void shields and do not allocate blast markers. Once all shields are down, the Titan may be damaged normally. Close combat hits ignore void shields, but firefight hits must first knock down shields. Void shields can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. If a Titan regroups, it can use the dice roll to either repair shields or remove blast markers."
     }
   ],
   "formations": [
     {
+      "id": "1_1_regimental_hq",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "1.1 Regimental HQ",
@@ -40,6 +42,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_company",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Infantry Company",
@@ -51,6 +54,7 @@
       "parse_warnings": []
     },
     {
+      "id": "leman_russ_tank_company",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Leman Russ Tank Company",
@@ -62,6 +66,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_malcador_tank_company",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "0-1 Malcador Tank Company",
@@ -73,6 +78,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_company_0_1",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Artillery Company 0-1",
@@ -84,6 +90,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_squadron",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Artillery Squadron",
@@ -95,6 +102,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentinel_squadron",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Sentinel Squadron",
@@ -106,6 +114,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak_battery",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Flak Battery",
@@ -117,6 +126,7 @@
       "parse_warnings": []
     },
     {
+      "id": "disciples_of_xaphan",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Disciples of Xaphan",
@@ -128,6 +138,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_artillery_squadron",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Heavy Artillery Squadron",
@@ -139,6 +150,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_hunter_squadron_valdor_tank_hunters",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Tank Hunter Squadron - Valdor Tank Hunters",
@@ -150,6 +162,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_hunter_squadron_leman_russ_destroyers",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Tank Hunter Squadron - Leman Russ Destroyers",
@@ -161,6 +174,7 @@
       "parse_warnings": []
     },
     {
+      "id": "armored_fist_company",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Armored Fist Company",
@@ -172,6 +186,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_deathstrike_battery",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "0-1 Deathstrike Battery",
@@ -183,6 +198,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support_platoon",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support Platoon",
@@ -194,6 +210,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_reinforcements",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Infantry Reinforcements",
@@ -205,6 +222,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_squadron",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Tank Squadron",
@@ -216,6 +234,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_squadron",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Hellhound Squadron",
@@ -227,6 +246,7 @@
       "parse_warnings": []
     },
     {
+      "id": "griffon_squadron",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Griffon Squadron",
@@ -238,6 +258,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ogryn_beserkers",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Ogryn Beserkers",
@@ -249,6 +270,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak",
       "category": "Formation Upgrades",
       "entry_type": "upgrade",
       "name": "Flak",
@@ -260,6 +282,7 @@
       "parse_warnings": []
     },
     {
+      "id": "alpha_legion_retinue",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Alpha Legion Retinue",
@@ -271,6 +294,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_blade_squadron",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Hell Blade Squadron",
@@ -282,6 +306,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hell_talon_squadron",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Hell Talon Squadron",
@@ -293,6 +318,7 @@
       "parse_warnings": []
     },
     {
+      "id": "harbinger_bomber",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Harbinger Bomber",
@@ -304,6 +330,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_warhounds",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Chaos Warhounds",
@@ -315,6 +342,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_reaver_titan",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Chaos Reaver Titan",
@@ -326,6 +354,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_warlord_titan",
       "category": "Chaos Ally Formations",
       "entry_type": "formation",
       "name": "Chaos Warlord Titan",
@@ -339,6 +368,7 @@
   ],
   "profiles": [
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -381,6 +411,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commander",
       "name": "Commander",
       "type": "INF",
       "speed": "15cm",
@@ -423,6 +454,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "enforcer",
       "name": "Enforcer",
       "type": "CH",
       "speed": "n/a",
@@ -456,6 +488,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "alpha_legion_lord",
       "name": "Alpha Legion Lord",
       "type": "CH",
       "speed": "n/a",
@@ -489,6 +522,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "alpha_legion_space_marine",
       "name": "Alpha Legion Space Marine",
       "type": "INF",
       "speed": "15cm",
@@ -517,6 +551,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "alpha_legion_rhino",
       "name": "Alpha Legion Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -542,6 +577,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "varksian_infantry",
       "name": "Varksian Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -566,6 +602,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "varksian_fire_support_squad",
       "name": "Varksian Fire Support Squad",
       "type": "INF",
       "speed": "15cm",
@@ -588,6 +625,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "disciples_of_xaphan",
       "name": "Disciples of Xaphan",
       "type": "INF",
       "speed": "15cm",
@@ -618,6 +656,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "orygns_berserkers",
       "name": "Orygns Berserkers",
       "type": "INF",
       "speed": "15cm",
@@ -645,6 +684,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ",
       "name": "Leman Russ",
       "type": "AV",
       "speed": "20cm",
@@ -681,6 +721,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_tank_destroyer",
       "name": "Leman Russ Tank Destroyer",
       "type": "AV",
       "speed": "20cm",
@@ -705,6 +746,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_demolisher",
       "name": "Leman Russ Demolisher",
       "type": "AV",
       "speed": "20cm",
@@ -745,6 +787,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_vanquisher",
       "name": "Leman Russ Vanquisher",
       "type": "AV",
       "speed": "20cm",
@@ -781,6 +824,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "malcador_tank",
       "name": "Malcador Tank",
       "type": "AV",
       "speed": "15cm",
@@ -817,6 +861,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "malcador_defender_tank",
       "name": "Malcador Defender Tank",
       "type": "AV",
       "speed": "15cm",
@@ -849,6 +894,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "malcador_annihilator_tank",
       "name": "Malcador Annihilator Tank",
       "type": "AV",
       "speed": "15cm",
@@ -887,6 +933,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valdor_tank_hunter",
       "name": "Valdor Tank Hunter",
       "type": "AV",
       "speed": "15cm",
@@ -919,6 +966,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "minotaur_artillary_tank",
       "name": "Minotaur Artillary Tank",
       "type": "AV",
       "speed": "15cm",
@@ -946,6 +994,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "salamander_commander_vehicle",
       "name": "Salamander Commander Vehicle",
       "type": "LV",
       "speed": "35cm",
@@ -980,6 +1029,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -1011,6 +1061,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sentinal",
       "name": "Sentinal",
       "type": "LV",
       "speed": "35cm",
@@ -1035,6 +1086,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -1063,6 +1115,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhounds",
       "name": "Hellhounds",
       "type": "AV",
       "speed": "30cm",
@@ -1093,6 +1146,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "griffon",
       "name": "Griffon",
       "type": "AV",
       "speed": "30cm",
@@ -1123,6 +1177,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_strike_laucher",
       "name": "Death Strike Laucher",
       "type": "AV",
       "speed": "20cm",
@@ -1155,6 +1210,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "basilisk",
       "name": "Basilisk",
       "type": "AV",
       "speed": "20cm",
@@ -1185,6 +1241,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bombard",
       "name": "Bombard",
       "type": "AV",
       "speed": "20cm",
@@ -1216,6 +1273,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "manticores",
       "name": "Manticores",
       "type": "AV",
       "speed": "20cm",
@@ -1248,6 +1306,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellblade",
       "name": "HellBlade",
       "type": "AC",
       "speed": "Fighter",
@@ -1272,6 +1331,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "helltalon",
       "name": "Helltalon",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1312,6 +1372,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hell_bringer",
       "name": "Hell Bringer",
       "type": "WE",
       "speed": "n/a",
@@ -1368,6 +1429,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vraks_warhound",
       "name": "Vraks Warhound",
       "type": "WE",
       "speed": "30cm",
@@ -1404,6 +1466,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vraks_reaver",
       "name": "Vraks Reaver",
       "type": "WE",
       "speed": "20cm",
@@ -1444,6 +1507,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vraks_warlord",
       "name": "Vraks Warlord",
       "type": "WE",
       "speed": "15cm",

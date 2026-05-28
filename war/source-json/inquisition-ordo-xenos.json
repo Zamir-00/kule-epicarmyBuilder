@@ -21,16 +21,19 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The They Shall Know No Fear rule applies to all Deathwatch detachment formations (see They Shall Know No Fear )."
     },
     {
+      "id": "they_shall_know_no_fear",
       "name": "They Shall Know No Fear",
       "text": "How many Blast markers does a broken Space Marine unit count as having when working out the result of an assault?\nOne per unit.\nSpace Marines are renowned for their tenacity and bravery. This is represented by the following rules:\n* It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).\n* Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.\n* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.\n* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
     }
   ],
   "formations": [
     {
+      "id": "assault",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Assault",
@@ -42,6 +45,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bike",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Bike",
@@ -53,6 +57,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_speeder",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Land Speeder",
@@ -64,6 +69,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scout",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Scout",
@@ -75,6 +81,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_strike_cruiser",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Strike Cruiser",
@@ -86,6 +93,7 @@
       "parse_warnings": []
     },
     {
+      "id": "terminator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Terminator",
@@ -97,6 +105,7 @@
       "parse_warnings": []
     },
     {
+      "id": "veterans",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Veterans",
@@ -108,6 +117,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Infantry",
@@ -119,6 +129,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rough_rider",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Rough Rider",
@@ -130,6 +141,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentinel",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Sentinel",
@@ -141,6 +153,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_trooper",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Storm Trooper",
@@ -152,6 +165,7 @@
       "parse_warnings": []
     },
     {
+      "id": "leman_russ",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Leman Russ",
@@ -163,6 +177,7 @@
       "parse_warnings": []
     },
     {
+      "id": "battle_barge",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Battle Barge",
@@ -174,6 +189,7 @@
       "parse_warnings": []
     },
     {
+      "id": "50_points",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "+50 points",
@@ -185,6 +201,7 @@
       "parse_warnings": []
     },
     {
+      "id": "commissar",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Commissar",
@@ -196,6 +213,7 @@
       "parse_warnings": []
     },
     {
+      "id": "corvus_blackstars",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Corvus Blackstars",
@@ -207,6 +225,7 @@
       "parse_warnings": []
     },
     {
+      "id": "dreadnoughts",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Dreadnoughts",
@@ -218,6 +237,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hydra",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hydra",
@@ -229,6 +249,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Land Raiders",
@@ -240,6 +261,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_inquisitor_lord",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Inquisitor Lord",
@@ -251,6 +273,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorbacks",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Razorbacks",
@@ -262,6 +285,7 @@
       "parse_warnings": []
     },
     {
+      "id": "typhoons",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Typhoons",
@@ -273,6 +297,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -284,6 +309,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -295,6 +321,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Reaver",
@@ -306,6 +333,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound",
@@ -317,6 +345,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -328,6 +357,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warlord",
@@ -339,6 +369,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderhawk_gunship",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Thunderhawk Gunship",
@@ -352,6 +383,7 @@
   ],
   "profiles": [
     {
+      "id": "captain",
       "name": "Captain",
       "type": "CH",
       "speed": "n/a",
@@ -381,6 +413,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaplain",
       "name": "Chaplain",
       "type": "CH",
       "speed": "n/a",
@@ -410,6 +443,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -439,6 +473,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "librarian",
       "name": "Librarian",
       "type": "CH",
       "speed": "n/a",
@@ -476,6 +511,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ordo_xenos_inquisitor_lord",
       "name": "Ordo Xenos Inquisitor Lord",
       "type": "CH",
       "speed": "n/a",
@@ -515,6 +551,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -543,6 +580,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwatch_assault",
       "name": "Deathwatch Assault",
       "type": "INF",
       "speed": "30cm",
@@ -576,6 +614,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwatch_bike",
       "name": "Deathwatch Bike",
       "type": "INF",
       "speed": "35cm",
@@ -609,6 +648,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwatch_scout",
       "name": "Deathwatch Scout",
       "type": "INF",
       "speed": "15cm",
@@ -647,6 +687,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwatch_terminator",
       "name": "Deathwatch Terminator",
       "type": "INF",
       "speed": "15cm",
@@ -682,6 +723,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwatch_veteran",
       "name": "Deathwatch Veteran",
       "type": "INF",
       "speed": "15cm",
@@ -714,6 +756,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "infantry",
       "name": "Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -744,6 +787,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitorial_storm_troopers",
       "name": "Inquisitorial Storm Troopers",
       "type": "INF",
       "speed": "15cm",
@@ -766,6 +810,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ordo_xenos_inquisitor",
       "name": "Ordo Xenos Inquisitor",
       "type": "INF",
       "speed": "15cm",
@@ -790,6 +835,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rough_riders",
       "name": "Rough Riders",
       "type": "INF",
       "speed": "20cm",
@@ -825,6 +871,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_tornado",
       "name": "Land Speeder Tornado",
       "type": "LV",
       "speed": "35cm",
@@ -856,6 +903,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_typhoon",
       "name": "Land Speeder Typhoon",
       "type": "LV",
       "speed": "35cm",
@@ -887,6 +935,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sentinel",
       "name": "Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -912,6 +961,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "corvus_blackstar",
       "name": "Corvus Blackstar",
       "type": "AV",
       "speed": "35cm",
@@ -956,6 +1006,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -987,6 +1038,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -1015,6 +1067,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider",
       "name": "Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -1048,6 +1101,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ",
       "name": "Leman Russ",
       "type": "AV",
       "speed": "20cm",
@@ -1084,6 +1138,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razorback",
       "name": "Razorback",
       "type": "AV",
       "speed": "30cm",
@@ -1115,6 +1170,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -1140,6 +1196,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -1182,6 +1239,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "venerable_dreadnought",
       "name": "Venerable Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1230,6 +1288,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "landing_craft",
       "name": "Landing Craft",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1265,6 +1324,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_gunship",
       "name": "Thunderhawk Gunship",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1319,6 +1379,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_barge",
       "name": "Battle Barge",
       "type": "SC",
       "speed": "n/a",
@@ -1347,6 +1408,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_cruiser",
       "name": "Strike Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1374,6 +1436,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathwatch_drop_pod",
       "name": "Deathwatch Drop Pod",
       "type": "Special",
       "speed": "n/a",
@@ -1400,6 +1463,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1438,6 +1502,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1478,6 +1543,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1504,6 +1570,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1536,6 +1603,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1575,6 +1643,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1615,6 +1684,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",

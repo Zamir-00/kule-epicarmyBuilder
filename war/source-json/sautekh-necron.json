@@ -17,44 +17,54 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Implacable Advance rule (5.15.2) applies to all Necron formations. Additionally, certain units and weapons have special abilities described in Necron Technology."
     },
     {
+      "id": "necron_technology",
       "name": "Necron Technology",
       "text": "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet."
     },
     {
+      "id": "necron",
       "name": "Necron",
       "text": "Units with the Necron ability that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove blast markers or both (e.g., if you rolled a ‘2’ you could return 2 units to play, remove 2 blast markers, or return 1 unit and remove 1 blast marker). Formations off board are restricted to using their regroup function to remove blast markers only."
     },
     {
+      "id": "sautekh_portals",
       "name": "Sautekh Portals",
       "text": "Necron Sautekh Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Necron Portals can only be used by Armored Vehicles with the walker ability, Infantry, or Light Vehicles. Each portal can be used only once per turn.\nAdditionally formations may leave through an unused portal when moving and re-enter through another unused portal on the board as part of the same movement, both portals count as having being used that turn. Sautekh Portals may not be used to go back into reserves.\nFormations moving through a portal of a broken formation gain a blast marker. If for any reason, at the end of the movement a unit is unable to enter the board or is found out of formation it is destroyed (see core rule 1.7.4)."
     },
     {
+      "id": "living_metal",
       "name": "Living Metal",
       "text": "Units made of living metal receive a Reinforced Armour saving throw against normal weapons, lance weapons, and even macro-weapons. In addition, their save is not reduced by sniper abilities. Living Metal units are permitted a single armour save against Titan killer attacks, this save has to be taken against each point of TK damage."
     },
     {
+      "id": "implacable_advance",
       "name": "Implacable Advance",
       "text": "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum.\nNecron formations receive a +1 bonus to Marshal Actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
     },
     {
+      "id": "ponderous",
       "name": "Ponderous",
       "text": "Units with this rule are very slow even by necron standards. When broken they may only make a single withdrawal move, not the usual two."
     },
     {
+      "id": "necron_reserves",
       "name": "Necron Reserves",
       "text": "Any Necron formation may be held back “in reserve” (with the exception of the Æonic Orb and Abattoir) if you are playing the Epic Tournament scenario. Note that formations that do not have the Teleport ability will only be able to enter play through Portals.\nAny Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit victory condition."
     },
     {
+      "id": "garrisons",
       "name": "Garrisons",
       "text": "The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex Necron Individual. To represent that a Tomb may contain active Necron, the player may choose to garrison up to two Phalanx formations at the Tomb Complex."
     }
   ],
   "formations": [
     {
+      "id": "0_1_tomb_complex",
       "category": "Necron Individuals",
       "entry_type": "formation",
       "name": "0-1 Tomb Complex",
@@ -66,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_overlord",
       "category": "Necron Individuals",
       "entry_type": "formation",
       "name": "0-1 Overlord",
@@ -79,6 +90,7 @@
       ]
     },
     {
+      "id": "warrior_phalanx",
       "category": "Sautekh Phalanxes",
       "entry_type": "formation",
       "name": "Warrior Phalanx",
@@ -90,6 +102,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ghost_ark_phalanx",
       "category": "Sautekh Phalanxes",
       "entry_type": "formation",
       "name": "Ghost Ark Phalanx",
@@ -101,6 +114,7 @@
       "parse_warnings": []
     },
     {
+      "id": "immortal_phalanx",
       "category": "Sautekh Phalanxes",
       "entry_type": "formation",
       "name": "Immortal Phalanx",
@@ -112,6 +126,7 @@
       "parse_warnings": []
     },
     {
+      "id": "blade_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Blade Maniple",
@@ -123,6 +138,7 @@
       "parse_warnings": []
     },
     {
+      "id": "iudicium_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Iudicium Maniple",
@@ -134,6 +150,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eques_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Eques Maniple",
@@ -145,6 +162,7 @@
       "parse_warnings": []
     },
     {
+      "id": "letum_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Letum Maniple",
@@ -156,6 +174,7 @@
       "parse_warnings": []
     },
     {
+      "id": "monolith_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Monolith Maniple",
@@ -167,6 +186,7 @@
       "parse_warnings": []
     },
     {
+      "id": "venator_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Venator Maniple",
@@ -178,6 +198,7 @@
       "parse_warnings": []
     },
     {
+      "id": "stalker_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Stalker Maniple",
@@ -189,6 +210,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentry_maniple",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Sentry Maniple",
@@ -200,6 +222,7 @@
       "parse_warnings": []
     },
     {
+      "id": "triarch_phalanx",
       "category": "Sautekh Necron Support Formations",
       "entry_type": "formation",
       "name": "Triarch Phalanx",
@@ -211,6 +234,7 @@
       "parse_warnings": []
     },
     {
+      "id": "onic_orb",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Æonic Orb",
@@ -222,6 +246,7 @@
       "parse_warnings": []
     },
     {
+      "id": "abattoir",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Abattoir",
@@ -233,6 +258,7 @@
       "parse_warnings": []
     },
     {
+      "id": "space_craft",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Space Craft",
@@ -244,6 +270,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warbarques",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Warbarques",
@@ -255,6 +282,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pylon",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Pylon",
@@ -266,6 +294,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_tesseract_vault",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "0-1 Tesseract Vault",
@@ -277,6 +306,7 @@
       "parse_warnings": []
     },
     {
+      "id": "doom_scythes",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Doom Scythes",
@@ -288,6 +318,7 @@
       "parse_warnings": []
     },
     {
+      "id": "night_scythes",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Night Scythes",
@@ -299,6 +330,7 @@
       "parse_warnings": []
     },
     {
+      "id": "night_shroud_bomber",
       "category": "Sautekh Necron Harvesters and Aircraft",
       "entry_type": "formation",
       "name": "Night Shroud Bomber",
@@ -312,6 +344,7 @@
   ],
   "profiles": [
     {
+      "id": "necron_overlord",
       "name": "Necron Overlord",
       "type": "CH",
       "speed": "n/a",
@@ -349,6 +382,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "necron_lord",
       "name": "Necron Lord",
       "type": "CH",
       "speed": "n/a",
@@ -387,6 +421,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cryptek",
       "name": "Cryptek",
       "type": "CH",
       "speed": "n/a",
@@ -415,6 +450,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathmarks",
       "name": "Deathmarks",
       "type": "INF",
       "speed": "15cm",
@@ -448,6 +484,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "destroyers",
       "name": "Destroyers",
       "type": "INF",
       "speed": "25cm",
@@ -474,6 +511,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "heavy_destroyers",
       "name": "Heavy Destroyers",
       "type": "INF",
       "speed": "25cm",
@@ -500,6 +538,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "immortals",
       "name": "Immortals",
       "type": "INF",
       "speed": "15cm",
@@ -524,6 +563,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sautekh_flayed_ones",
       "name": "Sautekh Flayed Ones",
       "type": "INF",
       "speed": "15cm",
@@ -553,6 +593,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sautekh_warriors",
       "name": "Sautekh Warriors",
       "type": "INF",
       "speed": "15cm",
@@ -577,6 +618,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tomb_blades",
       "name": "Tomb Blades",
       "type": "INF",
       "speed": "35cm",
@@ -606,6 +648,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "triarch_praetorian",
       "name": "Triarch Praetorian",
       "type": "INF",
       "speed": "30cm",
@@ -643,6 +686,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wraiths",
       "name": "Wraiths",
       "type": "INF",
       "speed": "30cm",
@@ -674,6 +718,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "annihilation_barge",
       "name": "Annihilation Barge",
       "type": "AV",
       "speed": "25cm",
@@ -707,6 +752,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catacomb_command_barge",
       "name": "Catacomb Command Barge",
       "type": "AV",
       "speed": "25cm",
@@ -733,6 +779,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "doomsday_ark",
       "name": "Doomsday Ark",
       "type": "AV",
       "speed": "25cm",
@@ -764,6 +811,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ghost_ark",
       "name": "Ghost Ark",
       "type": "AV",
       "speed": "25cm",
@@ -791,6 +839,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sautekh_monolith",
       "name": "Sautekh Monolith",
       "type": "AV",
       "speed": "15cm",
@@ -829,6 +878,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "obelisk",
       "name": "Obelisk",
       "type": "AV",
       "speed": "30cm",
@@ -857,6 +907,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tomb_spyder",
       "name": "Tomb Spyder",
       "type": "AV",
       "speed": "15cm",
@@ -915,6 +966,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "triarch_stalker",
       "name": "Triarch Stalker",
       "type": "AV",
       "speed": "20cm",
@@ -952,6 +1004,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sentry_pylons",
       "name": "Sentry Pylons",
       "type": "AV",
       "speed": "10cm",
@@ -979,6 +1032,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "abattoir",
       "name": "Abattoir",
       "type": "WE",
       "speed": "20cm",
@@ -1040,6 +1094,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "onic_orb",
       "name": "Æonic Orb",
       "type": "WE",
       "speed": "20cm",
@@ -1079,6 +1134,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "c_tan_shard",
       "name": "C’tan Shard",
       "type": "WE",
       "speed": "20cm",
@@ -1130,6 +1186,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pylon",
       "name": "Pylon",
       "type": "WE",
       "speed": "Immobile",
@@ -1179,6 +1236,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tesseract_vault",
       "name": "Tesseract Vault",
       "type": "WE",
       "speed": "20cm",
@@ -1230,6 +1288,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warbarque",
       "name": "Warbarque",
       "type": "WE",
       "speed": "20cm",
@@ -1285,6 +1344,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "doom_scythe",
       "name": "Doom Scythe",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1317,6 +1377,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "night_scythe",
       "name": "Night Scythe",
       "type": "AC",
       "speed": "Fighter",
@@ -1353,6 +1414,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "night_shroud_bomber",
       "name": "Night Shroud Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1387,6 +1449,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "scythe_class_harvester",
       "name": "Scythe Class Harvester",
       "type": "SC",
       "speed": "n/a",

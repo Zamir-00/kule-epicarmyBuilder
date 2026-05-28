@@ -17,12 +17,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all Ork formations."
     }
   ],
   "formations": [
     {
+      "id": "boarboyz_horde",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Boarboyz Horde",
@@ -34,6 +36,7 @@
       "parse_warnings": []
     },
     {
+      "id": "junka_brigade",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Junka Brigade",
@@ -45,6 +48,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_madboyz_horde",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Madboyz Horde",
@@ -56,6 +60,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_steam_gargant",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Steam Gargant",
@@ -67,6 +72,7 @@
       "parse_warnings": []
     },
     {
+      "id": "trappas",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Trappas",
@@ -78,6 +84,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warband",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warband",
@@ -89,6 +96,7 @@
       "parse_warnings": []
     },
     {
+      "id": "wildboyz",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Wildboyz",
@@ -102,6 +110,7 @@
   ],
   "profiles": [
     {
+      "id": "warlord",
       "name": "Warlord",
       "type": "CH",
       "speed": "n/a",
@@ -129,6 +138,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wyrdboy",
       "name": "Wyrdboy",
       "type": "CH",
       "speed": "n/a",
@@ -153,6 +163,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "boarboyz",
       "name": "Boarboyz",
       "type": "INF",
       "speed": "20cm",
@@ -178,6 +189,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "boyz",
       "name": "Boyz",
       "type": "INF",
       "speed": "15cm",
@@ -200,6 +212,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grotz",
       "name": "Grotz",
       "type": "INF",
       "speed": "15cm",
@@ -225,6 +238,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "madboyz",
       "name": "Madboyz",
       "type": "INF",
       "speed": "15cm",
@@ -249,6 +263,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nobz",
       "name": "Nobz",
       "type": "INF",
       "speed": "15cm",
@@ -281,6 +296,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "squig_katapult",
       "name": "Squig Katapult",
       "type": "INF",
       "speed": "10cm",
@@ -305,6 +321,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wildboyz",
       "name": "Wildboyz",
       "type": "INF",
       "speed": "15cm",
@@ -322,6 +339,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "junkatrukk",
       "name": "Junkatrukk",
       "type": "LV",
       "speed": "25cm",
@@ -347,6 +365,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "squiggoth",
       "name": "Squiggoth",
       "type": "LV",
       "speed": "20cm",
@@ -389,6 +408,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "orkeosaurus",
       "name": "Orkeosaurus",
       "type": "WE",
       "speed": "15cm",
@@ -443,6 +463,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "steam_gargant",
       "name": "Steam Gargant",
       "type": "WE",
       "speed": "15cm",
@@ -491,6 +512,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "junka_trukks",
       "name": "Junka Trukks",
       "type": "AV",
       "speed": "30cm",

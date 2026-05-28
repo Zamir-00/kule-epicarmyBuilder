@@ -27,20 +27,24 @@
   },
   "special_rules": [
     {
+      "id": "dedicated_war_engines",
       "name": "Dedicated War Engines",
       "text": "Leviathans and Stormlords may only transport units from their own formation. The rules for War Engine transports do not apply to them when using the Cadian Shock Troops army list."
     },
     {
+      "id": "commissars",
       "name": "Commissars",
       "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.\nCommissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations.\nYou may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
     },
     {
+      "id": "imperial_void_shields",
       "name": "Imperial Void Shields",
       "text": "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan's datasheet. Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.\nVoid shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
     }
   ],
   "formations": [
     {
+      "id": "0_1_cadian_regimental_hq",
       "category": "Cadian Shock Troops Companies",
       "entry_type": "formation",
       "name": "0-1 Cadian Regimental HQ",
@@ -52,6 +56,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kasrkin_infantry_company",
       "category": "Cadian Shock Troops Companies",
       "entry_type": "formation",
       "name": "Kasrkin Infantry Company",
@@ -63,6 +68,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cadian_infantry_company",
       "category": "Cadian Shock Troops Companies",
       "entry_type": "formation",
       "name": "Cadian Infantry Company",
@@ -74,6 +80,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_whiteshield_company",
       "category": "Cadian Shock Troops Companies",
       "entry_type": "formation",
       "name": "0-1 Whiteshield Company",
@@ -85,6 +92,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support_platoon",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support Platoon",
@@ -96,6 +104,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_platoon",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Infantry Platoon",
@@ -107,6 +116,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kasrkin_platoon",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Kasrkin Platoon",
@@ -118,6 +128,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sanctioned_psykers",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Sanctioned Psykers",
@@ -129,6 +140,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sabre_platforms",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Sabre Platforms",
@@ -140,6 +152,7 @@
       "parse_warnings": []
     },
     {
+      "id": "snipers",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Snipers",
@@ -151,6 +164,7 @@
       "parse_warnings": []
     },
     {
+      "id": "assault_transport",
       "category": "Cadian Shock Troops Company Upgrades",
       "entry_type": "upgrade",
       "name": "Assault Transport",
@@ -162,6 +176,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_battery",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Artillery Battery",
@@ -173,6 +188,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak_battery",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Flak Battery",
@@ -184,6 +200,7 @@
       "parse_warnings": []
     },
     {
+      "id": "griffon_platoon",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Griffon Platoon",
@@ -195,6 +212,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_platoon",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Hellhound Platoon",
@@ -206,6 +224,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mechanized_kasrkin_valkyries",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Mechanized Kasrkin - Valkyries",
@@ -219,6 +238,7 @@
       ]
     },
     {
+      "id": "mechanized_kasrkin_chimeras",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Mechanized Kasrkin - Chimeras",
@@ -232,6 +252,7 @@
       ]
     },
     {
+      "id": "sentinel_squadron",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Sentinel Squadron",
@@ -243,6 +264,7 @@
       "parse_warnings": []
     },
     {
+      "id": "super_heavy_tank_platoon",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Super-heavy Tank Platoon",
@@ -254,6 +276,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_platoon",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Tank Platoon",
@@ -265,6 +288,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vulture_squadron",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "Vulture Squadron",
@@ -276,6 +300,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_deathstrike_battery",
       "category": "Cadian Shock Troops Support Formations",
       "entry_type": "formation",
       "name": "0-1 Deathstrike Battery",
@@ -287,6 +312,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_colossus",
       "category": "Imperial Navy Aircraft",
       "entry_type": "formation",
       "name": "Marauder Colossus",
@@ -298,6 +324,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "Imperial Navy Aircraft",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -309,6 +336,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "Imperial Navy Aircraft",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -320,6 +348,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_ordinatus",
       "category": "Adeptus Mechanicus",
       "entry_type": "formation",
       "name": "0-1 Ordinatus",
@@ -331,6 +360,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "Adeptus Mechanicus",
       "entry_type": "formation",
       "name": "Reaver",
@@ -342,6 +372,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "Adeptus Mechanicus",
       "entry_type": "formation",
       "name": "Warlord",
@@ -355,6 +386,7 @@
   ],
   "profiles": [
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -384,6 +416,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_psykers",
       "name": "Battle Psykers",
       "type": "INF",
       "speed": "15cm",
@@ -410,6 +443,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commander",
       "name": "Commander",
       "type": "INF",
       "speed": "15cm",
@@ -434,6 +468,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "infantry",
       "name": "Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -458,6 +493,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kasrkin",
       "name": "Kasrkin",
       "type": "INF",
       "speed": "15cm",
@@ -480,6 +516,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sabre_platform",
       "name": "Sabre Platform",
       "type": "INF",
       "speed": "10cm",
@@ -504,6 +541,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "snipers",
       "name": "Snipers",
       "type": "INF",
       "speed": "15cm",
@@ -529,6 +567,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_squad",
       "name": "Support Squad",
       "type": "INF",
       "speed": "15cm",
@@ -551,6 +590,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -584,6 +624,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cadian_sentinel",
       "name": "Cadian Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -608,6 +649,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "basilisk",
       "name": "Basilisk",
       "type": "AV",
       "speed": "20cm",
@@ -644,6 +686,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bombard",
       "name": "Bombard",
       "type": "AV",
       "speed": "20cm",
@@ -676,6 +719,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -707,6 +751,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathstrike",
       "name": "Deathstrike",
       "type": "AV",
       "speed": "20cm",
@@ -739,6 +784,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "griffon",
       "name": "Griffon",
       "type": "AV",
       "speed": "30cm",
@@ -769,6 +815,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -799,6 +846,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -827,6 +875,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ",
       "name": "Leman Russ",
       "type": "AV",
       "speed": "20cm",
@@ -863,6 +912,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_demolisher",
       "name": "Leman Russ Demolisher",
       "type": "AV",
       "speed": "20cm",
@@ -903,6 +953,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "manticore",
       "name": "Manticore",
       "type": "AV",
       "speed": "20cm",
@@ -935,6 +986,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -977,6 +1029,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture",
       "name": "Vulture",
       "type": "AV",
       "speed": "35cm",
@@ -1016,6 +1069,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "baneblade",
       "name": "Baneblade",
       "type": "WE",
       "speed": "15cm",
@@ -1069,6 +1123,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leviathan_mobile_command_center",
       "name": "Leviathan Mobile Command Center",
       "type": "WE",
       "speed": "15cm",
@@ -1125,6 +1180,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ordinatus_cadia",
       "name": "Ordinatus Cadia",
       "type": "WE",
       "speed": "10cm",
@@ -1167,6 +1223,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1207,6 +1264,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shadowsword",
       "name": "Shadowsword",
       "type": "WE",
       "speed": "15cm",
@@ -1242,6 +1300,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormlord",
       "name": "Stormlord",
       "type": "WE",
       "speed": "15cm",
@@ -1294,6 +1353,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormsword",
       "name": "Stormsword",
       "type": "WE",
       "speed": "15cm",
@@ -1352,6 +1412,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1402,6 +1463,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1440,6 +1502,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_colossus",
       "name": "Marauder Colossus",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1473,6 +1536,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",

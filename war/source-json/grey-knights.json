@@ -22,24 +22,29 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The They Shall Know No Fear rule applies to all Grey Knights formations except Inquisitorial forces (see They Shall Know No Fear)."
     },
     {
+      "id": "grey_knights_transport",
       "name": "Grey Knights Transport",
       "text": "The Grey Knights are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation; you can’t take extras along to cover any losses.\n\nNote that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list.\n\nAlso note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\n\nIn addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall. Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from."
     },
     {
+      "id": "they_shall_know_no_fear",
       "name": "They Shall Know No Fear",
       "text": "Grey Knights are renowned for their tenacity and bravery. This is represented by the following rules:\n\n- It takes 2 Blast markers to suppress a Grey Knight unit or kill a unit in a broken formation (ignore any leftover Blast markers).\n- Grey Knight formations are only broken if they have 2 Blast markers per unit in the formation.\n- Grey Knight formations only count half their number of Blast markers in assault resolution (rounding down; note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Grey Knight formation that loses an assault, rounding down in favour of the Grey Knights.\n- When a broken Grey Knight formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Grey Knights with the Leader special ability remove 2 Blast markers instead of 1."
     },
     {
+      "id": "into_the_maw_of_the_beast",
       "name": "Into the Maw of the Beast",
       "text": "Grey Knight battle doctrine frequently requires rapid insertion into the heart of battle where the fighting is the thickest to subdue a demon incursion. Because of this experience combined with their access to greater technology over the standard Adeptus Astartes chapter, units with Teleport may choose to enter the battlefield using Self-Planetfall. Announce the choice at the beginning of the game and plot accordingly per the rules of Self-Planetfall."
     }
   ],
   "formations": [
     {
+      "id": "strike_squad",
       "category": "Grey Knight Core Formations",
       "entry_type": "formation",
       "name": "Strike Squad",
@@ -51,6 +56,7 @@
       "parse_warnings": []
     },
     {
+      "id": "inquisitorial_warband",
       "category": "Grey Knight Core Formations",
       "entry_type": "formation",
       "name": "Inquisitorial Warband",
@@ -62,6 +68,7 @@
       "parse_warnings": []
     },
     {
+      "id": "terminators",
       "category": "Grey Knight Elite Formations",
       "entry_type": "formation",
       "name": "Terminators",
@@ -73,6 +80,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_purifier_squad",
       "category": "Grey Knight Elite Formations",
       "entry_type": "formation",
       "name": "0-1 Purifier Squad",
@@ -84,6 +92,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eternal_warrior_formation_grey_knight_dreadnoughts",
       "category": "Grey Knight Elite Formations",
       "entry_type": "formation",
       "name": "Eternal Warrior Formation - Grey Knight Dreadnoughts",
@@ -97,6 +106,7 @@
       ]
     },
     {
+      "id": "eternal_warrior_formation_nemesis_dreadknights",
       "category": "Grey Knight Elite Formations",
       "entry_type": "formation",
       "name": "Eternal Warrior Formation - Nemesis Dreadknights",
@@ -110,6 +120,7 @@
       ]
     },
     {
+      "id": "interceptor_squad",
       "category": "Grey Knight Support Formations",
       "entry_type": "formation",
       "name": "Interceptor Squad",
@@ -121,6 +132,7 @@
       "parse_warnings": []
     },
     {
+      "id": "purgation_squad",
       "category": "Grey Knight Support Formations",
       "entry_type": "formation",
       "name": "Purgation Squad",
@@ -132,6 +144,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "Grey Knight Support Formations",
       "entry_type": "formation",
       "name": "Land Raiders",
@@ -143,6 +156,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_strike_cruisers",
       "category": "Grey Knight Support Formations",
       "entry_type": "formation",
       "name": "0-1 Strike Cruisers",
@@ -154,6 +168,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_raven_flight",
       "category": "Grey Knight Support Formations",
       "entry_type": "formation",
       "name": "Storm Raven Flight",
@@ -165,6 +180,7 @@
       "parse_warnings": []
     },
     {
+      "id": "inquisitorial_storm_troopers",
       "category": "Inquisition Support Formations",
       "entry_type": "formation",
       "name": "Inquisitorial Storm Troopers",
@@ -176,6 +192,7 @@
       "parse_warnings": []
     },
     {
+      "id": "inquisitorial_hellhound_platoon",
       "category": "Inquisition Support Formations",
       "entry_type": "formation",
       "name": "Inquisitorial Hellhound Platoon",
@@ -187,6 +204,7 @@
       "parse_warnings": []
     },
     {
+      "id": "inquisitorial_tank_company",
       "category": "Inquisition Support Formations",
       "entry_type": "formation",
       "name": "Inquisitorial Tank Company",
@@ -200,6 +218,7 @@
       ]
     },
     {
+      "id": "thunderhawk_gunship",
       "category": "Grey Knight Aircraft",
       "entry_type": "formation",
       "name": "Thunderhawk Gunship",
@@ -211,6 +230,7 @@
       "parse_warnings": []
     },
     {
+      "id": "landing_craft",
       "category": "Grey Knight Aircraft",
       "entry_type": "formation",
       "name": "Landing Craft",
@@ -222,6 +242,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderhawk_transporter",
       "category": "Grey Knight Aircraft",
       "entry_type": "formation",
       "name": "Thunderhawk Transporter",
@@ -233,6 +254,7 @@
       "parse_warnings": []
     },
     {
+      "id": "stormtalon_gunship",
       "category": "Grey Knight Aircraft",
       "entry_type": "formation",
       "name": "Stormtalon Gunship",
@@ -244,6 +266,7 @@
       "parse_warnings": []
     },
     {
+      "id": "command",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Command",
@@ -255,6 +278,7 @@
       "parse_warnings": []
     },
     {
+      "id": "death_cult_assassins",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Death Cult Assassins",
@@ -266,6 +290,7 @@
       "parse_warnings": []
     },
     {
+      "id": "eternal_warriors",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Eternal Warriors",
@@ -277,6 +302,7 @@
       "parse_warnings": []
     },
     {
+      "id": "grand_master",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Grand Master",
@@ -288,6 +314,7 @@
       "parse_warnings": []
     },
     {
+      "id": "grey_knight_paladin_escort",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Grey Knight Paladin Escort",
@@ -299,6 +326,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hunter",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hunter",
@@ -321,6 +349,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorbacks",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Razorbacks",
@@ -332,6 +361,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rhinos",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Rhinos",
@@ -343,6 +373,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_ravens",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Storm Ravens",
@@ -354,6 +385,7 @@
       "parse_warnings": []
     },
     {
+      "id": "valkyries",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Valkyries",
@@ -367,6 +399,7 @@
   ],
   "profiles": [
     {
+      "id": "brother_captain",
       "name": "Brother Captain",
       "type": "CH",
       "speed": "n/a",
@@ -395,6 +428,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grand_master",
       "name": "Grand Master",
       "type": "CH",
       "speed": "n/a",
@@ -424,6 +458,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_knight_librarian",
       "name": "Grey Knight Librarian",
       "type": "CH",
       "speed": "n/a",
@@ -462,6 +497,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitor",
       "name": "Inquisitor",
       "type": "CH",
       "speed": "n/a",
@@ -490,6 +526,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "paladin_escort",
       "name": "Paladin Escort",
       "type": "CH",
       "speed": "n/a",
@@ -517,6 +554,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_cult_assassin",
       "name": "Death Cult Assassin",
       "type": "INF",
       "speed": "15cm",
@@ -550,6 +588,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_knight_terminators",
       "name": "Grey Knight Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -586,6 +625,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitorial_storm_troopers",
       "name": "Inquisitorial Storm Troopers",
       "type": "INF",
       "speed": "15cm",
@@ -614,6 +654,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitorial_warrior_acolytes",
       "name": "Inquisitorial Warrior Acolytes",
       "type": "INF",
       "speed": "15cm",
@@ -644,6 +685,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "interceptors",
       "name": "Interceptors",
       "type": "INF",
       "speed": "30cm",
@@ -686,6 +728,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "purgation_squad",
       "name": "Purgation Squad",
       "type": "INF",
       "speed": "15cm",
@@ -716,6 +759,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "purifier_squad",
       "name": "Purifier Squad",
       "type": "INF",
       "speed": "15cm",
@@ -757,6 +801,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_squad",
       "name": "Strike Squad",
       "type": "INF",
       "speed": "15cm",
@@ -787,6 +832,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -817,6 +863,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_knight_razorback",
       "name": "Grey Knight Razorback",
       "type": "AV",
       "speed": "30cm",
@@ -841,6 +888,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_knight_dreadnought",
       "name": "Grey Knight Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -882,6 +930,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hunter",
       "name": "Hunter",
       "type": "AV",
       "speed": "30cm",
@@ -904,6 +953,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitorial_hellhound",
       "name": "Inquisitorial Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -934,6 +984,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitorial_leman_russ_tank",
       "name": "Inquisitorial Leman Russ Tank",
       "type": "AV",
       "speed": "20cm",
@@ -970,6 +1021,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider",
       "name": "Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -1003,6 +1055,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_crusader",
       "name": "Land Raider Crusader",
       "type": "AV",
       "speed": "25cm",
@@ -1044,6 +1097,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_redeemer",
       "name": "Land Raider Redeemer",
       "type": "AV",
       "speed": "25cm",
@@ -1085,6 +1139,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nemesis_dreadknight",
       "name": "Nemesis Dreadknight",
       "type": "AV",
       "speed": "25cm",
@@ -1138,6 +1193,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -1162,6 +1218,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormraven_gunship",
       "name": "Stormraven Gunship",
       "type": "AV",
       "speed": "35cm",
@@ -1209,6 +1266,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -1253,6 +1311,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormtalon_fighter_bomber",
       "name": "Stormtalon Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1285,6 +1344,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_gunship",
       "name": "Thunderhawk Gunship",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1339,6 +1399,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "landing_craft",
       "name": "Landing Craft",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1376,6 +1437,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_transporter",
       "name": "Thunderhawk Transporter",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1404,6 +1466,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_knights_drop_pod",
       "name": "Grey Knights Drop Pod",
       "type": "Special",
       "speed": "n/a",
@@ -1432,6 +1495,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_cruiser",
       "name": "Strike Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1458,6 +1522,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_barge",
       "name": "Battle Barge",
       "type": "SC",
       "speed": "n/a",
@@ -1485,6 +1550,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "eternal_warrior_formation",
       "name": "Eternal Warrior Formation",
       "type": "Formation",
       "speed": "n/a",

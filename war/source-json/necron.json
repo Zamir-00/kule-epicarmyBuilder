@@ -17,12 +17,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Implacable Advance rule applies to all Necron formations (see Implacable Advance ) and the Phase Out rule applies to certain formations (see Phase Out ). Additionally, certain units and weapons have special abilities described in Necron Technology (see Necron Technology )."
     }
   ],
   "formations": [
     {
+      "id": "0_1_c_tan",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 C’tan",
@@ -34,6 +36,7 @@
       "parse_warnings": []
     },
     {
+      "id": "harvester_engine",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Harvester Engine",
@@ -45,6 +48,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_spacecraft",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Spacecraft",
@@ -56,6 +60,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pylon",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Pylon",
@@ -67,6 +72,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warbarque",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Warbarque",
@@ -80,6 +86,7 @@
   ],
   "profiles": [
     {
+      "id": "necron_lord",
       "name": "Necron Lord",
       "type": "CH",
       "speed": "n/a",
@@ -118,6 +125,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "necron_overlord",
       "name": "Necron Overlord",
       "type": "CH",
       "speed": "n/a",
@@ -135,6 +143,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "destroyers",
       "name": "Destroyers",
       "type": "INF",
       "speed": "25cm",
@@ -161,6 +170,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "flayed_ones",
       "name": "Flayed Ones",
       "type": "INF",
       "speed": "15cm",
@@ -183,6 +193,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "heavy_destroyers",
       "name": "Heavy Destroyers",
       "type": "INF",
       "speed": "25cm",
@@ -209,6 +220,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "immortals",
       "name": "Immortals",
       "type": "INF",
       "speed": "15cm",
@@ -233,6 +245,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "necron_warriors",
       "name": "Necron Warriors",
       "type": "INF",
       "speed": "15cm",
@@ -257,6 +270,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pariahs",
       "name": "Pariahs",
       "type": "INF",
       "speed": "15cm",
@@ -292,6 +306,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wraiths",
       "name": "Wraiths",
       "type": "INF",
       "speed": "30cm",
@@ -321,6 +336,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "monolith",
       "name": "Monolith",
       "type": "AV",
       "speed": "15cm",
@@ -358,6 +374,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "obelisk",
       "name": "Obelisk",
       "type": "AV",
       "speed": "30cm",
@@ -386,6 +403,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tomb_spyder",
       "name": "Tomb Spyder",
       "type": "AV",
       "speed": "15cm",
@@ -444,6 +462,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "abattoir",
       "name": "Abattoir",
       "type": "WE",
       "speed": "20cm",
@@ -507,6 +526,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "aeonic_orb",
       "name": "Aeonic Orb",
       "type": "WE",
       "speed": "20cm",
@@ -547,6 +567,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pylon",
       "name": "Pylon",
       "type": "WE",
       "speed": "Immobile",
@@ -596,6 +617,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "the_deceiver",
       "name": "The Deceiver",
       "type": "WE",
       "speed": "15cm",
@@ -639,6 +661,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "the_nightbringer",
       "name": "The Nightbringer",
       "type": "WE",
       "speed": "15cm",
@@ -691,6 +714,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warbarque",
       "name": "Warbarque",
       "type": "WE",
       "speed": "20cm",
@@ -743,6 +767,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "scythe_class_harvester",
       "name": "Scythe Class Harvester",
       "type": "SC",
       "speed": "n/a",
@@ -775,6 +800,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "eques_maniple",
       "name": "Eques Maniple",
       "type": "Formation",
       "speed": "n/a",
@@ -787,6 +813,7 @@
       ]
     },
     {
+      "id": "monolith_maniple",
       "name": "Monolith Maniple",
       "type": "Formation",
       "speed": "n/a",
@@ -799,6 +826,7 @@
       ]
     },
     {
+      "id": "tomb_complex",
       "name": "Tomb Complex",
       "type": "Formation",
       "speed": "n/a",

@@ -23,20 +23,24 @@
   },
   "special_rules": [
     {
+      "id": "towed_guns",
       "name": "Towed Guns",
       "text": "Tallarn Chimeras may transport one Sabre Platform or one Thudd Gun, if they transport no other units."
     },
     {
+      "id": "lightning_raid",
       "name": "Lightning Raid",
       "text": "For every complete 1500 points of army selected, the Tallarn player may choose to garrison one formation that is not normally eligible to garrison. Formations that garrison using this rule may not start the game on Overwatch."
     },
     {
+      "id": "commissars",
       "name": "Commissars",
       "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points. Commissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations. You may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
     }
   ],
   "formations": [
     {
+      "id": "infantry_company",
       "category": "Tallarn Companies",
       "entry_type": "formation",
       "name": "Infantry Company",
@@ -48,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mechanized_infantry_company",
       "category": "Tallarn Companies",
       "entry_type": "formation",
       "name": "Mechanized Infantry Company",
@@ -59,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mukaali_assault_company",
       "category": "Tallarn Companies",
       "entry_type": "formation",
       "name": "Mukaali Assault Company",
@@ -70,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "snipers",
       "category": "Tallarn Company Upgrades",
       "entry_type": "upgrade",
       "name": "Snipers",
@@ -81,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak",
       "category": "Tallarn Company Upgrades",
       "entry_type": "upgrade",
       "name": "Flak",
@@ -92,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "griffon_squadron",
       "category": "Tallarn Company Upgrades",
       "entry_type": "upgrade",
       "name": "Griffon Squadron",
@@ -103,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound",
       "category": "Tallarn Company Upgrades",
       "entry_type": "upgrade",
       "name": "Hellhound",
@@ -114,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_supreme_commander",
       "category": "Tallarn Company Upgrades",
       "entry_type": "upgrade",
       "name": "0-1 Supreme Commander",
@@ -125,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support",
       "category": "Tallarn Company Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support",
@@ -136,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentinel_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Sentinel Platoon",
@@ -147,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Fire Support Platoon",
@@ -158,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "light_artillery_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Light Artillery Platoon",
@@ -169,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "desert_raiders_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Desert Raiders Platoon",
@@ -180,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_squadron",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Hellhound Squadron",
@@ -202,6 +219,7 @@
       "parse_warnings": []
     },
     {
+      "id": "anti_aircraft_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Anti-Aircraft Platoon",
@@ -213,6 +231,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rough_rider_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Rough Rider Platoon",
@@ -224,6 +243,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tauros_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Tauros Platoon",
@@ -235,6 +255,7 @@
       "parse_warnings": []
     },
     {
+      "id": "conqueror_platoon",
       "category": "Tallarn Support Formations",
       "entry_type": "formation",
       "name": "Conqueror Platoon",
@@ -246,6 +267,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "Allied Forces",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -257,6 +279,7 @@
       "parse_warnings": []
     },
     {
+      "id": "destroyer_squadron",
       "category": "Allied Forces",
       "entry_type": "formation",
       "name": "Destroyer Squadron",
@@ -268,6 +291,7 @@
       "parse_warnings": []
     },
     {
+      "id": "knight_house_banner",
       "category": "Allied Forces",
       "entry_type": "formation",
       "name": "Knight House Banner",
@@ -281,6 +305,7 @@
   ],
   "profiles": [
     {
+      "id": "mukaali_cavalry",
       "name": "Mukaali Cavalry",
       "type": "LV",
       "speed": "20cm",
@@ -317,6 +342,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mukaali_support_cavalry",
       "name": "Mukaali Support Cavalry",
       "type": "LV",
       "speed": "20cm",
@@ -344,6 +370,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tallarn_sentinel",
       "name": "Tallarn Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -370,6 +397,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cavalry_supreme_commander",
       "name": "Cavalry Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -397,6 +425,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cavalry_commander",
       "name": "Cavalry Commander",
       "type": "CH",
       "speed": "n/a",
@@ -423,6 +452,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sabre_platform",
       "name": "Sabre Platform",
       "type": "INF",
       "speed": "10cm",
@@ -447,6 +477,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thudd_gun",
       "name": "Thudd Gun",
       "type": "INF",
       "speed": "10cm",
@@ -473,6 +504,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tauros",
       "name": "Tauros",
       "type": "LV",
       "speed": "35cm",
@@ -497,6 +529,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tauros_venator",
       "name": "Tauros Venator",
       "type": "LV",
       "speed": "35cm",
@@ -521,6 +554,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_conqueror",
       "name": "Leman Russ Conqueror",
       "type": "AV",
       "speed": "30cm",
@@ -551,6 +585,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "questoris_knight",
       "name": "Questoris Knight",
       "type": "WE",
       "speed": "25cm",
@@ -625,6 +660,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "marauder_destroyer",
       "name": "Marauder Destroyer",
       "type": "AC",
       "speed": "Bomber",
@@ -671,6 +707,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_commander",
       "name": "Imperial Guard Commander",
       "type": "INF",
       "speed": "15cm",
@@ -695,6 +732,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_supreme_commander",
       "name": "Imperial Guard Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -728,6 +766,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_infantry",
       "name": "Imperial Guard Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -758,6 +797,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sniper",
       "name": "Sniper",
       "type": "INF",
       "speed": "15cm",
@@ -783,6 +823,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -814,6 +855,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_support",
       "name": "Fire Support",
       "type": "INF",
       "speed": "15cm",
@@ -842,6 +884,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "griffon",
       "name": "Griffon",
       "type": "AV",
       "speed": "30cm",
@@ -872,6 +915,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -902,6 +946,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormtrooper",
       "name": "Stormtrooper",
       "type": "INF",
       "speed": "15cm",
@@ -926,6 +971,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rough_rider",
       "name": "Rough Rider",
       "type": "INF",
       "speed": "20cm",
@@ -961,6 +1007,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter_bomber",
       "name": "Thunderbolt Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",

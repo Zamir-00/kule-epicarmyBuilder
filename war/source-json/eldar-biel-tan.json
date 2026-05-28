@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Hit & Run Tactics rule applies to all Eldar formations (see Hit & Run Tactics ). Additionally, certain units and weapons have special abilities described in Farsight (see Farsight ) and Eldar Technology (see Eldar Technology )."
     }
   ],
   "formations": [
     {
+      "id": "nightwings",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Nightwings",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "phantom",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Phantom",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "phoenix",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Phoenix",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "revenants",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Revenants",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "any_one_of_the_following_units",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Any one of the following units:",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vampire",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Vampire",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_warlock",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Warlock",
@@ -106,6 +114,7 @@
   ],
   "profiles": [
     {
+      "id": "autarch",
       "name": "Autarch",
       "type": "CH",
       "speed": "n/a",
@@ -143,6 +152,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "court_of_the_young_king",
       "name": "Court of the Young King",
       "type": "CH",
       "speed": "n/a",
@@ -168,6 +178,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "exarch",
       "name": "Exarch",
       "type": "CH",
       "speed": "n/a",
@@ -203,6 +214,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dark_reapers",
       "name": "Dark Reapers",
       "type": "INF",
       "speed": "15cm",
@@ -225,6 +237,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dire_avengers",
       "name": "Dire Avengers",
       "type": "INF",
       "speed": "15cm",
@@ -249,6 +262,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "farseer",
       "name": "Farseer",
       "type": "INF",
       "speed": "15cm",
@@ -284,6 +298,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_dragons",
       "name": "Fire Dragons",
       "type": "INF",
       "speed": "15cm",
@@ -316,6 +331,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "guardians",
       "name": "Guardians",
       "type": "INF",
       "speed": "15cm",
@@ -338,6 +354,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "heavy_weapon_platform",
       "name": "Heavy Weapon Platform",
       "type": "INF",
       "speed": "15cm",
@@ -360,6 +377,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "howling_banshees",
       "name": "Howling Banshees",
       "type": "INF",
       "speed": "15cm",
@@ -392,6 +410,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "jetbikes",
       "name": "Jetbikes",
       "type": "INF",
       "speed": "35cm",
@@ -417,6 +436,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rangers",
       "name": "Rangers",
       "type": "INF",
       "speed": "15cm",
@@ -442,6 +462,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shining_spears",
       "name": "Shining Spears",
       "type": "INF",
       "speed": "35cm",
@@ -475,6 +496,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "striking_scorpions",
       "name": "Striking Scorpions",
       "type": "INF",
       "speed": "15cm",
@@ -505,6 +527,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_weapon_platform",
       "name": "Support Weapon Platform",
       "type": "INF",
       "speed": "15cm",
@@ -527,6 +550,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "swooping_hawks",
       "name": "Swooping Hawks",
       "type": "INF",
       "speed": "35cm",
@@ -553,6 +577,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warp_spiders",
       "name": "Warp Spiders",
       "type": "INF",
       "speed": "15cm",
@@ -579,6 +604,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wraithguard",
       "name": "Wraithguard",
       "type": "INF",
       "speed": "15cm",
@@ -615,6 +641,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vyper",
       "name": "Vyper",
       "type": "LV",
       "speed": "35cm",
@@ -639,6 +666,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "war_walker",
       "name": "War Walker",
       "type": "LV",
       "speed": "20cm",
@@ -673,6 +701,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "falcon",
       "name": "Falcon",
       "type": "AV",
       "speed": "35cm",
@@ -705,6 +734,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_prism",
       "name": "Fire Prism",
       "type": "AV",
       "speed": "35cm",
@@ -731,6 +761,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "firestorm",
       "name": "Firestorm",
       "type": "AV",
       "speed": "35cm",
@@ -757,6 +788,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "night_spinner",
       "name": "Night Spinner",
       "type": "AV",
       "speed": "35cm",
@@ -786,6 +818,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wave_serpent",
       "name": "Wave Serpent",
       "type": "AV",
       "speed": "35cm",
@@ -813,6 +846,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wraithlord",
       "name": "Wraithlord",
       "type": "AV",
       "speed": "15cm",
@@ -850,6 +884,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "avatar",
       "name": "Avatar",
       "type": "WE",
       "speed": "15cm",
@@ -891,6 +926,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cobra",
       "name": "Cobra",
       "type": "WE",
       "speed": "25cm",
@@ -945,6 +981,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "phantom_titan",
       "name": "Phantom Titan",
       "type": "WE",
       "speed": "25cm",
@@ -1009,6 +1046,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "revenant_titan",
       "name": "Revenant Titan",
       "type": "WE",
       "speed": "35cm",
@@ -1044,6 +1082,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "scorpion",
       "name": "Scorpion",
       "type": "WE",
       "speed": "25cm",
@@ -1077,6 +1116,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "storm_serpent",
       "name": "Storm Serpent",
       "type": "WE",
       "speed": "25cm",
@@ -1111,6 +1151,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "void_spinner",
       "name": "Void Spinner",
       "type": "WE",
       "speed": "25cm",
@@ -1141,6 +1182,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlock_titan",
       "name": "Warlock Titan",
       "type": "WE",
       "speed": "25cm",
@@ -1227,6 +1269,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "nightwing_interceptor",
       "name": "Nightwing Interceptor",
       "type": "AC",
       "speed": "Fighter",
@@ -1260,6 +1303,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "phoenix_bomber",
       "name": "Phoenix Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1303,6 +1347,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vampire_raider",
       "name": "Vampire Raider",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1341,6 +1386,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dragonship",
       "name": "Dragonship",
       "type": "SC",
       "speed": "n/a",
@@ -1376,6 +1422,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wraithship",
       "name": "Wraithship",
       "type": "SC",
       "speed": "n/a",

@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "Certain units have special abilities described in Augmented Summoning (see Augmented Summoning ) and Daemonic Focus (see Daemonic Focus )."
     }
   ],
   "formations": [
     {
+      "id": "stigmatus_covenant_coven",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Stigmatus Covenant Coven",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "big_mutants",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Big Mutants",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_altar",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Altar",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_hounds",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Hounds",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_spawn",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Chaos Spawn",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cultists_or_mutants",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Cultists or Mutants",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_daemon_prince_per_faction",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Daemon Prince per faction",
@@ -104,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "daemonic_pact",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Daemonic Pact",
@@ -115,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "icon_bearer",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Icon Bearer",
@@ -126,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "traitor_fire_support",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Traitor Fire Support",
@@ -137,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "traitor_flak",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Traitor Flak",
@@ -148,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "traitor_griffon_battery",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Traitor Griffon Battery",
@@ -159,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "traitor_hellhound_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Traitor Hellhound Squadron",
@@ -170,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "traitor_tank_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Traitor Tank Squadron",
@@ -181,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "10_points_each",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "+10 points each",
@@ -192,6 +208,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_undivided_defilers",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Chaos Undivided Defilers",
@@ -203,6 +220,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chaos_undivided_hellfire_cannons",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Chaos Undivided Hellfire Cannons",
@@ -214,6 +232,7 @@
       "parse_warnings": []
     },
     {
+      "id": "khorne_daemonic_assault_engines",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Khorne Daemonic Assault Engines",
@@ -225,6 +244,7 @@
       "parse_warnings": []
     },
     {
+      "id": "khorne_lord_of_battles",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Khorne Lord of Battles",
@@ -236,6 +256,7 @@
       "parse_warnings": []
     },
     {
+      "id": "nurgle_contagion_towers",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Nurgle Contagion Towers",
@@ -247,6 +268,7 @@
       "parse_warnings": []
     },
     {
+      "id": "nurgle_plague_towers",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Nurgle Plague Towers",
@@ -258,6 +280,7 @@
       "parse_warnings": []
     },
     {
+      "id": "slaanesh_daemon_knights",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Slaanesh Daemon Knights",
@@ -269,6 +292,7 @@
       "parse_warnings": []
     },
     {
+      "id": "275_points_each",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "275 points each",
@@ -280,6 +304,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tzeentch_doomwings",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tzeentch Doomwings",
@@ -291,6 +316,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tzeentch_firelords",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tzeentch Firelords",
@@ -302,6 +328,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tzeentch_silver_towers",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tzeentch Silver Towers",
@@ -313,6 +340,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -324,6 +352,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -335,6 +364,7 @@
       "parse_warnings": []
     },
     {
+      "id": "armoured_company",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Armoured Company",
@@ -346,6 +376,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Artillery Battery",
@@ -357,6 +388,7 @@
       "parse_warnings": []
     },
     {
+      "id": "rough_rider_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Rough Rider Platoon",
@@ -368,6 +400,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentinel_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Sentinel Squadron",
@@ -379,6 +412,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_2_plague_zombie_infestations",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "0–2 Plague Zombie Infestations",
@@ -390,6 +424,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cost",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Cost",
@@ -403,6 +438,7 @@
   ],
   "profiles": [
     {
+      "id": "arch_heretic",
       "name": "Arch-Heretic",
       "type": "CH",
       "speed": "n/a",
@@ -420,6 +456,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "icon_bearer",
       "name": "Icon Bearer",
       "type": "CH",
       "speed": "n/a",
@@ -439,6 +476,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "big_mutants",
       "name": "Big Mutants",
       "type": "INF",
       "speed": "15cm",
@@ -472,6 +510,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bloodletters",
       "name": "Bloodletters",
       "type": "INF",
       "speed": "15cm",
@@ -499,6 +538,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_hounds",
       "name": "Chaos Hounds",
       "type": "INF",
       "speed": "30cm",
@@ -516,6 +556,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "chaos_marine_aspiring_champion",
       "name": "Chaos Marine Aspiring Champion",
       "type": "INF",
       "speed": "15cm",
@@ -551,6 +592,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_spawn",
       "name": "Chaos Spawn",
       "type": "INF",
       "speed": "15cm",
@@ -579,6 +621,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cultists",
       "name": "Cultists",
       "type": "INF",
       "speed": "15cm",
@@ -601,6 +644,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemon_prince",
       "name": "Daemon Prince",
       "type": "INF",
       "speed": "15cm (30cm)",
@@ -642,6 +686,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemonettes",
       "name": "Daemonettes",
       "type": "INF",
       "speed": "20cm",
@@ -663,6 +708,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "daemonic_beasts",
       "name": "Daemonic Beasts",
       "type": "INF",
       "speed": "20cm",
@@ -684,6 +730,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "demagogue",
       "name": "Demagogue",
       "type": "INF",
       "speed": "15cm",
@@ -724,6 +771,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "flamers",
       "name": "Flamers",
       "type": "INF",
       "speed": "15cm",
@@ -749,6 +797,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mutants",
       "name": "Mutants",
       "type": "INF",
       "speed": "15cm",
@@ -771,6 +820,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plaguebearers",
       "name": "Plaguebearers",
       "type": "INF",
       "speed": "15cm",
@@ -796,6 +846,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rough_riders",
       "name": "Rough Riders",
       "type": "INF",
       "speed": "20cm",
@@ -831,6 +882,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_squad",
       "name": "Support Squad",
       "type": "INF",
       "speed": "15cm",
@@ -853,6 +905,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sentinel",
       "name": "Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -878,6 +931,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_transporter",
       "name": "Land Transporter",
       "type": "LV",
       "speed": "30cm",
@@ -903,6 +957,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "basilisk",
       "name": "Basilisk",
       "type": "AV",
       "speed": "20cm",
@@ -941,6 +996,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -972,6 +1028,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "contagion_tower",
       "name": "Contagion Tower",
       "type": "AV",
       "speed": "15cm",
@@ -1008,6 +1065,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemon_assault_engine",
       "name": "Daemon Assault Engine",
       "type": "AV",
       "speed": "25cm",
@@ -1041,6 +1099,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "daemon_knight",
       "name": "Daemon Knight",
       "type": "AV",
       "speed": "30cm",
@@ -1068,6 +1127,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "defiler",
       "name": "Defiler",
       "type": "AV",
       "speed": "20cm",
@@ -1118,6 +1178,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "griffon",
       "name": "Griffon",
       "type": "AV",
       "speed": "30cm",
@@ -1148,6 +1209,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellfire_cannon",
       "name": "Hellfire Cannon",
       "type": "AV",
       "speed": "15cm",
@@ -1173,6 +1235,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -1203,6 +1266,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -1231,6 +1295,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ",
       "name": "Leman Russ",
       "type": "AV",
       "speed": "20cm",
@@ -1267,6 +1332,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_demolisher",
       "name": "Leman Russ Demolisher",
       "type": "AV",
       "speed": "20cm",
@@ -1305,6 +1371,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "silver_tower",
       "name": "Silver Tower",
       "type": "AV",
       "speed": "20cm",
@@ -1337,6 +1404,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bloodthirster",
       "name": "Bloodthirster",
       "type": "WE",
       "speed": "30cm",
@@ -1373,6 +1441,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaos_altar",
       "name": "Chaos Altar",
       "type": "WE",
       "speed": "15cm",
@@ -1404,6 +1473,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "great_unclean_one",
       "name": "Great Unclean One",
       "type": "WE",
       "speed": "15cm",
@@ -1457,6 +1527,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "keeper_of_secrets",
       "name": "Keeper of Secrets",
       "type": "WE",
       "speed": "20cm",
@@ -1511,6 +1582,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lord_of_battles",
       "name": "Lord of Battles",
       "type": "WE",
       "speed": "25cm",
@@ -1555,6 +1627,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lord_of_change",
       "name": "Lord of Change",
       "type": "WE",
       "speed": "30cm",
@@ -1608,6 +1681,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_tower",
       "name": "Plague Tower",
       "type": "WE",
       "speed": "15cm",
@@ -1655,6 +1729,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "questor_titan",
       "name": "Questor Titan",
       "type": "WE",
       "speed": "35cm",
@@ -1690,6 +1765,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "subjugator_titan",
       "name": "Subjugator Titan",
       "type": "WE",
       "speed": "35cm",
@@ -1728,6 +1804,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "doomwing",
       "name": "Doomwing",
       "type": "AC",
       "speed": "Fighter",
@@ -1755,6 +1832,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "firelord",
       "name": "Firelord",
       "type": "AC",
       "speed": "Bomber",
@@ -1799,6 +1877,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1837,6 +1916,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1877,6 +1957,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1903,6 +1984,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1935,6 +2017,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "plague_zombies",
       "name": "Plague Zombies",
       "type": "INF",
       "speed": "10cm",

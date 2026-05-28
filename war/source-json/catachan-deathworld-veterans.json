@@ -18,16 +18,19 @@
   },
   "special_rules": [
     {
+      "id": "oops_sorry_sir",
       "name": "Oops! Sorry, sir!",
       "text": "Catachan Deathworld Veteran armies include one Commissar for every 1000 points. If a Supreme Commander is present, the first Commissar must join that formation. Subsequent Commissars can be allocated to any unit in any order, though no formation may have more than one Commissar. Excess Commissars are lost."
     },
     {
+      "id": "booby_traps",
       "name": "Booby Traps",
       "text": "When defending during the first round of an assault, one unit in two with the Booby Traps rule gains First Strike on all weapons. Count units in the formation with Booby Traps and divide by two, rounding up, to find how many units gain First Strike."
     }
   ],
   "formations": [
     {
+      "id": "0_1_deathworld_air_cavalry_company",
       "category": "Deathworld Veterans Companies",
       "entry_type": "formation",
       "name": "0-1 Deathworld Air Cavalry Company",
@@ -39,6 +42,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathworld_infantry_company",
       "category": "Deathworld Veterans Companies",
       "entry_type": "formation",
       "name": "Deathworld Infantry Company",
@@ -50,6 +54,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_deathworld_regimental_hq",
       "category": "Deathworld Veterans Companies",
       "entry_type": "formation",
       "name": "0-1 Deathworld Regimental HQ",
@@ -61,6 +66,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_platoon",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Infantry Platoon",
@@ -72,6 +78,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support_platoon",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support Platoon",
@@ -83,6 +90,7 @@
       "parse_warnings": []
     },
     {
+      "id": "missile_team",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Missile Team",
@@ -94,6 +102,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mortar_section",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Mortar Section",
@@ -105,6 +114,7 @@
       "parse_warnings": []
     },
     {
+      "id": "snipers",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Snipers",
@@ -116,6 +126,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ogryns",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Ogryns",
@@ -127,6 +138,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vulture_support",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Vulture Support",
@@ -138,6 +150,7 @@
       "parse_warnings": []
     },
     {
+      "id": "armor_support",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Armor Support",
@@ -149,6 +162,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhounds",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Hellhounds",
@@ -160,6 +174,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hydra",
       "category": "Deathworld Veterans Company Upgrades",
       "entry_type": "upgrade",
       "name": "Hydra",
@@ -171,6 +186,7 @@
       "parse_warnings": []
     },
     {
+      "id": "catachan_devils",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Catachan Devils",
@@ -182,6 +198,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathworld_mortar_platoon",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Deathworld Mortar Platoon",
@@ -193,6 +210,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ogryn_platoon",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Ogryn Platoon",
@@ -204,6 +222,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathworld_sentinel_squadron",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Deathworld Sentinel Squadron",
@@ -215,6 +234,7 @@
       "parse_warnings": []
     },
     {
+      "id": "deathworld_veterans_platoon",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Deathworld Veterans Platoon",
@@ -226,6 +246,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_platoon",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Hellhound Platoon",
@@ -237,6 +258,7 @@
       "parse_warnings": []
     },
     {
+      "id": "support_tank_squadron",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Support Tank Squadron",
@@ -248,6 +270,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vulture_squadron",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Vulture Squadron",
@@ -259,6 +282,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_firebase",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Artillery Firebase",
@@ -270,6 +294,7 @@
       "parse_warnings": []
     },
     {
+      "id": "traitor_s_bane",
       "category": "Deathworld Veterans Support Formations",
       "entry_type": "formation",
       "name": "Traitor's Bane",
@@ -281,6 +306,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "Naval Support",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -292,6 +318,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "Naval Support",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -303,6 +330,7 @@
       "parse_warnings": []
     },
     {
+      "id": "orbital_support_lunar_class_cruiser",
       "category": "Naval Support",
       "entry_type": "formation",
       "name": "Orbital Support - Lunar Class Cruiser",
@@ -316,6 +344,7 @@
       ]
     },
     {
+      "id": "orbital_support_emperor_class_battleship",
       "category": "Naval Support",
       "entry_type": "formation",
       "name": "Orbital Support - Emperor Class Battleship",
@@ -331,6 +360,7 @@
   ],
   "profiles": [
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -360,6 +390,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_devils",
       "name": "Catachan Devils",
       "type": "INF",
       "speed": "15cm",
@@ -401,6 +432,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "deathworld_veterans",
       "name": "Deathworld Veterans",
       "type": "INF",
       "speed": "15cm",
@@ -447,6 +479,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_commander",
       "name": "Imperial Guard Commander",
       "type": "INF",
       "speed": "15cm",
@@ -484,6 +517,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_supreme_commander",
       "name": "Imperial Guard Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -524,6 +558,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_infantry",
       "name": "Catachan Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -561,6 +596,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_mortar_squad",
       "name": "Catachan Mortar Squad",
       "type": "INF",
       "speed": "15cm",
@@ -593,6 +629,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_missile_team",
       "name": "Catachan Missile Team",
       "type": "INF",
       "speed": "15cm",
@@ -617,6 +654,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_squad",
       "name": "Support Squad",
       "type": "INF",
       "speed": "15cm",
@@ -639,6 +677,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sniper",
       "name": "Sniper",
       "type": "INF",
       "speed": "15cm",
@@ -665,6 +704,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ogryns",
       "name": "Ogryns",
       "type": "INF",
       "speed": "15cm",
@@ -696,6 +736,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_sentinel",
       "name": "Catachan Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -737,6 +778,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "earthshaker_platform",
       "name": "Earthshaker Platform",
       "type": "LV",
       "speed": "Immobile",
@@ -767,6 +809,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -797,6 +840,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_demolisher",
       "name": "Leman Russ Demolisher",
       "type": "AV",
       "speed": "20cm",
@@ -837,6 +881,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -865,6 +910,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_valkyrie",
       "name": "Catachan Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -907,6 +953,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture",
       "name": "Vulture",
       "type": "AV",
       "speed": "35cm",
@@ -946,6 +993,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "traitor_s_bane_hellhammer",
       "name": "Traitor's Bane Hellhammer",
       "type": "SH",
       "speed": "15cm",
@@ -1022,6 +1070,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter_bomber",
       "name": "Thunderbolt Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1062,6 +1111,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1104,6 +1154,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1136,6 +1187,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",

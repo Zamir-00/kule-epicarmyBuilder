@@ -22,12 +22,14 @@
   },
   "special_rules": [
     {
+      "id": "act_of_faith",
       "name": "Act of Faith",
       "text": "Any unit with the Faithful special rule may choose to perform an Act of Faith when it takes an action roll. The formation receives a -1 penalty to this roll, cumulative with any other modifiers. If the action test is passed, the formation carries out the chosen action as usual. In addition, all units in the formation gain Fearless and Invulnerable Save until the end of the turn."
     }
   ],
   "formations": [
     {
+      "id": "mission",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Mission",
@@ -39,6 +41,7 @@
       "parse_warnings": []
     },
     {
+      "id": "exorcism",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Exorcism",
@@ -50,6 +53,7 @@
       "parse_warnings": []
     },
     {
+      "id": "choir",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Choir",
@@ -61,6 +65,7 @@
       "parse_warnings": []
     },
     {
+      "id": "retribution",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Retribution",
@@ -72,6 +77,7 @@
       "parse_warnings": []
     },
     {
+      "id": "coven",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Coven",
@@ -83,6 +89,7 @@
       "parse_warnings": []
     },
     {
+      "id": "repentance",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Repentance",
@@ -96,6 +103,7 @@
       ]
     },
     {
+      "id": "purgeance",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Purgeance",
@@ -107,6 +115,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pentinence",
       "category": "Auxiliary Formations",
       "entry_type": "formation",
       "name": "Pentinence",
@@ -118,6 +127,7 @@
       "parse_warnings": []
     },
     {
+      "id": "crusaders",
       "category": "Auxiliary Formations",
       "entry_type": "formation",
       "name": "Crusaders",
@@ -129,6 +139,7 @@
       "parse_warnings": []
     },
     {
+      "id": "conclave",
       "category": "Auxiliary Formations",
       "entry_type": "formation",
       "name": "Conclave",
@@ -140,6 +151,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_inquisitorial_strike_force",
       "category": "Auxiliary Formations",
       "entry_type": "formation",
       "name": "0-1 Inquisitorial Strike Force",
@@ -153,6 +165,7 @@
       ]
     },
     {
+      "id": "lightning_squadron",
       "category": "Imperial Navy & War Engine Formations",
       "entry_type": "formation",
       "name": "Lightning Squadron",
@@ -166,6 +179,7 @@
       ]
     },
     {
+      "id": "marauder_squadron",
       "category": "Imperial Navy & War Engine Formations",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -177,6 +191,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cathedral_of_purification",
       "category": "Imperial Navy & War Engine Formations",
       "entry_type": "formation",
       "name": "Cathedral of Purification",
@@ -188,6 +203,7 @@
       "parse_warnings": []
     },
     {
+      "id": "orbital_support",
       "category": "Imperial Navy & War Engine Formations",
       "entry_type": "formation",
       "name": "Orbital Support",
@@ -199,6 +215,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chimeras",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chimeras",
@@ -210,6 +227,7 @@
       "parse_warnings": []
     },
     {
+      "id": "engines",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Engines",
@@ -221,6 +239,7 @@
       "parse_warnings": []
     },
     {
+      "id": "exorcist",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Exorcist",
@@ -232,6 +251,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hunter",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Hunter",
@@ -243,6 +263,7 @@
       "parse_warnings": []
     },
     {
+      "id": "priest",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Priest",
@@ -254,6 +275,7 @@
       "parse_warnings": []
     },
     {
+      "id": "superior",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Superior",
@@ -267,6 +289,7 @@
       ]
     },
     {
+      "id": "specialist",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Specialist",
@@ -280,6 +303,7 @@
       ]
     },
     {
+      "id": "transport",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Transport",
@@ -291,6 +315,7 @@
       "parse_warnings": []
     },
     {
+      "id": "valkyries",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Valkyries",
@@ -302,6 +327,7 @@
       "parse_warnings": []
     },
     {
+      "id": "chapel",
       "category": "Upgrades",
       "entry_type": "upgrade",
       "name": "Chapel",
@@ -315,6 +341,7 @@
   ],
   "profiles": [
     {
+      "id": "canoness",
       "name": "Canoness",
       "type": "CH",
       "speed": "n/a",
@@ -346,6 +373,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mistress",
       "name": "Mistress",
       "type": "CH",
       "speed": "n/a",
@@ -372,6 +400,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "palatine",
       "name": "Palatine",
       "type": "CH",
       "speed": "n/a",
@@ -403,6 +432,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "priest",
       "name": "Priest",
       "type": "CH",
       "speed": "n/a",
@@ -434,6 +464,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inquisitor",
       "name": "Inquisitor",
       "type": "INF",
       "speed": "15cm",
@@ -471,6 +502,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "living_saint",
       "name": "Living Saint",
       "type": "INF",
       "speed": "30cm",
@@ -505,6 +537,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "arco_flagellants",
       "name": "Arco-Flagellants",
       "type": "INF",
       "speed": "15cm",
@@ -532,6 +565,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_sister",
       "name": "Battle Sister",
       "type": "INF",
       "speed": "15cm",
@@ -568,6 +602,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "celestian_sister",
       "name": "Celestian Sister",
       "type": "INF",
       "speed": "15cm",
@@ -604,6 +639,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dominion_sister",
       "name": "Dominion Sister",
       "type": "INF",
       "speed": "15cm",
@@ -631,6 +667,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "retributor_sister",
       "name": "Retributor Sister",
       "type": "INF",
       "speed": "15cm",
@@ -673,6 +710,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "repentia_sister",
       "name": "Repentia Sister",
       "type": "INF",
       "speed": "15cm",
@@ -700,6 +738,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "seraphim_sister",
       "name": "Seraphim Sister",
       "type": "INF",
       "speed": "30cm",
@@ -728,6 +767,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inq_support_staff",
       "name": "Inq Support Staff",
       "type": "INF",
       "speed": "15cm",
@@ -761,6 +801,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inq_veteran_warrior_acolyte",
       "name": "Inq Veteran Warrior Acolyte",
       "type": "INF",
       "speed": "15cm",
@@ -799,6 +840,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_cult_assassin",
       "name": "Death Cult Assassin",
       "type": "INF",
       "speed": "15cm",
@@ -829,6 +871,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "inq_storm_troopers",
       "name": "Inq Storm Troopers",
       "type": "INF",
       "speed": "15cm",
@@ -851,6 +894,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "redemptionists",
       "name": "Redemptionists",
       "type": "INF",
       "speed": "15cm",
@@ -879,6 +923,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pentinent_engine",
       "name": "Pentinent Engine",
       "type": "LV",
       "speed": "15cm",
@@ -927,6 +972,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "exorcist",
       "name": "Exorcist",
       "type": "AV",
       "speed": "30cm",
@@ -951,6 +997,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -978,6 +1025,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sororitas_hunter",
       "name": "Sororitas Hunter",
       "type": "AV",
       "speed": "30cm",
@@ -1002,6 +1050,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "repressor",
       "name": "Repressor",
       "type": "AV",
       "speed": "30cm",
@@ -1038,6 +1087,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "immolator",
       "name": "Immolator",
       "type": "AV",
       "speed": "30cm",
@@ -1075,6 +1125,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -1105,6 +1156,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -1144,6 +1196,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperors_chapel",
       "name": "Emperors Chapel",
       "type": "WE",
       "speed": "20cm",
@@ -1210,6 +1263,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cathedral_of_purification",
       "name": "Cathedral of Purification",
       "type": "WE",
       "speed": "20cm",
@@ -1287,6 +1341,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lightning_strike_fighter",
       "name": "Lightning Strike Fighter",
       "type": "AC",
       "speed": "F",
@@ -1321,6 +1376,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "B",
@@ -1361,6 +1417,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_spaceship",
       "name": "Lunar Class Spaceship",
       "type": "SC",
       "speed": "-",

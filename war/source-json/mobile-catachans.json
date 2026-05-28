@@ -18,24 +18,29 @@
   },
   "special_rules": [
     {
+      "id": "commissars",
       "name": "Commissars",
       "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.\nCommissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations.\nYou may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
     },
     {
+      "id": "watch_your_step_sir",
       "name": "Watch your step, Sir!",
       "text": "Commissars attached to Catachan armies are renowned for having \"accidents\". As a result of this, armies from Catachan include fewer Commissars than usual.\nTo represent this fact, remove one Commissar from your available Commissars before the game."
     },
     {
+      "id": "may_not_garrison",
       "name": "May Not Garrison",
       "text": "The Mobile Forces of Catachan are a highly mobile army, and rarely have enough forces to try to take and hold ground. Because of this, instead of maintaining a heavily garrisoned front line, they will usually rely on a couple of advanced scout units, transmitting vital information about the area back to the main forces. The bulk of this highly mobile army will be held back in reserve where it will be ready to move quickly to any threatened sector. This allows them to hold large areas of ground without relying on dug in infantry and other garrisoned forces.\nTo represent these tactics, only Vultures, Sentinels and Veterans are allowed to garrison objectives in the Epic tournament game scenario."
     },
     {
+      "id": "the_sky_is_ours",
       "name": "The sky is ours!",
       "text": "The mobile tactics of this army results in a critical absence of ground based anti-air units. This is compensated by a higher degree of naval support granted to this force than usual.\nTo represent these tactics, a single fighter formation may be placed on Combat Air Patrol. The player may still set up as many garrisons as their army and the special rule above allows, but only one of those may start the game on overwatch. The aircraft follow all the rules for CAP, but are setup during the pre-game garrisoning phase."
     }
   ],
   "formations": [
     {
+      "id": "airborne_regimental_hq",
       "category": "Mobile Forces of Catachan Companies",
       "entry_type": "formation",
       "name": "Airborne Regimental HQ",
@@ -47,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "airborne_infantry_company",
       "category": "Mobile Forces of Catachan Companies",
       "entry_type": "formation",
       "name": "Airborne Infantry Company",
@@ -58,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "airborne_ogryn_company",
       "category": "Mobile Forces of Catachan Companies",
       "entry_type": "formation",
       "name": "Airborne Ogryn Company",
@@ -69,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_support",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Support",
@@ -80,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mortar_support",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Mortar Support",
@@ -91,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infantry_platoon",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Infantry Platoon",
@@ -102,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentinels",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Sentinels",
@@ -113,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ogryns_one_ogryn_and_a_valkyrie",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Ogryns (one Ogryn and a Valkyrie)",
@@ -126,6 +138,7 @@
       ]
     },
     {
+      "id": "ogryns_two_ogryns_and_two_valkyries",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Ogryns (two Ogryns and two Valkyries)",
@@ -139,6 +152,7 @@
       ]
     },
     {
+      "id": "snipers_one_sniper_and_a_valkyrie",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Snipers (one Sniper and a Valkyrie)",
@@ -152,6 +166,7 @@
       ]
     },
     {
+      "id": "snipers_two_snipers_and_a_valkyrie",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Snipers (two Snipers and a Valkyrie)",
@@ -165,6 +180,7 @@
       ]
     },
     {
+      "id": "sky_talons",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Sky Talons",
@@ -176,6 +192,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vendettas",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Vendettas",
@@ -187,6 +204,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vultures_add_two_vulture_punishers",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Vultures (add two Vulture Punishers)",
@@ -200,6 +218,7 @@
       ]
     },
     {
+      "id": "vultures_add_two_vultures",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Vultures (add two Vultures)",
@@ -213,6 +232,7 @@
       ]
     },
     {
+      "id": "vulture_tornado",
       "category": "Mobile Forces of Catachan Upgrades",
       "entry_type": "upgrade",
       "name": "Vulture Tornado",
@@ -224,6 +244,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sentinel_patrol",
       "category": "Mobile Forces of Catachan Support Formations",
       "entry_type": "formation",
       "name": "Sentinel Patrol",
@@ -235,6 +256,7 @@
       "parse_warnings": []
     },
     {
+      "id": "airborne_support_platoon",
       "category": "Mobile Forces of Catachan Support Formations",
       "entry_type": "formation",
       "name": "Airborne Support Platoon",
@@ -248,6 +270,7 @@
       ]
     },
     {
+      "id": "0_1_veterans",
       "category": "Mobile Forces of Catachan Support Formations",
       "entry_type": "formation",
       "name": "0-1 Veterans",
@@ -259,6 +282,7 @@
       "parse_warnings": []
     },
     {
+      "id": "airborne_stormtroopers",
       "category": "Mobile Forces of Catachan Support Formations",
       "entry_type": "formation",
       "name": "Airborne Stormtroopers",
@@ -270,6 +294,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vulture_punishers",
       "category": "Mobile Forces of Catachan Support Formations",
       "entry_type": "formation",
       "name": "Vulture Punishers",
@@ -281,6 +306,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vultures",
       "category": "Mobile Forces of Catachan Support Formations",
       "entry_type": "formation",
       "name": "Vultures",
@@ -292,6 +318,7 @@
       "parse_warnings": []
     },
     {
+      "id": "lightning_squadron",
       "category": "Imperial Ally Formations",
       "entry_type": "formation",
       "name": "Lightning Squadron",
@@ -303,6 +330,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "Imperial Ally Formations",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -314,6 +342,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron_two_thunderbolt_fighters",
       "category": "Imperial Ally Formations",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron - Two Thunderbolt Fighters",
@@ -327,6 +356,7 @@
       ]
     },
     {
+      "id": "thunderbolt_squadron_three_thunderbolt_fighters",
       "category": "Imperial Ally Formations",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron - Three Thunderbolt Fighters",
@@ -340,6 +370,7 @@
       ]
     },
     {
+      "id": "0_1_orbital_support_lunar_class_cruiser",
       "category": "Imperial Ally Formations",
       "entry_type": "formation",
       "name": "0-1 Orbital Support - Lunar Class Cruiser",
@@ -353,6 +384,7 @@
       ]
     },
     {
+      "id": "0_1_orbital_support_emperor_class_battleship",
       "category": "Imperial Ally Formations",
       "entry_type": "formation",
       "name": "0-1 Orbital Support - Emperor Class Battleship",
@@ -368,6 +400,7 @@
   ],
   "profiles": [
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -397,6 +430,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_support_squad",
       "name": "Fire Support Squad",
       "type": "INF",
       "speed": "15cm",
@@ -419,6 +453,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_infantry",
       "name": "Imperial Guard Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -443,6 +478,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_commander",
       "name": "Imperial Guard Commander",
       "type": "INF",
       "speed": "15cm",
@@ -467,6 +503,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "imperial_guard_supreme_commander",
       "name": "Imperial Guard Supreme Commander",
       "type": "INF",
       "speed": "15cm",
@@ -500,6 +537,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mortar_team",
       "name": "Mortar Team",
       "type": "INF",
       "speed": "15cm",
@@ -524,6 +562,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ogryns",
       "name": "Ogryns",
       "type": "INF",
       "speed": "15cm",
@@ -555,6 +594,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sniper",
       "name": "Sniper",
       "type": "INF",
       "speed": "15cm",
@@ -580,6 +620,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormtroopers",
       "name": "Stormtroopers",
       "type": "INF",
       "speed": "15cm",
@@ -604,6 +645,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "veterans",
       "name": "Veterans",
       "type": "INF",
       "speed": "15cm",
@@ -645,6 +687,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "catachan_sentinel",
       "name": "Catachan Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -678,6 +721,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "support_sentinel",
       "name": "Support Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -710,6 +754,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "drop_sentinel",
       "name": "Drop Sentinel",
       "type": "LV",
       "speed": "20cm",
@@ -743,6 +788,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -785,6 +831,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie_sky_talon",
       "name": "Valkyrie Sky Talon",
       "type": "AV",
       "speed": "35cm",
@@ -812,6 +859,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vendetta",
       "name": "Vendetta",
       "type": "AV",
       "speed": "35cm",
@@ -845,6 +893,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture",
       "name": "Vulture",
       "type": "AV",
       "speed": "35cm",
@@ -884,6 +933,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture_tornado",
       "name": "Vulture Tornado",
       "type": "AV",
       "speed": "35cm",
@@ -923,6 +973,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture_punisher",
       "name": "Vulture Punisher",
       "type": "AV",
       "speed": "35cm",
@@ -954,6 +1005,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lightning_strike_fighter",
       "name": "Lightning Strike Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -986,6 +1038,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1024,6 +1077,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -1064,6 +1118,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "-",
@@ -1096,6 +1151,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "-",

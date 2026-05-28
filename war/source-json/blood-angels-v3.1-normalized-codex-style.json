@@ -19,20 +19,24 @@
   },
   "special_rules": [
     {
+      "id": "space_marine_special_rules",
       "name": "Space Marine Special Rules",
       "text": "The Space Marine Transport and They Shall Know No Fear rules apply to Blood Angels armies."
     },
     {
+      "id": "lucifer_pattern_engines",
       "name": "Lucifer Pattern Engines",
       "text": "Units marked as having Lucifer Pattern Engines may add +5cm to their movement when carrying out an engage action."
     },
     {
+      "id": "red_thirst",
       "name": "Red Thirst",
       "text": "If any stand in the formation could reach base contact with an enemy unit, the formation receives a -1 penalty to activate using any order other than Engage. If an Engage order is chosen, the formation automatically passes the activation roll regardless of any other modifiers or penalties. There is no subsequent requirement to reach base contact if the player does not wish to."
     }
   ],
   "formations": [
     {
+      "id": "death_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Death Company",
@@ -44,6 +48,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tactical",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Tactical",
@@ -55,6 +60,7 @@
       "parse_warnings": []
     },
     {
+      "id": "devastator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Devastator",
@@ -66,6 +72,7 @@
       "parse_warnings": []
     },
     {
+      "id": "assault",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Assault",
@@ -77,6 +84,7 @@
       "parse_warnings": []
     },
     {
+      "id": "terminator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Terminator",
@@ -88,6 +96,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scout",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Scout",
@@ -99,6 +108,7 @@
       "parse_warnings": []
     },
     {
+      "id": "predator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Predator",
@@ -110,6 +120,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bike",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Bike",
@@ -121,6 +132,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_speeder",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Land Speeder",
@@ -132,6 +144,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_raven_landing_craft",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Storm Raven Landing Craft",
@@ -143,6 +156,7 @@
       "parse_warnings": []
     },
     {
+      "id": "landing_craft",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Landing Craft",
@@ -154,6 +168,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_spacecraft",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0-1 Spacecraft",
@@ -165,6 +180,7 @@
       "parse_warnings": []
     },
     {
+      "id": "character",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Character",
@@ -176,6 +192,7 @@
       "parse_warnings": []
     },
     {
+      "id": "death_company_dreadnought",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Death Company Dreadnought",
@@ -187,6 +204,7 @@
       "parse_warnings": []
     },
     {
+      "id": "dreadnought",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Dreadnought",
@@ -198,6 +216,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hunter",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hunter",
@@ -209,6 +228,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Land Raiders",
@@ -220,6 +240,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorback",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Razorback",
@@ -231,6 +252,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicators",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Vindicators",
@@ -242,6 +264,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_raven",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Storm Raven",
@@ -253,6 +276,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sniper",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Sniper",
@@ -266,6 +290,7 @@
   ],
   "profiles": [
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -295,6 +320,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "captain",
       "name": "Captain",
       "type": "CH",
       "speed": "n/a",
@@ -325,6 +351,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaplain",
       "name": "Chaplain",
       "type": "CH",
       "speed": "n/a",
@@ -355,6 +382,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "librarian",
       "name": "Librarian",
       "type": "CH",
       "speed": "n/a",
@@ -393,6 +421,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_terminators",
       "name": "Blood Angels Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -434,6 +463,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_company_dreadnought",
       "name": "Death Company Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -463,6 +493,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "death_company",
       "name": "Death Company",
       "type": "INF",
       "speed": "15cm (30cm)",
@@ -497,6 +528,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_devastators",
       "name": "Blood Angels Devastators",
       "type": "INF",
       "speed": "15cm",
@@ -525,6 +557,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_assault_marines",
       "name": "Blood Angels Assault Marines",
       "type": "INF",
       "speed": "30cm",
@@ -557,6 +590,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_tacticals",
       "name": "Blood Angels Tacticals",
       "type": "INF",
       "speed": "15cm",
@@ -585,6 +619,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_scouts",
       "name": "Blood Angels Scouts",
       "type": "INF",
       "speed": "15cm",
@@ -616,6 +651,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_attack_bike",
       "name": "Blood Angels Attack Bike",
       "type": "LV",
       "speed": "35cm",
@@ -638,6 +674,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "blood_angels_bikes",
       "name": "Blood Angels Bikes",
       "type": "INF",
       "speed": "35cm",
@@ -668,6 +705,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder",
       "name": "Land Speeder",
       "type": "LV",
       "speed": "35cm",
@@ -695,6 +733,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_tornado",
       "name": "Land Speeder Tornado",
       "type": "LV",
       "speed": "35cm",
@@ -726,6 +765,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_typhoon",
       "name": "Land Speeder Typhoon",
       "type": "LV",
       "speed": "35cm",
@@ -757,6 +797,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -782,6 +823,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hunter",
       "name": "Hunter",
       "type": "AV",
       "speed": "30cm",
@@ -806,6 +848,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vindicator",
       "name": "Vindicator",
       "type": "AV",
       "speed": "25cm",
@@ -833,6 +876,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "baal_predator",
       "name": "Baal Predator",
       "type": "AV",
       "speed": "30cm",
@@ -865,6 +909,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_infernus",
       "name": "Predator Infernus",
       "type": "AV",
       "speed": "30cm",
@@ -911,6 +956,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "razorback",
       "name": "Razorback",
       "type": "AV",
       "speed": "30cm",
@@ -942,6 +988,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider",
       "name": "Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -974,6 +1021,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_redeemer",
       "name": "Land Raider Redeemer",
       "type": "AV",
       "speed": "25cm",
@@ -1014,6 +1062,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "furioso_dreadnought",
       "name": "Furioso Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1051,6 +1100,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "storm_raven_gunship",
       "name": "Storm Raven Gunship",
       "type": "AV",
       "speed": "35cm",
@@ -1096,6 +1146,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_gunship",
       "name": "Thunderhawk Gunship",
       "type": "WE/AC",
       "speed": "Bomber",
@@ -1129,6 +1180,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "landing_craft",
       "name": "Landing Craft",
       "type": "WE/AC",
       "speed": "Bomber",
@@ -1168,6 +1220,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_cruiser",
       "name": "Strike Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1194,6 +1247,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_barge",
       "name": "Battle Barge",
       "type": "SC",
       "speed": "n/a",
@@ -1221,6 +1275,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "storm_talon",
       "name": "Storm Talon",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1249,6 +1304,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "drop_pod",
       "name": "Drop Pod",
       "type": "AV",
       "speed": "Immobile",

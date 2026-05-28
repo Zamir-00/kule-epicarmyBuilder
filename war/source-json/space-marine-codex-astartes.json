@@ -22,16 +22,19 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The They Shall Know No Fear rule applies to all Codex Astartes detachment formations (see They Shall Know No Fear )."
     },
     {
+      "id": "they_shall_know_no_fear",
       "name": "They Shall Know No Fear",
       "text": "How many Blast markers does a broken Space Marine unit count as having when working out the result of an assault?\nOne per unit.\nSpace Marines are renowned for their tenacity and bravery. This is represented by the following rules:\n* It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).\n* Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.\n* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.\n* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
     }
   ],
   "formations": [
     {
+      "id": "assault",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Assault",
@@ -43,6 +46,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bike",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Bike",
@@ -54,6 +58,7 @@
       "parse_warnings": []
     },
     {
+      "id": "devastator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Devastator",
@@ -65,6 +70,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raider",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Land Raider",
@@ -76,6 +82,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_speeder",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Land Speeder",
@@ -87,6 +94,7 @@
       "parse_warnings": []
     },
     {
+      "id": "landing_craft",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Landing Craft",
@@ -98,6 +106,7 @@
       "parse_warnings": []
     },
     {
+      "id": "predator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Predator",
@@ -109,6 +118,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scout",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Scout",
@@ -120,6 +130,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_strike_cruiser",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Strike Cruiser",
@@ -131,6 +142,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tactical",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Tactical",
@@ -142,6 +154,7 @@
       "parse_warnings": []
     },
     {
+      "id": "terminator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Terminator",
@@ -153,6 +166,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicator",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Vindicator",
@@ -164,6 +178,7 @@
       "parse_warnings": []
     },
     {
+      "id": "whirlwind",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Whirlwind",
@@ -175,6 +190,7 @@
       "parse_warnings": []
     },
     {
+      "id": "battle_barge",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Battle Barge",
@@ -186,6 +202,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bikes",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Bikes",
@@ -197,6 +214,7 @@
       "parse_warnings": []
     },
     {
+      "id": "50_points",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "+50 points",
@@ -208,6 +226,7 @@
       "parse_warnings": []
     },
     {
+      "id": "dreadnoughts",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Dreadnoughts",
@@ -219,6 +238,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hunter",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hunter",
@@ -230,6 +250,7 @@
       "parse_warnings": []
     },
     {
+      "id": "land_raiders",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Land Raiders",
@@ -241,6 +262,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorbacks",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Razorbacks",
@@ -252,6 +274,7 @@
       "parse_warnings": []
     },
     {
+      "id": "snipers",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Snipers",
@@ -263,6 +286,7 @@
       "parse_warnings": []
     },
     {
+      "id": "typhoons",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Typhoons",
@@ -274,6 +298,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vindicators",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Vindicators",
@@ -285,6 +310,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "allied_formations",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -296,6 +322,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "allied_formations",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -307,6 +334,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Reaver",
@@ -318,6 +346,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound",
@@ -329,6 +358,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -340,6 +370,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warlord",
@@ -351,6 +382,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderhawk_gunship",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Thunderhawk Gunship",
@@ -364,6 +396,7 @@
   ],
   "profiles": [
     {
+      "id": "captain",
       "name": "Captain",
       "type": "CH",
       "speed": "n/a",
@@ -393,6 +426,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chaplain",
       "name": "Chaplain",
       "type": "CH",
       "speed": "n/a",
@@ -422,6 +456,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "librarian",
       "name": "Librarian",
       "type": "CH",
       "speed": "n/a",
@@ -459,6 +494,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -487,6 +523,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "assault",
       "name": "Assault",
       "type": "INF",
       "speed": "30cm",
@@ -511,6 +548,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bike",
       "name": "Bike",
       "type": "INF",
       "speed": "35cm",
@@ -535,6 +573,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "devastator",
       "name": "Devastator",
       "type": "INF",
       "speed": "15cm",
@@ -557,6 +596,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "scout",
       "name": "Scout",
       "type": "INF",
       "speed": "15cm",
@@ -582,6 +622,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tactical",
       "name": "Tactical",
       "type": "INF",
       "speed": "15cm",
@@ -604,6 +645,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "terminator",
       "name": "Terminator",
       "type": "INF",
       "speed": "15cm",
@@ -639,6 +681,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "attack_bike",
       "name": "Attack Bike",
       "type": "LV",
       "speed": "35cm",
@@ -661,6 +704,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder",
       "name": "Land Speeder",
       "type": "LV",
       "speed": "35cm",
@@ -696,6 +740,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_tornado",
       "name": "Land Speeder Tornado",
       "type": "LV",
       "speed": "35cm",
@@ -727,6 +772,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_typhoon",
       "name": "Land Speeder Typhoon",
       "type": "LV",
       "speed": "35cm",
@@ -758,6 +804,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "multi_melta_attack_bike",
       "name": "Multi-melta Attack Bike",
       "type": "LV",
       "speed": "35cm",
@@ -792,6 +839,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dreadnought",
       "name": "Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -838,6 +886,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hunter",
       "name": "Hunter",
       "type": "AV",
       "speed": "30cm",
@@ -860,6 +909,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider",
       "name": "Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -893,6 +943,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_annihilator",
       "name": "Predator Annihilator",
       "type": "AV",
       "speed": "30cm",
@@ -921,6 +972,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_destructor",
       "name": "Predator Destructor",
       "type": "AV",
       "speed": "30cm",
@@ -949,6 +1001,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razorback",
       "name": "Razorback",
       "type": "AV",
       "speed": "30cm",
@@ -980,6 +1033,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rhino",
       "name": "Rhino",
       "type": "AV",
       "speed": "30cm",
@@ -1005,6 +1059,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vindicator",
       "name": "Vindicator",
       "type": "AV",
       "speed": "25cm",
@@ -1031,6 +1086,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "whirlwind",
       "name": "Whirlwind",
       "type": "AV",
       "speed": "30cm",
@@ -1055,6 +1111,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "landing_craft",
       "name": "Landing Craft",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1090,6 +1147,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_gunship",
       "name": "Thunderhawk Gunship",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1144,6 +1202,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "battle_barge",
       "name": "Battle Barge",
       "type": "SC",
       "speed": "n/a",
@@ -1172,6 +1231,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "strike_cruiser",
       "name": "Strike Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1199,6 +1259,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "drop_pod",
       "name": "Drop Pod",
       "type": "Special",
       "speed": "n/a",
@@ -1225,6 +1286,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1263,6 +1325,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1303,6 +1366,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1329,6 +1393,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1361,6 +1426,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1400,6 +1466,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1440,6 +1507,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",
@@ -1489,6 +1557,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tactical_marines",
       "name": "Tactical Marines",
       "type": "INF",
       "speed": "15cm",
@@ -1511,6 +1580,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "assault_marines",
       "name": "Assault Marines",
       "type": "INF",
       "speed": "30cm",
@@ -1525,7 +1595,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Jump Packs"],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1533,6 +1605,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "devastators",
       "name": "Devastators",
       "type": "INF",
       "speed": "15cm",
@@ -1555,6 +1628,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "scouts",
       "name": "Scouts",
       "type": "INF",
       "speed": "15cm",
@@ -1569,7 +1643,10 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Infiltrator", "Scout"],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1577,6 +1654,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "terminators",
       "name": "Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -1594,10 +1672,16 @@
           "name": "Power Weapons",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)", "MW"]
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour", "Teleport"],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1605,6 +1689,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sternguard_veterans",
       "name": "Sternguard Veterans",
       "type": "INF",
       "speed": "15cm",
@@ -1627,6 +1712,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vanguard_veterans",
       "name": "Vanguard Veterans",
       "type": "INF",
       "speed": "30cm",
@@ -1638,10 +1724,14 @@
           "name": "Power Weapons",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)"]
+          "notes": [
+            "EA(+1)"
+          ]
         }
       ],
-      "abilities_or_notes": ["Jump Packs"],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1649,6 +1739,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bike_unit",
       "name": "Bike Unit",
       "type": "INF",
       "speed": "35cm",
@@ -1663,7 +1754,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Mounted"],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1671,6 +1764,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_storm",
       "name": "Land Speeder Storm",
       "type": "LV",
       "speed": "35cm",
@@ -1682,10 +1776,15 @@
           "name": "Heavy Flamer",
           "range": "15cm",
           "firepower": "AP4+",
-          "notes": ["IC"]
+          "notes": [
+            "IC"
+          ]
         }
       ],
-      "abilities_or_notes": ["Skimmer", "Transport"],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1693,6 +1792,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_speeder_tempest",
       "name": "Land Speeder Tempest",
       "type": "LV",
       "speed": "35cm",
@@ -1704,10 +1804,14 @@
           "name": "Tempest Launcher",
           "range": "45cm",
           "firepower": "2BP",
-          "notes": ["Ind"]
+          "notes": [
+            "Ind"
+          ]
         }
       ],
-      "abilities_or_notes": ["Skimmer"],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1715,6 +1819,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razorback_twin_heavy_bolter",
       "name": "Razorback (Twin Heavy Bolter)",
       "type": "AV",
       "speed": "30cm",
@@ -1729,7 +1834,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Transport"],
+      "abilities_or_notes": [
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1737,6 +1844,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razorback_twin_laser_cannon",
       "name": "Razorback (Twin Laser Cannon)",
       "type": "AV",
       "speed": "30cm",
@@ -1751,7 +1859,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Transport"],
+      "abilities_or_notes": [
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1759,6 +1869,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "predator_incinerator",
       "name": "Predator Incinerator",
       "type": "AV",
       "speed": "30cm",
@@ -1770,7 +1881,9 @@
           "name": "Flame Cannon",
           "range": "30cm",
           "firepower": "AP4+",
-          "notes": ["IC"]
+          "notes": [
+            "IC"
+          ]
         }
       ],
       "abilities_or_notes": [],
@@ -1781,6 +1894,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "venerable_dreadnought",
       "name": "Venerable Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1798,10 +1912,16 @@
           "name": "Power Fist",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)", "MW"]
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ],
-      "abilities_or_notes": ["Walker", "Leader"],
+      "abilities_or_notes": [
+        "Walker",
+        "Leader"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1809,6 +1929,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dreadnought_hellfire_config",
       "name": "Dreadnought (Hellfire config.)",
       "type": "AV",
       "speed": "15cm",
@@ -1820,10 +1941,14 @@
           "name": "Hellfire Missiles",
           "range": "45cm",
           "firepower": "1BP",
-          "notes": ["Ind"]
+          "notes": [
+            "Ind"
+          ]
         }
       ],
-      "abilities_or_notes": ["Walker"],
+      "abilities_or_notes": [
+        "Walker"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1831,6 +1956,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulcan_dreadnought",
       "name": "Vulcan Dreadnought",
       "type": "AV",
       "speed": "15cm",
@@ -1842,16 +1968,23 @@
           "name": "Twin Heavy Flamers",
           "range": "15cm",
           "firepower": "AP4+",
-          "notes": ["IC"]
+          "notes": [
+            "IC"
+          ]
         },
         {
           "name": "Power Fist",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)", "MW"]
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ],
-      "abilities_or_notes": ["Walker"],
+      "abilities_or_notes": [
+        "Walker"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1859,6 +1992,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_crusader",
       "name": "Land Raider Crusader",
       "type": "AV",
       "speed": "25cm",
@@ -1879,7 +2013,10 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour", "Transport"],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1887,6 +2024,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_achilles",
       "name": "Land Raider Achilles",
       "type": "AV",
       "speed": "25cm",
@@ -1898,10 +2036,15 @@
           "name": "Thunderfire Cannon",
           "range": "45cm",
           "firepower": "1BP",
-          "notes": ["Ind"]
+          "notes": [
+            "Ind"
+          ]
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour", "Transport"],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1909,6 +2052,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_redeemer",
       "name": "Land Raider Redeemer",
       "type": "AV",
       "speed": "25cm",
@@ -1920,10 +2064,15 @@
           "name": "Flamestorm Cannons",
           "range": "15cm",
           "firepower": "AP3+",
-          "notes": ["IC"]
+          "notes": [
+            "IC"
+          ]
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour", "Transport"],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1931,6 +2080,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_helios",
       "name": "Land Raider Helios",
       "type": "AV",
       "speed": "25cm",
@@ -1942,10 +2092,15 @@
           "name": "Helios Missile Launcher",
           "range": "60cm",
           "firepower": "1BP / AA5+",
-          "notes": ["Ind"]
+          "notes": [
+            "Ind"
+          ]
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour", "Transport"],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1953,6 +2108,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "land_raider_prometheus",
       "name": "Land Raider Prometheus",
       "type": "AV",
       "speed": "25cm",
@@ -1967,7 +2123,11 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour", "Transport", "Commander"],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport",
+        "Commander"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1975,6 +2135,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "techmarine",
       "name": "Techmarine",
       "type": "CH",
       "speed": "n/a",
@@ -1986,10 +2147,16 @@
           "name": "Servo-arm",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)", "MW"]
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ],
-      "abilities_or_notes": ["Commander", "Repair"],
+      "abilities_or_notes": [
+        "Commander",
+        "Repair"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -1997,6 +2164,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "spacecraft",
       "name": "Spacecraft",
       "type": "SC",
       "speed": "n/a",
@@ -2004,7 +2172,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for a spacecraft formation slot; commonly upgraded to a Strike Cruiser or Battle Barge."],
+      "abilities_or_notes": [
+        "Reference card for a spacecraft formation slot; commonly upgraded to a Strike Cruiser or Battle Barge."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2012,6 +2182,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "thunderhawk",
       "name": "Thunderhawk",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -2023,28 +2194,41 @@
           "name": "Battle Cannon",
           "range": "75cm",
           "firepower": "AP4+/AT4+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         },
         {
           "name": "2x Twin Heavy Bolter",
           "range": "30cm",
           "firepower": "AP4+/AA5+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         },
         {
           "name": "Twin Heavy Bolter",
           "range": "15cm",
           "firepower": "AP4+/AA5+",
-          "notes": ["Left"]
+          "notes": [
+            "Left"
+          ]
         },
         {
           "name": "Twin Heavy Bolter",
           "range": "15cm",
           "firepower": "AP4+/AA5+",
-          "notes": ["Right"]
+          "notes": [
+            "Right"
+          ]
         }
       ],
-      "abilities_or_notes": ["Damage Capacity 2", "Planetfall", "Reinforced Armour", "Transport"],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2052,6 +2236,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_saturation_bombing_configuration",
       "name": "Thunderhawk (Saturation Bombing configuration)",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2063,10 +2248,16 @@
           "name": "Bomb Racks",
           "range": "15cm",
           "firepower": "3BP",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         }
       ],
-      "abilities_or_notes": ["Damage Capacity 2", "Planetfall", "Transport"],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2074,6 +2265,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_close_air_support_configuration",
       "name": "Thunderhawk (Close Air Support configuration)",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2085,10 +2277,16 @@
           "name": "Close Air Support Weapons",
           "range": "30cm",
           "firepower": "AP4+/AT5+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         }
       ],
-      "abilities_or_notes": ["Damage Capacity 2", "Planetfall", "Transport"],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2096,6 +2294,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderhawk_transporter",
       "name": "Thunderhawk Transporter",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2107,10 +2306,16 @@
           "name": "Battle Cannon",
           "range": "75cm",
           "firepower": "AP4+/AT4+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         }
       ],
-      "abilities_or_notes": ["Damage Capacity 2", "Planetfall", "Transport"],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2118,6 +2323,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "storm_talon_gunship",
       "name": "Storm Talon Gunship",
       "type": "AC Fighter-Bomber",
       "speed": "n/a",
@@ -2129,13 +2335,17 @@
           "name": "Assault Cannon",
           "range": "30cm",
           "firepower": "AP5+/AT6+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         },
         {
           "name": "Skyhammer Missiles",
           "range": "30cm",
           "firepower": "AT4+/AA5+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         }
       ],
       "abilities_or_notes": [],
@@ -2146,6 +2356,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "storm_eagle",
       "name": "Storm Eagle",
       "type": "AC/WE",
       "speed": "n/a",
@@ -2157,16 +2368,25 @@
           "name": "Vengeance Launcher",
           "range": "45cm",
           "firepower": "AP4+/AT5+",
-          "notes": ["FxF"]
+          "notes": [
+            "FxF"
+          ]
         },
         {
           "name": "Twin Multi-melta",
           "range": "15cm",
           "firepower": "AT4+",
-          "notes": ["FxF", "MW"]
+          "notes": [
+            "FxF",
+            "MW"
+          ]
         }
       ],
-      "abilities_or_notes": ["Damage Capacity 2", "Planetfall", "Transport"],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2174,6 +2394,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderfire_cannon",
       "name": "Thunderfire Cannon",
       "type": "INF",
       "speed": "10cm",
@@ -2185,7 +2406,9 @@
           "name": "Thunderfire",
           "range": "45cm",
           "firepower": "1BP",
-          "notes": ["Ind"]
+          "notes": [
+            "Ind"
+          ]
         }
       ],
       "abilities_or_notes": [],
@@ -2196,6 +2419,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "rapier",
       "name": "Rapier",
       "type": "INF",
       "speed": "10cm",
@@ -2218,6 +2442,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thudd_gun",
       "name": "Thudd Gun",
       "type": "INF",
       "speed": "10cm",
@@ -2229,7 +2454,9 @@
           "name": "Thudd Gun",
           "range": "45cm",
           "firepower": "AP4+/AT6+",
-          "notes": ["Ind"]
+          "notes": [
+            "Ind"
+          ]
         }
       ],
       "abilities_or_notes": [],
@@ -2240,6 +2467,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "centurion",
       "name": "Centurion",
       "type": "INF",
       "speed": "10cm",
@@ -2257,10 +2485,14 @@
           "name": "Siege Drills",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)"]
+          "notes": [
+            "EA(+1)"
+          ]
         }
       ],
-      "abilities_or_notes": ["Reinforced Armour"],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2268,6 +2500,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fortified_positions",
       "name": "Fortified Positions",
       "type": "Static Defences",
       "speed": "n/a",
@@ -2275,7 +2508,10 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for minefields or trenches with 2 bunkers.", "Represents battlefield fortifications rather than a normal unit statline."],
+      "abilities_or_notes": [
+        "Reference card for minefields or trenches with 2 bunkers.",
+        "Represents battlefield fortifications rather than a normal unit statline."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2283,6 +2519,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "2_bunkers_minefields",
       "name": "2 Bunkers + Minefields",
       "type": "Static Defences",
       "speed": "n/a",
@@ -2290,7 +2527,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for bunker and minefield fortifications."],
+      "abilities_or_notes": [
+        "Reference card for bunker and minefield fortifications."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2298,6 +2537,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "2_bunkers_trenches",
       "name": "2 Bunkers + Trenches",
       "type": "Static Defences",
       "speed": "n/a",
@@ -2305,7 +2545,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for bunker and trench fortifications."],
+      "abilities_or_notes": [
+        "Reference card for bunker and trench fortifications."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2313,6 +2555,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "hyperios_platform",
       "name": "Hyperios Platform",
       "type": "LV",
       "speed": "0cm",
@@ -2324,10 +2567,14 @@
           "name": "Hyperios Launcher",
           "range": "45cm",
           "firepower": "AT6+/AA5+",
-          "notes": ["Automata"]
+          "notes": [
+            "Automata"
+          ]
         }
       ],
-      "abilities_or_notes": ["Immobile"],
+      "abilities_or_notes": [
+        "Immobile"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2335,6 +2582,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tarantula_sentry_gun",
       "name": "Tarantula Sentry Gun",
       "type": "INF",
       "speed": "0cm",
@@ -2349,7 +2597,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Immobile"],
+      "abilities_or_notes": [
+        "Immobile"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2357,6 +2607,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emplacement",
       "name": "Emplacement",
       "type": "Fortification",
       "speed": "0cm",
@@ -2364,7 +2615,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for a fixed gun emplacement."],
+      "abilities_or_notes": [
+        "Reference card for a fixed gun emplacement."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2372,6 +2625,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "tarantula_emplacement",
       "name": "Tarantula + Emplacement",
       "type": "Static Defences",
       "speed": "0cm",
@@ -2379,7 +2633,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for a Tarantula and emplacement upgrade."],
+      "abilities_or_notes": [
+        "Reference card for a Tarantula and emplacement upgrade."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2387,6 +2643,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "fellblade",
       "name": "Fellblade",
       "type": "WE",
       "speed": "25cm",
@@ -2401,7 +2658,10 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Damage Capacity 2", "Reinforced Armour"],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2409,6 +2669,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bastion",
       "name": "Bastion",
       "type": "Fortification",
       "speed": "n/a",
@@ -2423,7 +2684,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Immobile"],
+      "abilities_or_notes": [
+        "Immobile"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2431,6 +2694,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ambush",
       "name": "Ambush",
       "type": "Tactical Upgrade",
       "speed": "n/a",
@@ -2438,7 +2702,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for an ambush deployment upgrade."],
+      "abilities_or_notes": [
+        "Reference card for an ambush deployment upgrade."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2446,6 +2712,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "planetfall",
       "name": "Planetfall",
       "type": "Tactical Upgrade",
       "speed": "n/a",
@@ -2453,7 +2720,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for a planetfall deployment upgrade."],
+      "abilities_or_notes": [
+        "Reference card for a planetfall deployment upgrade."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2461,6 +2730,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "fast_attack",
       "name": "Fast Attack",
       "type": "Formation",
       "speed": "n/a",
@@ -2468,7 +2738,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for a fast attack formation composed from bikes, attack bikes, and/or land speeders."],
+      "abilities_or_notes": [
+        "Reference card for a fast attack formation composed from bikes, attack bikes, and/or land speeders."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2476,6 +2748,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "supreme_commander_in_land_raider",
       "name": "Supreme Commander in Land Raider",
       "type": "AV",
       "speed": "25cm",
@@ -2496,7 +2769,13 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Commander", "Inspiring", "Reinforced Armour", "Supreme Commander", "Transport"],
+      "abilities_or_notes": [
+        "Commander",
+        "Inspiring",
+        "Reinforced Armour",
+        "Supreme Commander",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2504,6 +2783,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander_in_prometheus",
       "name": "Supreme Commander in Prometheus",
       "type": "AV",
       "speed": "25cm",
@@ -2518,7 +2798,13 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Commander", "Inspiring", "Reinforced Armour", "Supreme Commander", "Transport"],
+      "abilities_or_notes": [
+        "Commander",
+        "Inspiring",
+        "Reinforced Armour",
+        "Supreme Commander",
+        "Transport"
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2526,6 +2812,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "4_land_raiders_or_redeemers",
       "name": "4 Land Raiders or Redeemers",
       "type": "Formation Upgrade",
       "speed": "n/a",
@@ -2533,7 +2820,9 @@
       "cc": "n/a",
       "ff": "n/a",
       "weapons": [],
-      "abilities_or_notes": ["Reference card for a mixed Land Raider / Land Raider Redeemer upgrade group."],
+      "abilities_or_notes": [
+        "Reference card for a mixed Land Raider / Land Raider Redeemer upgrade group."
+      ],
       "source_section": "Space Marine Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2541,6 +2830,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "blood_claws",
       "name": "Blood Claws",
       "type": "INF",
       "speed": "15cm",
@@ -2552,7 +2842,9 @@
           "name": "Bolt Pistols and Chainswords",
           "range": "15cm/base",
           "firepower": "Small Arms / Assault Weapons",
-          "notes": ["EA(+1)"]
+          "notes": [
+            "EA(+1)"
+          ]
         }
       ],
       "abilities_or_notes": [],
@@ -2563,6 +2855,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grey_hunters",
       "name": "Grey Hunters",
       "type": "INF",
       "speed": "15cm",
@@ -2585,6 +2878,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "long_fangs",
       "name": "Long Fangs",
       "type": "INF",
       "speed": "15cm",
@@ -2607,6 +2901,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sky_claws",
       "name": "Sky Claws",
       "type": "INF",
       "speed": "30cm",
@@ -2621,7 +2916,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Jump Packs"],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
       "source_section": "Space Wolves Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2629,6 +2926,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wolf_guard_terminators",
       "name": "Wolf Guard Terminators",
       "type": "INF",
       "speed": "15cm",
@@ -2643,7 +2941,9 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Teleport"],
+      "abilities_or_notes": [
+        "Teleport"
+      ],
       "source_section": "Space Wolves Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2651,6 +2951,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wolf_scouts",
       "name": "Wolf Scouts",
       "type": "INF",
       "speed": "15cm",
@@ -2665,7 +2966,11 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": ["Infiltrator", "Scout", "Teleport"],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout",
+        "Teleport"
+      ],
       "source_section": "Space Wolves Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
@@ -2673,6 +2978,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fenrisian_wolves",
       "name": "Fenrisian Wolves",
       "type": "INF",
       "speed": "20cm",
@@ -2684,10 +2990,14 @@
           "name": "Teeth and Claws",
           "range": "base contact",
           "firepower": "Assault Weapons",
-          "notes": ["EA(+1)"]
+          "notes": [
+            "EA(+1)"
+          ]
         }
       ],
-      "abilities_or_notes": ["Infiltrator"],
+      "abilities_or_notes": [
+        "Infiltrator"
+      ],
       "source_section": "Space Wolves Forces",
       "parse_confidence": "high",
       "parse_warnings": [],

@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Hit & Run Tactics rule (see Hit & Run Tactics ) and Fleet of Foot rule (see Fleet of Foot ) apply to all Dark Eldar formations. Additionally, certain units and weapons have special abilities described in Dark Eldar Technology (see Dark Eldar Technology )."
     }
   ],
   "formations": [
     {
+      "id": "0_1_kabal_coterie",
       "category": "army_list",
       "entry_type": "formation",
       "name": "0–1 Kabal Coterie",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kabal_syndicate",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Kabal Syndicate",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "haemonculi_coven",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Haemonculi Coven",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_barges",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Heavy Barges",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellion_murder",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Hellion Murder",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mandrake_throng",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Mandrake Throng",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver_gang",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Reaver Gang",
@@ -104,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scourge_flight",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Scourge Flight",
@@ -115,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "talos_swarm",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Talos Swarm",
@@ -126,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "wych_cult",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Wych Cult",
@@ -137,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "dracon",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Dracon",
@@ -148,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "haemonculi",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Haemonculi",
@@ -159,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellions",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hellions",
@@ -170,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "incubi",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Incubi",
@@ -181,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mandrakes",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Mandrakes",
@@ -192,6 +208,7 @@
       "parse_warnings": []
     },
     {
+      "id": "perditors",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Perditors",
@@ -203,6 +220,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravager",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Ravager",
@@ -214,6 +232,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reavers",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Reavers",
@@ -225,6 +244,7 @@
       "parse_warnings": []
     },
     {
+      "id": "scourges",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Scourges",
@@ -236,6 +256,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sybarite",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Sybarite",
@@ -247,6 +268,7 @@
       "parse_warnings": []
     },
     {
+      "id": "talos",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Talos",
@@ -258,6 +280,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vessel_of_pain",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Vessel of Pain",
@@ -269,6 +292,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warp_beasts",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Warp Beasts",
@@ -280,6 +304,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warriors",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Warriors",
@@ -291,6 +316,7 @@
       "parse_warnings": []
     },
     {
+      "id": "wyches",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Wyches",
@@ -302,6 +328,7 @@
       "parse_warnings": []
     },
     {
+      "id": "barge_of_pleasure",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Barge of Pleasure",
@@ -313,6 +340,7 @@
       "parse_warnings": []
     },
     {
+      "id": "slavebringer",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Slavebringer",
@@ -324,6 +352,7 @@
       "parse_warnings": []
     },
     {
+      "id": "executor",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Executor",
@@ -335,6 +364,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ravens",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Ravens",
@@ -346,6 +376,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorwings",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Razorwings",
@@ -357,6 +388,7 @@
       "parse_warnings": []
     },
     {
+      "id": "300_points_or",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "300 points or",
@@ -368,6 +400,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tormentor",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Tormentor",
@@ -381,6 +414,7 @@
   ],
   "profiles": [
     {
+      "id": "archon",
       "name": "Archon",
       "type": "CH",
       "speed": "n/a",
@@ -410,6 +444,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "dracon",
       "name": "Dracon",
       "type": "CH",
       "speed": "n/a",
@@ -439,6 +474,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sybarite",
       "name": "Sybarite",
       "type": "CH",
       "speed": "n/a",
@@ -465,6 +501,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "grotesques",
       "name": "Grotesques",
       "type": "INF",
       "speed": "15cm",
@@ -484,6 +521,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "haemonculi",
       "name": "Haemonculi",
       "type": "INF",
       "speed": "15cm",
@@ -511,6 +549,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellions",
       "name": "Hellions",
       "type": "INF",
       "speed": "30cm",
@@ -536,6 +575,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "incubi",
       "name": "Incubi",
       "type": "INF",
       "speed": "15cm",
@@ -566,6 +606,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "mandrakes",
       "name": "Mandrakes",
       "type": "INF",
       "speed": "15cm",
@@ -592,6 +633,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reavers",
       "name": "Reavers",
       "type": "INF",
       "speed": "40cm",
@@ -617,6 +659,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "scourges",
       "name": "Scourges",
       "type": "INF",
       "speed": "30cm",
@@ -652,6 +695,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warp_beasts",
       "name": "Warp Beasts",
       "type": "INF",
       "speed": "15cm",
@@ -680,6 +724,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warriors",
       "name": "Warriors",
       "type": "INF",
       "speed": "15cm",
@@ -702,6 +747,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "wyches",
       "name": "Wyches",
       "type": "INF",
       "speed": "15cm",
@@ -728,6 +774,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "raider",
       "name": "Raider",
       "type": "LV",
       "speed": "35cm",
@@ -764,6 +811,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ravager",
       "name": "Ravager",
       "type": "LV",
       "speed": "35cm",
@@ -804,6 +852,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "talos",
       "name": "Talos",
       "type": "AV",
       "speed": "15cm",
@@ -840,6 +889,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "barge_of_pleasure",
       "name": "Barge of Pleasure",
       "type": "WE",
       "speed": "30cm",
@@ -884,6 +934,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "executor_landing_module",
       "name": "Executor Landing Module",
       "type": "WE",
       "speed": "25cm",
@@ -950,6 +1001,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kashnarak",
       "name": "Kashnarak",
       "type": "WE",
       "speed": "20cm",
@@ -983,6 +1035,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "perditor",
       "name": "Perditor",
       "type": "WE",
       "speed": "15cm",
@@ -1022,6 +1075,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tormentor_titan",
       "name": "Tormentor Titan",
       "type": "WE",
       "speed": "35cm",
@@ -1079,6 +1133,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vessel_of_pain",
       "name": "Vessel of Pain",
       "type": "WE",
       "speed": "30cm",
@@ -1122,6 +1177,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "raven_fighter",
       "name": "Raven Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -1155,6 +1211,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "razorwing",
       "name": "Razorwing",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1197,6 +1254,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "slavebringer_assault_boat",
       "name": "Slavebringer Assault Boat",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1234,6 +1292,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "corsair_class_escort",
       "name": "Corsair Class Escort",
       "type": "SC",
       "speed": "n/a",
@@ -1269,6 +1328,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "torture_class_cruiser",
       "name": "Torture Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1304,6 +1364,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "2_haemonculi_2_grotesques",
       "name": "2 Haemonculi, 2 Grotesques",
       "type": "Formation",
       "speed": "n/a",
@@ -1318,6 +1379,7 @@
       ]
     },
     {
+      "id": "2_haemonculi_4_grotesques",
       "name": "2 Haemonculi, 4 Grotesques",
       "type": "Formation",
       "speed": "n/a",
@@ -1331,6 +1393,7 @@
       ]
     },
     {
+      "id": "2_hellions",
       "name": "2 Hellions",
       "type": "Formation",
       "speed": "n/a",
@@ -1345,6 +1408,7 @@
       ]
     },
     {
+      "id": "2_perditors",
       "name": "2 Perditors",
       "type": "Formation",
       "speed": "n/a",
@@ -1359,6 +1423,7 @@
       ]
     },
     {
+      "id": "2_reavers",
       "name": "2 Reavers",
       "type": "Formation",
       "speed": "n/a",
@@ -1373,6 +1438,7 @@
       ]
     },
     {
+      "id": "2_talos",
       "name": "2 Talos",
       "type": "Formation",
       "speed": "n/a",
@@ -1387,6 +1453,7 @@
       ]
     },
     {
+      "id": "3_haemonculi_5_grotesques",
       "name": "3 Haemonculi, 5 Grotesques",
       "type": "Formation",
       "speed": "n/a",
@@ -1400,6 +1467,7 @@
       ]
     },
     {
+      "id": "4_ravagers",
       "name": "4 Ravagers",
       "type": "Formation",
       "speed": "n/a",
@@ -1413,6 +1481,7 @@
       ]
     },
     {
+      "id": "6_ravagers",
       "name": "6 Ravagers",
       "type": "Formation",
       "speed": "n/a",
@@ -1426,6 +1495,7 @@
       ]
     },
     {
+      "id": "8_incubi",
       "name": "8 Incubi",
       "type": "Formation",
       "speed": "n/a",
@@ -1439,6 +1509,7 @@
       ]
     },
     {
+      "id": "8_mandrakes",
       "name": "8 Mandrakes",
       "type": "Formation",
       "speed": "n/a",
@@ -1452,6 +1523,7 @@
       ]
     },
     {
+      "id": "8_scourges",
       "name": "8 Scourges",
       "type": "Formation",
       "speed": "n/a",
@@ -1465,6 +1537,7 @@
       ]
     },
     {
+      "id": "8_warriors",
       "name": "8 Warriors",
       "type": "Formation",
       "speed": "n/a",
@@ -1478,6 +1551,7 @@
       ]
     },
     {
+      "id": "8_wyches",
       "name": "8 Wyches",
       "type": "Formation",
       "speed": "n/a",
@@ -1491,6 +1565,7 @@
       ]
     },
     {
+      "id": "bomber_formation",
       "name": "Bomber Formation",
       "type": "Formation",
       "speed": "n/a",
@@ -1506,6 +1581,7 @@
       ]
     },
     {
+      "id": "corsair_escorts",
       "name": "Corsair Escorts",
       "type": "Formation",
       "speed": "n/a",
@@ -1521,6 +1597,7 @@
       ]
     },
     {
+      "id": "executioner_landing_module",
       "name": "Executioner Landing Module",
       "type": "Formation",
       "speed": "n/a",
@@ -1535,6 +1612,7 @@
       ]
     },
     {
+      "id": "fighter_formation",
       "name": "Fighter Formation",
       "type": "Formation",
       "speed": "n/a",
@@ -1550,6 +1628,7 @@
       ]
     },
     {
+      "id": "haemonculus_grotesque",
       "name": "Haemonculus, Grotesque",
       "type": "Formation",
       "speed": "n/a",
@@ -1564,6 +1643,7 @@
       ]
     },
     {
+      "id": "razorwing_bomber",
       "name": "Razorwing Bomber",
       "type": "Formation",
       "speed": "n/a",
@@ -1578,6 +1658,7 @@
       ]
     },
     {
+      "id": "slavebringer",
       "name": "Slavebringer",
       "type": "Formation",
       "speed": "n/a",
@@ -1592,6 +1673,7 @@
       ]
     },
     {
+      "id": "webway_portal",
       "name": "Webway Portal",
       "type": "Formation",
       "speed": "n/a",

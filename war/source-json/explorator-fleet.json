@@ -20,16 +20,19 @@
   },
   "special_rules": [
     {
+      "id": "automaton",
       "name": "Automaton",
       "text": "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however. If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker (see Blast Markers and Broken Formations) then it may attempt to save normally. Automaton units killed in an assault count for the purposes of working out its result (see Work Out Result)."
     },
     {
+      "id": "master_of_the_machine",
       "name": "Master of the Machine",
       "text": "Whenever a formation successfully rallies or regroups, and it contains a unit with Master of Machines. It may return (x) Armoured Vehicles or Light Vehicles previously lost back to the formation. (x) being the amount described one the unit’s data sheet “Master of the Machine (x). Formations may only return units previously lost from its own formation and may not grow above its starting size."
     }
   ],
   "formations": [
     {
+      "id": "vanguard_maniple",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Vanguard Maniple",
@@ -41,6 +44,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skorpius_cohort",
       "category": "Core Formations",
       "entry_type": "formation",
       "name": "Skorpius Cohort",
@@ -52,6 +56,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ranger_centuria",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Ranger Centuria",
@@ -63,6 +68,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ironstrider_cavaliers",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Ironstrider Cavaliers",
@@ -74,6 +80,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sydonian_dragoons",
       "category": "Support Formations",
       "entry_type": "formation",
       "name": "Sydonian Dragoons",
@@ -85,6 +92,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ruststalker_killclade",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Ruststalker Killclade",
@@ -96,6 +104,7 @@
       "parse_warnings": []
     },
     {
+      "id": "infiltrator_killclade",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Infiltrator Killclade",
@@ -107,6 +116,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fulgurite_maniple",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Fulgurite Maniple",
@@ -118,6 +128,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hounds",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Hounds",
@@ -129,6 +140,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pteraxii_maniple",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Pteraxii Maniple",
@@ -140,6 +152,7 @@
       "parse_warnings": []
     },
     {
+      "id": "onager_cohort",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Onager Cohort",
@@ -151,6 +164,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kastelan_maniple",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Kastelan Maniple",
@@ -162,6 +176,7 @@
       "parse_warnings": []
     },
     {
+      "id": "destroyer_maniple",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Destroyer Maniple",
@@ -173,6 +188,7 @@
       "parse_warnings": []
     },
     {
+      "id": "breacher_maniple",
       "category": "Elite Formations",
       "entry_type": "formation",
       "name": "Breacher Maniple",
@@ -184,6 +200,7 @@
       "parse_warnings": []
     },
     {
+      "id": "knights",
       "category": "Knight Support",
       "entry_type": "formation",
       "name": "Knights",
@@ -195,6 +212,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_class_titan",
       "category": "Collegia Titanica Support",
       "entry_type": "formation",
       "name": "Warhound Class Titan",
@@ -206,6 +224,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "Collegia Titanica Support",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -217,6 +236,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "Collegia Titanica Support",
       "entry_type": "formation",
       "name": "Reaver",
@@ -228,6 +248,7 @@
       "parse_warnings": []
     },
     {
+      "id": "avenger_strike_fighters",
       "category": "Explorator Fleet Navy and Spacecraft",
       "entry_type": "formation",
       "name": "Avenger Strike Fighters",
@@ -239,6 +260,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ark_mechanicus_battleship",
       "category": "Explorator Fleet Navy and Spacecraft",
       "entry_type": "formation",
       "name": "Ark Mechanicus Battleship",
@@ -250,6 +272,7 @@
       "parse_warnings": []
     },
     {
+      "id": "arch_magos",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Arch Magos",
@@ -261,6 +284,7 @@
       "parse_warnings": []
     },
     {
+      "id": "commander",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Commander",
@@ -272,6 +296,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skitarii_rangers",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Skitarii Rangers",
@@ -283,6 +308,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skorpius_disintegrator",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Skorpius Disintegrator",
@@ -294,6 +320,7 @@
       "parse_warnings": []
     },
     {
+      "id": "secutarii_hoplites",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Secutarii Hoplites",
@@ -305,6 +332,7 @@
       "parse_warnings": []
     },
     {
+      "id": "secutarii_peltasts",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Secutarii Peltasts",
@@ -316,6 +344,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skorpius_dunerider",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Skorpius Dunerider",
@@ -327,6 +356,7 @@
       "parse_warnings": []
     },
     {
+      "id": "subterranean_assault",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Subterranean Assault",
@@ -338,6 +368,7 @@
       "parse_warnings": []
     },
     {
+      "id": "archaeopters",
       "category": "Core Formations",
       "entry_type": "upgrade",
       "name": "Archaeopters",
@@ -351,6 +382,7 @@
   ],
   "profiles": [
     {
+      "id": "explorator_archmagos",
       "name": "Explorator Archmagos",
       "type": "INF",
       "speed": "15cm",
@@ -390,6 +422,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "explorator_magos",
       "name": "Explorator Magos",
       "type": "INF",
       "speed": "15cm",
@@ -429,6 +462,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "tech_priest_dominus",
       "name": "Tech-Priest Dominus",
       "type": "INF",
       "speed": "15cm",
@@ -466,6 +500,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "cybernetica_datasmith",
       "name": "Cybernetica Datasmith",
       "type": "INF",
       "speed": "15cm",
@@ -495,6 +530,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skitarii_vanguard",
       "name": "Skitarii Vanguard",
       "type": "INF",
       "speed": "15cm",
@@ -523,6 +559,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "secutarii_peltasts",
       "name": "Secutarii Peltasts",
       "type": "INF",
       "speed": "15cm",
@@ -545,6 +582,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "secutarii_hoplite",
       "name": "Secutarii Hoplite",
       "type": "INF",
       "speed": "15cm",
@@ -569,6 +607,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kataphron_breacher",
       "name": "Kataphron Breacher",
       "type": "INF",
       "speed": "15cm",
@@ -597,6 +636,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kataphron_destroyer",
       "name": "Kataphron Destroyer",
       "type": "INF",
       "speed": "15cm",
@@ -635,6 +675,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skitarii_rangers",
       "name": "Skitarii Rangers",
       "type": "INF",
       "speed": "15cm",
@@ -659,6 +700,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "electro_priests",
       "name": "Electro-Priests",
       "type": "INF",
       "speed": "15cm",
@@ -693,6 +735,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sicarian_infiltrators",
       "name": "Sicarian Infiltrators",
       "type": "INF",
       "speed": "20cm",
@@ -721,6 +764,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sicarian_ruststalkers",
       "name": "Sicarian Ruststalkers",
       "type": "INF",
       "speed": "20cm",
@@ -747,6 +791,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "serberys_sulphurhounds",
       "name": "Serberys Sulphurhounds",
       "type": "INF",
       "speed": "20cm",
@@ -772,6 +817,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pteraxii",
       "name": "Pteraxii",
       "type": "INF",
       "speed": "30cm",
@@ -811,6 +857,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "kastelan_robots",
       "name": "Kastelan Robots",
       "type": "LV",
       "speed": "15cm",
@@ -854,6 +901,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ironstrider_ballistarius",
       "name": "Ironstrider Ballistarius",
       "type": "LV",
       "speed": "20cm",
@@ -885,6 +933,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sydonian_dragoon",
       "name": "Sydonian Dragoon",
       "type": "LV",
       "speed": "20cm",
@@ -926,6 +975,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "archaeopter",
       "name": "Archaeopter",
       "type": "LV",
       "speed": "35cm",
@@ -953,6 +1003,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "onager_dunecrawler",
       "name": "Onager Dunecrawler",
       "type": "AV",
       "speed": "20cm",
@@ -993,6 +1044,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "skorpius_dunerider",
       "name": "Skorpius Dunerider",
       "type": "AV",
       "speed": "30cm",
@@ -1019,6 +1071,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skorpius_disintegrator",
       "name": "Skorpius Disintegrator",
       "type": "AV",
       "speed": "30cm",
@@ -1061,6 +1114,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "termite_assault_drill",
       "name": "Termite Assault Drill",
       "type": "AV",
       "speed": "20cm",
@@ -1087,6 +1141,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1128,6 +1183,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1168,6 +1224,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "avenger_strike_fighters",
       "name": "Avenger Strike Fighters",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1208,6 +1265,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ark_mechanicus_battleship",
       "name": "Ark Mechanicus Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1248,6 +1306,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "seneschal",
       "name": "Seneschal",
       "type": "CH",
       "speed": "n/a",
@@ -1266,6 +1325,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_paladin",
       "name": "Knight Paladin",
       "type": "WE",
       "speed": "25cm",
@@ -1314,6 +1374,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "knight_errant",
       "name": "Knight Errant",
       "type": "WE",
       "speed": "25cm",
@@ -1372,6 +1433,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",

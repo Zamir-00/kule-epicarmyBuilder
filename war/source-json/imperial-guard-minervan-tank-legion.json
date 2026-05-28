@@ -21,12 +21,14 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "The Commissars rule applies to Minervan Tank Legion Imperial Guard armies (see Commissars )."
     }
   ],
   "formations": [
     {
+      "id": "artillery_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Artillery Company",
@@ -38,6 +40,7 @@
       "parse_warnings": []
     },
     {
+      "id": "super_heavy_tank_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Super-heavy Tank Company",
@@ -49,6 +52,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_company",
       "category": "army_list",
       "entry_type": "formation",
       "name": "Tank Company",
@@ -60,6 +64,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Flak",
@@ -71,6 +76,7 @@
       "parse_warnings": []
     },
     {
+      "id": "griffon_battery",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Griffon Battery",
@@ -82,6 +88,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Hellhound Squadron",
@@ -93,6 +100,7 @@
       "parse_warnings": []
     },
     {
+      "id": "salamander_command",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Salamander Command",
@@ -104,6 +112,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_supreme_commander",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "0–1 Supreme Commander",
@@ -115,6 +124,7 @@
       "parse_warnings": []
     },
     {
+      "id": "tank_squadron",
       "category": "upgrades",
       "entry_type": "upgrade",
       "name": "Tank Squadron",
@@ -126,6 +136,7 @@
       "parse_warnings": []
     },
     {
+      "id": "artillery_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Artillery Battery",
@@ -137,6 +148,7 @@
       "parse_warnings": []
     },
     {
+      "id": "assault_gun_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Assault Gun Battery",
@@ -148,6 +160,7 @@
       "parse_warnings": []
     },
     {
+      "id": "basilisk_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Basilisk Battery",
@@ -159,6 +172,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_deathstrike_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "0–1 Deathstrike Battery",
@@ -170,6 +184,7 @@
       "parse_warnings": []
     },
     {
+      "id": "destroyer_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Destroyer Squadron",
@@ -181,6 +196,7 @@
       "parse_warnings": []
     },
     {
+      "id": "flak_battery",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Flak Battery",
@@ -203,6 +219,7 @@
       "parse_warnings": []
     },
     {
+      "id": "hellhound_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Hellhound Platoon",
@@ -214,6 +231,7 @@
       "parse_warnings": []
     },
     {
+      "id": "mechanised_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Mechanised Platoon",
@@ -225,6 +243,7 @@
       "parse_warnings": []
     },
     {
+      "id": "salamander_scout_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Salamander Scout Platoon",
@@ -236,6 +255,7 @@
       "parse_warnings": []
     },
     {
+      "id": "storm_trooper_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Storm Trooper Platoon",
@@ -247,6 +267,7 @@
       "parse_warnings": []
     },
     {
+      "id": "super_heavy_tank_platoon",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Super-heavy Tank Platoon",
@@ -258,6 +279,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vulture_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Vulture Squadron",
@@ -269,6 +291,7 @@
       "parse_warnings": []
     },
     {
+      "id": "cost",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Cost",
@@ -280,6 +303,7 @@
       "parse_warnings": []
     },
     {
+      "id": "10_points",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "+10 points",
@@ -302,6 +326,7 @@
       "parse_warnings": []
     },
     {
+      "id": "20_points",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "+20 points",
@@ -313,6 +338,7 @@
       "parse_warnings": []
     },
     {
+      "id": "marauder_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Marauder Squadron",
@@ -324,6 +350,7 @@
       "parse_warnings": []
     },
     {
+      "id": "thunderbolt_squadron",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
@@ -335,6 +362,7 @@
       "parse_warnings": []
     },
     {
+      "id": "0_1_orbital_support",
       "category": "upgrades",
       "entry_type": "formation",
       "name": "0–1 Orbital Support",
@@ -346,6 +374,7 @@
       "parse_warnings": []
     },
     {
+      "id": "reaver",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Reaver",
@@ -357,6 +386,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound",
@@ -368,6 +398,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warhound_pack",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warhound Pack",
@@ -379,6 +410,7 @@
       "parse_warnings": []
     },
     {
+      "id": "warlord",
       "category": "titan_legion_battlegroups",
       "entry_type": "formation",
       "name": "Warlord",
@@ -392,6 +424,7 @@
   ],
   "profiles": [
     {
+      "id": "commissar",
       "name": "Commissar",
       "type": "CH",
       "speed": "n/a",
@@ -420,6 +453,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "supreme_commander",
       "name": "Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -446,6 +480,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "infantry",
       "name": "Infantry",
       "type": "INF",
       "speed": "15cm",
@@ -476,6 +511,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "storm_troopers",
       "name": "Storm Troopers",
       "type": "INF",
       "speed": "15cm",
@@ -500,6 +536,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "basilisk",
       "name": "Basilisk",
       "type": "AV",
       "speed": "20cm",
@@ -538,6 +575,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bombard",
       "name": "Bombard",
       "type": "AV",
       "speed": "20cm",
@@ -569,6 +607,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "chimera",
       "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
@@ -629,6 +668,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "deathstrike",
       "name": "Deathstrike",
       "type": "AV",
       "speed": "20cm",
@@ -661,6 +701,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "destroyer_tank_hunter",
       "name": "Destroyer Tank Hunter",
       "type": "AV",
       "speed": "20cm",
@@ -687,6 +728,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "griffon",
       "name": "Griffon",
       "type": "AV",
       "speed": "30cm",
@@ -717,6 +759,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hellhound",
       "name": "Hellhound",
       "type": "AV",
       "speed": "30cm",
@@ -747,6 +790,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "hydra",
       "name": "Hydra",
       "type": "AV",
       "speed": "30cm",
@@ -775,6 +819,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ",
       "name": "Leman Russ",
       "type": "AV",
       "speed": "20cm",
@@ -811,6 +856,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_conqueror",
       "name": "Leman Russ Conqueror",
       "type": "AV",
       "speed": "30cm",
@@ -841,6 +887,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_demolisher",
       "name": "Leman Russ Demolisher",
       "type": "AV",
       "speed": "20cm",
@@ -879,6 +926,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_executioner",
       "name": "Leman Russ Executioner",
       "type": "AV",
       "speed": "20cm",
@@ -909,6 +957,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_exterminator",
       "name": "Leman Russ Exterminator",
       "type": "AV",
       "speed": "20cm",
@@ -945,6 +994,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "leman_russ_vanquisher",
       "name": "Leman Russ Vanquisher",
       "type": "AV",
       "speed": "20cm",
@@ -981,6 +1031,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "manticore",
       "name": "Manticore",
       "type": "AV",
       "speed": "20cm",
@@ -1013,6 +1064,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "medusa",
       "name": "Medusa",
       "type": "AV",
       "speed": "20cm",
@@ -1043,6 +1095,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "salamander_command",
       "name": "Salamander Command",
       "type": "AV",
       "speed": "35cm",
@@ -1087,6 +1140,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "salamander_scout",
       "name": "Salamander Scout",
       "type": "AV",
       "speed": "35cm",
@@ -1117,6 +1171,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderer",
       "name": "Thunderer",
       "type": "AV",
       "speed": "20cm",
@@ -1144,6 +1199,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "valkyrie",
       "name": "Valkyrie",
       "type": "AV",
       "speed": "35cm",
@@ -1186,6 +1242,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vulture",
       "name": "Vulture",
       "type": "AV",
       "speed": "35cm",
@@ -1225,6 +1282,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "baneblade",
       "name": "Baneblade",
       "type": "WE",
       "speed": "15cm",
@@ -1278,6 +1336,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shadowsword",
       "name": "Shadowsword",
       "type": "WE",
       "speed": "15cm",
@@ -1313,6 +1372,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormblade",
       "name": "Stormblade",
       "type": "WE",
       "speed": "15cm",
@@ -1360,6 +1420,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormhammer",
       "name": "Stormhammer",
       "type": "WE",
       "speed": "15cm",
@@ -1393,6 +1454,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "stormsword",
       "name": "Stormsword",
       "type": "WE",
       "speed": "15cm",
@@ -1453,6 +1515,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "marauder_bomber",
       "name": "Marauder Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1491,6 +1554,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "thunderbolt_fighter",
       "name": "Thunderbolt Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -1531,6 +1595,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "emperor_class_battleship",
       "name": "Emperor Class Battleship",
       "type": "SC",
       "speed": "n/a",
@@ -1557,6 +1622,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "lunar_class_cruiser",
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1589,6 +1655,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "reaver_class_titan",
       "name": "Reaver Class Titan",
       "type": "WE",
       "speed": "20cm",
@@ -1628,6 +1695,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warhound_class_titan",
       "name": "Warhound Class Titan",
       "type": "WE",
       "speed": "30cm",
@@ -1668,6 +1736,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "warlord_class_titan",
       "name": "Warlord Class Titan",
       "type": "WE",
       "speed": "15cm",

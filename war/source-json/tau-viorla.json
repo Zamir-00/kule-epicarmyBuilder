@@ -22,36 +22,44 @@
   },
   "special_rules": [
     {
+      "id": "special_rules",
       "name": "Special Rules",
       "text": "Markerlights may not be used to confer a bonus to any barrage attack. Certain units and weapons have special abilities described in Coordinated Fire, Markerlights, Tau Jet Packs, Tau Deflector Shield, and Guided Missiles."
     },
     {
+      "id": "markerlights_and_barrage_attacks",
       "name": "Markerlights and Barrage Attacks",
       "text": "Markerlights may not be used to confer a bonus to any barrage attack."
     },
     {
+      "id": "coordinated_fire",
       "name": "Coordinated Fire",
       "text": "Some units are noted as being able to call in coordinated fire . These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action. Make a single initiative roll for all formations, counting a single -1 modifier if any have blast markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action. There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation is broken) before moving on to the next Tau formation. Note that units with this ability confer the coordinated fire ability to any formation that they join. For example, a Pathfinder upgrade purchased to be added to a Fire Warrior Cadre, adds the coordinated fire ability to all units in the Cadre."
     },
     {
+      "id": "tau_deflector_shield",
       "name": "Tau Deflector Shield",
       "text": "Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+."
     },
     {
+      "id": "guided_missiles",
       "name": "Guided Missiles",
       "text": "Guided missiles may only be fired at a target formation that is marked , but guided missiles may be fired without line of fire if the target is marked."
     },
     {
+      "id": "markerlights",
       "name": "Markerlights",
       "text": "All enemy formations with at least one unit within 30cm range and line of fire (Line of Fire) of at least one Tau unit with the markerlights ability is considered to be marked . When shooting at a marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a marked enemy may not be used when making Anti-Aircraft attacks. A Tau formation that is broken or marched this turn may not mark an enemy formation."
     },
     {
+      "id": "tau_jet_packs",
       "name": "Tau Jet Packs",
       "text": "Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or march. In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move."
     }
   ],
   "formations": [
     {
+      "id": "fire_warrior_breacher_cadre",
       "category": "Vior’la Core Formations",
       "entry_type": "formation",
       "name": "Fire Warrior Breacher Cadre",
@@ -63,6 +71,7 @@
       "parse_warnings": []
     },
     {
+      "id": "pathfinders",
       "category": "Vior’la Core Formations",
       "entry_type": "formation",
       "name": "Pathfinders",
@@ -74,6 +83,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vior_la_xv8_crisis_suit_formation",
       "category": "Vior’la Core Formations",
       "entry_type": "formation",
       "name": "Vior’la XV8 Crisis Suit Formation",
@@ -85,6 +95,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_battlesuit_formation",
       "category": "Vior’la Support Formations",
       "entry_type": "formation",
       "name": "Heavy Battlesuit formation",
@@ -96,6 +107,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kv128_stormsurge_formation",
       "category": "Vior’la Support Formations",
       "entry_type": "formation",
       "name": "KV128 Stormsurge formation",
@@ -107,6 +119,7 @@
       "parse_warnings": []
     },
     {
+      "id": "kv139_supremacy_formation",
       "category": "Vior’la Support Formations",
       "entry_type": "formation",
       "name": "KV139 Supremacy formation",
@@ -118,6 +131,7 @@
       "parse_warnings": []
     },
     {
+      "id": "xv88_broadside",
       "category": "Vior’la Support Formations",
       "entry_type": "formation",
       "name": "XV88 Broadside",
@@ -129,6 +143,7 @@
       "parse_warnings": []
     },
     {
+      "id": "stealth_group",
       "category": "Vior’la Support Formations",
       "entry_type": "formation",
       "name": "Stealth Group",
@@ -140,6 +155,7 @@
       "parse_warnings": []
     },
     {
+      "id": "razorshark_squadron",
       "category": "Air Caste Formations",
       "entry_type": "formation",
       "name": "Razorshark Squadron",
@@ -151,6 +167,7 @@
       "parse_warnings": []
     },
     {
+      "id": "sunshark_squadron",
       "category": "Air Caste Formations",
       "entry_type": "formation",
       "name": "Sunshark Squadron",
@@ -162,6 +179,7 @@
       "parse_warnings": []
     },
     {
+      "id": "vior_la_assault_orca",
       "category": "Air Caste Formations",
       "entry_type": "formation",
       "name": "Vior’la Assault Orca",
@@ -173,6 +191,7 @@
       "parse_warnings": []
     },
     {
+      "id": "spacecraft",
       "category": "Air Caste Formations",
       "entry_type": "formation",
       "name": "Spacecraft",
@@ -184,6 +203,7 @@
       "parse_warnings": []
     },
     {
+      "id": "manta_dropship",
       "category": "Air Caste Formations",
       "entry_type": "formation",
       "name": "Manta Dropship",
@@ -195,6 +215,7 @@
       "parse_warnings": []
     },
     {
+      "id": "shas_o_supreme_commander",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Shas’O Supreme Commander",
@@ -206,6 +227,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fireblade",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Fireblade",
@@ -217,6 +239,7 @@
       "parse_warnings": []
     },
     {
+      "id": "ethereal",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Ethereal",
@@ -228,6 +251,7 @@
       "parse_warnings": []
     },
     {
+      "id": "bonded_team",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Bonded Team",
@@ -239,6 +263,7 @@
       "parse_warnings": []
     },
     {
+      "id": "xv8_vior_la_crisis_suits",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "XV8 Vior’la Crisis Suits",
@@ -250,6 +275,7 @@
       "parse_warnings": []
     },
     {
+      "id": "fire_warriors",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Fire Warriors",
@@ -261,6 +287,7 @@
       "parse_warnings": []
     },
     {
+      "id": "skyray_missile_defence_gunship",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Skyray Missile Defence Gunship",
@@ -272,6 +299,7 @@
       "parse_warnings": []
     },
     {
+      "id": "heavy_battlesuit",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Heavy Battlesuit",
@@ -283,6 +311,7 @@
       "parse_warnings": []
     },
     {
+      "id": "xv95_ghostkeel_battlesuit_unit",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "XV95 Ghostkeel Battlesuit unit",
@@ -294,6 +323,7 @@
       "parse_warnings": []
     },
     {
+      "id": "xv88_broadside_battlesuit_units",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "XV88 Broadside Battlesuit units",
@@ -305,6 +335,7 @@
       "parse_warnings": []
     },
     {
+      "id": "gun_drones",
       "category": "Vior’la Upgrades",
       "entry_type": "upgrade",
       "name": "Gun Drones",
@@ -329,6 +360,7 @@
   ],
   "profiles": [
     {
+      "id": "shas_o_supreme_commander",
       "name": "Shas’O Supreme Commander",
       "type": "CH",
       "speed": "n/a",
@@ -355,6 +387,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "shas_el_commander",
       "name": "Shas’el Commander",
       "type": "CH",
       "speed": "n/a",
@@ -375,6 +408,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fireblade",
       "name": "Fireblade",
       "type": "CH",
       "speed": "n/a",
@@ -402,6 +436,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "ethereal",
       "name": "Ethereal",
       "type": "CH",
       "speed": "n/a",
@@ -430,6 +465,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "fire_warrior_breachers",
       "name": "Fire Warrior Breachers",
       "type": "INF",
       "speed": "15cm",
@@ -452,6 +488,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "pathfinders",
       "name": "Pathfinders",
       "type": "INF",
       "speed": "15cm",
@@ -488,6 +525,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "devilfish",
       "name": "Devilfish",
       "type": "AV",
       "speed": "30cm",
@@ -521,6 +559,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "skyray_missile_defence_gunship",
       "name": "Skyray Missile Defence Gunship",
       "type": "AV",
       "speed": "30cm",
@@ -562,6 +601,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vior_la_xv8_crisis_battlesuit",
       "name": "Vior’la XV8 Crisis Battlesuit",
       "type": "INF",
       "speed": "20cm",
@@ -603,6 +643,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "xv88_broadside_battlesuit",
       "name": "XV88 Broadside Battlesuit",
       "type": "LV",
       "speed": "15cm",
@@ -636,6 +677,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "xv15_stealth_battlesuit",
       "name": "XV15 Stealth Battlesuit",
       "type": "INF",
       "speed": "20cm",
@@ -667,6 +709,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "xv95_ghostkeel_battlesuit",
       "name": "XV95 Ghostkeel Battlesuit",
       "type": "AV",
       "speed": "15cm",
@@ -703,6 +746,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "xv104_riptide_battlesuit",
       "name": "XV104 Riptide Battlesuit",
       "type": "WE",
       "speed": "25cm",
@@ -746,6 +790,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "xv107_r_varna_battlesuit",
       "name": "XV107 R’Varna Battlesuit",
       "type": "WE",
       "speed": "20cm",
@@ -775,6 +820,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "xv109_y_vahra_battlesuit",
       "name": "XV109 Y’vahra Battlesuit",
       "type": "WE",
       "speed": "25cm",
@@ -829,6 +875,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "kx128_stormsurge_battlesuit",
       "name": "KX128 Stormsurge Battlesuit",
       "type": "WE",
       "speed": "15cm",
@@ -872,6 +919,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "kx139_supremacy_suit",
       "name": "KX139 Supremacy Suit",
       "type": "WE",
       "speed": "15cm",
@@ -931,6 +979,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "gun_drones",
       "name": "Gun Drones",
       "type": "INF",
       "speed": "20cm",
@@ -961,6 +1010,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "razorshark_fighter",
       "name": "Razorshark Fighter",
       "type": "AC",
       "speed": "Fighter",
@@ -991,6 +1041,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "sunshark_bomber",
       "name": "Sunshark Bomber",
       "type": "AC",
       "speed": "Bomber",
@@ -1029,6 +1080,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "vior_la_orca_dropship",
       "name": "Vior’la Orca Dropship",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -1070,6 +1122,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "protector_ii_class_cruiser",
       "name": "Protector II Class Cruiser",
       "type": "SC",
       "speed": "n/a",
@@ -1111,6 +1164,7 @@
       "is_reference_or_ambiguous": true
     },
     {
+      "id": "manta",
       "name": "Manta",
       "type": "WE",
       "speed": "20cm",
@@ -1179,6 +1233,7 @@
       "is_reference_or_ambiguous": false
     },
     {
+      "id": "bonded_team",
       "name": "Bonded Team",
       "type": "Formation",
       "speed": "n/a",
