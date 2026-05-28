@@ -1,0 +1,13 @@
+{
+  "name": "kule-epicarmybuilder",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Net-EA Epic 40K army builder",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "check": "npm run typecheck --workspace apps/api && npm test --workspace apps/api"
+  }
+}
