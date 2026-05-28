@@ -11,6 +11,7 @@
       "type": "string"
     },
     "id": { "type": "string" },
+    "list_id": { "type": "string" },
     "faction_id": { "type": "string" },
     "ruleset": { "type": "string" },
     "version": { "type": "string" },
@@ -46,6 +47,7 @@
                     { "type": "string" }
                   ]
                 },
+                "string_id": { "type": "string" },
                 "name": { "type": "string" },
                 "pts": {},
                 "units": {},
@@ -73,6 +75,7 @@
               { "type": "string" }
             ]
           },
+          "string_id": { "type": "string" },
           "name": { "type": "string" },
           "pts": {},
           "cost_pts": {},
