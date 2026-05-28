@@ -5,6 +5,7 @@ import { TRPCError } from '@trpc/server';
 import { router, procedure, authedProcedure } from './router.js';
 import { users, magicLinkTokens, type User } from '../db/schema.js';
 import { generateToken, hashToken } from '../auth/magic-link.js';
+import { magicLinkEmail } from '../auth/email-templates.js';
 import { createSession, deleteSession } from '../auth/sessions.js';
 
 const TOKEN_TTL_MS = 15 * 60 * 1000; // 15 minutes
@@ -42,12 +43,12 @@ export const authRouter = router({
         consumed_at: null,
       }).run();
 
-      const url = `${ctx.baseUrl}/sign-in?token=${encodeURIComponent(raw)}`;
+      const tmpl = magicLinkEmail({ baseUrl: ctx.baseUrl, token: raw });
       await ctx.emailTransport.send({
         to: email,
-        subject: 'Sign in to Kule Army Builder',
-        text: `Click this link to sign in. It expires in 15 minutes.\n\n${url}\n\nIf you didn't request this, ignore this email.`,
-        html: `<p>Click <a href="${url}">this link</a> to sign in. It expires in 15 minutes.</p><p>If you didn't request this, ignore this email.</p>`,
+        subject: tmpl.subject,
+        text: tmpl.text,
+        html: tmpl.html,
       });
 
       return { ok: true as const };
