@@ -17,6 +17,7 @@
           "id": 532,
           "name": "Gargant",
           "pts": 475,
+          "cost_pts": 475,
           "upgrades": [
             28,
             52,
@@ -33,6 +34,7 @@
           "id": 533,
           "name": "Great Gargant",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             28,
             52,
@@ -49,6 +51,7 @@
           "id": 534,
           "name": "Mega Gargant",
           "pts": 1000,
+          "cost_pts": 1000,
           "upgrades": [
             28
           ]
@@ -63,6 +66,7 @@
           "id": 541,
           "name": "Kan Mob (Normal)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -76,6 +80,7 @@
           "id": 542,
           "name": "Kan Mob (Big)",
           "pts": -50,
+          "cost_pts": -50,
           "upgrades": [
             11,
             12,
@@ -89,6 +94,7 @@
           "id": 543,
           "name": "Kan Mob ('Uge)",
           "pts": -100,
+          "cost_pts": -100,
           "upgrades": [
             11,
             12,
@@ -102,6 +108,7 @@
           "id": 544,
           "name": "Kroozer",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -110,6 +117,7 @@
           "name": "Loota Warband (Normal)",
           "units": "6 Boyz, 2 Grotz",
           "pts": 125,
+          "cost_pts": 125,
           "upgrades": [
             18,
             19,
@@ -133,6 +141,7 @@
           "name": "Loota Warband (Big)",
           "units": "12 Boyz, 4 Grotz",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             18,
             19,
@@ -156,6 +165,7 @@
           "name": "Loota Warband ('Uge)",
           "units": "18 Boyz, 6 Grotz",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             18,
             19,
@@ -178,6 +188,7 @@
           "id": 548,
           "name": "Stompa Mob (Normal)",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             11,
             12,
@@ -194,6 +205,7 @@
           "id": 549,
           "name": "Stompa Mob (Big)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -210,6 +222,7 @@
           "id": 550,
           "name": "Stompa Mob ('Uge)",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             11,
             12,
@@ -226,6 +239,7 @@
           "id": 551,
           "name": "Supa Stompa Mob",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             11,
             12,
@@ -251,6 +265,7 @@
           "id": 561,
           "name": "Fighta Sqwadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             29
           ]
@@ -260,6 +275,7 @@
           "id": 562,
           "name": "Bommer",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": []
         }
       ]

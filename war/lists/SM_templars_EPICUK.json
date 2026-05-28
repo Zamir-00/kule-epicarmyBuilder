@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Assault",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault units",
           "upgrades": [
             11,
@@ -32,6 +33,7 @@
           "id": 502,
           "name": "Bike",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             11,
             12,
@@ -43,6 +45,7 @@
           "id": 503,
           "name": "Devastator",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Devastator Units plus Transport",
           "upgrades": [
             11,
@@ -65,6 +68,7 @@
           "id": 504,
           "name": "Land Raider",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             11,
             12,
@@ -79,6 +83,7 @@
           "id": 505,
           "name": "Land Speeder",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -90,6 +95,7 @@
           "id": 506,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Landing Craft"
         },
         {
@@ -97,6 +103,7 @@
           "id": 507,
           "name": "Predators",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12,
@@ -111,6 +118,7 @@
           "id": 510,
           "name": "Tactical",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Tactical units plus Transport",
           "upgrades": [
             11,
@@ -134,6 +142,7 @@
           "id": 511,
           "name": "Terminator",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Terminator units",
           "upgrades": [
             11,
@@ -152,6 +161,7 @@
           "id": 512,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Thunderhawk gunship"
         },
         {
@@ -159,6 +169,7 @@
           "id": 514,
           "name": "Thunderhawk Transporter",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             34
           ]
@@ -168,6 +179,7 @@
           "id": 513,
           "name": "Vindicator",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             11,
             12,
@@ -187,6 +199,7 @@
           "id": 515,
           "name": "Storm Talon",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Storm Talons",
           "upgrades": []
         }

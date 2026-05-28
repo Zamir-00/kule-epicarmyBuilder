@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             20,
             21,
@@ -28,6 +29,7 @@
           "id": 502,
           "name": "Assault Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             23,
             24,
@@ -39,6 +41,7 @@
           "id": 503,
           "name": "Bike Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "8 Chaos Space Marines Bikes",
           "upgrades": [
             47,
@@ -50,6 +53,7 @@
           "id": 504,
           "name": "Black Legion Retinue",
           "pts": 275,
+          "cost_pts": 275,
           "units": "8 Chaos Space Marines",
           "upgrades": [
             48,
@@ -70,6 +74,7 @@
           "id": 505,
           "name": "Chaos Terminators",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             13,
             41,
@@ -87,6 +92,7 @@
           "id": 507,
           "name": "Forlorn Hope",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Chaos Space Marines",
           "upgrades": [
             48,
@@ -99,6 +105,7 @@
           "id": 508,
           "name": "Raptor Cult",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             40
@@ -114,6 +121,7 @@
           "id": 506,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             51,
             52
@@ -129,6 +137,7 @@
           "id": 530,
           "name": "Swiftdeath Interceptor",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Interceptors",
           "upgrades": []
         },
@@ -137,6 +146,7 @@
           "id": 531,
           "name": "Helltalon Fighter-bomber",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2 Bombers",
           "upgrades": []
         },
@@ -145,6 +155,7 @@
           "id": 533,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -152,6 +163,7 @@
           "id": 534,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -164,6 +176,7 @@
           "id": 520,
           "name": "Banelord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -171,6 +184,7 @@
           "id": 521,
           "name": "Ravager Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -178,6 +192,7 @@
           "id": 522,
           "name": "Feral Titan",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         }
       ]

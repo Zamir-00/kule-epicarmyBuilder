@@ -15,6 +15,7 @@
           "id": 500,
           "name": "Questoris",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             100,
             101,
@@ -50,6 +51,7 @@
           "id": 501,
           "name": "Cerastus",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             113,
             114,
@@ -67,6 +69,7 @@
           "id": 502,
           "name": "Arminger",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         }
       ]
@@ -79,6 +82,7 @@
           "id": 503,
           "name": "Questoris Reliquae",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             160,
             161,
@@ -93,6 +97,7 @@
           "id": 504,
           "name": "Acastus Reliquae",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": []
         }
       ]
@@ -105,6 +110,7 @@
           "id": 510,
           "name": "Skitarii",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [],
           "units": "2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"
         },
@@ -113,6 +119,7 @@
           "id": 512,
           "name": "Dune Crawlers",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -120,6 +127,7 @@
           "id": 514,
           "name": "Thunderbolt Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "2 Thunderbolts"
         },
@@ -128,6 +136,7 @@
           "id": 515,
           "name": "Maruder Squadron",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [],
           "units": "2 Maruder Bombers"
         },
@@ -136,6 +145,7 @@
           "id": 520,
           "name": "Warhound Scout Titan Pack",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [],
           "units": "2 Warhound Titans"
         },
@@ -144,6 +154,7 @@
           "id": 521,
           "name": "Legio Metalica Reaver Titan",
           "pts": 600,
+          "cost_pts": 600,
           "upgrades": [],
           "units": "1 Legio Metalica Reaver Titan"
         },
@@ -152,6 +163,7 @@
           "id": 522,
           "name": "Legio Metalica Warlord Titan",
           "pts": 775,
+          "cost_pts": 775,
           "upgrades": [],
           "units": "1 Legio Metalica Warlord"
         }

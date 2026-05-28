@@ -17,6 +17,7 @@
           "id": 512,
           "name": "Mission",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             11,
             18,
@@ -32,6 +33,7 @@
           "id": 513,
           "name": "Exorcism",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             16,
             17
@@ -42,6 +44,7 @@
           "id": 514,
           "name": "Choir",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Seraphim Sister Units",
           "upgrades": [
             11,
@@ -53,6 +56,7 @@
           "id": 515,
           "name": "Retribution",
           "pts": 160,
+          "cost_pts": 160,
           "upgrades": [
             11,
             18,
@@ -68,6 +72,7 @@
           "id": 516,
           "name": "Coven",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Dominion Sister Units (must include transport)",
           "upgrades": [
             18,
@@ -82,6 +87,7 @@
           "id": 517,
           "name": "Repentance",
           "pts": 250,
+          "cost_pts": 250,
           "units": "One Mistress Character and 6 Repentia Sister Units",
           "upgrades": [
             15,
@@ -98,6 +104,7 @@
           "id": 519,
           "name": "Purgeance",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             16,
             17
@@ -113,6 +120,7 @@
           "id": 518,
           "name": "Inquisitor Hereticus Retinue",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Inquisitor Hereticus Character",
           "upgrades": [
             10,
@@ -129,6 +137,7 @@
           "id": 600,
           "name": "Crusaders",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Priest Character and 10 Redemptionist Units",
           "upgrades": [
             13,
@@ -143,6 +152,7 @@
           "id": 602,
           "name": "Conclave",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Arco-Flagellant Units",
           "upgrades": [
             15,
@@ -158,6 +168,7 @@
           "id": 605,
           "name": "Pentinence",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             32
           ]
@@ -172,6 +183,7 @@
           "id": 719,
           "name": "Lightning Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Lightning Strike Fighters",
           "upgrades": []
         },
@@ -180,6 +192,7 @@
           "id": 720,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers",
           "upgrades": []
         },
@@ -188,6 +201,7 @@
           "id": 708,
           "name": "Orbital Support",
           "pts": 150,
+          "cost_pts": 150,
           "units": "1 Lunar Class Cruiser",
           "upgrades": []
         },
@@ -196,6 +210,7 @@
           "id": 606,
           "name": "Emperors Chapels",
           "pts": 400,
+          "cost_pts": 400,
           "units": "2 Emperors Chapel War Engines",
           "upgrades": []
         },
@@ -204,6 +219,7 @@
           "id": 607,
           "name": "Cathedral of Purification",
           "pts": 600,
+          "cost_pts": 600,
           "upgrades": []
         }
       ]

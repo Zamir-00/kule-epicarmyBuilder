@@ -19,6 +19,7 @@
           "id": 500,
           "name": "Grey Knights Strike Team",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Grey Knights",
           "upgrades": [
             1,
@@ -39,6 +40,7 @@
           "id": 502,
           "name": "Inquisitorial Warband",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Inqusitor",
           "upgrades": [
             22
@@ -54,6 +56,7 @@
           "id": 501,
           "name": "Grey Knights Terminators",
           "pts": 375,
+          "cost_pts": 375,
           "units": "4 Grey Knights Terminators",
           "upgrades": [
             1,
@@ -73,6 +76,7 @@
           "id": 600,
           "name": "Grey Knights Interceptor Squad",
           "pts": 225,
+          "cost_pts": 225,
           "units": "4 Grey Knights Interceptor",
           "upgrades": [
             1,
@@ -89,6 +93,7 @@
           "id": 601,
           "name": "Grey Knights Purgation Squad",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Grey Knights Purgation plus transports",
           "upgrades": [
             1,
@@ -112,6 +117,7 @@
           "id": 602,
           "name": "Grey Knights Land Raider",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             7
           ]
@@ -121,6 +127,7 @@
           "id": 606,
           "name": "Grey Knights Space Craft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -128,6 +135,7 @@
           "id": 608,
           "name": "Inquisitorial Stormtroopers",
           "pts": 175,
+          "cost_pts": 175,
           "units": "1 Inquisitor stand, 7 Inquisitorial Stormtroopers stands",
           "upgrades": []
         },
@@ -136,6 +144,7 @@
           "id": 609,
           "name": "Grey Knight Purifiers",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Grey Knight Purifiers",
           "upgrades": [
             1,
@@ -156,6 +165,7 @@
           "id": 607,
           "name": "Stormraven Flight",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Grey Knights Stormraven Gunships",
           "upgrades": []
         }
@@ -169,6 +179,7 @@
           "id": 700,
           "name": "Stormtalons",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Stormtalon Gunships",
           "upgrades": []
         },
@@ -177,6 +188,7 @@
           "id": 701,
           "name": "Thunderhawk Gunship",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Thunderhawk Gunship",
           "upgrades": []
         },
@@ -185,6 +197,7 @@
           "id": 604,
           "name": "Thunderhawk Transporters",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             26
           ]
@@ -194,6 +207,7 @@
           "id": 702,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Landing Craft",
           "upgrades": []
         }

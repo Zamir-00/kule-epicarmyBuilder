@@ -14,6 +14,7 @@
           "id": 500,
           "name": "Regimental HQ",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             30,
             10,
@@ -31,6 +32,7 @@
           "id": 501,
           "name": "Drop Troop Company",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             30,
             10,
@@ -53,6 +55,7 @@
           "id": 510,
           "name": "Drop Sentinel Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             31
           ],
@@ -63,6 +66,7 @@
           "id": 511,
           "name": "Storm Trooper Platoon",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [],
           "units": "8 Elysian Storm Trooper Units and 4 Valkyries"
         },
@@ -71,6 +75,7 @@
           "id": 512,
           "name": "Tauros Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             31
           ]
@@ -80,6 +85,7 @@
           "id": 513,
           "name": "Vulture Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         }
       ]
@@ -92,6 +98,7 @@
           "id": 520,
           "name": "Spacecraft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -99,6 +106,7 @@
           "id": 521,
           "name": "Lightning Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "4 Lightning Interceptors"
         },
@@ -107,6 +115,7 @@
           "id": 522,
           "name": "Strike Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "2 Lightning Strike Fighters"
         },
@@ -115,6 +124,7 @@
           "id": 523,
           "name": "Destroyer Squadron",
           "pts": 375,
+          "cost_pts": 375,
           "upgrades": [],
           "units": "2 Marauder Destroyers"
         }

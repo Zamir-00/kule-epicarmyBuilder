@@ -13,6 +13,7 @@
           "id": 501,
           "name": "Warlord Battle Titan",
           "pts": 850,
+          "cost_pts": 850,
           "units": "1 Warlord Battle Titan",
           "upgrades": [
             10,
@@ -25,6 +26,7 @@
           "id": 502,
           "name": "Reaver Battle Titan",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Battle Titan",
           "upgrades": [
             11,
@@ -36,6 +38,7 @@
           "id": 503,
           "name": "Warhound Scout Team",
           "pts": 550,
+          "cost_pts": 550,
           "units": "2 Warhound Scout Titans",
           "upgrades": [
             12
@@ -46,6 +49,7 @@
           "id": 504,
           "name": "Warhound Scout Titan",
           "pts": 300,
+          "cost_pts": 300,
           "units": "1 Warhound Scout Titan",
           "upgrades": [
             12
@@ -61,6 +65,7 @@
           "id": 521,
           "name": "Cybernetic Guards",
           "pts": 200,
+          "cost_pts": 200,
           "units": "8 Robots",
           "upgrades": []
         }
@@ -74,6 +79,7 @@
           "id": 531,
           "name": "Orbital Support",
           "pts": 150,
+          "cost_pts": 150,
           "units": "1 Adeptus Mechanicus Mars Cruiser",
           "upgrades": []
         },
@@ -82,6 +88,7 @@
           "id": 532,
           "name": "Fighter Cohort",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolt Fighter-bombers",
           "upgrades": []
         },
@@ -90,6 +97,7 @@
           "id": 533,
           "name": "MarauderBombers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers",
           "upgrades": []
         }

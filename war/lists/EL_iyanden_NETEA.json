@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Avatar",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -24,6 +25,7 @@
           "id": 501,
           "name": "Wraithgate",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -36,6 +38,7 @@
           "id": 601,
           "name": "Spirit Wraithguard Warhost",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             11,
             12,
@@ -49,6 +52,7 @@
           "id": 602,
           "name": "Spirit Wraithblade Warhost",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             11,
             12,
@@ -62,6 +66,7 @@
           "id": 603,
           "name": "Spirit Wraithlord Warhost",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [],
           "units": "6x Wraithlord units"
         }
@@ -75,6 +80,7 @@
           "id": 701,
           "name": "Aspect Warrior Troupe",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             60,
             61,
@@ -86,6 +92,7 @@
           "id": 702,
           "name": "Ranger Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             22
           ]
@@ -95,6 +102,7 @@
           "id": 703,
           "name": "Guardian Troupe",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             25,
             11,
@@ -108,6 +116,7 @@
           "id": 704,
           "name": "Windrider Troupe",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -115,6 +124,7 @@
           "id": 705,
           "name": "War Walker Troupe",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             28
           ]
@@ -124,6 +134,7 @@
           "id": 706,
           "name": "Swords of Vaul Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             61
           ]
@@ -133,6 +144,7 @@
           "id": 707,
           "name": "Night Spinner Troupe",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [],
           "units": "3x Night Spinner units"
         },
@@ -141,6 +153,7 @@
           "id": 708,
           "name": "Engine of Vaul Troupe",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             64,
             65,
@@ -157,6 +170,7 @@
           "id": 801,
           "name": "Spacecraft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         },
         {
@@ -164,6 +178,7 @@
           "id": 802,
           "name": "Nightwing Interceptors",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [],
           "units": "3x Nightwing Interceptors"
         },
@@ -172,6 +187,7 @@
           "id": 803,
           "name": "Phoenix Bombers",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [],
           "units": "3x Phoenix Bombers"
         },
@@ -180,6 +196,7 @@
           "id": 804,
           "name": "Vampire Raider",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -187,6 +204,7 @@
           "id": 805,
           "name": "Revenant Titans",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [],
           "units": "2 Revenant Titans"
         },
@@ -195,6 +213,7 @@
           "id": 806,
           "name": "Phantom Titan",
           "pts": 750,
+          "cost_pts": 750,
           "upgrades": []
         },
         {
@@ -202,6 +221,7 @@
           "id": 807,
           "name": "Warlock Titan",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": []
         }
       ]

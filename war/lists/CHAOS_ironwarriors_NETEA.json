@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Iron Warriors Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Chaos Space Marines and 2 Havocs",
           "upgrades": [
             53,
@@ -35,6 +36,7 @@
           "id": 502,
           "name": "Defiler Assault Pack",
           "pts": 425,
+          "cost_pts": 425,
           "units": "6 Defilers",
           "upgrades": [
             57,
@@ -47,6 +49,7 @@
           "id": 540,
           "name": "Grand Battery",
           "pts": 650,
+          "cost_pts": 650,
           "units": "9 Chaos Basilisks",
           "upgrades": [
             64,
@@ -58,6 +61,7 @@
           "id": 541,
           "name": "Armoured Assault Company",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Chaos Vindicators",
           "upgrades": [
             54
@@ -73,6 +77,7 @@
           "id": 503,
           "name": "Iron Warrior Terminators",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             32,
             53,
@@ -84,6 +89,7 @@
           "id": 504,
           "name": "Chosen",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Chaos Space Marine Scouts",
           "upgrades": [
             62,
@@ -96,6 +102,7 @@
           "id": 511,
           "name": "Obliterator Cult",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Obliterators",
           "upgrades": []
         },
@@ -104,6 +111,7 @@
           "id": 510,
           "name": "Raptors",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             30,
             63
@@ -114,6 +122,7 @@
           "id": 512,
           "name": "Havoc Company",
           "pts": 325,
+          "cost_pts": 325,
           "units": "4 Havocs and 2 Land Raiders",
           "upgrades": [
             59,
@@ -128,6 +137,7 @@
           "id": 513,
           "name": "Siegehammer Company",
           "pts": 225,
+          "cost_pts": 225,
           "units": "6 Iron Warrior Assault Marines",
           "upgrades": [
             67,
@@ -144,6 +154,7 @@
           "id": 514,
           "name": "Dreadnought Assault Pack",
           "pts": 225,
+          "cost_pts": 225,
           "units": "5 Chaos Dreadnoughts",
           "upgrades": [
             21,
@@ -161,6 +172,7 @@
           "id": 507,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             27,
             28,
@@ -173,6 +185,7 @@
           "id": 508,
           "name": "Artillery Battery",
           "pts": 325,
+          "cost_pts": 325,
           "units": "4 Chaos Basilisks",
           "upgrades": [
             64,
@@ -184,6 +197,7 @@
           "id": 509,
           "name": "Daemonic Artillery",
           "pts": 325,
+          "cost_pts": 325,
           "units": "3 Daemonic Artillery units",
           "upgrades": [
             64,
@@ -195,6 +209,7 @@
           "id": 505,
           "name": "Super Heavy Company - Decimator",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             25
           ]
@@ -209,6 +224,7 @@
           "id": 530,
           "name": "Hellblade Flight",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Fighters",
           "upgrades": []
         },
@@ -217,6 +233,7 @@
           "id": 531,
           "name": "Helltalon Flight",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Fighter Bombers",
           "upgrades": []
         },
@@ -225,6 +242,7 @@
           "id": 532,
           "name": "Harbinger Bomber",
           "pts": 450,
+          "cost_pts": 450,
           "upgrades": []
         },
         {
@@ -232,6 +250,7 @@
           "id": 533,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -239,6 +258,7 @@
           "id": 534,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -251,6 +271,7 @@
           "id": 520,
           "name": "Siegelord Titan",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": []
         },
         {
@@ -258,6 +279,7 @@
           "id": 521,
           "name": "Ravager Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -265,6 +287,7 @@
           "id": 522,
           "name": "Ordinatus Medrengard",
           "pts": 625,
+          "cost_pts": 625,
           "upgrades": []
         }
       ]

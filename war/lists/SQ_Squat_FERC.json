@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Confr&eacute;rie de Guerrier",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             14,
             15,
@@ -34,6 +35,7 @@
           "id": 502,
           "name": "Unit&eacute; Berserker",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14,
             23,
@@ -54,6 +56,7 @@
           "id": 511,
           "name": "Unit&eacute; Tonnerre",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             26,
             27,
@@ -68,6 +71,7 @@
           "id": 512,
           "name": "Aile de Gyrocopt&egrave;res d'Assaut",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5 Aigles de Fer",
           "upgrades": []
         },
@@ -76,6 +80,7 @@
           "id": 513,
           "name": "Escadron de la Guilde",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             46,
             47,
@@ -88,6 +93,7 @@
           "id": 514,
           "name": "Unit&eacute; de Robots de la Guilde",
           "pts": 200,
+          "cost_pts": 200,
           "units": "5 Robots",
           "upgrades": []
         },
@@ -96,6 +102,7 @@
           "id": 515,
           "name": "Grande Batterie",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             29,
             30,
@@ -108,6 +115,7 @@
           "id": 516,
           "name": "Batterie Foudre",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Canon Foudre",
           "upgrades": []
         },
@@ -116,6 +124,7 @@
           "id": 517,
           "name": "L&eacute;viathan",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 L&eacute;viathan",
           "upgrades": []
         }
@@ -129,6 +138,7 @@
           "id": 521,
           "name": "Train Blind&eacute;",
           "pts": 850,
+          "cost_pts": 850,
           "units": "1 Locomotive, 3 Wagons Berserker",
           "upgrades": [
             41,
@@ -142,6 +152,7 @@
           "id": 522,
           "name": "Colossus",
           "pts": 500,
+          "cost_pts": 500,
           "units": "1 Colossus, 1 Faucon de Fer",
           "upgrades": []
         },
@@ -150,6 +161,7 @@
           "id": 523,
           "name": "Cyclope",
           "pts": 500,
+          "cost_pts": 500,
           "units": "1 Cyclope",
           "upgrades": []
         },
@@ -158,6 +170,7 @@
           "id": 524,
           "name": "Batterie d'Artillerie Super-Lourde Goliath",
           "pts": 400,
+          "cost_pts": 400,
           "units": "2 Goliaths",
           "upgrades": [
             52
@@ -168,6 +181,7 @@
           "id": 525,
           "name": "Corps d'Attaque A&eacute;rien",
           "pts": 350,
+          "cost_pts": 350,
           "units": "2 Suzerains",
           "upgrades": []
         },
@@ -176,6 +190,7 @@
           "id": 526,
           "name": "Dirigeable Blind&eacute; Suzerain",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Suzerain",
           "upgrades": []
         }

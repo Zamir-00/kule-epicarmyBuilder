@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Leman Russ Maniple",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [
             109,
             110,
@@ -30,6 +31,7 @@
           "id": 502,
           "name": "Dunecrawler Onager Maniple",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5x Dunecrawler Onagers",
           "upgrades": [
             109,
@@ -44,6 +46,7 @@
           "id": 503,
           "name": "Dunecrawler Annihilator Maniple",
           "pts": 400,
+          "cost_pts": 400,
           "units": "5x Dunecrawler Annihilators",
           "upgrades": [
             110,
@@ -62,6 +65,7 @@
           "id": 510,
           "name": "Conqueror Maniple",
           "pts": 275,
+          "cost_pts": 275,
           "units": "5x Skitarii Leman Russ Conquerors",
           "upgrades": [
             110
@@ -72,6 +76,7 @@
           "id": 511,
           "name": "Icarian Cohort",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3x Dunecrawler Icarians",
           "upgrades": [
             110
@@ -82,6 +87,7 @@
           "id": 512,
           "name": "Ironstrider Cohort",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             110
           ]
@@ -91,6 +97,7 @@
           "id": 513,
           "name": "Avenger Squadron",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Avenger Strike Fighters",
           "upgrades": [
             110
@@ -101,6 +108,7 @@
           "id": 514,
           "name": "Lightning Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Lightning Primaris Interceptors",
           "upgrades": [
             110
@@ -111,6 +119,7 @@
           "id": 515,
           "name": "Tetrarch Heavy Lander",
           "pts": 475,
+          "cost_pts": 475,
           "units": "1 Tetrarch Heavy Lander",
           "upgrades": [
             110
@@ -121,6 +130,7 @@
           "id": 516,
           "name": "Orbital Support",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Ark Mechanicus",
           "upgrades": [
             110
@@ -136,6 +146,7 @@
           "id": 520,
           "name": "Heavy Tank Century",
           "pts": 340,
+          "cost_pts": 340,
           "upgrades": [
             109,
             110
@@ -146,6 +157,7 @@
           "id": 521,
           "name": "Super Heavy Tank Century",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             109,
             110
@@ -161,6 +173,7 @@
           "id": 530,
           "name": "Skitarii Demi-Century",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             141,
             142,
@@ -184,6 +197,7 @@
           "id": 531,
           "name": "Sagitarii Demi-Century",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5 Sagitarii units",
           "upgrades": [
             141,
@@ -208,6 +222,7 @@
           "id": 532,
           "name": "Ordinatus Minorus",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             125,
             126,
@@ -229,6 +244,7 @@
           "id": 537,
           "name": "Emperor Titan",
           "pts": 1250,
+          "cost_pts": 1250,
           "upgrades": [
             82,
             83,
@@ -240,6 +256,7 @@
           "id": 533,
           "name": "Warlord Titan",
           "pts": 725,
+          "cost_pts": 725,
           "upgrades": [
             80,
             82,
@@ -252,6 +269,7 @@
           "id": 534,
           "name": "Reaver Titan",
           "pts": 575,
+          "cost_pts": 575,
           "upgrades": [
             80,
             82,
@@ -264,6 +282,7 @@
           "id": 535,
           "name": "Warhound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             80,
             82

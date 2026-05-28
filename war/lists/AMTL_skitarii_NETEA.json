@@ -17,6 +17,7 @@
           "id": 566,
           "name": "Skitarii Demi-Century",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             103,
             104,
@@ -41,6 +42,7 @@
           "id": 567,
           "name": "Sagitarii Demi-Century",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5 Sagitarii units",
           "upgrades": [
             103,
@@ -72,6 +74,7 @@
           "id": 571,
           "name": "Ordinatus Minorus",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             225,
             226,
@@ -92,6 +95,7 @@
           "id": 572,
           "name": "Ordinatus Majoris",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         }
       ]
@@ -104,6 +108,7 @@
           "id": 561,
           "name": "Crusader Scout Maniple",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Crusader Robots",
           "upgrades": []
         },
@@ -112,6 +117,7 @@
           "id": 562,
           "name": "Colossus Assault Maniple",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Colossus Robots",
           "upgrades": []
         },
@@ -120,6 +126,7 @@
           "id": 563,
           "name": "Praetorian Servitor Maniple",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5 Praetorian Combat Servitor units",
           "upgrades": [
             113,
@@ -142,6 +149,7 @@
           "id": 564,
           "name": "Avenger Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Avenger Strike Fighters",
           "upgrades": []
         },
@@ -150,6 +158,7 @@
           "id": 565,
           "name": "Orbital Support",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Ark Mechanicus Battleship",
           "upgrades": []
         }
@@ -163,6 +172,7 @@
           "id": 502,
           "name": "Emperor Titan",
           "pts": 1250,
+          "cost_pts": 1250,
           "upgrades": [
             82,
             83,
@@ -174,6 +184,7 @@
           "id": 503,
           "name": "Warlord Titan",
           "pts": 725,
+          "cost_pts": 725,
           "upgrades": [
             80,
             82,
@@ -186,6 +197,7 @@
           "id": 504,
           "name": "Reaver Titan",
           "pts": 575,
+          "cost_pts": 575,
           "upgrades": [
             80,
             82,
@@ -198,6 +210,7 @@
           "id": 551,
           "name": "Warhound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             80,
             82
@@ -208,6 +221,7 @@
           "id": 552,
           "name": "Warhound Titan Pack",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             80,
             82
@@ -218,6 +232,7 @@
           "id": 553,
           "name": "Cataphracti Support",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         }
       ]

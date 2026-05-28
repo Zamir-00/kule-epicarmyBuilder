@@ -14,6 +14,7 @@
           "id": 512,
           "name": "Regimental HQ",
           "pts": 225,
+          "cost_pts": 225,
           "units": "Supreme Commander, 9 Siege Infantry",
           "upgrades": [
             28,
@@ -31,6 +32,7 @@
           "id": 513,
           "name": "Infantry Company",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Commander, 9 Siege Infantry",
           "upgrades": [
             28,
@@ -53,6 +55,7 @@
           "id": 500,
           "name": "Siege Grand Battery",
           "pts": 400,
+          "cost_pts": 400,
           "units": "9 Howitzers",
           "upgrades": []
         },
@@ -61,6 +64,7 @@
           "id": 501,
           "name": "Siege Artillery Battery",
           "pts": 175,
+          "cost_pts": 175,
           "units": "3 Howitzers",
           "upgrades": []
         },
@@ -69,6 +73,7 @@
           "id": 502,
           "name": "Regiment AA Battery",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 AA Guns",
           "upgrades": []
         },
@@ -77,6 +82,7 @@
           "id": 503,
           "name": "Bombard Battery",
           "pts": 250,
+          "cost_pts": 250,
           "units": "3 Bombards",
           "upgrades": []
         },
@@ -85,6 +91,7 @@
           "id": 505,
           "name": "Rough Rider Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Rough Riders",
           "upgrades": []
         },
@@ -93,6 +100,7 @@
           "id": 506,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Deathstrike Missile Launchers",
           "upgrades": []
         },
@@ -101,6 +109,7 @@
           "id": 507,
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -108,6 +117,7 @@
           "id": 508,
           "name": "Light Tank Platoon",
           "pts": 175,
+          "cost_pts": 175,
           "units": "6 Siegfried Light Tanks",
           "upgrades": []
         },
@@ -116,6 +126,7 @@
           "id": 509,
           "name": "Heavy Tank Platoon",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Ragnarok Heavy Tanks",
           "upgrades": []
         },
@@ -124,6 +135,7 @@
           "id": 510,
           "name": "Sapper Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "units": "8 Sapper Units",
           "upgrades": []
         }
@@ -137,6 +149,7 @@
           "id": 519,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolts",
           "upgrades": []
         },
@@ -145,6 +158,7 @@
           "id": 520,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauders",
           "upgrades": []
         }

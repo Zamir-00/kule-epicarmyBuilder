@@ -19,6 +19,7 @@
           "id": 500,
           "name": "Iron Hands Clan",
           "pts": 300,
+          "cost_pts": 300,
           "units": [
             "4 Tacticals",
             "2 Iron Hand Devastators"
@@ -49,6 +50,7 @@
           "id": 501,
           "name": "Dreadnought Talon",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             1,
             2,
@@ -67,6 +69,7 @@
           "id": 502,
           "name": "Assault Detachment",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assaults",
           "upgrades": [
             1,
@@ -79,6 +82,7 @@
           "id": 503,
           "name": "Land Raider Detachment",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [
             1,
             2,
@@ -94,6 +98,7 @@
           "id": 504,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Landing Craft",
           "upgrades": []
         },
@@ -102,6 +107,7 @@
           "id": 505,
           "name": "Predator Detachment",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             1,
             2,
@@ -118,6 +124,7 @@
           "id": 506,
           "name": "Scout Detachment",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scouts",
           "upgrades": [
             1,
@@ -131,6 +138,7 @@
           "id": 507,
           "name": "Strike Cruiser",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             13,
             14
@@ -141,6 +149,7 @@
           "id": 508,
           "name": "Vindicator Detachment",
           "pts": 225,
+          "cost_pts": 225,
           "units": "4 Vindicators",
           "upgrades": [
             1,
@@ -156,6 +165,7 @@
           "id": 509,
           "name": "Whirlwind Detachment",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Whirlwinds",
           "upgrades": [
             1,
@@ -173,6 +183,7 @@
           "id": 700,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Thunderhawk Gunship"
         },
         {
@@ -180,6 +191,7 @@
           "id": 701,
           "name": "Storm Talon Gunship",
           "pts": 200,
+          "cost_pts": 200,
           "units": "2 Storm Talon Gunships"
         },
         {
@@ -187,6 +199,7 @@
           "id": 702,
           "name": "Warlord Titan",
           "pts": 825,
+          "cost_pts": 825,
           "units": "1 Warlord Titan"
         },
         {
@@ -194,6 +207,7 @@
           "id": 703,
           "name": "Reaver Titan",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Titan"
         },
         {
@@ -201,6 +215,7 @@
           "id": 704,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhounds"
         },
         {
@@ -208,6 +223,7 @@
           "id": 705,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound"
         }
       ]

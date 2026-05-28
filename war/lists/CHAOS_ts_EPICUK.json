@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Thousand Sons Retinue",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             22,
             53,
@@ -35,6 +36,7 @@
           "id": 552,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             50,
             51
@@ -50,6 +52,7 @@
           "id": 503,
           "name": "Terminators",
           "pts": 400,
+          "cost_pts": 400,
           "units": "4 Terminators",
           "upgrades": [
             22,
@@ -72,6 +75,7 @@
           "id": 506,
           "name": "Defiler Pack",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Defilers",
           "upgrades": [
             63
@@ -82,6 +86,7 @@
           "id": 508,
           "name": "Disc Riders",
           "pts": 275,
+          "cost_pts": 275,
           "units": "8 Disc Riders",
           "upgrades": [
             56,
@@ -93,6 +98,7 @@
           "id": 509,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             29,
             30,
@@ -109,6 +115,7 @@
           "id": 510,
           "name": "Silver Towers",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Silver Towers",
           "upgrades": []
         }
@@ -122,6 +129,7 @@
           "id": 520,
           "name": "Warplord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -129,6 +137,7 @@
           "id": 521,
           "name": "Mutator Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -136,6 +145,7 @@
           "id": 522,
           "name": "Warphound Titan",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         }
       ]
@@ -148,6 +158,7 @@
           "id": 530,
           "name": "Doomwings",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Doomwings",
           "upgrades": []
         },
@@ -156,6 +167,7 @@
           "id": 531,
           "name": "Firelords",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Firelords",
           "upgrades": [
             39
@@ -166,6 +178,7 @@
           "id": 533,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -173,6 +186,7 @@
           "id": 534,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

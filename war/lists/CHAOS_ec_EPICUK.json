@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Emperors Children Retinue",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             52,
             53,
@@ -43,6 +44,7 @@
           "id": 552,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             50,
             51
@@ -58,6 +60,7 @@
           "id": 503,
           "name": "Terminators",
           "pts": 400,
+          "cost_pts": 400,
           "units": "4 Terminators",
           "upgrades": [
             52,
@@ -80,6 +83,7 @@
           "id": 551,
           "name": "Bike Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Emperors Children Bikes",
           "upgrades": [
             56
@@ -95,6 +99,7 @@
           "id": 506,
           "name": "Defiler Pack",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Defilers",
           "upgrades": [
             63,
@@ -107,6 +112,7 @@
           "id": 508,
           "name": "Chaos Space Marines",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Chaos Marines, 3 Rhinos",
           "upgrades": [
             56
@@ -117,6 +123,7 @@
           "id": 509,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             28,
             29,
@@ -133,6 +140,7 @@
           "id": 510,
           "name": "Daemonic Knights",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Daemon Knights",
           "upgrades": []
         }
@@ -146,6 +154,7 @@
           "id": 520,
           "name": "Painlord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -153,6 +162,7 @@
           "id": 521,
           "name": "Reviler Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -160,6 +170,7 @@
           "id": 522,
           "name": "Questor Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -167,6 +178,7 @@
           "id": 523,
           "name": "Subjugator Titan",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         }
       ]
@@ -179,6 +191,7 @@
           "id": 530,
           "name": "Hellblade Flight",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Fighters",
           "upgrades": []
         },
@@ -187,6 +200,7 @@
           "id": 531,
           "name": "Helltalon Flight",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Bombers",
           "upgrades": []
         },
@@ -195,6 +209,7 @@
           "id": 533,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -202,6 +217,7 @@
           "id": 534,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

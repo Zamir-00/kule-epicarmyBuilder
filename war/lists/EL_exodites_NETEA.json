@@ -14,6 +14,7 @@
           "id": 511,
           "name": "Webway Portal",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             32
           ]
@@ -23,6 +24,7 @@
           "id": 512,
           "name": "Great Drake",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -35,6 +37,7 @@
           "id": 521,
           "name": "Exodite Dragon Knights",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             9,
             10,
@@ -46,6 +49,7 @@
           "id": 522,
           "name": "Exodite Wind Knights",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             9,
             10,
@@ -62,6 +66,7 @@
           "id": 531,
           "name": "Raptor Out Riders",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -69,6 +74,7 @@
           "id": 538,
           "name": "Dragon Riders",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 Dragon Riders",
           "upgrades": []
         },
@@ -77,6 +83,7 @@
           "id": 532,
           "name": "Megadons Troupe",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -84,6 +91,7 @@
           "id": 539,
           "name": "Great Megadons",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             40,
             41
@@ -94,6 +102,7 @@
           "id": 533,
           "name": "Outcast Rangers ",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             21
           ]
@@ -103,6 +112,7 @@
           "id": 535,
           "name": "War Walker",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             24
           ]
@@ -112,6 +122,7 @@
           "id": 536,
           "name": "Raptor Herder ",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             9,
             10,
@@ -123,6 +134,7 @@
           "id": 537,
           "name": "Exodite Militia",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             30
           ]
@@ -132,6 +144,7 @@
           "id": 534,
           "name": "Dragon Keeper",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             9,
             10,
@@ -143,6 +156,7 @@
           "id": 555,
           "name": "Huntsmen",
           "pts": 175,
+          "cost_pts": 175,
           "units": "5 Huntsmen",
           "upgrades": [
             11
@@ -158,6 +172,7 @@
           "id": 542,
           "name": "Colossal Carnosaur",
           "pts": 350,
+          "cost_pts": 350,
           "units": "1 Colossal Carnosaurus",
           "upgrades": []
         },
@@ -166,6 +181,7 @@
           "id": 543,
           "name": "Colossal Carnosaur Pack",
           "pts": 650,
+          "cost_pts": 650,
           "units": "2 Colossal Carnosaurus",
           "upgrades": []
         },
@@ -174,6 +190,7 @@
           "id": 545,
           "name": "Thunder Beast",
           "pts": 575,
+          "cost_pts": 575,
           "units": "1 Thunder Beast ",
           "upgrades": []
         },
@@ -182,6 +199,7 @@
           "id": 544,
           "name": "Eldar Knights",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -189,6 +207,7 @@
           "id": 540,
           "name": "Corsair Nightwing",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -196,6 +215,7 @@
           "id": 541,
           "name": "Corsair Void Dragon Phoenix",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -203,6 +223,7 @@
           "id": 546,
           "name": "Corsair Spacecraft",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Eclipse Cruiser",
           "upgrades": []
         }

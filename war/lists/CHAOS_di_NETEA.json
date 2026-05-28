@@ -18,6 +18,7 @@
           "id": 1000,
           "name": "Warp Rift",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": []
         }
       ]
@@ -30,6 +31,7 @@
           "id": 500,
           "name": "Khorne Horde",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             95,
             99,
@@ -51,6 +53,7 @@
           "id": 600,
           "name": "Nurgle Horde",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             96,
             99,
@@ -72,6 +75,7 @@
           "id": 700,
           "name": "Slaanesh Horde",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             97,
             99,
@@ -93,6 +97,7 @@
           "id": 800,
           "name": "Tzeentch Horde",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             98,
             99,
@@ -119,6 +124,7 @@
           "id": 501,
           "name": "Khorne Greater Daemons",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             84,
             99,
@@ -130,6 +136,7 @@
           "id": 601,
           "name": "Nurgle Greater Daemons",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             84,
             99,
@@ -141,6 +148,7 @@
           "id": 701,
           "name": "Slaanesh Greater Daemons",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             84,
             99,
@@ -152,6 +160,7 @@
           "id": 801,
           "name": "Tzeentch Greater Daemons",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             84,
             99,
@@ -168,6 +177,7 @@
           "id": 502,
           "name": "Followers of Khorne",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             103,
             104,
@@ -179,6 +189,7 @@
           "id": 602,
           "name": "Followers of Nurgle",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             107,
             108,
@@ -190,6 +201,7 @@
           "id": 702,
           "name": "Followers of Slaanesh",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             111,
             112,
@@ -201,6 +213,7 @@
           "id": 802,
           "name": "Followers of Tzeentch",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             115,
             116,
@@ -212,6 +225,7 @@
           "id": 901,
           "name": "Undivided: Fury Flight",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             120
           ]
@@ -221,6 +235,7 @@
           "id": 902,
           "name": "Undivided: Spawn Pack",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             121
           ]
@@ -230,6 +245,7 @@
           "id": 903,
           "name": "Undivided: Soulgrinder Maniple",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             122
           ]

@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Devastator",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Devastator units",
           "upgrades": [
             11,
@@ -39,6 +40,7 @@
           "id": 502,
           "name": "Land Raider",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [
             51,
             52,
@@ -56,13 +58,15 @@
           "string_id": "landing_craft",
           "id": 503,
           "name": "Landing Craft",
-          "pts": 425
+          "pts": 425,
+          "cost_pts": 425
         },
         {
           "string_id": "predator",
           "id": 504,
           "name": "Predator",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             51,
             52,
@@ -79,13 +83,15 @@
           "string_id": "spacecraft",
           "id": 505,
           "name": "Spacecraft",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "tactical",
           "id": 506,
           "name": "Tactical",
           "pts": 275,
+          "cost_pts": 275,
           "units": "6 Tactical units",
           "upgrades": [
             11,
@@ -111,6 +117,7 @@
           "id": 507,
           "name": "Terminator",
           "pts": 325,
+          "cost_pts": 325,
           "units": "4 Terminator units",
           "upgrades": [
             51,
@@ -136,13 +143,15 @@
           "string_id": "thunderhawk",
           "id": 508,
           "name": "Thunderhawk",
-          "pts": 250
+          "pts": 250,
+          "cost_pts": 250
         },
         {
           "string_id": "vindicator",
           "id": 509,
           "name": "Vindicator",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Vindicators",
           "upgrades": [
             51,
@@ -161,6 +170,7 @@
           "id": 510,
           "name": "Whirlwind",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Whirlwinds",
           "upgrades": [
             51,
@@ -185,6 +195,7 @@
           "id": 521,
           "name": "Assault",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Assault units",
           "upgrades": [
             51,
@@ -203,6 +214,7 @@
           "id": 522,
           "name": "Fast Attack",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             51,
             52,
@@ -215,6 +227,7 @@
           "id": 523,
           "name": "Scout",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scout units plus transport",
           "upgrades": [
             51,
@@ -236,6 +249,7 @@
           "id": 532,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauder Bombers"
         },
         {
@@ -243,6 +257,7 @@
           "id": 531,
           "name": "Thunderbolt Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Thunderbolt Fighters"
         }
       ]
@@ -255,6 +270,7 @@
           "id": 542,
           "name": "Reaver",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Reaver Class Titan"
         },
         {
@@ -262,6 +278,7 @@
           "id": 543,
           "name": "Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Class Titan"
         },
         {
@@ -269,6 +286,7 @@
           "id": 544,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhound Class Titans"
         },
         {
@@ -276,6 +294,7 @@
           "id": 541,
           "name": "Warlord",
           "pts": 825,
+          "cost_pts": 825,
           "units": "1 Warlord Class Titan"
         }
       ]

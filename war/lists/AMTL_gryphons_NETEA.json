@@ -17,6 +17,7 @@
           "id": 502,
           "name": "Emperor Titan",
           "pts": 1250,
+          "cost_pts": 1250,
           "upgrades": [
             81,
             82,
@@ -29,6 +30,7 @@
           "id": 503,
           "name": "Warlord Titan",
           "pts": 675,
+          "cost_pts": 675,
           "upgrades": [
             80,
             81,
@@ -42,6 +44,7 @@
           "id": 504,
           "name": "Reaver Titan",
           "pts": 550,
+          "cost_pts": 550,
           "upgrades": [
             80,
             81,
@@ -60,6 +63,7 @@
           "id": 551,
           "name": "Warhound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             80,
             82
@@ -70,6 +74,7 @@
           "id": 552,
           "name": "Warhound Titan Pack",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             80,
             82
@@ -85,6 +90,7 @@
           "id": 561,
           "name": "Forge Knight Maniple",
           "pts": 250,
+          "cost_pts": 250,
           "units": "5 Forge Knights",
           "upgrades": []
         },
@@ -93,6 +99,7 @@
           "id": 562,
           "name": "Crusader Scout Maniple",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Crusader Robots",
           "upgrades": []
         },
@@ -101,6 +108,7 @@
           "id": 563,
           "name": "Thunderbolt Squadron",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolts",
           "upgrades": []
         },
@@ -109,6 +117,7 @@
           "id": 564,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Marauders",
           "upgrades": []
         },
@@ -117,6 +126,7 @@
           "id": 565,
           "name": "Orbital Support",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Ark Mechanicus Battleship",
           "upgrades": []
         },
@@ -125,6 +135,7 @@
           "id": 566,
           "name": "Skitarii Demi-Century",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Secutor, 8 Hypaspists",
           "upgrades": []
         },
@@ -133,6 +144,7 @@
           "id": 567,
           "name": "Lysander Fighter",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": []
         }
       ]

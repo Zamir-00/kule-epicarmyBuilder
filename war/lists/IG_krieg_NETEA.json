@@ -14,6 +14,7 @@
           "id": 501,
           "name": "Regimental HQ",
           "pts": 400,
+          "cost_pts": 400,
           "units": "Death Korps Supreme Commander, 19 Death Korps Infantry",
           "upgrades": [
             102,
@@ -32,6 +33,7 @@
           "id": 502,
           "name": "Infantry Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Death Korps Commander, 19 Death Korps Infantry",
           "upgrades": [
             102,
@@ -50,6 +52,7 @@
           "id": 503,
           "name": "Death Rider Company",
           "pts": 250,
+          "cost_pts": 250,
           "units": "12 Death Korps Rough Riders",
           "upgrades": [
             102,
@@ -71,6 +74,7 @@
           "id": 511,
           "name": "Grenadiers Platoon",
           "pts": 225,
+          "cost_pts": 225,
           "units": "8 Death Korps Grenadiers",
           "upgrades": [
             51,
@@ -82,25 +86,29 @@
           "id": 512,
           "name": "Engineers Platoon",
           "pts": 250,
+          "cost_pts": 250,
           "units": "8  Death Korps Engineers, Hades Breaching Drill"
         },
         {
           "string_id": "tank_platoon",
           "id": 513,
           "name": "Tank Platoon",
-          "pts": 280
+          "pts": 280,
+          "cost_pts": 280
         },
         {
           "string_id": "heavy_tank_platoon",
           "id": 514,
           "name": "Heavy Tank Platoon",
-          "pts": 175
+          "pts": 175,
+          "cost_pts": 175
         },
         {
           "string_id": "light_support_battery",
           "id": 515,
           "name": "Light Support Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             34,
             35
@@ -111,6 +119,7 @@
           "id": 516,
           "name": "Heavy Support Battery",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             46,
             47
@@ -121,19 +130,22 @@
           "id": 517,
           "name": "Self-Propelled Heavy Support",
           "pts": 250,
+          "cost_pts": 250,
           "units": "3 Bombards"
         },
         {
           "string_id": "super_heavy_tank_platoon",
           "id": 518,
           "name": "Super-heavy Tank Platoon",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "death_rider_scout_platoon",
           "id": 519,
           "name": "Death Rider Scout Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Death Korps Rough Riders (with 'scout' ability)",
           "upgrades": []
         },
@@ -142,6 +154,7 @@
           "id": 520,
           "name": "Deathstrike Silo",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Death Korps Deathstrike Missile Silo",
           "upgrades": []
         },
@@ -150,6 +163,7 @@
           "id": 521,
           "name": "Artillery Support Company",
           "pts": 600,
+          "cost_pts": 600,
           "units": "9 Earthshaker Platforms",
           "upgrades": [
             37,
@@ -160,7 +174,8 @@
           "string_id": "super_heavy_tank_support_company",
           "id": 522,
           "name": "Super-heavy Tank Support Company",
-          "pts": 500
+          "pts": 500,
+          "cost_pts": 500
         }
       ]
     },
@@ -172,6 +187,7 @@
           "id": 526,
           "name": "Trenchworks",
           "pts": 75,
+          "cost_pts": 75,
           "units": "4 Bunkers and 80cm of Trenches"
         }
       ]
@@ -184,13 +200,15 @@
           "id": 531,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Thunderbolts"
         },
         {
           "string_id": "marauder_heavy_bomber",
           "id": 532,
           "name": "Marauder Heavy Bomber",
-          "pts": 150
+          "pts": 150,
+          "cost_pts": 150
         }
       ]
     },
@@ -202,6 +220,7 @@
           "id": 536,
           "name": "Warlord Titan",
           "pts": 825,
+          "cost_pts": 825,
           "upgrades": []
         },
         {
@@ -209,6 +228,7 @@
           "id": 537,
           "name": "Reaver Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -216,6 +236,7 @@
           "id": 538,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Warhounds",
           "upgrades": []
         }

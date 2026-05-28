@@ -15,6 +15,7 @@
           "id": 500,
           "name": "Assault",
           "pts": 225,
+          "cost_pts": 225,
           "units": "Four Deathwatch Assault units",
           "upgrades": [
             3,
@@ -29,6 +30,7 @@
           "id": 501,
           "name": "Bike",
           "pts": 225,
+          "cost_pts": 225,
           "units": "Four Deathwatch Bike units",
           "upgrades": [
             3,
@@ -43,6 +45,7 @@
           "id": 502,
           "name": "Land Speeder",
           "pts": 200,
+          "cost_pts": 200,
           "units": "Five Land Speeder Tornadoes",
           "upgrades": [
             3,
@@ -58,6 +61,7 @@
           "id": 503,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "units": "One Landing Craft",
           "upgrades": []
         },
@@ -66,6 +70,7 @@
           "id": 504,
           "name": "Scout",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Four Deathwatch Scout units plus transport",
           "upgrades": [
             3,
@@ -81,6 +86,7 @@
           "id": 505,
           "name": "0–1 Strike Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Strike Cruiser",
           "upgrades": [
             1
@@ -91,6 +97,7 @@
           "id": 506,
           "name": "Terminator",
           "pts": 350,
+          "cost_pts": 350,
           "units": "Four Deathwatch Terminator units",
           "upgrades": [
             3,
@@ -108,6 +115,7 @@
           "id": 507,
           "name": "Veterans",
           "pts": 225,
+          "cost_pts": 225,
           "units": "Four Deathwatch Veteran units plus transport",
           "upgrades": [
             3,
@@ -131,6 +139,7 @@
           "id": 600,
           "name": "Infantry",
           "pts": 250,
+          "cost_pts": 250,
           "units": "One Ordo Xenos Inquisitor and twelve Infantry units",
           "upgrades": [
             4,
@@ -144,6 +153,7 @@
           "id": 601,
           "name": "Rough Rider",
           "pts": 150,
+          "cost_pts": 150,
           "units": "Six Rough Riders",
           "upgrades": [
             4
@@ -154,6 +164,7 @@
           "id": 602,
           "name": "Sentinel",
           "pts": 100,
+          "cost_pts": 100,
           "units": "Four Sentinels",
           "upgrades": [
             4
@@ -164,6 +175,7 @@
           "id": 603,
           "name": "Storm Trooper",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Ordo Xenos Inquisitor, seven Inquisitorial Storm Troopers and four Rhinos",
           "upgrades": [
             4,
@@ -177,6 +189,7 @@
           "id": 604,
           "name": "Leman Russ",
           "pts": 400,
+          "cost_pts": 400,
           "units": "Six Leman Russ",
           "upgrades": [
             4,
@@ -193,6 +206,7 @@
           "id": 700,
           "name": "Marauder Squadron",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Two Marauder Bombers"
         },
         {
@@ -200,6 +214,7 @@
           "id": 701,
           "name": "Thunderbolt Squadron",
           "pts": 175,
+          "cost_pts": 175,
           "units": "Two Thunderbolt Fighters"
         }
       ]
@@ -213,6 +228,7 @@
           "name": "Warhound",
           "units": "1 Warhound Class Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -221,6 +237,7 @@
           "name": "Warhound Pack",
           "units": "2x Warhound Class Titan",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": []
         },
         {
@@ -229,6 +246,7 @@
           "name": "Reaver",
           "units": "1 Reaver Class Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -237,6 +255,7 @@
           "name": "Warlord",
           "units": "1 Warlord Class Titan",
           "pts": 825,
+          "cost_pts": 825,
           "upgrades": []
         }
       ]
@@ -249,6 +268,7 @@
           "id": 706,
           "name": "Thunderhawk Gunship",
           "pts": 200,
+          "cost_pts": 200,
           "units": "One Thunderhawk Gunship Bombers"
         }
       ]

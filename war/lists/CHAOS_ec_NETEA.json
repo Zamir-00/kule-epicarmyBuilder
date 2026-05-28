@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12
@@ -32,6 +33,7 @@
           "id": 501,
           "name": "Retinue",
           "pts": 225,
+          "cost_pts": 225,
           "units": "6 Chaos Marine units",
           "upgrades": [
             17,
@@ -59,6 +61,7 @@
           "id": 510,
           "name": "Chosen",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Chaos Space Marine Chosen",
           "upgrades": [
             19,
@@ -72,6 +75,7 @@
           "id": 511,
           "name": "Noise Marine Retinue",
           "pts": 90,
+          "cost_pts": 90,
           "upgrades": [
             31,
             22,
@@ -88,6 +92,7 @@
           "id": 512,
           "name": "Emperor's Children Terminators",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             37,
             22,
@@ -108,6 +113,7 @@
           "id": 521,
           "name": "Bike Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "8 Emperor's Children Bike units",
           "upgrades": [
             19,
@@ -119,6 +125,7 @@
           "id": 522,
           "name": "Raptor Cult",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             33,
             19
@@ -129,6 +136,7 @@
           "id": 523,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             28,
             30,
@@ -145,6 +153,7 @@
           "id": 531,
           "name": "Questor Titan",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -152,6 +161,7 @@
           "id": 532,
           "name": "Subjugator Titan",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         },
         {
@@ -159,6 +169,7 @@
           "id": 533,
           "name": "Chaos Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -166,6 +177,7 @@
           "id": 534,
           "name": "Knight Pack",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             34,
             35,
@@ -182,6 +194,7 @@
           "id": 541,
           "name": "Hellblade Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Hellblade Interceptors",
           "upgrades": []
         },
@@ -190,6 +203,7 @@
           "id": 542,
           "name": "Helltalon Squadron",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Helltalon Fighter Bombers",
           "upgrades": []
         },
@@ -198,6 +212,7 @@
           "id": 543,
           "name": "Harbinger",
           "pts": 400,
+          "cost_pts": 400,
           "units": "1 Harbinger Bomber",
           "upgrades": []
         }
@@ -211,6 +226,7 @@
           "id": 551,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -218,6 +234,7 @@
           "id": 552,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

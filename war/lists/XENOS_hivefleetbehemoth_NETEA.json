@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Assault Swarm (Normal)",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             16,
             18,
@@ -37,6 +38,7 @@
           "id": 501,
           "name": "Assault Swarm (Big)",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             16,
             18,
@@ -57,6 +59,7 @@
           "id": 502,
           "name": "Brute Swarm (Normal)",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             18,
             19,
@@ -75,6 +78,7 @@
           "id": 503,
           "name": "Brute Swarm (Big)",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": [
             18,
             19,
@@ -98,6 +102,7 @@
           "id": 511,
           "name": "Dominatrix",
           "pts": 500,
+          "cost_pts": 500,
           "units": "1 Dominatrix",
           "upgrades": [
             16,
@@ -118,6 +123,7 @@
           "id": 512,
           "name": "Genestealer Swarm",
           "pts": 150,
+          "cost_pts": 150,
           "units": "5 Genestealers",
           "upgrades": [
             45
@@ -128,6 +134,7 @@
           "id": 513,
           "name": "Nest Swarm (Normal)",
           "pts": 175,
+          "cost_pts": 175,
           "units": "1 Hive Nest",
           "upgrades": [
             20,
@@ -144,6 +151,7 @@
           "id": 514,
           "name": "Nest Swarm (Big)",
           "pts": 400,
+          "cost_pts": 400,
           "units": "2 Hive Nests",
           "upgrades": [
             20,
@@ -160,6 +168,7 @@
           "id": 515,
           "name": "Gargoyle Swarm",
           "pts": 225,
+          "cost_pts": 225,
           "units": "10 Gargoyles",
           "upgrades": [
             46,
@@ -177,6 +186,7 @@
           "id": 521,
           "name": "Spore Mine Swarm",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Spore Mine Cluster units",
           "upgrades": []
         },
@@ -185,6 +195,7 @@
           "id": 522,
           "name": "Harassment Swarm",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Harridan",
           "upgrades": [
             20
@@ -195,6 +206,7 @@
           "id": 523,
           "name": "Hierophant Bio-titan",
           "pts": 300,
+          "cost_pts": 300,
           "units": "1 Hierophant",
           "upgrades": []
         },
@@ -203,6 +215,7 @@
           "id": 524,
           "name": "Hydraphant Bio-titan",
           "pts": 500,
+          "cost_pts": 500,
           "units": "1 Hydraphant",
           "upgrades": []
         },
@@ -211,6 +224,7 @@
           "id": 525,
           "name": "Lictor Swarm",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Lictors",
           "upgrades": [
             37
@@ -221,6 +235,7 @@
           "id": 526,
           "name": "Subterranean Swarm",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Trygon and 2 Raveners",
           "upgrades": [
             19
@@ -231,6 +246,7 @@
           "id": 527,
           "name": "Tervigon Brood (Normal)",
           "pts": 150,
+          "cost_pts": 150,
           "units": "1 Tervigon",
           "upgrades": [
             38
@@ -241,6 +257,7 @@
           "id": 528,
           "name": "Tervigon Brood (Big)",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Tervigon",
           "upgrades": [
             38
@@ -256,6 +273,7 @@
           "id": 529,
           "name": "Hive Bio-Ship",
           "pts": 525,
+          "cost_pts": 525,
           "upgrades": []
         }
       ]

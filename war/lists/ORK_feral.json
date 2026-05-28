@@ -16,6 +16,7 @@
           "id": 500,
           "name": "Warband",
           "pts": -20,
+          "cost_pts": -20,
           "upgrades": [
             11,
             13,
@@ -34,6 +35,7 @@
           "id": 501,
           "name": "Warband (Big)",
           "pts": -90,
+          "cost_pts": -90,
           "upgrades": [
             11,
             13,
@@ -52,6 +54,7 @@
           "id": 502,
           "name": "Warband ('Uge)",
           "pts": -160,
+          "cost_pts": -160,
           "upgrades": [
             11,
             13,
@@ -70,6 +73,7 @@
           "id": 503,
           "name": "Wildboyz",
           "pts": 5,
+          "cost_pts": 5,
           "upgrades": [
             23,
             13,
@@ -86,6 +90,7 @@
           "id": 504,
           "name": "Wildboyz (Big)",
           "pts": -40,
+          "cost_pts": -40,
           "upgrades": [
             23,
             13,
@@ -102,6 +107,7 @@
           "id": 505,
           "name": "Wildboyz ('Uge)",
           "pts": -85,
+          "cost_pts": -85,
           "upgrades": [
             23,
             13,
@@ -118,6 +124,7 @@
           "id": 506,
           "name": "Boarboyz Horde",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             29,
             58,
@@ -129,6 +136,7 @@
           "id": 507,
           "name": "Boarboyz Horde (Big)",
           "pts": -75,
+          "cost_pts": -75,
           "upgrades": [
             29,
             58,
@@ -140,6 +148,7 @@
           "id": 508,
           "name": "Boarboyz Horde ('Uge)",
           "pts": -125,
+          "cost_pts": -125,
           "upgrades": [
             29,
             58,
@@ -151,6 +160,7 @@
           "id": 509,
           "name": "Trappas",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Wildboyz",
           "upgrades": [
             13
@@ -161,6 +171,7 @@
           "id": 510,
           "name": "Madboyz Horde",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             35,
             58
@@ -171,6 +182,7 @@
           "id": 511,
           "name": "Junka Brigade",
           "pts": 0,
+          "cost_pts": 0,
           "units": "Junka Trukks",
           "upgrades": [
             11,
@@ -184,6 +196,7 @@
           "id": 512,
           "name": "Junka Brigade (Big)",
           "pts": -50,
+          "cost_pts": -50,
           "units": "Junka Trukks",
           "upgrades": [
             11,
@@ -197,6 +210,7 @@
           "id": 513,
           "name": "Junka Brigade ('Uge)",
           "pts": -100,
+          "cost_pts": -100,
           "units": "Junka Trukks",
           "upgrades": [
             11,
@@ -210,6 +224,7 @@
           "id": 514,
           "name": "Steam Gargant",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             37
           ]

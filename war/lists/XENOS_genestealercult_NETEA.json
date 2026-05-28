@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Brood Brothers",
           "pts": 200,
+          "cost_pts": 200,
           "units": "11 Brood Brother Units and a Hybrid Demagogue Unit",
           "upgrades": [
             46,
@@ -36,6 +37,7 @@
           "id": 502,
           "name": "Hybrid Brood",
           "pts": 250,
+          "cost_pts": 250,
           "units": "7 Hybrid units",
           "upgrades": [
             46,
@@ -52,6 +54,7 @@
           "id": 503,
           "name": "Purestrain Brood",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Genestealer Units",
           "upgrades": [
             13,
@@ -63,6 +66,7 @@
           "id": 504,
           "name": "Lictors",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Lictor Units",
           "upgrades": []
         },
@@ -71,6 +75,7 @@
           "id": 505,
           "name": "0-1 The Brood Coven",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Hybrids Units, 3 Dark Princelings",
           "upgrades": [
             46,
@@ -93,6 +98,7 @@
           "id": 521,
           "name": "PDF Heavy Tanks",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Macharius Command Tank",
           "upgrades": [
             48,
@@ -104,6 +110,7 @@
           "id": 522,
           "name": "PDF Leman Russ",
           "pts": 325,
+          "cost_pts": 325,
           "units": "6 Leman Russ Ryza pattern",
           "upgrades": [
             48,
@@ -115,6 +122,7 @@
           "id": 523,
           "name": "PDF Artillery",
           "pts": 225,
+          "cost_pts": 225,
           "units": "3 Bombard Units",
           "upgrades": []
         },
@@ -123,6 +131,7 @@
           "id": 524,
           "name": "PDF Sentinels",
           "pts": 100,
+          "cost_pts": 100,
           "units": "4 PDF Sentinels",
           "upgrades": []
         },
@@ -132,6 +141,7 @@
           "name": "0-1 Deathstrike Silo",
           "units": "1 PDF Deathstrike Defense Silo",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -140,6 +150,7 @@
           "name": "PDF Avenger Fighter",
           "units": "2 PDF Avenger Fighter",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         }
       ]

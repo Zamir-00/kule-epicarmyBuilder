@@ -14,6 +14,7 @@
           "id": 501,
           "name": "QG R&eacute;gimentaire",
           "pts": 500,
+          "cost_pts": 500,
           "units": "Commandant Supr&egrave;me, 12 Infanterie, 7 Chim&egrave;re",
           "upgrades": [
             50,
@@ -36,6 +37,7 @@
           "id": 502,
           "name": "Compagnie d'Infanterie M&eacute;canis&eacute;e",
           "pts": 400,
+          "cost_pts": 400,
           "units": "Commandant, 12 Infanterie, 7 Chim&egrave;re",
           "upgrades": [
             50,
@@ -58,6 +60,7 @@
           "id": 503,
           "name": "Compagnie d'Infanterie",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Commandant, 12 Infanterie",
           "upgrades": [
             50,
@@ -80,6 +83,7 @@
           "id": 504,
           "name": "Compagnie Blind&eacute;e",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             50,
             51,
@@ -101,6 +105,7 @@
           "id": 505,
           "name": "Compagnie de Blind&eacute;e Super Lourds",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": [
             50,
             51,
@@ -122,6 +127,7 @@
           "id": 506,
           "name": "Compagnie d'Artillerie",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             50,
             51,
@@ -148,6 +154,7 @@
           "id": 511,
           "name": "Peloton de Char Super Lourd",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -155,6 +162,7 @@
           "id": 512,
           "name": "Batterie d'Artillerie",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -162,6 +170,7 @@
           "id": 513,
           "name": "Batterie de Missile Deathstrike",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Lances-Missile Deathstrike",
           "upgrades": []
         },
@@ -170,6 +179,7 @@
           "id": 514,
           "name": "Batterie Antia&eacute;rienne",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Hydre",
           "upgrades": []
         },
@@ -178,6 +188,7 @@
           "id": 515,
           "name": "Escadron de Sentinelle",
           "pts": 100,
+          "cost_pts": 100,
           "units": "4 Sentinelle",
           "upgrades": []
         },
@@ -186,6 +197,7 @@
           "id": 516,
           "name": "Peloton de Cavalier ou Motos",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Cavalier ou Motos Imp&eacute;riales",
           "upgrades": [
             47
@@ -196,6 +208,7 @@
           "id": 517,
           "name": "Peloton de Troupes de Choc",
           "pts": 200,
+          "cost_pts": 200,
           "units": "8 Troupes de Choc",
           "upgrades": [
             48,
@@ -207,6 +220,7 @@
           "id": 518,
           "name": "Escadron de Vulture",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Vulture",
           "upgrades": []
         },
@@ -215,6 +229,7 @@
           "id": 519,
           "name": "Soutien Orbital",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         }
       ]
@@ -227,6 +242,7 @@
           "id": 521,
           "name": "Escadrille de Thunderbolt",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -234,6 +250,7 @@
           "id": 522,
           "name": "Escadrille de Bombardiers",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2 Bombardiers Marauder",
           "upgrades": []
         }
@@ -247,6 +264,7 @@
           "id": 531,
           "name": "Un Titan Warlord",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": []
         },
         {
@@ -254,6 +272,7 @@
           "id": 532,
           "name": "Un Titan Reaver",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -261,6 +280,7 @@
           "id": 533,
           "name": "Un Titan Warhound",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -268,6 +288,7 @@
           "id": 534,
           "name": "Meute de Warhound",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2 Titans Warhound",
           "upgrades": []
         }

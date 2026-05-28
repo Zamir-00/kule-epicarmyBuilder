@@ -13,6 +13,7 @@
           "id": 500,
           "name": "Hykanatoi Detachment",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             100,
             102,
@@ -25,6 +26,7 @@
           "id": 501,
           "name": "Sisters Detachment",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             100,
             105,
@@ -48,6 +50,7 @@
           "id": 600,
           "name": "Eidikoùs Detachment",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             100,
             102,
@@ -60,6 +63,7 @@
           "id": 601,
           "name": "Tharanatoi Detachment",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": [
             100,
             102,
@@ -72,6 +76,7 @@
           "id": 602,
           "name": "Morotoi Detachment",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             42,
             43,
@@ -84,6 +89,7 @@
           "id": 603,
           "name": "Telemon Heavy Dreadnought Detachment",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             48,
             49,
@@ -95,6 +101,7 @@
           "id": 604,
           "name": "Pallas Grav-Attack Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             51
           ]
@@ -104,6 +111,7 @@
           "id": 605,
           "name": "Caladius Grav-Tank Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             52,
             53
@@ -114,6 +122,7 @@
           "id": 606,
           "name": "Kataphraktoi Detachment",
           "pts": 525,
+          "cost_pts": 525,
           "upgrades": []
         }
       ]
@@ -126,6 +135,7 @@
           "id": 701,
           "name": "Orion Assault Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             60
           ]
@@ -135,6 +145,7 @@
           "id": 702,
           "name": "Ares Strike Squadron",
           "pts": 525,
+          "cost_pts": 525,
           "upgrades": [],
           "units": "2x Ares Gun-Ships"
         },
@@ -143,6 +154,7 @@
           "id": 703,
           "name": "Equinox Interceptor Squadron",
           "pts": 525,
+          "cost_pts": 525,
           "upgrades": [],
           "units": "2x Equinox Interceptors"
         },
@@ -151,6 +163,7 @@
           "id": 704,
           "name": "Costantin Valdor",
           "pts": 900,
+          "cost_pts": 900,
           "upgrades": [
             101,
             102
@@ -161,6 +174,7 @@
           "id": 705,
           "name": "Jenetia Krole",
           "pts": 700,
+          "cost_pts": 700,
           "upgrades": [
             100,
             105,

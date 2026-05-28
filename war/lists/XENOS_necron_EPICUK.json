@@ -13,13 +13,15 @@
           "string_id": "tomb_complex",
           "id": 501,
           "name": "Tomb Complex",
-          "pts": 75
+          "pts": 75,
+          "cost_pts": 75
         },
         {
           "string_id": "supreme_commander",
           "id": 502,
           "name": "Supreme Commander",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             11
           ]
@@ -34,6 +36,7 @@
           "id": 503,
           "name": "Infantry Phalanx",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             12,
             13,
@@ -52,6 +55,7 @@
           "id": 504,
           "name": "Destroyer Maniple",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             16,
             15
@@ -62,6 +66,7 @@
           "id": 505,
           "name": "Flayer Maniple",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             16,
             13,
@@ -74,13 +79,15 @@
           "string_id": "monolith_maniple",
           "id": 506,
           "name": "Monolith Maniple",
-          "pts": 150
+          "pts": 150,
+          "cost_pts": 150
         },
         {
           "string_id": "obelisk_maniple",
           "id": 507,
           "name": "Obelisk Maniple",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Obelisk units"
         },
         {
@@ -88,6 +95,7 @@
           "id": 513,
           "name": "Wraith Maniple",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Wraith units"
         }
       ]
@@ -100,6 +108,7 @@
           "id": 508,
           "name": "Abattoir",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Necron Abattoir"
         },
         {
@@ -107,6 +116,7 @@
           "id": 509,
           "name": "Aeonic Orb",
           "pts": 650,
+          "cost_pts": 650,
           "units": "1 Aeonic Orb"
         },
         {
@@ -114,6 +124,7 @@
           "id": 510,
           "name": "Pylon",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Pylon"
         },
         {
@@ -121,6 +132,7 @@
           "id": 511,
           "name": "Warbarque",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             16
           ],
@@ -131,6 +143,7 @@
           "id": 512,
           "name": "Scythe Class Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "units": "1 Scythe Class Cruiser"
         }
       ]

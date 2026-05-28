@@ -14,6 +14,7 @@
           "id": 100,
           "name": "Berserker",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             1,
             28,
@@ -26,6 +27,7 @@
           "id": 101,
           "name": "Berserker (M)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             1,
             28,
@@ -38,6 +40,7 @@
           "id": 102,
           "name": "Berserker (L)",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             1,
             28,
@@ -50,6 +53,7 @@
           "id": 110,
           "name": "Thunderer",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             12,
             16,
@@ -64,6 +68,7 @@
           "id": 111,
           "name": "Thunderer (M)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             12,
             16,
@@ -78,6 +83,7 @@
           "id": 112,
           "name": "Thunderer (L)",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             12,
             16,
@@ -92,6 +98,7 @@
           "id": 120,
           "name": "Warrior",
           "pts": 20,
+          "cost_pts": 20,
           "upgrades": [
             20,
             12,
@@ -105,6 +112,7 @@
           "id": 121,
           "name": "Warrior (M)",
           "pts": -10,
+          "cost_pts": -10,
           "upgrades": [
             20,
             12,
@@ -118,6 +126,7 @@
           "id": 122,
           "name": "Warrior (L)",
           "pts": -40,
+          "cost_pts": -40,
           "upgrades": [
             20,
             12,
@@ -136,6 +145,7 @@
           "id": 220,
           "name": "Air Attack Corps",
           "pts": 250,
+          "cost_pts": 250,
           "units": "Overlord",
           "upgrades": [
             4,
@@ -147,6 +157,7 @@
           "id": 221,
           "name": "Air Attack Corps (M)",
           "pts": 450,
+          "cost_pts": 450,
           "units": "2x Overlords",
           "upgrades": [
             4,
@@ -158,6 +169,7 @@
           "id": 222,
           "name": "Air Attack Corps (L)",
           "pts": 650,
+          "cost_pts": 650,
           "units": "3x Overlords",
           "upgrades": [
             4,
@@ -169,6 +181,7 @@
           "id": 230,
           "name": "Artillery Battery",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             11,
             14,
@@ -180,6 +193,7 @@
           "id": 231,
           "name": "Artillery Battery (M)",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             11,
             14,
@@ -191,6 +205,7 @@
           "id": 232,
           "name": "Artillery Battery (L)",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             14,
@@ -202,6 +217,7 @@
           "id": 240,
           "name": "Gyrocopter Wing",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             9,
             13,
@@ -213,6 +229,7 @@
           "id": 241,
           "name": "Gyrocopter Wing (M)",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             9,
             13,
@@ -224,6 +241,7 @@
           "id": 242,
           "name": "Gyrocopter Wing (L)",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             9,
             13,
@@ -235,6 +253,7 @@
           "id": 260,
           "name": "Guild Robot Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             2,
             3
@@ -245,6 +264,7 @@
           "id": 270,
           "name": "Guild Squadron",
           "pts": -25,
+          "cost_pts": -25,
           "upgrades": [
             5,
             6
@@ -255,6 +275,7 @@
           "id": 271,
           "name": "Guild Squadron (M)",
           "pts": -100,
+          "cost_pts": -100,
           "upgrades": [
             5,
             6
@@ -265,6 +286,7 @@
           "id": 272,
           "name": "Guild Squadron (L)",
           "pts": -175,
+          "cost_pts": -175,
           "upgrades": [
             5,
             6
@@ -275,6 +297,7 @@
           "id": 280,
           "name": "Super-Heavy Artillery Battery",
           "pts": 200,
+          "cost_pts": 200,
           "units": "Goliath",
           "upgrades": [
             4,
@@ -286,6 +309,7 @@
           "id": 281,
           "name": "Super-Heavy Artillery Battery (M)",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2x Goliaths",
           "upgrades": [
             4,
@@ -297,6 +321,7 @@
           "id": 282,
           "name": "Super-Heavy Artillery Battery (L)",
           "pts": 400,
+          "cost_pts": 400,
           "units": "3x Goliaths",
           "upgrades": [
             4,
@@ -308,6 +333,7 @@
           "id": 290,
           "name": "Thunderfire Battery",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": [
             17
           ]
@@ -322,6 +348,7 @@
           "id": 300,
           "name": "Colossus",
           "pts": 600,
+          "cost_pts": 600,
           "units": "Colossus<br>Recon Iron Eagle",
           "upgrades": [
             4,
@@ -333,6 +360,7 @@
           "id": 310,
           "name": "Cyclops",
           "pts": 600,
+          "cost_pts": 600,
           "units": "Cyclops",
           "upgrades": [
             4,
@@ -344,6 +372,7 @@
           "id": 320,
           "name": "Land Train",
           "pts": 275,
+          "cost_pts": 275,
           "units": "Land Train",
           "upgrades": [
             21,
@@ -362,6 +391,7 @@
           "id": 330,
           "name": "Leviathan",
           "pts": 400,
+          "cost_pts": 400,
           "units": "Leviathan",
           "upgrades": [
             4,

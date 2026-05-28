@@ -19,6 +19,7 @@
           "id": 500,
           "name": "Knight Household",
           "pts": 55,
+          "cost_pts": 55,
           "upgrades": [
             1,
             2,
@@ -32,6 +33,7 @@
           "id": 501,
           "name": "Hell-Strider Household",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             6,
             4
@@ -47,6 +49,7 @@
           "id": 502,
           "name": "Cultists",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             9,
             10,
@@ -61,6 +64,7 @@
           "id": 503,
           "name": "Debasers",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [
             14
           ]
@@ -71,6 +75,7 @@
           "name": "Noise Marines",
           "units": "6 Noise Marines, one with a Chaos Lord or Sorcerer Lord character",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             12,
@@ -89,6 +94,7 @@
           "id": 505,
           "name": "Hell Blades",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Hell Blades",
           "upgrades": []
         },
@@ -97,6 +103,7 @@
           "id": 506,
           "name": "Hell Talons",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Hell Talons",
           "upgrades": []
         },
@@ -105,6 +112,7 @@
           "id": 507,
           "name": "Questor",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -112,6 +120,7 @@
           "id": 508,
           "name": "Subjugator",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": []
         },
         {
@@ -119,6 +128,7 @@
           "id": 509,
           "name": "Ravisher",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -126,6 +136,7 @@
           "id": 510,
           "name": "Painlord",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         }
       ]
@@ -138,6 +149,7 @@
           "id": 511,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             17,
             18

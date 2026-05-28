@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Death Guard Retinue",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             53,
             67,
@@ -46,6 +47,7 @@
           "id": 551,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             50,
             51
@@ -61,6 +63,7 @@
           "id": 503,
           "name": "Death Guard Terminators",
           "pts": 400,
+          "cost_pts": 400,
           "units": "4 Terminators",
           "upgrades": [
             52,
@@ -83,6 +86,7 @@
           "id": 506,
           "name": "Death Guard Defiler Pack",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Defilers",
           "upgrades": [
             63,
@@ -100,6 +104,7 @@
           "id": 504,
           "name": "Plague Zombie Infestation",
           "pts": 175,
+          "cost_pts": 175,
           "units": "3+2D6 Plague Zombies",
           "upgrades": []
         },
@@ -108,6 +113,7 @@
           "id": 505,
           "name": "Plague Engines",
           "pts": 325,
+          "cost_pts": 325,
           "units": "4 Contagion Engines",
           "upgrades": [
             65,
@@ -124,6 +130,7 @@
           "id": 507,
           "name": "Plague Reapers",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             37,
             57,
@@ -139,6 +146,7 @@
           "id": 508,
           "name": "Chaos Space Marines",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Chaos Marines, 3 Rhinos",
           "upgrades": [
             56
@@ -149,6 +157,7 @@
           "id": 509,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             28,
             29,
@@ -165,6 +174,7 @@
           "id": 510,
           "name": "Blight Drones",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Blight Drones",
           "upgrades": []
         }
@@ -178,6 +188,7 @@
           "id": 520,
           "name": "Plaguelord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -185,6 +196,7 @@
           "id": 521,
           "name": "Rupugnant Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -192,6 +204,7 @@
           "id": 522,
           "name": "Plaguehound Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         }
       ]
@@ -204,6 +217,7 @@
           "id": 530,
           "name": "Hellblade Flight",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Fighters",
           "upgrades": []
         },
@@ -212,6 +226,7 @@
           "id": 531,
           "name": "Helltalon Flight",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Bombers",
           "upgrades": []
         },
@@ -220,6 +235,7 @@
           "id": 533,
           "name": "Plague Ship",
           "pts": 100,
+          "cost_pts": 100,
           "upgrades": []
         }
       ]

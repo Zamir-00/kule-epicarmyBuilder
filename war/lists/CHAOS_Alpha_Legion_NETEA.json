@@ -16,6 +16,7 @@
           "name": "Cultist Coven",
           "units": "11 Alpha Legion Cultists",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             39,
             40,
@@ -29,6 +30,7 @@
           "id": 512,
           "name": "Alpha Legion Marines",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             30,
             34,
@@ -46,6 +48,7 @@
           "id": 521,
           "name": "Alpha Legion Headhunter Kill Team",
           "pts": 225,
+          "cost_pts": 225,
           "units": "4 Headhunter units w. Transport",
           "upgrades": [
             31
@@ -56,6 +59,7 @@
           "id": 522,
           "name": "Alpha Legion Destroyers",
           "pts": 225,
+          "cost_pts": 225,
           "units": "4 Alpha Legion Destroyers",
           "upgrades": []
         },
@@ -64,6 +68,7 @@
           "id": 523,
           "name": "Lernaean Terminators",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Lernaean Terminators",
           "upgrades": [
             38
@@ -74,6 +79,7 @@
           "id": 524,
           "name": "Alpha Legion Predators",
           "pts": 225,
+          "cost_pts": 225,
           "units": "4 Alpha Legion Predators",
           "upgrades": [
             30
@@ -89,6 +95,7 @@
           "id": 531,
           "name": "Cult Riders",
           "pts": 175,
+          "cost_pts": 175,
           "units": "6 Rough Riders, 1 Daemonic Icon",
           "upgrades": [
             41
@@ -99,6 +106,7 @@
           "id": 532,
           "name": "Cult Mutants",
           "pts": 150,
+          "cost_pts": 150,
           "units": "6 Mutants, 2 Chaos Spawn, 1 Daemonic Icon",
           "upgrades": [
             41
@@ -109,6 +117,7 @@
           "id": 533,
           "name": "Cult Macharius",
           "pts": 300,
+          "cost_pts": 300,
           "units": "3 Macharius",
           "upgrades": [
             41
@@ -119,6 +128,7 @@
           "id": 534,
           "name": "Cult Artillery",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Thudd Guns, 4 Light Transporters",
           "upgrades": [
             41,
@@ -130,6 +140,7 @@
           "id": 535,
           "name": "Cult Hydras",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Hydras",
           "upgrades": [
             41
@@ -145,6 +156,7 @@
           "id": 541,
           "name": "Strike Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "units": "1 Strike Cruiser",
           "upgrades": []
         },
@@ -153,6 +165,7 @@
           "id": 543,
           "name": "Thunderhawk",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Thunderhawk",
           "upgrades": []
         },
@@ -161,6 +174,7 @@
           "id": 544,
           "name": "Fire Raptors",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Fire Raptors",
           "upgrades": []
         },
@@ -169,6 +183,7 @@
           "id": 545,
           "name": "Lightning Interceptors",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Lightning Interceptors",
           "upgrades": []
         },
@@ -177,6 +192,7 @@
           "id": 546,
           "name": "Super Heavy Tank Company (Glaive)",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             50
           ]
@@ -186,6 +202,7 @@
           "id": 547,
           "name": "Super Heavy Tank Company (Fellblade)",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             51
           ]
@@ -195,6 +212,7 @@
           "id": 548,
           "name": "Super Heavy Tank Company (Falchion)",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": [
             52
           ]
@@ -209,6 +227,7 @@
           "id": 500,
           "name": "''I'm Alpharius!''",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11
           ]
@@ -218,6 +237,7 @@
           "id": 501,
           "name": "Lesser Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             12
           ]

@@ -18,6 +18,7 @@
           "id": 513,
           "name": "Infantry Company",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": [
             13,
             14,
@@ -38,6 +39,7 @@
           "id": 512,
           "name": "Regimental HQ",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             13,
             31,
@@ -62,6 +64,7 @@
           "id": 501,
           "name": "Artillery Battery",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             14
           ],
@@ -72,6 +75,7 @@
           "id": 500,
           "name": "Artillery Company",
           "pts": 425,
+          "cost_pts": 425,
           "upgrades": [
             14
           ],
@@ -82,6 +86,7 @@
           "id": 503,
           "name": "Bombard Battery",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             14
           ],
@@ -92,6 +97,7 @@
           "id": 506,
           "name": "Deathstrike Missile Battery",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14
           ],
@@ -102,6 +108,7 @@
           "id": 502,
           "name": "Flak Battery",
           "pts": 125,
+          "cost_pts": 125,
           "upgrades": [
             14
           ],
@@ -112,6 +119,7 @@
           "id": 509,
           "name": "Heavy Tank Platoon",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             14
           ],
@@ -122,6 +130,7 @@
           "id": 508,
           "name": "Light Tank Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             14
           ],
@@ -132,6 +141,7 @@
           "id": 505,
           "name": "Rough Rider Platoon",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             14
           ],
@@ -142,6 +152,7 @@
           "id": 510,
           "name": "Sapper Platoon",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             14,
             13
@@ -152,6 +163,7 @@
           "id": 507,
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             14
           ]
@@ -166,6 +178,7 @@
           "id": 530,
           "name": "Fortified Position",
           "pts": 75,
+          "cost_pts": 75,
           "upgrades": [],
           "units": "Up to 52cm trenches, 52cm razor wire, plus 6 Gun Emplacements."
         }
@@ -179,6 +192,7 @@
           "id": 520,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [],
           "units": "2 Marauders"
         },
@@ -187,6 +201,7 @@
           "id": 519,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [],
           "units": "2 Thunderbolts"
         }

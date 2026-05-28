@@ -14,6 +14,7 @@
           "id": 532,
           "name": "Mega Gargant - Unlocks 4 support mobs",
           "pts": 1000,
+          "cost_pts": 1000,
           "upgrades": [
             36,
             38,
@@ -26,6 +27,7 @@
           "id": 533,
           "name": "Great Gargant - Unlocks 3 support mobs",
           "pts": 850,
+          "cost_pts": 850,
           "upgrades": [
             36,
             38,
@@ -38,6 +40,7 @@
           "id": 534,
           "name": "Gargant - Unlocks 2 support mobs",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": [
             36,
             38,
@@ -55,6 +58,7 @@
           "id": 535,
           "name": "Supa Stompa Mob",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             11,
             13,
@@ -69,6 +73,7 @@
           "name": "Stompa Mob (Normal)",
           "units": "4 Stompas",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             11,
             13,
@@ -81,6 +86,7 @@
           "name": "Stompa Mob (Big)",
           "units": "8 Stompas",
           "pts": 375,
+          "cost_pts": 375,
           "upgrades": [
             11,
             13,
@@ -93,6 +99,7 @@
           "name": "Stompa Mob (Uge)",
           "units": "12 Stompas",
           "pts": 525,
+          "cost_pts": 525,
           "upgrades": [
             11,
             13,
@@ -104,6 +111,7 @@
           "id": 541,
           "name": "Kamp Followers (Normal)",
           "pts": -5,
+          "cost_pts": -5,
           "upgrades": [
             11,
             13
@@ -114,6 +122,7 @@
           "id": 542,
           "name": "Kamp Followers (Big)",
           "pts": -60,
+          "cost_pts": -60,
           "upgrades": [
             11,
             13
@@ -124,6 +133,7 @@
           "id": 543,
           "name": "Kamp Followers (Uge)",
           "pts": -140,
+          "cost_pts": -140,
           "upgrades": [
             11,
             13
@@ -134,6 +144,7 @@
           "id": 544,
           "name": "Loota Boyz",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": []
         }
       ]
@@ -146,6 +157,7 @@
           "id": 551,
           "name": "Fighta-Bommers",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             35
           ]
@@ -155,6 +167,7 @@
           "id": 552,
           "name": "Bommer",
           "pts": 175,
+          "cost_pts": 175,
           "upgrades": []
         },
         {
@@ -162,6 +175,7 @@
           "id": 553,
           "name": "Spacecraft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": []
         }
       ]

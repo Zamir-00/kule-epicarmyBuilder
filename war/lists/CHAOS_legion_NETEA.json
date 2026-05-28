@@ -19,6 +19,7 @@
           "id": 551,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             50,
             51
@@ -34,6 +35,7 @@
           "id": 501,
           "name": "Retinue",
           "pts": 275,
+          "cost_pts": 275,
           "units": "8 Chaos Space Marines",
           "upgrades": [
             52,
@@ -55,6 +57,7 @@
           "id": 502,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             27,
             28,
@@ -72,6 +75,7 @@
           "id": 503,
           "name": "Chaos Terminators",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             32,
             52,
@@ -89,6 +93,7 @@
           "id": 504,
           "name": "Chosen",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Chaos Space Marine Scouts",
           "upgrades": [
             56,
@@ -107,6 +112,7 @@
           "id": 508,
           "name": "Bike Company",
           "pts": 300,
+          "cost_pts": 300,
           "units": "8 Chaos Space Marines Bikes",
           "upgrades": [
             60,
@@ -118,6 +124,7 @@
           "id": 509,
           "name": "Defiler Assault Pack",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Defilers",
           "upgrades": []
         },
@@ -126,6 +133,7 @@
           "id": 510,
           "name": "Raptor Cult",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             30,
             56
@@ -137,6 +145,7 @@
           "name": "Havoc Retinue",
           "units": "4 Havoc units",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             63,
             56,
@@ -154,6 +163,7 @@
           "id": 532,
           "name": "Harbinger",
           "pts": 400,
+          "cost_pts": 400,
           "units": "1 Harbinger Bomber",
           "upgrades": []
         },
@@ -162,6 +172,7 @@
           "id": 530,
           "name": "Hell Blades",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Hell Blade Fighters",
           "upgrades": []
         },
@@ -170,6 +181,7 @@
           "id": 531,
           "name": "Hell Talons",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Hell Talon Bombers",
           "upgrades": []
         },
@@ -178,6 +190,7 @@
           "id": 533,
           "name": "Devastation Class Cruiser",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": []
         },
         {
@@ -185,6 +198,7 @@
           "id": 534,
           "name": "Despoiler Class Battleship",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]
@@ -197,6 +211,7 @@
           "id": 522,
           "name": "Banelord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -204,6 +219,7 @@
           "id": 523,
           "name": "Death Wheel Squadron",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             23
           ]
@@ -213,6 +229,7 @@
           "id": 521,
           "name": "Decimators",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             25,
             57
@@ -223,6 +240,7 @@
           "id": 524,
           "name": "Feral Titan",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": []
         },
         {
@@ -230,6 +248,7 @@
           "id": 525,
           "name": "Ravager Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         }
       ]

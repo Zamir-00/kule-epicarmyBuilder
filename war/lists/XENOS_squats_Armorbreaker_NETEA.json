@@ -19,6 +19,7 @@
           "id": 500,
           "name": "Colossus",
           "pts": 450,
+          "cost_pts": 450,
           "units": "1 Colossus",
           "upgrades": [
             1,
@@ -33,6 +34,7 @@
           "id": 501,
           "name": "Leviathan",
           "pts": 450,
+          "cost_pts": 450,
           "units": "1 Leviathan, 1 Hearthguard unit",
           "upgrades": [
             3,
@@ -47,6 +49,7 @@
           "id": 502,
           "name": "Land Train",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Colossus",
           "upgrades": [
             3,
@@ -65,6 +68,7 @@
           "id": 503,
           "name": "Overlord Squad",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             52
           ]
@@ -79,6 +83,7 @@
           "id": 510,
           "name": "Iron Eagle Squadron",
           "pts": 375,
+          "cost_pts": 375,
           "units": "6 Iron Eagle Gyrocopters"
         },
         {
@@ -86,6 +91,7 @@
           "id": 511,
           "name": "Iron Hawk Squadron",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 Iron Hawk Gyrocopters"
         },
         {
@@ -93,6 +99,7 @@
           "id": 512,
           "name": "Skysweepers unit",
           "pts": 150,
+          "cost_pts": 150,
           "units": "3 Skysweepers"
         },
         {
@@ -100,6 +107,7 @@
           "id": 513,
           "name": "Cyclops",
           "pts": 500,
+          "cost_pts": 500,
           "units": "1 Cyclops"
         },
         {
@@ -107,6 +115,7 @@
           "id": 514,
           "name": "Goliath mega-cannon battery",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2 Goliath Mega-Cannons"
         },
         {
@@ -114,6 +123,7 @@
           "id": 515,
           "name": "Vongal cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             53
           ]
@@ -128,6 +138,7 @@
           "id": 520,
           "name": "Hold Guard",
           "pts": 325,
+          "cost_pts": 325,
           "upgrades": [
             5,
             6,
@@ -142,6 +153,7 @@
           "name": "Azdak sappers guild",
           "units": "1 Heartguard unit",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             5,
             6,
@@ -157,6 +169,7 @@
           "name": "Ironsmash Guild",
           "units": "1 Heartguard unit",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             5,
             6,
@@ -172,6 +185,7 @@
           "name": "Gravebellows League",
           "units": "1 Heartguard unit, 8 Warrior units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             5,
             6,
@@ -187,14 +201,16 @@
           "id": 524,
           "name": "Khondgin Trikers",
           "units": "1 Guildmaster & 5 Guild Trikest",
-          "pts": 275
+          "pts": 275,
+          "cost_pts": 275
         },
         {
           "string_id": "rockbreaker_league",
           "id": 525,
           "name": "Rockbreaker League",
           "units": "1 Guildmaster & 7 Guild Bikes",
-          "pts": 225
+          "pts": 225,
+          "cost_pts": 225
         }
       ]
     }

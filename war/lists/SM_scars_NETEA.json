@@ -17,6 +17,7 @@
           "id": 501,
           "name": "Bike",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             15,
             16,
@@ -29,6 +30,7 @@
           "id": 502,
           "name": "Bike (Close Assault)",
           "pts": 245,
+          "cost_pts": 245,
           "upgrades": [
             15,
             16,
@@ -41,6 +43,7 @@
           "id": 511,
           "name": "Tactical",
           "pts": 275,
+          "cost_pts": 275,
           "units": "6 Tacticals",
           "upgrades": [
             15,
@@ -61,6 +64,7 @@
           "id": 500,
           "name": "Assault",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault Units",
           "upgrades": [
             15,
@@ -76,6 +80,7 @@
           "id": 507,
           "name": "Scout",
           "pts": 150,
+          "cost_pts": 150,
           "upgrades": [
             15,
             16,
@@ -93,6 +98,7 @@
           "id": 512,
           "name": "Terminator",
           "pts": 575,
+          "cost_pts": 575,
           "units": "4 Terminators, 4 Land Raiders",
           "upgrades": [
             15,
@@ -109,6 +115,7 @@
           "id": 504,
           "name": "Land Speeder",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             15,
             16,
@@ -121,6 +128,7 @@
           "id": 506,
           "name": "Predator",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             15,
             16,
@@ -136,6 +144,7 @@
           "id": 516,
           "name": "Vindicators",
           "pts": 200,
+          "cost_pts": 200,
           "units": "4 White Scars Vindicators",
           "upgrades": [
             15,
@@ -151,6 +160,7 @@
           "id": 515,
           "name": "Whirlwinds",
           "pts": 275,
+          "cost_pts": 275,
           "units": "4 Whirlwinds",
           "upgrades": [
             15,
@@ -172,6 +182,7 @@
           "id": 513,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -179,6 +190,7 @@
           "id": 505,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -186,6 +198,7 @@
           "id": 509,
           "name": "Strike Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -193,6 +206,7 @@
           "id": 510,
           "name": "Battle Barge",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         }
       ]
@@ -205,6 +219,7 @@
           "id": 517,
           "name": "Thunderbolt Fighters",
           "pts": 175,
+          "cost_pts": 175,
           "units": "2 Fighters",
           "upgrades": []
         },
@@ -213,6 +228,7 @@
           "id": 518,
           "name": "Marauder Bombers",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Bombers",
           "upgrades": []
         }
@@ -226,6 +242,7 @@
           "id": 522,
           "name": "Warhound ",
           "pts": 275,
+          "cost_pts": 275,
           "units": "1 Warhound Class Titan"
         },
         {
@@ -233,6 +250,7 @@
           "id": 524,
           "name": "Warhound Pack",
           "pts": 500,
+          "cost_pts": 500,
           "units": "2x Warhound Class Titan"
         }
       ]

@@ -16,13 +16,15 @@
           "string_id": "wraithgate",
           "id": 100,
           "name": "Wraithgate",
-          "pts": 50
+          "pts": 50,
+          "cost_pts": 50
         },
         {
           "string_id": "avatar",
           "id": 110,
           "name": "Avatar",
           "pts": 0,
+          "cost_pts": 0,
           "units": "Avatar"
         }
       ]
@@ -35,6 +37,7 @@
           "id": 120,
           "name": "Shining Spears",
           "pts": 20,
+          "cost_pts": 20,
           "upgrades": [
             1
           ]
@@ -44,6 +47,7 @@
           "id": 130,
           "name": "Wild Rider Clan (6)",
           "pts": 20,
+          "cost_pts": 20,
           "upgrades": [
             2,
             3
@@ -54,6 +58,7 @@
           "id": 131,
           "name": "Wild Rider Clan (9)",
           "pts": 5,
+          "cost_pts": 5,
           "upgrades": [
             2,
             3
@@ -64,6 +69,7 @@
           "id": 132,
           "name": "Wild Rider Clan (12)",
           "pts": -10,
+          "cost_pts": -10,
           "upgrades": [
             2,
             3
@@ -79,6 +85,7 @@
           "id": 140,
           "name": "Aspect Warrior",
           "pts": 15,
+          "cost_pts": 15,
           "upgrades": [
             19,
             23,
@@ -90,6 +97,7 @@
           "id": 150,
           "name": "Engine of Vaul",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             24,
             25,
@@ -101,6 +109,7 @@
           "id": 160,
           "name": "Guardian",
           "pts": 10,
+          "cost_pts": 10,
           "upgrades": [
             2
           ]
@@ -110,6 +119,7 @@
           "id": 161,
           "name": "Guardian (Wraithguard)",
           "pts": 15,
+          "cost_pts": 15,
           "upgrades": [
             2
           ]
@@ -119,6 +129,7 @@
           "id": 170,
           "name": "Hornet",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             17
           ]
@@ -128,19 +139,22 @@
           "id": 180,
           "name": "Night Spinner",
           "pts": 175,
+          "cost_pts": 175,
           "units": "3 Night Spinners"
         },
         {
           "string_id": "scout_rider",
           "id": 190,
           "name": "Scout Rider",
-          "pts": 20
+          "pts": 20,
+          "cost_pts": 20
         },
         {
           "string_id": "swords_of_vaul",
           "id": 200,
           "name": "Swords of Vaul",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             19,
             20,
@@ -157,6 +171,7 @@
           "id": 210,
           "name": "Nightwings",
           "pts": 300,
+          "cost_pts": 300,
           "units": "3 Nightwing Interceptors"
         },
         {
@@ -164,6 +179,7 @@
           "id": 220,
           "name": "Phoenix Bombers",
           "pts": 325,
+          "cost_pts": 325,
           "units": "3 Phoenix Bombers"
         },
         {
@@ -171,19 +187,22 @@
           "id": 230,
           "name": "Revenant Titans",
           "pts": 650,
+          "cost_pts": 650,
           "units": "2 Revenant Titans"
         },
         {
           "string_id": "spacecraft",
           "id": 240,
           "name": "Spacecraft",
-          "pts": 0
+          "pts": 0,
+          "cost_pts": 0
         },
         {
           "string_id": "vampire",
           "id": 250,
           "name": "Vampire",
           "pts": 275,
+          "cost_pts": 275,
           "units": "Vampire Hunter"
         }
       ]

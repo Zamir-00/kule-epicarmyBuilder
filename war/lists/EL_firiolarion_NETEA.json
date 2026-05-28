@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Wraithgate",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -30,6 +31,7 @@
           "name": "Warlock Titan",
           "units": "1 Warlock Titan",
           "pts": 825,
+          "cost_pts": 825,
           "upgrades": [
             31
           ]
@@ -40,6 +42,7 @@
           "name": "Phantom Titan",
           "units": "1 Phantom Titan",
           "pts": 750,
+          "cost_pts": 750,
           "upgrades": [
             31,
             30
@@ -56,6 +59,7 @@
           "name": "Revenant Titan Twins",
           "units": "2 Revenant Titans",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -64,6 +68,7 @@
           "name": "Revenant Titan Single",
           "units": "1 Revenant Titan",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         }
       ]
@@ -77,6 +82,7 @@
           "name": "Wraithknight Troupe",
           "units": "Three Wraithknights",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -84,6 +90,7 @@
           "id": 515,
           "name": "Wraithlord Troupe",
           "pts": -150,
+          "cost_pts": -150,
           "upgrades": [
             50
           ]
@@ -93,6 +100,7 @@
           "id": 520,
           "name": "Nightwing Interceptors",
           "pts": 300,
+          "cost_pts": 300,
           "units": "Three Nightwing Interceptors",
           "upgrades": []
         },
@@ -101,6 +109,7 @@
           "id": 521,
           "name": "Phoenix Bombers",
           "pts": 325,
+          "cost_pts": 325,
           "units": "Three Phoenix Bombers",
           "upgrades": []
         },
@@ -110,6 +119,7 @@
           "name": "Lagganath Vampire Hunter",
           "units": "One Lagganath Vampire Hunter",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         },
         {
@@ -117,6 +127,7 @@
           "id": 523,
           "name": "Spacecraft",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             42,
             43

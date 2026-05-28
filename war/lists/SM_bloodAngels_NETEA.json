@@ -15,6 +15,7 @@
           "name": "Death Company",
           "units": "4 Death Company Units plus Transport",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             41,
             13
@@ -25,6 +26,7 @@
           "id": 532,
           "name": "Assault Detachment",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             30,
@@ -44,6 +46,7 @@
           "id": 533,
           "name": "Bike Detachment",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             30,
             31,
@@ -56,6 +59,7 @@
           "id": 535,
           "name": "Devastator Detachment",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Blood Angels Devastator Units plus Transport",
           "upgrades": [
             30,
@@ -85,6 +89,7 @@
           "id": 536,
           "name": "Land Speeders",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             30,
             31,
@@ -97,6 +102,7 @@
           "id": 537,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -104,6 +110,7 @@
           "id": 538,
           "name": "Predators",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             30,
             31,
@@ -117,6 +124,7 @@
           "id": 539,
           "name": "Scout Detachment",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scouts plus Transport",
           "upgrades": [
             70,
@@ -133,6 +141,7 @@
           "id": 540,
           "name": "Spacecraft",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -140,6 +149,7 @@
           "id": 541,
           "name": "Stormraven",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Stormraven Gunships",
           "upgrades": []
         },
@@ -148,6 +158,7 @@
           "id": 542,
           "name": "Tactical Detachment",
           "pts": 275,
+          "cost_pts": 275,
           "units": "6 Blood Angels Tacticals plus Transport",
           "upgrades": [
             30,
@@ -177,6 +188,7 @@
           "id": 543,
           "name": "Terminator Detachment",
           "pts": 350,
+          "cost_pts": 350,
           "units": "4 Blood Angels Terminators",
           "upgrades": [
             30,
@@ -208,6 +220,7 @@
           "id": 549,
           "name": "Storm Talons",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "2 Storm Talons"
         },
@@ -216,6 +229,7 @@
           "id": 544,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [],
           "units": "1 Thunderhawk Gunship"
         }

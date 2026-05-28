@@ -17,6 +17,7 @@
           "id": 500,
           "name": "Assault Detachment",
           "pts": 175,
+          "cost_pts": 175,
           "units": "4 Assault Units",
           "upgrades": [
             24,
@@ -30,6 +31,7 @@
           "id": 501,
           "name": "Bike Detachment",
           "pts": 400,
+          "cost_pts": 400,
           "upgrades": [
             24,
             25,
@@ -42,6 +44,7 @@
           "id": 504,
           "name": "Land Speeders",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             24,
             25,
@@ -54,6 +57,7 @@
           "id": 505,
           "name": "Landing Craft",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -61,6 +65,7 @@
           "id": 506,
           "name": "Predators",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             24,
             25,
@@ -75,6 +80,7 @@
           "id": 507,
           "name": "Scout Detachment",
           "pts": 150,
+          "cost_pts": 150,
           "units": "4 Scouts",
           "upgrades": [
             24,
@@ -95,6 +101,7 @@
           "id": 509,
           "name": "Strike Cruiser",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -102,6 +109,7 @@
           "id": 510,
           "name": "Battle Barge",
           "pts": 350,
+          "cost_pts": 350,
           "upgrades": []
         },
         {
@@ -109,6 +117,7 @@
           "id": 511,
           "name": "Tactical Detachment",
           "pts": 300,
+          "cost_pts": 300,
           "units": "6 Tacticals",
           "upgrades": [
             24,
@@ -130,6 +139,7 @@
           "id": 512,
           "name": "Terminator Detachment",
           "pts": 675,
+          "cost_pts": 675,
           "units": "4 Terminators",
           "upgrades": [
             24,
@@ -145,6 +155,7 @@
           "id": 513,
           "name": "Thunderhawk",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -152,6 +163,7 @@
           "id": 515,
           "name": "Whirlwinds",
           "pts": 300,
+          "cost_pts": 300,
           "units": "4 Whirlwinds",
           "upgrades": [
             24,
@@ -172,6 +184,7 @@
           "id": 517,
           "name": "Thunderbolt Fighters",
           "pts": 150,
+          "cost_pts": 150,
           "units": "2 Fighters",
           "upgrades": []
         },
@@ -180,6 +193,7 @@
           "id": 518,
           "name": "Marauder Bombers",
           "pts": 300,
+          "cost_pts": 300,
           "units": "2 Bombers",
           "upgrades": []
         }
@@ -193,6 +207,7 @@
           "id": 522,
           "name": "Warhound Titan",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         }
       ]

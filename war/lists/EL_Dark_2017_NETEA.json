@@ -17,6 +17,7 @@
           "id": 530,
           "name": "Webway Portal",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         },
         {
@@ -24,6 +25,7 @@
           "id": 531,
           "name": "Portable Webway Portal",
           "pts": 50,
+          "cost_pts": 50,
           "upgrades": []
         }
       ]
@@ -36,6 +38,7 @@
           "id": 511,
           "name": "Kabal Coterie",
           "pts": 250,
+          "cost_pts": 250,
           "units": "4 Incubi, 1 Archon character",
           "upgrades": [
             71,
@@ -53,6 +56,7 @@
           "id": 512,
           "name": "Kabal Syndicate",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             51,
             61,
@@ -71,6 +75,7 @@
           "id": 513,
           "name": "Kabal Flotilla",
           "pts": 25,
+          "cost_pts": 25,
           "upgrades": [
             51,
             61
@@ -86,6 +91,7 @@
           "id": 501,
           "name": "Haemonculi Coven",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 Haemonculi, 4 Wracks",
           "upgrades": [
             22,
@@ -101,6 +107,7 @@
           "id": 502,
           "name": "Talos",
           "pts": 225,
+          "cost_pts": 225,
           "units": "4 Talos",
           "upgrades": [
             73,
@@ -112,6 +119,7 @@
           "id": 503,
           "name": "Wych Cult",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 Wyches",
           "upgrades": [
             71,
@@ -126,6 +134,7 @@
           "id": 504,
           "name": "Hellions",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 Hellions",
           "upgrades": [
             18,
@@ -137,6 +146,7 @@
           "id": 505,
           "name": "Reavers",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 Reavers",
           "upgrades": [
             18,
@@ -148,6 +158,7 @@
           "id": 506,
           "name": "Mandrakes",
           "pts": 200,
+          "cost_pts": 200,
           "units": "6 Mandrakes",
           "upgrades": []
         },
@@ -156,6 +167,7 @@
           "id": 507,
           "name": "Scourges",
           "pts": 250,
+          "cost_pts": 250,
           "units": "6 Scourges",
           "upgrades": [
             18,
@@ -167,6 +179,7 @@
           "id": 508,
           "name": "Heavy Barge",
           "pts": 250,
+          "cost_pts": 250,
           "units": "1 Vessel of Pain",
           "upgrades": []
         }
@@ -180,6 +193,7 @@
           "id": 522,
           "name": "Torture Class Cruiser",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": []
         },
         {
@@ -187,6 +201,7 @@
           "id": 523,
           "name": "Slavebringer",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": []
         },
         {
@@ -194,6 +209,7 @@
           "id": 525,
           "name": "Executioner Assault Ship",
           "pts": 500,
+          "cost_pts": 500,
           "upgrades": []
         },
         {
@@ -201,6 +217,7 @@
           "id": 526,
           "name": "Razorwing Fighters",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             84
           ]
@@ -210,6 +227,7 @@
           "id": 527,
           "name": "Voidraven Bombers",
           "pts": 225,
+          "cost_pts": 225,
           "units": "2 Voidravens",
           "upgrades": []
         },
@@ -218,6 +236,7 @@
           "id": 528,
           "name": "Tormentor",
           "pts": 500,
+          "cost_pts": 500,
           "units": "1 Tormentor Titan",
           "upgrades": []
         }

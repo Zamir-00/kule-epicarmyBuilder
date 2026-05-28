@@ -14,6 +14,7 @@
           "id": 504,
           "name": "Suite de la Black Legion",
           "pts": 275,
+          "cost_pts": 275,
           "units": "8 Space Marines du Chaos",
           "upgrades": [
             48,
@@ -38,6 +39,7 @@
           "id": 505,
           "name": "Suite d'Elus de la Black Legion",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             13,
             41,
@@ -56,6 +58,7 @@
           "id": 508,
           "name": "Culte Raptor",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             40
@@ -66,6 +69,7 @@
           "id": 507,
           "name": "Forlorn Hope Retinue",
           "pts": 125,
+          "cost_pts": 125,
           "units": "4 Space Marines du Chaos (Eclaireurs)",
           "upgrades": [
             48,
@@ -78,6 +82,7 @@
           "id": 503,
           "name": "Compagnies de Motos de la Black Legion",
           "pts": 300,
+          "cost_pts": 300,
           "units": "8 Motos de la Black Legion",
           "upgrades": [
             40
@@ -88,6 +93,7 @@
           "id": 501,
           "name": "Compagnie Blind&eacute; de la Black Legion",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             91,
             92,
@@ -103,6 +109,7 @@
           "id": 502,
           "name": "Compagnie d'Assaut de la Black Legion",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             23,
             42
@@ -113,6 +120,7 @@
           "id": 506,
           "name": "D&eacute;mon Mineur",
           "pts": 175,
+          "cost_pts": 175,
           "units": "8 D&eacute;mons Mineurs",
           "upgrades": [
             51
@@ -123,6 +131,7 @@
           "id": 506,
           "name": "D&eacute;mon Majeur",
           "pts": 175,
+          "cost_pts": 175,
           "units": "1 D&eacute;mon Majeur",
           "upgrades": []
         },
@@ -131,6 +140,7 @@
           "id": 510,
           "name": "Soutien Orbital",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             85,
             84
@@ -146,6 +156,7 @@
           "id": 530,
           "name": "Escadrille d'intercepteurs Hellblade",
           "pts": 200,
+          "cost_pts": 200,
           "units": "3 Intercepteurs Hellblade",
           "upgrades": []
         },
@@ -154,6 +165,7 @@
           "id": 531,
           "name": "Escadrille de chasseurs-bombardiers Helltalon",
           "pts": 250,
+          "cost_pts": 250,
           "units": "2 chasseurs-bombardiers Helltalon",
           "upgrades": []
         }
@@ -167,6 +179,7 @@
           "id": 524,
           "name": "Deathwheel",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             24
           ]
@@ -176,6 +189,7 @@
           "id": 520,
           "name": "Banelord Titan",
           "pts": 800,
+          "cost_pts": 800,
           "upgrades": []
         },
         {
@@ -183,6 +197,7 @@
           "id": 521,
           "name": "Ravager Titan",
           "pts": 650,
+          "cost_pts": 650,
           "upgrades": []
         },
         {
@@ -190,6 +205,7 @@
           "id": 522,
           "name": "Feral Titan",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": []
         }
       ]

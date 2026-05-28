@@ -19,6 +19,7 @@
           "id": 500,
           "name": "Daemon Pool",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             11,
             12
@@ -34,6 +35,7 @@
           "id": 501,
           "name": "Hounds Squadron",
           "pts": 300,
+          "cost_pts": 300,
           "units": "8 Chaos Space Marine Bike units",
           "upgrades": [
             13,
@@ -45,6 +47,7 @@
           "id": 502,
           "name": "Terminator Retinue",
           "pts": 35,
+          "cost_pts": 35,
           "units": "",
           "upgrades": [
             50,
@@ -67,6 +70,7 @@
           "id": 503,
           "name": "Renegade Warband",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             13,
             14,
@@ -97,6 +101,7 @@
           "id": 510,
           "name": "Armoured Company",
           "pts": 0,
+          "cost_pts": 0,
           "upgrades": [
             51,
             19,
@@ -110,14 +115,16 @@
           "string_id": "spaceship",
           "id": 511,
           "name": "Spaceship",
-          "pts": 0
+          "pts": 0,
+          "cost_pts": 0
         },
         {
           "string_id": "chaos_thunderhawk",
           "id": 512,
           "name": "Chaos Thunderhawk",
           "units": "1 Chaos Thunderhawk Gunship",
-          "pts": 250
+          "pts": 250,
+          "cost_pts": 250
         },
         {
           "string_id": "chosen",
@@ -125,6 +132,7 @@
           "name": "Chosen",
           "units": "6 Chaos Space Marine Units - all have the Scout ability",
           "pts": 200,
+          "cost_pts": 200,
           "upgrades": [
             15,
             17,
@@ -138,6 +146,7 @@
           "name": "Khornate Cult Marines",
           "units": "6 Khorne Berzerker units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -155,6 +164,7 @@
           "name": "Tzeenchian Cult Marines",
           "units": "6 Thousand Sons units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -172,6 +182,7 @@
           "name": "Nurglish Cult Marines",
           "units": "6 Plague Marine units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -189,6 +200,7 @@
           "name": "Slaaneeshi Cult Marines",
           "units": "6 Noise Marine units",
           "pts": 275,
+          "cost_pts": 275,
           "upgrades": [
             15,
             16,
@@ -206,6 +218,7 @@
           "name": "Defiler Assaut Force",
           "units": "4 Defilers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             28,
             29
@@ -217,6 +230,7 @@
           "name": "Blood Slaughterer Pack",
           "units": "5 Blood Slaughterers",
           "pts": 225,
+          "cost_pts": 225,
           "upgrades": [
             28,
             29,
@@ -229,6 +243,7 @@
           "name": "Brass Scorpion Onlsaught",
           "units": "2 Brass Scorpions",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             28,
             29,
@@ -241,6 +256,7 @@
           "name": "Silver Tower Circle",
           "units": "4 Silver Towers",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             28,
             29,
@@ -253,6 +269,7 @@
           "name": "Blight Drone Swarm",
           "units": "6 Blight Drones",
           "pts": 300,
+          "cost_pts": 300,
           "upgrades": [
             28,
             29,
@@ -265,6 +282,7 @@
           "name": "Daemon Knight Pavane",
           "units": "4 Daemon Knights",
           "pts": 250,
+          "cost_pts": 250,
           "upgrades": [
             28,
             29,
@@ -276,6 +294,7 @@
           "id": 524,
           "name": "Raptor Cult",
           "pts": 35,
+          "cost_pts": 35,
           "upgrades": [
             54,
             13
@@ -290,19 +309,22 @@
           "string_id": "three_hellblade_interceptors",
           "id": 531,
           "name": "Three Hellblade Interceptors",
-          "pts": 200
+          "pts": 200,
+          "cost_pts": 200
         },
         {
           "string_id": "two_hell_talon_fighter_bombers",
           "id": 532,
           "name": "Two Hell Talon Fighter-Bombers",
-          "pts": 225
+          "pts": 225,
+          "cost_pts": 225
         },
         {
           "string_id": "one_harbinger_bomber",
           "id": 533,
           "name": "One Harbinger Bomber",
-          "pts": 400
+          "pts": 400,
+          "cost_pts": 400
         }
       ]
     },
@@ -313,19 +335,22 @@
           "string_id": "one_chaos_warlord_class_titan",
           "id": 540,
           "name": "One Chaos Warlord Class Titan",
-          "pts": 800
+          "pts": 800,
+          "cost_pts": 800
         },
         {
           "string_id": "one_chaos_reaver_class_titan",
           "id": 541,
           "name": "One Chaos Reaver Class Titan",
-          "pts": 625
+          "pts": 625,
+          "cost_pts": 625
         },
         {
           "string_id": "one_chaos_warhound_class_titan",
           "id": 542,
           "name": "One Chaos Warhound Class Titan",
-          "pts": 300
+          "pts": 300,
+          "cost_pts": 300
         }
       ]
     }
