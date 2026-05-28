@@ -1,5 +1,8 @@
 {
   "id": "Traitor Titan Legions",
+  "list_id": "CHAOS_titans_NETEA",
+  "faction_id": "titans",
+  "ruleset": "NETEA",
   "version": "NetEA v1.9",
   "notes": [],
   "by": "IJW Wartrader and MrDieAlot",
@@ -8,6 +11,7 @@
       "name": "BATTLE TITANS",
       "formations": [
         {
+          "string_id": "carrion_lord_chaos_emperor_titan_of_chaos_undivided",
           "id": 501,
           "name": "CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)",
           "pts": 1125,
@@ -34,6 +38,7 @@
           ]
         },
         {
+          "string_id": "skullhoarder_chaos_emperor_titan_of_khorne",
           "id": 502,
           "name": "SKULLHOARDER   (Chaos Emperor Titan of Khorne)",
           "pts": 1125,
@@ -65,6 +70,7 @@
           ]
         },
         {
+          "string_id": "vicekeeper_chaos_emperor_titan_of_slaanesh",
           "id": 503,
           "name": "VICEKEEPER   (Chaos Emperor Titan of Slaanesh)",
           "pts": 1125,
@@ -93,6 +99,7 @@
           ]
         },
         {
+          "string_id": "blightspreader_chaos_emperor_titan_of_nurgle",
           "id": 504,
           "name": "BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle)",
           "pts": 1125,
@@ -124,6 +131,7 @@
           ]
         },
         {
+          "string_id": "giftgranter_chaos_emperor_titan_of_tzeentch",
           "id": 505,
           "name": "GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)",
           "pts": 1125,
@@ -154,6 +162,7 @@
           ]
         },
         {
+          "string_id": "forgelord_chaos_warlord_titan_of_chaos_undivided",
           "id": 506,
           "name": "FORGELORD   (Chaos Warlord Titan of Chaos Undivided)",
           "pts": 800,
@@ -212,6 +221,7 @@
           ]
         },
         {
+          "string_id": "banelord_chaos_warlord_titan_of_khorne",
           "id": 507,
           "name": "BANELORD (Chaos Warlord Titan of Khorne)",
           "pts": 800,
@@ -245,6 +255,7 @@
           ]
         },
         {
+          "string_id": "painlord_chaos_warlord_titan_of_slaanesh",
           "id": 508,
           "name": "PAINLORD  (Chaos Warlord Titan of Slaanesh)",
           "pts": 800,
@@ -274,6 +285,7 @@
           ]
         },
         {
+          "string_id": "plaguelord_chaos_warlord_titan_of_nurgle",
           "id": 509,
           "name": "PLAGUELORD (Chaos Warlord Titan of Nurgle)",
           "pts": 800,
@@ -306,6 +318,7 @@
           ]
         },
         {
+          "string_id": "warplord_chaos_warlord_titan_of_tzeentch",
           "id": 510,
           "name": "WARPLORD  (Chaos Warlord Titan of Tzeentch)",
           "pts": 800,
@@ -337,6 +350,7 @@
           ]
         },
         {
+          "string_id": "herald_chaos_reaver_titan_of_chaos_undivided",
           "id": 511,
           "name": "HERALD (Chaos Reaver Titan of Chaos Undivided)",
           "pts": 600,
@@ -363,6 +377,7 @@
           ]
         },
         {
+          "string_id": "ravager_chaos_reaver_titan_of_khorne",
           "id": 512,
           "name": "RAVAGER (Chaos Reaver Titan of Khorne)",
           "pts": 600,
@@ -392,6 +407,7 @@
           ]
         },
         {
+          "string_id": "reviler_chaos_reaver_titan_of_slaanesh",
           "id": 513,
           "name": "REVILER (Chaos Reaver Titan of Slaanesh)",
           "pts": 600,
@@ -416,6 +432,7 @@
           ]
         },
         {
+          "string_id": "repugnant_chaos_reaver_titan_of_nurgle",
           "id": 514,
           "name": "REPUGNANT (Chaos Reaver Titan of Nurgle)",
           "pts": 600,
@@ -443,6 +460,7 @@
           ]
         },
         {
+          "string_id": "mutator_chaos_reaver_titan_of_tzeentch",
           "id": 515,
           "name": "MUTATOR (Chaos Reaver Titan of Tzeentch)",
           "pts": 600,
@@ -474,6 +492,7 @@
       "name": "GREATER DAEMON ENGINES One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession",
       "formations": [
         {
+          "string_id": "forgehound_chaos_warhound_of_chaos_undivided",
           "id": 551,
           "name": "FORGEHOUND (Chaos Warhound of Chaos Undivided)",
           "pts": 300,
@@ -482,6 +501,7 @@
           "upgrades": []
         },
         {
+          "string_id": "forgehound_pack_chaos_warhounds_of_chaos_undivided",
           "id": 552,
           "name": "FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided)",
           "pts": 550,
@@ -490,6 +510,7 @@
           "upgrades": []
         },
         {
+          "string_id": "feral_warhound_pack_chaos_warhounds_of_khorne",
           "id": 553,
           "name": "FERAL WARHOUND Pack (Chaos Warhounds of Khorne)",
           "pts": 550,
@@ -498,6 +519,7 @@
           "upgrades": []
         },
         {
+          "string_id": "plaguehound_chaos_warhound_of_nurgle",
           "id": 554,
           "name": "PLAGUEHOUND (Chaos Warhound of Nurgle)",
           "pts": 300,
@@ -506,6 +528,7 @@
           "upgrades": []
         },
         {
+          "string_id": "plaguehound_pack_chaos_warhounds_of_nurgle",
           "id": 555,
           "name": "PLAGUEHOUND Pack (Chaos Warhounds of Nurgle)",
           "pts": 550,
@@ -514,6 +537,7 @@
           "upgrades": []
         },
         {
+          "string_id": "warphound_chaos_warhound_of_tzeentch",
           "id": 556,
           "name": "WARPHOUND (Chaos Warhound of Tzeentch)",
           "pts": 300,
@@ -522,6 +546,7 @@
           "upgrades": []
         },
         {
+          "string_id": "warphound_pack_chaos_warhounds_of_tzeentch",
           "id": 557,
           "name": "WARPHOUND Pack (Chaos Warhounds of Tzeentch)",
           "pts": 550,
@@ -530,6 +555,7 @@
           "upgrades": []
         },
         {
+          "string_id": "death_wheel_chaos_undivided",
           "id": 558,
           "name": "DEATH WHEEL (Chaos Undivided)",
           "pts": 275,
@@ -541,6 +567,7 @@
           ]
         },
         {
+          "string_id": "lord_of_battles_khorne",
           "id": 559,
           "name": "LORD OF BATTLES (Khorne)",
           "pts": 400,
@@ -551,6 +578,7 @@
           ]
         },
         {
+          "string_id": "greater_brass_scorpion_khorne",
           "id": 560,
           "name": "GREATER BRASS SCORPION (Khorne)",
           "units": "One Greater Brass Scorpion",
@@ -562,6 +590,7 @@
           ]
         },
         {
+          "string_id": "subjugator_slaanesh",
           "id": 561,
           "name": "SUBJUGATOR (Slaanesh)",
           "pts": 225,
@@ -572,6 +601,7 @@
           ]
         },
         {
+          "string_id": "questor_slaanesh",
           "id": 562,
           "name": "QUESTOR (Slaanesh)",
           "pts": 275,
@@ -587,6 +617,7 @@
       "name": "LESSER DAEMON ENGINES One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model",
       "formations": [
         {
+          "string_id": "daemon_knights_hell_scourges_slaanesh",
           "id": 570,
           "name": "DAEMON KNIGHTS Hell-Scourges (Slaanesh)",
           "pts": 225,
@@ -598,6 +629,7 @@
           ]
         },
         {
+          "string_id": "daemon_knights_hell_knights_slaanesh",
           "id": 571,
           "name": "DAEMON KNIGHTS Hell-Knights (Slaanesh)",
           "pts": 225,
@@ -609,6 +641,7 @@
           ]
         },
         {
+          "string_id": "daemon_knights_hell_striders_slaanesh",
           "id": 572,
           "name": "DAEMON KNIGHTS Hell-Striders (Slaanesh)",
           "pts": 225,
@@ -620,6 +653,7 @@
           ]
         },
         {
+          "string_id": "chaos_knights_chaos_undivided",
           "id": 573,
           "name": "CHAOS KNIGHTS (Chaos Undivided)",
           "pts": 225,
@@ -631,6 +665,7 @@
           ]
         },
         {
+          "string_id": "chaos_knights_khorne",
           "id": 574,
           "name": "CHAOS KNIGHTS (Khorne)",
           "pts": 225,
@@ -642,6 +677,7 @@
           ]
         },
         {
+          "string_id": "chaos_knights_nurgle",
           "id": 575,
           "name": "CHAOS KNIGHTS (Nurgle)",
           "pts": 225,
@@ -653,6 +689,7 @@
           ]
         },
         {
+          "string_id": "chaos_knights_tzeentch",
           "id": 576,
           "name": "CHAOS KNIGHTS (Tzeentch)",
           "pts": 225,
@@ -664,6 +701,7 @@
           ]
         },
         {
+          "string_id": "daemon_assault_engines_khorne",
           "id": 577,
           "name": "DAEMON ASSAULT ENGINES (Khorne)",
           "pts": 225,
@@ -675,6 +713,7 @@
           ]
         },
         {
+          "string_id": "defilers_chaos_undivided",
           "id": 578,
           "name": "DEFILERS (Chaos Undivided)",
           "pts": 200,
@@ -686,6 +725,7 @@
           ]
         },
         {
+          "string_id": "defilers_nurgle",
           "id": 579,
           "name": "DEFILERS (Nurgle)",
           "pts": 200,
@@ -697,6 +737,7 @@
           ]
         },
         {
+          "string_id": "defilers_tzeentch",
           "id": 580,
           "name": "DEFILERS (Tzeentch)",
           "pts": 200,
@@ -708,6 +749,7 @@
           ]
         },
         {
+          "string_id": "daemonic_artillery_khorne",
           "id": 581,
           "name": "DAEMONIC ARTILLERY (Khorne)",
           "pts": 200,
@@ -724,6 +766,7 @@
       "name": "DAEMON POOL",
       "formations": [
         {
+          "string_id": "lesser_daemon_pool",
           "id": 600,
           "name": "LESSER DAEMON POOL",
           "pts": 0,
@@ -738,6 +781,7 @@
       "name": "CHAOS NAVY",
       "formations": [
         {
+          "string_id": "hell_blade_squadron",
           "id": 530,
           "name": "HELL BLADE SQUADRON",
           "pts": 200,
@@ -746,6 +790,7 @@
           "upgrades": []
         },
         {
+          "string_id": "hell_talon_squadron",
           "id": 531,
           "name": "HELL TALON SQUADRON",
           "pts": 225,
@@ -754,6 +799,7 @@
           "upgrades": []
         },
         {
+          "string_id": "harbringer_bomber",
           "id": 532,
           "name": "HARBRINGER BOMBER",
           "pts": 375,
@@ -762,6 +808,7 @@
           "upgrades": []
         },
         {
+          "string_id": "chaos_battleship",
           "id": 533,
           "name": "CHAOS BATTLESHIP",
           "pts": 200,
@@ -774,556 +821,667 @@
   ],
   "upgrades": [
     {
+      "string_id": "retlaxi_cyclone_chaos_undivided_support_weapon_arm",
       "id": 10,
       "name": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "retlaxi_cyclone_chaos_undivided_support_weapon_carapace",
       "id": 11,
       "name": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "cannon_of_chaos_chaos_undivided_support_weapon_arm_only",
       "id": 12,
       "name": "Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "havoc_vortex_missiles_chaos_undivided_support_weapon_carapace_only",
       "id": 13,
       "name": "Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "havoc_warp_missiles_chaos_undivided_support_weapon_carapace_only",
       "id": 14,
       "name": "Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "plasma_incinerator_chaos_undivided_only_support_weapon_arm_only",
       "id": 15,
       "name": "Plasma Incinerator (Chaos Undivided Only Support Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "hellstrike_cannon_khorne_support_weapon_arm",
       "id": 16,
       "name": "Hellstrike Cannon (Khorne Support Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "hellstrike_cannon_khorne_support_weapon_carapace",
       "id": 17,
       "name": "Hellstrike Cannon (Khorne Support Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "beam_of_change_tzeentch_support_weapon_carapace_only",
       "id": 18,
       "name": "Beam of Change (Tzeentch Support Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "heavy_plague_mortar_nurgle_support_weapon_carapace_only",
       "id": 19,
       "name": "Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "beam_of_ecstasy_slaanesh_support_weapon_arm_only",
       "id": 20,
       "name": "Beam of Ecstasy (Slaanesh Support Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "infernal_projector_chaos_undivided_battle_weapon_arm",
       "id": 31,
       "name": "Infernal Projector (Chaos Undivided Battle Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "infernal_projector_chaos_undivided_battle_weapon_carapace",
       "id": 32,
       "name": "Infernal Projector (Chaos Undivided Battle Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "heretek_shrine_chaos_undivided_battle_weapon_carapace_only",
       "id": 33,
       "name": "Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_weapon_arm_only",
       "id": 34,
       "name": "Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "havoc_barrage_missiles_chaos_undivided_battle_weapon_carapace_only",
       "id": 35,
       "name": "Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "chaos_plasma_cremator_chaos_undivided_only_arm_only",
       "id": 36,
       "name": "Chaos Plasma Cremator (Chaos Undivided Only (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "doom_burner_khorne_battle_weapon_arm",
       "id": 37,
       "name": "Doom Burner (Khorne Battle Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "doom_burner_khorne_battle_weapon_carapace",
       "id": 38,
       "name": "Doom Burner (Khorne Battle Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "doom_fist_khorne_close_combat_battle_weapon_arm_only",
       "id": 39,
       "name": "Doom Fist (Khorne Close Combat Battle Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "mangler_khorne_close_combat_battle_weapon_carapace_only",
       "id": 40,
       "name": "Mangler (Khorne Close Combat Battle Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "tzeentch_cannon_tzeentch_battle_weapon_arm_only",
       "id": 41,
       "name": "Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "coruscant_hail_tzeentch_battle_weapon_arm",
       "id": 42,
       "name": "Coruscant Hail (Tzeentch Battle Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "coruscant_hail_tzeentch_battle_weapon_carapace",
       "id": 43,
       "name": "Coruscant Hail (Tzeentch Battle Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "corruption_cannon_nurgle_battle_weapon_carapace_only",
       "id": 44,
       "name": "Corruption Cannon (Nurgle Battle Weapon (Carapace Only))",
       "pts": 0
     },
     {
+      "string_id": "plague_flail_nurgle_close_combat_battle_weapon_arm_only",
       "id": 45,
       "name": "Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "rot_cannon_nurgle_battle_weapon_arm",
       "id": 46,
       "name": "Rot Cannon (Nurgle Battle Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "rot_cannon_nurgle_battle_weapon_carapace",
       "id": 47,
       "name": "Rot Cannon (Nurgle Battle Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "sonic_devastator_slaanesh_battle_weapon_arm",
       "id": 48,
       "name": "Sonic Devastator (Slaanesh Battle Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "sonic_devastator_slaanesh_battle_weapon_carapace",
       "id": 49,
       "name": "Sonic Devastator (Slaanesh Battle Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "musk_flail_slaanesh_close_combat_battle_weapon_arm_only",
       "id": 50,
       "name": "Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_chaos_undivided_scout_weapon_arm",
       "id": 51,
       "name": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_chaos_undivided_scout_weapon_carapace",
       "id": 52,
       "name": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_chaos_undivided_scout_weapon_arm",
       "id": 53,
       "name": "Hellmouth (Chaos Undivided Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_chaos_undivided_scout_weapon_carapace",
       "id": 54,
       "name": "Hellmouth (Chaos Undivided Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "chaos_plasma_furnace_chaos_undivided_scout_weapon_arm",
       "id": 55,
       "name": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "chaos_plasma_furnace_chaos_undivided_scout_weapon_carapace",
       "id": 56,
       "name": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "death_storm_khorne_scout_weapon_arm",
       "id": 57,
       "name": "Death Storm (Khorne Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "death_storm_khorne_scout_weapon_carapace",
       "id": 58,
       "name": "Death Storm (Khorne Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "ursus_claw_khorne_scout_weapon_arm_only",
       "id": 59,
       "name": "Ursus Claw (Khorne Scout Weapon (Arm Only))",
       "pts": 0
     },
     {
+      "string_id": "gaze_of_tzeentch_tzeentch_scout_weapon_arm",
       "id": 60,
       "name": "Gaze of Tzeentch (Tzeentch Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "gaze_of_tzeentch_tzeentch_scout_weapon_carapace",
       "id": 61,
       "name": "Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "arcane_cannons_tzeentch_scout_weapon_arm",
       "id": 62,
       "name": "Arcane Cannons (Tzeentch Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "arcane_cannons_tzeentch_scout_weapon_carapace",
       "id": 63,
       "name": "Arcane Cannons (Tzeentch Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "pus_cannon_nurgle_scout_weapon_arm",
       "id": 64,
       "name": "Pus Cannon (Nurgle Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "pus_cannon_nurgle_scout_weapon_carapace",
       "id": 65,
       "name": "Pus Cannon (Nurgle Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "boil_cannon_nurgle_scout_weapon_arm",
       "id": 66,
       "name": "Boil Cannon (Nurgle Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "boil_cannon_nurgle_scout_weapon_carapace",
       "id": 67,
       "name": "Boil Cannon (Nurgle Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "castigator_cannon_slaanesh_scout_weapon_arm",
       "id": 68,
       "name": "Castigator Cannon (Slaanesh Scout Weapon (Arm))",
       "pts": 0
     },
     {
+      "string_id": "castigator_cannon_slaanesh_scout_weapon_carapace",
       "id": 69,
       "name": "Castigator Cannon (Slaanesh Scout Weapon (Carapace))",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_x_2",
       "id": 100,
       "name": "Chaos Reaper Mega Bolter x 2",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_hellmouth",
       "id": 101,
       "name": "Chaos Reaper Mega Bolter + Hellmouth",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_chaos_plasma_furnace",
       "id": 102,
       "name": "Chaos Reaper Mega Bolter + Chaos Plasma Furnace",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_x_2",
       "id": 103,
       "name": "Hellmouth x 2",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_chaos_plasma_furnace",
       "id": 104,
       "name": "Hellmouth + Chaos Plasma Furnace",
       "pts": 0
     },
     {
+      "string_id": "chaos_plasma_furnace_x_2",
       "id": 105,
       "name": "Chaos Plasma Furnace x 2",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_death_storm",
       "id": 111,
       "name": "Chaos Reaper Mega Bolter + Death Storm",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_ursus_claw",
       "id": 112,
       "name": "Chaos Reaper Mega Bolter + Ursus Claw",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_death_storm",
       "id": 113,
       "name": "Hellmouth + Death Storm",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_ursus_claw",
       "id": 114,
       "name": "Hellmouth + Ursus Claw",
       "pts": 0
     },
     {
+      "string_id": "death_storm_ursus_claw",
       "id": 115,
       "name": "Death Storm + Ursus Claw",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_gaze_of_tzeentch",
       "id": 120,
       "name": "Chaos Reaper Mega Bolter + Gaze of Tzeentch",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_arcane_cannons",
       "id": 121,
       "name": "Chaos Reaper Mega Bolter + Arcane Cannons",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_gaze_of_tzeentch",
       "id": 122,
       "name": "Hellmouth + Gaze of Tzeentch",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_arcane_cannons",
       "id": 123,
       "name": "Hellmouth + Arcane Cannons",
       "pts": 0
     },
     {
+      "string_id": "gaze_of_tzeentch_arcane_cannons",
       "id": 124,
       "name": "Gaze of Tzeentch + Arcane Cannons",
       "pts": 0
     },
     {
+      "string_id": "gaze_of_tzeentch_x_2",
       "id": 125,
       "name": "Gaze of Tzeentch x 2",
       "pts": 0
     },
     {
+      "string_id": "arcane_cannons_x_2",
       "id": 126,
       "name": "Arcane Cannons x 2",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_pus_cannon",
       "id": 130,
       "name": "Chaos Reaper Mega Bolter + Pus Cannon",
       "pts": 0
     },
     {
+      "string_id": "chaos_reaper_mega_bolter_boil_cannon",
       "id": 131,
       "name": "Chaos Reaper Mega Bolter + Boil cannon",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_pus_cannon",
       "id": 132,
       "name": "Hellmouth + Pus Cannon",
       "pts": 0
     },
     {
+      "string_id": "hellmouth_boil_cannon",
       "id": 133,
       "name": "Hellmouth + Boil Cannon",
       "pts": 0
     },
     {
+      "string_id": "pus_cannon_boild_cannon",
       "id": 134,
       "name": "Pus Cannon + Boild Cannon",
       "pts": 0
     },
     {
+      "string_id": "pus_cannon_x_2",
       "id": 135,
       "name": "Pus cannon x 2",
       "pts": 0
     },
     {
+      "string_id": "boil_cannon_x_2",
       "id": 136,
       "name": "Boil Cannon x 2",
       "pts": 0
     },
     {
+      "string_id": "greater_daemon_possession",
       "id": 200,
       "name": "Greater Daemon Possession",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_chaos_plasma_incinerator_chaos_undivided_support_weapon_arm_only",
       "id": 201,
       "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_chaos_plasma_cremator_chaos_undivided_battle_weapon_arm_only",
       "id": 202,
       "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_chaos_plasma_furnace_chaos_undivided_scout_weapon_arm",
       "id": 203,
       "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_chaos_plasma_furnace_chaos_undivided_scout_weapon_carapace",
       "id": 204,
       "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_hellstrike_cannon_khorne_support_weapon_arm",
       "id": 205,
       "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_hellstrike_cannon_khorne_support_weapon_carapace",
       "id": 206,
       "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_beam_of_change_tzeentch_support_weapon_carapace_only",
       "id": 207,
       "name": "Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_heavy_plague_mortar_nurgle_support_weapon_carapace_only",
       "id": 208,
       "name": "Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_beam_of_ecstasy_slaanesh_support_weapon_arm_only",
       "id": 209,
       "name": "Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_doom_burner_khorne_battle_weapon_arm",
       "id": 210,
       "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_doom_burner_khorne_battle_weapon_carapace",
       "id": 211,
       "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_doom_fist_khorne_close_combat_battle_weapon_arm_only",
       "id": 212,
       "name": "Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_mangler_khorne_close_combat_battle_weapon_carapace_only",
       "id": 213,
       "name": "Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_tzeentch_cannon_tzeentch_battle_weapon_arm_only",
       "id": 214,
       "name": "Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_coruscant_hail_tzeentch_battle_weapon_arm",
       "id": 215,
       "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_coruscant_hail_tzeentch_battle_weapon_carapace",
       "id": 216,
       "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_corruption_cannon_nurgle_battle_weapon_carapace_only",
       "id": 217,
       "name": "Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_plague_flail_nurgle_close_combat_battle_weapon_arm_only",
       "id": 218,
       "name": "Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_rot_cannon_nurgle_battle_weapon_arm",
       "id": 219,
       "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_rot_cannon_nurgle_battle_weapon_carapace",
       "id": 220,
       "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_sonic_devastator_slaanesh_battle_weapon_arm",
       "id": 221,
       "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_sonic_devastator_slaanesh_battle_weapon_carapace",
       "id": 222,
       "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_musk_flail_slaanesh_close_combat_battle_weapon_arm_only",
       "id": 223,
       "name": "Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_death_storm_khorne_scout_weapon_arm",
       "id": 224,
       "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_death_storm_khorne_scout_weapon_carapace",
       "id": 225,
       "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_gaze_of_tzeentch_tzeentch_scout_weapon_arm",
       "id": 226,
       "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_gaze_of_tzeentch_tzeentch_scout_weapon_carapace",
       "id": 227,
       "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_arcane_cannons_tzeentch_scout_weapon_arm",
       "id": 228,
       "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_arcane_cannons_tzeentch_scout_weapon_carapace",
       "id": 229,
       "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_pus_cannon_nurgle_scout_weapon_arm",
       "id": 230,
       "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_pus_cannon_nurgle_scout_weapon_carapace",
       "id": 231,
       "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_boil_cannon_nurgle_scout_weapon_arm",
       "id": 232,
       "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_boil_cannon_nurgle_scout_weapon_carapace",
       "id": 233,
       "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_castigator_cannon_slaanesh_scout_weapon_arm",
       "id": 234,
       "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm))",
       "pts": 50
     },
     {
+      "string_id": "greater_daemon_possession_castigator_cannon_slaanesh_scout_weapon_carapace",
       "id": 235,
       "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace))",
       "pts": 50
@@ -1335,12 +1493,12 @@
     },
     {
       "id": 241,
-      "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm only))",
+      "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only))",
       "pts": 0
     },
     {
       "id": 242,
-      "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm only))",
+      "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",
       "pts": 0
     },
     {
@@ -1504,266 +1662,319 @@
       "pts": 0
     },
     {
+      "string_id": "eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm",
       "id": 300,
       "name": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_carapace",
       "id": 301,
       "name": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_cannons_of_chaos_chaos_undivided_support_weapon_arm_onlynly",
       "id": 302,
       "name": "Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_havoc_vortex_missiles_chaos_undivided_support_weapon_carapace_only",
       "id": 303,
       "name": "Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_havoc_warp_missiles_chaos_undivided_support_weapon_carapace_only",
       "id": 304,
       "name": "Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_plasma_incinerator_chaos_undivided_support_weapon_army_only",
       "id": 305,
       "name": "Eye of the Gods & Plasma Incinerator (Chaos Undivided Support Weapon (Army Only)",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_hellstrike_cannon_khorne_support_weapon_arm",
       "id": 306,
       "name": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Arm))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_hellstrike_cannon_khorne_support_weapon_carapace",
       "id": 307,
       "name": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Carapace))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_beam_of_change_chaos_undivided_support_weapon_carapace_only",
       "id": 308,
       "name": "Eye of the Gods & Beam of Change (Chaos Undivided Support Weapon (Carapace Only))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_heavy_plague_mortar_chaos_undivided_support_weapon_carapace_only",
       "id": 309,
       "name": "Eye of the Gods & Heavy Plague Mortar (Chaos Undivided Support Weapon (Carapace Only))",
       "pts": 25
     },
     {
+      "string_id": "eye_of_the_gods_beam_of_ecstasy_chaos_undivided_support_weapon_arm_only",
       "id": 310,
       "name": "Eye of the Gods & Beam of Ecstasy (Chaos Undivided Support Weapon (Arm Only))",
       "pts": 25
     },
     {
+      "string_id": "command_head_chaos_undivided_head",
       "id": 350,
       "name": "Command Head (Chaos Undivided (Head))",
       "pts": 0
     },
     {
+      "string_id": "battle_head_chaos_undivided_head",
       "id": 351,
       "name": "Battle Head (Chaos Undivided (Head))",
       "pts": 0
     },
     {
+      "string_id": "void_head_chaos_undivided_head",
       "id": 352,
       "name": "Void Head (Chaos Undivided (Head))",
       "pts": 0
     },
     {
+      "string_id": "daemon_maw_tzeentch_head",
       "id": 353,
       "name": "Daemon Maw (Tzeentch (Head))",
       "pts": 0
     },
     {
+      "string_id": "plague_maw_nurgle_head",
       "id": 354,
       "name": "Plague Maw (Nurgle (Head))",
       "pts": 0
     },
     {
+      "string_id": "gun_tail_chaos_undivided_tail",
       "id": 355,
       "name": "Gun Tail (Chaos Undivided (Tail))",
       "pts": 0
     },
     {
+      "string_id": "razor_tail_chaos_undivided_tail",
       "id": 356,
       "name": "Razor Tail (Chaos Undivided (Tail))",
       "pts": 0
     },
     {
+      "string_id": "barrage_tail_chaos_undivided_tail",
       "id": 357,
       "name": "Barrage Tail (Chaos Undivided (Tail))",
       "pts": 0
     },
     {
+      "string_id": "mace_tail_khorne_tail",
       "id": 358,
       "name": "Mace Tail (Khorne (Tail))",
       "pts": 0
     },
     {
+      "string_id": "lust_lash_slaanesh_tail",
       "id": 359,
       "name": "Lust Lash (Slaanesh (Tail))",
       "pts": 0
     },
     {
+      "string_id": "one_additional_death_wheel",
       "id": 400,
       "name": "One additional Death Wheel",
       "pts": 225
     },
     {
+      "string_id": "two_additional_death_wheels",
       "id": 401,
       "name": "Two additional Death Wheels",
       "pts": 450
     },
     {
+      "string_id": "one_additional_lord_of_battles",
       "id": 402,
       "name": "One additional Lord of Battles",
       "pts": 325
     },
     {
+      "string_id": "one_additional_greater_brass_scorpion",
       "id": 403,
       "name": "One additional Greater Brass Scorpion",
       "pts": 150
     },
     {
+      "string_id": "two_additional_greater_brass_scorpions",
       "id": 404,
       "name": "Two additional Greater Brass Scorpions",
       "pts": 300
     },
     {
+      "string_id": "one_additional_subjugator_scout_titan",
       "id": 405,
       "name": "One additional Subjugator Scout Titan",
       "pts": 175
     },
     {
+      "string_id": "one_additional_questor_scout_titan",
       "id": 406,
       "name": "One additional Questor Scout Titan",
       "pts": 225
     },
     {
+      "string_id": "one_additional_hell_scourge",
       "id": 407,
       "name": "One additional Hell-Scourge",
       "pts": 75
     },
     {
+      "string_id": "two_additional_hell_scourges",
       "id": 408,
       "name": "Two additional Hell-Scourges",
       "pts": 150
     },
     {
+      "string_id": "one_additional_hell_knight",
       "id": 409,
       "name": "One additional Hell-Knight",
       "pts": 65
     },
     {
+      "string_id": "two_additional_hell_knights",
       "id": 410,
       "name": "Two additional Hell-Knights",
       "pts": 130
     },
     {
+      "string_id": "one_additional_hell_strider",
       "id": 411,
       "name": "One additional Hell-Strider",
       "pts": 55
     },
     {
+      "string_id": "two_additional_hell_striders",
       "id": 412,
       "name": "Two additional Hell-Striders",
       "pts": 110
     },
     {
+      "string_id": "one_additional_renegade_knight",
       "id": 413,
       "name": "One additional Renegade Knight",
       "pts": 75
     },
     {
+      "string_id": "two_additional_renegade_knights",
       "id": 414,
       "name": "Two additional Renegade Knights",
       "pts": 150
     },
     {
+      "string_id": "one_additional_mauler_knight",
       "id": 415,
       "name": "One additional Mauler Knight",
       "pts": 75
     },
     {
+      "string_id": "two_additional_mauler_knights",
       "id": 416,
       "name": "Two additional Mauler Knights",
       "pts": 150
     },
     {
+      "string_id": "one_additional_decay_knight",
       "id": 417,
       "name": "One additional Decay Knight",
       "pts": 75
     },
     {
+      "string_id": "two_additional_decay_knights",
       "id": 418,
       "name": "Two additional Decay Knights",
       "pts": 150
     },
     {
+      "string_id": "one_additional_change_knight",
       "id": 419,
       "name": "One additional Change Knight",
       "pts": 75
     },
     {
+      "string_id": "two_additional_change_knights",
       "id": 420,
       "name": "Two additional Change Knights",
       "pts": 150
     },
     {
+      "string_id": "one_additional_daemonic_assault_engine",
       "id": 421,
       "name": "One additional Daemonic Assault Engine",
       "pts": 55
     },
     {
+      "string_id": "two_additional_daemonic_assault_engines",
       "id": 422,
       "name": "Two additional Daemonic Assault Engines",
       "pts": 110
     },
     {
+      "string_id": "one_additional_retlaxi_pattern_defiler_with_mark_of_chaos_undivided",
       "id": 423,
       "name": "One additional Retlaxi-Pattern Defiler with Mark of Chaos Undivided",
       "pts": 45
     },
     {
+      "string_id": "two_additional_retlaxi_pattern_defilers_with_mark_of_chaos_undivided",
       "id": 424,
       "name": "Two additional Retlaxi-Pattern Defilers with Mark of Chaos Undivided",
       "pts": 90
     },
     {
+      "string_id": "one_additional_retlaxi_pattern_defiler_with_trappings_of_nurgle",
       "id": 425,
       "name": "One additional Retlaxi-Pattern Defiler with Trappings of Nurgle",
       "pts": 45
     },
     {
+      "string_id": "two_additional_retlaxi_pattern_defilers_with_trappings_of_nurgle",
       "id": 426,
       "name": "Two additional Retlaxi-Pattern Defilers with Trappings of Nurgle",
       "pts": 90
     },
     {
+      "string_id": "one_additional_retlaxi_pattern_defiler_with_gifts_of_tzeentch",
       "id": 427,
       "name": "One additional Retlaxi-Pattern Defiler with Gifts of Tzeentch",
       "pts": 45
     },
     {
+      "string_id": "two_additional_retlaxi_pattern_defilers_with_gifts_of_tzeentch",
       "id": 428,
       "name": "Two additional Retlaxi-Pattern Defilers with Gifts of Tzeentch",
       "pts": 90
     },
     {
+      "string_id": "one_additional_cannon_of_khorne",
       "id": 429,
       "name": "One additional Cannon of Khorne",
       "pts": 45
     },
     {
+      "string_id": "two_additional_cannons_of_khorne",
       "id": 430,
       "name": "Two additional Cannons of Khorne",
       "pts": 90
     },
     {
+      "string_id": "lesser_daemons",
       "id": 450,
       "name": "Lesser Daemons",
       "pts": 15
