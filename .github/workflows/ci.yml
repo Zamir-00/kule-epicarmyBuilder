@@ -48,6 +48,19 @@ jobs:
       - name: Syntax-check the loader
         run: node --check war/js/unitProfileLoader.js
 
+  schema-validation:
+    name: JSON Schema validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate source-json files
+        run: npx --yes ajv-cli@5 validate -s schemas/source-json.schema.json -d "war/source-json/*.json" --strict=false --all-errors --spec=draft7
+      - name: Validate lists files
+        run: npx --yes ajv-cli@5 validate -s schemas/list.schema.json -d "war/lists/*.json" --strict=false --all-errors --spec=draft7
+
   inventory:
     name: Faction inventory (informational)
     runs-on: ubuntu-latest
