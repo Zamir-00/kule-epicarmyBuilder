@@ -2,14 +2,13 @@ import { test } from 'node:test';
 import assert from 'node:assert';
 import { buildApp } from '../index.js';
 
-test('GET / redirects to /chooser.html', async () => {
+test('GET / serves the legacy ruleset nav menu (war/index.html)', async () => {
   const app = await buildApp();
   const r = await app.inject({ method: 'GET', url: '/' });
-  assert.ok(r.statusCode === 302 || r.statusCode === 301, `expected redirect, got ${r.statusCode}`);
-  assert.ok(
-    (r.headers['location'] as string).includes('chooser.html'),
-    `expected location to include chooser.html, got ${r.headers['location']}`
-  );
+  assert.strictEqual(r.statusCode, 200);
+  assert.match(r.headers['content-type'] as string, /text\/html/);
+  // war/index.html links to per-ruleset menus — sanity check we hit the right file
+  assert.match(r.body, /indexNETEA\.html|indexGW\.html/);
   await app.close();
 });
 

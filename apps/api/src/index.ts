@@ -37,10 +37,10 @@ export async function buildApp(opts?: BuildAppOpts) {
 
   app.get('/healthz', async () => ({ status: 'ok' }));
 
-  // Root redirect
-  app.get('/', async (req, reply) => {
-    reply.code(302).header('location', '/chooser.html').send();
-  });
+  // No explicit '/' handler — @fastify/static serves war/index.html (the legacy
+  // ruleset nav menu) at /. Skipping it dumps users into chooser.html with no
+  // ?list=... query param, which triggers a pre-existing bug at chooser.js:2635
+  // where it calls .split() on undefined.
 
   await registerStaticRoutes(app);
 
