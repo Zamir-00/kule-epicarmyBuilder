@@ -2749,10 +2749,15 @@
     {
       "name": "Chaos Emperor Titan",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Heretek Temple",
@@ -2812,10 +2817,15 @@
     {
       "name": "Chaos Warlord Titan",
       "type": "WE",
+      "type_code": "WE",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "2+",
+      "cc_target": 2,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Carapace weapon",
@@ -2857,10 +2867,15 @@
     {
       "name": "Chaos Reaver Titan",
       "type": "WE",
+      "type_code": "WE",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Carapace weapon",
@@ -2901,10 +2916,15 @@
     {
       "name": "Chaos Warhound Titan",
       "type": "WE",
+      "type_code": "WE",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Arm Weapon",
@@ -2936,10 +2956,15 @@
     {
       "name": "Retlaxi Pattern Death Wheel",
       "type": "WE",
+      "type_code": "WE",
       "speed": "35cm",
+      "speed_cm": 35,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "5+",
+      "cc_target": 5,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "2 x Reaper Autocannon",
@@ -2991,10 +3016,15 @@
     {
       "name": "Lord of Battles",
       "type": "WE",
+      "type_code": "WE",
       "speed": "25cm",
+      "speed_cm": 25,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "2+",
+      "cc_target": 2,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "2 x Battle Cannon",
@@ -3039,10 +3069,15 @@
     {
       "name": "Greater Brass Scorpion",
       "type": "WE",
+      "type_code": "WE",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Greater Scorpion Cannon",
@@ -3099,10 +3134,15 @@
     {
       "name": "Subjugator Titan",
       "type": "WE",
+      "type_code": "WE",
       "speed": "35cm",
+      "speed_cm": 35,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "2 x Battle Cannon",
@@ -3141,10 +3181,15 @@
     {
       "name": "Questor Titan",
       "type": "WE",
+      "type_code": "WE",
       "speed": "35cm",
+      "speed_cm": 35,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "5+",
+      "cc_target": 5,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "2 x Battle Cannon",
@@ -3182,10 +3227,15 @@
     {
       "name": "Hell-Scourge",
       "type": "WE",
+      "type_code": "WE",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Castigator Cannon",
@@ -3212,10 +3262,15 @@
     {
       "name": "Hell-Knight",
       "type": "WE",
+      "type_code": "WE",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Thermal Lance",
@@ -3248,10 +3303,15 @@
     {
       "name": "Hell-Strider",
       "type": "AV",
+      "type_code": "AV",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Lascannon",
@@ -3289,10 +3349,15 @@
     {
       "name": "Renegade Knight of Chaos Undivided",
       "type": "WE",
+      "type_code": "WE",
       "speed": "25cm",
+      "speed_cm": 25,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Battle Cannon",
@@ -3336,10 +3401,15 @@
     {
       "name": "Mauler Knight of Khorne",
       "type": "WE",
+      "type_code": "WE",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Twin Melta Guns",
@@ -3387,10 +3457,15 @@
     {
       "name": "Decay Knight of Nurgle",
       "type": "WE",
+      "type_code": "WE",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Heretek Anyon Cannon",
@@ -3437,10 +3512,15 @@
     {
       "name": "Change Knight of Tzeentch",
       "type": "WE",
+      "type_code": "WE",
       "speed": "25cm",
+      "speed_cm": 25,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "5+",
+      "cc_target": 5,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Battle Cannon",
@@ -3486,10 +3566,15 @@
     {
       "name": "Daemonic Assault Engine",
       "type": "AV",
+      "type_code": "AV",
       "speed": "25cm",
+      "speed_cm": 25,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "5+",
+      "ff_target": 5,
       "weapons": [
         {
           "name": "Blood Cannon",
@@ -3520,10 +3605,15 @@
     {
       "name": "Retlaxi Pattern Defiler",
       "type": "AV",
+      "type_code": "AV",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Heavy Cannon",
@@ -3581,10 +3671,15 @@
     {
       "name": "Cannon of Khorne",
       "type": "AV",
+      "type_code": "AV",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "6+",
+      "cc_target": 6,
       "ff": "4+",
+      "ff_target": 4,
       "weapons": [
         {
           "name": "Hellfire Cannon",
@@ -3607,10 +3702,15 @@
     {
       "name": "Greater Daemon Possession",
       "type": "CH",
+      "type_code": "CH",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "Supreme Commander",
@@ -3629,10 +3729,15 @@
     {
       "name": "Eye of the Gods",
       "type": "CH",
+      "type_code": "CH",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [],
       "abilities_or_notes": [
         "Leader",
@@ -3647,10 +3752,15 @@
     {
       "name": "Bloodletters of Khorne",
       "type": "INF",
+      "type_code": "INF",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Hellblades",
@@ -3676,10 +3786,15 @@
     {
       "name": "Daemonettes of Slaanesh",
       "type": "INF",
+      "type_code": "INF",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Daemonic Claws",
@@ -3704,10 +3819,15 @@
     {
       "name": "Flamers of Tzeentch",
       "type": "INF",
+      "type_code": "INF",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "5+",
+      "cc_target": 5,
       "ff": "3+",
+      "ff_target": 3,
       "weapons": [
         {
           "name": "Flames of Tzeentch",
@@ -3737,10 +3857,15 @@
     {
       "name": "Plaguebearers of Nurgle",
       "type": "INF",
+      "type_code": "INF",
       "speed": "15cm",
+      "speed_cm": 15,
       "armour": "3+",
+      "armour_save": 3,
       "cc": "4+",
+      "cc_target": 4,
       "ff": "6+",
+      "ff_target": 6,
       "weapons": [
         {
           "name": "Plague Swords",
@@ -3770,10 +3895,15 @@
     {
       "name": "Daemonic Beasts of Chaos Undivided",
       "type": "INF",
+      "type_code": "INF",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Claws and Fangs",
@@ -3798,10 +3928,15 @@
     {
       "name": "Screamers of Tzeentch",
       "type": "INF",
+      "type_code": "INF",
       "speed": "30cm",
+      "speed_cm": 30,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Claws",
@@ -3825,10 +3960,15 @@
     {
       "name": "Flesh Hounds of Khorne",
       "type": "INF",
+      "type_code": "INF",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "2+",
+      "cc_target": 2,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Claws and Fangs",
@@ -3852,10 +3992,15 @@
     {
       "name": "Daemonettes on Steeds",
       "type": "INF",
+      "type_code": "INF",
       "speed": "20cm",
+      "speed_cm": 20,
       "armour": "4+",
+      "armour_save": 4,
       "cc": "3+",
+      "cc_target": 3,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Daemonic Claws",
@@ -3880,10 +4025,15 @@
     {
       "name": "Hell Blade",
       "type": "AC",
+      "type_code": "AC",
       "speed": "Fighter",
+      "speed_cm": null,
       "armour": "6+",
+      "armour_save": 6,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "2 x Reaper Autocannon",
@@ -3904,10 +4054,15 @@
     {
       "name": "Hell Talon",
       "type": "AC",
+      "type_code": "AC",
       "speed": "Fighter-Bomber",
+      "speed_cm": null,
       "armour": "5+",
+      "armour_save": 5,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Twin Lascannon",
@@ -3945,10 +4100,15 @@
     {
       "name": "Harbringer Bomber",
       "type": "WE",
+      "type_code": "WE",
       "speed": "5+",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Incendiary Bombs",
@@ -3998,10 +4158,15 @@
     {
       "name": "Despoiler Class Battleship",
       "type": "SC",
+      "type_code": "SC",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Orbital Bombardment",
@@ -4032,10 +4197,15 @@
     {
       "name": "Retlaxi Cyclone",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Retlaxi Cyclone",
@@ -4058,10 +4228,15 @@
     {
       "name": "Beam Blaster",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Beam Blaster",
@@ -4084,10 +4259,15 @@
     {
       "name": "Cannons of Chaos",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Cannons of Chaos",
@@ -4111,10 +4291,15 @@
     {
       "name": "Havoc Vortex Missiles",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Havoc Vortex Missiles",
@@ -4140,10 +4325,15 @@
     {
       "name": "Havoc Warp Missiles",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Havoc Warp Missiles",
@@ -4168,10 +4358,15 @@
     {
       "name": "Chaos Plasma Incinerator",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Chaos Plasma Incinerator",
@@ -4195,10 +4390,15 @@
     {
       "name": "Hellstrike Cannon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Hellstrike Cannon",
@@ -4222,10 +4422,15 @@
     {
       "name": "Beam of Change",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Beam of Change",
@@ -4248,10 +4453,15 @@
     {
       "name": "Heavy Plague Mortar",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Heavy Plague Mortar",
@@ -4274,10 +4484,15 @@
     {
       "name": "Beam of Ecstasy",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Beam of Ecstasy",
@@ -4300,10 +4515,15 @@
     {
       "name": "Retlaxi Trident",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Retlaxi Trident",
@@ -4329,10 +4549,15 @@
     {
       "name": "Heretek Shrine",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Heretek Shrine",
@@ -4358,10 +4583,15 @@
     {
       "name": "Battle Titan CC Weapon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Battle Titan CC Weapon",
@@ -4385,10 +4615,15 @@
     {
       "name": "Havoc Barrage Missiles",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Havoc Barrage Missiles",
@@ -4412,10 +4647,15 @@
     {
       "name": "Chaos Plasma Cremator",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Chaos Plasma Cremator",
@@ -4439,10 +4679,15 @@
     {
       "name": "Doom Burner",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Doom Burner",
@@ -4466,10 +4711,15 @@
     {
       "name": "Doom Fist",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Doom Fist",
@@ -4493,10 +4743,15 @@
     {
       "name": "Mangler",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Mangler",
@@ -4520,10 +4775,15 @@
     {
       "name": "Tzeentch Cannon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Tzeentch Cannon",
@@ -4544,10 +4804,15 @@
     {
       "name": "Coruscant Hail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Coruscant Hail",
@@ -4570,10 +4835,15 @@
     {
       "name": "Corruption Cannon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Corruption Cannon",
@@ -4594,10 +4864,15 @@
     {
       "name": "Plague Flail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Plague Flail",
@@ -4621,10 +4896,15 @@
     {
       "name": "Rot Cannon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Rot Cannon",
@@ -4647,10 +4927,15 @@
     {
       "name": "Sonic Devastator",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Sonic Devastator",
@@ -4673,10 +4958,15 @@
     {
       "name": "Musk Flail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Musk Flail",
@@ -4701,10 +4991,15 @@
     {
       "name": "Chaos Reaper Mega Bolter",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Chaos Reaper Mega Bolter",
@@ -4725,10 +5020,15 @@
     {
       "name": "Hellmouth",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Hellmouth",
@@ -4751,10 +5051,15 @@
     {
       "name": "Chaos Plasma Furnace",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Chaos Plasma Furnace",
@@ -4778,10 +5083,15 @@
     {
       "name": "Death Storm",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Death Storm",
@@ -4802,10 +5112,15 @@
     {
       "name": "Ursus Claw",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Ursus Claw",
@@ -4831,10 +5146,15 @@
     {
       "name": "Gaze of Tzeentch",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Gaze of Tzeentch",
@@ -4855,10 +5175,15 @@
     {
       "name": "Arcane Cannons",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Arcane Cannons",
@@ -4879,10 +5204,15 @@
     {
       "name": "Pus Cannon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Pus Cannon",
@@ -4906,10 +5236,15 @@
     {
       "name": "Boil Cannon",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Boil Cannon",
@@ -4932,10 +5267,15 @@
     {
       "name": "Command Head",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Command Head",
@@ -4961,10 +5301,15 @@
     {
       "name": "Battle Head",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Battle Head",
@@ -4989,10 +5334,15 @@
     {
       "name": "Void Head",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Void Head",
@@ -5017,10 +5367,15 @@
     {
       "name": "Daemon Maw",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Daemon Maw",
@@ -5046,10 +5401,15 @@
     {
       "name": "Plague Maw",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Plague Maw",
@@ -5076,10 +5436,15 @@
     {
       "name": "Gun Tail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Gun Tail",
@@ -5104,10 +5469,15 @@
     {
       "name": "Gun Tail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Gun Tail",
@@ -5132,10 +5502,15 @@
     {
       "name": "Razor Tail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Razor Tail",
@@ -5160,10 +5535,15 @@
     {
       "name": "Razor Tail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Razor Tail",
@@ -5188,10 +5568,15 @@
     {
       "name": "Barrage Tail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Barrage Tail",
@@ -5215,10 +5600,15 @@
     {
       "name": "Mace Tail",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Mace Tail",
@@ -5244,10 +5634,15 @@
     {
       "name": "Lust Lash",
       "type": "Reference",
+      "type_code": "Reference",
       "speed": "-",
+      "speed_cm": null,
       "armour": "-",
+      "armour_save": null,
       "cc": "-",
+      "cc_target": null,
       "ff": "-",
+      "ff_target": null,
       "weapons": [
         {
           "name": "Lust Lash",
