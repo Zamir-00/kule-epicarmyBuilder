@@ -48,11 +48,10 @@ test('GET /v2/assets/../../../etc/passwd is rejected (traversal guard)', async (
   await app.close();
 });
 
-test('GET / still returns 200 + legacy nav (no regression)', async () => {
+test('GET / redirects to /v2/ — SPA is default; legacy nav remains at /index.html', async () => {
   const app = await buildApp();
   const r = await app.inject({ method: 'GET', url: '/' });
-  assert.strictEqual(r.statusCode, 200);
-  assert.match(r.headers['content-type'] as string, /text\/html/);
-  assert.match(r.body, /indexNETEA\.html|indexGW\.html/);
+  assert.strictEqual(r.statusCode, 303);
+  assert.strictEqual(r.headers['location'], '/v2/');
   await app.close();
 });
