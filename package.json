@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build --workspace apps/api",
+    "build": "npm run build --workspace apps/web && npm run build --workspace apps/api",
     "start": "node apps/api/dist/index.js",
     "dev": "npm run dev --workspace apps/api",
     "test": "npm run test --workspace apps/api",

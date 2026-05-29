@@ -21,3 +21,22 @@ function findWarRoot(): string {
 }
 
 export const WAR_ROOT = findWarRoot();
+
+function findWebRoot(): string | null {
+  if (process.env.WEB_ROOT) {
+    return path.resolve(process.env.WEB_ROOT);
+  }
+  // Production (post-build): apps/api/dist/web/
+  const distWeb = path.resolve(__dirname, 'web');
+  if (fs.existsSync(path.join(distWeb, 'index.html'))) {
+    return distWeb;
+  }
+  // Monorepo dev (running via tsx): apps/web/dist/
+  const monorepoPath = path.resolve(__dirname, '..', '..', 'web', 'dist');
+  if (fs.existsSync(path.join(monorepoPath, 'index.html'))) {
+    return monorepoPath;
+  }
+  return null;
+}
+
+export const WEB_ROOT: string | null = findWebRoot();

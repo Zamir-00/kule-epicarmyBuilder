@@ -18,10 +18,13 @@ const ROOT  = path.resolve(__dirname, '..');
 const STAGE = path.join(ROOT, 'deploy', 'stage');
 const OUT   = path.join(ROOT, 'deploy', 'kule-armybuilder.zip');
 
-console.log('1/5 building apps/api (tsc + copy migrations)...');
+console.log('1/5 building apps/web (vite build)...');
+execSync('npm run build --workspace apps/web', { cwd: ROOT, stdio: 'inherit' });
+
+console.log('2/5 building apps/api (tsc + copy migrations + copy web)...');
 execSync('npm run build --workspace apps/api', { cwd: ROOT, stdio: 'inherit' });
 
-console.log('2/5 staging files...');
+console.log('3/6 staging files...');
 if (fs.existsSync(STAGE)) fs.rmSync(STAGE, { recursive: true, force: true });
 fs.mkdirSync(STAGE, { recursive: true });
 
@@ -33,7 +36,7 @@ function copy(src, dest) {
 copy(path.join(ROOT, 'apps', 'api', 'dist'), path.join(STAGE, 'dist'));
 copy(path.join(ROOT, 'war'),                  path.join(STAGE, 'war'));
 
-console.log('3/5 generating standalone package.json...');
+console.log('4/6 generating standalone package.json...');
 const apiPkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'apps', 'api', 'package.json'), 'utf8'));
 const deployPkg = {
   name: 'kule-armybuilder',
@@ -50,10 +53,10 @@ const deployPkg = {
 };
 fs.writeFileSync(path.join(STAGE, 'package.json'), JSON.stringify(deployPkg, null, 2) + '\n');
 
-console.log('4/5 regenerating package-lock.json for standalone deps...');
+console.log('5/6 regenerating package-lock.json for standalone deps...');
 execSync('npm install --package-lock-only --omit=dev', { cwd: STAGE, stdio: 'inherit' });
 
-console.log('5/5 zipping...');
+console.log('6/6 zipping...');
 if (fs.existsSync(OUT)) fs.rmSync(OUT);
 execSync(`cd "${STAGE}" && zip -rq "${OUT}" .`, { stdio: 'inherit' });
 
