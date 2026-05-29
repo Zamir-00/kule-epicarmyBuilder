@@ -19,6 +19,9 @@ function Header() {
             <span className="text-sm text-muted-foreground">…</span>
           ) : isSignedIn ? (
             <>
+              <Link to="/lists">
+                <Button variant="ghost" size="sm">My lists</Button>
+              </Link>
               <span className="text-sm text-muted-foreground">{user?.email}</span>
               <Button variant="outline" size="sm" onClick={() => signOut.mutate()}>
                 Sign out
