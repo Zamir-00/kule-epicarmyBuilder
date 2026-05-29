@@ -61,6 +61,25 @@
 	<script type="text/javascript" src="./js/chooser.js"></script>
 </head>
 <body>
+	<style>
+		#v2Banner { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; background: #1e3a8a; color: #fff; padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+		#v2Banner a { color: #fff; text-decoration: underline; font-weight: 600; }
+		#v2Banner .dismiss { background: transparent; border: 0; color: #fff; font-size: 18px; line-height: 1; cursor: pointer; padding: 4px 8px; opacity: 0.7; }
+		#v2Banner .dismiss:hover { opacity: 1; }
+	</style>
+	<div id="v2Banner" style="display:none">
+		<span>Try the new builder — faster, with sharable lists and faction filtering. <a id="v2BannerLink" href="/v2/">Open new builder →</a></span>
+		<button class="dismiss" type="button" aria-label="Dismiss" onclick="document.getElementById('v2Banner').style.display='none';try{localStorage.setItem('v2BannerDismissed','1')}catch(e){}">×</button>
+	</div>
+	<script>
+		(function () {
+			try { if (localStorage.getItem('v2BannerDismissed') === '1') return; } catch (e) {}
+			var listId = new URLSearchParams(window.location.search).get('list');
+			var link = document.getElementById('v2BannerLink');
+			if (listId && /^[A-Za-z0-9_.-]+$/.test(listId)) link.href = '/v2/build/' + encodeURIComponent(listId);
+			document.getElementById('v2Banner').style.display = 'flex';
+		})();
+	</script>
 	<div id="armyList">
 	</div>
 	<div id="controls">
