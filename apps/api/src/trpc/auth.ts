@@ -96,6 +96,9 @@ export const authRouter = router({
       return { ok: true as const };
     }),
 
-  me: authedProcedure
-    .query(({ ctx }) => ctx.user),
+  // Public on purpose: the SPA calls this on every page to detect sign-in state.
+  // Returns null for signed-out users instead of throwing UNAUTHORIZED, so the
+  // probe doesn't show up as a red 401 in users' DevTools.
+  me: procedure
+    .query(({ ctx }) => ctx.user ?? null),
 });
