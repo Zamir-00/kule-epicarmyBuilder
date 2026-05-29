@@ -1,0 +1,26 @@
+{
+  "id": "TEST_swap_missing_upgrade",
+  "list_id": "TEST_swap_missing_upgrade",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "demi", "id": 1, "name": "Demi", "pts": 100, "cost_pts": 100, "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "slot1", "label": "Slot 1",
+              "variants": [
+                { "upgrade_id": 100, "is_default": true },
+                { "upgrade_id": 999 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 100, "name": "A", "pts": 0 }
+  ]
+}
