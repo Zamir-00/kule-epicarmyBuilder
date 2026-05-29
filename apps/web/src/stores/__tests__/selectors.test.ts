@@ -94,6 +94,9 @@ function emptyState(): BuilderState {
     removeFormation: () => {},
     toggleUpgrade: () => {},
     selectSwapVariant: () => {},
+    setLoadoutPosition: () => {},
+    appendLoadoutPosition: () => {},
+    removeLoadoutPosition: () => {},
     setTitle: () => {},
     setPointsTarget: () => {},
     setIsPublic: () => {},
@@ -416,5 +419,104 @@ describe('loadout_slots — violations', () => {
     }];
     const msgs = violations(state, sampleCatalog);
     assert.ok(msgs.some((m) => /Warlord.*Weapons.*at least 2/i.test(m)), `got: ${msgs.join('; ')}`);
+  });
+});
+
+describe('builder-store — loadout actions', () => {
+  test('setLoadoutPosition replaces variant at the given index', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('warlord');
+    const inst = useBuilderStore.getState().formations[0]!;
+    // Initially loadout_choices undefined; calling setLoadoutPosition should initialize it
+    useBuilderStore.getState().setLoadoutPosition(inst.instance_id, 'weapons', 0, 'sunfury_plasma');
+    const after = useBuilderStore.getState().formations[0]!;
+    assert.deepStrictEqual(after.loadout_choices, { weapons: ['sunfury_plasma'] });
+  });
+
+  test('setLoadoutPosition at index past current length pads sparse positions', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('warlord');
+    const inst = useBuilderStore.getState().formations[0]!;
+    useBuilderStore.getState().setLoadoutPosition(inst.instance_id, 'weapons', 2, 'sunfury_plasma');
+    const after = useBuilderStore.getState().formations[0]!;
+    // Length grows to index+1; intermediate slots are empty strings (resolved by getLoadoutPositions)
+    assert.strictEqual(after.loadout_choices!.weapons!.length, 3);
+    assert.strictEqual(after.loadout_choices!.weapons![2], 'sunfury_plasma');
+  });
+
+  test('appendLoadoutPosition pushes a new variant to the end', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('inf_company');
+    const inst = useBuilderStore.getState().formations[0]!;
+    useBuilderStore.getState().appendLoadoutPosition(inst.instance_id, 'support_upg', 'gun_servitors');
+    useBuilderStore.getState().appendLoadoutPosition(inst.instance_id, 'support_upg', 'manticore');
+    const after = useBuilderStore.getState().formations[0]!;
+    assert.deepStrictEqual(after.loadout_choices?.support_upg, ['gun_servitors', 'manticore']);
+  });
+
+  test('removeLoadoutPosition removes the position at the given index', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('warlord');
+    const inst = useBuilderStore.getState().formations[0]!;
+    useBuilderStore.getState().setLoadoutPosition(inst.instance_id, 'weapons', 0, 'sunfury_plasma');
+    useBuilderStore.getState().setLoadoutPosition(inst.instance_id, 'weapons', 1, 'power_claw');
+    useBuilderStore.getState().removeLoadoutPosition(inst.instance_id, 'weapons', 0);
+    const after = useBuilderStore.getState().formations[0]!;
+    assert.deepStrictEqual(after.loadout_choices?.weapons, ['power_claw']);
+  });
+
+  test('removeLoadoutPosition that leaves the slot empty also clears the loadout_choices entry', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('inf_company');
+    const inst = useBuilderStore.getState().formations[0]!;
+    useBuilderStore.getState().appendLoadoutPosition(inst.instance_id, 'support_upg', 'gun_servitors');
+    useBuilderStore.getState().removeLoadoutPosition(inst.instance_id, 'support_upg', 0);
+    const after = useBuilderStore.getState().formations[0]!;
+    assert.strictEqual(after.loadout_choices, undefined);
+  });
+});
+
+describe('builder-store — body_version v3', () => {
+  test('initFromCatalog sets body_version to 3', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    assert.strictEqual(useBuilderStore.getState().body_version, 3);
+  });
+
+  test('reset returns body_version to 3', () => {
+    useBuilderStore.getState().reset();
+    assert.strictEqual(useBuilderStore.getState().body_version, 3);
+  });
+
+  test('initFromSavedList reads body.body_version (3) from saved bodies', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromSavedList({
+      id: 's1', list_id: 'TEST', title: 't', points_target: null, is_public: false,
+      body: { body_version: 3, formations: [] },
+    });
+    assert.strictEqual(useBuilderStore.getState().body_version, 3);
+  });
+
+  test('initFromSavedList preserves legacy v2 body_version', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromSavedList({
+      id: 's1', list_id: 'TEST', title: 't', points_target: null, is_public: false,
+      body: { body_version: 2, formations: [] },
+    });
+    assert.strictEqual(useBuilderStore.getState().body_version, 2);
+  });
+
+  test('initFromSavedList defaults missing body_version to 1', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromSavedList({
+      id: 's1', list_id: 'TEST', title: 't', points_target: null, is_public: false,
+      body: { formations: [] },
+    });
+    assert.strictEqual(useBuilderStore.getState().body_version, 1);
   });
 });

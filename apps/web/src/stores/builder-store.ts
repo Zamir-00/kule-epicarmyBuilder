@@ -28,7 +28,8 @@ export interface BuilderState {
   title: string;
   points_target: number | null;
   is_public: boolean;
-  /** Body schema version. Absent/1 = legacy; 2 = with swap_choices. Always written as 2 going forward. */
+  /** Body schema version. Absent/1 = legacy; 2 = with swap_choices (S3.16);
+   * 3 = with loadout_choices (this spec). Always written as 3 going forward. */
   body_version: number;
   formations: BuilderFormation[];
 
@@ -47,6 +48,28 @@ export interface BuilderState {
     chosen_variant_string_id: string,
     default_variant_string_id: string,
   ): void;
+  /** Set the variant at a specific position index in a loadout slot. If `position_index`
+   * exceeds the current length, the array grows; intermediate sparse slots become empty
+   * strings (resolved to default/empty by getLoadoutPositions at render time). */
+  setLoadoutPosition(
+    instance_id: string,
+    slot_string_id: string,
+    position_index: number,
+    variant_string_id: string,
+  ): void;
+  /** Append a new position with the given variant to the loadout slot. */
+  appendLoadoutPosition(
+    instance_id: string,
+    slot_string_id: string,
+    variant_string_id: string,
+  ): void;
+  /** Remove the position at the given index. If the slot's positions become empty,
+   * the slot entry is removed from loadout_choices. */
+  removeLoadoutPosition(
+    instance_id: string,
+    slot_string_id: string,
+    position_index: number,
+  ): void;
   setTitle(title: string): void;
   setPointsTarget(n: number | null): void;
   setIsPublic(b: boolean): void;
@@ -60,7 +83,7 @@ export const useBuilderStore = create<BuilderState>((set) => ({
   title: '',
   points_target: null,
   is_public: false,
-  body_version: 2,
+  body_version: 3,
   formations: [],
 
   initFromCatalog: (list_id) => set({
@@ -69,7 +92,7 @@ export const useBuilderStore = create<BuilderState>((set) => ({
     title: '',
     points_target: null,
     is_public: false,
-    body_version: 2,
+    body_version: 3,
     formations: [],
   }),
   initFromSavedList: (saved) => set(() => {
@@ -131,6 +154,49 @@ export const useBuilderStore = create<BuilderState>((set) => ({
       return next;
     }),
   })),
+  setLoadoutPosition: (instance_id, slot_string_id, position_index, variant_string_id) => set((s) => ({
+    formations: s.formations.map((f) => {
+      if (f.instance_id !== instance_id) return f;
+      const current = { ...(f.loadout_choices ?? {}) };
+      const positions = [...(current[slot_string_id] ?? [])];
+      // Grow with empty strings to reach position_index
+      while (positions.length <= position_index) positions.push('');
+      positions[position_index] = variant_string_id;
+      current[slot_string_id] = positions;
+      const next: BuilderFormation = { ...f, loadout_choices: current };
+      return next;
+    }),
+  })),
+  appendLoadoutPosition: (instance_id, slot_string_id, variant_string_id) => set((s) => ({
+    formations: s.formations.map((f) => {
+      if (f.instance_id !== instance_id) return f;
+      const current = { ...(f.loadout_choices ?? {}) };
+      const positions = [...(current[slot_string_id] ?? []), variant_string_id];
+      current[slot_string_id] = positions;
+      const next: BuilderFormation = { ...f, loadout_choices: current };
+      return next;
+    }),
+  })),
+  removeLoadoutPosition: (instance_id, slot_string_id, position_index) => set((s) => ({
+    formations: s.formations.map((f) => {
+      if (f.instance_id !== instance_id) return f;
+      const current = { ...(f.loadout_choices ?? {}) };
+      const positions = [...(current[slot_string_id] ?? [])];
+      positions.splice(position_index, 1);
+      const next: BuilderFormation = { ...f };
+      if (positions.length === 0) {
+        delete current[slot_string_id];
+      } else {
+        current[slot_string_id] = positions;
+      }
+      if (Object.keys(current).length === 0) {
+        delete next.loadout_choices;
+      } else {
+        next.loadout_choices = current;
+      }
+      return next;
+    }),
+  })),
   setTitle: (title) => set({ title }),
   setPointsTarget: (n) => set({ points_target: n }),
   setIsPublic: (b) => set({ is_public: b }),
@@ -141,7 +207,7 @@ export const useBuilderStore = create<BuilderState>((set) => ({
     title: '',
     points_target: null,
     is_public: false,
-    body_version: 2,
+    body_version: 3,
     formations: [],
   }),
 }));
