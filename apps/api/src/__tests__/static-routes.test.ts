@@ -113,6 +113,17 @@ test('GET /data/source-for-list/CHAOS_dg_NETEA returns the death-guard source-js
   await app.close();
 });
 
+test('GET /data/source-for-list/SM_scars_NETEA resolves via the kebab-name fallback', async () => {
+  const app = await buildApp();
+  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/SM_scars_NETEA' });
+  assert.strictEqual(r.statusCode, 200);
+  const parsed = JSON.parse(r.body);
+  // The source-json file doesn't self-identify with metadata.list_id; resolution
+  // comes from unitProfiles.smWhiteScars.js's armyIds + the kebab convention.
+  assert.ok(parsed?.profiles || parsed?.metadata, 'expected a source-json shape');
+  await app.close();
+});
+
 test('GET /data/source-for-list/<unmapped-list> returns 404', async () => {
   const app = await buildApp();
   // Pick a list_id that has no source-json mapping: ORK_feral
