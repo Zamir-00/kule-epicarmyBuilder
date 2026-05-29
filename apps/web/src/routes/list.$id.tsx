@@ -12,8 +12,11 @@ import {
   findUpgradeById,
   getSwapChoice,
   swapDeltaForFormation,
+  getLoadoutPositions,
+  loadoutCostForFormation,
   type CatalogList,
   type CatalogSwapSlot,
+  type CatalogLoadoutSlot,
 } from '@/stores/selectors';
 import { Button } from '@/components/ui/button';
 import { FormationProfiles, useSourceForList, type SourceJson } from '@/components/UnitProfiles';
@@ -275,6 +278,7 @@ function FormationViewRow({
     }
   }
   totalCost += swapDeltaForFormation(catalog, def, instance.swap_choices);
+  totalCost += loadoutCostForFormation(catalog, def, instance.loadout_choices);
 
   // Resolve swap composition: one line per slot showing the chosen variant name
   const swapSlots: CatalogSwapSlot[] = def.swap_slots ?? [];
@@ -296,6 +300,23 @@ function FormationViewRow({
     }
   }
 
+  // Resolve loadout composition: one line per slot showing the chosen positions summary
+  const loadoutSlots: CatalogLoadoutSlot[] = def.loadout_slots ?? [];
+  const loadoutLines: { label: string; summary: string }[] = [];
+  for (const slot of loadoutSlots) {
+    const positions = getLoadoutPositions(catalog, def, instance.loadout_choices, slot.string_id) ?? [];
+    if (positions.length === 0) continue;
+    const counts = new Map<string, number>();
+    for (const p of positions) counts.set(p, (counts.get(p) ?? 0) + 1);
+    const items: string[] = [];
+    for (const [stringId, n] of counts) {
+      const up = findUpgradeByStringId(catalog, stringId);
+      if (!up) continue;
+      items.push(n === 1 ? up.name : `${n}x ${up.name}`);
+    }
+    loadoutLines.push({ label: slot.label, summary: items.join(', ') });
+  }
+
   return (
     <li className="rounded-md border bg-card p-3 break-inside-avoid">
       <div className="flex items-start justify-between gap-2">
@@ -312,11 +333,16 @@ function FormationViewRow({
           ))}
         </ul>
       )}
-      {swapLines.length > 0 && (
+      {(swapLines.length > 0 || loadoutLines.length > 0) && (
         <ul className="mt-2 space-y-1">
-          {swapLines.map((s, i) => (
-            <li key={i} className="text-sm text-muted-foreground">
+          {swapLines.map((s) => (
+            <li key={`swap-${s.label}`} className="text-sm text-muted-foreground">
               • {s.label}: {s.chosenName}
+            </li>
+          ))}
+          {loadoutLines.map((l) => (
+            <li key={`loadout-${l.label}`} className="text-sm text-muted-foreground">
+              • {l.label}: {l.summary}
             </li>
           ))}
         </ul>
