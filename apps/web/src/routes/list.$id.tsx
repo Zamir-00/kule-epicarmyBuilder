@@ -119,7 +119,7 @@ function ListViewerPage() {
         <p className="mt-2 text-muted-foreground">
           {isNotFound
             ? 'This list either does not exist or is private.'
-            : `Couldn't load this list: ${(listQ.error as Error).message ?? 'unknown error'}.`}
+            : `Couldn't load this list: ${listQ.error.message ?? 'unknown error'}.`}
         </p>
         <p className="mt-4">
           <Link to="/" className="underline underline-offset-4">
