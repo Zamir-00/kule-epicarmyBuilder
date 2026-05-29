@@ -193,7 +193,7 @@ function ListViewerPage() {
           </div>
         </div>
 
-        <div className="mt-3 flex gap-2">
+        <div className="mt-3 flex gap-2 print:hidden">
           {isOwner && (
             <Link
               to="/build/$listId"
@@ -213,6 +213,9 @@ function ListViewerPage() {
               <Button variant="outline">Sign in to make a copy</Button>
             </Link>
           )}
+          <Button variant="outline" onClick={() => window.print()}>
+            Print / Save as PDF
+          </Button>
         </div>
       </header>
 
@@ -269,7 +272,7 @@ function FormationViewRow({
   }
 
   return (
-    <li className="rounded-md border bg-card p-3">
+    <li className="rounded-md border bg-card p-3 break-inside-avoid">
       <div className="flex items-start justify-between gap-2">
         <p className="font-medium">{def.name}</p>
         <p className="text-sm text-muted-foreground tabular-nums">{totalCost} pts</p>

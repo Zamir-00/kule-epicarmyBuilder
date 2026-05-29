@@ -100,18 +100,20 @@ function UnitProfileCard({ profile }: { profile: SourceProfile }) {
   const [open, setOpen] = useState(false);
   const stat = (label: string, value?: string) =>
     value && value !== 'n/a' ? <span><span className="text-muted-foreground">{label}</span> {value}</span> : null;
+  // The statline div is always rendered; visibility is controlled by class.
+  // `print:block` forces it open when printing so PDFs include every profile.
   return (
-    <li className="rounded-md border bg-background">
+    <li className="rounded-md border bg-background break-inside-avoid">
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
-        className="flex w-full items-center justify-between gap-2 px-3 py-2 text-left text-sm hover:bg-muted/40"
+        className="flex w-full items-center justify-between gap-2 px-3 py-2 text-left text-sm hover:bg-muted/40 print:hidden"
       >
         <span className="font-medium">{profile.name}</span>
         <span className="text-xs text-muted-foreground">{open ? '▲' : '▼'}</span>
       </button>
-      {open && (
-        <div className="space-y-2 border-t px-3 py-2 text-xs">
+      <p className="hidden px-3 py-2 text-sm font-medium print:block">{profile.name}</p>
+      <div className={`${open ? '' : 'hidden'} space-y-2 border-t px-3 py-2 text-xs print:block`}>
           <p className="flex flex-wrap gap-x-3 gap-y-1">
             {stat('Type', profile.type)}
             {stat('Speed', profile.speed)}
@@ -151,7 +153,6 @@ function UnitProfileCard({ profile }: { profile: SourceProfile }) {
             </p>
           )}
         </div>
-      )}
     </li>
   );
 }
