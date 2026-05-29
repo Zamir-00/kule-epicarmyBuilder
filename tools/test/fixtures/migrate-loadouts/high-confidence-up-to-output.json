@@ -1,0 +1,37 @@
+{
+  "id": "UpTo",
+  "list_id": "UPTO",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "inf",
+          "id": 100,
+          "name": "Infantry",
+          "pts": 200,
+          "cost_pts": 200,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hydra_or_manticore",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                { "upgrade_id": 10 },
+                { "upgrade_id": 11 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 10, "string_id": "hydra", "name": "Hydra", "pts": 50 },
+    { "id": 11, "string_id": "manticore", "name": "Manticore", "pts": 100 }
+  ],
+  "upgradeConstraints": [
+    { "max": 2, "from": [10, 11], "appliesTo": [100] }
+  ]
+}

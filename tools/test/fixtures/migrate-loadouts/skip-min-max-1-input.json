@@ -1,0 +1,14 @@
+{
+  "id": "MinMax1",
+  "list_id": "MINMAX1",
+  "sections": [
+    { "name": "CORE", "formations": [{ "string_id": "f", "id": 1, "name": "F", "pts": 100, "cost_pts": 100, "upgrades": [] }] }
+  ],
+  "upgrades": [
+    { "id": 10, "string_id": "a", "name": "A", "pts": 0 },
+    { "id": 11, "string_id": "b", "name": "B", "pts": 0 }
+  ],
+  "upgradeConstraints": [
+    { "min": 1, "max": 1, "from": [10, 11], "appliesTo": [1] }
+  ]
+}
