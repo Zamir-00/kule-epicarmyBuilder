@@ -62,6 +62,21 @@
             235,
             237,
             238
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_5_gun_servitor_unit_or_3_rapier_laser_destroyer_unit",
+              "label": "Support unit",
+              "variants": [
+                {
+                  "upgrade_id": 101,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 102
+                }
+              ]
+            }
           ]
         }
       ]
@@ -177,6 +192,21 @@
             82,
             83,
             84
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_imperator_configuration_or_warmonger_configuration",
+              "label": "Support unit",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -233,7 +263,22 @@
           "name": "Cataphracti Support",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_macharius_command_tank_vulcan_or_macharius_command_tank_vanquisher",
+              "label": "Support unit",
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 241
+                }
+              ]
+            }
+          ]
         }
       ]
     }
