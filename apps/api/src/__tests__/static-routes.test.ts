@@ -77,6 +77,25 @@ test('GET /data/lists returns an array of list metadata', async () => {
   await app.close();
 });
 
+test('GET /data/lists assigns faction_group to every entry', async () => {
+  const app = await buildApp();
+  const r = await app.inject({ method: 'GET', url: '/data/lists' });
+  assert.strictEqual(r.statusCode, 200);
+  const data = JSON.parse(r.body) as Array<{ list_id: string; faction_group: string }>;
+  for (const e of data) {
+    assert.ok(
+      typeof e.faction_group === 'string' && e.faction_group.length > 0,
+      `entry ${e.list_id} missing faction_group`,
+    );
+  }
+  const sm = data.find((e) => e.list_id.startsWith('SM_'));
+  assert.ok(sm, 'expected at least one SM_* list');
+  assert.strictEqual(sm!.faction_group, 'Space Marines');
+  const chaos = data.find((e) => e.list_id === 'CHAOS_dg_NETEA');
+  assert.strictEqual(chaos!.faction_group, 'Chaos');
+  await app.close();
+});
+
 test('GET /data/factions returns the inventory', async () => {
   const app = await buildApp();
   const r = await app.inject({ method: 'GET', url: '/data/factions' });

@@ -81,10 +81,32 @@ export async function registerStaticRoutes(app: FastifyInstance): Promise<void> 
 interface ListIndexEntry {
   list_id: string;
   faction_id?: string;
+  faction_group: string;
   ruleset?: string;
   version?: string;
   by?: string;
   display_name?: string;
+}
+
+// Maps the first underscore-separated token of list_id to a human-readable
+// parent-faction label. The legacy war/index*.html nav pages group lists by
+// these same buckets; this map is the data-driven equivalent.
+const FACTION_GROUP_BY_PREFIX: Record<string, string> = {
+  SM: 'Space Marines',
+  IG: 'Imperial Guard',
+  CHAOS: 'Chaos',
+  EL: 'Eldar',
+  XENOS: 'Xenos',
+  ORK: 'Orks',
+  AMTL: 'Adeptus Mechanicus',
+  INQ: 'Inquisition',
+  '30K': 'Horus Heresy',
+  SQ: 'Squats',
+};
+
+export function factionGroupFor(list_id: string): string {
+  const prefix = list_id.split('_', 1)[0] ?? '';
+  return FACTION_GROUP_BY_PREFIX[prefix] ?? 'Other';
 }
 
 let listsIndexCache: ListIndexEntry[] | null = null;
@@ -105,6 +127,7 @@ async function buildListsIndex(): Promise<ListIndexEntry[]> {
       entries.push({
         list_id: parsed.list_id,
         faction_id: typeof parsed.faction_id === 'string' ? parsed.faction_id : undefined,
+        faction_group: factionGroupFor(parsed.list_id),
         ruleset: typeof parsed.ruleset === 'string' ? parsed.ruleset : undefined,
         version: typeof parsed.version === 'string' ? parsed.version : undefined,
         by: typeof parsed.by === 'string' ? parsed.by : undefined,

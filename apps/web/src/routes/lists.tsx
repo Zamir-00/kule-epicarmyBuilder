@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useQuery } from '@tanstack/react-query';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { AuthGuard } from '@/components/auth/AuthGuard';
 import { trpc } from '@/lib/trpc';
 import { Button } from '@/components/ui/button';
@@ -13,6 +13,26 @@ interface ListEntryMeta {
   list_id: string;
   display_name?: string;
   ruleset?: string;
+  faction_group: string;
+}
+
+const FACTION_GROUP_ORDER = [
+  'Space Marines',
+  'Imperial Guard',
+  'Chaos',
+  'Eldar',
+  'Xenos',
+  'Orks',
+  'Adeptus Mechanicus',
+  'Inquisition',
+  'Horus Heresy',
+  'Squats',
+  'Other',
+];
+
+function groupOrderIndex(group: string): number {
+  const i = FACTION_GROUP_ORDER.indexOf(group);
+  return i === -1 ? FACTION_GROUP_ORDER.length : i;
 }
 
 interface UserList {
@@ -82,12 +102,30 @@ function ListsContent() {
     onSettled: () => utils.lists.listMine.invalidate(),
   });
 
-  const lookupName = (list_id: string) => {
-    const entry = listsIndexQ.data?.find((l) => l.list_id === list_id);
-    return entry?.display_name ?? list_id;
-  };
+  const [faction, setFaction] = useState<string>('');
+
+  const indexByListId = useMemo(() => {
+    const map = new Map<string, ListEntryMeta>();
+    for (const e of listsIndexQ.data ?? []) map.set(e.list_id, e);
+    return map;
+  }, [listsIndexQ.data]);
+
+  const lookupName = (list_id: string) => indexByListId.get(list_id)?.display_name ?? list_id;
+  const lookupGroup = (list_id: string) => indexByListId.get(list_id)?.faction_group ?? 'Other';
 
   const allItems: UserList[] = listMineQ.data?.pages.flatMap((p: any) => p.items) ?? [];
+
+  const factionsInMyLists = useMemo(() => {
+    const set = new Set(allItems.map((it) => lookupGroup(it.list_id)));
+    return Array.from(set).sort((a, b) => groupOrderIndex(a) - groupOrderIndex(b));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allItems, indexByListId]);
+
+  const visibleItems = useMemo(
+    () => (faction ? allItems.filter((it) => lookupGroup(it.list_id) === faction) : allItems),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [allItems, faction, indexByListId],
+  );
 
   if (listMineQ.isLoading) {
     return <main className="container mx-auto p-8 text-muted-foreground">Loading your lists…</main>;
@@ -118,26 +156,48 @@ function ListsContent() {
 
   return (
     <main className="container mx-auto p-8">
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-bold">My lists</h1>
-        <Link to="/">
-          <Button variant="outline">New list</Button>
-        </Link>
+        <div className="flex items-center gap-3 text-sm">
+          {factionsInMyLists.length > 1 && (
+            <div className="flex items-center gap-2">
+              <label htmlFor="faction-filter">Faction:</label>
+              <select
+                id="faction-filter"
+                value={faction}
+                onChange={(e) => setFaction(e.target.value)}
+                className="h-9 rounded-md border border-input bg-background px-2"
+              >
+                <option value="">All</option>
+                {factionsInMyLists.map((f) => <option key={f} value={f}>{f}</option>)}
+              </select>
+            </div>
+          )}
+          <Link to="/">
+            <Button variant="outline">New list</Button>
+          </Link>
+        </div>
       </div>
 
-      <ul className="space-y-3">
-        {allItems.map((list) => (
-          <ListRow
-            key={list.id}
-            list={list}
-            factionName={lookupName(list.list_id)}
-            onDelete={() => deleteMutation.mutate({ id: list.id })}
-            onToggleVisibility={() =>
-              setVisibilityMutation.mutate({ id: list.id, is_public: !list.is_public })
-            }
-          />
-        ))}
-      </ul>
+      {visibleItems.length === 0 ? (
+        <p className="rounded-md border border-dashed p-6 text-center text-sm text-muted-foreground">
+          No lists match this faction filter.
+        </p>
+      ) : (
+        <ul className="space-y-3">
+          {visibleItems.map((list) => (
+            <ListRow
+              key={list.id}
+              list={list}
+              factionName={lookupName(list.list_id)}
+              onDelete={() => deleteMutation.mutate({ id: list.id })}
+              onToggleVisibility={() =>
+                setVisibilityMutation.mutate({ id: list.id, is_public: !list.is_public })
+              }
+            />
+          ))}
+        </ul>
+      )}
 
       {listMineQ.hasNextPage && (
         <div className="mt-6 text-center">
