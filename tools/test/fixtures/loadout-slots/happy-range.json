@@ -1,0 +1,37 @@
+{
+  "id": "TEST_loadout_range",
+  "list_id": "TEST_loadout_range",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "custodes_det",
+          "id": 1,
+          "name": "Custodes Detachment",
+          "pts": 350,
+          "cost_pts": 350,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "squads",
+              "label": "Custodes squads",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                { "upgrade_id": 200, "is_default": true },
+                { "upgrade_id": 201 },
+                { "upgrade_id": 202 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 200, "string_id": "custodian_guard", "name": "Custodian Guard", "pts": 0 },
+    { "id": 201, "string_id": "aquilon_terminators", "name": "Aquilon Terminators", "pts": 25 },
+    { "id": 202, "string_id": "sagittarum_custodes", "name": "Sagittarum Custodes", "pts": 15 }
+  ]
+}

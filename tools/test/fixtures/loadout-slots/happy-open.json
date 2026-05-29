@@ -1,0 +1,36 @@
+{
+  "id": "TEST_loadout_open",
+  "list_id": "TEST_loadout_open",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "guard_inf",
+          "id": 1,
+          "name": "Infantry Company",
+          "pts": 200,
+          "cost_pts": 200,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "support",
+              "label": "Support upgrades",
+              "max": 3,
+              "variants": [
+                { "upgrade_id": 100 },
+                { "upgrade_id": 101 },
+                { "upgrade_id": 102 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 100, "string_id": "hydra", "name": "Hydra", "pts": 50 },
+    { "id": 101, "string_id": "chimedons", "name": "Chimedons", "pts": 175 },
+    { "id": 102, "string_id": "manticore", "name": "Manticore", "pts": 100 }
+  ]
+}

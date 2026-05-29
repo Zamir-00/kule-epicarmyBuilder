@@ -1,0 +1,37 @@
+{
+  "id": "TEST_loadout_happy",
+  "list_id": "TEST_loadout_happy",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "warlord_titan",
+          "id": 1,
+          "name": "Warlord Battle Titan",
+          "pts": 725,
+          "cost_pts": 725,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "weapons",
+              "label": "Weapons",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                { "upgrade_id": 50, "is_default": true },
+                { "upgrade_id": 51 },
+                { "upgrade_id": 52 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 50, "string_id": "macro_gatling_blaster", "name": "Macro Gatling Blaster", "pts": 0 },
+    { "id": 51, "string_id": "sunfury_plasma_annihilator", "name": "Sunfury Plasma Annihilator", "pts": 50 },
+    { "id": 52, "string_id": "arioch_power_claw", "name": "Arioch Power Claw", "pts": 25 }
+  ]
+}
