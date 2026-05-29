@@ -3,7 +3,15 @@ import { useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { z } from 'zod';
 import { useBuilderStore } from '@/stores/builder-store';
-import { totalPoints, violations, findUpgradeByStringId, type CatalogList } from '@/stores/selectors';
+import {
+  totalPoints,
+  violations,
+  findUpgradeByStringId,
+  findUpgradeById,
+  getSwapChoice,
+  type CatalogList,
+  type CatalogSwapSlot,
+} from '@/stores/selectors';
 import { trpc } from '@/lib/trpc';
 import { useAuth } from '@/lib/auth-context';
 import { Button } from '@/components/ui/button';
@@ -229,7 +237,7 @@ function FormationCard({
   catalog,
   sourceJson,
 }: {
-  instance: { instance_id: string; formation_string_id: string; upgrade_string_ids: string[] };
+  instance: { instance_id: string; formation_string_id: string; upgrade_string_ids: string[]; swap_choices?: Record<string, string> };
   catalog: CatalogList;
   sourceJson: SourceJson | null;
 }) {
@@ -253,6 +261,17 @@ function FormationCard({
     const u = findUpgradeByStringId(catalog, usid);
     if (u) totalCost += u.cost_pts ?? u.pts ?? 0;
   }
+  // Swap delta
+  for (const slot of def.swap_slots ?? []) {
+    const defaultVar = slot.variants.find((v) => v.is_default === true);
+    if (!defaultVar) continue;
+    const defaultUp = findUpgradeById(catalog, defaultVar.upgrade_id);
+    const defaultPts = defaultUp?.cost_pts ?? defaultUp?.pts ?? 0;
+    const chosenSid = getSwapChoice(catalog, def, instance.swap_choices, slot.string_id);
+    const chosenUp = chosenSid ? findUpgradeByStringId(catalog, chosenSid) : null;
+    const chosenPts = chosenUp?.cost_pts ?? chosenUp?.pts ?? 0;
+    totalCost += chosenPts - defaultPts;
+  }
 
   const selectedUpgrades = availableUpgrades.filter(
     (u) => u.string_id && instance.upgrade_string_ids.includes(u.string_id),
@@ -267,8 +286,26 @@ function FormationCard({
         </div>
         <Button size="sm" variant="ghost" onClick={() => builder.removeFormation(instance.instance_id)} className="print:hidden">×</Button>
       </div>
+
+      {(def.swap_slots ?? []).length > 0 && (
+        <div className="mt-3 border-t pt-2 print:hidden">
+          <p className="mb-1 text-xs font-medium uppercase text-muted-foreground">Composition</p>
+          <ul className="space-y-2">
+            {(def.swap_slots ?? []).map((slot) => (
+              <SwapSlotControl
+                key={slot.string_id}
+                slot={slot}
+                catalog={catalog}
+                instanceId={instance.instance_id}
+                currentChoiceStringId={getSwapChoice(catalog, def, instance.swap_choices, slot.string_id)}
+              />
+            ))}
+          </ul>
+        </div>
+      )}
+
       {availableUpgrades.length > 0 && (
-        <ul className="mt-2 grid grid-cols-1 gap-1 sm:grid-cols-2 print:hidden">
+        <ul className="mt-3 grid grid-cols-1 gap-1 sm:grid-cols-2 print:hidden">
           {availableUpgrades.map((u) => {
             const checked = u.string_id ? instance.upgrade_string_ids.includes(u.string_id) : false;
             return (
@@ -293,8 +330,19 @@ function FormationCard({
           })}
         </ul>
       )}
-      {selectedUpgrades.length > 0 && (
+
+      {/* Print view: selected upgrades and resolved swap choices */}
+      {(selectedUpgrades.length > 0 || (def.swap_slots ?? []).length > 0) && (
         <ul className="mt-2 hidden space-y-1 print:block">
+          {(def.swap_slots ?? []).map((slot) => {
+            const chosenSid = getSwapChoice(catalog, def, instance.swap_choices, slot.string_id);
+            const chosen = chosenSid ? findUpgradeByStringId(catalog, chosenSid) : null;
+            return chosen ? (
+              <li key={slot.string_id} className="text-sm">
+                • {slot.label}: {chosen.name}
+              </li>
+            ) : null;
+          })}
           {selectedUpgrades.map((u) => (
             <li key={u.id} className="text-sm">
               • {u.name}
@@ -305,7 +353,103 @@ function FormationCard({
           ))}
         </ul>
       )}
+
       <FormationProfiles formationName={def.name} sourceJson={sourceJson} />
+    </li>
+  );
+}
+
+function SwapSlotControl({
+  slot,
+  catalog,
+  instanceId,
+  currentChoiceStringId,
+}: {
+  slot: CatalogSwapSlot;
+  catalog: CatalogList;
+  instanceId: string;
+  currentChoiceStringId: string | null;
+}) {
+  const builder = useBuilderStore();
+  const defaultVariant = slot.variants.find((v) => v.is_default === true);
+  if (!defaultVariant) return null;
+  const defaultUp = findUpgradeById(catalog, defaultVariant.upgrade_id);
+  if (!defaultUp) return null;
+  const defaultStringId = defaultUp.string_id ?? null;
+  if (!defaultStringId) return null;
+
+  if (slot.variants.length === 2) {
+    // 2 variants → single checkbox toggle labeled with the non-default variant
+    const other = slot.variants.find((v) => v.is_default !== true);
+    if (!other) return null;
+    const otherUp = findUpgradeById(catalog, other.upgrade_id);
+    if (!otherUp || !otherUp.string_id) return null;
+    const checked = currentChoiceStringId === otherUp.string_id;
+    const delta = (otherUp.cost_pts ?? otherUp.pts ?? 0) - (defaultUp.cost_pts ?? defaultUp.pts ?? 0);
+    return (
+      <li className="text-sm">
+        <label className="flex cursor-pointer items-start gap-2">
+          <input
+            type="checkbox"
+            checked={checked}
+            onChange={() => builder.selectSwapVariant(
+              instanceId,
+              slot.string_id,
+              checked ? defaultStringId : otherUp.string_id!,
+              defaultStringId,
+            )}
+            className="mt-0.5 h-4 w-4 rounded border-input"
+          />
+          <span>
+            <span className="text-xs text-muted-foreground">{slot.label}: </span>
+            Replace {defaultUp.name.toLowerCase()} with {otherUp.name.toLowerCase()}
+            <span className="ml-1 text-xs text-muted-foreground">
+              ({delta === 0 ? '+0' : delta > 0 ? `+${delta}` : `${delta}`})
+            </span>
+          </span>
+        </label>
+      </li>
+    );
+  }
+
+  // 3+ variants → radio group
+  return (
+    <li className="text-sm">
+      <fieldset>
+        <legend className="text-xs text-muted-foreground">{slot.label}</legend>
+        <div className="mt-1 space-y-1">
+          {slot.variants.map((v) => {
+            const up = findUpgradeById(catalog, v.upgrade_id);
+            if (!up || !up.string_id) return null;
+            const checked = currentChoiceStringId === up.string_id;
+            const delta = (up.cost_pts ?? up.pts ?? 0) - (defaultUp.cost_pts ?? defaultUp.pts ?? 0);
+            return (
+              <label key={String(v.upgrade_id)} className="flex cursor-pointer items-center gap-2">
+                <input
+                  type="radio"
+                  name={`swap-${instanceId}-${slot.string_id}`}
+                  checked={checked}
+                  onChange={() => builder.selectSwapVariant(
+                    instanceId,
+                    slot.string_id,
+                    up.string_id!,
+                    defaultStringId,
+                  )}
+                  className="h-4 w-4 border-input"
+                />
+                <span>
+                  {up.name}
+                  {delta !== 0 && (
+                    <span className="ml-1 text-xs text-muted-foreground">
+                      ({delta > 0 ? `+${delta}` : `${delta}`})
+                    </span>
+                  )}
+                </span>
+              </label>
+            );
+          })}
+        </div>
+      </fieldset>
     </li>
   );
 }
