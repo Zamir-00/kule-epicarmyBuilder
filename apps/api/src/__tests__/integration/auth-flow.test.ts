@@ -71,13 +71,16 @@ test('signOut deletes session; subsequent authed call throws UNAUTHORIZED', asyn
   const authed = trpc.withSession(sessionId);
   await authed.auth.signOut.mutate();
 
+  // auth.me is intentionally public — verify session deletion against an
+  // actually-authed procedure (lists.listMine) and confirm me returns null.
   const stillAuthed = trpc.withSession(sessionId);
-  await assert.rejects(() => stillAuthed.auth.me.query(), /UNAUTHORIZED|sign in required/);
+  await assert.rejects(() => stillAuthed.lists.listMine.query({ limit: 20 }), /UNAUTHORIZED|sign in required/);
+  assert.strictEqual(await stillAuthed.auth.me.query(), null);
   close();
 });
 
-test('me throws UNAUTHORIZED when not signed in', async () => {
+test('me returns null when not signed in', async () => {
   const { trpc, close } = buildTestApp();
-  await assert.rejects(() => trpc.auth.me.query(), /UNAUTHORIZED|sign in required/);
+  assert.strictEqual(await trpc.auth.me.query(), null);
   close();
 });
