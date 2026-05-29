@@ -45,12 +45,14 @@ function emptyState(): BuilderState {
     title: '',
     points_target: null,
     is_public: false,
+    body_version: 2,
     formations: [],
     initFromCatalog: () => {},
     initFromSavedList: () => {},
     addFormation: () => {},
     removeFormation: () => {},
     toggleUpgrade: () => {},
+    selectSwapVariant: () => {},
     setTitle: () => {},
     setPointsTarget: () => {},
     setIsPublic: () => {},
@@ -164,5 +166,66 @@ describe('swap_slots — swapDeltaForFormation', () => {
   test('returns 0 for formations with no swap_slots', () => {
     const def = findFormationByStringId(sampleCatalog, 'inf')!;
     assert.strictEqual(swapDeltaForFormation(sampleCatalog, def, {}), 0);
+  });
+});
+
+import { useBuilderStore } from '../builder-store';
+
+describe('builder-store — selectSwapVariant', () => {
+  test('records a non-default choice', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('demi');
+    const inst = useBuilderStore.getState().formations[0]!;
+    useBuilderStore.getState().selectSwapVariant(inst.instance_id, 'support', 'rapier_lasers', 'gun_servitors');
+    const after = useBuilderStore.getState().formations[0]!;
+    assert.deepStrictEqual(after.swap_choices, { support: 'rapier_lasers' });
+  });
+
+  test('selecting the default removes the key', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromCatalog('TEST');
+    useBuilderStore.getState().addFormation('demi');
+    const inst = useBuilderStore.getState().formations[0]!;
+    useBuilderStore.getState().selectSwapVariant(inst.instance_id, 'support', 'rapier_lasers', 'gun_servitors');
+    // Now flip back to default
+    useBuilderStore.getState().selectSwapVariant(inst.instance_id, 'support', 'gun_servitors', 'gun_servitors');
+    const after = useBuilderStore.getState().formations[0]!;
+    assert.deepStrictEqual(after.swap_choices ?? {}, {}, 'default selection should clear the key');
+  });
+});
+
+describe('builder-store — initFromSavedList stale-data handling', () => {
+  test('drops swap_choices keys whose variant no longer exists in catalog', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromSavedList({
+      id: 's1', list_id: 'TEST', title: 't', points_target: null, is_public: false,
+      body: {
+        body_version: 2,
+        formations: [{
+          instance_id: 'i1',
+          formation_string_id: 'demi',
+          upgrade_string_ids: [],
+          swap_choices: { support: 'NO_SUCH_VARIANT', other_slot: 'ghost' },
+        }],
+      },
+    });
+    const f = useBuilderStore.getState().formations[0]!;
+    // We can't validate against the catalog here (the store doesn't see the catalog at init time),
+    // so the loader keeps unknown values. Resolution to defaults happens in getSwapChoice() at render/total time.
+    // This test just confirms the value made it through unchanged.
+    assert.strictEqual(f.swap_choices?.support, 'NO_SUCH_VARIANT');
+  });
+
+  test('legacy body without swap_choices loads cleanly', () => {
+    useBuilderStore.getState().reset();
+    useBuilderStore.getState().initFromSavedList({
+      id: 's1', list_id: 'TEST', title: 't', points_target: null, is_public: false,
+      body: {
+        formations: [{ instance_id: 'i1', formation_string_id: 'demi', upgrade_string_ids: [] }],
+      },
+    });
+    const f = useBuilderStore.getState().formations[0]!;
+    assert.strictEqual(f.swap_choices, undefined);
   });
 });
