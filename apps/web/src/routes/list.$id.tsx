@@ -9,7 +9,11 @@ import {
   violations,
   findFormationByStringId,
   findUpgradeByStringId,
+  findUpgradeById,
+  getSwapChoice,
+  swapDeltaForFormation,
   type CatalogList,
+  type CatalogSwapSlot,
 } from '@/stores/selectors';
 import { Button } from '@/components/ui/button';
 import { FormationProfiles, useSourceForList, type SourceJson } from '@/components/UnitProfiles';
@@ -270,6 +274,27 @@ function FormationViewRow({
       selectedUpgrades.push({ name: u.name, cost });
     }
   }
+  totalCost += swapDeltaForFormation(catalog, def, instance.swap_choices);
+
+  // Resolve swap composition: one line per slot showing the chosen variant name
+  const swapSlots: CatalogSwapSlot[] = def.swap_slots ?? [];
+  const swapLines: { label: string; chosenName: string }[] = [];
+  for (const slot of swapSlots) {
+    const chosenStringId = getSwapChoice(catalog, def, instance.swap_choices, slot.string_id);
+    if (chosenStringId) {
+      const chosenUp = findUpgradeByStringId(catalog, chosenStringId);
+      if (chosenUp) {
+        swapLines.push({ label: slot.label, chosenName: chosenUp.name });
+      }
+    } else {
+      // Fallback: resolve directly from the default variant id
+      const defaultVar = slot.variants.find((v) => v.is_default === true);
+      if (defaultVar) {
+        const up = findUpgradeById(catalog, defaultVar.upgrade_id);
+        if (up) swapLines.push({ label: slot.label, chosenName: up.name });
+      }
+    }
+  }
 
   return (
     <li className="rounded-md border bg-card p-3 break-inside-avoid">
@@ -283,6 +308,15 @@ function FormationViewRow({
             <li key={i} className="text-sm text-muted-foreground">
               • {u.name}
               {u.cost > 0 && <span className="ml-1 text-xs">(+{u.cost})</span>}
+            </li>
+          ))}
+        </ul>
+      )}
+      {swapLines.length > 0 && (
+        <ul className="mt-2 space-y-1">
+          {swapLines.map((s, i) => (
+            <li key={i} className="text-sm text-muted-foreground">
+              • {s.label}: {s.chosenName}
             </li>
           ))}
         </ul>

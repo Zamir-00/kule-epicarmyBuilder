@@ -491,3 +491,16 @@ test('save accepts legacy body (no body_version, no swap_choices)', async () => 
   assert.ok(result.id);
   close();
 });
+
+test('save persists body_version: 2 in the stored body', async () => {
+  const { trpc, emails, close } = buildTestApp();
+  const { authed } = await signInUser(trpc, emails);
+  const created = await authed.lists.save.mutate({
+    title: 'Body version round-trip',
+    list_id: VALID_LIST_ID,
+    body: { body_version: 2, formations: [] },
+  });
+  const loaded = await authed.lists.load.query({ id: created.id });
+  assert.strictEqual((loaded.body as { body_version?: number }).body_version, 2);
+  close();
+});

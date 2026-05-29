@@ -115,7 +115,7 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
       title: builder.title.trim() || 'Untitled list',
       list_id: catalog.list_id,
       points_target: builder.points_target ?? undefined,
-      body: { formations: builder.formations },
+      body: { body_version: builder.body_version as 1 | 2, formations: builder.formations },
       is_public: builder.is_public,
     });
   }
