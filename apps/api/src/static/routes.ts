@@ -233,13 +233,20 @@ async function buildFactionInventory(): Promise<FactionEntry[]> {
   return entries;
 }
 
-// list_id → source-json filename. Built from two sources:
-// 1. Source-json files whose metadata.list_id self-identifies (~18 lists)
-// 2. armyIds + sourceJsonPaths arrays in war/js/unitProfiles.*.js (~7 lists)
-// Lists not in either source return 404 from /data/source-for-list/:list_id.
+// list_id → source-json filename. Built from three sources:
+// 1. Source-json files whose metadata.list_id self-identifies
+// 2. armyIds + sourceJsonPaths arrays in war/js/unitProfiles.*.js
+// 3. armyIds alone, derived to a kebab-case source-json filename via naming
+//    convention (mirrors buildFactionInventory's jsToSourceCandidates).
+// Lists not in any source return 404 from /data/source-for-list/:list_id.
 let sourceForListCache: Record<string, string> | null = null;
 let sourceForListCacheAt = 0;
 const SOURCE_FOR_LIST_TTL_MS = 60_000;
+
+function jsNamespaceToSourceCandidates(ns: string): string[] {
+  const kebab = ns.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+  return [kebab + '.json', kebab.replace(/^sm-/, 'space-marine-') + '.json'];
+}
 
 async function buildSourceForListIndex(): Promise<Record<string, string>> {
   if (sourceForListCache && Date.now() - sourceForListCacheAt < SOURCE_FOR_LIST_TTL_MS) {
@@ -247,10 +254,12 @@ async function buildSourceForListIndex(): Promise<Record<string, string>> {
   }
 
   const map: Record<string, string> = {};
+  const sourceJsonFiles = new Set(
+    (await fs.readdir(SOURCE_JSON_DIR)).filter((f) => f.endsWith('.json')),
+  );
 
-  // Source 1: source-json metadata.list_id
-  for (const f of await fs.readdir(SOURCE_JSON_DIR)) {
-    if (!f.endsWith('.json')) continue;
+  // Source 1: source-json metadata.list_id (canonical)
+  for (const f of sourceJsonFiles) {
     try {
       const body = await fs.readFile(path.join(SOURCE_JSON_DIR, f), 'utf8');
       const parsed = JSON.parse(body) as { metadata?: { list_id?: unknown } };
@@ -261,23 +270,37 @@ async function buildSourceForListIndex(): Promise<Record<string, string>> {
     }
   }
 
-  // Source 2: unitProfiles.*.js — armyIds + sourceJsonPaths
+  // Source 2 + 3: unitProfiles.*.js — armyIds + (sourceJsonPaths OR convention)
   const jsDir = path.join(WAR_ROOT, 'js');
   for (const f of await fs.readdir(jsDir)) {
     if (!f.startsWith('unitProfiles.') || !f.endsWith('.js')) continue;
     try {
       const src = await fs.readFile(path.join(jsDir, f), 'utf8');
       const armyMatch = src.match(/armyIds\s*:\s*\[([\s\S]*?)\]/);
-      const pathMatch = src.match(/sourceJsonPaths\s*:\s*\[([\s\S]*?)\]/);
-      if (!armyMatch || !pathMatch) continue;
+      if (!armyMatch) continue;
       const ids = (armyMatch[1] ?? '').split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
-      const paths = (pathMatch[1] ?? '').split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
-      if (ids.length === 0 || paths.length === 0) continue;
-      const firstPath = paths[0]?.replace(/^\.\/source-json\//, '');
-      if (!firstPath) continue;
+      if (ids.length === 0) continue;
+
+      // Prefer sourceJsonPaths if declared.
+      let target: string | null = null;
+      const pathMatch = src.match(/sourceJsonPaths\s*:\s*\[([\s\S]*?)\]/);
+      if (pathMatch) {
+        const paths = (pathMatch[1] ?? '').split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
+        const first = paths[0]?.replace(/^\.\/source-json\//, '');
+        if (first && sourceJsonFiles.has(first)) target = first;
+      }
+      // Fallback: derive from namespace via kebab-case convention.
+      if (!target) {
+        const ns = f.replace(/^unitProfiles\./, '').replace(/\.js$/, '');
+        for (const cand of jsNamespaceToSourceCandidates(ns)) {
+          if (sourceJsonFiles.has(cand)) { target = cand; break; }
+        }
+      }
+      if (!target) continue;
+
       for (const lid of ids) {
-        // Don't overwrite a hit from source-json metadata (that's the canonical source).
-        if (!map[lid]) map[lid] = firstPath;
+        // Don't overwrite a hit from source-json metadata.list_id (canonical).
+        if (!map[lid]) map[lid] = target;
       }
     } catch {
       // skip unparseable
