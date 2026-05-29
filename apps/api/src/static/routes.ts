@@ -76,6 +76,21 @@ export async function registerStaticRoutes(app: FastifyInstance): Promise<void> 
       .header('Cache-Control', 'public, max-age=60')
       .send(inventory);
   });
+
+  app.get<{ Params: { list_id: string } }>('/data/source-for-list/:list_id', async (req, reply) => {
+    const list_id = req.params.list_id;
+    if (!list_id || !/^[A-Za-z0-9_.-]+$/.test(list_id)) {
+      reply.code(400).send({ error: 'invalid list_id' });
+      return;
+    }
+    const index = await buildSourceForListIndex();
+    const filename = index[list_id];
+    if (!filename) {
+      reply.code(404).send({ error: 'no source-json mapped to this list_id' });
+      return;
+    }
+    await serveJsonFile(filename, SOURCE_JSON_DIR, reply);
+  });
 }
 
 interface ListIndexEntry {
@@ -216,4 +231,60 @@ async function buildFactionInventory(): Promise<FactionEntry[]> {
   inventoryCache = entries;
   inventoryCacheAt = Date.now();
   return entries;
+}
+
+// list_id → source-json filename. Built from two sources:
+// 1. Source-json files whose metadata.list_id self-identifies (~18 lists)
+// 2. armyIds + sourceJsonPaths arrays in war/js/unitProfiles.*.js (~7 lists)
+// Lists not in either source return 404 from /data/source-for-list/:list_id.
+let sourceForListCache: Record<string, string> | null = null;
+let sourceForListCacheAt = 0;
+const SOURCE_FOR_LIST_TTL_MS = 60_000;
+
+async function buildSourceForListIndex(): Promise<Record<string, string>> {
+  if (sourceForListCache && Date.now() - sourceForListCacheAt < SOURCE_FOR_LIST_TTL_MS) {
+    return sourceForListCache;
+  }
+
+  const map: Record<string, string> = {};
+
+  // Source 1: source-json metadata.list_id
+  for (const f of await fs.readdir(SOURCE_JSON_DIR)) {
+    if (!f.endsWith('.json')) continue;
+    try {
+      const body = await fs.readFile(path.join(SOURCE_JSON_DIR, f), 'utf8');
+      const parsed = JSON.parse(body) as { metadata?: { list_id?: unknown } };
+      const lid = parsed?.metadata?.list_id;
+      if (typeof lid === 'string' && lid) map[lid] = f;
+    } catch {
+      // skip unparseable
+    }
+  }
+
+  // Source 2: unitProfiles.*.js — armyIds + sourceJsonPaths
+  const jsDir = path.join(WAR_ROOT, 'js');
+  for (const f of await fs.readdir(jsDir)) {
+    if (!f.startsWith('unitProfiles.') || !f.endsWith('.js')) continue;
+    try {
+      const src = await fs.readFile(path.join(jsDir, f), 'utf8');
+      const armyMatch = src.match(/armyIds\s*:\s*\[([\s\S]*?)\]/);
+      const pathMatch = src.match(/sourceJsonPaths\s*:\s*\[([\s\S]*?)\]/);
+      if (!armyMatch || !pathMatch) continue;
+      const ids = (armyMatch[1] ?? '').split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
+      const paths = (pathMatch[1] ?? '').split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
+      if (ids.length === 0 || paths.length === 0) continue;
+      const firstPath = paths[0]?.replace(/^\.\/source-json\//, '');
+      if (!firstPath) continue;
+      for (const lid of ids) {
+        // Don't overwrite a hit from source-json metadata (that's the canonical source).
+        if (!map[lid]) map[lid] = firstPath;
+      }
+    } catch {
+      // skip unparseable
+    }
+  }
+
+  sourceForListCache = map;
+  sourceForListCacheAt = Date.now();
+  return map;
 }

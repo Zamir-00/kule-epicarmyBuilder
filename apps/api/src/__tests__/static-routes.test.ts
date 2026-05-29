@@ -103,6 +103,31 @@ test('GET /data/lists assigns faction_group to every entry', async () => {
   await app.close();
 });
 
+test('GET /data/source-for-list/CHAOS_dg_NETEA returns the death-guard source-json', async () => {
+  const app = await buildApp();
+  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/CHAOS_dg_NETEA' });
+  assert.strictEqual(r.statusCode, 200);
+  const parsed = JSON.parse(r.body);
+  assert.strictEqual(parsed?.metadata?.list_id, 'CHAOS_dg_NETEA');
+  assert.ok(Array.isArray(parsed.profiles), 'expected profiles array');
+  await app.close();
+});
+
+test('GET /data/source-for-list/<unmapped-list> returns 404', async () => {
+  const app = await buildApp();
+  // Pick a list_id that has no source-json mapping: ORK_feral
+  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/ORK_feral' });
+  assert.strictEqual(r.statusCode, 404);
+  await app.close();
+});
+
+test('GET /data/source-for-list with invalid id is rejected', async () => {
+  const app = await buildApp();
+  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/has%20space' });
+  assert.ok(r.statusCode === 400 || r.statusCode === 404, `expected 4xx, got ${r.statusCode}`);
+  await app.close();
+});
+
 test('GET /data/factions returns the inventory', async () => {
   const app = await buildApp();
   const r = await app.inject({ method: 'GET', url: '/data/factions' });
