@@ -1,17 +1,36 @@
-import { Button } from '@/components/ui/button';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { RouterProvider, createRouter } from '@tanstack/react-router';
+import { trpc, trpcClient } from '@/lib/trpc';
+import { routeTree } from './routeTree.gen';
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 60_000,
+      retry: 1,
+      refetchOnWindowFocus: false,
+    },
+  },
+});
+
+const router = createRouter({
+  routeTree,
+  defaultPreload: 'intent',
+  context: {},
+});
+
+declare module '@tanstack/react-router' {
+  interface Register {
+    router: typeof router;
+  }
+}
 
 export default function App() {
-    return (
-        <div className="min-h-screen flex flex-col items-center justify-center gap-6 p-8">
-            <h1 className="text-4xl font-bold">Kule Army Builder</h1>
-            <p className="text-muted-foreground">
-                Stage 3 scaffold — routing and content arrives in S3.3 onward.
-            </p>
-            <div className="flex gap-3">
-                <Button>Primary</Button>
-                <Button variant="secondary">Secondary</Button>
-                <Button variant="outline">Outline</Button>
-            </div>
-        </div>
-    );
+  return (
+    <trpc.Provider client={trpcClient} queryClient={queryClient}>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
+    </trpc.Provider>
+  );
 }
