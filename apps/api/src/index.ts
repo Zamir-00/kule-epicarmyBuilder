@@ -4,6 +4,7 @@ import { fastifyTRPCPlugin, type FastifyTRPCPluginOptions } from '@trpc/server/a
 import { env } from './env.js';
 import { WAR_ROOT } from './paths.js';
 import { registerStaticRoutes } from './static/routes.js';
+import { registerV2Routes } from './static/v2-routes.js';
 import { db } from './db/client.js';
 import { createConsoleTransport, createResendTransport } from './auth/email.js';
 import { setSessionCookie } from './auth/cookie.js';
@@ -43,6 +44,9 @@ export async function buildApp(opts?: BuildAppOpts) {
   // where it calls .split() on undefined.
 
   await registerStaticRoutes(app);
+
+  // /v2/* — SPA routes (must register BEFORE the @fastify/static war catchall)
+  await registerV2Routes(app);
 
   // tRPC
   await app.register(fastifyTRPCPlugin<AppRouter>, {
