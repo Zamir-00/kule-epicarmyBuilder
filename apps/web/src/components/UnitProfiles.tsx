@@ -1,5 +1,12 @@
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
+import {
+  findUpgradeById,
+  findUpgradeByStringId,
+  getSwapChoice,
+  type CatalogFormation,
+  type CatalogList,
+} from '@/stores/selectors';
 
 export interface SourceWeapon {
   name: string;
@@ -71,6 +78,81 @@ export function findSourceFormation(
     if (n.includes(target) || target.includes(n)) return sf;
   }
   return null;
+}
+
+/**
+ * Strip a leading numeric count and trailing "Unit"/"Units" from an upgrade name
+ * so we can match "5 Gun Servitor Unit" → "gun servitor" against prose like
+ * "five Gun Servitor units".
+ */
+function stripCountAndUnit(name: string): string {
+  return name
+    .replace(/^\d+\s+/, '')        // strip leading "5 "
+    .replace(/\s+Units?$/i, '')     // strip trailing " Unit" or " Units"
+    .trim();
+}
+
+/**
+ * Given a source-json units_text and the catalog swap state for a formation,
+ * return a resolved composition string that replaces the default variant noun
+ * with the chosen variant noun (when they differ).
+ *
+ * This makes both the "Composition:" display line and the profile-matching
+ * haystack reflect the swap the user has selected.
+ *
+ * @param unitsText   Raw source-json units_text (e.g. "Five ... and five Gun Servitor units")
+ * @param def         Catalog formation definition (for swap_slots)
+ * @param catalog     Full catalog (for upgrade lookups)
+ * @param swapChoices Record<slot_string_id, chosen_upgrade_string_id> from the army instance
+ */
+export function resolveCompositionText(
+  unitsText: string | null | undefined,
+  def: CatalogFormation | undefined,
+  catalog: CatalogList | undefined,
+  swapChoices: Record<string, string> | undefined,
+): string {
+  let text = unitsText ?? '';
+  if (!def?.swap_slots || !catalog) return text;
+
+  for (const slot of def.swap_slots) {
+    // Resolve the default variant's upgrade name
+    const defaultVar = slot.variants.find((v) => v.is_default === true);
+    if (!defaultVar) continue;
+    const defaultUp = findUpgradeById(catalog, defaultVar.upgrade_id);
+    if (!defaultUp) continue;
+
+    // Resolve the chosen variant's upgrade name
+    const chosenStringId = getSwapChoice(catalog, def, swapChoices, slot.string_id);
+    if (!chosenStringId) continue;
+    const chosenUp = findUpgradeByStringId(catalog, chosenStringId);
+    if (!chosenUp) continue;
+
+    // If chosen is the default, nothing to substitute
+    if (defaultUp.string_id === chosenUp.string_id) continue;
+
+    const defaultNoun = stripCountAndUnit(defaultUp.name);
+    const chosenNoun = stripCountAndUnit(chosenUp.name);
+
+    if (!defaultNoun) continue;
+
+    // Try a case-insensitive substring replace of the default noun in the text.
+    // We also strip trailing "Unit(s)" from the haystack when matching so that
+    // "Gun Servitor" matches "Gun Servitor units" in the prose.
+    const escapedDefault = defaultNoun.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(escapedDefault + '(?:\\s+Units?)?', 'gi');
+    const replaced = text.replace(pattern, chosenNoun);
+
+    if (replaced !== text) {
+      text = replaced;
+    } else {
+      // Fallback: the prose phrasing doesn't match our simple substitution
+      // (e.g. source-json uses a completely different description).
+      // Append the chosen noun so profile matching still works.
+      text = `${text} ${chosenNoun}`;
+    }
+  }
+
+  return text;
 }
 
 export function findProfilesForFormation(
@@ -160,23 +242,42 @@ function UnitProfileCard({ profile }: { profile: SourceProfile }) {
 export function FormationProfiles({
   formationName,
   sourceJson,
+  def,
+  catalog,
+  swapChoices,
 }: {
   formationName: string;
   sourceJson: SourceJson | null | undefined;
+  /** Optional: catalog formation definition for swap-slot-aware composition text. */
+  def?: CatalogFormation;
+  /** Optional: full catalog for upgrade lookups. */
+  catalog?: CatalogList;
+  /** Optional: the instance's swap_choices so composition reflects the user's selection. */
+  swapChoices?: Record<string, string>;
 }) {
   if (!sourceJson) return null;
   const sourceFormation = findSourceFormation(formationName, sourceJson.formations);
+
+  // Resolve the composition text, substituting the chosen swap variant name(s)
+  // in place of the default variant name(s) when the user has made a non-default selection.
+  const resolvedUnitsText = resolveCompositionText(
+    sourceFormation?.units_text,
+    def,
+    catalog,
+    swapChoices,
+  );
+
   const profiles = findProfilesForFormation(
     formationName,
-    sourceFormation?.units_text ?? null,
+    resolvedUnitsText || null,
     sourceJson.profiles,
   );
-  if (!sourceFormation?.units_text && profiles.length === 0) return null;
+  if (!resolvedUnitsText && profiles.length === 0) return null;
   return (
     <div className="mt-3 space-y-2 border-t pt-2">
-      {sourceFormation?.units_text && (
+      {resolvedUnitsText && (
         <p className="text-xs italic text-muted-foreground">
-          Composition: {sourceFormation.units_text}
+          Composition: {resolvedUnitsText}
         </p>
       )}
       {profiles.length > 0 && (

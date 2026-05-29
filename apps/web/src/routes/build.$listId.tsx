@@ -345,7 +345,13 @@ function FormationCard({
         </ul>
       )}
 
-      <FormationProfiles formationName={def.name} sourceJson={sourceJson} />
+      <FormationProfiles
+        formationName={def.name}
+        sourceJson={sourceJson}
+        def={def}
+        catalog={catalog}
+        swapChoices={instance.swap_choices}
+      />
     </li>
   );
 }
