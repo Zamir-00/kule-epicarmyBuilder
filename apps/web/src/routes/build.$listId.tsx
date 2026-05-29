@@ -9,6 +9,7 @@ import {
   findUpgradeByStringId,
   findUpgradeById,
   getSwapChoice,
+  swapDeltaForFormation,
   type CatalogList,
   type CatalogSwapSlot,
 } from '@/stores/selectors';
@@ -261,17 +262,7 @@ function FormationCard({
     const u = findUpgradeByStringId(catalog, usid);
     if (u) totalCost += u.cost_pts ?? u.pts ?? 0;
   }
-  // Swap delta
-  for (const slot of def.swap_slots ?? []) {
-    const defaultVar = slot.variants.find((v) => v.is_default === true);
-    if (!defaultVar) continue;
-    const defaultUp = findUpgradeById(catalog, defaultVar.upgrade_id);
-    const defaultPts = defaultUp?.cost_pts ?? defaultUp?.pts ?? 0;
-    const chosenSid = getSwapChoice(catalog, def, instance.swap_choices, slot.string_id);
-    const chosenUp = chosenSid ? findUpgradeByStringId(catalog, chosenSid) : null;
-    const chosenPts = chosenUp?.cost_pts ?? chosenUp?.pts ?? 0;
-    totalCost += chosenPts - defaultPts;
-  }
+  totalCost += swapDeltaForFormation(catalog, def, instance.swap_choices);
 
   const selectedUpgrades = availableUpgrades.filter(
     (u) => u.string_id && instance.upgrade_string_ids.includes(u.string_id),
