@@ -13,10 +13,15 @@ const queryClient = new QueryClient({
   },
 });
 
+// basepath mirrors the Vite `base` setting (vite.config.ts). The router needs
+// this so it strips `/v2` from window.location.pathname before matching routes.
+// Without it, URLs like `/v2?preview=1` (no trailing slash) fall through to
+// TanStack Router's default "Not Found" page.
 const router = createRouter({
   routeTree,
   defaultPreload: 'intent',
   context: {},
+  basepath: '/v2',
 });
 
 declare module '@tanstack/react-router' {
