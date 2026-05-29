@@ -224,10 +224,10 @@ export function loadoutCostForFormation(
  *
  * Used at save-time to keep persisted bodies small.
  */
-export function canonicalizeLoadoutChoices(
+export function canonicalizeLoadoutChoices<T extends { formation_string_id: string; loadout_choices?: Record<string, string[]> }>(
   catalog: CatalogList,
-  instance: { formation_string_id: string; loadout_choices?: Record<string, string[]>; [k: string]: unknown },
-): typeof instance {
+  instance: T,
+): T {
   const def = findFormationByStringId(catalog, instance.formation_string_id);
   if (!def || !instance.loadout_choices) return instance;
   const canonical: Record<string, string[]> = {};

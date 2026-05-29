@@ -10,6 +10,9 @@ import {
   findUpgradeById,
   getSwapChoice,
   swapDeltaForFormation,
+  getLoadoutPositions,
+  loadoutCostForFormation,
+  canonicalizeLoadoutChoices,
   type CatalogList,
   type CatalogSwapSlot,
 } from '@/stores/selectors';
@@ -17,6 +20,7 @@ import { trpc } from '@/lib/trpc';
 import { useAuth } from '@/lib/auth-context';
 import { Button } from '@/components/ui/button';
 import { FormationProfiles, useSourceForList, type SourceJson } from '@/components/UnitProfiles';
+import { LoadoutSlotControl } from '@/components/LoadoutSlotControl';
 
 const searchSchema = z.object({
   from: z.string().optional(),
@@ -110,12 +114,14 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
 
   function handleSave() {
     if (!isSignedIn) return;
+    const canonical = builder.formations.map((f) => canonicalizeLoadoutChoices(catalog, f));
     saveMutation.mutate({
       id: builder.user_list_id ?? undefined,
       title: builder.title.trim() || 'Untitled list',
       list_id: catalog.list_id,
       points_target: builder.points_target ?? undefined,
-      body: { body_version: builder.body_version as 1 | 2, formations: builder.formations },
+      // body_version 3 is accepted by the server (.passthrough()) — literal union will be widened in Task 9
+      body: { body_version: builder.body_version as 1 | 2, formations: canonical },
       is_public: builder.is_public,
     });
   }
@@ -238,7 +244,13 @@ function FormationCard({
   catalog,
   sourceJson,
 }: {
-  instance: { instance_id: string; formation_string_id: string; upgrade_string_ids: string[]; swap_choices?: Record<string, string> };
+  instance: {
+    instance_id: string;
+    formation_string_id: string;
+    upgrade_string_ids: string[];
+    swap_choices?: Record<string, string>;
+    loadout_choices?: Record<string, string[]>;
+  };
   catalog: CatalogList;
   sourceJson: SourceJson | null;
 }) {
@@ -263,6 +275,7 @@ function FormationCard({
     if (u) totalCost += u.cost_pts ?? u.pts ?? 0;
   }
   totalCost += swapDeltaForFormation(catalog, def, instance.swap_choices);
+  totalCost += loadoutCostForFormation(catalog, def, instance.loadout_choices);  // NEW
 
   const selectedUpgrades = availableUpgrades.filter(
     (u) => u.string_id && instance.upgrade_string_ids.includes(u.string_id),
@@ -278,7 +291,7 @@ function FormationCard({
         <Button size="sm" variant="ghost" onClick={() => builder.removeFormation(instance.instance_id)} className="print:hidden">×</Button>
       </div>
 
-      {(def.swap_slots ?? []).length > 0 && (
+      {((def.swap_slots ?? []).length > 0 || (def.loadout_slots ?? []).length > 0) && (
         <div className="mt-3 border-t pt-2 print:hidden">
           <p className="mb-1 text-xs font-medium uppercase text-muted-foreground">Composition</p>
           <ul className="space-y-2">
@@ -289,6 +302,16 @@ function FormationCard({
                 catalog={catalog}
                 instanceId={instance.instance_id}
                 currentChoiceStringId={getSwapChoice(catalog, def, instance.swap_choices, slot.string_id)}
+              />
+            ))}
+            {(def.loadout_slots ?? []).map((slot) => (
+              <LoadoutSlotControl
+                key={slot.string_id}
+                slot={slot}
+                catalog={catalog}
+                formation={def}
+                instanceId={instance.instance_id}
+                loadoutChoices={instance.loadout_choices}
               />
             ))}
           </ul>
@@ -322,8 +345,8 @@ function FormationCard({
         </ul>
       )}
 
-      {/* Print view: selected upgrades and resolved swap choices */}
-      {(selectedUpgrades.length > 0 || (def.swap_slots ?? []).length > 0) && (
+      {/* Print view: selected upgrades and resolved swap/loadout choices */}
+      {(selectedUpgrades.length > 0 || (def.swap_slots ?? []).length > 0 || (def.loadout_slots ?? []).length > 0) && (
         <ul className="mt-2 hidden space-y-1 print:block">
           {(def.swap_slots ?? []).map((slot) => {
             const chosenSid = getSwapChoice(catalog, def, instance.swap_choices, slot.string_id);
@@ -333,6 +356,24 @@ function FormationCard({
                 • {slot.label}: {chosen.name}
               </li>
             ) : null;
+          })}
+          {(def.loadout_slots ?? []).map((slot) => {
+            const positions = getLoadoutPositions(catalog, def, instance.loadout_choices, slot.string_id) ?? [];
+            if (positions.length === 0) return null;
+            // Collapse consecutive same variants into "Nx Name"; otherwise comma-separate
+            const counts = new Map<string, number>();
+            for (const p of positions) counts.set(p, (counts.get(p) ?? 0) + 1);
+            const items: string[] = [];
+            for (const [stringId, n] of counts) {
+              const up = findUpgradeByStringId(catalog, stringId);
+              if (!up) continue;
+              items.push(n === 1 ? up.name : `${n}x ${up.name}`);
+            }
+            return (
+              <li key={slot.string_id} className="text-sm">
+                • {slot.label}: {items.join(', ')}
+              </li>
+            );
           })}
           {selectedUpgrades.map((u) => (
             <li key={u.id} className="text-sm">
