@@ -1,0 +1,9 @@
+{
+  "name": "@kule/shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared types between @kule/api and @kule/web",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts"
+}
