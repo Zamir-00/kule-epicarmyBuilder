@@ -274,7 +274,22 @@
           "name": "Spacecraft",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_kill_kroozer_or_battle_kroozer",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 80,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "fighta_skwadron",

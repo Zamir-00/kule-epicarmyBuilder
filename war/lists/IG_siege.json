@@ -54,7 +54,22 @@
           "pts": 450,
           "cost_pts": 450,
           "upgrades": [],
-          "units": "9 Gotterdammerung Howitzers"
+          "units": "9 Gotterdammerung Howitzers",
+          "swap_slots": [
+            {
+              "string_id": "swap_bruennhilde_transporters_or_gun_emplacements",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "artillery_battery",
@@ -63,7 +78,22 @@
           "pts": 150,
           "cost_pts": 150,
           "upgrades": [],
-          "units": "3 Gotterdammerung Howitzers"
+          "units": "3 Gotterdammerung Howitzers",
+          "swap_slots": [
+            {
+              "string_id": "swap_bruennhilde_transporters_or_gun_emplacements",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "regiment_aa_battery",
@@ -72,7 +102,22 @@
           "pts": 125,
           "cost_pts": 125,
           "upgrades": [],
-          "units": "3 Blitzen AA Guns"
+          "units": "3 Blitzen AA Guns",
+          "swap_slots": [
+            {
+              "string_id": "swap_bruennhilde_transporters_or_gun_emplacements",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "bombard_battery",
@@ -107,7 +152,22 @@
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 17,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "light_tank_platoon",

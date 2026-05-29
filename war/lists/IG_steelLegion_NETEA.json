@@ -196,6 +196,21 @@
           "cost_pts": 250,
           "upgrades": [
             25
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_bombards_or_3_manticores",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 42,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -228,6 +243,21 @@
           "cost_pts": 200,
           "upgrades": [
             25
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -292,7 +322,22 @@
           "name": "Orbital support",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_lunar_class_cruiser_or_emperor_class_battleship",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
+          ]
         }
       ]
     },

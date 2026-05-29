@@ -97,7 +97,25 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "1 KX139 Ta'unar Supremacy Battlesuit unit",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_heavy_rail_cannon_or_nexus_missile_array_or_pulse_ordinance_multi_driver",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 70,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
+          ]
         }
       ]
     },

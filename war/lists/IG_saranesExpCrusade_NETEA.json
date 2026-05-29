@@ -198,7 +198,25 @@
           "name": "Artillery Battery",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_basilisks_or_3_bombards_or_3_manticores",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "storm_trooper_platoon",
@@ -217,7 +235,22 @@
           "name": "Super-Heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "vulture_squadron",

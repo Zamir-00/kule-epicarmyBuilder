@@ -120,7 +120,22 @@
             36,
             27
           ],
-          "units": "1 Imperial Guard Infantry Unit, 1 Imperial Guard Commander"
+          "units": "1 Imperial Guard Infantry Unit, 1 Imperial Guard Commander",
+          "swap_slots": [
+            {
+              "string_id": "swap_4_imperial_guard_fire_support_units_or_4_imperial_guard_mortar_units",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 51,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "0_1_veterans",

@@ -169,7 +169,25 @@
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword_or_stormsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "tank_platoon",
@@ -177,7 +195,22 @@
           "name": "Tank Platoon",
           "pts": 400,
           "cost_pts": 400,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_6_leman_russ_or_6_leman_russ_demolisher",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
+          ]
         }
       ]
     },

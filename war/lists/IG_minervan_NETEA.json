@@ -117,7 +117,22 @@
             14
           ],
           "pts": 250,
-          "cost_pts": 250
+          "cost_pts": 250,
+          "swap_slots": [
+            {
+              "string_id": "swap_3x_bombard_or_3x_manticore",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 42,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "assault_gun_platoon",
@@ -240,7 +255,31 @@
             14
           ],
           "pts": 200,
-          "cost_pts": 200
+          "cost_pts": 200,
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword_or_stormhammer_or_stormblade_or_stormsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "tank_platoon",
@@ -289,7 +328,22 @@
           "id": 510,
           "name": "Orbital Support",
           "pts": 150,
-          "cost_pts": 150
+          "cost_pts": 150,
+          "swap_slots": [
+            {
+              "string_id": "swap_lunar_class_cruiser_or_emperor_class_battleship",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
         }
       ]
     },

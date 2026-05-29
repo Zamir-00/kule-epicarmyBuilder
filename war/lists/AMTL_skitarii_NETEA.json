@@ -192,6 +192,21 @@
             82,
             83,
             84
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_imperator_configuration_or_warmonger_configuration",
+              "label": "Configuration",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -248,7 +263,22 @@
           "name": "Cataphracti Support",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_macharius_command_tank_vulcan_or_macharius_command_tank_vanquisher",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 241
+                }
+              ]
+            }
+          ]
         }
       ]
     }

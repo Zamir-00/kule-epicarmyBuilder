@@ -219,7 +219,22 @@
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "flak_battery",

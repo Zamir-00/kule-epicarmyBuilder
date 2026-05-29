@@ -20,6 +20,33 @@
             10,
             11,
             12
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_paired_gatling_blasters_or_paired_turbo_lasers_or_paired_laser_blasters_or_",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            }
           ]
         },
         {
@@ -32,6 +59,21 @@
           "upgrades": [
             10,
             12
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_mori_quake_cannon_or_belicossa_volcano_cannon",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 64,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            }
           ]
         },
         {
@@ -45,6 +87,27 @@
             10,
             11,
             12
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_warp_missile_or_turbo_laser_destructor_or_apocalypse_missile_launcher_or_vu",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 66,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            }
           ]
         },
         {
@@ -93,7 +156,34 @@
           "pts": 1500,
           "cost_pts": 1500,
           "units": "1 Warmaster Support Titan",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_paired_gatling_blasters_or_paired_turbo_lasers_or_paired_laser_blasters_or_",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "warhound_scout_titan",

@@ -51,7 +51,22 @@
           "string_id": "engine_of_vaul_troupe",
           "id": 505,
           "name": "Engine of Vaul Troupe",
-          "pts": 0
+          "pts": 0,
+          "swap_slots": [
+            {
+              "string_id": "swap_cobra_or_scorpion",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 34,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "night_spinner_troupe",

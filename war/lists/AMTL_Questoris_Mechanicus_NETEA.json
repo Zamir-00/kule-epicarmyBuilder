@@ -70,7 +70,22 @@
           "name": "Arminger",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_4_knight_warglaive_thermal_spear_reaper_chain_cleaver_or_4_knight_helverin_",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 120,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 121
+                }
+              ]
+            }
+          ]
         }
       ]
     },

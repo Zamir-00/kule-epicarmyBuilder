@@ -112,6 +112,21 @@
             114,
             115,
             116
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_barbed_hierodule_prime_or_scythed_hierodule_prime",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 216,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 217
+                }
+              ]
+            }
           ]
         },
         {

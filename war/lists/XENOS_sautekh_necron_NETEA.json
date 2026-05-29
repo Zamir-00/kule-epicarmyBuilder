@@ -80,6 +80,24 @@
           "cost_pts": 250,
           "upgrades": [
             3
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_5_doomsday_ark_units_or_5_obelisk_units_or_5_annihilation_barge_units",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 54,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {

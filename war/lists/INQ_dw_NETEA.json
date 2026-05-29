@@ -68,6 +68,21 @@
           "cost_pts": 175,
           "upgrades": [
             36
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_chimeras_or_3_arvus_lighters",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 22,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         },
         {
