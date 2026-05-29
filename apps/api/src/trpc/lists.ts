@@ -72,11 +72,6 @@ export const listsRouter = router({
 
       assertBodySize(input.body);
 
-      // Validate body_version
-      if (input.body.body_version !== undefined && input.body.body_version !== 1 && input.body.body_version !== 2) {
-        throw new TRPCError({ code: 'BAD_REQUEST', message: `body_version: unknown value '${input.body.body_version}' (expected 1 or 2)` });
-      }
-
       // Validate swap_choices against the referenced list catalog
       const bodyFormations = input.body.formations ?? [];
       if (bodyFormations.some((f) => f.swap_choices && Object.keys(f.swap_choices).length > 0)) {
