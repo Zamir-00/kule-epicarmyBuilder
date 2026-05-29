@@ -1,0 +1,6 @@
+{
+  "id": "TEST_loadout_empty_variants", "list_id": "TEST_loadout_empty_variants",
+  "sections": [{"name":"CORE","formations":[{"string_id":"f","id":1,"name":"F","pts":100,"cost_pts":100,"upgrades":[],
+    "loadout_slots":[{"string_id":"s","label":"Slot","min":0,"max":2,"variants":[]}]}]}],
+  "upgrades": []
+}
