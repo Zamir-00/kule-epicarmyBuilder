@@ -27,14 +27,55 @@ const sampleCatalog: CatalogList = {
             },
           ],
         },
+        {
+          string_id: 'warlord',
+          name: 'Warlord',
+          cost_pts: 725,
+          upgrades: [],
+          loadout_slots: [
+            {
+              string_id: 'weapons',
+              label: 'Weapons',
+              min: 2,
+              max: 2,
+              variants: [
+                { upgrade_id: 50, is_default: true },
+                { upgrade_id: 51 },
+                { upgrade_id: 52 },
+              ],
+            },
+          ],
+        },
+        {
+          string_id: 'inf_company',
+          name: 'Infantry Company',
+          cost_pts: 200,
+          upgrades: [],
+          loadout_slots: [
+            {
+              string_id: 'support_upg',
+              label: 'Support upgrades',
+              max: 3,
+              variants: [
+                { upgrade_id: 100 },
+                { upgrade_id: 101 },
+                { upgrade_id: 102 },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
   upgrades: [
     { id: 1, string_id: 'commander', name: 'Commander', cost_pts: 50 },
     { id: 2, string_id: 'banner', name: 'Banner', cost_pts: 25 },
+    { id: 50, string_id: 'macro_gatling', name: 'Macro Gatling Blaster', cost_pts: 0 },
+    { id: 51, string_id: 'sunfury_plasma', name: 'Sunfury Plasma', cost_pts: 50 },
+    { id: 52, string_id: 'power_claw', name: 'Power Claw', cost_pts: 25 },
     { id: 100, string_id: 'gun_servitors', name: 'Gun Servitors', cost_pts: 0 },
     { id: 101, string_id: 'rapier_lasers', name: 'Rapier Lasers', cost_pts: 30 },
+    { id: 102, string_id: 'manticore', name: 'Manticore', cost_pts: 100 },
   ],
 };
 
@@ -227,5 +268,153 @@ describe('builder-store — initFromSavedList stale-data handling', () => {
     });
     const f = useBuilderStore.getState().formations[0]!;
     assert.strictEqual(f.swap_choices, undefined);
+  });
+});
+
+import {
+  getLoadoutPositions,
+  loadoutCostForFormation,
+  canonicalizeLoadoutChoices,
+} from '../selectors';
+
+describe('loadout_slots — getLoadoutPositions', () => {
+  test('returns N copies of default when min=max=N + default exists + no saved state', () => {
+    const def = findFormationByStringId(sampleCatalog, 'warlord')!;
+    const positions = getLoadoutPositions(sampleCatalog, def, undefined, 'weapons');
+    assert.deepStrictEqual(positions, ['macro_gatling', 'macro_gatling']);
+  });
+
+  test('returns empty array when no default + max only', () => {
+    const def = findFormationByStringId(sampleCatalog, 'inf_company')!;
+    const positions = getLoadoutPositions(sampleCatalog, def, undefined, 'support_upg');
+    assert.deepStrictEqual(positions, []);
+  });
+
+  test('returns saved positions when valid', () => {
+    const def = findFormationByStringId(sampleCatalog, 'warlord')!;
+    const positions = getLoadoutPositions(sampleCatalog, def, { weapons: ['sunfury_plasma', 'power_claw'] }, 'weapons');
+    assert.deepStrictEqual(positions, ['sunfury_plasma', 'power_claw']);
+  });
+
+  test('replaces stale variant with default (catalog drift)', () => {
+    const def = findFormationByStringId(sampleCatalog, 'warlord')!;
+    const positions = getLoadoutPositions(sampleCatalog, def, { weapons: ['ghost_variant', 'sunfury_plasma'] }, 'weapons');
+    assert.deepStrictEqual(positions, ['macro_gatling', 'sunfury_plasma']);
+  });
+
+  test('drops stale position when no default available', () => {
+    const def = findFormationByStringId(sampleCatalog, 'inf_company')!;
+    const positions = getLoadoutPositions(sampleCatalog, def, { support_upg: ['ghost'] }, 'support_upg');
+    assert.deepStrictEqual(positions, []);
+  });
+
+  test('returns null when slot does not exist', () => {
+    const def = findFormationByStringId(sampleCatalog, 'warlord')!;
+    const positions = getLoadoutPositions(sampleCatalog, def, undefined, 'unknown_slot');
+    assert.strictEqual(positions, null);
+  });
+});
+
+describe('loadout_slots — loadoutCostForFormation', () => {
+  test('returns 0 when all positions are defaults', () => {
+    const def = findFormationByStringId(sampleCatalog, 'warlord')!;
+    assert.strictEqual(loadoutCostForFormation(sampleCatalog, def, undefined), 0);
+  });
+
+  test('returns delta sum when default exists and positions differ', () => {
+    const def = findFormationByStringId(sampleCatalog, 'warlord')!;
+    // default macro_gatling=0, chosen sunfury_plasma=50, power_claw=25
+    // delta = (50-0) + (25-0) = 75
+    assert.strictEqual(loadoutCostForFormation(sampleCatalog, def, { weapons: ['sunfury_plasma', 'power_claw'] }), 75);
+  });
+
+  test('returns absolute sum when no default', () => {
+    const def = findFormationByStringId(sampleCatalog, 'inf_company')!;
+    // gun_servitors=0, manticore=100 → 100
+    assert.strictEqual(loadoutCostForFormation(sampleCatalog, def, { support_upg: ['gun_servitors', 'manticore'] }), 100);
+  });
+
+  test('returns 0 for formations with no loadout_slots', () => {
+    const def = findFormationByStringId(sampleCatalog, 'inf')!;
+    assert.strictEqual(loadoutCostForFormation(sampleCatalog, def, undefined), 0);
+  });
+});
+
+describe('loadout_slots — totalPoints integration', () => {
+  test('warlord formation with all default positions costs base only', () => {
+    const state = emptyState();
+    state.formations = [{ instance_id: 'w1', formation_string_id: 'warlord', upgrade_string_ids: [] }];
+    assert.strictEqual(totalPoints(state, sampleCatalog), 725);
+  });
+
+  test('warlord formation with one non-default position adds the delta', () => {
+    const state = emptyState();
+    state.formations = [{
+      instance_id: 'w1',
+      formation_string_id: 'warlord',
+      upgrade_string_ids: [],
+      loadout_choices: { weapons: ['sunfury_plasma', 'macro_gatling'] },
+    }];
+    assert.strictEqual(totalPoints(state, sampleCatalog), 775);
+  });
+
+  test('inf_company with two added support upgrades adds their absolute pts', () => {
+    const state = emptyState();
+    state.formations = [{
+      instance_id: 'c1',
+      formation_string_id: 'inf_company',
+      upgrade_string_ids: [],
+      loadout_choices: { support_upg: ['gun_servitors', 'manticore'] },
+    }];
+    assert.strictEqual(totalPoints(state, sampleCatalog), 300);
+  });
+});
+
+describe('loadout_slots — canonicalizeLoadoutChoices', () => {
+  test('strips slot whose positions equal [default x min]', () => {
+    const inst = {
+      instance_id: 'w1',
+      formation_string_id: 'warlord',
+      upgrade_string_ids: [],
+      loadout_choices: { weapons: ['macro_gatling', 'macro_gatling'] },
+    };
+    const out = canonicalizeLoadoutChoices(sampleCatalog, inst);
+    assert.strictEqual(out.loadout_choices, undefined);
+  });
+
+  test('strips slot with empty positions when no default + max only', () => {
+    const inst = {
+      instance_id: 'c1',
+      formation_string_id: 'inf_company',
+      upgrade_string_ids: [],
+      loadout_choices: { support_upg: [] },
+    };
+    const out = canonicalizeLoadoutChoices(sampleCatalog, inst);
+    assert.strictEqual(out.loadout_choices, undefined);
+  });
+
+  test('keeps slot when positions diverge from canonical state', () => {
+    const inst = {
+      instance_id: 'w1',
+      formation_string_id: 'warlord',
+      upgrade_string_ids: [],
+      loadout_choices: { weapons: ['sunfury_plasma', 'macro_gatling'] },
+    };
+    const out = canonicalizeLoadoutChoices(sampleCatalog, inst);
+    assert.deepStrictEqual(out.loadout_choices, { weapons: ['sunfury_plasma', 'macro_gatling'] });
+  });
+});
+
+describe('loadout_slots — violations', () => {
+  test('flags when current position count < min', () => {
+    const state = emptyState();
+    state.formations = [{
+      instance_id: 'w1',
+      formation_string_id: 'warlord',
+      upgrade_string_ids: [],
+      loadout_choices: { weapons: ['sunfury_plasma'] }, // only 1 position, min=2
+    }];
+    const msgs = violations(state, sampleCatalog);
+    assert.ok(msgs.some((m) => /Warlord.*Weapons.*at least 2/i.test(m)), `got: ${msgs.join('; ')}`);
   });
 });

@@ -8,6 +8,9 @@ export interface BuilderFormation {
   /** Map from swap_slot.string_id to the chosen variant's upgrade.string_id.
    * Only non-default selections are stored; absence = default. Optional for backward compat. */
   swap_choices?: Record<string, string>;
+  /** Map from loadout_slot.string_id to the array of chosen variant upgrade.string_ids,
+   * one entry per filled position. Absent when canonical initial state applies. */
+  loadout_choices?: Record<string, string[]>;  // NEW
 }
 
 export interface SavedListSummary {
