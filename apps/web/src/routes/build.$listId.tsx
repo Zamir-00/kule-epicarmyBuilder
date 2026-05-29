@@ -7,6 +7,7 @@ import { totalPoints, violations, findUpgradeByStringId, type CatalogList } from
 import { trpc } from '@/lib/trpc';
 import { useAuth } from '@/lib/auth-context';
 import { Button } from '@/components/ui/button';
+import { FormationProfiles, useSourceForList, type SourceJson } from '@/components/UnitProfiles';
 
 const searchSchema = z.object({
   from: z.string().optional(),
@@ -82,6 +83,7 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
   const builder = useBuilderStore();
   const { isSignedIn } = useAuth();
   const trpcUtils = trpc.useUtils();
+  const sourceQ = useSourceForList(catalog.list_id);
 
   const total = totalPoints(builder, catalog);
   const violationList = violations(builder, catalog);
@@ -206,7 +208,7 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
           ) : (
             <ul className="space-y-3">
               {builder.formations.map((inst) => (
-                <FormationCard key={inst.instance_id} instance={inst} catalog={catalog} />
+                <FormationCard key={inst.instance_id} instance={inst} catalog={catalog} sourceJson={sourceQ.data ?? null} />
               ))}
             </ul>
           )}
@@ -219,9 +221,11 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
 function FormationCard({
   instance,
   catalog,
+  sourceJson,
 }: {
   instance: { instance_id: string; formation_string_id: string; upgrade_string_ids: string[] };
   catalog: CatalogList;
+  sourceJson: SourceJson | null;
 }) {
   const builder = useBuilderStore();
   const def = catalog.sections.flatMap((s) => s.formations).find((f) => f.string_id === instance.formation_string_id);
@@ -279,6 +283,7 @@ function FormationCard({
           })}
         </ul>
       )}
+      <FormationProfiles formationName={def.name} sourceJson={sourceJson} />
     </li>
   );
 }

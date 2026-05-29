@@ -1,0 +1,190 @@
+import { useQuery } from '@tanstack/react-query';
+import { useState } from 'react';
+
+export interface SourceWeapon {
+  name: string;
+  range: string;
+  firepower: string;
+  notes?: string[];
+}
+
+export interface SourceProfile {
+  id: string;
+  name: string;
+  type?: string;
+  speed?: string;
+  armour?: string;
+  cc?: string;
+  ff?: string;
+  weapons?: SourceWeapon[];
+  abilities_or_notes?: string[];
+}
+
+export interface SourceFormation {
+  id: string;
+  name: string;
+  units_text?: string | null;
+}
+
+export interface SourceJson {
+  metadata?: { list_id?: string; army_name?: string; version?: string };
+  formations?: SourceFormation[];
+  profiles?: SourceProfile[];
+}
+
+export function useSourceForList(list_id: string | null | undefined) {
+  return useQuery({
+    queryKey: ['source-for-list', list_id],
+    queryFn: async (): Promise<SourceJson | null> => {
+      if (!list_id) return null;
+      const r = await fetch(`/data/source-for-list/${encodeURIComponent(list_id)}`);
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    },
+    enabled: !!list_id,
+    staleTime: 60 * 60_000,
+  });
+}
+
+function normalizeName(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\b(1\+|2\+|3\+|companies|company|formation|formations|retinue|retinues|squadron|squadrons|squad|squads|battery|batteries)\b/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function findSourceFormation(
+  catalogName: string,
+  sourceFormations: SourceFormation[] | undefined,
+): SourceFormation | null {
+  if (!sourceFormations || sourceFormations.length === 0) return null;
+  const target = normalizeName(catalogName);
+  for (const sf of sourceFormations) {
+    if (normalizeName(sf.name) === target) return sf;
+  }
+  for (const sf of sourceFormations) {
+    const n = normalizeName(sf.name);
+    if (!n) continue;
+    if (n.includes(target) || target.includes(n)) return sf;
+  }
+  return null;
+}
+
+export function findProfilesForFormation(
+  formationName: string,
+  unitsText: string | null | undefined,
+  profiles: SourceProfile[] | undefined,
+): SourceProfile[] {
+  if (!profiles || profiles.length === 0) return [];
+  const haystack = `${unitsText ?? ''} ${formationName}`.toLowerCase();
+  const seen = new Set<string>();
+  const matches: SourceProfile[] = [];
+  // Match longer names first so we don't dedupe by a short substring of another.
+  const sorted = [...profiles].sort((a, b) => b.name.length - a.name.length);
+  for (const p of sorted) {
+    const n = p.name.toLowerCase();
+    if (!n || n.length < 3) continue;
+    if (haystack.includes(n) && !seen.has(p.id)) {
+      seen.add(p.id);
+      matches.push(p);
+    }
+  }
+  // Preserve original profiles[] order in output, not the length-sorted order.
+  return profiles.filter((p) => seen.has(p.id));
+}
+
+function UnitProfileCard({ profile }: { profile: SourceProfile }) {
+  const [open, setOpen] = useState(false);
+  const stat = (label: string, value?: string) =>
+    value && value !== 'n/a' ? <span><span className="text-muted-foreground">{label}</span> {value}</span> : null;
+  return (
+    <li className="rounded-md border bg-background">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        className="flex w-full items-center justify-between gap-2 px-3 py-2 text-left text-sm hover:bg-muted/40"
+      >
+        <span className="font-medium">{profile.name}</span>
+        <span className="text-xs text-muted-foreground">{open ? '▲' : '▼'}</span>
+      </button>
+      {open && (
+        <div className="space-y-2 border-t px-3 py-2 text-xs">
+          <p className="flex flex-wrap gap-x-3 gap-y-1">
+            {stat('Type', profile.type)}
+            {stat('Speed', profile.speed)}
+            {stat('Armour', profile.armour)}
+            {stat('CC', profile.cc)}
+            {stat('FF', profile.ff)}
+          </p>
+          {profile.weapons && profile.weapons.length > 0 && (
+            <table className="w-full border-collapse text-xs">
+              <thead>
+                <tr className="text-left text-muted-foreground">
+                  <th className="pr-2 font-normal">Weapon</th>
+                  <th className="pr-2 font-normal">Range</th>
+                  <th className="font-normal">Firepower</th>
+                </tr>
+              </thead>
+              <tbody>
+                {profile.weapons.map((w, i) => (
+                  <tr key={i} className="border-t border-border/40">
+                    <td className="pr-2">{w.name}</td>
+                    <td className="pr-2">{w.range}</td>
+                    <td>
+                      {w.firepower}
+                      {w.notes && w.notes.length > 0 && (
+                        <span className="text-muted-foreground"> ({w.notes.join(', ')})</span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
+          {profile.abilities_or_notes && profile.abilities_or_notes.length > 0 && (
+            <p>
+              <span className="text-muted-foreground">Abilities:</span>{' '}
+              {profile.abilities_or_notes.join(', ')}
+            </p>
+          )}
+        </div>
+      )}
+    </li>
+  );
+}
+
+export function FormationProfiles({
+  formationName,
+  sourceJson,
+}: {
+  formationName: string;
+  sourceJson: SourceJson | null | undefined;
+}) {
+  if (!sourceJson) return null;
+  const sourceFormation = findSourceFormation(formationName, sourceJson.formations);
+  const profiles = findProfilesForFormation(
+    formationName,
+    sourceFormation?.units_text ?? null,
+    sourceJson.profiles,
+  );
+  if (!sourceFormation?.units_text && profiles.length === 0) return null;
+  return (
+    <div className="mt-3 space-y-2 border-t pt-2">
+      {sourceFormation?.units_text && (
+        <p className="text-xs italic text-muted-foreground">
+          Composition: {sourceFormation.units_text}
+        </p>
+      )}
+      {profiles.length > 0 && (
+        <ul className="space-y-1">
+          {profiles.map((p) => (
+            <UnitProfileCard key={p.id} profile={p} />
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}

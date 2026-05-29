@@ -12,6 +12,7 @@ import {
   type CatalogList,
 } from '@/stores/selectors';
 import { Button } from '@/components/ui/button';
+import { FormationProfiles, useSourceForList, type SourceJson } from '@/components/UnitProfiles';
 import { useMemo } from 'react';
 
 interface ListIndexEntry {
@@ -63,6 +64,8 @@ function ListViewerPage() {
     enabled: !!list?.list_id,
     staleTime: 5 * 60_000,
   });
+
+  const sourceQ = useSourceForList(list?.list_id);
 
   const indexQ = useQuery({
     queryKey: ['lists-index'],
@@ -228,7 +231,7 @@ function ListViewerPage() {
       ) : (
         <ul className="space-y-3">
           {formations.map((inst) => (
-            <FormationViewRow key={inst.instance_id} instance={inst} catalog={catalog} />
+            <FormationViewRow key={inst.instance_id} instance={inst} catalog={catalog} sourceJson={sourceQ.data ?? null} />
           ))}
         </ul>
       )}
@@ -239,9 +242,11 @@ function ListViewerPage() {
 function FormationViewRow({
   instance,
   catalog,
+  sourceJson,
 }: {
   instance: BuilderFormation;
   catalog: CatalogList;
+  sourceJson: SourceJson | null;
 }) {
   const def = findFormationByStringId(catalog, instance.formation_string_id);
   if (!def) {
@@ -279,6 +284,7 @@ function FormationViewRow({
           ))}
         </ul>
       )}
+      <FormationProfiles formationName={def.name} sourceJson={sourceJson} />
     </li>
   );
 }
