@@ -112,6 +112,21 @@
           "upgrades": [
             34,
             35
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_4_quad_launchers_or_4_heavy_mortars",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 31,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {
@@ -138,7 +153,28 @@
           "id": 518,
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
-          "cost_pts": 200
+          "cost_pts": 200,
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword_or_stormblade_or_stormsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "death_rider_scout_platoon",

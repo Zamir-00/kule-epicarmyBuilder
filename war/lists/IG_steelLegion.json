@@ -159,7 +159,25 @@
           "name": "Artillery Battery",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_basilisks_or_3_bombards_or_3_manticores",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 41,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "sentinel_squadron",
@@ -185,7 +203,22 @@
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "orbital_support",

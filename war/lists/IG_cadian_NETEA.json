@@ -117,6 +117,24 @@
           "cost_pts": 250,
           "upgrades": [
             20
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_basilisks_or_3_bombards_or_3_manticores",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {
@@ -182,6 +200,24 @@
           "cost_pts": 200,
           "upgrades": [
             20
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword_or_stormsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 35,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         },
         {
@@ -192,6 +228,21 @@
           "cost_pts": 400,
           "upgrades": [
             20
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_6_lehman_russ_tanks_or_6_lehman_russ_demolisher_tanks",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 38,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            }
           ]
         },
         {

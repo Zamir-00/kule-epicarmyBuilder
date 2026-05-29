@@ -100,7 +100,25 @@
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword_or_stormblade",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 19,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "anti_tank_platoon",

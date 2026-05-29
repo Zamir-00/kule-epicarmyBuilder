@@ -124,6 +124,21 @@
             15,
             17,
             13
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_6_chosen_units_or_4_chosen_units_2_chaos_rhinos",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 60,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {

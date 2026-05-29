@@ -24,6 +24,21 @@
             111,
             112,
             115
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_5x_leman_russ_vanquishers_or_5x_leman_russ_executioners",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 101,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 102
+                }
+              ]
+            }
           ]
         },
         {
@@ -90,6 +105,21 @@
           "cost_pts": 200,
           "upgrades": [
             110
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_4x_ironstrider_balistarii_or_4x_ironstrider_dragoons",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 107,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 108
+                }
+              ]
+            }
           ]
         },
         {
@@ -249,6 +279,21 @@
             82,
             83,
             84
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_imperator_configuration_or_warmonger_configuration",
+              "label": "Configuration",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {

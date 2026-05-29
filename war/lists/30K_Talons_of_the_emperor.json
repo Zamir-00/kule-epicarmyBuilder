@@ -19,6 +19,21 @@
             102,
             2,
             3
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_6x_sentinel_guard_or_6x_custodian_guard_units",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         },
         {
@@ -38,6 +53,21 @@
             114,
             115,
             116
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_6x_sisters_of_silence_prosecutors_or_6x_sisters_of_silence_vigilators",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 25,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         }
       ]
@@ -56,6 +86,24 @@
             102,
             2,
             3
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_4x_sagittarum_custodes_or_4x_ephoroi_custodes_or_4x_venatari_custodes",
+              "label": "Custodes type",
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {

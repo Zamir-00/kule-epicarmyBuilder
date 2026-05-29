@@ -41,6 +41,21 @@
             54,
             56,
             63
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_8_fire_warrior_units_or_6_fire_warrior_units_3_devilfishes",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 31,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         }
       ]

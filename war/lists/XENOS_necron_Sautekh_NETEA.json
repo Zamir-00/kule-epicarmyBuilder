@@ -176,7 +176,22 @@
           "id": 800,
           "name": "Harvester Engine",
           "pts": 600,
-          "cost_pts": 600
+          "cost_pts": 600,
+          "swap_slots": [
+            {
+              "string_id": "swap_abattoir_or_aeonic_orb",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 70,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "spacecraft",

@@ -219,6 +219,21 @@
             79,
             80,
             87
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_nobz_or_nob_warbikes",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {

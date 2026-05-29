@@ -35,6 +35,24 @@
             54,
             55,
             56
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 350,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 351
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            }
           ]
         },
         {
@@ -67,6 +85,37 @@
             57,
             58,
             59
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_mace_ta",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 358
+                }
+              ]
+            }
           ]
         },
         {
@@ -96,6 +145,21 @@
             54,
             68,
             69
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            }
           ]
         },
         {
@@ -128,6 +192,21 @@
             65,
             66,
             67
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_void_head_chaos_undivided_head_or_plague_maw_nurgle_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 354
+                }
+              ]
+            }
           ]
         },
         {
@@ -218,6 +297,40 @@
             233,
             234,
             235
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 350,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 351
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_barrage",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 357
+                }
+              ]
+            }
           ]
         },
         {
@@ -252,6 +365,37 @@
             202,
             203,
             204
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_mace_ta",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 358
+                }
+              ]
+            }
           ]
         },
         {
@@ -282,6 +426,37 @@
             202,
             203,
             204
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_lust_la",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 359
+                }
+              ]
+            }
           ]
         },
         {
@@ -315,6 +490,21 @@
             202,
             203,
             204
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_void_head_chaos_undivided_head_or_plague_maw_nurgle_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 354
+                }
+              ]
+            }
           ]
         },
         {
@@ -347,6 +537,21 @@
             202,
             203,
             204
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_void_head_chaos_undivided_head_or_daemon_maw_tzeentch_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 353
+                }
+              ]
+            }
           ]
         },
         {
@@ -374,6 +579,40 @@
             303,
             304,
             305
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 350,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 351
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_barrage",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 357
+                }
+              ]
+            }
           ]
         },
         {
@@ -404,6 +643,37 @@
             304,
             306,
             307
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_mace_ta",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 358
+                }
+              ]
+            }
           ]
         },
         {
@@ -429,6 +699,37 @@
             303,
             304,
             310
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_lust_la",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 359
+                }
+              ]
+            }
           ]
         },
         {
@@ -457,6 +758,21 @@
             303,
             304,
             309
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_void_head_chaos_undivided_head_or_plague_maw_nurgle_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 354
+                }
+              ]
+            }
           ]
         },
         {
@@ -484,6 +800,21 @@
             303,
             304,
             308
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_void_head_chaos_undivided_head_or_daemon_maw_tzeentch_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 353
+                }
+              ]
+            }
           ]
         }
       ]
@@ -498,7 +829,66 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "One Forgehound Chaos Warhound",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 350,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 351
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "swap_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_barrage",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 357
+                }
+              ]
+            },
+            {
+              "string_id": "swap_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_chaos",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "forgehound_pack_chaos_warhounds_of_chaos_undivided",
@@ -525,7 +915,46 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "One Plaguehound Chaos Warhound",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_hellm",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 130
+                },
+                {
+                  "upgrade_id": 131
+                },
+                {
+                  "upgrade_id": 132
+                },
+                {
+                  "upgrade_id": 133
+                },
+                {
+                  "upgrade_id": 134
+                },
+                {
+                  "upgrade_id": 135
+                },
+                {
+                  "upgrade_id": 136
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "plaguehound_pack_chaos_warhounds_of_nurgle",
@@ -543,7 +972,59 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "One Warphound Chaos Warhound",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_void_head_chaos_undivided_head_or_daemon_maw_tzeentch_head",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 353
+                }
+              ]
+            },
+            {
+              "string_id": "swap_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_hellm",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 120
+                },
+                {
+                  "upgrade_id": 121
+                },
+                {
+                  "upgrade_id": 122
+                },
+                {
+                  "upgrade_id": 123
+                },
+                {
+                  "upgrade_id": 124
+                },
+                {
+                  "upgrade_id": 125
+                },
+                {
+                  "upgrade_id": 126
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "warphound_pack_chaos_warhounds_of_tzeentch",

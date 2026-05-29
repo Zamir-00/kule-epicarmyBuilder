@@ -62,6 +62,24 @@
           "upgrades": [
             11,
             40
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_seigneur_du_chaos_or_seigneur_sorcier_du_chaos_or_seigneur_de_guerre_du_cha",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 88,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 89
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            }
           ]
         },
         {
@@ -86,6 +104,24 @@
           "units": "8 Motos de la Black Legion",
           "upgrades": [
             40
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_seigneur_du_chaos_or_seigneur_sorcier_du_chaos_or_seigneur_de_guerre_du_cha",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 88,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 89
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            }
           ]
         },
         {

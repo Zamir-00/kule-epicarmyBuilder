@@ -57,6 +57,21 @@
             12,
             13,
             14
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_demagogue_or_chaos_marine_aspiring_champion",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 7,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            }
           ]
         },
         {

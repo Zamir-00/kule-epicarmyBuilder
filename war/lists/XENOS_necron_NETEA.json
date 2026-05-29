@@ -114,14 +114,44 @@
           "name": "C`Tan",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_nightbringer_or_deceiver",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "harvester_engine",
           "id": 803,
           "name": "Harvester Engine",
           "pts": 600,
-          "cost_pts": 600
+          "cost_pts": 600,
+          "swap_slots": [
+            {
+              "string_id": "swap_abattoir_or_aeonic_orb",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "pylon",

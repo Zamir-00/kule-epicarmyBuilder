@@ -57,7 +57,22 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "9 Howitzers",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_tractors_or_gun_emplacements",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "siege_artillery_battery",
@@ -66,7 +81,22 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "3 Howitzers",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_tractors_or_gun_emplacements",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "regiment_aa_battery",
@@ -75,7 +105,22 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "3 AA Guns",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_tractors_or_gun_emplacements",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "bombard_battery",
@@ -110,7 +155,22 @@
           "name": "Super-heavy Tank Platoon",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 17,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "light_tank_platoon",

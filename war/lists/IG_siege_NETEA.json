@@ -112,7 +112,22 @@
           "upgrades": [
             14
           ],
-          "units": "3 Blitzen AA Guns"
+          "units": "3 Blitzen AA Guns",
+          "swap_slots": [
+            {
+              "string_id": "swap_3_gun_emplacements_or_3_bruenhildes",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "heavy_tank_platoon",
@@ -166,6 +181,21 @@
           "cost_pts": 200,
           "upgrades": [
             14
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 17,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         }
       ]

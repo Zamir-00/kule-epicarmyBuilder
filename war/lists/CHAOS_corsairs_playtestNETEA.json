@@ -176,6 +176,21 @@
             20,
             13,
             28
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_chaos_lord_or_sorceror_lord",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 90,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            }
           ]
         },
         {
@@ -192,6 +207,21 @@
             20,
             13,
             28
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_chaos_lord_or_sorceror_lord",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 90,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            }
           ]
         },
         {

@@ -27,6 +27,24 @@
             38,
             5,
             6
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_iron_father_or_captain_or_librarian",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 1,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            }
           ]
         },
         {

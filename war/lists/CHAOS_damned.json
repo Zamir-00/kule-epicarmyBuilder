@@ -36,6 +36,30 @@
             42,
             30,
             32
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_chaos_undivided_or_khorne_or_nurgle_or_slaanesh_or_tzeentch",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 85,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                },
+                {
+                  "upgrade_id": 84
+                }
+              ]
+            }
           ]
         },
         {

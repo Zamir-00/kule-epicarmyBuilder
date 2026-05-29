@@ -43,6 +43,30 @@
             63,
             76,
             77
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -60,6 +84,30 @@
             57,
             72,
             73
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -103,6 +151,30 @@
             56,
             52,
             60
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -119,6 +191,30 @@
             76,
             77,
             56
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         }
       ]
@@ -136,6 +232,30 @@
           "upgrades": [
             60,
             56
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -145,7 +265,31 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "4 Defilers",
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "raptor_cult",
@@ -156,6 +300,30 @@
           "upgrades": [
             30,
             56
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -172,6 +340,30 @@
             76,
             77,
             60
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         }
       ]
@@ -211,6 +403,30 @@
           "cost_pts": 0,
           "upgrades": [
             23
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -221,6 +437,30 @@
           "cost_pts": 0,
           "upgrades": [
             25
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         }
       ]

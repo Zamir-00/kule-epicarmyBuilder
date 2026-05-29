@@ -349,6 +349,24 @@
           "cost_pts": 650,
           "upgrades": [
             81
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_soopagun_or_2_soopagun_supa_zzap_gun_or_2_soopagun_mega_chopper",
+              "label": "Weapon",
+              "variants": [
+                {
+                  "upgrade_id": 83,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         },
         {
@@ -359,6 +377,21 @@
           "cost_pts": 850,
           "upgrades": [
             81
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_2_twin_soopagun_or_twin_soopagun_lifta_dropper",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 86,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            }
           ]
         }
       ]

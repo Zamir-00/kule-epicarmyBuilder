@@ -119,6 +119,24 @@
             47,
             48,
             49
+          ],
+          "swap_slots": [
+            {
+              "string_id": "swap_cobra_or_scorpion_or_storm_serpent",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 34,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {

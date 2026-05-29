@@ -69,7 +69,25 @@
           "units": "1 Revenant Titan",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_sonic_lance_pair_or_revenant_pulse_laser_pair_or_suncannon_pair",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -83,7 +101,25 @@
           "units": "Three Wraithknights",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_3_x_2_heavy_wraithcannons_or_3_x_suncannon_or_3_x_ghostglaive_and_scattersh",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 25,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "wraithlord_troupe",

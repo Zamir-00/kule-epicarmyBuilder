@@ -155,7 +155,22 @@
           "name": "Peloton de Char Super Lourd",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_baneblade_or_shadowsword",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 16,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "batterie_d_artillerie",

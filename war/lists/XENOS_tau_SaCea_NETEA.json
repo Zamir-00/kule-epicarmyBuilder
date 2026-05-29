@@ -135,7 +135,22 @@
           "id": 520,
           "name": "Pathfinder Group",
           "pts": 200,
-          "cost_pts": 200
+          "cost_pts": 200,
+          "swap_slots": [
+            {
+              "string_id": "swap_4_pathfinders_2_sa_cea_devilfish_or_6_pathfinders",
+              "label": "Choice",
+              "variants": [
+                {
+                  "upgrade_id": 57,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "kv128_stormsurge_formation",
