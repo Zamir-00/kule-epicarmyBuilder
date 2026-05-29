@@ -169,6 +169,28 @@ export interface EpicArmyBuilderArmyList {
         ];
         [k: string]: unknown;
       }[];
+      loadout_slots?: {
+        string_id: string;
+        label: string;
+        min?: number;
+        max?: number;
+        /**
+         * @minItems 1
+         */
+        variants: [
+          {
+            upgrade_id: number | string;
+            is_default?: boolean;
+            [k: string]: unknown;
+          },
+          ...{
+            upgrade_id: number | string;
+            is_default?: boolean;
+            [k: string]: unknown;
+          }[]
+        ];
+        [k: string]: unknown;
+      }[];
       [k: string]: unknown;
     }[];
     [k: string]: unknown;
