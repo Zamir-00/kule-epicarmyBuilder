@@ -55,7 +55,37 @@
                   "type": "array",
                   "items": {}
                 },
-                "cost_pts": {}
+                "cost_pts": {},
+                "swap_slots": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["string_id", "label", "variants"],
+                    "additionalProperties": true,
+                    "properties": {
+                      "string_id": { "type": "string", "minLength": 1 },
+                      "label": { "type": "string", "minLength": 1 },
+                      "variants": {
+                        "type": "array",
+                        "minItems": 2,
+                        "items": {
+                          "type": "object",
+                          "required": ["upgrade_id"],
+                          "additionalProperties": true,
+                          "properties": {
+                            "upgrade_id": {
+                              "oneOf": [
+                                { "type": "integer" },
+                                { "type": "string" }
+                              ]
+                            },
+                            "is_default": { "type": "boolean" }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           }

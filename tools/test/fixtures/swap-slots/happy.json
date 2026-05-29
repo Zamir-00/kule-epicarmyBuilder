@@ -1,0 +1,35 @@
+{
+  "id": "TEST_swap_happy",
+  "list_id": "TEST_swap_happy",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "demi_century",
+          "id": 1,
+          "name": "Demi-Century",
+          "pts": 250,
+          "cost_pts": 250,
+          "upgrades": [10, 11],
+          "swap_slots": [
+            {
+              "string_id": "support_unit",
+              "label": "Support unit",
+              "variants": [
+                { "upgrade_id": 100, "is_default": true },
+                { "upgrade_id": 101 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 10, "string_id": "hydra", "name": "Hydra", "pts": 50 },
+    { "id": 11, "string_id": "chimedons", "name": "Chimedons", "pts": 175 },
+    { "id": 100, "string_id": "gun_servitors", "name": "5 Gun Servitors", "pts": 0 },
+    { "id": 101, "string_id": "rapier_lasers", "name": "3 Rapier Laser Destroyers", "pts": 0 }
+  ]
+}
