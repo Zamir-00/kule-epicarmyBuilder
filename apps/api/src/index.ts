@@ -83,7 +83,7 @@ export async function buildApp(opts?: BuildAppOpts) {
 
     const session = createSession(deps.db, user.id, req.headers['user-agent']);
     setSessionCookie(reply, session.id, env.NODE_ENV === 'production');
-    reply.code(302).header('location', '/').send();
+    reply.code(302).header('location', '/v2/').send();
   });
 
   // Static last
