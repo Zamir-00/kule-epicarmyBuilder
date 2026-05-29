@@ -233,11 +233,14 @@ async function buildFactionInventory(): Promise<FactionEntry[]> {
   return entries;
 }
 
-// list_id → source-json filename. Built from three sources:
+// list_id → source-json filename. Built from four sources, in order:
 // 1. Source-json files whose metadata.list_id self-identifies
 // 2. armyIds + sourceJsonPaths arrays in war/js/unitProfiles.*.js
 // 3. armyIds alone, derived to a kebab-case source-json filename via naming
 //    convention (mirrors buildFactionInventory's jsToSourceCandidates).
+// 4. Sibling fallback: if a list_id is still unmapped but another catalog
+//    list with the same faction_id has a mapping, reuse it. Different rulesets
+//    of the same faction share unit profiles, so this is safe.
 // Lists not in any source return 404 from /data/source-for-list/:list_id.
 let sourceForListCache: Record<string, string> | null = null;
 let sourceForListCacheAt = 0;
@@ -304,6 +307,29 @@ async function buildSourceForListIndex(): Promise<Record<string, string>> {
       }
     } catch {
       // skip unparseable
+    }
+  }
+
+  // Source 4: sibling-faction fallback. For lists with a faction_id that aren't
+  // mapped yet, reuse the mapping of any sibling list sharing BOTH:
+  // - the same faction_id, AND
+  // - the same list_id prefix (the part before the first '_').
+  // The prefix guard avoids cross-army collisions like CHAOS_corsairs vs
+  // EL_corsairs (both have faction_id "corsairs" but are unrelated armies).
+  const lists = await buildListsIndex();
+  const prefixOf = (lid: string) => lid.split('_', 1)[0] ?? '';
+  const siblingKey = (lid: string, fid: string) => `${prefixOf(lid)}|${fid}`;
+  const siblingToFile = new Map<string, string>();
+  for (const entry of lists) {
+    if (entry.faction_id && map[entry.list_id]) {
+      const key = siblingKey(entry.list_id, entry.faction_id);
+      if (!siblingToFile.has(key)) siblingToFile.set(key, map[entry.list_id]!);
+    }
+  }
+  for (const entry of lists) {
+    if (entry.faction_id && !map[entry.list_id]) {
+      const sibling = siblingToFile.get(siblingKey(entry.list_id, entry.faction_id));
+      if (sibling) map[entry.list_id] = sibling;
     }
   }
 
