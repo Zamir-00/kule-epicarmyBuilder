@@ -38,10 +38,9 @@ export async function buildApp(opts?: BuildAppOpts) {
 
   app.get('/healthz', async () => ({ status: 'ok' }));
 
-  // No explicit '/' handler — @fastify/static serves war/index.html (the legacy
-  // ruleset nav menu) at /. Skipping it dumps users into chooser.html with no
-  // ?list=... query param, which triggers a pre-existing bug at chooser.js:2635
-  // where it calls .split() on undefined.
+  // The SPA is the default landing page. Legacy entry points remain reachable
+  // via direct URLs (e.g. /index.html, /indexNETEA.html, /chooser.html?list=...).
+  app.get('/', async (_req, reply) => { reply.code(303).redirect('/v2/'); });
 
   await registerStaticRoutes(app);
 

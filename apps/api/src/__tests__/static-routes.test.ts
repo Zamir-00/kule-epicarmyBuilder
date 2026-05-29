@@ -2,12 +2,19 @@ import { test } from 'node:test';
 import assert from 'node:assert';
 import { buildApp } from '../index.js';
 
-test('GET / serves the legacy ruleset nav menu (war/index.html)', async () => {
+test('GET / redirects to /v2/ (SPA is the default)', async () => {
   const app = await buildApp();
   const r = await app.inject({ method: 'GET', url: '/' });
+  assert.strictEqual(r.statusCode, 303);
+  assert.strictEqual(r.headers['location'], '/v2/');
+  await app.close();
+});
+
+test('GET /index.html still serves the legacy ruleset nav menu', async () => {
+  const app = await buildApp();
+  const r = await app.inject({ method: 'GET', url: '/index.html' });
   assert.strictEqual(r.statusCode, 200);
   assert.match(r.headers['content-type'] as string, /text\/html/);
-  // war/index.html links to per-ruleset menus — sanity check we hit the right file
   assert.match(r.body, /indexNETEA\.html|indexGW\.html/);
   await app.close();
 });
