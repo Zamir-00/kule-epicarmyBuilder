@@ -124,10 +124,19 @@ test('GET /data/source-for-list/SM_scars_NETEA resolves via the kebab-name fallb
   await app.close();
 });
 
-test('GET /data/source-for-list/<unmapped-list> returns 404', async () => {
+test('GET /data/source-for-list/AMTL_skitarii_EPICUK resolves via sibling-faction fallback', async () => {
+  // AMTL_skitarii_NETEA maps to a source-json directly. The EPICUK sibling
+  // shares faction_id "skitarii" AND prefix "AMTL", so it inherits the mapping.
   const app = await buildApp();
-  // Pick a list_id that has no source-json mapping: ORK_feral
-  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/ORK_feral' });
+  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/AMTL_skitarii_EPICUK' });
+  assert.strictEqual(r.statusCode, 200);
+  await app.close();
+});
+
+test('GET /data/source-for-list/<truly-orphan-list> returns 404', async () => {
+  const app = await buildApp();
+  // EL_alaitoc_EPICUK: no sibling with mapped profile.
+  const r = await app.inject({ method: 'GET', url: '/data/source-for-list/EL_alaitoc_EPICUK' });
   assert.strictEqual(r.statusCode, 404);
   await app.close();
 });
