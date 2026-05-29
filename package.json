@@ -16,5 +16,8 @@
     "typecheck": "npm run typecheck --workspace apps/api",
     "check": "npm run typecheck --workspace apps/api && npm run test --workspace apps/api",
     "deploy:zip": "node tools/build-deploy-zip.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0"
   }
 }
