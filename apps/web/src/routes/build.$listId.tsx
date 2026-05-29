@@ -115,10 +115,11 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
     <main className="container mx-auto p-6">
       <header className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b pb-4">
         <div>
-          <h1 className="text-2xl font-bold">{catalog.list_id}</h1>
-          {catalog.ruleset && (
-            <p className="text-xs text-muted-foreground">{catalog.ruleset}</p>
-          )}
+          <h1 className="text-2xl font-bold">{builder.title || catalog.list_id}</h1>
+          <p className="text-xs text-muted-foreground">
+            {catalog.list_id}
+            {catalog.ruleset && ` · ${catalog.ruleset}`}
+          </p>
         </div>
         <div className="flex items-center gap-3">
           <div className="text-right">
@@ -129,15 +130,20 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
               </p>
             )}
           </div>
-          {isSignedIn ? (
-            <Button onClick={handleSave} disabled={saveMutation.isPending}>
-              {saveMutation.isPending ? 'Saving…' : 'Save'}
+          <div className="flex items-center gap-2 print:hidden">
+            {isSignedIn ? (
+              <Button onClick={handleSave} disabled={saveMutation.isPending}>
+                {saveMutation.isPending ? 'Saving…' : 'Save'}
+              </Button>
+            ) : (
+              <Link to="/sign-in">
+                <Button variant="outline">Sign in to save</Button>
+              </Link>
+            )}
+            <Button variant="outline" onClick={() => window.print()}>
+              Print / Save as PDF
             </Button>
-          ) : (
-            <Link to="/sign-in">
-              <Button variant="outline">Sign in to save</Button>
-            </Link>
-          )}
+          </div>
         </div>
       </header>
 
@@ -147,8 +153,8 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
         </ul>
       )}
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-        <section>
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 print:grid-cols-1">
+        <section className="print:hidden">
           <h2 className="mb-2 text-lg font-semibold">Add formations</h2>
           {catalog.sections.map((section) => (
             <div key={section.name} className="mb-4">
@@ -176,8 +182,8 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
         </section>
 
         <section>
-          <h2 className="mb-2 text-lg font-semibold">Your army</h2>
-          <div className="mb-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
+          <h2 className="mb-2 text-lg font-semibold print:hidden">Your army</h2>
+          <div className="mb-4 grid grid-cols-1 gap-2 sm:grid-cols-2 print:hidden">
             <label className="flex flex-col gap-1 text-sm">
               <span className="font-medium">Title</span>
               <input
@@ -248,17 +254,21 @@ function FormationCard({
     if (u) totalCost += u.cost_pts ?? u.pts ?? 0;
   }
 
+  const selectedUpgrades = availableUpgrades.filter(
+    (u) => u.string_id && instance.upgrade_string_ids.includes(u.string_id),
+  );
+
   return (
-    <li className="rounded-md border bg-card p-3">
+    <li className="rounded-md border bg-card p-3 break-inside-avoid">
       <div className="flex items-start justify-between gap-2">
         <div className="flex-1">
           <p className="font-medium">{def.name}</p>
           <p className="text-xs text-muted-foreground tabular-nums">{totalCost} pts</p>
         </div>
-        <Button size="sm" variant="ghost" onClick={() => builder.removeFormation(instance.instance_id)}>×</Button>
+        <Button size="sm" variant="ghost" onClick={() => builder.removeFormation(instance.instance_id)} className="print:hidden">×</Button>
       </div>
       {availableUpgrades.length > 0 && (
-        <ul className="mt-2 grid grid-cols-1 gap-1 sm:grid-cols-2">
+        <ul className="mt-2 grid grid-cols-1 gap-1 sm:grid-cols-2 print:hidden">
           {availableUpgrades.map((u) => {
             const checked = u.string_id ? instance.upgrade_string_ids.includes(u.string_id) : false;
             return (
@@ -281,6 +291,18 @@ function FormationCard({
               </li>
             );
           })}
+        </ul>
+      )}
+      {selectedUpgrades.length > 0 && (
+        <ul className="mt-2 hidden space-y-1 print:block">
+          {selectedUpgrades.map((u) => (
+            <li key={u.id} className="text-sm">
+              • {u.name}
+              {(u.cost_pts ?? u.pts ?? 0) > 0 && (
+                <span className="ml-1 text-xs">(+{u.cost_pts ?? u.pts ?? 0})</span>
+              )}
+            </li>
+          ))}
         </ul>
       )}
       <FormationProfiles formationName={def.name} sourceJson={sourceJson} />

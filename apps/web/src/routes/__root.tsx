@@ -11,7 +11,7 @@ function Header() {
     onSuccess: () => window.location.assign('/v2'),
   });
   return (
-    <header className="border-b">
+    <header className="border-b print:hidden">
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
         <Link to="/" className="text-lg font-semibold">Kule Army Builder</Link>
         <nav className="flex items-center gap-3">
