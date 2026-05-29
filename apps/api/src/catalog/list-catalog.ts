@@ -19,7 +19,21 @@ export interface CatalogSwapSlot {
 export interface CatalogFormation {
   string_id?: string;
   swap_slots?: CatalogSwapSlot[];
+  loadout_slots?: CatalogLoadoutSlot[];
   upgrades?: number[];
+}
+
+export interface CatalogLoadoutVariant {
+  upgrade_id: number | string;
+  is_default?: boolean;
+}
+
+export interface CatalogLoadoutSlot {
+  string_id: string;
+  label: string;
+  min?: number;
+  max?: number;
+  variants: CatalogLoadoutVariant[];
 }
 
 export interface CatalogUpgrade {

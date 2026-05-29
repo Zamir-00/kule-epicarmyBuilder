@@ -359,11 +359,36 @@ const TEST_FIXTURE = {
             },
           ],
         },
+        // NEW: loadout-equipped formation
+        {
+          string_id: 'warlord',
+          id: 2,
+          name: 'Warlord',
+          pts: 725,
+          cost_pts: 725,
+          upgrades: [],
+          loadout_slots: [
+            {
+              string_id: 'weapons',
+              label: 'Weapons',
+              min: 2,
+              max: 2,
+              variants: [
+                { upgrade_id: 50, is_default: true },
+                { upgrade_id: 51 },
+                { upgrade_id: 52 },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
   upgrades: [
     { id: 10, string_id: 'hydra', name: 'Hydra', pts: 50 },
+    { id: 50, string_id: 'macro_gatling', name: 'Macro Gatling Blaster', pts: 0 },
+    { id: 51, string_id: 'sunfury_plasma', name: 'Sunfury Plasma', pts: 50 },
+    { id: 52, string_id: 'power_claw', name: 'Power Claw', pts: 25 },
     { id: 100, string_id: 'gun_servitors', name: 'Gun Servitors', pts: 0 },
     { id: 101, string_id: 'rapier_lasers', name: 'Rapier Lasers', pts: 30 },
   ],
@@ -503,4 +528,208 @@ test('save persists body_version: 2 in the stored body', async () => {
   const loaded = await authed.lists.load.query({ id: created.id });
   assert.strictEqual((loaded.body as { body_version?: number }).body_version, 2);
   close();
+});
+
+// ---- loadout_choices validation tests ----
+
+test('save accepts a valid loadout_choices body', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    const result = await authed.lists.save.mutate({
+      title: 'Loadout test',
+      list_id: TEST_LIST_ID,
+      body: {
+        body_version: 3,
+        formations: [{
+          instance_id: '01HLOADOUT01',
+          formation_string_id: 'warlord',
+          upgrade_string_ids: [],
+          loadout_choices: { weapons: ['sunfury_plasma', 'power_claw'] },
+        }],
+      },
+    });
+    assert.ok(result.id);
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects loadout_choices key that is not a slot on the formation', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Bad slot',
+        list_id: TEST_LIST_ID,
+        body: {
+          body_version: 3,
+          formations: [{
+            instance_id: '01HLOADOUT02',
+            formation_string_id: 'warlord',
+            upgrade_string_ids: [],
+            loadout_choices: { nonexistent_slot: ['sunfury_plasma', 'power_claw'] },
+          }],
+        },
+      }),
+      /nonexistent_slot|unknown loadout slot|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects loadout_choices variant that is not in the slot', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Bad variant',
+        list_id: TEST_LIST_ID,
+        body: {
+          body_version: 3,
+          formations: [{
+            instance_id: '01HLOADOUT03',
+            formation_string_id: 'warlord',
+            upgrade_string_ids: [],
+            loadout_choices: { weapons: ['sunfury_plasma', 'ghost_variant'] },
+          }],
+        },
+      }),
+      /ghost_variant|invalid variant|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects loadout position count below min', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Below min',
+        list_id: TEST_LIST_ID,
+        body: {
+          body_version: 3,
+          formations: [{
+            instance_id: '01HLOADOUT04',
+            formation_string_id: 'warlord',
+            upgrade_string_ids: [],
+            loadout_choices: { weapons: ['sunfury_plasma'] }, // only 1; min=2
+          }],
+        },
+      }),
+      /at least 2|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects loadout position count above max', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Above max',
+        list_id: TEST_LIST_ID,
+        body: {
+          body_version: 3,
+          formations: [{
+            instance_id: '01HLOADOUT05',
+            formation_string_id: 'warlord',
+            upgrade_string_ids: [],
+            loadout_choices: { weapons: ['sunfury_plasma', 'power_claw', 'macro_gatling'] }, // 3; max=2
+          }],
+        },
+      }),
+      /at most 2|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects slot key collision across swap_choices and loadout_choices', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Slot collision',
+        list_id: TEST_LIST_ID,
+        // Use the same slot string_id in both maps on the demi formation
+        body: {
+          body_version: 3,
+          formations: [{
+            instance_id: '01HLOADOUT06',
+            formation_string_id: 'demi',
+            upgrade_string_ids: [],
+            swap_choices: { support: 'rapier_lasers' },
+            loadout_choices: { support: ['gun_servitors'] }, // same key
+          }],
+        },
+      }),
+      /collision|both swap_choices and loadout_choices|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save accepts body_version 3', async () => {
+  const { trpc, emails, close } = buildTestApp();
+  const { authed } = await signInUser(trpc, emails);
+  const result = await authed.lists.save.mutate({
+    title: 'v3 body',
+    list_id: VALID_LIST_ID,
+    body: { body_version: 3, formations: [] },
+  });
+  assert.ok(result.id);
+  close();
+});
+
+test('save body_version 3 round-trips through load', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    const created = await authed.lists.save.mutate({
+      title: 'v3 round-trip',
+      list_id: TEST_LIST_ID,
+      body: {
+        body_version: 3,
+        formations: [{
+          instance_id: '01HLOADOUT07',
+          formation_string_id: 'warlord',
+          upgrade_string_ids: [],
+          loadout_choices: { weapons: ['sunfury_plasma', 'power_claw'] },
+        }],
+      },
+    });
+    const loaded = await authed.lists.load.query({ id: created.id });
+    const body = loaded.body as { body_version?: number; formations?: Array<{ loadout_choices?: Record<string, string[]> }> };
+    assert.strictEqual(body.body_version, 3);
+    assert.deepStrictEqual(body.formations?.[0]?.loadout_choices, { weapons: ['sunfury_plasma', 'power_claw'] });
+    close();
+  } finally {
+    await removeTestFixture();
+  }
 });
