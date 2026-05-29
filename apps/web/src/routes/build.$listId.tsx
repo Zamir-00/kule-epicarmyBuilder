@@ -1,17 +1,284 @@
-import { createFileRoute } from '@tanstack/react-router';
+import { createFileRoute, Link } from '@tanstack/react-router';
+import { useEffect } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { z } from 'zod';
+import { useBuilderStore } from '@/stores/builder-store';
+import { totalPoints, violations, findUpgradeByStringId, type CatalogList } from '@/stores/selectors';
+import { trpc } from '@/lib/trpc';
+import { useAuth } from '@/lib/auth-context';
+import { Button } from '@/components/ui/button';
 
-export const Route = createFileRoute('/build/$listId')({
-  component: BuilderStub,
+const searchSchema = z.object({
+  from: z.string().optional(),
 });
 
-function BuilderStub() {
+export const Route = createFileRoute('/build/$listId')({
+  component: BuilderPage,
+  validateSearch: searchSchema,
+});
+
+async function fetchCatalog(listId: string): Promise<CatalogList> {
+  const res = await fetch(`/data/lists/${encodeURIComponent(listId)}.json`);
+  if (!res.ok) throw new Error(`Catalog not found for ${listId} (HTTP ${res.status})`);
+  return res.json() as Promise<CatalogList>;
+}
+
+function BuilderPage() {
   const { listId } = Route.useParams();
+  const { from } = Route.useSearch();
+  const builder = useBuilderStore();
+
+  // Fetch catalog
+  const catalogQ = useQuery({
+    queryKey: ['catalog', listId],
+    queryFn: () => fetchCatalog(listId),
+    staleTime: 5 * 60_000,
+  });
+
+  // Optionally load a saved list to edit
+  const savedQ = trpc.lists.load.useQuery(
+    { id: from ?? '' },
+    { enabled: !!from }
+  );
+
+  // Initialize Zustand store on mount / when listId changes
+  useEffect(() => {
+    if (savedQ.data) {
+      builder.initFromSavedList({
+        id: savedQ.data.id,
+        list_id: savedQ.data.list_id,
+        title: savedQ.data.title,
+        points_target: savedQ.data.points_target ?? null,
+        is_public: !!savedQ.data.is_public,
+        body: savedQ.data.body,
+      });
+    } else if (!from) {
+      // New list — only init if not already pointed at this list_id
+      if (builder.list_id !== listId) {
+        builder.initFromCatalog(listId);
+      }
+    }
+    // Intentionally narrow deps: only re-init when listId or savedQ.data identity changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [listId, savedQ.data, from]);
+
+  if (catalogQ.isLoading) {
+    return <main className="container mx-auto p-8 text-muted-foreground">Loading list…</main>;
+  }
+  if (catalogQ.error || !catalogQ.data) {
+    return (
+      <main className="container mx-auto p-8">
+        <p className="text-destructive">Failed to load list "{listId}".</p>
+        <p className="mt-2"><Link to="/" className="underline underline-offset-4">Back to list picker</Link></p>
+      </main>
+    );
+  }
+  const catalog = catalogQ.data;
+
+  return <BuilderUI catalog={catalog} />;
+}
+
+function BuilderUI({ catalog }: { catalog: CatalogList }) {
+  const builder = useBuilderStore();
+  const { isSignedIn } = useAuth();
+  const trpcUtils = trpc.useUtils();
+
+  const total = totalPoints(builder, catalog);
+  const violationList = violations(builder, catalog);
+
+  const saveMutation = trpc.lists.save.useMutation({
+    onSuccess: (saved: { id: string }) => {
+      builder.setUserListId(saved.id);
+      void trpcUtils.lists.listMine.invalidate();
+      // Update URL with ?from=<id> via window.history (no full navigation)
+      const url = new URL(window.location.href);
+      url.searchParams.set('from', saved.id);
+      window.history.replaceState({}, '', url.toString());
+    },
+  });
+
+  function handleSave() {
+    if (!isSignedIn) return;
+    saveMutation.mutate({
+      id: builder.user_list_id ?? undefined,
+      title: builder.title.trim() || 'Untitled list',
+      list_id: catalog.list_id,
+      points_target: builder.points_target ?? undefined,
+      body: { formations: builder.formations },
+      is_public: builder.is_public,
+    });
+  }
+
   return (
-    <main className="container mx-auto p-8">
-      <h1 className="text-2xl font-bold">Builder for {listId}</h1>
-      <p className="mt-2 text-muted-foreground">
-        The actual list builder lands in S3.5. This is a placeholder.
-      </p>
+    <main className="container mx-auto p-6">
+      <header className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b pb-4">
+        <div>
+          <h1 className="text-2xl font-bold">{catalog.list_id}</h1>
+          {catalog.ruleset && (
+            <p className="text-xs text-muted-foreground">{catalog.ruleset}</p>
+          )}
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="text-right">
+            <p className="text-2xl font-bold tabular-nums">{total} pts</p>
+            {builder.points_target != null && (
+              <p className={`text-xs ${total > builder.points_target ? 'text-destructive' : 'text-muted-foreground'}`}>
+                of {builder.points_target}
+              </p>
+            )}
+          </div>
+          {isSignedIn ? (
+            <Button onClick={handleSave} disabled={saveMutation.isPending}>
+              {saveMutation.isPending ? 'Saving…' : 'Save'}
+            </Button>
+          ) : (
+            <Link to="/sign-in">
+              <Button variant="outline">Sign in to save</Button>
+            </Link>
+          )}
+        </div>
+      </header>
+
+      {violationList.length > 0 && (
+        <ul className="mb-4 rounded-md border border-destructive/40 bg-destructive/10 p-3 text-sm text-destructive">
+          {violationList.map((v, i) => <li key={i}>• {v}</li>)}
+        </ul>
+      )}
+
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <section>
+          <h2 className="mb-2 text-lg font-semibold">Add formations</h2>
+          {catalog.sections.map((section) => (
+            <div key={section.name} className="mb-4">
+              <h3 className="mb-1 text-xs font-medium uppercase text-muted-foreground">{section.name}</h3>
+              <ul className="space-y-1">
+                {section.formations.map((f) => (
+                  <li key={f.string_id ?? f.name} className="flex items-center justify-between rounded border bg-card px-3 py-2 text-sm">
+                    <span>
+                      {f.name}
+                      <span className="ml-2 text-xs text-muted-foreground">{f.cost_pts ?? f.pts ?? 0} pts</span>
+                    </span>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      disabled={!f.string_id}
+                      onClick={() => f.string_id && builder.addFormation(f.string_id)}
+                    >
+                      Add
+                    </Button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+
+        <section>
+          <h2 className="mb-2 text-lg font-semibold">Your army</h2>
+          <div className="mb-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
+            <label className="flex flex-col gap-1 text-sm">
+              <span className="font-medium">Title</span>
+              <input
+                type="text"
+                value={builder.title}
+                onChange={(e) => builder.setTitle(e.target.value)}
+                placeholder="Untitled list"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              />
+            </label>
+            <label className="flex flex-col gap-1 text-sm">
+              <span className="font-medium">Points target</span>
+              <input
+                type="number"
+                min={0}
+                value={builder.points_target ?? ''}
+                onChange={(e) => builder.setPointsTarget(e.target.value === '' ? null : Number(e.target.value))}
+                placeholder="e.g. 3000"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
+              />
+            </label>
+          </div>
+
+          {builder.formations.length === 0 ? (
+            <p className="rounded-md border border-dashed p-6 text-center text-sm text-muted-foreground">
+              No formations yet. Pick from the left to add.
+            </p>
+          ) : (
+            <ul className="space-y-3">
+              {builder.formations.map((inst) => (
+                <FormationCard key={inst.instance_id} instance={inst} catalog={catalog} />
+              ))}
+            </ul>
+          )}
+        </section>
+      </div>
     </main>
+  );
+}
+
+function FormationCard({
+  instance,
+  catalog,
+}: {
+  instance: { instance_id: string; formation_string_id: string; upgrade_string_ids: string[] };
+  catalog: CatalogList;
+}) {
+  const builder = useBuilderStore();
+  const def = catalog.sections.flatMap((s) => s.formations).find((f) => f.string_id === instance.formation_string_id);
+  if (!def) {
+    return (
+      <li className="rounded-md border border-destructive/40 bg-destructive/10 p-3 text-sm">
+        Unknown formation: {instance.formation_string_id}
+        <Button size="sm" variant="ghost" onClick={() => builder.removeFormation(instance.instance_id)} className="ml-2">Remove</Button>
+      </li>
+    );
+  }
+
+  const availableUpgrades = (def.upgrades ?? [])
+    .map((id) => catalog.upgrades?.find((u) => u.id === id))
+    .filter((u): u is NonNullable<typeof u> => !!u);
+
+  let totalCost = def.cost_pts ?? def.pts ?? 0;
+  for (const usid of instance.upgrade_string_ids) {
+    const u = findUpgradeByStringId(catalog, usid);
+    if (u) totalCost += u.cost_pts ?? u.pts ?? 0;
+  }
+
+  return (
+    <li className="rounded-md border bg-card p-3">
+      <div className="flex items-start justify-between gap-2">
+        <div className="flex-1">
+          <p className="font-medium">{def.name}</p>
+          <p className="text-xs text-muted-foreground tabular-nums">{totalCost} pts</p>
+        </div>
+        <Button size="sm" variant="ghost" onClick={() => builder.removeFormation(instance.instance_id)}>×</Button>
+      </div>
+      {availableUpgrades.length > 0 && (
+        <ul className="mt-2 grid grid-cols-1 gap-1 sm:grid-cols-2">
+          {availableUpgrades.map((u) => {
+            const checked = u.string_id ? instance.upgrade_string_ids.includes(u.string_id) : false;
+            return (
+              <li key={u.id} className="text-sm">
+                <label className="flex cursor-pointer items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    disabled={!u.string_id}
+                    onChange={() => u.string_id && builder.toggleUpgrade(instance.instance_id, u.string_id)}
+                    className="h-4 w-4 rounded border-input"
+                  />
+                  <span>
+                    {u.name}
+                    {(u.cost_pts ?? u.pts ?? 0) > 0 && (
+                      <span className="ml-1 text-xs text-muted-foreground">+{u.cost_pts ?? u.pts ?? 0}</span>
+                    )}
+                  </span>
+                </label>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </li>
   );
 }

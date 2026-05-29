@@ -64,6 +64,19 @@ test('GET /data/lists/CHAOS_dg_NETEA.json returns the list with list_id field', 
   await app.close();
 });
 
+test('GET /data/lists returns an array of list metadata', async () => {
+  const app = await buildApp();
+  const r = await app.inject({ method: 'GET', url: '/data/lists' });
+  assert.strictEqual(r.statusCode, 200);
+  const data = JSON.parse(r.body);
+  assert.ok(Array.isArray(data));
+  assert.ok(data.length >= 100, `expected >= 100 list entries, got ${data.length}`);
+  const dg = data.find((e: any) => e.list_id === 'CHAOS_dg_NETEA');
+  assert.ok(dg, 'CHAOS_dg_NETEA should be in the index');
+  assert.strictEqual(dg.ruleset, 'NETEA');
+  await app.close();
+});
+
 test('GET /data/factions returns the inventory', async () => {
   const app = await buildApp();
   const r = await app.inject({ method: 'GET', url: '/data/factions' });

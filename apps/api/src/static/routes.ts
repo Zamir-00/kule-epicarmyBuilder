@@ -56,6 +56,11 @@ export async function registerStaticRoutes(app: FastifyInstance): Promise<void> 
     await serveJsonFile(filename, SOURCE_JSON_DIR, reply);
   });
 
+  app.get('/data/lists', async (_req, reply) => {
+    const index = await buildListsIndex();
+    reply.header('Cache-Control', 'public, max-age=60').send(index);
+  });
+
   app.get<{ Params: { file: string } }>('/data/lists/:file', async (req, reply) => {
     const filename = safeFilename(req.params.file);
     if (!filename) {
@@ -71,6 +76,47 @@ export async function registerStaticRoutes(app: FastifyInstance): Promise<void> 
       .header('Cache-Control', 'public, max-age=60')
       .send(inventory);
   });
+}
+
+interface ListIndexEntry {
+  list_id: string;
+  faction_id?: string;
+  ruleset?: string;
+  version?: string;
+  by?: string;
+  display_name?: string;
+}
+
+let listsIndexCache: ListIndexEntry[] | null = null;
+let listsIndexCacheAt = 0;
+const LISTS_INDEX_TTL_MS = 60_000;
+
+async function buildListsIndex(): Promise<ListIndexEntry[]> {
+  if (listsIndexCache && Date.now() - listsIndexCacheAt < LISTS_INDEX_TTL_MS) return listsIndexCache;
+
+  const entries: ListIndexEntry[] = [];
+  const files = await fs.readdir(LISTS_DIR);
+  for (const f of files) {
+    if (!f.endsWith('.json')) continue;
+    try {
+      const body = await fs.readFile(path.join(LISTS_DIR, f), 'utf8');
+      const parsed = JSON.parse(body);
+      if (typeof parsed.list_id !== 'string' || !parsed.list_id) continue;
+      entries.push({
+        list_id: parsed.list_id,
+        faction_id: typeof parsed.faction_id === 'string' ? parsed.faction_id : undefined,
+        ruleset: typeof parsed.ruleset === 'string' ? parsed.ruleset : undefined,
+        version: typeof parsed.version === 'string' ? parsed.version : undefined,
+        by: typeof parsed.by === 'string' ? parsed.by : undefined,
+        display_name: typeof parsed.id === 'string' ? parsed.id : undefined,
+      });
+    } catch {
+      // skip unparseable files
+    }
+  }
+  listsIndexCache = entries.sort((a, b) => a.list_id.localeCompare(b.list_id));
+  listsIndexCacheAt = Date.now();
+  return listsIndexCache;
 }
 
 interface FactionEntry {
