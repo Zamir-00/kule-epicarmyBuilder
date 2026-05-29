@@ -5,18 +5,31 @@ import { ulid } from 'ulid';
 import { router, procedure, authedProcedure } from './router.js';
 import { userLists } from '../db/schema.js';
 import { getValidListIds } from '../catalog/list-ids.js';
+import { getListCatalog } from '../catalog/list-catalog.js';
 
 const MAX_LIST_TITLE_LEN = 200;
 const MAX_LIST_BODY_BYTES = 256 * 1024;   // 256 KB cap on body JSON (generous; army lists are tiny)
 const DEFAULT_PAGE_SIZE = 20;
 const MAX_PAGE_SIZE = 100;
 
+const formationBodyShape = z.object({
+  instance_id: z.string().min(1),
+  formation_string_id: z.string().min(1),
+  upgrade_string_ids: z.array(z.string()),
+  swap_choices: z.record(z.string(), z.string()).optional(),
+});
+
+const bodyShape = z.object({
+  body_version: z.union([z.literal(1), z.literal(2)]).optional(),
+  formations: z.array(formationBodyShape).optional(),
+}).passthrough(); // tolerant of extra fields (legacy bodies may have other keys)
+
 const saveInput = z.object({
   id: z.string().optional(),
   title: z.string().min(1).max(MAX_LIST_TITLE_LEN),
   list_id: z.string().min(1),
   points_target: z.number().int().nonnegative().optional(),
-  body: z.unknown(),
+  body: bodyShape,
   is_public: z.boolean().optional(),
 });
 
@@ -58,6 +71,37 @@ export const listsRouter = router({
       }
 
       assertBodySize(input.body);
+
+      // Validate swap_choices against the referenced list catalog
+      const bodyFormations = input.body.formations ?? [];
+      if (bodyFormations.some((f) => f.swap_choices && Object.keys(f.swap_choices).length > 0)) {
+        const cat = await getListCatalog(input.list_id);
+        if (!cat) {
+          throw new TRPCError({ code: 'BAD_REQUEST', message: `list_id catalog not found: ${input.list_id}` });
+        }
+        for (const f of bodyFormations) {
+          if (!f.swap_choices) continue;
+          const formationDef = cat.formationsByStringId.get(f.formation_string_id);
+          if (!formationDef) {
+            throw new TRPCError({ code: 'BAD_REQUEST', message: `unknown formation_string_id '${f.formation_string_id}' in instance '${f.instance_id}'` });
+          }
+          const slotsByStringId = new Map(
+            (formationDef.swap_slots ?? []).map((s) => [s.string_id, s] as const),
+          );
+          for (const [slotKey, variantValue] of Object.entries(f.swap_choices)) {
+            const slot = slotsByStringId.get(slotKey);
+            if (!slot) {
+              throw new TRPCError({ code: 'BAD_REQUEST', message: `unknown swap slot '${slotKey}' on formation '${f.formation_string_id}'` });
+            }
+            const variantUpgradeStringIds = slot.variants
+              .map((v) => cat.upgradesById.get(v.upgrade_id)?.string_id)
+              .filter((s): s is string => !!s);
+            if (!variantUpgradeStringIds.includes(variantValue)) {
+              throw new TRPCError({ code: 'BAD_REQUEST', message: `invalid variant '${variantValue}' for slot '${slotKey}' on formation '${f.formation_string_id}'` });
+            }
+          }
+        }
+      }
 
       const now = Date.now();
 

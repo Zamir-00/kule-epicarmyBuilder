@@ -144,6 +144,31 @@ export interface EpicArmyBuilderArmyList {
       units?: unknown;
       upgrades?: unknown[];
       cost_pts?: unknown;
+      swap_slots?: {
+        string_id: string;
+        label: string;
+        /**
+         * @minItems 2
+         */
+        variants: [
+          {
+            upgrade_id: number | string;
+            is_default?: boolean;
+            [k: string]: unknown;
+          },
+          {
+            upgrade_id: number | string;
+            is_default?: boolean;
+            [k: string]: unknown;
+          },
+          ...{
+            upgrade_id: number | string;
+            is_default?: boolean;
+            [k: string]: unknown;
+          }[]
+        ];
+        [k: string]: unknown;
+      }[];
       [k: string]: unknown;
     }[];
     [k: string]: unknown;

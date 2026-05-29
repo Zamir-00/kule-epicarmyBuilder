@@ -1,0 +1,27 @@
+{
+  "id": "TEST_swap_two_defaults",
+  "list_id": "TEST_swap_two_defaults",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "demi", "id": 1, "name": "Demi", "pts": 100, "cost_pts": 100, "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "slot1", "label": "Slot 1",
+              "variants": [
+                { "upgrade_id": 100, "is_default": true },
+                { "upgrade_id": 101, "is_default": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 100, "name": "A", "pts": 0 },
+    { "id": 101, "name": "B", "pts": 0 }
+  ]
+}

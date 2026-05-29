@@ -1,8 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
+import path from 'node:path';
+import fs from 'node:fs/promises';
 import { buildTestApp, type TestTrpcClient } from '../helpers/build-test-app.js';
 import type { InProcessEmails } from '../helpers/in-process-emails.js';
 import { invalidateListIdCache } from '../../catalog/list-ids.js';
+import { invalidateListCatalogCache } from '../../catalog/list-catalog.js';
+import { WAR_ROOT } from '../../paths.js';
 
 // Reset the list-id cache before all tests so we read fresh from disk
 invalidateListIdCache();
@@ -323,5 +327,180 @@ test('save with empty title rejects with validation error', async () => {
       return message.includes('too_small') || message.includes('String must contain') || message.includes('min') || message.includes('BAD_REQUEST');
     },
   );
+  close();
+});
+
+// ---- swap_choices validation tests ----
+
+const TEST_LIST_ID = 'TEST_swap_fixture';
+const TEST_FIXTURE_PATH = path.join(WAR_ROOT, 'lists', `${TEST_LIST_ID}.json`);
+const TEST_FIXTURE = {
+  id: 'TEST swap fixture',
+  list_id: TEST_LIST_ID,
+  sections: [
+    {
+      name: 'CORE',
+      formations: [
+        {
+          string_id: 'demi',
+          id: 1,
+          name: 'Demi-Century',
+          pts: 250,
+          cost_pts: 250,
+          upgrades: [10],
+          swap_slots: [
+            {
+              string_id: 'support',
+              label: 'Support unit',
+              variants: [
+                { upgrade_id: 100, is_default: true },
+                { upgrade_id: 101 },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  upgrades: [
+    { id: 10, string_id: 'hydra', name: 'Hydra', pts: 50 },
+    { id: 100, string_id: 'gun_servitors', name: 'Gun Servitors', pts: 0 },
+    { id: 101, string_id: 'rapier_lasers', name: 'Rapier Lasers', pts: 30 },
+  ],
+};
+
+async function ensureTestFixture() {
+  await fs.writeFile(TEST_FIXTURE_PATH, JSON.stringify(TEST_FIXTURE, null, 2), 'utf8');
+  invalidateListIdCache();
+  invalidateListCatalogCache();
+}
+
+async function removeTestFixture() {
+  try { await fs.unlink(TEST_FIXTURE_PATH); } catch { /* ignore */ }
+  invalidateListIdCache();
+  invalidateListCatalogCache();
+}
+
+test('save accepts a valid swap_choices body', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    const result = await authed.lists.save.mutate({
+      title: 'Swap test',
+      list_id: TEST_LIST_ID,
+      body: {
+        body_version: 2,
+        formations: [{
+          instance_id: '01HSWAPTEST',
+          formation_string_id: 'demi',
+          upgrade_string_ids: [],
+          swap_choices: { support: 'rapier_lasers' },
+        }],
+      },
+    });
+    assert.ok(result.id);
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects swap_choices key that is not a slot on the formation', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Bad slot',
+        list_id: TEST_LIST_ID,
+        body: {
+          body_version: 2,
+          formations: [{
+            instance_id: '01HSWAPBAD1',
+            formation_string_id: 'demi',
+            upgrade_string_ids: [],
+            swap_choices: { nonexistent_slot: 'rapier_lasers' },
+          }],
+        },
+      }),
+      /nonexistent_slot|unknown swap slot|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects swap_choices value that is not a valid variant', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Bad variant',
+        list_id: TEST_LIST_ID,
+        body: {
+          body_version: 2,
+          formations: [{
+            instance_id: '01HSWAPBAD2',
+            formation_string_id: 'demi',
+            upgrade_string_ids: [],
+            swap_choices: { support: 'ghost_variant' },
+          }],
+        },
+      }),
+      /ghost_variant|invalid variant|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save rejects unknown body_version', async () => {
+  await ensureTestFixture();
+  try {
+    const { trpc, emails, close } = buildTestApp();
+    const { authed } = await signInUser(trpc, emails);
+    await assert.rejects(
+      authed.lists.save.mutate({
+        title: 'Bad version',
+        list_id: TEST_LIST_ID,
+        body: { body_version: 99, formations: [] },
+      }),
+      /body_version|BAD_REQUEST/i,
+    );
+    close();
+  } finally {
+    await removeTestFixture();
+  }
+});
+
+test('save accepts legacy body (no body_version, no swap_choices)', async () => {
+  // No fixture needed — using the existing CHAOS_dg_NETEA from earlier tests.
+  const { trpc, emails, close } = buildTestApp();
+  const { authed } = await signInUser(trpc, emails);
+  const result = await authed.lists.save.mutate({
+    title: 'Legacy body',
+    list_id: VALID_LIST_ID,
+    body: { units: [], notes: 'legacy' },
+  });
+  assert.ok(result.id);
+  close();
+});
+
+test('save persists body_version: 2 in the stored body', async () => {
+  const { trpc, emails, close } = buildTestApp();
+  const { authed } = await signInUser(trpc, emails);
+  const created = await authed.lists.save.mutate({
+    title: 'Body version round-trip',
+    list_id: VALID_LIST_ID,
+    body: { body_version: 2, formations: [] },
+  });
+  const loaded = await authed.lists.load.query({ id: created.id });
+  assert.strictEqual((loaded.body as { body_version?: number }).body_version, 2);
   close();
 });

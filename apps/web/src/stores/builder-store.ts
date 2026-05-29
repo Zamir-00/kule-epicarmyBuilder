@@ -5,6 +5,9 @@ export interface BuilderFormation {
   instance_id: string;
   formation_string_id: string;
   upgrade_string_ids: string[];
+  /** Map from swap_slot.string_id to the chosen variant's upgrade.string_id.
+   * Only non-default selections are stored; absence = default. Optional for backward compat. */
+  swap_choices?: Record<string, string>;
 }
 
 export interface SavedListSummary {
@@ -22,6 +25,8 @@ export interface BuilderState {
   title: string;
   points_target: number | null;
   is_public: boolean;
+  /** Body schema version. Absent/1 = legacy; 2 = with swap_choices. Always written as 2 going forward. */
+  body_version: number;
   formations: BuilderFormation[];
 
   initFromCatalog(list_id: string): void;
@@ -29,6 +34,16 @@ export interface BuilderState {
   addFormation(formation_string_id: string): void;
   removeFormation(instance_id: string): void;
   toggleUpgrade(instance_id: string, upgrade_string_id: string): void;
+  /** Set the chosen variant for a swap slot on a formation instance.
+   * If the chosen variant equals the slot's default, this implementation removes the key
+   * (save-only-non-defaults rule). The caller must pass `default_variant_string_id` so
+   * the store can detect equality without reading the catalog. */
+  selectSwapVariant(
+    instance_id: string,
+    slot_string_id: string,
+    chosen_variant_string_id: string,
+    default_variant_string_id: string,
+  ): void;
   setTitle(title: string): void;
   setPointsTarget(n: number | null): void;
   setIsPublic(b: boolean): void;
@@ -42,6 +57,7 @@ export const useBuilderStore = create<BuilderState>((set) => ({
   title: '',
   points_target: null,
   is_public: false,
+  body_version: 2,
   formations: [],
 
   initFromCatalog: (list_id) => set({
@@ -50,16 +66,21 @@ export const useBuilderStore = create<BuilderState>((set) => ({
     title: '',
     points_target: null,
     is_public: false,
+    body_version: 2,
     formations: [],
   }),
   initFromSavedList: (saved) => set(() => {
-    const body = (saved.body && typeof saved.body === 'object') ? saved.body as { formations?: BuilderFormation[] } : {};
+    const body = (saved.body && typeof saved.body === 'object') ? saved.body as {
+      formations?: BuilderFormation[];
+      body_version?: number;
+    } : {};
     return {
       list_id: saved.list_id,
       user_list_id: saved.id,
       title: saved.title,
       points_target: saved.points_target,
       is_public: saved.is_public,
+      body_version: typeof body.body_version === 'number' ? body.body_version : 1,
       formations: Array.isArray(body.formations) ? body.formations : [],
     };
   }),
@@ -88,6 +109,25 @@ export const useBuilderStore = create<BuilderState>((set) => ({
       };
     }),
   })),
+  selectSwapVariant: (instance_id, slot_string_id, chosen_variant_string_id, default_variant_string_id) => set((s) => ({
+    formations: s.formations.map((f) => {
+      if (f.instance_id !== instance_id) return f;
+      const current = { ...(f.swap_choices ?? {}) };
+      if (chosen_variant_string_id === default_variant_string_id) {
+        // Save-only-non-defaults rule: remove the key
+        delete current[slot_string_id];
+      } else {
+        current[slot_string_id] = chosen_variant_string_id;
+      }
+      const next: BuilderFormation = { ...f };
+      if (Object.keys(current).length === 0) {
+        delete next.swap_choices;
+      } else {
+        next.swap_choices = current;
+      }
+      return next;
+    }),
+  })),
   setTitle: (title) => set({ title }),
   setPointsTarget: (n) => set({ points_target: n }),
   setIsPublic: (b) => set({ is_public: b }),
@@ -98,6 +138,7 @@ export const useBuilderStore = create<BuilderState>((set) => ({
     title: '',
     points_target: null,
     is_public: false,
+    body_version: 2,
     formations: [],
   }),
 }));

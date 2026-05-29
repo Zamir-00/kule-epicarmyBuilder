@@ -1,0 +1,37 @@
+{
+  "id": "High confidence",
+  "list_id": "HIGH",
+  "sections": [
+    {
+      "name": "CORE",
+      "formations": [
+        {
+          "string_id": "f1",
+          "id": 567,
+          "name": "F1",
+          "pts": 250,
+          "cost_pts": 250,
+          "upgrades": [10],
+          "swap_slots": [
+            {
+              "string_id": "swap_gun_servitors_or_rapier_lasers",
+              "label": "Choice",
+              "variants": [
+                { "upgrade_id": 100, "is_default": true },
+                { "upgrade_id": 101 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 10, "string_id": "hydra", "name": "Hydra", "pts": 50 },
+    { "id": 100, "string_id": "gun_servitors", "name": "Gun Servitors", "pts": 0 },
+    { "id": 101, "string_id": "rapier_lasers", "name": "Rapier Lasers", "pts": 0 }
+  ],
+  "upgradeConstraints": [
+    { "min": 1, "max": 1, "from": [100, 101], "appliesTo": [567] }
+  ]
+}
