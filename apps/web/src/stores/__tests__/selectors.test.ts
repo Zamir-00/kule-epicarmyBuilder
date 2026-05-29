@@ -1,6 +1,6 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert';
-import { totalPoints, violations, type CatalogList } from '../selectors';
+import { totalPoints, violations, swapDeltaForFormation, getSwapChoice, findFormationByStringId, type CatalogList } from '../selectors';
 import type { BuilderState } from '../builder-store';
 
 const sampleCatalog: CatalogList = {
@@ -11,12 +11,30 @@ const sampleCatalog: CatalogList = {
       formations: [
         { string_id: 'inf', name: 'Infantry', cost_pts: 100, upgrades: [1, 2] },
         { string_id: 'tank', name: 'Tank', cost_pts: 250, upgrades: [1] },
+        {
+          string_id: 'demi',
+          name: 'Demi-Century',
+          cost_pts: 250,
+          upgrades: [1],
+          swap_slots: [
+            {
+              string_id: 'support',
+              label: 'Support unit',
+              variants: [
+                { upgrade_id: 100, is_default: true },
+                { upgrade_id: 101 },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
   upgrades: [
     { id: 1, string_id: 'commander', name: 'Commander', cost_pts: 50 },
     { id: 2, string_id: 'banner', name: 'Banner', cost_pts: 25 },
+    { id: 100, string_id: 'gun_servitors', name: 'Gun Servitors', cost_pts: 0 },
+    { id: 101, string_id: 'rapier_lasers', name: 'Rapier Lasers', cost_pts: 30 },
   ],
 };
 
@@ -82,5 +100,69 @@ describe('selectors.violations', () => {
     const v = violations(s, sampleCatalog);
     assert.strictEqual(v.length, 1);
     assert.match(v[0]!, /Over points target by 50/);
+  });
+});
+
+describe('swap_slots — totalPoints', () => {
+  test('formation with default selection costs base only', () => {
+    const state = emptyState();
+    state.formations = [{ instance_id: 'i1', formation_string_id: 'demi', upgrade_string_ids: [], swap_choices: {} }];
+    assert.strictEqual(totalPoints(state, sampleCatalog), 250);
+  });
+
+  test('formation with non-default selection adds delta', () => {
+    const state = emptyState();
+    state.formations = [{
+      instance_id: 'i1',
+      formation_string_id: 'demi',
+      upgrade_string_ids: [],
+      swap_choices: { support: 'rapier_lasers' },
+    }];
+    // default gun_servitors costs 0; chosen rapier_lasers costs 30. delta = +30.
+    assert.strictEqual(totalPoints(state, sampleCatalog), 280);
+  });
+
+  test('formation with no swap_choices field falls back to default', () => {
+    const state = emptyState();
+    // No swap_choices key at all (legacy body_version: 1)
+    state.formations = [{ instance_id: 'i1', formation_string_id: 'demi', upgrade_string_ids: [] }];
+    assert.strictEqual(totalPoints(state, sampleCatalog), 250);
+  });
+});
+
+describe('swap_slots — getSwapChoice', () => {
+  test('returns default variant string_id when slot is unchosen', () => {
+    const def = findFormationByStringId(sampleCatalog, 'demi')!;
+    const choice = getSwapChoice(sampleCatalog, def, {}, 'support');
+    assert.strictEqual(choice, 'gun_servitors');
+  });
+
+  test('returns chosen variant string_id when present', () => {
+    const def = findFormationByStringId(sampleCatalog, 'demi')!;
+    const choice = getSwapChoice(sampleCatalog, def, { support: 'rapier_lasers' }, 'support');
+    assert.strictEqual(choice, 'rapier_lasers');
+  });
+
+  test('returns default when chosen variant is no longer valid (catalog drift)', () => {
+    const def = findFormationByStringId(sampleCatalog, 'demi')!;
+    const choice = getSwapChoice(sampleCatalog, def, { support: 'nonexistent' }, 'support');
+    assert.strictEqual(choice, 'gun_servitors');
+  });
+});
+
+describe('swap_slots — swapDeltaForFormation', () => {
+  test('returns 0 when all slots resolve to defaults', () => {
+    const def = findFormationByStringId(sampleCatalog, 'demi')!;
+    assert.strictEqual(swapDeltaForFormation(sampleCatalog, def, {}), 0);
+  });
+
+  test('returns chosen.pts - default.pts when slot has a non-default choice', () => {
+    const def = findFormationByStringId(sampleCatalog, 'demi')!;
+    assert.strictEqual(swapDeltaForFormation(sampleCatalog, def, { support: 'rapier_lasers' }), 30);
+  });
+
+  test('returns 0 for formations with no swap_slots', () => {
+    const def = findFormationByStringId(sampleCatalog, 'inf')!;
+    assert.strictEqual(swapDeltaForFormation(sampleCatalog, def, {}), 0);
   });
 });

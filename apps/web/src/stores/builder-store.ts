@@ -5,6 +5,7 @@ export interface BuilderFormation {
   instance_id: string;
   formation_string_id: string;
   upgrade_string_ids: string[];
+  swap_choices?: Record<string, string>;
 }
 
 export interface SavedListSummary {
