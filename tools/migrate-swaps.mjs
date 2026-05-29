@@ -46,61 +46,72 @@ export function transformList(input) {
       continue;
     }
 
-    // Default heuristic: first listed in `from`
     const defaultUpgradeId = c.from[0];
 
-    // For each appliesTo formation, check none of from is already in its upgrades[]
-    let confidence = 'high';
+    // Pre-compute candidate slot string_id (will be deduped per-formation below)
+    const variantStringIds = c.from.map((id) => upgradesById.get(id)?.string_id ?? String(id));
+    const candidateSlotStringId = `swap_${variantStringIds.join('_or_')}`.slice(0, 80);
+
+    // Per-formation: classify and (for high tier) apply
+    const appliedFormations = [];
+    const skippedFormations = [];
     for (const formationId of c.appliesTo) {
       const f = formationsByIdMap.get(formationId);
       if (!f) {
-        confidence = 'medium';
         report.push({ tier: 'medium', reason: `appliesTo formation ${formationId} not found`, constraint: c });
-        break;
+        continue;
       }
       const formationUpgradeIds = new Set(f.upgrades ?? []);
       const overlap = c.from.filter((id) => formationUpgradeIds.has(id));
       if (overlap.length > 0) {
-        confidence = 'medium';
-        report.push({ tier: 'medium', reason: `variant(s) ${overlap.join(',')} also in formation ${formationId} upgrades[]`, constraint: c });
-        break;
+        report.push({
+          tier: 'medium',
+          reason: `variant(s) ${overlap.join(',')} also in formation ${formationId} upgrades[]`,
+          constraint: c,
+        });
+        continue;
       }
-      // Also: check if there is no existing swap_slot for the same upgrades (idempotency)
       const existingSlot = (f.swap_slots ?? []).find((s) =>
-        s.variants.length === c.from.length && c.from.every((id) => s.variants.some((v) => v.upgrade_id === id))
+        Array.isArray(s.variants) &&
+        s.variants.length === c.from.length &&
+        c.from.every((id) => s.variants.some((v) => v.upgrade_id === id))
       );
       if (existingSlot) {
-        // Already migrated — skip silently
-        confidence = 'already-migrated';
-        break;
+        // Already migrated for THIS formation — skip silently (no report row).
+        skippedFormations.push(formationId);
+        continue;
       }
-    }
-    if (confidence !== 'high') continue;
 
-    // Apply: add swap_slot to each appliesTo formation.
-    for (const formationId of c.appliesTo) {
-      const f = formationsByIdMap.get(formationId);
-      if (!f) continue;
+      // Apply for this formation. Dedupe slot string_id within the formation in case
+      // truncation produced a collision with another already-added slot.
       f.swap_slots = f.swap_slots ?? [];
+      let slotStringId = candidateSlotStringId;
+      if (f.swap_slots.some((s) => s.string_id === slotStringId)) {
+        let n = 2;
+        while (f.swap_slots.some((s) => s.string_id === `${slotStringId}_${n}`)) n++;
+        slotStringId = `${slotStringId}_${n}`;
+      }
       const variants = c.from.map((id) => ({
         upgrade_id: id,
         ...(id === defaultUpgradeId ? { is_default: true } : {}),
       }));
-      // Slot string_id: stable-derive from the variants' string_ids
-      const variantStringIds = c.from.map((id) => upgradesById.get(id)?.string_id ?? String(id));
-      const slotStringId = `swap_${variantStringIds.join('_or_')}`.slice(0, 80);
       f.swap_slots.push({
         string_id: slotStringId,
-        label: 'Choice', // generic label; reviewers can override during PR review
+        label: 'Choice',
         variants,
       });
+      appliedFormations.push(formationId);
     }
-    report.push({
-      tier: 'high',
-      formationIds: [...c.appliesTo],
-      fromUpgradeIds: [...c.from],
-      defaultUpgradeId,
-    });
+
+    if (appliedFormations.length > 0) {
+      report.push({
+        tier: 'high',
+        formationIds: appliedFormations,
+        fromUpgradeIds: [...c.from],
+        defaultUpgradeId,
+        ...(skippedFormations.length > 0 ? { alreadyMigratedFormations: skippedFormations } : {}),
+      });
+    }
   }
   return { json, report };
 }
