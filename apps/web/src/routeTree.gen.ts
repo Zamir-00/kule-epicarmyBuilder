@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SignInRouteImport } from './routes/sign-in'
 import { Route as ListsRouteImport } from './routes/lists'
+import { Route as ListIdRouteImport } from './routes/list.$id'
 import { Route as AuthPendingRouteImport } from './routes/auth-pending'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BuildListIdRouteImport } from './routes/build.$listId'
@@ -23,6 +24,11 @@ const SignInRoute = SignInRouteImport.update({
 const ListsRoute = ListsRouteImport.update({
   id: '/lists',
   path: '/lists',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ListIdRoute = ListIdRouteImport.update({
+  id: '/list/$id',
+  path: '/list/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthPendingRoute = AuthPendingRouteImport.update({
@@ -45,6 +51,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auth-pending': typeof AuthPendingRoute
   '/lists': typeof ListsRoute
+  '/list/$id': typeof ListIdRoute
   '/sign-in': typeof SignInRoute
   '/build/$listId': typeof BuildListIdRoute
 }
@@ -52,6 +59,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth-pending': typeof AuthPendingRoute
   '/lists': typeof ListsRoute
+  '/list/$id': typeof ListIdRoute
   '/sign-in': typeof SignInRoute
   '/build/$listId': typeof BuildListIdRoute
 }
@@ -60,19 +68,21 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/auth-pending': typeof AuthPendingRoute
   '/lists': typeof ListsRoute
+  '/list/$id': typeof ListIdRoute
   '/sign-in': typeof SignInRoute
   '/build/$listId': typeof BuildListIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/auth-pending' | '/lists' | '/sign-in' | '/build/$listId'
+  fullPaths: '/' | '/auth-pending' | '/lists' | '/list/$id' | '/sign-in' | '/build/$listId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/auth-pending' | '/lists' | '/sign-in' | '/build/$listId'
+  to: '/' | '/auth-pending' | '/lists' | '/list/$id' | '/sign-in' | '/build/$listId'
   id:
     | '__root__'
     | '/'
     | '/auth-pending'
     | '/lists'
+    | '/list/$id'
     | '/sign-in'
     | '/build/$listId'
   fileRoutesById: FileRoutesById
@@ -81,6 +91,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AuthPendingRoute: typeof AuthPendingRoute
   ListsRoute: typeof ListsRoute
+  ListIdRoute: typeof ListIdRoute
   SignInRoute: typeof SignInRoute
   BuildListIdRoute: typeof BuildListIdRoute
 }
@@ -99,6 +110,13 @@ declare module '@tanstack/react-router' {
       path: '/lists'
       fullPath: '/lists'
       preLoaderRoute: typeof ListsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/list/$id': {
+      id: '/list/$id'
+      path: '/list/$id'
+      fullPath: '/list/$id'
+      preLoaderRoute: typeof ListIdRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/auth-pending': {
@@ -129,6 +147,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AuthPendingRoute: AuthPendingRoute,
   ListsRoute: ListsRoute,
+  ListIdRoute: ListIdRoute,
   SignInRoute: SignInRoute,
   BuildListIdRoute: BuildListIdRoute,
 }
