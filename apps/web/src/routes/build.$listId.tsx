@@ -120,8 +120,7 @@ function BuilderUI({ catalog }: { catalog: CatalogList }) {
       title: builder.title.trim() || 'Untitled list',
       list_id: catalog.list_id,
       points_target: builder.points_target ?? undefined,
-      // body_version 3 is accepted by the server (.passthrough()) — literal union will be widened in Task 9
-      body: { body_version: builder.body_version as 1 | 2, formations: canonical },
+      body: { body_version: builder.body_version as 1 | 2 | 3, formations: canonical },
       is_public: builder.is_public,
     });
   }

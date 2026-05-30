@@ -103,12 +103,14 @@ function ListViewerPage() {
 
   function handleMakeCopy() {
     if (!list) return;
+    const body = (list.body && typeof list.body === 'object') ? list.body as { body_version?: number } : {};
     useBuilderStore.setState({
       list_id: list.list_id,
       user_list_id: null,
       title: `${list.title} (copy)`,
       points_target: list.points_target,
       is_public: false,
+      body_version: typeof body.body_version === 'number' ? body.body_version : 1,
       formations,
     });
     navigate({ to: '/build/$listId', params: { listId: list.list_id } });
