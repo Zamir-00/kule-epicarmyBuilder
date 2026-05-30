@@ -39,6 +39,28 @@ export interface SourceJson {
   profiles?: SourceProfile[];
 }
 
+/** Strip leading "Nx " count + trailing plural "s", lowercase, trim. Used by findWeaponByName
+ * to match catalog upgrade names ("2x Macro Gatling Blasters") to weapon entries
+ * ("Macro Gatling Blaster") regardless of count prefix or pluralization. */
+function normalizeWeaponName(s: string): string {
+  return s.toLowerCase().replace(/^\d+\s*x?\s+/i, '').replace(/s$/, '').trim();
+}
+
+/** Search every profile's weapons[] for a weapon whose name matches `name` after normalization.
+ * Returns the first match (weapons with the same name usually have the same stats across profiles).
+ * Returns null when no weapon matches — common for variants that are unit names rather than weapons. */
+export function findWeaponByName(sourceJson: SourceJson | null | undefined, name: string): SourceWeapon | null {
+  if (!sourceJson?.profiles) return null;
+  const target = normalizeWeaponName(name);
+  if (!target) return null;
+  for (const p of sourceJson.profiles) {
+    for (const w of p.weapons ?? []) {
+      if (normalizeWeaponName(w.name) === target) return w;
+    }
+  }
+  return null;
+}
+
 export function useSourceForList(list_id: string | null | undefined) {
   return useQuery({
     queryKey: ['source-for-list', list_id],

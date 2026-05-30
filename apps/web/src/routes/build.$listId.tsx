@@ -311,6 +311,7 @@ function FormationCard({
                 formation={def}
                 instanceId={instance.instance_id}
                 loadoutChoices={instance.loadout_choices}
+                sourceJson={sourceJson}
               />
             ))}
           </ul>
