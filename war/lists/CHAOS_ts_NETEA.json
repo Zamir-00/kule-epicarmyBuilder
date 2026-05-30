@@ -94,9 +94,23 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            21,
-            19,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_predator_or_land_raider",
+              "label": "Choice",
+              "min": 4,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -105,8 +119,19 @@
           "name": "Silver Tower Company",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            22
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_silver_tower",
+              "label": "Choice",
+              "min": 4,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         }
       ]
@@ -122,7 +147,6 @@
           "cost_pts": 0,
           "units": "Sorcerer",
           "upgrades": [
-            23,
             13,
             14,
             15,
@@ -130,6 +154,19 @@
             17,
             19,
             20
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_thousand_sons_terminator",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         },
         {
@@ -139,8 +176,20 @@
           "pts": 35,
           "cost_pts": 35,
           "upgrades": [
-            13,
-            29
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_disc_rider",
+              "label": "Choice",
+              "min": 4,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {
@@ -179,8 +228,19 @@
           "name": "Greater Spires of Tzeentch",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            26
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_spire_of_tzeentch",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {
@@ -211,8 +271,19 @@
           "name": "Firelord Bombers",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            27
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_firelord_bombers",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         }
       ]

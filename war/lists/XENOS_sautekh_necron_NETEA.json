@@ -28,12 +28,24 @@
           "pts": 25,
           "cost_pts": 25,
           "upgrades": [
-            50,
             21,
             22,
             23,
             24,
             5
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sautekh_warrior_unit",
+              "label": "Choice",
+              "min": 6,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            }
           ]
         },
         {
@@ -92,9 +104,7 @@
           "name": "Iudicium Maniple",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": [
-            3
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_5_doomsday_ark_units_or_5_obelisk_units_or_5_annihilation_barge_units",
@@ -109,6 +119,21 @@
                 },
                 {
                   "upgrade_id": 56
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_necron_lord_or_necron_lord_in_command_barge",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 3
                 }
               ]
             }
@@ -274,8 +299,19 @@
           "name": "Doom Scythes",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            73
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_doom_scythe",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            }
           ]
         },
         {

@@ -15,10 +15,7 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            100,
-            102,
-            2,
-            3
+            102
           ],
           "swap_slots": [
             {
@@ -34,6 +31,31 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tribune_or_senior_officer_shield_captain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_teleport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
+            }
           ]
         },
         {
@@ -43,16 +65,9 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            100,
             105,
             106,
-            102,
-            110,
-            112,
-            113,
-            114,
-            115,
-            116
+            102
           ],
           "swap_slots": [
             {
@@ -82,6 +97,41 @@
                   "upgrade_id": 3
                 }
               ]
+            },
+            {
+              "string_id": "loadout_teleport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_specialist_cadres_oblivion_knight_cadre_or_specialist_cadres_sister_of_s",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                }
+              ]
             }
           ]
         }
@@ -97,10 +147,7 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            100,
-            102,
-            2,
-            3
+            102
           ],
           "swap_slots": [
             {
@@ -119,6 +166,31 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tribune_or_senior_officer_shield_captain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_teleport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
+            }
           ]
         },
         {
@@ -128,10 +200,7 @@
           "pts": 800,
           "cost_pts": 800,
           "upgrades": [
-            100,
-            102,
-            2,
-            3
+            102
           ],
           "loadout_slots": [
             {
@@ -159,6 +228,29 @@
                   "upgrade_id": 38
                 }
               ]
+            },
+            {
+              "string_id": "loadout_tribune_or_senior_officer_shield_captain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_teleport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
             }
           ]
         },
@@ -168,11 +260,28 @@
           "name": "Morotoi Detachment",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            42,
-            43,
-            44,
-            45
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_contemptor_achilles_dreadnought_w_lastrum_stormbolter_or_contemptor_achi",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            }
           ]
         },
         {
@@ -181,10 +290,25 @@
           "name": "Telemon Heavy Dreadnought Detachment",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            48,
-            49,
-            50
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_telemon_heavy_dreadnought_w_arachnus_heavy_blaze_cannon_or_telemon_heavy",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            }
           ]
         },
         {
@@ -193,8 +317,19 @@
           "name": "Pallas Grav-Attack Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            51
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pallas_grav_attack_vehicles",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         },
         {
@@ -203,9 +338,22 @@
           "name": "Caladius Grav-Tank Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            52,
-            53
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_callidus_grav_tanks_w_tl_arachnus_heavy_blaze_cannon_or_callidus_grav_ta",
+              "label": "Weapons",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -247,8 +395,19 @@
           "name": "Orion Assault Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            60
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_orion_assault_ship",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            }
           ]
         },
         {
@@ -319,18 +478,48 @@
           "pts": 700,
           "cost_pts": 700,
           "upgrades": [
-            100,
             105,
             106,
-            102,
-            110,
-            112,
-            113,
-            114,
-            115,
-            116
+            102
           ],
-          "units": "Jenetia Krole and 5 Oblivion Knight Cadre"
+          "units": "Jenetia Krole and 5 Oblivion Knight Cadre",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_teleport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_specialist_cadres_oblivion_knight_cadre_or_specialist_cadres_sister_of_s",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                }
+              ]
+            }
+          ]
         }
       ]
     }

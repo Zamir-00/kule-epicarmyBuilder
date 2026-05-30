@@ -38,16 +38,37 @@
           "cost_pts": 200,
           "upgrades": [
             3,
-            7,
-            8,
-            10,
-            12,
-            14,
-            15,
             16,
             58,
             59,
             60
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_1_haemonculi_1_wrack_or_2_haemonculis_2_wracks_or_2_mandrakes_or_2_scour",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 7
+                },
+                {
+                  "upgrade_id": 8
+                },
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -60,14 +81,34 @@
             1,
             2,
             3,
-            7,
-            10,
-            12,
-            15,
             16,
             58,
             59,
             60
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_1_haemonculi_1_wrack_or_2_mandrakes_or_2_scourges_or_2_wyches_or_8_warri",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 7
+                },
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         },
         {
@@ -96,11 +137,22 @@
           "cost_pts": 250,
           "upgrades": [
             3,
-            18,
             17,
             58,
             59,
             60
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_talos",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -110,8 +162,20 @@
           "pts": 200,
           "cost_pts": 200,
           "upgrades": [
-            18,
             17
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_talos",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -122,12 +186,30 @@
           "cost_pts": 200,
           "upgrades": [
             3,
-            9,
-            11,
-            13,
             58,
             59,
             60
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_hellions_or_2_reavers_or_2_warp_beasts_or_8_wyches",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         },
         {
@@ -174,8 +256,19 @@
           "name": "Heavy Barges",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            19
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vessel_of_pain",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         }
       ]
@@ -189,8 +282,19 @@
           "name": "Fighter Formation",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            55
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorwing_fighters",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            }
           ]
         },
         {
@@ -244,8 +348,19 @@
           "name": "Corsair Escorts",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            57
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_corsair_class_escorts",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         }
       ]

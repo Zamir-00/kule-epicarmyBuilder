@@ -49,16 +49,37 @@
           "cost_pts": 100,
           "units": "",
           "upgrades": [
-            50,
             15,
             16,
             18,
-            19,
             22,
             13,
             28,
             14,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_terminators_unit",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            }
           ]
         },
         {
@@ -74,11 +95,22 @@
             16,
             17,
             18,
-            19,
             20,
             22,
             28,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         }
       ]
@@ -93,11 +125,25 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            51,
-            19,
             18,
             22,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_predator_or_chaos_land_raider",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -285,8 +331,20 @@
           "pts": 35,
           "cost_pts": 35,
           "upgrades": [
-            54,
             13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_raptors_unit",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         }
       ]

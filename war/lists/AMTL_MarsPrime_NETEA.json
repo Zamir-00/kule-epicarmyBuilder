@@ -32,8 +32,19 @@
           "name": "Skorpius Cohort",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            97
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_skorpius_disintegrator",
+              "label": "Choice",
+              "min": 5,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 97
+                }
+              ]
+            }
           ]
         }
       ]
@@ -56,9 +67,22 @@
           "name": "Ironstrider Cavaliers",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            52,
-            53
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_52_or_53",
+              "label": "Weapons",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -67,8 +91,19 @@
           "name": "Sydonian Dragoons",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_54",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         }
       ]
@@ -127,7 +162,6 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            77,
             40
           ],
           "loadout_slots": [
@@ -156,6 +190,16 @@
                 },
                 {
                   "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_onager_dunecrawler_icarus_array",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 77
                 }
               ]
             }

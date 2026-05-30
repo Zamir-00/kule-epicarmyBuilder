@@ -189,10 +189,26 @@
             38,
             39,
             40,
-            42,
-            46,
-            47,
-            48
+            42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_predator_annihilator_or_predator_destructor_or_vindicator",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {

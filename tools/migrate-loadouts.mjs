@@ -68,23 +68,33 @@ export function transformList(input) {
 
     const appliedFormations = [];
     const skippedFormations = [];
+    const overlapRemovedFromUpgrades = {};
     for (const formationId of c.appliesTo) {
       const f = formationsByIdMap.get(formationId);
       if (!f) {
         report.push({ tier: 'medium', reason: `appliesTo formation ${formationId} not found`, constraint: c });
         continue;
       }
+      // formation.upgrades overlap: REMOVE the overlapping IDs from upgrades[] and migrate.
+      // The legacy chooser modeled "select N of M from these variants" by listing the variants
+      // in formation.upgrades[] and using the constraint to enforce min/max on the count.
+      // After migration, the loadout_slot drives the UI; the variants in upgrades[] would
+      // double-render. Removing them is safe — the legacy `upgradeConstraints` row is preserved
+      // for chooser.html's enforcement path, and the modern builder reads loadout_slots instead.
+      //
+      // Cost invariant: legacy users paid each variant's pts on every "Add X" click. Modern
+      // users pay the same via loadout chips. formation.cost_pts stays unchanged. To preserve
+      // this invariant we force `no default` for overlap-handled migrations regardless of `min` —
+      // positions start empty, user picks each one, each adds its absolute pts to the total.
       const formationUpgradeIds = new Set(f.upgrades ?? []);
       const overlap = c.from.filter((id) => formationUpgradeIds.has(id));
-      if (overlap.length > 0) {
-        report.push({
-          tier: 'medium',
-          reason: `variant(s) ${overlap.join(',')} also in formation ${formationId} upgrades[]`,
-          constraint: c,
-        });
-        continue;
+      const hasUpgradeOverlap = overlap.length > 0;
+      if (hasUpgradeOverlap) {
+        f.upgrades = (f.upgrades ?? []).filter((id) => !overlap.includes(id));
+        overlapRemovedFromUpgrades[formationId] = overlap;
       }
-      // Cross-system check: variants in any sibling swap_slot.variants[]
+      // Cross-system overlap is still blocked: same upgrade in both a swap_slot variant and
+      // this loadout_slot would create unresolvable rendering ambiguity in the modern UI.
       const swapSlotUpgradeIds = new Set();
       for (const ss of f.swap_slots ?? []) {
         for (const v of ss.variants ?? []) swapSlotUpgradeIds.add(v.upgrade_id);
@@ -124,9 +134,11 @@ export function transformList(input) {
         while (existingStringIds.has(`${slotStringId}_${n}`)) n++;
         slotStringId = `${slotStringId}_${n}`;
       }
+      // When overlap was removed, force no-default (per the cost-invariant comment above).
+      const effectiveDefaultId = hasUpgradeOverlap ? null : defaultUpgradeId;
       const variants = c.from.map((id) => ({
         upgrade_id: id,
-        ...(id === defaultUpgradeId ? { is_default: true } : {}),
+        ...(id === effectiveDefaultId ? { is_default: true } : {}),
       }));
       // Build slot object with key order: string_id, label, min?, max?, variants
       const orderedSlot = {
@@ -141,11 +153,17 @@ export function transformList(input) {
     }
 
     if (appliedFormations.length > 0) {
+      // If any formation in this constraint had its upgrades[] filtered, surface that in the report
+      // for human review of the dry-run output. Otherwise the field is omitted to keep rows compact.
+      const overlapReport = Object.keys(overlapRemovedFromUpgrades).length > 0
+        ? { overlapRemovedFromUpgrades }
+        : {};
       report.push({
         tier: 'high',
         formationIds: appliedFormations,
         fromUpgradeIds: [...c.from],
         defaultUpgradeId,
+        ...overlapReport,
         ...(skippedFormations.length > 0 ? { alreadyMigratedFormations: skippedFormations } : {}),
       });
     }

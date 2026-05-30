@@ -16,9 +16,6 @@
           "pts": 1000,
           "cost_pts": 1000,
           "upgrades": [
-            36,
-            38,
-            43,
             34
           ],
           "loadout_slots": [
@@ -89,6 +86,22 @@
                   "upgrade_id": 52
                 }
               ]
+            },
+            {
+              "string_id": "loadout_kustom_flak_gunz_or_kustom_bigga_generatas_or_kustom_boss_nobz",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
             }
           ]
         },
@@ -99,9 +112,6 @@
           "pts": 850,
           "cost_pts": 850,
           "upgrades": [
-            36,
-            38,
-            43,
             34
           ],
           "loadout_slots": [
@@ -239,6 +249,52 @@
                   "upgrade_id": 40
                 }
               ]
+            },
+            {
+              "string_id": "loadout_kustom_flak_gunz_or_kustom_bigga_generatas_or_kustom_boss_nobz",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kustom_flak_gunz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kustom_bigga_generatas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kustom_boss_nobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
             }
           ]
         },
@@ -249,9 +305,6 @@
           "pts": 650,
           "cost_pts": 650,
           "upgrades": [
-            36,
-            38,
-            43,
             34
           ],
           "loadout_slots": [
@@ -334,6 +387,22 @@
                   "upgrade_id": 46
                 }
               ]
+            },
+            {
+              "string_id": "loadout_kustom_flak_gunz_or_kustom_bigga_generatas_or_kustom_boss_nobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
             }
           ]
         }
@@ -350,10 +419,7 @@
           "cost_pts": 300,
           "upgrades": [
             11,
-            13,
-            36,
-            38,
-            43
+            13
           ],
           "loadout_slots": [
             {
@@ -411,6 +477,22 @@
                   "upgrade_id": 27
                 }
               ]
+            },
+            {
+              "string_id": "loadout_kustom_flak_gunz_or_kustom_bigga_generatas_or_kustom_boss_nobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
             }
           ]
         },
@@ -423,8 +505,19 @@
           "cost_pts": 225,
           "upgrades": [
             11,
-            13,
-            18
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -436,8 +529,19 @@
           "cost_pts": 375,
           "upgrades": [
             11,
-            13,
-            18
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -449,8 +553,19 @@
           "cost_pts": 525,
           "upgrades": [
             11,
-            13,
-            18
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -459,9 +574,28 @@
           "name": "Kamp Followers (Normal)",
           "pts": -5,
           "cost_pts": -5,
-          "upgrades": [
-            11,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnoughts",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -470,9 +604,28 @@
           "name": "Kamp Followers (Big)",
           "pts": -60,
           "cost_pts": -60,
-          "upgrades": [
-            11,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnoughts",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -481,9 +634,28 @@
           "name": "Kamp Followers (Uge)",
           "pts": -140,
           "cost_pts": -140,
-          "upgrades": [
-            11,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnoughts",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -505,8 +677,19 @@
           "name": "Fighta-Bommers",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            35
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fighta_bommers",
+              "label": "Choice",
+              "min": 3,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {

@@ -55,13 +55,6 @@
             55,
             56,
             57,
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79,
             100
           ],
           "loadout_slots": [
@@ -83,6 +76,46 @@
                 },
                 {
                   "upgrade_id": 205
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_helios_or_74_or_75_or_land_raider_and_land_raider_crusader_o",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                },
+                {
+                  "upgrade_id": 78
+                },
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
                 }
               ]
             }
@@ -112,13 +145,6 @@
             55,
             56,
             57,
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79,
             100
           ],
           "loadout_slots": [
@@ -139,6 +165,46 @@
                   "upgrade_id": 205
                 }
               ]
+            },
+            {
+              "string_id": "loadout_land_raider_helios_or_74_or_75_or_land_raider_and_land_raider_crusader_o",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                },
+                {
+                  "upgrade_id": 78
+                },
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                }
+              ]
             }
           ]
         },
@@ -156,9 +222,6 @@
           "pts": 50,
           "cost_pts": 50,
           "upgrades": [
-            96,
-            97,
-            98,
             55,
             56,
             57,
@@ -180,6 +243,22 @@
                 },
                 {
                   "upgrade_id": 200
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_96_or_97_or_98",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 96
+                },
+                {
+                  "upgrade_id": 97
+                },
+                {
+                  "upgrade_id": 98
                 }
               ]
             }
@@ -219,15 +298,34 @@
           "cost_pts": 200,
           "units": "4 Tactical units plus transport",
           "upgrades": [
-            97,
-            98,
-            96,
             55,
             56,
             57,
             100,
             81,
             82
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_97_or_98_or_96_or_supreme_commander_in_prometheus",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 97
+                },
+                {
+                  "upgrade_id": 98
+                },
+                {
+                  "upgrade_id": 96
+                },
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            }
           ]
         },
         {
@@ -240,20 +338,55 @@
           "upgrades": [
             55,
             56,
-            57,
-            71,
-            72,
-            73,
-            76,
-            77,
-            78,
-            79,
-            204,
-            205,
-            206,
-            207,
-            208,
-            209
+            57
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_71_or_72_or_land_raider_helios_or_land_raider_and_land_raider_crusader_o",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                },
+                {
+                  "upgrade_id": 78
+                },
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                }
+              ]
+            }
           ]
         },
         {
@@ -262,8 +395,19 @@
           "name": "Thunderhawk Transporters",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            111
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_thunderhawk_transporter",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                }
+              ]
+            }
           ]
         },
         {
@@ -276,9 +420,6 @@
             55,
             56,
             57,
-            96,
-            97,
-            98,
             100
           ],
           "loadout_slots": [
@@ -294,6 +435,22 @@
                 },
                 {
                   "upgrade_id": 200
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_96_or_97_or_98",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 96
+                },
+                {
+                  "upgrade_id": 97
+                },
+                {
+                  "upgrade_id": 98
                 }
               ]
             }

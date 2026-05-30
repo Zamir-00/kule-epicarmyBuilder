@@ -23,12 +23,7 @@
             102,
             103,
             104,
-            105,
-            106,
-            108,
-            109,
-            110,
-            117
+            106
           ],
           "loadout_slots": [
             {
@@ -48,6 +43,35 @@
                   "upgrade_id": 123
                 }
               ]
+            },
+            {
+              "string_id": "loadout_minoris_plasma_cannon_or_minoris_turbo_laser_destructor_or_minoris_apoca",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_assault_minori_or_2_moles",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 117
+                }
+              ]
             }
           ]
         },
@@ -60,13 +84,49 @@
           "upgrades": [
             101,
             103,
-            104,
-            105,
-            107,
-            108,
-            109,
-            110,
-            117
+            104
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sagitarii",
+              "label": "Choice",
+              "min": 5,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 107
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_minoris_plasma_cannon_or_minoris_turbo_laser_destructor_or_minoris_apoca",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_assault_minori_or_2_moles",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 117
+                }
+              ]
+            }
           ]
         }
       ]
@@ -93,12 +153,38 @@
           "cost_pts": 250,
           "units": "5 Praetorian units",
           "upgrades": [
-            104,
-            105,
-            108,
-            109,
-            110,
-            117
+            104
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_minoris_plasma_cannon_or_minoris_turbo_laser_destructor_or_minoris_apoca",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_assault_minori_or_2_moles",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 117
+                }
+              ]
+            }
           ]
         },
         {
@@ -108,9 +194,23 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            103,
-            118,
-            119
+            103
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_onager_eradicator_or_onager_heavy_phosphor",
+              "label": "Choice",
+              "min": 6,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 118
+                },
+                {
+                  "upgrade_id": 119
+                }
+              ]
+            }
           ]
         },
         {
@@ -119,13 +219,34 @@
           "name": "Ordinatus Minoris",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            108,
-            109,
-            110,
-            112,
-            113,
-            114
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_minoris_plasma_cannon_or_minoris_turbo_laser_destructor_or_minoris_apoca",
+              "label": "Weapons",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                }
+              ]
+            }
           ]
         },
         {
@@ -136,9 +257,20 @@
           "cost_pts": 350,
           "units": "1 Ordinatus Majorus",
           "upgrades": [
-            111,
             115,
             116
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hellfire_missiles",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                }
+              ]
+            }
           ]
         },
         {

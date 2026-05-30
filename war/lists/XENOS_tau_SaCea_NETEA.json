@@ -15,11 +15,7 @@
           "name": "Crisis Battlesuit Cadre",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            35,
-            36,
-            37
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_3_missile_broadside",
@@ -113,6 +109,37 @@
                   "upgrade_id": 48
                 }
               ]
+            },
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_crisis_suits",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
             }
           ]
         },
@@ -123,13 +150,7 @@
           "pts": 275,
           "cost_pts": 275,
           "upgrades": [
-            36,
-            37,
-            38,
-            39,
-            41,
-            42,
-            43
+            39
           ],
           "loadout_slots": [
             {
@@ -191,6 +212,59 @@
                   "upgrade_id": 48
                 }
               ]
+            },
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
             }
           ]
         }
@@ -206,9 +280,7 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "6 XV9 Hazard Suits",
-          "upgrades": [
-            37
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_bonded_team",
@@ -312,6 +384,16 @@
                   "upgrade_id": 48
                 }
               ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
             }
           ]
         },
@@ -321,9 +403,7 @@
           "name": "Armour Support Group",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": [
-            44
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_bonded_team",
@@ -448,6 +528,16 @@
                   "upgrade_id": 54
                 }
               ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
             }
           ]
         },
@@ -458,11 +548,7 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "6 Missile Broadsides",
-          "upgrades": [
-            36,
-            37,
-            38
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_shas_vre",
@@ -544,6 +630,36 @@
               "variants": [
                 {
                   "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
                 }
               ]
             }
@@ -802,12 +918,7 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "6 XV15 Stealth Units",
-          "upgrades": [
-            36,
-            37,
-            45,
-            40
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_3_missile_broadside",
@@ -881,6 +992,46 @@
                   "upgrade_id": 48
                 }
               ]
+            },
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
             }
           ]
         },
@@ -891,11 +1042,7 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "Master Shaper, 9 Kroot Warrior",
-          "upgrades": [
-            46,
-            47,
-            48
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_bonded_team",
@@ -979,6 +1126,36 @@
                   "upgrade_id": 45
                 }
               ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
             }
           ]
         },
@@ -988,10 +1165,7 @@
           "name": "Ghostkeel Group",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            36,
-            45
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_2_gun_drones",
@@ -1083,6 +1257,38 @@
               "variants": [
                 {
                   "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel_2",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 45,
+                  "is_default": true
                 }
               ]
             }
@@ -1491,8 +1697,18 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "2 Tiger Sharks",
-          "upgrades": [
-            59
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6x_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            }
           ]
         },
         {

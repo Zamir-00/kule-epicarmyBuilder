@@ -92,8 +92,20 @@
           "cost_pts": 50,
           "upgrades": [
             10,
-            11,
-            42
+            11
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_scorpionfish_super_heavy_missile_gunship",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            }
           ]
         },
         {
@@ -134,8 +146,19 @@
           "name": "Barracuda Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            45
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_barracuda_fighter",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            }
           ]
         },
         {

@@ -109,8 +109,19 @@
           "name": "Pathfinder Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            12
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pathfinder",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -121,9 +132,7 @@
           "cost_pts": 225,
           "upgrades": [
             38,
-            39,
-            41,
-            42
+            39
           ],
           "loadout_slots": [
             {
@@ -158,6 +167,19 @@
                   "upgrade_id": 22
                 }
               ]
+            },
+            {
+              "string_id": "loadout_wave_serpent_or_42",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                }
+              ]
             }
           ]
         },
@@ -167,8 +189,19 @@
           "name": "War Walker Troupe",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_war_walker",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -202,10 +235,35 @@
           "name": "Swords of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            30,
-            31,
-            32
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_falcon_or_fire_storm_or_fire_prism",
+              "label": "Choice",
+              "min": 5,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_storm",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -223,10 +281,25 @@
           "name": "Engine of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            34,
-            35,
-            36
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_scorpion_or_cobra_or_storm_serpent",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         }
       ]

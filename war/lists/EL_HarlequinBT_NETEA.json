@@ -220,8 +220,19 @@
           "name": "Ranger Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ranger",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         },
         {
@@ -297,11 +308,28 @@
           "name": "Engines of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            34,
-            35,
-            36,
-            37
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cobra_or_scorpion_or_storm_serpent_or_void_spinner",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         }
       ]

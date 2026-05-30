@@ -16,26 +16,7 @@
           "name": "CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)",
           "pts": 1125,
           "cost_pts": 1125,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
@@ -279,6 +260,225 @@
                   "upgrade_id": 357
                 }
               ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Mark of Chaos",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 274
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Mark of Chaos",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
             }
           ]
         },
@@ -289,28 +489,8 @@
           "pts": 1125,
           "cost_pts": 1125,
           "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            16,
-            17,
-            31,
-            32,
-            33,
-            34,
-            35,
             37,
-            38,
             39,
-            40,
-            51,
-            52,
-            53,
-            54,
-            57,
-            58,
             59
           ],
           "swap_slots": [
@@ -476,6 +656,153 @@
                   "upgrade_id": 273
                 }
               ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 58
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                }
+              ]
             }
           ]
         },
@@ -485,28 +812,7 @@
           "name": "VICEKEEPER   (Chaos Emperor Titan of Slaanesh)",
           "pts": 1125,
           "cost_pts": 1125,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            20,
-            31,
-            32,
-            33,
-            34,
-            35,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53,
-            54,
-            68,
-            69
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
@@ -672,6 +978,153 @@
                   "upgrade_id": 359
                 }
               ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                }
+              ]
             }
           ]
         },
@@ -681,31 +1134,7 @@
           "name": "BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle)",
           "pts": 1125,
           "cost_pts": 1125,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            19,
-            31,
-            32,
-            33,
-            34,
-            35,
-            44,
-            45,
-            46,
-            47,
-            51,
-            52,
-            53,
-            54,
-            64,
-            65,
-            66,
-            67
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_void_head_chaos_undivided_head_or_plague_maw_nurgle_head",
@@ -853,6 +1282,162 @@
                   "upgrade_id": 273
                 }
               ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                }
+              ]
             }
           ]
         },
@@ -862,30 +1447,7 @@
           "name": "GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)",
           "pts": 1125,
           "cost_pts": 1125,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            18,
-            31,
-            32,
-            33,
-            34,
-            35,
-            41,
-            42,
-            43,
-            51,
-            52,
-            53,
-            54,
-            60,
-            61,
-            62,
-            63
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_240_or_241_or_242_or_243_or_244",
@@ -1033,6 +1595,159 @@
                   "upgrade_id": 353
                 }
               ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                }
+              ]
             }
           ]
         },
@@ -1042,58 +1757,7 @@
           "name": "FORGELORD   (Chaos Warlord Titan of Chaos Undivided)",
           "pts": 800,
           "cost_pts": 800,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56,
-            200,
-            205,
-            206,
-            207,
-            208,
-            209,
-            210,
-            211,
-            212,
-            213,
-            214,
-            215,
-            216,
-            217,
-            218,
-            219,
-            220,
-            221,
-            222,
-            223,
-            224,
-            225,
-            226,
-            227,
-            228,
-            229,
-            230,
-            231,
-            232,
-            233,
-            234,
-            235
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
@@ -1127,6 +1791,415 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_daemon_possession_or_greater_daemon_possession_chaos_plasma_inci",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                },
+                {
+                  "upgrade_id": 211
+                },
+                {
+                  "upgrade_id": 212
+                },
+                {
+                  "upgrade_id": 213
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 215
+                },
+                {
+                  "upgrade_id": 216
+                },
+                {
+                  "upgrade_id": 217
+                },
+                {
+                  "upgrade_id": 218
+                },
+                {
+                  "upgrade_id": 219
+                },
+                {
+                  "upgrade_id": 220
+                },
+                {
+                  "upgrade_id": 221
+                },
+                {
+                  "upgrade_id": 222
+                },
+                {
+                  "upgrade_id": 223
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Mark of Chaos",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Mark of Chaos",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 211
+                },
+                {
+                  "upgrade_id": 213
+                },
+                {
+                  "upgrade_id": 216
+                },
+                {
+                  "upgrade_id": 217
+                },
+                {
+                  "upgrade_id": 220
+                },
+                {
+                  "upgrade_id": 222
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Mark of Chaos",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                },
+                {
+                  "upgrade_id": 212
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 215
+                },
+                {
+                  "upgrade_id": 218
+                },
+                {
+                  "upgrade_id": 219
+                },
+                {
+                  "upgrade_id": 221
+                },
+                {
+                  "upgrade_id": 223
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 234
+                }
+              ]
+            }
           ]
         },
         {
@@ -1135,33 +2208,7 @@
           "name": "BANELORD (Chaos Warlord Titan of Khorne)",
           "pts": 800,
           "cost_pts": 800,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            16,
-            17,
-            31,
-            32,
-            33,
-            34,
-            35,
-            39,
-            40,
-            51,
-            52,
-            53,
-            54,
-            57,
-            58,
-            200,
-            201,
-            202,
-            203,
-            204
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
@@ -1192,6 +2239,316 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_daemon_possession_or_greater_daemon_possession_chaos_plasma_inci",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                },
+                {
+                  "upgrade_id": 211
+                },
+                {
+                  "upgrade_id": 212
+                },
+                {
+                  "upgrade_id": 213
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 215
+                },
+                {
+                  "upgrade_id": 216
+                },
+                {
+                  "upgrade_id": 217
+                },
+                {
+                  "upgrade_id": 218
+                },
+                {
+                  "upgrade_id": 219
+                },
+                {
+                  "upgrade_id": 220
+                },
+                {
+                  "upgrade_id": 221
+                },
+                {
+                  "upgrade_id": 222
+                },
+                {
+                  "upgrade_id": 223
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 58
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 58
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
           ]
         },
         {
@@ -1200,29 +2557,7 @@
           "name": "PAINLORD  (Chaos Warlord Titan of Slaanesh)",
           "pts": 800,
           "cost_pts": 800,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            20,
-            31,
-            32,
-            33,
-            34,
-            35,
-            48,
-            49,
-            50,
-            68,
-            69,
-            200,
-            201,
-            202,
-            203,
-            204
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
@@ -1253,6 +2588,310 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_daemon_possession_or_greater_daemon_possession_chaos_plasma_inci",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                },
+                {
+                  "upgrade_id": 211
+                },
+                {
+                  "upgrade_id": 212
+                },
+                {
+                  "upgrade_id": 213
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 215
+                },
+                {
+                  "upgrade_id": 216
+                },
+                {
+                  "upgrade_id": 217
+                },
+                {
+                  "upgrade_id": 218
+                },
+                {
+                  "upgrade_id": 219
+                },
+                {
+                  "upgrade_id": 220
+                },
+                {
+                  "upgrade_id": 221
+                },
+                {
+                  "upgrade_id": 222
+                },
+                {
+                  "upgrade_id": 223
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
           ]
         },
         {
@@ -1261,32 +2900,7 @@
           "name": "PLAGUELORD (Chaos Warlord Titan of Nurgle)",
           "pts": 800,
           "cost_pts": 800,
-          "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            19,
-            31,
-            32,
-            33,
-            34,
-            35,
-            44,
-            45,
-            46,
-            47,
-            64,
-            65,
-            66,
-            67,
-            200,
-            201,
-            202,
-            203,
-            204
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_void_head_chaos_undivided_head_or_plague_maw_nurgle_head",
@@ -1298,6 +2912,325 @@
                 },
                 {
                   "upgrade_id": 354
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_daemon_possession_or_greater_daemon_possession_chaos_plasma_inci",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                },
+                {
+                  "upgrade_id": 211
+                },
+                {
+                  "upgrade_id": 212
+                },
+                {
+                  "upgrade_id": 213
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 215
+                },
+                {
+                  "upgrade_id": 216
+                },
+                {
+                  "upgrade_id": 217
+                },
+                {
+                  "upgrade_id": 218
+                },
+                {
+                  "upgrade_id": 219
+                },
+                {
+                  "upgrade_id": 220
+                },
+                {
+                  "upgrade_id": 221
+                },
+                {
+                  "upgrade_id": 222
+                },
+                {
+                  "upgrade_id": 223
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
                 }
               ]
             }
@@ -1310,29 +3243,7 @@
           "pts": 800,
           "cost_pts": 800,
           "upgrades": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            18,
-            31,
-            32,
-            33,
-            34,
-            35,
-            41,
-            42,
-            43,
-            60,
-            61,
-            62,
-            63,
-            200,
-            201,
-            202,
-            203,
-            204
+            42
           ],
           "swap_slots": [
             {
@@ -1348,6 +3259,316 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_daemon_possession_or_greater_daemon_possession_chaos_plasma_inci",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                },
+                {
+                  "upgrade_id": 211
+                },
+                {
+                  "upgrade_id": 212
+                },
+                {
+                  "upgrade_id": 213
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 215
+                },
+                {
+                  "upgrade_id": 216
+                },
+                {
+                  "upgrade_id": 217
+                },
+                {
+                  "upgrade_id": 218
+                },
+                {
+                  "upgrade_id": 219
+                },
+                {
+                  "upgrade_id": 220
+                },
+                {
+                  "upgrade_id": 221
+                },
+                {
+                  "upgrade_id": 222
+                },
+                {
+                  "upgrade_id": 223
+                },
+                {
+                  "upgrade_id": 224
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 230
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_retlaxi_cyclone_ch",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 205
+                },
+                {
+                  "upgrade_id": 206
+                },
+                {
+                  "upgrade_id": 207
+                },
+                {
+                  "upgrade_id": 208
+                },
+                {
+                  "upgrade_id": 209
+                },
+                {
+                  "upgrade_id": 210
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 203
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_carapace_or_havoc_vortex_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 204
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_cannon_of_chaos_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 201
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
           ]
         },
         {
@@ -1356,26 +3577,7 @@
           "name": "HERALD (Chaos Reaver Titan of Chaos Undivided)",
           "pts": 600,
           "cost_pts": 600,
-          "upgrades": [
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56,
-            300,
-            301,
-            302,
-            303,
-            304,
-            305
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or_vo",
@@ -1409,6 +3611,144 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_ey",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 305
+                },
+                {
+                  "upgrade_id": 306
+                },
+                {
+                  "upgrade_id": 307
+                },
+                {
+                  "upgrade_id": 308
+                },
+                {
+                  "upgrade_id": 309
+                },
+                {
+                  "upgrade_id": 310
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_carapace_or_heretek_shr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_arm_or_battle_titan_clo",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 305
+                }
+              ]
+            }
           ]
         },
         {
@@ -1417,29 +3757,7 @@
           "name": "RAVAGER (Chaos Reaver Titan of Khorne)",
           "pts": 600,
           "cost_pts": 600,
-          "upgrades": [
-            31,
-            32,
-            33,
-            34,
-            35,
-            38,
-            39,
-            40,
-            51,
-            52,
-            53,
-            54,
-            57,
-            58,
-            300,
-            301,
-            302,
-            303,
-            304,
-            306,
-            307
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
@@ -1470,6 +3788,159 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_ey",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 305
+                },
+                {
+                  "upgrade_id": 306
+                },
+                {
+                  "upgrade_id": 307
+                },
+                {
+                  "upgrade_id": 308
+                },
+                {
+                  "upgrade_id": 309
+                },
+                {
+                  "upgrade_id": 310
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_carapace_or_heretek_shr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 58
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 307
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_arm_or_battle_titan_clo",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 306
+                }
+              ]
+            }
           ]
         },
         {
@@ -1478,24 +3949,7 @@
           "name": "REVILER (Chaos Reaver Titan of Slaanesh)",
           "pts": 600,
           "cost_pts": 600,
-          "upgrades": [
-            31,
-            32,
-            33,
-            34,
-            35,
-            48,
-            49,
-            50,
-            68,
-            69,
-            300,
-            301,
-            302,
-            303,
-            304,
-            310
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
@@ -1526,6 +3980,153 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_ey",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 305
+                },
+                {
+                  "upgrade_id": 306
+                },
+                {
+                  "upgrade_id": 307
+                },
+                {
+                  "upgrade_id": 308
+                },
+                {
+                  "upgrade_id": 309
+                },
+                {
+                  "upgrade_id": 310
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_carapace_or_heretek_shr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_arm_or_battle_titan_clo",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 310
+                }
+              ]
+            }
           ]
         },
         {
@@ -1534,27 +4135,7 @@
           "name": "REPUGNANT (Chaos Reaver Titan of Nurgle)",
           "pts": 600,
           "cost_pts": 600,
-          "upgrades": [
-            31,
-            32,
-            33,
-            34,
-            35,
-            44,
-            45,
-            46,
-            47,
-            64,
-            65,
-            66,
-            67,
-            300,
-            301,
-            302,
-            303,
-            304,
-            309
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_void_head_chaos_undivided_head_or_plague_maw_nurgle_head",
@@ -1569,6 +4150,168 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_ey",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 305
+                },
+                {
+                  "upgrade_id": 306
+                },
+                {
+                  "upgrade_id": 307
+                },
+                {
+                  "upgrade_id": 308
+                },
+                {
+                  "upgrade_id": 309
+                },
+                {
+                  "upgrade_id": 310
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 67
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_carapace_or_heretek_shr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_arm_or_battle_titan_clo",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 309
+                }
+              ]
+            }
           ]
         },
         {
@@ -1578,24 +4321,7 @@
           "pts": 600,
           "cost_pts": 600,
           "upgrades": [
-            31,
-            32,
-            33,
-            34,
-            35,
-            41,
-            42,
-            43,
-            60,
-            61,
-            62,
-            63,
-            300,
-            301,
-            302,
-            303,
-            304,
-            308
+            42
           ],
           "swap_slots": [
             {
@@ -1608,6 +4334,159 @@
                 },
                 {
                   "upgrade_id": 353
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_eye_of_the_gods_retlaxi_cyclone_chaos_undivided_support_weapon_arm_or_ey",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 302
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 305
+                },
+                {
+                  "upgrade_id": 306
+                },
+                {
+                  "upgrade_id": 307
+                },
+                {
+                  "upgrade_id": 308
+                },
+                {
+                  "upgrade_id": 309
+                },
+                {
+                  "upgrade_id": 310
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battle_titan_close_combat_weapon_chaos_undivided_close_combat_battle_wea",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_carapace_or_heretek_shr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 301
+                },
+                {
+                  "upgrade_id": 303
+                },
+                {
+                  "upgrade_id": 304
+                },
+                {
+                  "upgrade_id": 308
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infernal_projector_chaos_undivided_battle_weapon_arm_or_battle_titan_clo",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 300
+                },
+                {
+                  "upgrade_id": 302
                 }
               ]
             }
@@ -2050,9 +4929,108 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "One Death Wheel",
-          "upgrades": [
-            400,
-            401
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2062,8 +5040,108 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "One Lord of Battles",
-          "upgrades": [
-            402
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2073,9 +5151,108 @@
           "units": "One Greater Brass Scorpion",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            403,
-            404
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2085,8 +5262,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "One Subjugator Scout Titan",
-          "upgrades": [
-            405
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2096,8 +5373,108 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "One Questor Scout Titan",
-          "upgrades": [
-            406
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         }
       ]
@@ -2112,9 +5489,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Two Hell-Scourges",
-          "upgrades": [
-            407,
-            408
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2124,9 +5600,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Three Hell-Knights",
-          "upgrades": [
-            409,
-            410
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2136,9 +5711,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Four Hell-Striders",
-          "upgrades": [
-            411,
-            412
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2148,9 +5822,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Two Renegade Knights",
-          "upgrades": [
-            413,
-            414
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2160,9 +5933,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Two Mauler Knights",
-          "upgrades": [
-            415,
-            416
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2172,9 +6044,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Two Decay Knights",
-          "upgrades": [
-            417,
-            418
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2184,9 +6155,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Two Change Knights",
-          "upgrades": [
-            419,
-            420
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2196,9 +6266,108 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Four Daemon Assault Engines",
-          "upgrades": [
-            421,
-            422
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2208,9 +6377,108 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "Four Retlaxi-Pattern Defilers with Mark of Chaos Undivided",
-          "upgrades": [
-            423,
-            424
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2220,9 +6488,108 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "Four Retlaxi-Pattern Defilers with Trappings of Nurgle",
-          "upgrades": [
-            425,
-            426
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2232,9 +6599,108 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "Four Retlaxi-Pattern Defilers with Gifts of Tzeentch",
-          "upgrades": [
-            427,
-            428
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         },
         {
@@ -2244,9 +6710,108 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "Four Cannons of Khorne",
-          "upgrades": [
-            429,
-            430
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_one_additional_death_wheel_or_two_additional_death_wheels_or_one_additio",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 400
+                },
+                {
+                  "upgrade_id": 401
+                },
+                {
+                  "upgrade_id": 402
+                },
+                {
+                  "upgrade_id": 403
+                },
+                {
+                  "upgrade_id": 404
+                },
+                {
+                  "upgrade_id": 405
+                },
+                {
+                  "upgrade_id": 406
+                },
+                {
+                  "upgrade_id": 407
+                },
+                {
+                  "upgrade_id": 408
+                },
+                {
+                  "upgrade_id": 409
+                },
+                {
+                  "upgrade_id": 410
+                },
+                {
+                  "upgrade_id": 411
+                },
+                {
+                  "upgrade_id": 412
+                },
+                {
+                  "upgrade_id": 413
+                },
+                {
+                  "upgrade_id": 414
+                },
+                {
+                  "upgrade_id": 415
+                },
+                {
+                  "upgrade_id": 416
+                },
+                {
+                  "upgrade_id": 417
+                },
+                {
+                  "upgrade_id": 418
+                },
+                {
+                  "upgrade_id": 419
+                },
+                {
+                  "upgrade_id": 420
+                },
+                {
+                  "upgrade_id": 421
+                },
+                {
+                  "upgrade_id": 422
+                },
+                {
+                  "upgrade_id": 423
+                },
+                {
+                  "upgrade_id": 424
+                },
+                {
+                  "upgrade_id": 425
+                },
+                {
+                  "upgrade_id": 426
+                },
+                {
+                  "upgrade_id": 427
+                },
+                {
+                  "upgrade_id": 428
+                },
+                {
+                  "upgrade_id": 429
+                },
+                {
+                  "upgrade_id": 430
+                }
+              ]
+            }
           ]
         }
       ]

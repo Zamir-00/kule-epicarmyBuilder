@@ -16,16 +16,43 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "Dominatrix",
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            106,
-            107,
-            108,
-            109
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_gaunts_horma_ou_terma_or_3_biovores_or_4_gargouilles_or_3_carnifex_or_",
+              "label": "Choice",
+              "min": 2,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 106
+                },
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                }
+              ]
+            }
           ]
         },
         {
@@ -34,18 +61,7 @@
           "name": "Centre Synaptique",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            106,
-            107,
-            108,
-            109,
-            120
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guerriers_tyranides_or_guerriers_tyranides_ail_eacute_es_or_zoanthrope",
@@ -64,6 +80,44 @@
                   "upgrade_id": 13
                 }
               ]
+            },
+            {
+              "string_id": "loadout_6_gaunts_horma_ou_terma_or_3_biovores_or_4_gargouilles_or_3_carnifex_or_",
+              "label": "Choice",
+              "min": 2,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 106
+                },
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
             }
           ]
         },
@@ -73,18 +127,7 @@
           "name": "Relais Synaptique",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            106,
-            107,
-            108,
-            109,
-            120
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guerriers_tyranides_or_guerriers_tyranides_ail_eacute_es_or_zoanthrope",
@@ -103,6 +146,44 @@
                   "upgrade_id": 13
                 }
               ]
+            },
+            {
+              "string_id": "loadout_6_gaunts_horma_ou_terma_or_3_biovores_or_4_gargouilles_or_3_carnifex_or_",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 106
+                },
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
             }
           ]
         },
@@ -113,9 +194,22 @@
           "pts": 125,
           "cost_pts": 125,
           "units": "Trygon Prime",
-          "upgrades": [
-            109,
-            101
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_gaunts_horma_ou_terma_or_1_trygon_ou_3_r_deurs",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 109
+                }
+              ]
+            }
           ]
         },
         {
@@ -124,9 +218,30 @@
           "name": "Groupe de Chasse",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            19,
-            103
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_harridan",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_gargouilles",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            }
           ]
         }
       ]
@@ -140,8 +255,19 @@
           "name": "Spores mines a&eacute;riennes",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            35
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grappe_de_spores",
+              "label": "Choice",
+              "min": 6,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {
@@ -150,9 +276,29 @@
           "name": "Essaims de Genestealers",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            37,
-            40
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_genestealers",
+              "label": "Choice",
+              "min": 6,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_genestealer_alpha",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {
@@ -161,8 +307,19 @@
           "name": "Essaims de Lictors",
           "pts": -50,
           "cost_pts": -50,
-          "upgrades": [
-            39
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_lictor",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            }
           ]
         }
       ]
@@ -176,8 +333,19 @@
           "name": "Bio-aviation",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            25
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_harpies",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {

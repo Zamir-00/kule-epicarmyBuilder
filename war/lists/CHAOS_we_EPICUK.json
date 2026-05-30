@@ -18,24 +18,170 @@
           "name": "World Eater Retinue",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            52,
-            53,
-            64,
-            65,
-            66,
-            54,
-            67,
-            68,
-            56,
-            57,
-            71,
-            72,
-            63,
-            69,
-            70,
-            60,
-            73
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_world_eater_daemonic_transports",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_world_eater_defiler_or_2_world_eater_defilers_or_3_world_eater_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -45,10 +191,83 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "8 Juggernaughts",
-          "upgrades": [
-            52,
-            56,
-            60
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -74,21 +293,7 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "4 Terminators",
-          "upgrades": [
-            52,
-            56,
-            57,
-            71,
-            72,
-            63,
-            69,
-            70,
-            60,
-            53,
-            64,
-            65,
-            66
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
@@ -105,6 +310,123 @@
                   "upgrade_id": 68
                 }
               ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_world_eater_defiler_or_2_world_eater_defilers_or_3_world_eater_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
             }
           ]
         },
@@ -115,10 +437,83 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "8 Bikes",
-          "upgrades": [
-            52,
-            56,
-            60
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         }
       ]
@@ -133,8 +528,73 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "6 Chaos Marines, 3 Rhinos",
-          "upgrades": [
-            56
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -152,12 +612,7 @@
           "name": "Daemonic Assault Engine Pack",
           "pts": 15,
           "cost_pts": 15,
-          "upgrades": [
-            37,
-            63,
-            69,
-            70
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_world_eater_defiler_or_2_world_eater_defilers_or_3_world_eater_defilers",
@@ -174,6 +629,88 @@
                   "upgrade_id": 72
                 }
               ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_assault_engine",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
             }
           ]
         },
@@ -183,16 +720,7 @@
           "name": "Armoured Company",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            30,
-            31,
-            54,
-            67,
-            68,
-            57,
-            71,
-            72
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
@@ -212,6 +740,91 @@
                   "upgrade_id": 66
                 }
               ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c_2",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_world_eater_defiler_or_2_world_eater_defilers_or_3_world_eater_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_30_or_31",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
             }
           ]
         },
@@ -222,13 +835,95 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "4 World Eater Defilers",
-          "upgrades": [
-            63,
-            69,
-            70,
-            57,
-            71,
-            72
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_world_eater_defiler_or_2_world_eater_defilers_or_3_world_eater_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
           ]
         },
         {
@@ -267,8 +962,19 @@
           "name": "Lord of Battles",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            39
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_lord_of_battles",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            }
           ]
         }
       ]

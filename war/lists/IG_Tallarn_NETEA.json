@@ -16,13 +16,25 @@
           "pts": 200,
           "cost_pts": 200,
           "upgrades": [
-            16,
             17,
             20,
             21,
             15
           ],
-          "units": "10 Imperial Guard Infantry units"
+          "units": "10 Imperial Guard Infantry units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sniper_units",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "mechanized_infantry_company",
@@ -31,14 +43,36 @@
           "pts": 175,
           "cost_pts": 175,
           "upgrades": [
-            16,
             17,
             20,
             21,
-            15,
-            22
+            15
           ],
-          "units": "10 Imperial Guard Infantry units"
+          "units": "10 Imperial Guard Infantry units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sniper_units",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chimeras",
+              "label": "Choice",
+              "min": 7,
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "mukaali_assault_company",
@@ -47,7 +81,6 @@
           "pts": 300,
           "cost_pts": 300,
           "upgrades": [
-            16,
             17,
             20,
             21,
@@ -66,6 +99,16 @@
                 },
                 {
                   "upgrade_id": 24
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_units",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
                 }
               ]
             }
@@ -213,8 +256,19 @@
           "name": "Questoris Knights",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            37
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_questoris_knights",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         }
       ]

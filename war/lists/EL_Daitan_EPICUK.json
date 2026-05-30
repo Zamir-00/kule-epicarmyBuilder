@@ -70,8 +70,7 @@
           "cost_pts": 750,
           "units": "1 Phantom Titan",
           "upgrades": [
-            10,
-            12
+            10
           ],
           "loadout_slots": [
             {
@@ -100,6 +99,16 @@
                   "upgrade_id": 56
                 }
               ]
+            },
+            {
+              "string_id": "loadout_titan_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
             }
           ]
         }
@@ -115,9 +124,7 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "1 Revenant Titan",
-          "upgrades": [
-            11
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_pulse_laser_or_sonic_lance",
@@ -133,6 +140,16 @@
                   "upgrade_id": 71
                 }
               ]
+            },
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
             }
           ]
         },
@@ -143,9 +160,7 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "3 Wraithknights",
-          "upgrades": [
-            11
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_wraithcannon_or_ghostglaive_or_scattershield",
@@ -174,6 +189,16 @@
                   "upgrade_id": 62
                 }
               ]
+            },
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
             }
           ]
         },
@@ -184,8 +209,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6 War Walkers",
-          "upgrades": [
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         }
       ]
@@ -200,8 +235,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "2 Nightwing Interceptors",
-          "upgrades": [
-            22
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_1_nightwing_interceptor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {

@@ -33,9 +33,6 @@
           "cost_pts": 10,
           "upgrades": [
             9,
-            11,
-            12,
-            15,
             16,
             21,
             22,
@@ -57,6 +54,42 @@
                   "upgrade_id": 10
                 }
               ]
+            },
+            {
+              "string_id": "loadout_tyranid_warriors",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3x_tyranid_warriors_or_tyranid_warriors",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
             }
           ]
         },
@@ -68,9 +101,6 @@
           "cost_pts": -5,
           "upgrades": [
             9,
-            11,
-            12,
-            15,
             16,
             21,
             22,
@@ -113,6 +143,32 @@
                   "upgrade_id": 8
                 }
               ]
+            },
+            {
+              "string_id": "loadout_3x_tyranid_warriors_or_tyranid_warriors",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
             }
           ]
         },
@@ -124,9 +180,6 @@
           "cost_pts": -45,
           "upgrades": [
             9,
-            11,
-            12,
-            15,
             16,
             21,
             22,
@@ -167,6 +220,32 @@
                 },
                 {
                   "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3x_tyranid_warriors_or_tyranid_warriors",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 18,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
                 }
               ]
             }
@@ -251,9 +330,28 @@
           "name": "Genestealer Swarm",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            80,
-            81
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_genestealers",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 80
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_brood_lord",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 81
+                }
+              ]
+            }
           ]
         },
         {
@@ -262,8 +360,19 @@
           "name": "Lictor Swarm",
           "pts": 10,
           "cost_pts": 10,
-          "upgrades": [
-            41
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_lictors",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            }
           ]
         }
       ]
@@ -278,9 +387,21 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            38,
             21,
             90
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_harridan",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            }
           ]
         },
         {
@@ -438,8 +559,20 @@
           "pts": 20,
           "cost_pts": 20,
           "upgrades": [
-            29,
             26
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_29",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         }
       ]

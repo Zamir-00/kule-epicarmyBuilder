@@ -39,9 +39,7 @@
           "pts": 375,
           "cost_pts": 375,
           "upgrades": [
-            10,
-            11,
-            12
+            10
           ],
           "loadout_slots": [
             {
@@ -58,6 +56,19 @@
                   "upgrade_id": 31
                 }
               ]
+            },
+            {
+              "string_id": "loadout_dire_avenger_exarch_or_dark_reaper_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
             }
           ]
         },
@@ -68,9 +79,7 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "1 Farseer, 4 Guardians, 5 Lugganath Venoms",
-          "upgrades": [
-            22
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_farseer",
@@ -79,6 +88,16 @@
               "variants": [
                 {
                   "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_jetbike",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 22
                 }
               ]
             }
@@ -114,8 +133,18 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "6 Warp Spiders",
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_warp_spider_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -125,8 +154,18 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "3 Wraithguard, 3 Wave Serpents",
-          "upgrades": [
-            42
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_firestorm",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            }
           ]
         },
         {
@@ -173,9 +212,22 @@
           "name": "Engine of Vaul",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            50,
-            51
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_storm_serpent_or_cobra",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            }
           ]
         }
       ]

@@ -38,10 +38,26 @@
           "cost_pts": 50,
           "upgrades": [
             40,
-            33,
-            34,
-            35,
-            36
+            33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cobra_or_scorpion_or_storm_serpent",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {
@@ -93,9 +109,7 @@
           "name": "Mounted Aspect Warrior Troupe",
           "pts": 400,
           "cost_pts": 400,
-          "upgrades": [
-            39
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_d",
@@ -156,6 +170,16 @@
               "variants": [
                 {
                   "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
                 }
               ]
             }

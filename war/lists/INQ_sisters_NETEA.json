@@ -22,7 +22,6 @@
             11,
             18,
             19,
-            16,
             22,
             23,
             24
@@ -78,6 +77,16 @@
                   "upgrade_id": 35
                 }
               ]
+            },
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
             }
           ]
         },
@@ -88,8 +97,20 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            16,
             17
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "min": 5,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -114,7 +135,6 @@
             11,
             18,
             19,
-            16,
             22,
             23,
             24
@@ -155,6 +175,16 @@
               "variants": [
                 {
                   "upgrade_id": 34
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
                 }
               ]
             }
@@ -199,7 +229,6 @@
           "pts": 100,
           "cost_pts": 100,
           "upgrades": [
-            16,
             17
           ],
           "loadout_slots": [
@@ -215,6 +244,16 @@
                 },
                 {
                   "upgrade_id": 23
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
                 }
               ]
             }
@@ -233,8 +272,6 @@
           "cost_pts": 200,
           "units": "One Inquisitor Hereticus Character",
           "upgrades": [
-            10,
-            21,
             19,
             13,
             22,
@@ -292,6 +329,19 @@
                   "upgrade_id": 29
                 }
               ]
+            },
+            {
+              "string_id": "loadout_aquila_lander_and_3_arvus_lighters_or_4_inquisitorial_valyries",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
             }
           ]
         },
@@ -332,8 +382,19 @@
           "name": "Pentinence",
           "pts": 35,
           "cost_pts": 35,
-          "upgrades": [
-            32
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pentinent_engine",
+              "label": "Choice",
+              "min": 4,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         }
       ]

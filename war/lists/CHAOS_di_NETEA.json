@@ -33,20 +33,101 @@
           "pts": 250,
           "cost_pts": 250,
           "upgrades": [
-            95,
-            99,
             100,
-            101,
-            102,
-            103,
-            104,
-            105,
-            200,
-            201,
-            202,
-            203
+            101
           ],
-          "units": "6 Bloodletter units"
+          "units": "6 Bloodletter units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_95",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_blooletters_or_fleshhounds",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bloodcrushers_or_skull_cannon",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_altar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_furies",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 201
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_spawn",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 202
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_soulgrinder",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "nurgle_horde",
@@ -55,20 +136,101 @@
           "pts": 250,
           "cost_pts": 250,
           "upgrades": [
-            96,
-            99,
             100,
-            101,
-            106,
-            107,
-            108,
-            109,
-            200,
-            201,
-            202,
-            203
+            101
           ],
-          "units": "6 Plaguebearer units"
+          "units": "6 Plaguebearer units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_96",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 96
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plaguebearers_or_nurglings",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 106
+                },
+                {
+                  "upgrade_id": 107
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_beast_of_nurgle_or_plague_drone",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_altar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_furies",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 201
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_spawn",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 202
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_soulgrinder",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "slaanesh_horde",
@@ -77,20 +239,101 @@
           "pts": 250,
           "cost_pts": 250,
           "upgrades": [
-            97,
-            99,
             100,
-            101,
-            110,
-            111,
-            112,
-            113,
-            200,
-            201,
-            202,
-            203
+            101
           ],
-          "units": "6 Daemonette units"
+          "units": "6 Daemonette units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_97",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 97
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonettes_or_seekers",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 111
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seeker_chariot_or_fiends",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_altar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_furies",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 201
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_spawn",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 202
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_soulgrinder",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "tzeentch_horde",
@@ -99,20 +342,101 @@
           "pts": 250,
           "cost_pts": 250,
           "upgrades": [
-            98,
-            99,
             100,
-            101,
-            114,
-            115,
-            116,
-            117,
-            200,
-            201,
-            202,
-            203
+            101
           ],
-          "units": "6 Horror units"
+          "units": "6 Horror units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_98",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 98
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_horrors_or_screamers_or_flamers",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_burning_chariot",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 117
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_altar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_furies",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 201
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_chaos_spawn",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 202
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_upgrade_soulgrinder",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 203
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -125,10 +449,32 @@
           "name": "Khorne Greater Daemons",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            84,
-            99,
-            85
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bloodthrister_of_khorne",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         },
         {
@@ -137,10 +483,32 @@
           "name": "Nurgle Greater Daemons",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            84,
-            99,
-            86
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_great_unclean_one",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 86
+                }
+              ]
+            }
           ]
         },
         {
@@ -149,10 +517,32 @@
           "name": "Slaanesh Greater Daemons",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            84,
-            99,
-            87
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_keeper_of_secrets",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            }
           ]
         },
         {
@@ -161,10 +551,32 @@
           "name": "Tzeentch Greater Daemons",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            84,
-            99,
-            88
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemon_lord_or_great_abomination",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 99
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_lord_of_change",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 88
+                }
+              ]
+            }
           ]
         }
       ]
@@ -178,10 +590,55 @@
           "name": "Followers of Khorne",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            103,
-            104,
-            105
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fleshhounds_or_bloodcrushers_or_skull_cannon",
+              "label": "Choice",
+              "min": 6,
+              "max": 27,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fleshhounds",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bloodcrushers",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 104
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skull_cannon",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            }
           ]
         },
         {
@@ -190,10 +647,55 @@
           "name": "Followers of Nurgle",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            107,
-            108,
-            109
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nurglings_or_beast_of_nurgle_or_plague_drone",
+              "label": "Choice",
+              "min": 6,
+              "max": 27,
+              "variants": [
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nurglings",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 107
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_beast_of_nurgle",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 108
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_drone",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 109
+                }
+              ]
+            }
           ]
         },
         {
@@ -202,10 +704,55 @@
           "name": "Followers of Slaanesh",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            111,
-            112,
-            113
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_seekers_or_seeker_chariot_or_fiends",
+              "label": "Choice",
+              "min": 6,
+              "max": 27,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seekers",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seeker_chariot",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 112
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fiends",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 113
+                }
+              ]
+            }
           ]
         },
         {
@@ -214,10 +761,55 @@
           "name": "Followers of Tzeentch",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            115,
-            116,
-            117
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_screamers_or_flamers_or_burning_chariot",
+              "label": "Choice",
+              "min": 6,
+              "max": 27,
+              "variants": [
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                },
+                {
+                  "upgrade_id": 117
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_screamers",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 115
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flamers",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 116
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_burning_chariot",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 117
+                }
+              ]
+            }
           ]
         },
         {
@@ -226,8 +818,19 @@
           "name": "Undivided: Fury Flight",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            120
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_furies",
+              "label": "Choice",
+              "min": 6,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            }
           ]
         },
         {
@@ -236,8 +839,19 @@
           "name": "Undivided: Spawn Pack",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            121
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_spawn",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 121
+                }
+              ]
+            }
           ]
         },
         {
@@ -246,8 +860,19 @@
           "name": "Undivided: Soulgrinder Maniple",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            122
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_soulgrinder",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 122
+                }
+              ]
+            }
           ]
         }
       ]

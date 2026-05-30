@@ -33,8 +33,6 @@
           "cost_pts": 300,
           "units": "4 World Eater Legionaires, 4 Khorne Berzerkers",
           "upgrades": [
-            12,
-            13,
             14,
             15,
             18,
@@ -43,6 +41,21 @@
             33,
             22,
             23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler_or_2_world_eaters_dreadnaughts",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -53,10 +66,22 @@
           "cost_pts": 100,
           "units": "1 Skull Lord character",
           "upgrades": [
-            24,
             14,
             18,
             19
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_world_eaters_bike",
+              "label": "Choice",
+              "min": 6,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -66,11 +91,23 @@
           "pts": 50,
           "cost_pts": 50,
           "upgrades": [
-            26,
             14,
             18,
             19,
             23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_world_eaters_terminators",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {
@@ -91,15 +128,37 @@
           "units": "4 World Eaters Chosen",
           "upgrades": [
             21,
-            12,
-            13,
             14,
             15,
             18,
             19,
-            33,
             22,
             23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler_or_2_world_eaters_dreadnaughts",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_free_rhinos",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         }
       ]
@@ -122,9 +181,41 @@
           "name": "Defiler Engines",
           "pts": -25,
           "cost_pts": -25,
-          "upgrades": [
-            12,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_defiler_or_2_world_eaters_dreadnaughts",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_world_eaters_dreadnaughts",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -133,8 +224,19 @@
           "name": "Juggernauts",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            27
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_juggernauts",
+              "label": "Choice",
+              "min": 5,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {
@@ -144,10 +246,23 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            12,
-            13,
             34,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler_or_2_world_eaters_dreadnaughts",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -156,11 +271,35 @@
           "name": "Khorne Support Engines",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            12,
-            13,
-            36,
-            37
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler_or_2_world_eaters_dreadnaughts",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_khorne_doomblaster_or_hellfire_cannon",
+              "label": "Weapons",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         }
       ]
@@ -174,8 +313,19 @@
           "name": "Greater Brass Scorpions",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            28
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_greater_brass_scorpion",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         },
         {
@@ -196,8 +346,18 @@
           "pts": 800,
           "cost_pts": 800,
           "units": "1 Lord of Battle",
-          "upgrades": [
-            30
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_leader_upgrade",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         }
       ]

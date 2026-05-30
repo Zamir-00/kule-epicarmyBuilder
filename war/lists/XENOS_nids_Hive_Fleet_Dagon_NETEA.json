@@ -16,24 +16,67 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "Dagon Dominatrix",
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            107,
-            108,
-            109,
-            110,
-            111,
-            112,
-            113,
-            114,
-            115,
-            116,
-            117,
-            118
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gaunts_4_termagaunts_or_gaunts_3_termagaunts_1_hormagaunt_or_gaunts_2_te",
+              "label": "Choice",
+              "min": 3,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                },
+                {
+                  "upgrade_id": 117
+                },
+                {
+                  "upgrade_id": 118
+                }
+              ]
+            }
           ]
         },
         {
@@ -42,26 +85,7 @@
           "name": "Major Swarm (3-5 Instinctive Swarms)",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            107,
-            108,
-            109,
-            110,
-            111,
-            112,
-            113,
-            114,
-            115,
-            116,
-            117,
-            118,
-            120
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_tyranid_warriors_or_zoanthrope_or_tyranid_warrior_shrikes_wings",
@@ -80,6 +104,78 @@
                   "upgrade_id": 211
                 }
               ]
+            },
+            {
+              "string_id": "loadout_mycetic_spore_may_transport_termagaunts_hormagaunts_biovores_carnifex_ra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gaunts_4_termagaunts_or_gaunts_3_termagaunts_1_hormagaunt_or_gaunts_2_te",
+              "label": "Choice",
+              "min": 3,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                },
+                {
+                  "upgrade_id": 117
+                },
+                {
+                  "upgrade_id": 118
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
             }
           ]
         },
@@ -89,24 +185,7 @@
           "name": "Minor Swarm (2-4 Instinctive Swarms)",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            107,
-            108,
-            109,
-            110,
-            113,
-            114,
-            115,
-            116,
-            117,
-            118,
-            120
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_tyranid_warriors_or_zoanthrope_or_tyranid_warrior_shrikes_wings",
@@ -135,6 +214,72 @@
                   "upgrade_id": 202
                 }
               ]
+            },
+            {
+              "string_id": "loadout_mycetic_spore_may_transport_termagaunts_hormagaunts_biovores_carnifex_ra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gaunts_4_termagaunts_or_gaunts_3_termagaunts_1_hormagaunt_or_gaunts_2_te",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 107
+                },
+                {
+                  "upgrade_id": 108
+                },
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                },
+                {
+                  "upgrade_id": 117
+                },
+                {
+                  "upgrade_id": 118
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
             }
           ]
         }
@@ -149,20 +294,7 @@
           "name": "Attack Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            110,
-            111,
-            112,
-            113,
-            114,
-            115,
-            116
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_barbed_hierodule_prime_or_scythed_hierodule_prime",
@@ -177,6 +309,52 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gaunts_4_termagaunts_or_gaunts_3_termagaunts_1_hormagaunt_or_gaunts_2_te",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
+                }
+              ]
+            }
           ]
         },
         {
@@ -185,14 +363,59 @@
           "name": "Infestation Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            101,
-            102,
-            103,
-            104,
-            105,
-            117,
-            118
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gaunts_4_termagaunts_or_gaunts_3_termagaunts_1_hormagaunt_or_gaunts_2_te",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 117
+                },
+                {
+                  "upgrade_id": 118
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gaunts_4_termagaunts_or_gaunts_3_termagaunts_1_hormagaunt_or_gaunts_2_te_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            }
           ]
         },
         {
@@ -202,9 +425,23 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            109,
-            107,
             130
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gargoyles_4_dagon_gargoyles_or_bio_bomber_2_harpies",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 107
+                }
+              ]
+            }
           ]
         }
       ]
@@ -219,8 +456,20 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            140,
             141
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_genestealers",
+              "label": "Choice",
+              "min": 6,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 140
+                }
+              ]
+            }
           ]
         },
         {
@@ -229,8 +478,19 @@
           "name": "Lictor Swarm",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": [
-            142
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dagon_lictors",
+              "label": "Choice",
+              "min": 5,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 142
+                }
+              ]
+            }
           ]
         }
       ]

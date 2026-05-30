@@ -16,20 +16,48 @@
           "pts": 375,
           "cost_pts": 375,
           "upgrades": [
-            19,
             25,
             26,
-            27,
-            28,
-            29,
-            30,
-            31,
             32,
             33,
             34,
             35
           ],
-          "units": "Supreme Commander, 12 Infantry"
+          "units": "Supreme Commander, 12 Infantry",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chimeras_7_chimeras",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers_or_tank_squadr",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "infantry_company",
@@ -40,17 +68,36 @@
           "upgrades": [
             25,
             26,
-            27,
-            28,
-            29,
-            30,
-            31,
             32,
             33,
             34,
             35
           ],
-          "units": "Commander, 12 Infantry"
+          "units": "Commander, 12 Infantry",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers_or_tank_squadr",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "leman_russ_tank_company",
@@ -59,19 +106,50 @@
           "pts": 625,
           "cost_pts": 625,
           "upgrades": [
-            11,
-            12,
             25,
             26,
-            27,
-            28,
-            29,
-            30,
-            31,
             32,
             33,
             34,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_leman_russ_or_leman_russ_vanquisher",
+              "label": "Choice",
+              "min": 10,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers_or_tank_squadr",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -81,20 +159,53 @@
           "pts": 650,
           "cost_pts": 650,
           "upgrades": [
-            13,
-            14,
-            15,
             25,
             26,
-            27,
-            28,
-            29,
-            30,
-            31,
             32,
             33,
             34,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_malcador_or_malcador_annihilator_or_malcador_defender",
+              "label": "Choice",
+              "min": 10,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers_or_tank_squadr",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -104,20 +215,53 @@
           "pts": 650,
           "cost_pts": 650,
           "upgrades": [
-            16,
-            17,
-            18,
             25,
             26,
-            27,
-            28,
-            29,
-            30,
-            31,
             32,
             33,
             34,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bombards_or_basilisk_or_manticore",
+              "label": "Choice",
+              "min": 9,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers_or_tank_squadr",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         }
       ]

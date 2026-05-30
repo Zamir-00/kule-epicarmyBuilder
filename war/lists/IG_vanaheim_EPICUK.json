@@ -16,13 +16,7 @@
           "pts": 375,
           "cost_pts": 375,
           "units": "Supreme Commander, 3 Vanaheim Troopers",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            33
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_vendetta",
@@ -64,6 +58,93 @@
                 },
                 {
                   "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_2_fire_support_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mortar_platoon_2_mortars_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_2_troopers_1_valkyrie_or_infantry_platoon_4_troopers_2_",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_2_fire_support_1_valkyrie_or_mortar_platoon_2_morta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_mortar_support_or_mortar_platoon_2_mortars_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_sniper_support_or_sniper_platoon_2_snipers_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
                 }
               ]
             }
@@ -76,13 +157,7 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "Commander, 3 Vanaheim Troopers",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            33
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_vendetta",
@@ -124,6 +199,93 @@
                 },
                 {
                   "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_2_fire_support_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mortar_platoon_2_mortars_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_2_troopers_1_valkyrie_or_infantry_platoon_4_troopers_2_",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_2_fire_support_1_valkyrie_or_mortar_platoon_2_morta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_mortar_support_or_mortar_platoon_2_mortars_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_sniper_support_or_sniper_platoon_2_snipers_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
                 }
               ]
             }
@@ -149,8 +311,18 @@
           "name": "Sentinel Squadron",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": [
-            35
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_valkyries",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {
@@ -173,8 +345,19 @@
           "name": "Thunderbolt Fighters",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_thunderbolt",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -183,8 +366,19 @@
           "name": "Lightning Flight",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_lunar_class_cruiser",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {

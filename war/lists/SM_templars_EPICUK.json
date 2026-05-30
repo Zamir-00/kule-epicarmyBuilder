@@ -19,13 +19,47 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "4 Assault units",
-          "upgrades": [
-            11,
-            12,
-            14,
-            18,
-            20,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_pf_or_dreadnought_las",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -34,11 +68,7 @@
           "name": "Bike",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            11,
-            12,
-            14
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_bikes_or_attack_bikes",
@@ -54,197 +84,7 @@
                   "upgrade_id": 16
                 }
               ]
-            }
-          ]
-        },
-        {
-          "string_id": "devastator",
-          "id": 503,
-          "name": "Devastator",
-          "pts": 250,
-          "cost_pts": 250,
-          "units": "4 Devastator Units plus Transport",
-          "upgrades": [
-            11,
-            12,
-            14,
-            18,
-            20,
-            19,
-            31,
-            20,
-            35,
-            36,
-            21,
-            22,
-            15
-          ]
-        },
-        {
-          "string_id": "land_raider",
-          "id": 504,
-          "name": "Land Raider",
-          "pts": 50,
-          "cost_pts": 50,
-          "upgrades": [
-            11,
-            12,
-            14,
-            19,
-            31,
-            15
-          ],
-          "loadout_slots": [
-            {
-              "string_id": "loadout_land_raider_or_land_raider_crusader",
-              "label": "Choice",
-              "min": 4,
-              "max": 4,
-              "variants": [
-                {
-                  "upgrade_id": 35,
-                  "is_default": true
-                },
-                {
-                  "upgrade_id": 36
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "string_id": "land_speeder",
-          "id": 505,
-          "name": "Land Speeder",
-          "pts": 0,
-          "cost_pts": 0,
-          "upgrades": [
-            11,
-            12,
-            14
-          ],
-          "loadout_slots": [
-            {
-              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
-              "label": "Choice",
-              "min": 5,
-              "max": 5,
-              "variants": [
-                {
-                  "upgrade_id": 23,
-                  "is_default": true
-                },
-                {
-                  "upgrade_id": 24
-                },
-                {
-                  "upgrade_id": 25
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "string_id": "landing_craft",
-          "id": 506,
-          "name": "Landing Craft",
-          "pts": 350,
-          "cost_pts": 350,
-          "units": "1 Landing Craft"
-        },
-        {
-          "string_id": "predators",
-          "id": 507,
-          "name": "Predators",
-          "pts": 0,
-          "cost_pts": 0,
-          "upgrades": [
-            11,
-            12,
-            14,
-            19,
-            31,
-            15
-          ],
-          "loadout_slots": [
-            {
-              "string_id": "loadout_2_x_predator_destructors_or_2_x_predator_annihilators",
-              "label": "Choice",
-              "min": 2,
-              "max": 2,
-              "variants": [
-                {
-                  "upgrade_id": 26,
-                  "is_default": true
-                },
-                {
-                  "upgrade_id": 27
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "string_id": "tactical",
-          "id": 510,
-          "name": "Tactical",
-          "pts": 300,
-          "cost_pts": 300,
-          "units": "6 Tactical units plus Transport",
-          "upgrades": [
-            11,
-            12,
-            14,
-            32,
-            33,
-            18,
-            20,
-            19,
-            31,
-            21,
-            22,
-            35,
-            36,
-            15
-          ]
-        },
-        {
-          "string_id": "terminator",
-          "id": 511,
-          "name": "Terminator",
-          "pts": 350,
-          "cost_pts": 350,
-          "units": "4 Terminator units",
-          "upgrades": [
-            11,
-            12,
-            14,
-            32,
-            18,
-            20,
-            35,
-            36,
-            15
-          ]
-        },
-        {
-          "string_id": "thunderhawk",
-          "id": 512,
-          "name": "Thunderhawk",
-          "pts": 200,
-          "cost_pts": 200,
-          "units": "1 Thunderhawk gunship"
-        },
-        {
-          "string_id": "thunderhawk_transporter",
-          "id": 514,
-          "name": "Thunderhawk Transporter",
-          "pts": 75,
-          "cost_pts": 75,
-          "upgrades": [
-            34
-          ],
-          "loadout_slots": [
+            },
             {
               "string_id": "loadout_castellan_or_chaplain_or_marshall",
               "label": "Choice",
@@ -264,18 +104,539 @@
           ]
         },
         {
+          "string_id": "devastator",
+          "id": 503,
+          "name": "Devastator",
+          "pts": 250,
+          "cost_pts": 250,
+          "units": "4 Devastator Units plus Transport",
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_pf_or_dreadnought_las",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter_or_2_x_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_hb_or_razorback_las_or_land_raider_or_land_raider_crusader",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "land_raider",
+          "id": 504,
+          "name": "Land Raider",
+          "pts": 50,
+          "cost_pts": 50,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 35,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter_or_2_x_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "land_speeder",
+          "id": 505,
+          "name": "Land Speeder",
+          "pts": 0,
+          "cost_pts": 0,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "landing_craft",
+          "id": 506,
+          "name": "Landing Craft",
+          "pts": 350,
+          "cost_pts": 350,
+          "units": "1 Landing Craft"
+        },
+        {
+          "string_id": "predators",
+          "id": 507,
+          "name": "Predators",
+          "pts": 0,
+          "cost_pts": 0,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_x_predator_destructors_or_2_x_predator_annihilators",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 26,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter_or_2_x_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "tactical",
+          "id": 510,
+          "name": "Tactical",
+          "pts": 300,
+          "cost_pts": 300,
+          "units": "6 Tactical units plus Transport",
+          "upgrades": [
+            32
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_pf_or_dreadnought_las",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter_or_2_x_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_hb_or_razorback_las",
+              "label": "Transport",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2x_neophytes",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "terminator",
+          "id": 511,
+          "name": "Terminator",
+          "pts": 350,
+          "cost_pts": 350,
+          "units": "4 Terminator units",
+          "upgrades": [
+            32
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_pf_or_dreadnought_las",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "thunderhawk",
+          "id": 512,
+          "name": "Thunderhawk",
+          "pts": 200,
+          "cost_pts": 200,
+          "units": "1 Thunderhawk gunship"
+        },
+        {
+          "string_id": "thunderhawk_transporter",
+          "id": 514,
+          "name": "Thunderhawk Transporter",
+          "pts": 75,
+          "cost_pts": 75,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thunderhawk_transporter",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
+          ]
+        },
+        {
           "string_id": "vindicator",
           "id": 513,
           "name": "Vindicator",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            11,
-            12,
-            14,
-            19,
-            31,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_castellan_or_chaplain_or_marshall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter_or_2_x_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         }
       ]

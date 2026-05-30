@@ -48,11 +48,27 @@
           "pts": -50,
           "cost_pts": -50,
           "upgrades": [
-            34,
-            35,
-            36,
             67,
             68
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cobra_or_scorpion_or_storm_serpent",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {
@@ -62,10 +78,7 @@
           "units": "Farseer",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            67,
-            68
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_falcon_or_fire_storm_or_fire_prism",
@@ -104,6 +117,26 @@
                   "upgrade_id": 32
                 }
               ]
+            },
+            {
+              "string_id": "loadout_3_vyper_jetbikes",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 67
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_guardian_units_2_wave_serpents",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                }
+              ]
             }
           ]
         }
@@ -118,12 +151,7 @@
           "name": "Aspect Warrior Troupe",
           "pts": 225,
           "cost_pts": 225,
-          "upgrades": [
-            30,
-            41,
-            39,
-            40
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_w",
@@ -155,6 +183,46 @@
                 },
                 {
                   "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_falcon",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wave_serpent",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_autarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
                 }
               ]
             }
@@ -201,13 +269,7 @@
           "name": "Guardian Troupe",
           "pts": 125,
           "cost_pts": 125,
-          "upgrades": [
-            63,
-            55,
-            57,
-            58,
-            59
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guardians_or_heavy_weapon_platform",
@@ -231,6 +293,49 @@
               "variants": [
                 {
                   "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_support_weapon_platforms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_wraithlords",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_wraithguard_or_3_wraithguard",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 58
                 }
               ]
             }
@@ -243,9 +348,7 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "4 Wave Serpents",
-          "upgrades": [
-            63
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guardians_or_heavy_weapon_platform",
@@ -271,6 +374,16 @@
                   "upgrade_id": 25
                 }
               ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
             }
           ]
         },
@@ -280,8 +393,19 @@
           "name": "Ranger Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ranger",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         },
         {
@@ -290,8 +414,19 @@
           "name": "War Walker Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_war_walker",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -300,9 +435,7 @@
           "name": "Yme-Loc Wind Rider Troupe",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            69
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_jetbike_or_vyper",
@@ -316,6 +449,16 @@
                 },
                 {
                   "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hornet",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 69
                 }
               ]
             }

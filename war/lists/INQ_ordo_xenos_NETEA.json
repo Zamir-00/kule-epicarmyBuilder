@@ -51,9 +51,23 @@
             3,
             14,
             15,
-            16,
-            12,
-            13
+            16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tornado_or_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {

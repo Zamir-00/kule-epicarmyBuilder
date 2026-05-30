@@ -87,13 +87,26 @@
             16,
             17,
             18,
-            38,
-            39,
             11,
             12,
             31,
             36,
             37
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_twin_heavy_bolter_or_razorback_twin_laser_cannon",
+              "label": "Transport",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            }
           ]
         },
         {
@@ -123,9 +136,6 @@
             16,
             17,
             18,
-            35,
-            38,
-            39,
             11,
             12
           ],
@@ -139,6 +149,29 @@
                 {
                   "upgrade_id": 34,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_twin_heavy_bolter_or_razorback_twin_laser_cannon",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 35
                 }
               ]
             }

@@ -20,29 +20,8 @@
           "cost_pts": 275,
           "units": "8 Chaos Space Marines",
           "upgrades": [
-            52,
-            55,
-            56,
             58,
-            59,
-            60,
-            62,
-            53,
-            67,
-            68,
-            69,
-            54,
-            70,
-            71,
-            57,
-            72,
-            73,
-            61,
-            74,
-            75,
-            63,
-            76,
-            77
+            62
           ],
           "swap_slots": [
             {
@@ -67,6 +46,211 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_champion_or_chaos_vindicator_or_4_cult_marines_or_daemonic_pact_in",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_defiler_or_2_defilers_or_3_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_obliterator_or_2_obliterators_or_3_obliterators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_cult_marines",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_havocs",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            }
           ]
         },
         {
@@ -75,16 +259,7 @@
           "name": "Armoured Company",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            27,
-            53,
-            54,
-            70,
-            71,
-            57,
-            72,
-            73
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
@@ -105,6 +280,94 @@
                 },
                 {
                   "upgrade_id": 15
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_champion_or_daemonic_pact_includes_1_lesser_daemon_or_4_havocs_or_",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_defiler_or_2_defilers_or_3_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_predator_or_chaos_land_raider",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 53
                 }
               ]
             }
@@ -133,24 +396,221 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "4 Chaos Terminators",
+          "upgrades": [],
+          "swap_slots": [
+            {
+              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
+              "label": "Mark of Chaos",
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_champion_or_chaos_vindicator_or_4_cult_marines_or_daemonic_pact_in",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_defiler_or_2_defilers_or_3_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_obliterator_or_2_obliterators_or_3_obliterators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_terminator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "chosen",
+          "id": 504,
+          "name": "Chosen",
+          "pts": 125,
+          "cost_pts": 125,
+          "units": "4 Chaos Space Marine Scouts",
           "upgrades": [
-            32,
-            63,
-            76,
-            77,
-            57,
-            72,
-            73,
-            53,
-            67,
-            68,
-            69,
-            61,
-            74,
-            75,
-            56,
-            52,
-            60
+            62,
+            58
           ],
           "swap_slots": [
             {
@@ -175,43 +635,101 @@
                 }
               ]
             }
-          ]
-        },
-        {
-          "string_id": "chosen",
-          "id": 504,
-          "name": "Chosen",
-          "pts": 125,
-          "cost_pts": 125,
-          "units": "4 Chaos Space Marine Scouts",
-          "upgrades": [
-            62,
-            58,
-            63,
-            76,
-            77,
-            56
           ],
-          "swap_slots": [
+          "loadout_slots": [
             {
-              "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
-              "label": "Mark of Chaos",
+              "string_id": "loadout_chaos_champion_or_chaos_vindicator_or_4_cult_marines_or_daemonic_pact_in",
+              "label": "Choice",
+              "max": 4,
               "variants": [
                 {
-                  "upgrade_id": 11,
-                  "is_default": true
+                  "upgrade_id": 52
                 },
                 {
-                  "upgrade_id": 12
+                  "upgrade_id": 54
                 },
                 {
-                  "upgrade_id": 13
+                  "upgrade_id": 55
                 },
                 {
-                  "upgrade_id": 14
+                  "upgrade_id": 56
                 },
                 {
-                  "upgrade_id": 15
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
                 }
               ]
             }
@@ -229,10 +747,7 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "8 Chaos Space Marines Bikes",
-          "upgrades": [
-            60,
-            56
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
@@ -253,6 +768,98 @@
                 },
                 {
                   "upgrade_id": 15
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_champion_or_chaos_vindicator_or_4_cult_marines_or_daemonic_pact_in",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
                 }
               ]
             }
@@ -297,10 +904,7 @@
           "name": "Raptor Cult",
           "pts": 35,
           "cost_pts": 35,
-          "upgrades": [
-            30,
-            56
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
@@ -324,6 +928,99 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_champion_or_chaos_vindicator_or_4_cult_marines_or_daemonic_pact_in",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_raptor",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         },
         {
@@ -333,14 +1030,7 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "4 Chaos Space Marine Havocs",
-          "upgrades": [
-            52,
-            56,
-            63,
-            76,
-            77,
-            60
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
@@ -373,6 +1063,122 @@
               "variants": [
                 {
                   "upgrade_id": 64
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion_or_chaos_vindicator_or_4_cult_marines_or_daemonic_pact_in",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
                 }
               ]
             }
@@ -413,9 +1219,7 @@
           "name": "Death Wheel Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            23
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
@@ -439,6 +1243,19 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_death_wheel",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         },
         {
@@ -447,9 +1264,7 @@
           "name": "Decimators",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            25
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_khorne_or_nurgle_or_slaanesh_or_tzeentch_or_chaos_undivided",
@@ -470,6 +1285,19 @@
                 },
                 {
                   "upgrade_id": 15
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_decimator",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 25
                 }
               ]
             }

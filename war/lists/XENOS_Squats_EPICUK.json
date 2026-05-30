@@ -19,15 +19,57 @@
           "pts": 250,
           "cost_pts": 250,
           "upgrades": [
-            1,
-            2,
-            3,
-            4,
             7,
             8,
-            9,
-            14,
-            50
+            9
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_termite_tunnellers_or_2_mole_tunnellers_or_hellbore_tunneller",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos",
+              "label": "Choice",
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_rapier_units",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_thunderer_units",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -37,14 +79,38 @@
           "pts": 200,
           "cost_pts": 200,
           "upgrades": [
-            1,
-            2,
-            3,
-            4,
             7,
             8
           ],
-          "units": "1 Hearthguard unit and 7 Berzerker units"
+          "units": "1 Hearthguard unit and 7 Berzerker units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_termite_tunnellers_or_2_mole_tunnellers_or_hellbore_tunneller",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos",
+              "label": "Choice",
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -57,9 +123,7 @@
           "name": "Heavy Support",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            50
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_robot_or_light_artillery_or_tarantula_or_mole_mortar",
@@ -81,6 +145,16 @@
                   "upgrade_id": 63
                 }
               ]
+            },
+            {
+              "string_id": "loadout_4_rapier_units",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
             }
           ]
         },
@@ -99,12 +173,44 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "4 Thunderer units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            50
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_termite_tunnellers_or_2_mole_tunnellers_or_hellbore_tunneller",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos",
+              "label": "Choice",
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_rapier_units",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            }
           ]
         },
         {
@@ -113,8 +219,19 @@
           "name": "Overlord",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            20
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_overlord_airship",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -213,11 +330,29 @@
           "cost_pts": 175,
           "units": "1 Land Train Engine",
           "upgrades": [
-            9,
-            30,
-            31,
-            32,
-            33
+            9
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_berserker_battle_car_or_bomb_battle_car_or_dragon_battle_car_or_mortar_b",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         }
       ]

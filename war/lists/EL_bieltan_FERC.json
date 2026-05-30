@@ -32,8 +32,6 @@
           "pts": 300,
           "cost_pts": 300,
           "upgrades": [
-            39,
-            40,
             41,
             42
           ],
@@ -70,6 +68,39 @@
                   "upgrade_id": 22
                 }
               ]
+            },
+            {
+              "string_id": "loadout_exarque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_autarque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarque_or_autarque",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 40
+                }
+              ]
             }
           ]
         },
@@ -80,12 +111,7 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "Grand Proph&egrave;te",
-          "upgrades": [
-            43,
-            83,
-            84,
-            45
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_plateforme_d_arme_lourde",
@@ -109,6 +135,39 @@
                 },
                 {
                   "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_plateformes_d_armes_de_support",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gardes_fant_ocirc_mes_or_3_gardes_fant_ocirc_mes",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 83
+                },
+                {
+                  "upgrade_id": 84
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_seigneurs_fant_ocirc_mes",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
                 }
               ]
             }
@@ -135,8 +194,6 @@
           "pts": 175,
           "cost_pts": 175,
           "upgrades": [
-            39,
-            40,
             41,
             42
           ],
@@ -173,6 +230,39 @@
                   "upgrade_id": 22
                 }
               ]
+            },
+            {
+              "string_id": "loadout_exarque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_autarque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarque_or_autarque",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 40
+                }
+              ]
             }
           ]
         },
@@ -182,8 +272,19 @@
           "name": "Peloton de Rangers",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ranger",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         },
         {
@@ -226,10 +327,45 @@
           "name": "Escadron de la Lame de Vaul",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            42,
-            31,
-            60
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_prisme_de_feu",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_firestorm",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_prisme_de_feu_or_falcon_or_firestorm",
+              "label": "Choice",
+              "min": 5,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            }
           ]
         },
         {
@@ -238,11 +374,28 @@
           "name": "Escadron de Machines de Vaul",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            34,
-            35,
-            36,
-            37
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cobra_or_scorpion_or_storm_serpent_or_vengeur",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         },
         {

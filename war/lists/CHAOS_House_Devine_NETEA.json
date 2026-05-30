@@ -20,12 +20,38 @@
           "name": "Knight Household",
           "pts": 55,
           "cost_pts": 55,
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_voluptuary_or_arch_hedonist",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 4
+                },
+                {
+                  "upgrade_id": 5
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hell_knight_or_hell_slicer_or_hell_scourge",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            }
           ]
         },
         {
@@ -34,9 +60,32 @@
           "name": "Hell-Strider Household",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            6,
-            4
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_voluptuary_or_arch_hedonist",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 4
+                },
+                {
+                  "upgrade_id": 5
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hell_strider",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            }
           ]
         }
       ]
@@ -50,14 +99,7 @@
           "name": "Cultists",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            9,
-            10,
-            11,
-            12,
-            13,
-            14
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_demagogue_or_chaos_marine_aspiring_champion",
@@ -72,6 +114,62 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cultists_or_mutants",
+              "label": "Choice",
+              "min": 11,
+              "max": 19,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                },
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_transporter",
+              "label": "Choice",
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_debaser",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -80,8 +178,19 @@
           "name": "Debasers",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_debaser",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -91,12 +200,58 @@
           "units": "6 Noise Marines, one with a Chaos Lord or Sorcerer Lord character",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            15,
-            12,
-            13,
-            16,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemonic_pact",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_debaser",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_chaos_rhinos",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_champion_of_slaanesh",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         }
       ]

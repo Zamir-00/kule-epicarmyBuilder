@@ -24,17 +24,41 @@
             16,
             17,
             18,
-            26,
-            33,
             20,
             21,
             22,
-            23,
-            27,
             31,
             32,
             11,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_twin_laser_canon_or_razorback_twin_heavy_bolter",
+              "label": "Transport",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_2x_land_raider",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {
@@ -65,15 +89,39 @@
             16,
             17,
             18,
-            26,
-            33,
             20,
             21,
             22,
-            23,
-            27,
             11,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_twin_laser_canon_or_razorback_twin_heavy_bolter",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_2x_land_raider",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {
@@ -121,11 +169,33 @@
             16,
             17,
             18,
-            26,
-            33,
-            41,
             11,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_twin_laser_canon_or_razorback_twin_heavy_bolter",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_snipers",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            }
           ]
         },
         {
@@ -143,9 +213,22 @@
             20,
             21,
             31,
-            32,
-            23,
-            27
+            32
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_2x_land_raider",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {

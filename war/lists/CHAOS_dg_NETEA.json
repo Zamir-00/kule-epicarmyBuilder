@@ -22,23 +22,7 @@
           "pts": 300,
           "cost_pts": 300,
           "upgrades": [
-            14,
-            17,
-            16,
-            32,
-            41,
-            46,
-            48,
-            43,
-            44,
-            45,
-            52,
-            53,
-            54,
-            51,
-            49,
-            56,
-            42
+            14
           ],
           "loadout_slots": [
             {
@@ -48,6 +32,131 @@
               "variants": [
                 {
                   "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_tower_uses_a_support_formation_slot",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_beasts_chaos_spawn_or_beasts_beasts_of_nurgle",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_rhino",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_contagion_tower",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_blightbringer_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_nurgle_s_rot_no_ld",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nurgling_infestation_3_nurgling_swarms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_vindicator",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 56
                 }
               ]
             }
@@ -60,12 +169,50 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "6 Death Guard Vindicators",
-          "upgrades": [
-            56,
-            41,
-            52,
-            53,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nurgling_infestation_3_nurgling_swarms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_vindicator",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -113,18 +260,7 @@
           "cost_pts": 325,
           "units": "4 Blightlord Terminators",
           "upgrades": [
-            14,
-            17,
-            16,
-            33,
-            32,
-            41,
-            44,
-            45,
-            52,
-            53,
-            54,
-            51
+            14
           ],
           "loadout_slots": [
             {
@@ -134,6 +270,88 @@
               "variants": [
                 {
                   "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_blightbringer_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_nurgle_s_rot_no_ld",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_teleportarium",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nurgling_infestation_3_nurgling_swarms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
                 }
               ]
             }
@@ -150,14 +368,64 @@
           "name": "Armoured Company",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            55,
-            57,
-            56,
-            41,
-            52,
-            53,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nurgling_infestation_3_nurgling_swarms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_vindicator",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_predator_or_57",
+              "label": "Choice",
+              "min": 4,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -167,13 +435,40 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "4 Contagion Towers",
-          "upgrades": [
-            42,
-            44,
-            45,
-            52,
-            53,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_plague_tower_uses_a_support_formation_slot",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -183,19 +478,7 @@
           "units": "4 Plague Marine Chosen",
           "pts": 175,
           "cost_pts": 175,
-          "upgrades": [
-            17,
-            16,
-            32,
-            46,
-            48,
-            44,
-            45,
-            52,
-            53,
-            54,
-            49
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_zzzzzz_removed_zzzzzzzz_nurgle_s_rot",
@@ -204,6 +487,81 @@
               "variants": [
                 {
                   "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_beasts_chaos_spawn_or_beasts_beasts_of_nurgle",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_rhino",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_blightbringer_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_nurgle_s_rot_no_ld",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
                 }
               ]
             }
@@ -215,14 +573,51 @@
           "name": "Plague Towers*",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            28,
-            43,
-            44,
-            45,
-            52,
-            53,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_contagion_tower",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_tower",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         },
         {
@@ -240,14 +635,61 @@
           "name": "Plaguereaper Company",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            47,
-            41,
-            43,
-            44,
-            45,
-            52,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_contagion_tower",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nurgling_infestation_3_nurgling_swarms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_reaper",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            }
           ]
         },
         {
@@ -256,15 +698,7 @@
           "name": "Walker Horde",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            44,
-            45,
-            52,
-            53,
-            54,
-            46,
-            48
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_defiler_or_desecrator_or_plague_hulk",
@@ -283,6 +717,41 @@
                   "upgrade_id": 24
                 }
               ]
+            },
+            {
+              "string_id": "loadout_walkers_death_guard_dreadnought_fist_ac_or_walkers_death_guard_dreadnoug",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_beasts_chaos_spawn_or_beasts_beasts_of_nurgle",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
             }
           ]
         }
@@ -297,9 +766,29 @@
           "name": "<s>Plague Reapers</s>",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            47,
-            41
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nurgling_infestation_3_nurgling_swarms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_reaper",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            }
           ]
         },
         {

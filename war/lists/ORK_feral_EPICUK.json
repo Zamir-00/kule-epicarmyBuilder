@@ -16,16 +16,72 @@
           "pts": -20,
           "cost_pts": -20,
           "upgrades": [
-            13,
-            11,
-            39,
             51,
-            69,
             53,
             57,
-            58,
-            61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_squig_katapult",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {
@@ -35,16 +91,73 @@
           "pts": -90,
           "cost_pts": -90,
           "upgrades": [
-            13,
-            11,
-            39,
             51,
-            69,
             53,
             57,
-            58,
-            61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_squig_katapult",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {
@@ -54,16 +167,73 @@
           "pts": -160,
           "cost_pts": -160,
           "upgrades": [
-            13,
-            11,
-            39,
             51,
-            69,
             53,
             57,
-            58,
-            61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 6,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 18,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_squig_katapult",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {
@@ -73,14 +243,61 @@
           "pts": -20,
           "cost_pts": -20,
           "upgrades": [
-            13,
-            51,
-            69,
             53,
             57,
-            58,
-            61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_squig_katapult",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_two_wildboyz_units",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         },
         {
@@ -90,14 +307,62 @@
           "pts": -65,
           "cost_pts": -65,
           "upgrades": [
-            13,
-            51,
-            69,
             53,
             57,
-            58,
-            61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_squig_katapult",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_two_wildboyz_units",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         },
         {
@@ -107,14 +372,62 @@
           "pts": -110,
           "cost_pts": -110,
           "upgrades": [
-            13,
-            51,
-            69,
             53,
             57,
-            58,
-            61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 6,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_squig_katapult",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_two_wildboyz_units",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         },
         {
@@ -124,9 +437,29 @@
           "pts": -25,
           "cost_pts": -25,
           "upgrades": [
-            53,
-            58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boarboyz",
+              "label": "Choice",
+              "min": 5,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -136,9 +469,29 @@
           "pts": -75,
           "cost_pts": -75,
           "upgrades": [
-            53,
-            58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boarboyz",
+              "label": "Choice",
+              "min": 10,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -148,9 +501,29 @@
           "pts": -125,
           "cost_pts": -125,
           "upgrades": [
-            53,
-            58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boarboyz",
+              "label": "Choice",
+              "min": 15,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -160,8 +533,18 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "6 Wildboyz",
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -170,9 +553,29 @@
           "name": "Madboyz Horde",
           "pts": 10,
           "cost_pts": 10,
-          "upgrades": [
-            35,
-            58
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_madboyz",
+              "label": "Choice",
+              "min": 6,
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {
@@ -183,10 +586,39 @@
           "cost_pts": 25,
           "units": "Junka Trukks",
           "upgrades": [
-            11,
-            54,
-            58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_54",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -197,10 +629,39 @@
           "cost_pts": 0,
           "units": "Junka Trukks",
           "upgrades": [
-            11,
-            54,
-            58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wyrdboy",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_54",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -209,8 +670,19 @@
           "name": "Steam Gargant",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            37
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_steam_gargant",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         }
       ]

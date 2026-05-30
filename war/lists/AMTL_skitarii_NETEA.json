@@ -18,23 +18,73 @@
           "name": "Skitarii Demi-Century",
           "pts": 225,
           "cost_pts": 225,
-          "upgrades": [
-            103,
-            104,
-            113,
-            105,
-            225,
-            226,
-            227,
-            228,
-            229,
-            231,
-            232,
-            233,
-            234,
-            235,
-            237,
-            238
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hydra_or_10_chimedons_or_magos_character_or_minorus_with_vulcan_megabolt",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                },
+                {
+                  "upgrade_id": 237
+                },
+                {
+                  "upgrade_id": 238
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_linked_neural_network_self_reliant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 113
+                }
+              ]
+            }
           ]
         },
         {
@@ -44,25 +94,7 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "5 Sagitarii units",
-          "upgrades": [
-            103,
-            104,
-            113,
-            105,
-            214,
-            225,
-            226,
-            227,
-            228,
-            229,
-            231,
-            232,
-            233,
-            234,
-            235,
-            237,
-            238
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_5_gun_servitor_unit_or_3_rapier_laser_destroyer_unit",
@@ -74,6 +106,73 @@
                 },
                 {
                   "upgrade_id": 102
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hydra_or_10_chimedons_or_magos_character_or_minorus_with_vulcan_megabolt",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                },
+                {
+                  "upgrade_id": 237
+                },
+                {
+                  "upgrade_id": 238
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_linked_neural_network_self_reliant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 113
                 }
               ]
             }
@@ -90,19 +189,52 @@
           "name": "Ordinatus Minorus",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            225,
-            226,
-            227,
-            228,
-            229,
-            231,
-            232,
-            233,
-            234,
-            235,
-            237,
-            238
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_minorus_with_laser_burner_or_minorus_with_corvus_assault_pod_or_minorus_",
+              "label": "Minorus loadout",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                },
+                {
+                  "upgrade_id": 237
+                },
+                {
+                  "upgrade_id": 238
+                }
+              ]
+            }
           ]
         },
         {
@@ -143,20 +275,73 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "5 Praetorian Combat Servitor units",
-          "upgrades": [
-            113,
-            225,
-            226,
-            227,
-            228,
-            229,
-            231,
-            232,
-            233,
-            234,
-            235,
-            237,
-            238
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hydra_or_10_chimedons_or_magos_character_or_minorus_with_vulcan_megabolt",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 214
+                },
+                {
+                  "upgrade_id": 225
+                },
+                {
+                  "upgrade_id": 226
+                },
+                {
+                  "upgrade_id": 227
+                },
+                {
+                  "upgrade_id": 228
+                },
+                {
+                  "upgrade_id": 229
+                },
+                {
+                  "upgrade_id": 231
+                },
+                {
+                  "upgrade_id": 232
+                },
+                {
+                  "upgrade_id": 233
+                },
+                {
+                  "upgrade_id": 234
+                },
+                {
+                  "upgrade_id": 235
+                },
+                {
+                  "upgrade_id": 237
+                },
+                {
+                  "upgrade_id": 238
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_linked_neural_network_self_reliant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 113
+                }
+              ]
+            }
           ]
         },
         {

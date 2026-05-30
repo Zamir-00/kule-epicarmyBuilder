@@ -16,20 +16,103 @@
           "pts": 500,
           "cost_pts": 500,
           "units": "Commandant Supr&egrave;me, 12 Infanterie, 7 Chim&egrave;re",
-          "upgrades": [
-            50,
-            51,
-            60,
-            61,
-            52,
-            53,
-            40,
-            41,
-            54,
-            55,
-            56,
-            57,
-            44
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_unit_eacute_s_d_appui_feu_or_4_unit_eacute_s_d_appui_feu_et_2_chim_egr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_unit_eacute_s_d_infanterie_or_6_unit_eacute_s_d_infanterie_et_3_chim_e",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_leman_russ_or_3_leman_russ_demolisseur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_escadron_de_hellhound_3_hellhound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_batterie_de_griffon_3_griffon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_de_snipers_or_2_unit_eacute_s_de_snipers_et_1_chim_egrav",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_d_ogryns_or_2_unit_eacute_s_d_ogryns_et_2_chim_egrave_re",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_1_hydre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -39,20 +122,103 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "Commandant, 12 Infanterie, 7 Chim&egrave;re",
-          "upgrades": [
-            50,
-            51,
-            60,
-            61,
-            52,
-            53,
-            40,
-            41,
-            54,
-            55,
-            56,
-            57,
-            44
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_unit_eacute_s_d_appui_feu_or_4_unit_eacute_s_d_appui_feu_et_2_chim_egr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_unit_eacute_s_d_infanterie_or_6_unit_eacute_s_d_infanterie_et_3_chim_e",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_leman_russ_or_3_leman_russ_demolisseur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_escadron_de_hellhound_3_hellhound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_batterie_de_griffon_3_griffon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_de_snipers_or_2_unit_eacute_s_de_snipers_et_1_chim_egrav",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_d_ogryns_or_2_unit_eacute_s_d_ogryns_et_2_chim_egrave_re",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_1_hydre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -62,20 +228,103 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "Commandant, 12 Infanterie",
-          "upgrades": [
-            50,
-            51,
-            60,
-            61,
-            52,
-            53,
-            40,
-            41,
-            54,
-            55,
-            56,
-            57,
-            44
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_unit_eacute_s_d_appui_feu_or_4_unit_eacute_s_d_appui_feu_et_2_chim_egr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_unit_eacute_s_d_infanterie_or_6_unit_eacute_s_d_infanterie_et_3_chim_e",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_leman_russ_or_3_leman_russ_demolisseur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_escadron_de_hellhound_3_hellhound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_batterie_de_griffon_3_griffon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_de_snipers_or_2_unit_eacute_s_de_snipers_et_1_chim_egrav",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_d_ogryns_or_2_unit_eacute_s_d_ogryns_et_2_chim_egrave_re",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_1_hydre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -84,20 +333,103 @@
           "name": "Compagnie Blind&eacute;e",
           "pts": 650,
           "cost_pts": 650,
-          "upgrades": [
-            50,
-            51,
-            60,
-            61,
-            52,
-            53,
-            40,
-            41,
-            54,
-            55,
-            56,
-            57,
-            44
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_unit_eacute_s_d_appui_feu_or_4_unit_eacute_s_d_appui_feu_et_2_chim_egr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_unit_eacute_s_d_infanterie_or_6_unit_eacute_s_d_infanterie_et_3_chim_e",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_leman_russ_or_3_leman_russ_demolisseur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_escadron_de_hellhound_3_hellhound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_batterie_de_griffon_3_griffon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_de_snipers_or_2_unit_eacute_s_de_snipers_et_1_chim_egrav",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_d_ogryns_or_2_unit_eacute_s_d_ogryns_et_2_chim_egrave_re",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_1_hydre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -106,21 +438,7 @@
           "name": "Compagnie de Blind&eacute;e Super Lourds",
           "pts": 500,
           "cost_pts": 500,
-          "upgrades": [
-            50,
-            51,
-            60,
-            61,
-            52,
-            53,
-            40,
-            41,
-            54,
-            55,
-            56,
-            57,
-            44
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_baneblade_or_shadowsword",
@@ -136,6 +454,101 @@
                   "upgrade_id": 17
                 }
               ]
+            },
+            {
+              "string_id": "loadout_4_unit_eacute_s_d_appui_feu_or_4_unit_eacute_s_d_appui_feu_et_2_chim_egr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_unit_eacute_s_d_infanterie_or_6_unit_eacute_s_d_infanterie_et_3_chim_e",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_leman_russ_or_3_leman_russ_demolisseur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_escadron_de_hellhound_3_hellhound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_batterie_de_griffon_3_griffon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_de_snipers_or_2_unit_eacute_s_de_snipers_et_1_chim_egrav",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_d_ogryns_or_2_unit_eacute_s_d_ogryns_et_2_chim_egrave_re",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_1_hydre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
             }
           ]
         },
@@ -145,21 +558,7 @@
           "name": "Compagnie d'Artillerie",
           "pts": 650,
           "cost_pts": 650,
-          "upgrades": [
-            50,
-            51,
-            60,
-            61,
-            52,
-            53,
-            40,
-            41,
-            54,
-            55,
-            56,
-            57,
-            44
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_basilisk_or_manticore",
@@ -173,6 +572,101 @@
                 },
                 {
                   "upgrade_id": 23
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_unit_eacute_s_d_appui_feu_or_4_unit_eacute_s_d_appui_feu_et_2_chim_egr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_unit_eacute_s_d_infanterie_or_6_unit_eacute_s_d_infanterie_et_3_chim_e",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_leman_russ_or_3_leman_russ_demolisseur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_escadron_de_hellhound_3_hellhound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_batterie_de_griffon_3_griffon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_de_snipers_or_2_unit_eacute_s_de_snipers_et_1_chim_egrav",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_unit_eacute_s_d_ogryns_or_2_unit_eacute_s_d_ogryns_et_2_chim_egrave_re",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_1_hydre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
                 }
               ]
             }
@@ -248,8 +742,18 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "6 Cavalier ou Motos Imp&eacute;riales",
-          "upgrades": [
-            47
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_47",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            }
           ]
         },
         {
@@ -259,9 +763,28 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "8 Troupes de Choc",
-          "upgrades": [
-            48,
-            47
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_47",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {

@@ -22,8 +22,18 @@
           "name": "Supreme Commander",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_c_tan",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         }
       ]
@@ -37,13 +47,50 @@
           "name": "Infantry Phalanx",
           "pts": 225,
           "cost_pts": 225,
-          "upgrades": [
-            12,
-            13,
-            14,
-            15
-          ],
-          "units": "6 Necron Warriors and 1 Necron Lord"
+          "upgrades": [],
+          "units": "6 Necron Warriors and 1 Necron Lord",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_x_immortal_units",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_x_pariah",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tomb_spiders",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wraiths",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -56,10 +103,7 @@
           "name": "Destroyer Maniple",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            16,
-            15
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_destroyer_or_heavy_destroyer",
@@ -75,6 +119,26 @@
                   "upgrade_id": 18
                 }
               ]
+            },
+            {
+              "string_id": "loadout_wraiths",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_necron_lord",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
             }
           ]
         },
@@ -85,12 +149,23 @@
           "pts": 200,
           "cost_pts": 200,
           "upgrades": [
-            16,
             13,
             14,
             15
           ],
-          "units": "6 Flayed One units"
+          "units": "6 Flayed One units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_necron_lord",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "monolith_maniple",

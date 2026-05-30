@@ -16,8 +16,18 @@
           "pts": 500,
           "cost_pts": 500,
           "units": "1 Dominatrix",
-          "upgrades": [
-            10
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hierodules",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         },
         {
@@ -27,13 +37,48 @@
           "pts": 450,
           "cost_pts": 450,
           "units": "1 Hydraphant",
-          "upgrades": [
-            10,
-            14,
-            50,
-            51,
-            52,
-            53
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hierodules",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_neuro_linked",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razor_claw_and_adrenal_sac_or_large_bore_bio_cannon_arm_or_pyro_acid_spr",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         }
       ]
@@ -48,14 +93,58 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "1 Hierophant",
-          "upgrades": [
-            10,
-            11,
-            14,
-            50,
-            51,
-            52,
-            53
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hierodules",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hierophants",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_neuro_linked",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razor_claw_and_adrenal_sac_or_large_bore_bio_cannon_arm_or_pyro_acid_spr",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -65,8 +154,18 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "3 Hierodules",
-          "upgrades": [
-            10
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hierodules",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         },
         {
@@ -76,8 +175,18 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "1 Harridan",
-          "upgrades": [
-            12
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_haridan",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -87,8 +196,18 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "2 Trygons",
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_trygon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -98,8 +217,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "1 Hive Nest and 1 Hierodule",
-          "upgrades": [
-            10
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hierodules",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         }
       ]
