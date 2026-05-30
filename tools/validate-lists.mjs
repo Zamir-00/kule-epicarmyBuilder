@@ -81,6 +81,70 @@ export async function validateListFile(filePath) {
     }
   }
 
+  // Semantic checks for loadout_slots (cross-references + cross-system rules).
+  for (const section of json.sections ?? []) {
+    for (const f of section.formations ?? []) {
+      const lslots = f.loadout_slots;
+      if (!Array.isArray(lslots) || lslots.length === 0) continue;
+
+      // Build sets of existing swap_slot identifiers on this formation for cross-system checks.
+      const swapSlotStringIds = new Set((f.swap_slots ?? []).map((s) => s.string_id).filter(Boolean));
+      const swapSlotVariantUpgradeIds = new Set();
+      for (const ss of f.swap_slots ?? []) {
+        for (const v of ss.variants ?? []) swapSlotVariantUpgradeIds.add(v.upgrade_id);
+      }
+
+      const loadoutSlotIds = new Set();
+      for (const slot of lslots) {
+        // min/max relationship
+        if (typeof slot.min === 'number' && typeof slot.max === 'number' && slot.min > slot.max) {
+          errors.push(`formation '${f.string_id ?? f.name}' loadout_slot '${slot.string_id}': min (${slot.min}) is greater than max (${slot.max})`);
+        }
+
+        // Duplicate string_id within loadout_slots OR across swap_slots
+        if (slot.string_id) {
+          if (loadoutSlotIds.has(slot.string_id)) {
+            errors.push(`formation '${f.string_id ?? f.name}' has duplicate loadout_slot string_id '${slot.string_id}'`);
+          }
+          if (swapSlotStringIds.has(slot.string_id)) {
+            errors.push(`formation '${f.string_id ?? f.name}': string_id '${slot.string_id}' appears in both swap_slots[] and loadout_slots[] (must be unique within a formation)`);
+          }
+          loadoutSlotIds.add(slot.string_id);
+        }
+
+        const variants = slot.variants ?? [];
+
+        // Default count: at most 1
+        const defaults = variants.filter((v) => v.is_default === true);
+        if (defaults.length > 1) {
+          errors.push(`formation '${f.string_id ?? f.name}' loadout_slot '${slot.string_id}': expected at most one variant with is_default:true, found ${defaults.length}`);
+        }
+
+        // Each variant must reference a real upgrade
+        for (const v of variants) {
+          if (!upgradeIds.has(v.upgrade_id)) {
+            errors.push(`formation '${f.string_id ?? f.name}' loadout_slot '${slot.string_id}': variant references upgrade_id '${v.upgrade_id}' not found in upgrades[]`);
+          }
+        }
+
+        // No variant upgrade may also appear in the formation's plain upgrades[]
+        const formationUpgrades = new Set(f.upgrades ?? []);
+        for (const v of variants) {
+          if (formationUpgrades.has(v.upgrade_id)) {
+            errors.push(`formation '${f.string_id ?? f.name}': upgrade '${v.upgrade_id}' appears in both loadout_slot '${slot.string_id}' and the formation's upgrades[] (would double-render)`);
+          }
+        }
+
+        // Cross-system: no variant upgrade may also appear in a sibling swap_slot's variants
+        for (const v of variants) {
+          if (swapSlotVariantUpgradeIds.has(v.upgrade_id)) {
+            errors.push(`formation '${f.string_id ?? f.name}': upgrade '${v.upgrade_id}' appears in both loadout_slot '${slot.string_id}' and a swap_slot variant (cross-system double-render)`);
+          }
+        }
+      }
+    }
+  }
+
   return errors.length === 0 ? { ok: true } : { ok: false, errors };
 }
 

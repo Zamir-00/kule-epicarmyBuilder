@@ -47,6 +47,32 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_macro_gatling_blaster_or_sunfury_plasma_annihilator_or_arioch_titan_powe",
+              "label": "Weapons",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 61,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            }
           ]
         },
         {

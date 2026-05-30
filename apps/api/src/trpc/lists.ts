@@ -17,10 +17,11 @@ const formationBodyShape = z.object({
   formation_string_id: z.string().min(1),
   upgrade_string_ids: z.array(z.string()),
   swap_choices: z.record(z.string(), z.string()).optional(),
+  loadout_choices: z.record(z.string(), z.array(z.string())).optional(),  // NEW
 });
 
 const bodyShape = z.object({
-  body_version: z.union([z.literal(1), z.literal(2)]).optional(),
+  body_version: z.union([z.literal(1), z.literal(2), z.literal(3)]).optional(),  // bumped
   formations: z.array(formationBodyShape).optional(),
 }).passthrough(); // tolerant of extra fields (legacy bodies may have other keys)
 
@@ -98,6 +99,54 @@ export const listsRouter = router({
               .filter((s): s is string => !!s);
             if (!variantUpgradeStringIds.includes(variantValue)) {
               throw new TRPCError({ code: 'BAD_REQUEST', message: `invalid variant '${variantValue}' for slot '${slotKey}' on formation '${f.formation_string_id}'` });
+            }
+          }
+        }
+      }
+
+      // Validate loadout_choices against the referenced list catalog
+      if (bodyFormations.some((f) => f.loadout_choices && Object.keys(f.loadout_choices).length > 0)) {
+        const cat = await getListCatalog(input.list_id);
+        if (!cat) {
+          throw new TRPCError({ code: 'BAD_REQUEST', message: `list_id catalog not found: ${input.list_id}` });
+        }
+        for (const f of bodyFormations) {
+          if (!f.loadout_choices) continue;
+          const formationDef = cat.formationsByStringId.get(f.formation_string_id);
+          if (!formationDef) {
+            throw new TRPCError({ code: 'BAD_REQUEST', message: `unknown formation_string_id '${f.formation_string_id}' in instance '${f.instance_id}'` });
+          }
+          const loadoutSlotsByStringId = new Map(
+            (formationDef.loadout_slots ?? []).map((s) => [s.string_id, s] as const),
+          );
+          const swapKeys = new Set(Object.keys(f.swap_choices ?? {}));
+          for (const [slotKey, positions] of Object.entries(f.loadout_choices)) {
+            // Cross-system: no slot key may appear in both maps
+            if (swapKeys.has(slotKey)) {
+              throw new TRPCError({ code: 'BAD_REQUEST', message: `slot key '${slotKey}' on formation '${f.formation_string_id}' appears in both swap_choices and loadout_choices (collision)` });
+            }
+            const slot = loadoutSlotsByStringId.get(slotKey);
+            if (!slot) {
+              throw new TRPCError({ code: 'BAD_REQUEST', message: `unknown loadout slot '${slotKey}' on formation '${f.formation_string_id}'` });
+            }
+            // Each variant value must resolve to one of slot.variants[].upgrade.string_id
+            const variantStringIds = slot.variants
+              .map((v) => cat.upgradesById.get(v.upgrade_id)?.string_id)
+              .filter((s): s is string => !!s);
+            for (let i = 0; i < positions.length; i++) {
+              const v = positions[i]!;
+              if (!variantStringIds.includes(v)) {
+                throw new TRPCError({ code: 'BAD_REQUEST', message: `invalid variant '${v}' at position ${i} for slot '${slotKey}' on formation '${f.formation_string_id}'` });
+              }
+            }
+            // Count bounds
+            const minBound = slot.min ?? 0;
+            const maxBound = slot.max ?? Infinity;
+            if (positions.length < minBound) {
+              throw new TRPCError({ code: 'BAD_REQUEST', message: `slot '${slotKey}' on formation '${f.formation_string_id}' requires at least ${minBound} selections (got ${positions.length})` });
+            }
+            if (positions.length > maxBound) {
+              throw new TRPCError({ code: 'BAD_REQUEST', message: `slot '${slotKey}' on formation '${f.formation_string_id}' allows at most ${maxBound} selections (got ${positions.length})` });
             }
           }
         }

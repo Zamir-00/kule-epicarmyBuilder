@@ -1,0 +1,9 @@
+{
+  "id": "TEST_loadout_overlap_swap", "list_id": "TEST_loadout_overlap_swap",
+  "sections": [{"name":"CORE","formations":[{"string_id":"f","id":1,"name":"F","pts":100,"cost_pts":100,"upgrades":[],
+    "swap_slots":[{"string_id":"sw","label":"Swap","variants":[
+      {"upgrade_id":100,"is_default":true},{"upgrade_id":101}]}],
+    "loadout_slots":[{"string_id":"ld","label":"Loadout","min":2,"max":2,"variants":[
+      {"upgrade_id":100,"is_default":true},{"upgrade_id":102}]}]}]}],
+  "upgrades": [{"id":100,"name":"A","pts":0},{"id":101,"name":"B","pts":0},{"id":102,"name":"C","pts":0}]
+}
