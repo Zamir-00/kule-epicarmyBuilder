@@ -19,12 +19,37 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "6 Assault units",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -34,13 +59,47 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "4 Baal Predators",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            15,
-            19
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -49,12 +108,41 @@
           "name": "Bike",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            16
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bikes_or_attack_bikes",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -64,13 +152,47 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "4 Land Raiders",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -79,12 +201,7 @@
           "name": "Land Speeder",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11,
-            12,
-            13,
-            14
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
@@ -101,6 +218,25 @@
                 },
                 {
                   "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
                 }
               ]
             }
@@ -120,14 +256,7 @@
           "name": "Predators",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19,
-            15
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_2_x_predator_destructors_or_2_x_predator_annihilators",
@@ -143,6 +272,45 @@
                   "upgrade_id": 27
                 }
               ]
+            },
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
             }
           ]
         },
@@ -154,13 +322,41 @@
           "cost_pts": 150,
           "units": "4 Scouts plus Transport",
           "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            21,
-            22,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_hb_or_razorback_las",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -181,17 +377,73 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "6 Tactical units plus Transport",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            18,
-            34,
-            19,
-            15,
-            21,
-            22
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_cc_or_dreadnought_ac",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_hb_or_razorback_las",
+              "label": "Transport",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -201,15 +453,60 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "4 Terminator units",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            18,
-            34,
-            20,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_cc_or_dreadnought_ac",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -227,12 +524,37 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "4 Vindicators",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -242,12 +564,37 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "4 Whirlwinds",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         }
       ]

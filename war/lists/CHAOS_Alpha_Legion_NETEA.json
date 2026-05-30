@@ -17,12 +17,51 @@
           "units": "11 Alpha Legion Cultists",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            39,
-            40,
-            44,
-            41,
-            37
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_1_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_rapiers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_chaos_hounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_light_transports_or_9_light_transports",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -31,12 +70,7 @@
           "name": "Alpha Legion Marines",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            30,
-            34,
-            35,
-            31
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_alpha_legion_lord_or_alpha_legion_sorcerer",
@@ -48,6 +82,41 @@
                 },
                 {
                   "upgrade_id": 20
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_land_raiders_or_3_land_raiders_and_1_land_raider_proteus",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_alpha_legion_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
                 }
               ]
             }
@@ -65,9 +134,7 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "4 Headhunter units w. Transport",
-          "upgrades": [
-            31
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_alpha_legion_lord_or_alpha_legion_sorcerer",
@@ -79,6 +146,18 @@
                 },
                 {
                   "upgrade_id": 20
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_alpha_legion_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
                 }
               ]
             }
@@ -115,9 +194,7 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "4 Lernaean Terminators",
-          "upgrades": [
-            38
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_alpha_legion_lord_or_alpha_legion_sorcerer",
@@ -143,6 +220,26 @@
                   "upgrade_id": 30
                 }
               ]
+            },
+            {
+              "string_id": "loadout_2_vindicators_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_spartan_assault_tanks",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
             }
           ]
         },
@@ -153,8 +250,18 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "4 Alpha Legion Predators",
-          "upgrades": [
-            30
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         }
       ]
@@ -169,8 +276,18 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "6 Rough Riders, 1 Daemonic Icon",
-          "upgrades": [
-            41
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_chaos_hounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            }
           ]
         },
         {
@@ -180,12 +297,30 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "6 Mutants, 2 Chaos Spawn, 1 Daemonic Icon",
-          "upgrades": [
-            41
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_6_light_transports",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_chaos_hounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_light_transports_2",
               "label": "Choice",
               "max": 1,
               "variants": [
@@ -203,8 +338,18 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "3 Macharius",
-          "upgrades": [
-            41
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_chaos_hounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            }
           ]
         },
         {
@@ -214,13 +359,40 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "4 Thudd Guns, 4 Light Transporters",
-          "upgrades": [
-            41,
-            37
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_6_light_transports",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_chaos_hounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_light_transports_2",
               "label": "Choice",
               "max": 1,
               "variants": [
@@ -238,8 +410,18 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "3 Hydras",
-          "upgrades": [
-            41
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_chaos_hounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            }
           ]
         }
       ]
@@ -289,8 +471,19 @@
           "name": "Super Heavy Tank Company (Glaive)",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            50
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_glaive",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            }
           ]
         },
         {
@@ -299,8 +492,19 @@
           "name": "Super Heavy Tank Company (Fellblade)",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            51
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fellblade",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         },
         {
@@ -309,8 +513,19 @@
           "name": "Super Heavy Tank Company (Falchion)",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            52
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_falchion",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
           ]
         }
       ]

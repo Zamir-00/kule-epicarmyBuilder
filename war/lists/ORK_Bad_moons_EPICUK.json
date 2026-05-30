@@ -21,10 +21,7 @@
           "cost_pts": -25,
           "upgrades": [
             81,
-            50,
             82,
-            10,
-            11,
             12,
             13,
             14,
@@ -33,10 +30,7 @@
             61,
             71,
             72,
-            43,
-            67,
-            68,
-            69
+            43
           ],
           "loadout_slots": [
             {
@@ -47,6 +41,53 @@
                 {
                   "upgrade_id": 20,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_d3_1_powerfields_or_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_meganobz",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flash_gits",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
                 }
               ]
             }
@@ -60,10 +101,7 @@
           "cost_pts": -100,
           "upgrades": [
             81,
-            50,
             82,
-            10,
-            11,
             12,
             13,
             14,
@@ -72,10 +110,7 @@
             61,
             71,
             72,
-            43,
-            67,
-            68,
-            69
+            43
           ],
           "loadout_slots": [
             {
@@ -86,6 +121,53 @@
                 {
                   "upgrade_id": 20,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_d3_1_powerfields_or_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_meganobz",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flash_gits",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11
                 }
               ]
             }
@@ -99,10 +181,7 @@
           "cost_pts": -175,
           "upgrades": [
             81,
-            50,
             82,
-            10,
-            11,
             12,
             13,
             14,
@@ -111,10 +190,7 @@
             61,
             71,
             72,
-            43,
-            67,
-            68,
-            69
+            43
           ],
           "loadout_slots": [
             {
@@ -125,6 +201,53 @@
                 {
                   "upgrade_id": 20,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_d3_1_powerfields_or_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_meganobz",
+              "label": "Choice",
+              "min": 6,
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 18,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flash_gits",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11
                 }
               ]
             }
@@ -138,9 +261,7 @@
           "cost_pts": 60,
           "upgrades": [
             10,
-            11,
-            12,
-            67
+            12
           ],
           "loadout_slots": [
             {
@@ -151,6 +272,26 @@
                 {
                   "upgrade_id": 20,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_d3_1_powerfields",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 67
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flash_gits",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11
                 }
               ]
             }
@@ -164,9 +305,7 @@
           "cost_pts": 70,
           "upgrades": [
             10,
-            11,
-            12,
-            67
+            12
           ],
           "loadout_slots": [
             {
@@ -177,6 +316,26 @@
                 {
                   "upgrade_id": 20,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_d3_1_powerfields",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 67
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flash_gits",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
                 }
               ]
             }
@@ -190,9 +349,7 @@
           "cost_pts": 25,
           "upgrades": [
             61,
-            81,
-            13,
-            14
+            81
           ],
           "loadout_slots": [
             {
@@ -207,6 +364,20 @@
                   "upgrade_id": 69
                 }
               ]
+            },
+            {
+              "string_id": "loadout_gorkanaut_or_morkanaut",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
             }
           ]
         },
@@ -218,9 +389,23 @@
           "cost_pts": 0,
           "upgrades": [
             61,
-            81,
-            13,
-            14
+            81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gorkanaut_or_morkanaut",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -231,9 +416,23 @@
           "cost_pts": -25,
           "upgrades": [
             61,
-            81,
-            13,
-            14
+            81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gorkanaut_or_morkanaut",
+              "label": "Choice",
+              "min": 6,
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -244,9 +443,7 @@
           "cost_pts": 0,
           "upgrades": [
             61,
-            81,
-            15,
-            16
+            81
           ],
           "loadout_slots": [
             {
@@ -261,6 +458,19 @@
                   "upgrade_id": 69
                 }
               ]
+            },
+            {
+              "string_id": "loadout_kill_blasta_or_kill_bursta",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
             }
           ]
         },
@@ -272,9 +482,22 @@
           "cost_pts": -50,
           "upgrades": [
             61,
-            81,
-            15,
-            16
+            81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_kill_blasta_or_kill_bursta",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -283,12 +506,7 @@
           "name": "Grot Horde",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            57,
-            43,
-            68,
-            69
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_grotz",
@@ -300,6 +518,32 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gunz_or_killa_kan",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
             }
           ]
         },
@@ -309,12 +553,7 @@
           "name": "Grot Horde (Big)",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            57,
-            43,
-            68,
-            69
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_grotz",
@@ -326,6 +565,32 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gunz_or_killa_kan",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
             }
           ]
         },
@@ -335,12 +600,7 @@
           "name": "Grot Horde ('Uge)",
           "pts": -25,
           "cost_pts": -25,
-          "upgrades": [
-            57,
-            43,
-            68,
-            69
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_grotz",
@@ -350,6 +610,32 @@
                 {
                   "upgrade_id": 20,
                   "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gunz_or_killa_kan",
+              "label": "Choice",
+              "min": 18,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 57
                 }
               ]
             }
@@ -363,13 +649,37 @@
           "cost_pts": 25,
           "upgrades": [
             81,
-            68,
-            69,
-            71,
-            72,
             57,
             60,
             61
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stompa_or_mega_dread",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
           ]
         },
         {
@@ -380,13 +690,37 @@
           "cost_pts": 0,
           "upgrades": [
             81,
-            68,
-            69,
-            71,
-            72,
             57,
             60,
             61
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stompa_or_mega_dread",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
           ]
         },
         {
@@ -431,8 +765,19 @@
           "name": "Fighta Skwadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            49
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fighta_bomba",
+              "label": "Choice",
+              "min": 3,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            }
           ]
         },
         {

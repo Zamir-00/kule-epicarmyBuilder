@@ -38,9 +38,7 @@
           "name": "Shining Spears",
           "pts": 20,
           "cost_pts": 20,
-          "upgrades": [
-            1
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_shining_spears",
@@ -53,6 +51,16 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
             }
           ]
         },
@@ -62,10 +70,7 @@
           "name": "Wild Rider Clan (6)",
           "pts": 20,
           "cost_pts": 20,
-          "upgrades": [
-            2,
-            3
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
@@ -81,6 +86,26 @@
                   "upgrade_id": 18
                 }
               ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wild_rider_chieftain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 3
+                }
+              ]
             }
           ]
         },
@@ -90,10 +115,7 @@
           "name": "Wild Rider Clan (9)",
           "pts": 5,
           "cost_pts": 5,
-          "upgrades": [
-            2,
-            3
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
@@ -109,6 +131,26 @@
                   "upgrade_id": 18
                 }
               ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wild_rider_chieftain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 3
+                }
+              ]
             }
           ]
         },
@@ -118,10 +160,7 @@
           "name": "Wild Rider Clan (12)",
           "pts": -10,
           "cost_pts": -10,
-          "upgrades": [
-            2,
-            3
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
@@ -135,6 +174,26 @@
                 },
                 {
                   "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wild_rider_chieftain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 3
                 }
               ]
             }
@@ -153,8 +212,7 @@
           "cost_pts": 15,
           "upgrades": [
             19,
-            23,
-            1
+            23
           ],
           "loadout_slots": [
             {
@@ -186,6 +244,16 @@
                   "upgrade_id": 14
                 }
               ]
+            },
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
             }
           ]
         },
@@ -195,10 +263,25 @@
           "name": "Engine of Vaul",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            24,
-            25,
-            26
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cobra_or_scorpion_or_storm_serpent",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {
@@ -207,9 +290,7 @@
           "name": "Guardian",
           "pts": 10,
           "cost_pts": 10,
-          "upgrades": [
-            2
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guardians_or_heavy_weapon_platform",
@@ -247,6 +328,16 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                }
+              ]
             }
           ]
         },
@@ -256,9 +347,7 @@
           "name": "Guardian (Wraithguard)",
           "pts": 15,
           "cost_pts": 15,
-          "upgrades": [
-            2
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guardians_or_heavy_weapon_platform",
@@ -308,6 +397,16 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_farseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                }
+              ]
             }
           ]
         },
@@ -317,8 +416,19 @@
           "name": "Hornet",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            17
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hornet",
+              "label": "Choice",
+              "min": 4,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -369,10 +479,35 @@
           "name": "Swords of Vaul",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            19,
-            20,
-            21
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_falcon_or_fire_prism_or_firestorm",
+              "label": "Choice",
+              "min": 5,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_firestorm",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         }
       ]

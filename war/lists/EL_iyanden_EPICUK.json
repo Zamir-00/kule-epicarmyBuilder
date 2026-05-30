@@ -37,9 +37,21 @@
           "pts": 375,
           "cost_pts": 375,
           "units": "6 Wraithguard",
-          "upgrades": [
-            53,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_wraithlords_or_6_wave_serpents",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -49,10 +61,38 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "Farseer, 4 Guardians, 3 Heavy Weapon Platforms",
-          "upgrades": [
-            43,
-            44,
-            53
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_support_weapon_platforms",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_wraithguard",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_wraithlords",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -75,8 +115,19 @@
           "name": "Ranger Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ranger",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         },
         {
@@ -86,8 +137,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6 Warwalkers",
-          "upgrades": [
-            46
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         },
         {
@@ -96,9 +157,7 @@
           "name": "Windrider Troupe",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            46
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_jetbike_or_vyper",
@@ -114,6 +173,16 @@
                   "upgrade_id": 28
                 }
               ]
+            },
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
             }
           ]
         },
@@ -123,9 +192,7 @@
           "name": "Falcon Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            46
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_fire_storm",
@@ -151,6 +218,16 @@
                   "upgrade_id": 31
                 }
               ]
+            },
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
             }
           ]
         },
@@ -161,8 +238,18 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "3 Night Spinners",
-          "upgrades": [
-            46
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         },
         {
@@ -171,12 +258,7 @@
           "name": "Engines of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            46,
-            47,
-            48,
-            49
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_cobra_or_scorpion_or_storm_serpent",
@@ -194,6 +276,34 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_47_or_48_or_49",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            }
           ]
         },
         {
@@ -203,8 +313,18 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "3 Fire Prisms",
-          "upgrades": [
-            46
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_spirit_stones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         },
         {
@@ -213,11 +333,7 @@
           "name": "Aspect Troupe",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": [
-            39,
-            41,
-            42
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_w",
@@ -249,6 +365,29 @@
                 },
                 {
                   "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wave_serpent_or_2_falcon",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
                 }
               ]
             }

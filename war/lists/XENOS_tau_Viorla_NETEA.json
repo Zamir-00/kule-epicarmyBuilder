@@ -17,12 +17,25 @@
           "cost_pts": 225,
           "upgrades": [
             35,
-            31,
-            32,
             33,
             41,
             46,
             47
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cadre_fireblade_or_shas_o_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -84,10 +97,25 @@
           "name": "Heavy Battlesuit Cadre",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            90,
-            91,
-            92
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_xv104_riptide_or_xv107_r_varna_or_xv109_y_vahra",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            }
           ]
         },
         {

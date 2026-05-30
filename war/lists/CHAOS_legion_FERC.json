@@ -17,21 +17,121 @@
           "cost_pts": 275,
           "units": "8 Space Marines du Chaos",
           "upgrades": [
-            48,
-            49,
-            95,
-            96,
-            97,
-            98,
-            41,
-            42,
-            43,
-            44,
-            45,
-            40,
-            87,
-            85,
-            84
+            44
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rhino",
+              "label": "Choice",
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_havocs",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_berserkers_khorne_or_4_marines_de_la_peste_nurgle_or_4_noise_marines_s",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                },
+                {
+                  "upgrade_id": 96
+                },
+                {
+                  "upgrade_id": 97
+                },
+                {
+                  "upgrade_id": 98
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_defiler",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_du_chaos",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_obliterator",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pacte_d_eacute_moniaque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stalker",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_cuirass_eacute_de_classe_despoiler_or_croiseur_de_classe_devastation",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         },
         {
@@ -41,16 +141,93 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            13,
-            41,
-            42,
-            43,
-            44,
-            45,
-            40,
-            87,
-            85,
-            84
+            44
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_defiler",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_du_chaos",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_obliterator",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pacte_d_eacute_moniaque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stalker",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_cuirass_eacute_de_classe_despoiler_or_croiseur_de_classe_devastation",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_elus",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -59,10 +236,7 @@
           "name": "Culte Raptor",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11,
-            40
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_seigneur_du_chaos_or_seigneur_sorcier_du_chaos_or_seigneur_de_guerre_du_cha",
@@ -77,6 +251,29 @@
                 },
                 {
                   "upgrade_id": 99
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pacte_d_eacute_moniaque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_raptor",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
                 }
               ]
             }
@@ -89,10 +286,38 @@
           "pts": 125,
           "cost_pts": 125,
           "units": "4 Space Marines du Chaos (Eclaireurs)",
-          "upgrades": [
-            48,
-            41,
-            40
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rhino",
+              "label": "Choice",
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pacte_d_eacute_moniaque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {
@@ -102,9 +327,7 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "8 Motos de la Black Legion",
-          "upgrades": [
-            40
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_seigneur_du_chaos_or_seigneur_sorcier_du_chaos_or_seigneur_de_guerre_du_cha",
@@ -122,6 +345,18 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pacte_d_eacute_moniaque",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {
@@ -131,13 +366,53 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            91,
-            92,
             85,
-            84,
-            43,
-            42,
-            87
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_du_chaos",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stalker",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_pr_eacute_dator_du_chaos_or_4_land_raider_du_chaos",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            }
           ]
         },
         {
@@ -146,9 +421,29 @@
           "name": "Compagnie d'Assaut de la Black Legion",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            23,
-            42
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_d_eacute_cimator",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         },
         {
@@ -189,9 +484,21 @@
           "name": "Soutien Orbital",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            85,
-            84
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cuirass_eacute_de_classe_despoiler_or_croiseur_de_classe_devastation",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         }
       ]
@@ -228,8 +535,19 @@
           "name": "Deathwheel",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            24
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_deathwheel",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {

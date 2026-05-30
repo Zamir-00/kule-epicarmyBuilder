@@ -16,9 +16,7 @@
           "cost_pts": 850,
           "units": "1 Warlord Battle Titan",
           "upgrades": [
-            10,
-            11,
-            12
+            10
           ],
           "loadout_slots": [
             {
@@ -114,6 +112,51 @@
                   "upgrade_id": 17
                 }
               ]
+            },
+            {
+              "string_id": "loadout_carapace_multilasers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_veteran_princeps",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_veteran_princeps_or_veteran_princeps_quake_cannon_or_veteran_princeps_vo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
             }
           ]
         },
@@ -124,10 +167,7 @@
           "pts": 650,
           "cost_pts": 650,
           "units": "1 Reaver Battle Titan",
-          "upgrades": [
-            11,
-            12
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_gatling_blaster_or_turbo_laser_destructor_or_plasma_cannon_or_multiple_r",
@@ -185,6 +225,51 @@
                   "upgrade_id": 17
                 }
               ]
+            },
+            {
+              "string_id": "loadout_carapace_multilasers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_veteran_princeps",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_veteran_princeps_or_veteran_princeps_quake_cannon_or_veteran_princeps_vo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
             }
           ]
         },
@@ -195,9 +280,7 @@
           "pts": 550,
           "cost_pts": 550,
           "units": "2 Warhound Scout Titans",
-          "upgrades": [
-            12
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_vulcan_mega_bolter_or_rocket_launcher_or_scout_turbo_laser_or_plasma_bla",
@@ -222,6 +305,16 @@
                   "upgrade_id": 83
                 }
               ]
+            },
+            {
+              "string_id": "loadout_veteran_princeps",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
             }
           ]
         },
@@ -232,9 +325,7 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "1 Warhound Scout Titan",
-          "upgrades": [
-            12
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_vulcan_mega_bolter_or_rocket_launcher_or_scout_turbo_laser_or_plasma_bla",
@@ -257,6 +348,16 @@
                 },
                 {
                   "upgrade_id": 83
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_veteran_princeps",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
                 }
               ]
             }

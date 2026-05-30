@@ -18,11 +18,35 @@
           "name": "Knight Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            8,
-            10,
-            13,
-            2
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_paladin_or_knight_errant",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_baron_or_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         }
       ]
@@ -36,10 +60,32 @@
           "name": "Castigator Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            16,
-            13,
-            2
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_castigator",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_baron_or_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -48,10 +94,32 @@
           "name": "Custodian Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            6,
-            7,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_castellan_or_knight_crusader",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -60,10 +128,32 @@
           "name": "Lancer Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            9,
-            13,
-            2
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_lancer",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_baron_or_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         }
       ]
@@ -96,12 +186,58 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "1 Commander, 8 Infantry",
-          "upgrades": [
-            5,
-            14,
-            11,
-            15,
-            1
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_infantry",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chimera",
+              "label": "Choice",
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_snipers",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {

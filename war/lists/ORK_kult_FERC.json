@@ -16,22 +16,65 @@
           "pts": -10,
           "cost_pts": -10,
           "upgrades": [
-            64,
-            65,
-            51,
-            11,
-            12,
-            13,
             96,
             76,
-            11,
             78,
-            13,
             81,
             82,
             83,
-            84,
-            85
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_extra_truk_or_motonobz",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz_extra_truk",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggie_or_motoboyz_or_karbonisator",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         },
         {
@@ -41,22 +84,65 @@
           "pts": -70,
           "cost_pts": -70,
           "upgrades": [
-            64,
-            65,
-            51,
-            11,
-            12,
-            13,
             96,
             76,
-            11,
             78,
-            13,
             81,
             82,
             83,
-            84,
-            85
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_extra_truk_or_motonobz",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz_extra_truk",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggie_or_motoboyz_or_karbonisator",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         },
         {
@@ -66,22 +152,65 @@
           "pts": -130,
           "cost_pts": -130,
           "upgrades": [
-            64,
-            65,
-            51,
-            11,
-            12,
-            13,
             96,
             76,
-            11,
             78,
-            13,
             81,
             82,
             83,
-            84,
-            85
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_extra_truk_or_motonobz",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz_extra_truk",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggie_or_motoboyz_or_karbonisator",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            }
           ]
         },
         {
@@ -91,13 +220,37 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            11,
-            12,
-            13,
             82,
             83,
-            84,
-            85
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggie_or_motoboyz_or_karbonisator",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -107,13 +260,37 @@
           "pts": -50,
           "cost_pts": -50,
           "upgrades": [
-            11,
-            12,
-            13,
             82,
             83,
-            84,
-            85
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggie_or_motoboyz_or_karbonisator",
+              "label": "Choice",
+              "min": 16,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -123,13 +300,37 @@
           "pts": -100,
           "cost_pts": -100,
           "upgrades": [
-            11,
-            12,
-            13,
             82,
             83,
-            84,
-            85
+            84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggie_or_motoboyz_or_karbonisator",
+              "label": "Choice",
+              "min": 24,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -172,16 +373,60 @@
           "pts": 10,
           "cost_pts": 10,
           "upgrades": [
-            55,
-            65,
             11,
             78,
-            13,
-            84,
-            82,
-            83,
-            85,
-            93
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_or_motonobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kopter_or_chariot_flak_or_chariot_kanon",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                },
+                {
+                  "upgrade_id": 84
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_forteresse_agrave_kanons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            }
           ]
         },
         {
@@ -191,16 +436,60 @@
           "pts": -30,
           "cost_pts": -30,
           "upgrades": [
-            55,
-            65,
             11,
             78,
-            13,
-            84,
-            82,
-            83,
-            85,
-            93
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_or_motonobz",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kopter_or_chariot_flak_or_chariot_kanon",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                },
+                {
+                  "upgrade_id": 84
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_forteresse_agrave_kanons",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            }
           ]
         },
         {
@@ -210,16 +499,60 @@
           "pts": -70,
           "cost_pts": -70,
           "upgrades": [
-            55,
-            65,
             11,
             78,
-            13,
-            84,
-            82,
-            83,
-            85,
-            93
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 85
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_or_motonobz",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kopter_or_chariot_flak_or_chariot_kanon",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                },
+                {
+                  "upgrade_id": 84
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_forteresse_agrave_kanons",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            }
           ]
         },
         {
@@ -228,8 +561,19 @@
           "name": "Escadron de Chassa-Bombas",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            73
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chassa_bomba",
+              "label": "Choice",
+              "min": 4,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            }
           ]
         },
         {
@@ -263,11 +607,7 @@
           "pts": 275,
           "cost_pts": 275,
           "upgrades": [
-            55,
-            65,
             83,
-            93,
-            89,
             74
           ],
           "loadout_slots": [
@@ -285,6 +625,39 @@
                   "upgrade_id": 44
                 }
               ]
+            },
+            {
+              "string_id": "loadout_nobz_or_motonobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_forteresse_agrave_kanons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_89",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 89
+                }
+              ]
             }
           ]
         },
@@ -295,11 +668,7 @@
           "pts": 475,
           "cost_pts": 475,
           "upgrades": [
-            55,
-            65,
             83,
-            93,
-            89,
             74
           ],
           "loadout_slots": [
@@ -317,6 +686,39 @@
                   "upgrade_id": 44
                 }
               ]
+            },
+            {
+              "string_id": "loadout_nobz_or_motonobz",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_forteresse_agrave_kanons",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_89",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 89
+                }
+              ]
             }
           ]
         },
@@ -327,11 +729,7 @@
           "pts": 675,
           "cost_pts": 675,
           "upgrades": [
-            55,
-            65,
             83,
-            93,
-            89,
             74
           ],
           "loadout_slots": [
@@ -347,6 +745,39 @@
                 },
                 {
                   "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_or_motonobz",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_forteresse_agrave_kanons",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_89",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 89
                 }
               ]
             }

@@ -16,20 +16,7 @@
           "pts": 525,
           "cost_pts": 525,
           "units": "Ulani SC Command Tank",
-          "upgrades": [
-            26,
-            31,
-            32,
-            27,
-            28,
-            29,
-            33,
-            34,
-            35,
-            37,
-            38,
-            39
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_leman_russ_or_leman_russ_executioner_or_leman_russ_demolisher",
@@ -58,6 +45,121 @@
                   "upgrade_id": 30
                 }
               ]
+            },
+            {
+              "string_id": "loadout_2_tank_riders_or_4_tank_riders_or_6_tank_riders",
+              "label": "Transport",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolisher_or_tank_squadro",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_hydra_or_hellhound_squadron_3_hellhounds_o",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_additional_leman_russ_or_3_additional_demolisher_or_3_additional_execu",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
             }
           ]
         },
@@ -67,21 +169,7 @@
           "name": "Tank Company",
           "pts": 400,
           "cost_pts": 400,
-          "upgrades": [
-            14,
-            26,
-            31,
-            32,
-            27,
-            28,
-            29,
-            33,
-            34,
-            35,
-            37,
-            38,
-            39
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_tank_riders_6_tank_riders",
@@ -108,6 +196,131 @@
                 },
                 {
                   "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_tank_riders_or_4_tank_riders_or_6_tank_riders",
+              "label": "Transport",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolisher_or_tank_squadro",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_hydra_or_hellhound_squadron_3_hellhounds_o",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_leman_russ_command_tank",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_additional_leman_russ_or_3_additional_demolisher_or_3_additional_execu",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
                 }
               ]
             }

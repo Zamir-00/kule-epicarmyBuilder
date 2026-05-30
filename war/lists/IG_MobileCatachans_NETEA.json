@@ -21,24 +21,6 @@
           "pts": 260,
           "cost_pts": 260,
           "upgrades": [
-            13,
-            14,
-            15,
-            28,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
             27
           ],
           "units": "7 Infantry Units and 1 Supreme Commander",
@@ -56,6 +38,144 @@
                   "upgrade_id": 12
                 }
               ]
+            },
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_two_fire_support_squad_units_and_a_valkyrie_or_add_two_mortar_units_",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_sniper_and_1_valkyrie_or_2_snipers_and_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_vulture_punishers_or_add_2_vultures_or_add_1_vulture_1_vulture_tor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_ogryn_and_1_valkyrie_or_2_ogryns_and_2_valkyries",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_catachan_sentinel_1_drop_sentinel_or_1_catachan_sentinel_1_support_sen",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
             }
           ]
         },
@@ -66,24 +186,6 @@
           "pts": 160,
           "cost_pts": 160,
           "upgrades": [
-            13,
-            14,
-            15,
-            28,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
             27
           ],
           "units": "7 Infantry Units and 1 Commander",
@@ -101,6 +203,144 @@
                   "upgrade_id": 12
                 }
               ]
+            },
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_two_fire_support_squad_units_and_a_valkyrie_or_add_two_mortar_units_",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_sniper_and_1_valkyrie_or_2_snipers_and_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_vulture_punishers_or_add_2_vultures_or_add_1_vulture_1_vulture_tor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_ogryn_and_1_valkyrie_or_2_ogryns_and_2_valkyries",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_catachan_sentinel_1_drop_sentinel_or_1_catachan_sentinel_1_support_sen",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
             }
           ]
         }
@@ -116,10 +356,6 @@
           "pts": 25,
           "cost_pts": 25,
           "upgrades": [
-            15,
-            40,
-            41,
-            42,
             27,
             31,
             32,
@@ -127,6 +363,35 @@
             34,
             35,
             36
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_catachan_sentinels_or_support_sentinel_or_drop_sentinels",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            }
           ]
         },
         {
@@ -136,20 +401,6 @@
           "pts": 145,
           "cost_pts": 145,
           "upgrades": [
-            15,
-            28,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
             27
           ],
           "units": "1 Imperial Guard Infantry Unit, 1 Imperial Guard Commander",
@@ -179,6 +430,144 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_two_fire_support_squad_units_and_a_valkyrie_or_add_two_mortar_units_",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_sniper_and_1_valkyrie_or_2_snipers_and_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_vulture_punishers_or_add_2_vultures_or_add_1_vulture_1_vulture_tor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_ogryn_and_1_valkyrie_or_2_ogryns_and_2_valkyries",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_catachan_sentinel_1_drop_sentinel_or_1_catachan_sentinel_1_support_sen",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
             }
           ]
         },
@@ -188,10 +577,20 @@
           "name": "0-1 Veterans",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            15
-          ],
-          "units": "8 Veterans"
+          "upgrades": [],
+          "units": "8 Veterans",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "airborne_storm_trooper_platoon",
@@ -199,10 +598,20 @@
           "name": "Airborne Storm Trooper Platoon",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": [
-            15
-          ],
-          "units": "8 Stormtroopers, 4 Valkyries"
+          "upgrades": [],
+          "units": "8 Stormtroopers, 4 Valkyries",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "airborne_ogryn_company",
@@ -210,15 +619,7 @@
           "name": "Airborne Ogryn Company",
           "pts": 135,
           "cost_pts": 135,
-          "upgrades": [
-            15,
-            18,
-            19,
-            22,
-            23,
-            24,
-            25
-          ],
+          "upgrades": [],
           "units": "4 Ogryn Units and 1 Bone 'ead",
           "loadout_slots": [
             {
@@ -269,6 +670,106 @@
                   "upgrade_id": 36
                 }
               ]
+            },
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_two_fire_support_squad_units_and_a_valkyrie_or_add_two_mortar_units_",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_vulture_punishers_or_add_2_vultures_or_add_1_vulture_1_vulture_tor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_ogryn_and_1_valkyrie_or_2_ogryns_and_2_valkyries",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
             }
           ]
         },
@@ -278,14 +779,39 @@
           "name": "Vulture Punishers",
           "pts": 300,
           "cost_pts": 300,
-          "upgrades": [
-            15,
-            22,
-            23,
-            24,
-            25
-          ],
-          "units": "6 Vulture Punishers"
+          "upgrades": [],
+          "units": "6 Vulture Punishers",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_vulture_punishers_or_add_2_vultures_or_add_1_vulture_1_vulture_tor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "vultures",
@@ -293,11 +819,7 @@
           "name": "Vultures",
           "pts": 300,
           "cost_pts": 300,
-          "upgrades": [
-            15,
-            22,
-            23
-          ],
+          "upgrades": [],
           "units": "",
           "loadout_slots": [
             {
@@ -322,6 +844,35 @@
               "variants": [
                 {
                   "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_commissar",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_vulture_punishers_or_add_2_vultures_or_add_1_vulture_1_vulture_tor",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
                 }
               ]
             }

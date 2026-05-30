@@ -96,9 +96,22 @@
             84,
             85,
             23,
-            26,
-            42,
-            43
+            26
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_lascannon_or_razorback_heavy_bolter",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -188,9 +201,22 @@
             30,
             31,
             32,
-            33,
-            42,
-            43
+            33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_lascannon_or_razorback_heavy_bolter",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -235,9 +261,22 @@
             84,
             85,
             23,
-            26,
-            42,
-            43
+            26
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorback_lascannon_or_razorback_heavy_bolter",
+              "label": "Transport",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {

@@ -18,20 +18,85 @@
           "pts": -10,
           "cost_pts": -10,
           "upgrades": [
-            12,
-            120,
-            101,
             68,
-            20,
-            21,
-            22,
             72,
             73,
             45,
             46,
             44,
-            87,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta_2",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta_3",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_trukk_or_nobz_bikes",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz_trukk",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                }
+              ]
+            }
           ]
         },
         {
@@ -41,13 +106,7 @@
           "pts": -70,
           "cost_pts": -70,
           "upgrades": [
-            12,
-            120,
-            101,
             68,
-            20,
-            21,
-            22,
             72,
             73,
             45,
@@ -55,6 +114,48 @@
             44,
             87,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_trukk_or_nobz_bikes",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz_trukk",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                }
+              ]
+            }
           ]
         },
         {
@@ -64,13 +165,7 @@
           "pts": -130,
           "cost_pts": -130,
           "upgrades": [
-            12,
-            120,
-            101,
             68,
-            20,
-            21,
-            22,
             72,
             73,
             45,
@@ -78,6 +173,48 @@
             44,
             87,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_trukk_or_nobz_bikes",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_boyz_trukk",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                }
+              ]
+            }
           ]
         },
         {
@@ -87,14 +224,58 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            20,
-            21,
-            22,
             45,
             46,
             44,
-            87,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta_2",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta_3",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -104,14 +285,29 @@
           "pts": -50,
           "cost_pts": -50,
           "upgrades": [
-            20,
-            21,
-            22,
             45,
             46,
             44,
             87,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 16,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -121,14 +317,29 @@
           "pts": -100,
           "cost_pts": -100,
           "upgrades": [
-            20,
-            21,
-            22,
             45,
             46,
             44,
             87,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 24,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -142,14 +353,78 @@
             20,
             21,
             22,
-            44,
-            45,
-            46,
-            87,
-            95,
-            79,
-            120,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mekboy_speedsta",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta_2",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mekboy_speedsta_3",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 87
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz_or_nobz_bikes",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_extra_gunfortress",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_or_deth_kopta_or_flakwagon",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         },
         {
@@ -163,14 +438,49 @@
             20,
             21,
             22,
-            44,
-            45,
-            46,
             87,
-            95,
-            79,
-            120,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_or_nobz_bikes",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_extra_gunfortress",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_or_deth_kopta_or_flakwagon",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         },
         {
@@ -184,14 +494,49 @@
             20,
             21,
             22,
-            44,
-            45,
-            46,
             87,
-            95,
-            79,
-            120,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_or_nobz_bikes",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_extra_gunfortress",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_or_deth_kopta_or_flakwagon",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         },
         {
@@ -238,8 +583,6 @@
             46,
             79,
             120,
-            91,
-            95,
             110
           ],
           "loadout_slots": [
@@ -256,6 +599,26 @@
                   "upgrade_id": 57
                 }
               ]
+            },
+            {
+              "string_id": "loadout_extra_battlefortress",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_extra_gunfortress",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
             }
           ]
         },
@@ -270,8 +633,6 @@
             46,
             79,
             120,
-            91,
-            95,
             110
           ],
           "loadout_slots": [
@@ -288,6 +649,26 @@
                   "upgrade_id": 57
                 }
               ]
+            },
+            {
+              "string_id": "loadout_extra_battlefortress",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_extra_gunfortress",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
             }
           ]
         },
@@ -302,8 +683,6 @@
             46,
             79,
             120,
-            91,
-            95,
             110
           ],
           "loadout_slots": [
@@ -320,6 +699,26 @@
                   "upgrade_id": 57
                 }
               ]
+            },
+            {
+              "string_id": "loadout_extra_battlefortress",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_extra_gunfortress",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 95
+                }
+              ]
             }
           ]
         }
@@ -334,8 +733,19 @@
           "name": "Fighta Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            65
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fighta_bomba",
+              "label": "Choice",
+              "min": 3,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            }
           ]
         },
         {

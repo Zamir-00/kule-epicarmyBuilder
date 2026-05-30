@@ -19,14 +19,43 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "Four Assault units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            }
           ]
         },
         {
@@ -36,17 +65,73 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "Four Devastator units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhino",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         },
         {
@@ -56,16 +141,63 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "Four Scout units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            17,
-            19,
-            5,
-            6,
-            7
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_storm",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -75,17 +207,73 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "Four Tactical units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhino",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         }
       ]
@@ -100,18 +288,83 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "Four Sternguard Veteran units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhino",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_ambush",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                }
+              ]
+            }
           ]
         },
         {
@@ -121,11 +374,27 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "Four Terminator units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            }
           ]
         },
         {
@@ -135,14 +404,43 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "Four Vanguard Assault Veteran units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            }
           ]
         },
         {
@@ -152,17 +450,73 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "Four Vanguard Veteran units",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhino",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         }
       ]
@@ -176,13 +530,44 @@
           "name": "Bike",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            12,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_attack_bike_or_bike_or_multi_melta_attack_bike",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -191,16 +576,57 @@
           "name": "Land Speeder",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            14,
-            7,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_captain_or_chaplain_or_librarian",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon_or_land_spe",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_planetfall",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -210,8 +636,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "One Strike Cruiser",
-          "upgrades": [
-            16
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battle_barge",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         }
       ]

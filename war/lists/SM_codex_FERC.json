@@ -16,22 +16,105 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "6 Tactiques",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            33,
-            30,
-            31,
-            40,
-            41,
-            42,
-            43,
-            11,
-            12,
-            13,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pr_eacute_dator_annihilator_or_pr_eacute_dator_destructor_or_land_raider",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos_or_12_or_module_d_atterrissage_or_a_eacute_roport_eacute",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -41,22 +124,105 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "4 D&eacute;vastators",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            33,
-            30,
-            31,
-            40,
-            41,
-            42,
-            43,
-            11,
-            12,
-            13,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pr_eacute_dator_annihilator_or_pr_eacute_dator_destructor_or_land_raider",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos_or_12_or_module_d_atterrissage_or_a_eacute_roport_eacute",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         },
         {
@@ -66,12 +232,47 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "4 Assauts",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            43
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -81,15 +282,77 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "4 Terminators",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            43,
-            30,
-            42,
-            44
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_t_eacute_l_eacute_portation",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -99,17 +362,76 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "4 Scouts",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            33,
-            34,
-            11,
-            12,
-            13,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos_or_12_or_module_d_atterrissage_or_a_eacute_roport_eacute",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         },
         {
@@ -118,12 +440,7 @@
           "name": "Motos",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            26,
-            27,
-            28,
-            29
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_motos_or_motos_d_assaut",
@@ -139,6 +456,35 @@
                   "upgrade_id": 17
                 }
               ]
+            },
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
             }
           ]
         },
@@ -148,12 +494,7 @@
           "name": "Land Speeders",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            26,
-            27,
-            28,
-            29
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_land_speeder_or_tornado_or_typhoon",
@@ -172,6 +513,35 @@
                   "upgrade_id": 21
                 }
               ]
+            },
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
             }
           ]
         },
@@ -182,13 +552,57 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "4 Land Raiders",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            31,
-            43
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -197,14 +611,7 @@
           "name": "Pr&eacute;dators",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            31,
-            43
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_annihilator_or_destructor",
@@ -220,6 +627,55 @@
                   "upgrade_id": 24
                 }
               ]
+            },
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
             }
           ]
         },
@@ -230,12 +686,47 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "4 Vindicators",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            31
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -245,12 +736,47 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "4 Whirlwinds",
-          "upgrades": [
-            26,
-            27,
-            28,
-            29,
-            31
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_capitaine_or_chapelain_or_archiviste_or_cmdt_supr_egrave_me",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {

@@ -305,20 +305,55 @@
           "name": "Ordinatus Minorus",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            125,
-            126,
-            127,
-            128,
-            129,
-            130,
-            131,
-            132,
-            133,
-            134,
-            135,
-            137,
-            138
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_minorus_with_apocalypse_missile_launcher_or_minorus_with_laser_burner_or",
+              "label": "Minorus loadout",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 125
+                },
+                {
+                  "upgrade_id": 126
+                },
+                {
+                  "upgrade_id": 127
+                },
+                {
+                  "upgrade_id": 128
+                },
+                {
+                  "upgrade_id": 129
+                },
+                {
+                  "upgrade_id": 130
+                },
+                {
+                  "upgrade_id": 131
+                },
+                {
+                  "upgrade_id": 132
+                },
+                {
+                  "upgrade_id": 133
+                },
+                {
+                  "upgrade_id": 134
+                },
+                {
+                  "upgrade_id": 135
+                },
+                {
+                  "upgrade_id": 137
+                },
+                {
+                  "upgrade_id": 138
+                }
+              ]
+            }
           ]
         },
         {

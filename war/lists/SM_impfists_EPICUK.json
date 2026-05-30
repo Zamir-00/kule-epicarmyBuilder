@@ -19,7 +19,6 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            22,
             41,
             42
           ],
@@ -36,6 +35,16 @@
                 },
                 {
                   "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
                 }
               ]
             }
@@ -57,7 +66,6 @@
             17,
             20,
             21,
-            22,
             41,
             42,
             47,
@@ -66,6 +74,18 @@
             60,
             61,
             62
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -79,8 +99,7 @@
             12,
             13,
             14,
-            16,
-            22
+            16
           ],
           "loadout_slots": [
             {
@@ -108,6 +127,16 @@
               "variants": [
                 {
                   "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
                 }
               ]
             }
@@ -157,8 +186,19 @@
             12,
             13,
             14,
-            16,
-            22
+            16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -195,7 +235,6 @@
             17,
             20,
             21,
-            22,
             41,
             42,
             47,
@@ -204,6 +243,18 @@
             60,
             61,
             62
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -219,9 +270,20 @@
             13,
             14,
             17,
-            22,
             41,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -247,8 +309,20 @@
             12,
             13,
             14,
-            16,
-            22
+            16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {

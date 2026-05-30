@@ -82,10 +82,25 @@
           "name": "Heavy Battlesuit Cadre",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            90,
-            91,
-            92
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_xv104_riptide_or_xv107_r_varna_or_xv109_y_vahra",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            }
           ]
         },
         {

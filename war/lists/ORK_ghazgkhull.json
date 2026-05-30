@@ -20,7 +20,6 @@
           "units": "6 Boyz, 2 Grotz",
           "upgrades": [
             81,
-            63,
             50,
             82,
             51,
@@ -29,21 +28,53 @@
             12,
             13,
             43,
-            94,
-            95,
             57,
             58,
             24,
             60,
             25,
             23,
-            90,
-            91,
             37,
             72,
-            73,
-            92,
-            93
+            73
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 2,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -55,7 +86,6 @@
           "units": "12 Boyz, 4 Grotz",
           "upgrades": [
             81,
-            63,
             50,
             82,
             51,
@@ -64,21 +94,53 @@
             12,
             13,
             43,
-            94,
-            95,
             57,
             58,
             24,
             60,
             25,
             23,
-            90,
-            91,
             37,
             72,
-            73,
-            92,
-            93
+            73
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -90,7 +152,6 @@
           "units": "18 Boyz, 6 Grotz",
           "upgrades": [
             81,
-            63,
             50,
             82,
             51,
@@ -99,21 +160,53 @@
             12,
             13,
             43,
-            94,
-            95,
             57,
             58,
             24,
             60,
             25,
             23,
-            90,
-            91,
             37,
             72,
-            73,
-            92,
-            93
+            73
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "min": 6,
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -123,12 +216,23 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            35,
             51,
             11,
             12,
             13,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_stormboyz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {
@@ -138,14 +242,52 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            11,
-            12,
-            13,
             24,
             25,
-            23,
-            90,
-            91
+            23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -155,14 +297,52 @@
           "pts": -50,
           "cost_pts": -50,
           "upgrades": [
-            11,
-            12,
-            13,
             24,
             25,
-            23,
-            90,
-            91
+            23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 16,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -172,14 +352,52 @@
           "pts": -100,
           "cost_pts": -100,
           "upgrades": [
-            11,
-            12,
-            13,
             24,
             25,
-            23,
-            90,
-            91
+            23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_buggy_or_warbike_or_skorcha",
+              "label": "Choice",
+              "min": 24,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -191,15 +409,72 @@
           "upgrades": [
             11,
             12,
-            13,
-            23,
-            90,
-            91,
-            24,
-            25,
-            73,
-            92,
-            93
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gunwagon_or_deth_kopta_or_flakwagon_or_gunwagon_soopagun_odd_boy_or_gunw",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunfortress_or_gunfortress_soopagun_odd_boy_or_gunfortress_supa_zzap_odd",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            }
           ]
         },
         {
@@ -211,15 +486,72 @@
           "upgrades": [
             11,
             12,
-            13,
-            23,
-            90,
-            91,
-            24,
-            25,
-            73,
-            92,
-            93
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gunwagon_or_deth_kopta_or_flakwagon_or_gunwagon_soopagun_odd_boy_or_gunw",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunfortress_or_gunfortress_soopagun_odd_boy_or_gunfortress_supa_zzap_odd",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            }
           ]
         },
         {
@@ -231,15 +563,72 @@
           "upgrades": [
             11,
             12,
-            13,
-            23,
-            90,
-            91,
-            24,
-            25,
-            73,
-            92,
-            93
+            13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gunwagon_or_deth_kopta_or_flakwagon_or_gunwagon_soopagun_odd_boy_or_gunw",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunfortress_or_gunfortress_soopagun_odd_boy_or_gunfortress_supa_zzap_odd",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                }
+              ]
+            }
           ]
         },
         {
@@ -252,9 +641,20 @@
             57,
             60,
             25,
-            37,
             77,
             78
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_stompa",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         },
         {
@@ -265,12 +665,61 @@
           "cost_pts": 0,
           "upgrades": [
             81,
-            43,
-            94,
-            95,
             58,
-            25,
-            63
+            25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_big_gunz_or_big_gunz_soopagun_odd_boy_or_big_gunz_supa_zzap_odd_boy",
+              "label": "Choice",
+              "min": 5,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -281,12 +730,61 @@
           "cost_pts": -25,
           "upgrades": [
             81,
-            43,
-            94,
-            95,
             58,
-            25,
-            63
+            25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_big_gunz_or_big_gunz_soopagun_odd_boy_or_big_gunz_supa_zzap_odd_boy",
+              "label": "Choice",
+              "min": 10,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -297,12 +795,61 @@
           "cost_pts": -50,
           "upgrades": [
             81,
-            43,
-            94,
-            95,
             58,
-            25,
-            63
+            25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_big_gunz_or_big_gunz_soopagun_odd_boy_or_big_gunz_supa_zzap_odd_boy",
+              "label": "Choice",
+              "min": 15,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunwagon_soopagun_odd_boy_or_gunwagon_supa_zzap_odd_boy_or_gunfortress_s",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                },
+                {
+                  "upgrade_id": 92
+                },
+                {
+                  "upgrade_id": 93
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         }
       ]
@@ -316,8 +863,19 @@
           "name": "Fighta Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            49
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fighta_bomba",
+              "label": "Choice",
+              "min": 3,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            }
           ]
         },
         {

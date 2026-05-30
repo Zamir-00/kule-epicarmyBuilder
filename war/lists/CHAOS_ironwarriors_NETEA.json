@@ -79,9 +79,21 @@
           "pts": 35,
           "cost_pts": 35,
           "upgrades": [
-            32,
             53,
             61
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_iron_warrior_terminator",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {
@@ -113,8 +125,20 @@
           "pts": 35,
           "cost_pts": 35,
           "upgrades": [
-            30,
             63
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_raptor",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         },
         {
@@ -174,10 +198,24 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            27,
-            28,
             54,
             66
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_predator_or_chaos_land_raider",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         },
         {
@@ -210,8 +248,19 @@
           "name": "Super Heavy Company - Decimator",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            25
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_decimator",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         }
       ]

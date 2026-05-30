@@ -32,11 +32,48 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6x Warriors",
-          "upgrades": [
-            102,
-            100,
-            103,
-            101
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tomb_spyders",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pariahs",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_immortals",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 102
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wraiths",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            }
           ]
         }
       ]
@@ -58,12 +95,38 @@
           "name": "Eques Maniple",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            104,
-            109,
-            110,
-            107,
-            103
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_necron_lord_or_necron_overlord",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 107
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_destroyers_or_heavy_destroyers_or_wraiths",
+              "label": "Choice",
+              "min": 6,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 109
+                },
+                {
+                  "upgrade_id": 110
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            }
           ]
         },
         {
@@ -72,9 +135,30 @@
           "name": "Monolith Maniple",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            105,
-            106
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_obelisk",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_monolith",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 106
+                }
+              ]
+            }
           ]
         },
         {
@@ -84,8 +168,18 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "3x Monoliths",
-          "upgrades": [
-            105
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_obelisk",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            }
           ]
         },
         {
@@ -95,12 +189,51 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6x Flayed Ones",
-          "upgrades": [
-            104,
-            107,
-            100,
-            103,
-            101
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tomb_spyders",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pariahs",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 101
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wraiths",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_necron_lord_or_necron_overlord",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 107
+                }
+              ]
+            }
           ]
         }
       ]

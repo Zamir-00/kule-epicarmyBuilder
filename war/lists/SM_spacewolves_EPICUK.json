@@ -21,9 +21,6 @@
           "units": "8 Grey Hunter units plus transport",
           "upgrades": [
             10,
-            13,
-            16,
-            21,
             37,
             40,
             38,
@@ -33,6 +30,38 @@
             47,
             48,
             49
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wolf_guard_terminators",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_grey_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_21",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         }
       ]
@@ -68,7 +97,6 @@
             29,
             30,
             38,
-            55,
             35,
             39,
             36,
@@ -76,7 +104,19 @@
             48,
             49
           ],
-          "units": "4 Long Fangs units plus transport"
+          "units": "4 Long Fangs units plus transport",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "blood_claws",

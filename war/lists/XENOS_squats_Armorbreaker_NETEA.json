@@ -53,14 +53,38 @@
           "units": "1 Colossus",
           "upgrades": [
             3,
-            4,
-            60,
-            61,
-            62,
-            63,
-            64,
-            65,
-            66
+            4
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_berserker_battle_car_or_bomb_battle_car_or_dragon_battle_car_or_mortar_b",
+              "label": "Choice",
+              "min": 2,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                }
+              ]
+            }
           ]
         },
         {
@@ -69,8 +93,19 @@
           "name": "Overlord Squad",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            52
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_overlord",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
           ]
         }
       ]

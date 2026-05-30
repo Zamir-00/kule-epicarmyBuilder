@@ -15,13 +15,48 @@
           "name": "Crisis Battlesuit Cadre",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            17,
-            50,
-            51,
-            34,
-            35,
-            36
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_enclave_xv8_crisis_battlesuit_units",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_el_or_shas_o",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gun_drone_or_2_gun_drones_or_4_gun_drones",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {
@@ -30,18 +65,7 @@
           "name": "Fire Warrior Cadre",
           "pts": 225,
           "cost_pts": 225,
-          "upgrades": [
-            64,
-            65,
-            55,
-            61,
-            34,
-            35,
-            36,
-            54,
-            56,
-            63
-          ],
+          "upgrades": [],
           "swap_slots": [
             {
               "string_id": "swap_8_fire_warrior_units_or_6_fire_warrior_units_3_devilfishes",
@@ -77,6 +101,85 @@
                   "upgrade_id": 62
                 }
               ]
+            },
+            {
+              "string_id": "loadout_gun_drone_or_2_gun_drones_or_4_gun_drones",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_fire_warrior_units_or_4_fire_warrior_units_2_devilfishes",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_enclave_pathfinder_units_1_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_piranhas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_hammerheads",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_xv88_broadsides",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
             }
           ]
         }
@@ -91,8 +194,18 @@
           "name": "Armour Support Group",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": [
-            55
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            }
           ]
         },
         {
@@ -111,11 +224,34 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "4 Enclave Pathfinder units, 2 Devilfish",
-          "upgrades": [
-            34,
-            35,
-            36,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gun_drone_or_2_gun_drones_or_4_gun_drones",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_piranhas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -125,11 +261,34 @@
           "units": "6 Piranhas",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": [
-            35,
-            35,
-            36,
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gun_drone_or_2_gun_drones_or_4_gun_drones",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_piranhas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -148,10 +307,24 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "6 XV15 Stealth Units",
-          "upgrades": [
-            34,
-            35,
-            36
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gun_drone_or_2_gun_drones_or_4_gun_drones",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         }
       ]
@@ -199,8 +372,18 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "2 Tiger Sharks",
-          "upgrades": [
-            70
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 70
+                }
+              ]
+            }
           ]
         },
         {

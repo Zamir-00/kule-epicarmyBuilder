@@ -19,16 +19,84 @@
           "pts": 275,
           "cost_pts": 275,
           "upgrades": [
-            22,
-            53,
-            64,
-            65,
-            66,
-            60,
-            57,
-            67,
-            68,
             62
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thousand_sons_defiler_or_2_thousand_sons_defilers_or_3_thousand_sons_def",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thousand_sons_defiler",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -54,20 +122,119 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "4 Terminators",
-          "upgrades": [
-            22,
-            63,
-            70,
-            71,
-            53,
-            64,
-            65,
-            66,
-            56,
-            60,
-            57,
-            67,
-            68
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thousand_sons_defiler_or_2_thousand_sons_defilers_or_3_thousand_sons_def",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thousand_sons_defiler",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -77,8 +244,34 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "4 Defilers",
-          "upgrades": [
-            63
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            }
           ]
         },
         {
@@ -88,9 +281,28 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "8 Disc Riders",
-          "upgrades": [
-            56,
-            60
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -99,15 +311,54 @@
           "name": "Armoured Company",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            29,
-            30,
-            57,
-            67,
-            68,
-            28,
-            72,
-            73
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thousand_sons_defiler_or_2_thousand_sons_defilers_or_3_thousand_sons_def",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_29_or_30",
+              "label": "Choice",
+              "min": 4,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         },
         {
@@ -169,8 +420,18 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "2 Firelords",
-          "upgrades": [
-            39
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_firelord",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            }
           ]
         },
         {

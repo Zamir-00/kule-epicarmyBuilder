@@ -39,7 +39,6 @@
           "pts": 125,
           "cost_pts": 125,
           "upgrades": [
-            27,
             55,
             57,
             58,
@@ -86,6 +85,42 @@
               "variants": [
                 {
                   "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2x_guardians_or_1x_guardians_and_1x_heavy_weapon_platform_or_jetbikes_or",
+              "label": "Choice",
+              "min": 3,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_add_2_guaridans_or_add_4_guardians_or_add_3_guardians_and_1_heady_weapon_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
                 }
               ]
             }
@@ -149,8 +184,19 @@
           "name": "Ranger Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ranger",
+              "label": "Choice",
+              "min": 4,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -159,8 +205,19 @@
           "name": "War Walker Troupe",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            16
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_war_walker",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -194,10 +251,25 @@
           "name": "Swords of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            36,
-            37,
-            38
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_falcon_or_fire_storm_or_fire_prism",
+              "label": "Choice",
+              "min": 5,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            }
           ]
         },
         {
@@ -215,10 +287,25 @@
           "name": "Engine of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            49,
-            50,
-            51
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_scorpion_or_cobra_or_storm_serpent",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         }
       ]

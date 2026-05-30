@@ -20,11 +20,35 @@
             114,
             107,
             109,
-            105,
-            111,
-            120,
-            102,
-            103
+            105
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_10_death_korps_infantry_or_infantry_platoon_10_death_ko",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            }
           ]
         },
         {
@@ -38,11 +62,35 @@
             114,
             107,
             109,
-            105,
-            111,
-            120,
-            102,
-            103
+            105
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_10_death_korps_infantry_or_infantry_platoon_10_death_ko",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            }
           ]
         },
         {
@@ -55,11 +103,35 @@
           "upgrades": [
             114,
             109,
-            105,
-            120,
-            111,
-            102,
-            103
+            105
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_10_death_korps_infantry_or_infantry_platoon_10_death_ko",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 120
+                }
+              ]
+            }
           ]
         }
       ]

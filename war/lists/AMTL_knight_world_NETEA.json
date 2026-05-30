@@ -18,11 +18,35 @@
           "name": "Knight Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            8,
-            10,
-            13,
-            2
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_paladin_or_knight_errant",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_baron_or_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         }
       ]
@@ -36,10 +60,32 @@
           "name": "Custodian Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            6,
-            7,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_castellan_or_knight_crusader",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -48,10 +94,32 @@
           "name": "Lancer Household",
           "pts": 30,
           "cost_pts": 30,
-          "upgrades": [
-            9,
-            13,
-            2
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_lancer",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_baron_or_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -60,9 +128,29 @@
           "name": "Warden Household",
           "pts": 20,
           "cost_pts": 20,
-          "upgrades": [
-            16,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_warden",
+              "label": "Choice",
+              "min": 3,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         }
       ]
@@ -101,13 +189,61 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "1 Levy Command, 8 Infantry Levy",
-          "upgrades": [
-            1,
-            5,
-            14,
-            11,
-            15,
-            17
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_aspirant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_infantry_levy",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rapier_or_thudd_gun",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_snipers",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_52cm_of_trench_and_52cm_of_razor_wire",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -117,8 +253,18 @@
           "pts": 150,
           "cost_pts": 150,
           "units": "6 Rough Riders",
-          "upgrades": [
-            1
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_aspirant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            }
           ]
         }
       ]

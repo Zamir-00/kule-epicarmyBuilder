@@ -19,14 +19,7 @@
           "pts": 475,
           "cost_pts": 475,
           "upgrades": [
-            28,
-            52,
-            51,
-            54,
-            55,
-            57,
-            59,
-            53
+            28
           ],
           "loadout_slots": [
             {
@@ -109,6 +102,104 @@
                 },
                 {
                   "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gun_or_skorcha_head_or_banna_or_flak_gunz_or_gork_or_mork_head_or_57",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_banna",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gun_or_skorcha_head",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_eavy_armour",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_gunz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gork_or_mork_head",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_ordz_duruk",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_57",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
                 }
               ]
             }
@@ -121,14 +212,7 @@
           "pts": 650,
           "cost_pts": 650,
           "upgrades": [
-            28,
-            52,
-            51,
-            54,
-            55,
-            59,
-            53,
-            58
+            28
           ],
           "loadout_slots": [
             {
@@ -211,6 +295,104 @@
                 },
                 {
                   "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gun_or_skorcha_head_or_banna_or_flak_gunz_or_gork_or_mork_head_or_or",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_banna",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gun_or_skorcha_head",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_eavy_armour",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_gunz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gork_or_mork_head",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_ordz_duruk",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_58",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 58
                 }
               ]
             }
@@ -238,11 +420,24 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            11,
-            12,
             15,
             13,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan_or_dreadnought",
+              "label": "Choice",
+              "min": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -252,11 +447,24 @@
           "pts": -50,
           "cost_pts": -50,
           "upgrades": [
-            11,
-            12,
             15,
             13,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan_or_dreadnought",
+              "label": "Choice",
+              "min": 16,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -266,11 +474,24 @@
           "pts": -100,
           "cost_pts": -100,
           "upgrades": [
-            11,
-            12,
             15,
             13,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan_or_dreadnought",
+              "label": "Choice",
+              "min": 24,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -289,20 +510,73 @@
           "pts": 125,
           "cost_pts": 125,
           "upgrades": [
-            18,
             19,
-            11,
             20,
             12,
             15,
-            21,
-            22,
-            23,
-            24,
             13,
-            14,
-            16,
-            17
+            14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan_or_big_gunz",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battlefortress",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunfortress",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_with_power_fields_or_oddboy_with_soopagunz_or_oddboy_with_supa_zz",
+              "label": "Oddboy loadout",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -313,20 +587,73 @@
           "pts": 225,
           "cost_pts": 225,
           "upgrades": [
-            18,
             19,
-            11,
             20,
             12,
             15,
-            21,
-            22,
-            23,
-            24,
             13,
-            14,
-            16,
-            17
+            14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan_or_big_gunz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battlefortress",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunfortress",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_with_power_fields_or_oddboy_with_soopagunz_or_oddboy_with_supa_zz",
+              "label": "Oddboy loadout",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -337,20 +664,73 @@
           "pts": 300,
           "cost_pts": 300,
           "upgrades": [
-            18,
             19,
-            11,
             20,
             12,
             15,
-            21,
-            22,
-            23,
-            24,
             13,
-            14,
-            16,
-            17
+            14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_killa_kan_or_big_gunz",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_battlefortress",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gunfortress",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_nobz",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_with_power_fields_or_oddboy_with_soopagunz_or_oddboy_with_supa_zz",
+              "label": "Oddboy loadout",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -362,12 +742,38 @@
           "upgrades": [
             11,
             12,
-            15,
-            22,
-            23,
-            24,
-            13,
-            14
+            15
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_stompa_with_2x_big_guns_and_kombat_ammer_or_stompa_with_3x_big_guns",
+              "label": "Stompa loadout",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_with_power_fields_or_oddboy_with_soopagunz_or_oddboy_with_supa_zz",
+              "label": "Oddboy loadout",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -379,12 +785,38 @@
           "upgrades": [
             11,
             12,
-            15,
-            22,
-            23,
-            24,
-            13,
-            14
+            15
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_stompa_with_2x_big_guns_and_kombat_ammer_or_stompa_with_3x_big_guns",
+              "label": "Stompa loadout",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_with_power_fields_or_oddboy_with_soopagunz_or_oddboy_with_supa_zz",
+              "label": "Oddboy loadout",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -396,12 +828,38 @@
           "upgrades": [
             11,
             12,
-            15,
-            22,
-            23,
-            24,
-            13,
-            14
+            15
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_stompa_with_2x_big_guns_and_kombat_ammer_or_stompa_with_3x_big_guns",
+              "label": "Stompa loadout",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_oddboy_with_power_fields_or_oddboy_with_soopagunz_or_oddboy_with_supa_zz",
+              "label": "Oddboy loadout",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -415,14 +873,7 @@
             12,
             15,
             13,
-            14,
-            52,
-            51,
-            54,
-            56,
-            55,
-            59,
-            53
+            14
           ],
           "loadout_slots": [
             {
@@ -474,6 +925,104 @@
                   "upgrade_id": 43
                 }
               ]
+            },
+            {
+              "string_id": "loadout_big_gun_or_skorcha_head_or_banna_or_flak_gunz_or_kart_or_gork_or_mork_he",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 59
+                },
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_banna",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_big_gun_or_skorcha_head",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_eavy_armour",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_flak_gunz",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gork_or_mork_head",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_ordz_duruk",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kart",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
             }
           ]
         }
@@ -488,8 +1037,19 @@
           "name": "Fighta Sqwadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            29
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fighta_bommer",
+              "label": "Choice",
+              "min": 3,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {

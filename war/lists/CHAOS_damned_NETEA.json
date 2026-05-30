@@ -19,9 +19,6 @@
           "pts": 35,
           "cost_pts": 35,
           "upgrades": [
-            11,
-            12,
-            13,
             31,
             43,
             33,
@@ -56,6 +53,25 @@
                 },
                 {
                   "upgrade_id": 84
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cultists_or_mutants_or_big_mutants",
+              "label": "Choice",
+              "min": 11,
+              "max": 19,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
                 }
               ]
             }
@@ -156,8 +172,19 @@
           "name": "Khorne Lord of Battles",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            54
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_lord_of_battles",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -175,8 +202,19 @@
           "name": "Nurgle Plague Tower",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            56
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_plague_tower",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -194,9 +232,22 @@
           "name": "Slaanesh Scout Titans",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            58,
-            59
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_questor_or_subjugator",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                },
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            }
           ]
         },
         {
@@ -214,8 +265,19 @@
           "name": "Tzeentch Firelord",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            61
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_firelord",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {

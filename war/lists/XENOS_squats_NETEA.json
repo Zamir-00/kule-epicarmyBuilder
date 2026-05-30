@@ -16,7 +16,6 @@
           "pts": 25,
           "cost_pts": 25,
           "upgrades": [
-            1,
             28,
             29,
             30
@@ -32,6 +31,16 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_berserkers",
+              "label": "Choice",
+              "min": 5,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
             }
           ]
         },
@@ -42,7 +51,6 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            1,
             28,
             29,
             30
@@ -58,6 +66,16 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_berserkers",
+              "label": "Choice",
+              "min": 10,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
             }
           ]
         },
@@ -68,7 +86,6 @@
           "pts": -25,
           "cost_pts": -25,
           "upgrades": [
-            1,
             28,
             29,
             30
@@ -84,6 +101,16 @@
                   "is_default": true
                 }
               ]
+            },
+            {
+              "string_id": "loadout_berserkers",
+              "label": "Choice",
+              "min": 15,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
             }
           ]
         },
@@ -94,12 +121,41 @@
           "pts": 25,
           "cost_pts": 25,
           "upgrades": [
-            12,
-            16,
-            8,
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rapier",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hearthguard",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thunderers",
+              "label": "Choice",
+              "min": 5,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -109,12 +165,41 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            12,
-            16,
-            8,
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rapier",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hearthguard",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thunderers",
+              "label": "Choice",
+              "min": 10,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -124,12 +209,41 @@
           "pts": -25,
           "cost_pts": -25,
           "upgrades": [
-            12,
-            16,
-            8,
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rapier",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hearthguard",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_thunderers",
+              "label": "Choice",
+              "min": 15,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -139,11 +253,31 @@
           "pts": 20,
           "cost_pts": 20,
           "upgrades": [
-            20,
-            12,
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rapier",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_warriors",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -153,8 +287,6 @@
           "pts": -10,
           "cost_pts": -10,
           "upgrades": [
-            20,
-            12,
             28,
             29,
             30
@@ -183,6 +315,26 @@
                   "upgrade_id": 43
                 }
               ]
+            },
+            {
+              "string_id": "loadout_rapier",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_warriors",
+              "label": "Choice",
+              "min": 18,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
             }
           ]
         },
@@ -193,8 +345,6 @@
           "pts": -40,
           "cost_pts": -40,
           "upgrades": [
-            20,
-            12,
             28,
             29,
             30
@@ -221,6 +371,26 @@
                 },
                 {
                   "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rapier",
+              "label": "Choice",
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_warriors",
+              "label": "Choice",
+              "min": 27,
+              "variants": [
+                {
+                  "upgrade_id": 20
                 }
               ]
             }
@@ -273,10 +443,24 @@
           "name": "Artillery Battery",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            11,
-            14,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mole_mortar_or_tarantula_or_thudd_gun",
+              "label": "Choice",
+              "min": 5,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -285,10 +469,24 @@
           "name": "Artillery Battery (M)",
           "pts": 25,
           "cost_pts": 25,
-          "upgrades": [
-            11,
-            14,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mole_mortar_or_tarantula_or_thudd_gun",
+              "label": "Choice",
+              "min": 10,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -297,10 +495,24 @@
           "name": "Artillery Battery (L)",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11,
-            14,
-            15
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mole_mortar_or_tarantula_or_thudd_gun",
+              "label": "Choice",
+              "min": 15,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -309,10 +521,24 @@
           "name": "Gyrocopter Wing",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            9,
-            13,
-            18
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_iron_eagle_or_steel_hawk_or_war_hawk",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -321,10 +547,24 @@
           "name": "Gyrocopter Wing (M)",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            9,
-            13,
-            18
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_iron_eagle_or_steel_hawk_or_war_hawk",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -333,10 +573,24 @@
           "name": "Gyrocopter Wing (L)",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            9,
-            13,
-            18
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_iron_eagle_or_steel_hawk_or_war_hawk",
+              "label": "Choice",
+              "min": 9,
+              "variants": [
+                {
+                  "upgrade_id": 9
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -345,9 +599,22 @@
           "name": "Guild Robot Squadron",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            2,
-            3
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_colossus_class_robot_or_conqueror_class_robot",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            }
           ]
         },
         {
@@ -356,9 +623,21 @@
           "name": "Guild Squadron",
           "pts": -25,
           "cost_pts": -25,
-          "upgrades": [
-            5,
-            6
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guild_bikers_or_guild_trike",
+              "label": "Choice",
+              "min": 5,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            }
           ]
         },
         {
@@ -367,10 +646,7 @@
           "name": "Guild Squadron (M)",
           "pts": -100,
           "cost_pts": -100,
-          "upgrades": [
-            5,
-            6
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guildmaster_or_guildmaster_with_grand_warlord",
@@ -386,6 +662,19 @@
                   "upgrade_id": 42
                 }
               ]
+            },
+            {
+              "string_id": "loadout_guild_bikers_or_guild_trike",
+              "label": "Choice",
+              "min": 10,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                }
+              ]
             }
           ]
         },
@@ -395,10 +684,7 @@
           "name": "Guild Squadron (L)",
           "pts": -175,
           "cost_pts": -175,
-          "upgrades": [
-            5,
-            6
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_guildmaster_or_guildmaster_with_grand_warlord",
@@ -412,6 +698,19 @@
                 },
                 {
                   "upgrade_id": 42
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_guild_bikers_or_guild_trike",
+              "label": "Choice",
+              "min": 15,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
                 }
               ]
             }
@@ -459,8 +758,19 @@
           "name": "Thunderfire Battery",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": [
-            17
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_thunderfire",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         }
       ]
@@ -500,15 +810,39 @@
           "cost_pts": 275,
           "units": "Land Train",
           "upgrades": [
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
             10,
             4
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_berserker_battlecar_or_dragon_battlecar_or_fire_shield_battlecar_or_skyh",
+              "label": "Choice",
+              "min": 1,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {

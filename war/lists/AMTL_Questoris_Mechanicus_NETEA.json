@@ -16,29 +16,137 @@
           "name": "Questoris",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            100,
-            101,
-            102,
-            103,
-            104,
-            105,
-            140,
-            141,
-            142,
-            143,
-            144,
-            149,
-            145,
-            146,
-            150,
-            151,
-            152,
-            153,
-            154,
-            159,
-            155,
-            156
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_paladin_w_seneschal_questoris_battle_cannon_2_hvy_stubbers_questo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 140
+                },
+                {
+                  "upgrade_id": 141
+                },
+                {
+                  "upgrade_id": 142
+                },
+                {
+                  "upgrade_id": 143
+                },
+                {
+                  "upgrade_id": 144
+                },
+                {
+                  "upgrade_id": 149
+                },
+                {
+                  "upgrade_id": 145
+                },
+                {
+                  "upgrade_id": 146
+                },
+                {
+                  "upgrade_id": 150
+                },
+                {
+                  "upgrade_id": 151
+                },
+                {
+                  "upgrade_id": 152
+                },
+                {
+                  "upgrade_id": 153
+                },
+                {
+                  "upgrade_id": 154
+                },
+                {
+                  "upgrade_id": 159
+                },
+                {
+                  "upgrade_id": 155
+                },
+                {
+                  "upgrade_id": 156
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_knight_paladin_questoris_battle_cannon_2_hvy_stubbers_questoris_shock_la",
+              "label": "Choice",
+              "min": 3,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 100
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                },
+                {
+                  "upgrade_id": 140
+                },
+                {
+                  "upgrade_id": 141
+                },
+                {
+                  "upgrade_id": 142
+                },
+                {
+                  "upgrade_id": 143
+                },
+                {
+                  "upgrade_id": 144
+                },
+                {
+                  "upgrade_id": 149
+                },
+                {
+                  "upgrade_id": 145
+                },
+                {
+                  "upgrade_id": 146
+                },
+                {
+                  "upgrade_id": 150
+                },
+                {
+                  "upgrade_id": 151
+                },
+                {
+                  "upgrade_id": 152
+                },
+                {
+                  "upgrade_id": 153
+                },
+                {
+                  "upgrade_id": 154
+                },
+                {
+                  "upgrade_id": 159
+                },
+                {
+                  "upgrade_id": 155
+                },
+                {
+                  "upgrade_id": 156
+                }
+              ]
+            }
           ]
         }
       ]
@@ -52,12 +160,7 @@
           "name": "Cerastus",
           "pts": 300,
           "cost_pts": 300,
-          "upgrades": [
-            113,
-            114,
-            115,
-            116
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_cerastus_knight_lancer_cerastus_shock_lance_ion_gauntlet_shield_or_ceras",
@@ -74,6 +177,25 @@
                 },
                 {
                   "upgrade_id": 112
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_cerastus_knight_lancer_w_seneschal_cerastrus_shock_lance_ion_gauntlet_sh",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                },
+                {
+                  "upgrade_id": 116
                 }
               ]
             }
@@ -118,13 +240,53 @@
           "name": "Questoris Reliquae",
           "pts": 100,
           "cost_pts": 100,
-          "upgrades": [
-            160,
-            161,
-            165,
-            166,
-            163,
-            164
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_questoris_relic_knight_styrix_volkite_chieroville_rad_cleanser_siege_cla",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 160
+                },
+                {
+                  "upgrade_id": 161
+                },
+                {
+                  "upgrade_id": 165
+                },
+                {
+                  "upgrade_id": 166
+                },
+                {
+                  "upgrade_id": 163
+                },
+                {
+                  "upgrade_id": 164
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_questoris_relic_knight_styrix_w_seneschal_volkite_chieroville_rad_cleans",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 165
+                },
+                {
+                  "upgrade_id": 166
+                },
+                {
+                  "upgrade_id": 163
+                },
+                {
+                  "upgrade_id": 164
+                }
+              ]
+            }
           ]
         },
         {

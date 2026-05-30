@@ -16,23 +16,167 @@
           "pts": 450,
           "cost_pts": 450,
           "units": "Supreme Commander, 12 Infantry, 7 Chimera",
-          "upgrades": [
-            35,
-            27,
-            44,
-            28,
-            45,
-            29,
-            30,
-            31,
-            32,
-            33,
-            48,
-            46,
-            37,
-            34,
-            49,
-            47
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_fire_support_platoon_plus_transpo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_infantry_or_infantry_platoon_plus_transport_6_infantr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_or_snipers_plus_transport_2_snipers_and_1_chimera_or_2_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_ogryns_or_1_ogryns_or_2_ogryns_2_chimera_or_1_ogryns_1_chimera",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_infantry_platoon_6_infantry_or_ta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            }
           ]
         },
         {
@@ -42,23 +186,167 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "Commander, 12 Infantry",
-          "upgrades": [
-            35,
-            27,
-            44,
-            28,
-            45,
-            29,
-            30,
-            31,
-            32,
-            33,
-            48,
-            46,
-            37,
-            34,
-            49,
-            47
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_fire_support_platoon_plus_transpo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_infantry_or_infantry_platoon_plus_transport_6_infantr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_or_snipers_plus_transport_2_snipers_and_1_chimera_or_2_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_ogryns_or_1_ogryns_or_2_ogryns_2_chimera_or_1_ogryns_1_chimera",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_infantry_platoon_6_infantry_or_ta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            }
           ]
         },
         {
@@ -68,23 +356,167 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "Commander, 12 Infantry, 7 Chimera",
-          "upgrades": [
-            35,
-            27,
-            44,
-            28,
-            45,
-            29,
-            30,
-            31,
-            32,
-            33,
-            48,
-            46,
-            37,
-            34,
-            49,
-            47
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_fire_support_platoon_plus_transpo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_infantry_or_infantry_platoon_plus_transport_6_infantr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_or_snipers_plus_transport_2_snipers_and_1_chimera_or_2_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_ogryns_or_1_ogryns_or_2_ogryns_2_chimera_or_1_ogryns_1_chimera",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_infantry_platoon_6_infantry_or_ta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            }
           ]
         },
         {
@@ -93,24 +525,7 @@
           "name": "Tank Company",
           "pts": 650,
           "cost_pts": 650,
-          "upgrades": [
-            35,
-            27,
-            44,
-            28,
-            45,
-            29,
-            30,
-            31,
-            32,
-            33,
-            48,
-            46,
-            37,
-            34,
-            49,
-            47
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_vanquisher",
@@ -136,6 +551,165 @@
                   "upgrade_id": 12
                 }
               ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_fire_support_platoon_plus_transpo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_infantry_or_infantry_platoon_plus_transport_6_infantr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_or_snipers_plus_transport_2_snipers_and_1_chimera_or_2_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_ogryns_or_1_ogryns_or_2_ogryns_2_chimera_or_1_ogryns_1_chimera",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_infantry_platoon_6_infantry_or_ta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
             }
           ]
         },
@@ -145,24 +719,7 @@
           "name": "Super-heavy Tank Company",
           "pts": 500,
           "cost_pts": 500,
-          "upgrades": [
-            35,
-            27,
-            44,
-            28,
-            45,
-            29,
-            30,
-            31,
-            32,
-            33,
-            48,
-            46,
-            37,
-            34,
-            49,
-            47
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_baneblade_or_shadowsword",
@@ -178,6 +735,165 @@
                   "upgrade_id": 15
                 }
               ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_fire_support_platoon_plus_transpo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_infantry_or_infantry_platoon_plus_transport_6_infantr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_or_snipers_plus_transport_2_snipers_and_1_chimera_or_2_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_ogryns_or_1_ogryns_or_2_ogryns_2_chimera_or_1_ogryns_1_chimera",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_infantry_platoon_6_infantry_or_ta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
             }
           ]
         },
@@ -187,24 +903,7 @@
           "name": "Artillery Company",
           "pts": 550,
           "cost_pts": 550,
-          "upgrades": [
-            35,
-            27,
-            44,
-            28,
-            45,
-            29,
-            30,
-            31,
-            32,
-            33,
-            48,
-            46,
-            37,
-            34,
-            49,
-            47
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_basilisk_or_manticore",
@@ -218,6 +917,165 @@
                 },
                 {
                   "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_fire_support_platoon_plus_transpo",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_infantry_or_infantry_platoon_plus_transport_6_infantr",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_squadron_3_leman_russ_or_tank_squadron_3_demolishers",
+              "label": "Squad",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_sniper_or_snipers_plus_transport_2_snipers_and_1_chimera_or_2_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_ogryns_or_1_ogryns_or_2_ogryns_2_chimera_or_1_ogryns_1_chimera",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_support_platoon_4_fire_support_or_infantry_platoon_6_infantry_or_ta",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
                 }
               ]
             }
@@ -244,8 +1102,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "8 Storm Troopers",
-          "upgrades": [
-            36
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_valkyrie_transport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {

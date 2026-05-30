@@ -19,11 +19,27 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "4 Assault units",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -32,12 +48,7 @@
           "name": "Bike",
           "pts": 375,
           "cost_pts": 375,
-          "upgrades": [
-            11,
-            12,
-            13,
-            14
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_bikes_or_attack_bikes",
@@ -53,6 +64,25 @@
                   "upgrade_id": 16
                 }
               ]
+            },
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
             }
           ]
         },
@@ -62,12 +92,7 @@
           "name": "Land Speeder",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11,
-            12,
-            13,
-            14
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
@@ -84,6 +109,25 @@
                 },
                 {
                   "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
                 }
               ]
             }
@@ -104,11 +148,6 @@
           "pts": 0,
           "cost_pts": 0,
           "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19,
             15
           ],
           "loadout_slots": [
@@ -126,6 +165,35 @@
                   "upgrade_id": 27
                 }
               ]
+            },
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
             }
           ]
         },
@@ -137,13 +205,41 @@
           "cost_pts": 150,
           "units": "4 Scouts plus Transport",
           "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            21,
-            22,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_hb_or_razorback_las",
+              "label": "Transport",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -164,14 +260,50 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "6 Tactical units plus Transport",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19,
-            21,
-            22
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_hb_or_razorback_las",
+              "label": "Transport",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -181,11 +313,27 @@
           "pts": 600,
           "cost_pts": 600,
           "units": "4 Terminator units and 4 Land Raiders",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -203,12 +351,37 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "4 Whirlwinds",
-          "upgrades": [
-            11,
-            12,
-            13,
-            14,
-            19
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_captain_or_chaplain_or_librarian_or_supreme_commander",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         }
       ]

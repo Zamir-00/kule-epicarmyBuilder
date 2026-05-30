@@ -22,21 +22,98 @@
           "cost_pts": 300,
           "units": "6 Grey Knights",
           "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            14,
-            15,
-            16,
-            17
+            7
           ],
           "loadout_slots": [
             {
               "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_redeemer",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grand_master_or_librarian_or_brother_captain_or_grand_master_with_paladi",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grey_knights_dreadnought_or_nemesis_dreadknight",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos_or_drop_pods_or_teleport",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_or_stormraven",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stormraven",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_redeemer_2",
               "label": "Choice",
               "max": 4,
               "variants": [
@@ -93,17 +170,69 @@
           "pts": 375,
           "cost_pts": 375,
           "units": "4 Grey Knights Terminators",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            17,
-            18,
-            19,
-            20
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grand_master_or_librarian_or_brother_captain_or_grand_master_with_paladi",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grey_knights_dreadnought_or_nemesis_dreadknight",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_redeemer_or_stormrave",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stormraven",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -113,15 +242,7 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "4 Grey Knights Interceptor",
-          "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            17
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_rhinos_or_drop_pods_or_teleport",
@@ -154,6 +275,93 @@
                   "upgrade_id": 20
                 }
               ]
+            },
+            {
+              "string_id": "loadout_grand_master_or_librarian_or_brother_captain_or_grand_master_with_paladi",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grey_knights_dreadnought_or_nemesis_dreadknight",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos_or_drop_pods_or_teleport_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback_or_stormraven",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_stormraven",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_redeemer_2",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
             }
           ]
         },
@@ -165,20 +373,77 @@
           "cost_pts": 275,
           "units": "4 Grey Knights Purgation plus transports",
           "upgrades": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
             7,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
+            14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grand_master_or_librarian_or_brother_captain_or_grand_master_with_paladi",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grey_knights_dreadnought_or_nemesis_dreadknight",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rhinos_or_razorback_or_stormraven_or_land_raider",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_redeemer",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -187,9 +452,7 @@
           "name": "Grey Knights Land Raider",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            7
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_grand_master_or_librarian_or_brother_captain_or_grand_master_with_paladi",
@@ -225,6 +488,16 @@
                 },
                 {
                   "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 7
                 }
               ]
             }
@@ -327,8 +600,19 @@
           "name": "Thunderhawk Transporters",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": [
-            26
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grey_knights_thunderhawk_transport",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {

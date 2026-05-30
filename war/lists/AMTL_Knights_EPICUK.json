@@ -19,9 +19,7 @@
           "pts": 600,
           "cost_pts": 600,
           "units": "1 Baron, 5 Paladins",
-          "upgrades": [
-            8
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_knight_castellan_or_knight_crusader",
@@ -45,6 +43,16 @@
                   "upgrade_id": 13
                 }
               ]
+            },
+            {
+              "string_id": "loadout_knight_errant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
             }
           ]
         },
@@ -55,10 +63,7 @@
           "pts": 500,
           "cost_pts": 500,
           "units": "6 Paladins",
-          "upgrades": [
-            8,
-            13
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_knight_castellan_or_knight_crusader",
@@ -70,6 +75,26 @@
                 },
                 {
                   "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_knight_errant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
                 }
               ]
             }
@@ -86,10 +111,32 @@
           "name": "Support Household",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            6,
-            7,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_castellan_or_knight_crusader",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -99,8 +146,18 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "3 Lancers",
-          "upgrades": [
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -109,9 +166,29 @@
           "name": "Errant Household",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            8,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_errant",
+              "label": "Choice",
+              "min": 3,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         }
       ]
@@ -144,8 +221,18 @@
           "pts": 125,
           "cost_pts": 125,
           "units": "6 Militia units",
-          "upgrades": [
-            5
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_tractors",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 5
+                }
+              ]
+            }
           ]
         },
         {

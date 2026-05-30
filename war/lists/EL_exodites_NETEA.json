@@ -15,8 +15,19 @@
           "name": "Webway Portal",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            32
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_webway_portal",
+              "label": "Choice",
+              "min": 1,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {
@@ -109,9 +120,22 @@
           "name": "Great Megadons",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            40,
-            41
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sun_spear_megadon_or_thundersaurs",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            }
           ]
         },
         {
@@ -120,8 +144,19 @@
           "name": "Outcast Rangers ",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            21
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_outcast_rangers",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         },
         {
@@ -130,8 +165,19 @@
           "name": "War Walker",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            24
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_war_walkers",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {
@@ -173,6 +219,16 @@
             },
             {
               "string_id": "loadout_heavy_weapon_platforms",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platforms_2",
               "label": "Choice",
               "max": 3,
               "variants": [

@@ -16,15 +16,109 @@
           "pts": 225,
           "cost_pts": 225,
           "units": "Supreme Commander, 9 Siege Infantry",
-          "upgrades": [
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_infantry_platoon_6_siege_infantry",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rapier_platoon_3_rapiers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_light_artillery_platoon_3_light_artillery",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_snipers_or_sniper",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_siege_infantry_or_rapier_platoon_3_rapiers_or_light_a",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fortifications_50cm_trenches_or_razor_wire_plus_up_to_6_gun_emplacements",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         },
         {
@@ -34,15 +128,109 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "Commander, 9 Siege Infantry",
-          "upgrades": [
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_infantry_platoon_6_siege_infantry",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rapier_platoon_3_rapiers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_light_artillery_platoon_3_light_artillery",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hellhound_squadron_3_hellhounds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_griffon_battery_3_griffons",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_snipers_or_sniper",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_infantry_platoon_6_siege_infantry_or_rapier_platoon_3_rapiers_or_light_a",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fortifications_50cm_trenches_or_razor_wire_plus_up_to_6_gun_emplacements",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         }
       ]

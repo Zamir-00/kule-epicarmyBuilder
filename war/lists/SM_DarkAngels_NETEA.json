@@ -16,44 +16,7 @@
           "units": "6 Tacticals plus Transport",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            13,
-            14,
-            16,
-            17,
-            19,
-            31
-          ]
-        },
-        {
-          "string_id": "land_raiders",
-          "id": 532,
-          "name": "Land Raiders",
-          "units": "3 Land Raiders",
-          "pts": 250,
-          "cost_pts": 250,
-          "upgrades": [
-            13,
-            14,
-            16,
-            30
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Dark Angles Support Detachments (Three Support Detachments may be taken for each Core Detachment)",
-      "formations": [
-        {
-          "string_id": "scout_infiltrators",
-          "id": 502,
-          "name": "Scout Infiltrators",
-          "units": "4 Space Marine Sniper Scouts, 2 Rhinos",
-          "pts": 200,
-          "cost_pts": 200,
-          "upgrades": [
-            17
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
@@ -71,6 +34,140 @@
                 },
                 {
                   "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dark_angels_razorback",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_mortis_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_dark_angels_stalkers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "string_id": "land_raiders",
+          "id": 532,
+          "name": "Land Raiders",
+          "units": "3 Land Raiders",
+          "pts": 250,
+          "cost_pts": 250,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_tacticals",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Angles Support Detachments (Three Support Detachments may be taken for each Core Detachment)",
+      "formations": [
+        {
+          "string_id": "scout_infiltrators",
+          "id": 502,
+          "name": "Scout Infiltrators",
+          "units": "4 Space Marine Sniper Scouts, 2 Rhinos",
+          "pts": 200,
+          "cost_pts": 200,
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dark_angels_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17
                 }
               ]
             }
@@ -103,6 +200,25 @@
                   "upgrade_id": 16
                 }
               ]
+            },
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste_2",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
             }
           ]
         },
@@ -113,12 +229,57 @@
           "units": "4 Dark Angels Devastators plus Transport",
           "pts": 250,
           "cost_pts": 250,
-          "upgrades": [
-            13,
-            14,
-            17,
-            19,
-            31
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dark_angels_razorback",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_mortis_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_dark_angels_stalkers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -130,8 +291,19 @@
           "cost_pts": 200,
           "upgrades": [
             13,
-            14,
-            31
+            14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_dark_angels_stalkers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -141,10 +313,37 @@
           "units": "3 Land Raider Ares",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            13,
-            14,
-            20
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -154,8 +353,18 @@
           "units": "4 Whirlwinds",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": [
-            29
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         }
       ]
@@ -170,12 +379,37 @@
           "units": "4 Deathwing Terminators",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": [
-            13,
-            14,
-            15,
-            16,
-            22
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_deathwing_land_raiders",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -185,12 +419,7 @@
           "units": "1x Ravenwing Black Knights, 3x Ravenwing Land Speeder",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": [
-            13,
-            14,
-            15,
-            16
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_ravenwing_bikes_or_ravenwing_attack_bike",
@@ -204,6 +433,25 @@
                 },
                 {
                   "upgrade_id": 26
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
                 }
               ]
             }
@@ -221,9 +469,27 @@
           "units": "4 Deathwing Cyclone Terminators",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": [
-            13,
-            14
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -264,8 +530,18 @@
           "units": "4 Predator Executioners, 3 Deimos Vindicator Laser Destroyers",
           "pts": 400,
           "cost_pts": 400,
-          "upgrades": [
-            29
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_hunters",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {
@@ -274,8 +550,19 @@
           "name": "Relic Glaive",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            34
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_glaive",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         }
       ]
@@ -307,8 +594,19 @@
           "name": "Thunderhawk Transporter",
           "pts": 50,
           "cost_pts": 50,
-          "upgrades": [
-            21
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_thunderhawk_transporter",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         },
         {

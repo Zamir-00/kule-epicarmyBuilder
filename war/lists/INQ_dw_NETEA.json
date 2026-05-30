@@ -21,25 +21,10 @@
           "pts": 50,
           "cost_pts": 50,
           "upgrades": [
-            1,
-            2,
-            3,
-            4,
             5,
-            15,
-            16,
             23,
             24,
-            25,
-            33,
-            34,
-            35,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46
+            25
           ],
           "loadout_slots": [
             {
@@ -57,6 +42,100 @@
                   "upgrade_id": 20
                 }
               ]
+            },
+            {
+              "string_id": "loadout_veteran_or_watch_sergeant_or_black_shield_or_watch_terminator_or_assault",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_watch_master_or_librarian_or_captain_or_chaplain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_watch_master",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2x_land_raider_or_2x_land_raider_crusader_or_2x_land_raider_redeemer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_drop_pods_or_rhinos",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_razorback",
+              "label": "Choice",
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
             }
           ]
         },
@@ -67,11 +146,7 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "",
-          "upgrades": [
-            2,
-            3,
-            4
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_landspeeder_tornado_or_landspeeder_typhoon",
@@ -85,6 +160,25 @@
                 },
                 {
                   "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_watch_master_or_librarian_or_captain_or_chaplain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                },
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                },
+                {
+                  "upgrade_id": 4
                 }
               ]
             }
@@ -164,9 +258,7 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "8 Inquisitorial Storm Trooper, 4 Chimeras",
-          "upgrades": [
-            36
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_4_valkyries_or_4_chimeras",
@@ -178,6 +270,16 @@
                 },
                 {
                   "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hydra",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
                 }
               ]
             }

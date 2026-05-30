@@ -34,10 +34,8 @@
           "units": "Farseer",
           "upgrades": [
             40,
-            69,
             30,
-            41,
-            39
+            41
           ],
           "loadout_slots": [
             {
@@ -97,6 +95,26 @@
                   "upgrade_id": 25
                 }
               ]
+            },
+            {
+              "string_id": "loadout_69",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
             }
           ]
         },
@@ -107,11 +125,51 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "8 howling Banshees",
-          "upgrades": [
-            30,
-            41,
-            39,
-            40
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_exarch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_falcon",
+              "label": "Choice",
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wave_serpent",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_exarch_or_hag_seer_autarch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39
+                },
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         }
       ]
@@ -127,9 +185,22 @@
           "cost_pts": 175,
           "units": "Farseer, 3 Guardian units, 4 wraithguards",
           "upgrades": [
-            40,
-            65,
-            59
+            40
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_wave_serpents_or_3_wraithlords",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            }
           ]
         },
         {
@@ -178,9 +249,22 @@
           "name": "Relic hunter Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            11,
-            13
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ranger_or_war_walker",
+              "label": "Choice",
+              "min": 4,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -266,10 +350,25 @@
           "name": "Engine of Vaul Troupe",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            34,
-            35,
-            36
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cobra_or_scorpion_or_storm_serpent",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         }
       ]

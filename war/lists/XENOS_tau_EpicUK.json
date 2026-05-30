@@ -41,16 +41,72 @@
           "pts": 225,
           "cost_pts": 225,
           "upgrades": [
-            62,
-            63,
-            60,
             35,
             80,
             81,
-            82,
-            61,
-            54,
-            55
+            82
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ethereal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinders_1_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_piranhas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 62
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_xv88_broadsides",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            }
           ]
         }
       ]
@@ -67,8 +123,19 @@
           "upgrades": [
             87,
             88,
-            89,
-            55
+            89
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            }
           ]
         },
         {
@@ -89,9 +156,28 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "Kroot Master Shaper",
-          "upgrades": [
-            58,
-            59
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_kroot_hound_packs",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox_herds",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 59
+                }
+              ]
+            }
           ]
         },
         {
@@ -102,8 +188,19 @@
           "cost_pts": 200,
           "units": "4 Pathfinders, 2 Devilfish",
           "upgrades": [
-            35,
-            54
+            35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_piranhas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -113,8 +210,7 @@
           "pts": 175,
           "cost_pts": 175,
           "upgrades": [
-            35,
-            54
+            35
           ],
           "loadout_slots": [
             {
@@ -129,6 +225,16 @@
                 },
                 {
                   "upgrade_id": 26
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_piranhas",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
                 }
               ]
             }
@@ -199,8 +305,18 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "2 Tiger Sharks",
-          "upgrades": [
-            75
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            }
           ]
         },
         {

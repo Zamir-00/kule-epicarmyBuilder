@@ -57,12 +57,23 @@
           "cost_pts": 200,
           "upgrades": [
             71,
-            51,
             61,
             70,
             76
           ],
-          "units": "6 Warriors"
+          "units": "6 Warriors",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_51",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "kabal_flotilla",
@@ -87,12 +98,23 @@
           "cost_pts": 250,
           "units": "2 Haemonculi, 4 Wracks",
           "upgrades": [
-            22,
             71,
             60,
             73,
             70,
             76
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ancient",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -116,9 +138,20 @@
           "upgrades": [
             71,
             75,
-            18,
             70,
             76
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_succubus",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -128,8 +161,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6 Hellions",
-          "upgrades": [
-            18
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_succubus",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -139,8 +182,18 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6 Reavers",
-          "upgrades": [
-            18
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_succubus",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {

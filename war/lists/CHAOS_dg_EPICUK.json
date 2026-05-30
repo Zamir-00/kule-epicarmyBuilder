@@ -19,27 +19,132 @@
           "pts": 300,
           "cost_pts": 300,
           "upgrades": [
-            53,
-            67,
-            68,
-            69,
-            54,
-            70,
-            71,
-            60,
-            52,
-            56,
-            64,
-            65,
-            72,
-            73,
-            63,
-            74,
-            75,
-            57,
-            76,
-            77,
             66
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_contagion_engine_or_2_contagion_engines_or_3_contagion_engines",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_defiler_or_2_death_guard_defilers_or_3_death_guard_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_tower",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                }
+              ]
+            }
           ]
         },
         {
@@ -65,20 +170,89 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "4 Terminators",
-          "upgrades": [
-            52,
-            63,
-            74,
-            75,
-            53,
-            67,
-            68,
-            69,
-            56,
-            60,
-            57,
-            76,
-            77
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_defiler_or_2_death_guard_defilers_or_3_death_guard_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_icon_bearer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_champion",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -88,10 +262,24 @@
           "pts": 275,
           "cost_pts": 275,
           "units": "4 Defilers",
-          "upgrades": [
-            63,
-            74,
-            75
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dreadnought_or_2_dreadnoughts_or_3_dreadnoughts",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            }
           ]
         }
       ]
@@ -115,14 +303,50 @@
           "pts": 325,
           "cost_pts": 325,
           "units": "4 Contagion Engines",
-          "upgrades": [
-            65,
-            72,
-            73,
-            64,
-            57,
-            76,
-            77
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_contagion_engine_or_2_contagion_engines_or_3_contagion_engines",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_defiler_or_2_death_guard_defilers_or_3_death_guard_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plague_tower",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                }
+              ]
+            }
           ]
         },
         {
@@ -131,14 +355,51 @@
           "name": "Plague Reapers",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            37,
-            57,
-            76,
-            77,
-            65,
-            72,
-            73
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_contagion_engine_or_2_contagion_engines_or_3_contagion_engines",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_defiler_or_2_death_guard_defilers_or_3_death_guard_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plaguereaper",
+              "label": "Choice",
+              "min": 1,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
           ]
         },
         {
@@ -148,8 +409,18 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "6 Chaos Marines, 3 Rhinos",
-          "upgrades": [
-            56
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_daemonic_pact_includes_1_lesser_daemon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         },
         {
@@ -158,15 +429,54 @@
           "name": "Armoured Company",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": [
-            28,
-            29,
-            54,
-            70,
-            71,
-            57,
-            76,
-            77
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_guard_defiler_or_2_death_guard_defilers_or_3_death_guard_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 77
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_28_or_29",
+              "label": "Choice",
+              "min": 4,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {

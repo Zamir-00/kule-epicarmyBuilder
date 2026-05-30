@@ -17,17 +17,84 @@
           "cost_pts": 225,
           "upgrades": [
             14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
             33,
             34,
             35,
             50,
             51
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guerriers",
+              "label": "Choice",
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_guerriers_2",
+              "label": "Choice",
+              "min": 7,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_seigneur_de_guerre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_anc_tre_vivant",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gardes_du_foyer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_tonnerres",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_guerriers_suppl_eacute_mentaire",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -38,12 +105,43 @@
           "cost_pts": 200,
           "upgrades": [
             14,
-            23,
-            24,
             37,
             38,
             39,
             50
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_berserkers",
+              "label": "Choice",
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_berserkers_2",
+              "label": "Choice",
+              "min": 7,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_4_berserkers_suppl_eacute_mentaires",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         }
       ]
@@ -59,11 +157,22 @@
           "cost_pts": 225,
           "upgrades": [
             26,
-            27,
             33,
             34,
             35,
             50
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_tonnerres_suppl_eacute_mentaires",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {
@@ -81,12 +190,7 @@
           "name": "Escadron de la Guilde",
           "pts": 175,
           "cost_pts": 175,
-          "upgrades": [
-            46,
-            47,
-            48,
-            49
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_motos_or_trikes",
@@ -100,6 +204,32 @@
                 },
                 {
                   "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_motos_suppl_eacute_mentaires_or_1_motos_et_1_trike_suppl_eacute_mentai",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_ma_icirc_tre_de_guilde",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 49
                 }
               ]
             }
@@ -120,11 +250,34 @@
           "name": "Grande Batterie",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": [
-            29,
-            30,
-            31,
-            52
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_mortier_taupes_or_6_thudd_guns_or_6_tarentules",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_canon_foudre",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
           ]
         },
         {
@@ -157,11 +310,27 @@
           "pts": 850,
           "cost_pts": 850,
           "units": "1 Locomotive, 3 Wagons Berserker",
-          "upgrades": [
-            41,
-            42,
-            43,
-            44
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wagon_berserker_or_wagon_bombardier_or_wagon_dragon_or_wagon_mortier",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            }
           ]
         },
         {
@@ -189,8 +358,18 @@
           "pts": 400,
           "cost_pts": 400,
           "units": "2 Goliaths",
-          "upgrades": [
-            52
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_canon_foudre",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
           ]
         },
         {

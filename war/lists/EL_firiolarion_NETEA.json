@@ -32,9 +32,7 @@
           "units": "1 Warlock Titan",
           "pts": 825,
           "cost_pts": 825,
-          "upgrades": [
-            31
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_titan_pulsar_or_power_fist_or_psychic_lance_or_fusion_lance_or_tremor_ca",
@@ -88,6 +86,19 @@
                   "upgrade_id": 13
                 }
               ]
+            },
+            {
+              "string_id": "loadout_titan_exarch_or_bonesinger",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
             }
           ]
         },
@@ -98,10 +109,7 @@
           "units": "1 Phantom Titan",
           "pts": 750,
           "cost_pts": 750,
-          "upgrades": [
-            31,
-            30
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_titan_pulsar_or_power_fist_or_fusion_lance_or_tremor_cannon_or_titan_d_c",
@@ -140,6 +148,19 @@
               "variants": [
                 {
                   "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_titan_exarch_or_bonesinger",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
                 }
               ]
             }
@@ -244,15 +265,30 @@
           "name": "Wraithlord Troupe",
           "pts": -150,
           "cost_pts": -150,
-          "upgrades": [
-            50
-          ],
+          "upgrades": [],
           "loadout_slots": [
             {
               "string_id": "loadout_wraithseer",
               "label": "Choice",
               "max": 1,
               "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wraithlord_harrier_or_wraithlord_harbringer_or_wraithseer",
+              "label": "Choice",
+              "min": 4,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
                 {
                   "upgrade_id": 52
                 }
