@@ -39,6 +39,16 @@ export interface ConstraintViolation {
   message: string;
   // Which constraint produced this (for grouping/dedup in UI).
   constraint: CatalogFormationConstraint | CatalogUpgradeConstraint;
+  // Formation instance_ids that contribute to this violation. Used by the
+  // FormationCard tint logic in §3 to highlight cards the user can act on.
+  // - Army-wide formation-count violations: every instance of the formation
+  //   type(s) in `from`.
+  // - forEach violations: instances of the constrained type, not the denominator.
+  // - Per-army upgradeConstraint violations: every instance that selected the
+  //   upgrade in question.
+  // - Per-formation violations (loadout slot min, per-formation upgrade caps):
+  //   the single offending instance.
+  contributingInstanceIds?: string[];
   // Optional severity hint. For future use; defaults to 'warning'.
   severity?: 'warning' | 'info';
 }
@@ -147,7 +157,28 @@ Four button surfaces gain constraint-awareness:
 
 **Where the checks live:** all `can*` functions imported from `apps/web/src/stores/constraints.ts`. Call sites all in `build.$listId.tsx`.
 
-**Loaded-invalid-list edge case:** when a saved list is already invalid, banner shows the violations on render. Remove buttons stay enabled (so the user can fix by removing). Add buttons that would worsen the violation stay disabled. No "fix it" wizard. Same as legacy.
+**Per-card visual tint** (NEW — was originally out-of-scope, folded in):
+
+Each `FormationCard` consults `evaluateAll(...)` (memoized one call up in `BuilderUI`) and checks whether its `instance.instance_id` appears in any violation's `contributingInstanceIds`. If yes, the card's outer `<li>` gets a destructive border + faint background tint:
+
+```tsx
+const cardViolations = allViolations.filter((v) =>
+  v.contributingInstanceIds?.includes(instance.instance_id)
+);
+const tinted = cardViolations.length > 0;
+
+<li className={[
+  'rounded-md border bg-card p-3 break-inside-avoid',
+  tinted ? 'border-destructive/40 bg-destructive/5' : '',
+  'print:hidden:false',  // keep tint visible in print too — debatable; opt out if it's distracting on paper
+].filter(Boolean).join(' ')}>
+```
+
+The tint surfaces *which* formations the user should act on, not just *that* the list is invalid. For per-army constraints (e.g. "max 3 Hydra across army; you have 4"), every formation carrying a Hydra upgrade is tinted — making it obvious where to subtract from.
+
+**Print treatment:** the tint is also visible in print/PDF by default. If real users find this distracting on paper, change to `print:bg-transparent print:border-border` — but defaulting to "tint in print too" makes printed evidence-of-violation more readable.
+
+**Loaded-invalid-list edge case:** when a saved list is already invalid, banner shows the violations on render. Remove buttons stay enabled (so the user can fix by removing). Add buttons that would worsen the violation stay disabled. Affected formation cards tint immediately. No "fix it" wizard. Same as legacy.
 
 **Performance:** picker re-evaluates `canAddFormation` for every visible formation on every render — ~1,000 ops/render in big lists. Small; no memoization needed initially. If profiling shows it's a hotspot, wrap in `useMemo`.
 
@@ -258,7 +289,8 @@ return {
 2. For each `formationConstraint` in the list catalog: pick its evaluator(s), run with the snapshot, collect violations.
 3. For each formation instance, for each `upgradeConstraint` that `appliesTo` this formation's type: pick evaluators, run with per-instance OR army-wide scope, collect violations.
 4. Add loadout-slot min violations (moved-in logic).
-5. Return flat list (banner formatter groups + dedupes).
+5. **Populate `contributingInstanceIds`** on each violation per the attribution rules in the `ConstraintViolation` doc (§1). Implementation: each evaluator returns the violation; the coordinator decorates with the instance_ids based on the constraint's `from` field + the formation-type/upgrade-string-id lookups already in the snapshot.
+6. Return flat list (banner formatter groups + dedupes; FormationCard filters by instance_id for per-card tinting).
 
 `canAddFormation(formationStringId, state, catalog)`:
 1. Clone the snapshot adjusted "as if this formation were added".
@@ -293,6 +325,12 @@ Minimal catalog fixture with mixed formation + upgrade constraints. Verify:
 - Mix of `perArmy` and per-formation upgrade caps surface correctly.
 - Loadout-slot min violation still appears (the moved-in logic).
 - Same constraint affecting multiple formations produces multiple violations (banner dedup is the banner's job).
+- **`contributingInstanceIds` populated per the §1 attribution rules:**
+  - Army-wide formation max=1 with 2 instances → violation includes both `instance_id`s.
+  - Per-army upgrade cap exceeded → violation includes every instance carrying that upgrade.
+  - Per-formation upgrade violation → violation includes only that one instance.
+  - Loadout-slot min violation → violation includes only the owning instance.
+  - forEach violation → violation includes constrained-type instances only (not the denominator).
 
 **3. `canAdd*` / `canRemove*` block tests**:
 
@@ -304,11 +342,11 @@ Iterates every `war/lists/*.json`, builds a minimal state with no formations, ca
 
 **5. Manual smoke test** (documented; not automated):
 
-1. Build a Skitarii list. Add 2 Centurio Ordinatus formations + 0 Core formations → banner shows the forEach violation; "Add Centurio" button becomes disabled.
-2. Add 1 Core formation → "Add Centurio" re-enables.
-3. Add an army-cap-violating upgrade (e.g. 4 Hydra when max is 3 across army) → banner shows the per-army cap violation; 4th Hydra checkbox is disabled.
-4. Save at 2000 pts target with 2500 pts → over-points violation in banner.
-5. Print preview should NOT show the banner (it's `print:hidden`, same as today).
+1. Build a Skitarii list. Add 2 Centurio Ordinatus formations + 0 Core formations → banner shows the forEach violation; "Add Centurio" button becomes disabled; **both Centurio formation cards get the destructive tint** (red border + faint bg).
+2. Add 1 Core formation → "Add Centurio" re-enables; Centurio cards lose their tint.
+3. Add an army-cap-violating upgrade (e.g. 4 Hydra when max is 3 across army) → banner shows the per-army cap violation; 4th Hydra checkbox is disabled; **every formation card carrying a Hydra is tinted**.
+4. Save at 2000 pts target with 2500 pts → over-points violation in banner (no per-card tint — points-target violation isn't attributable to a specific formation).
+5. Print preview should NOT show the banner (it's `print:hidden`, same as today). **Per-card tints DO show in print** by default (debatable; spec defaults to "visible in print" so the PDF surfaces issues).
 
 **Out of scope for tests:**
 
@@ -324,8 +362,7 @@ Iterates every `war/lists/*.json`, builds a minimal state with no formations, ca
 
 1. **Server-side constraint enforcement.** Decided in brainstorming — client-side only.
 2. **Auto-fix / repair flows.** User reads the banner, fixes manually.
-3. **Visual tint on formations contributing to a violation.** Yellow banner + disabled buttons cover the core need; tints are polish for follow-up.
-4. **Constraint metadata audit.** Many constraints lack `name` fields, so `friendlyName(from)` falls back to upgrade/formation names. Improving constraint names is a separate data-cleanup spec.
+3. **Constraint metadata audit.** Many constraints lack `name` fields, so `friendlyName(from)` falls back to upgrade/formation names. Improving constraint names is a separate data-cleanup spec.
 5. **Mandatory-formation auto-add hint.** No "+ Add required X" button on empty lists. Banner just shows the missing requirement.
 6. **shadcn Tooltip primitive.** Tooltips use plain `title=` for v1.
 7. **Banner pagination/collapse.** Banner grows to fit.
@@ -344,7 +381,7 @@ Iterates every `war/lists/*.json`, builds a minimal state with no formations, ca
 
 **Follow-up specs:**
 
-1. Constraint-aware UX polish — red-tint on contributing formations, shadcn Tooltip primitive, banner refinements.
+1. Constraint-aware UX polish — shadcn Tooltip primitive, banner refinements (red-tint on contributing formations is now in scope, see §3).
 2. Mandatory-formations auto-add hint UI.
 3. Constraint metadata audit — fill in missing `name` fields.
 4. Stage-4 mobile — constraint UI is touch-compatible (disabled buttons + `title=` work on touch).
