@@ -31,12 +31,20 @@ test('high-confidence up-to-N: emits loadout_slot without default', async () => 
   assert.strictEqual(report[0].tier, 'high');
 });
 
-test('medium-confidence (variant in formation.upgrades[]): no transform, report row emitted', async () => {
+test('overlap with formation.upgrades[]: removes variants from upgrades[], applies loadout with no default', async () => {
   const { json, report } = await runTransform('medium-overlap-input.json');
-  const original = JSON.parse(fs.readFileSync(path.join(FIX, 'medium-overlap-input.json'), 'utf8'));
-  assert.deepStrictEqual(json, original);
+  const formation = json.sections[0].formations[0];
+  // The overlapping variant (id 10) was filtered out of formation.upgrades[]; non-overlap ids stay.
+  assert.deepStrictEqual(formation.upgrades, []);
+  // A loadout_slot was added.
+  assert.strictEqual((formation.loadout_slots || []).length, 1);
+  // Forced no-default to preserve the cost invariant even though min >= 1.
+  assert.ok(!formation.loadout_slots[0].variants.some((v) => v.is_default === true));
+  // Report classifies the constraint as high and surfaces the upgrades-filtered metadata.
   assert.strictEqual(report.length, 1);
-  assert.strictEqual(report[0].tier, 'medium');
+  assert.strictEqual(report[0].tier, 'high');
+  assert.ok(report[0].overlapRemovedFromUpgrades);
+  assert.deepStrictEqual(report[0].overlapRemovedFromUpgrades['1'], [10]);
 });
 
 test('skip silently: min=max=1 is migrate-swaps territory', async () => {
