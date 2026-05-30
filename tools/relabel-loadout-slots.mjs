@@ -44,9 +44,15 @@ function deriveLabel(variantNames) {
   if (variantNames.length >= 2 && isAll(/\bwith\b/i)) {
     const head = variantNames[0].split(/\bwith\b/i)[0].trim();
     if (head && variantNames.every((n) => n.toLowerCase().startsWith(head.toLowerCase()))) {
-      // Return a short noun for the loadout, e.g. "Minorus loadout"
-      // Strip leading articles + a/the/an and trailing "s" to get a clean noun.
-      const cleanHead = head.replace(/\s+$/, '').replace(/^(the|a|an)\s+/i, '');
+      // Clean up the head noun: strip leading articles (the/a/an) and any trailing
+      // punctuation/whitespace that the split may have left behind. E.g. without this,
+      // "Oddboy (with Big Shoota" → split → "Oddboy (" → label "Oddboy ( loadout" (ugly).
+      const cleanHead = head
+        .replace(/^(the|a|an)\s+/i, '')
+        .replace(/[\s(\[{<,\-–—:]+$/, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      if (!cleanHead) return null;
       return `${cleanHead} loadout`;
     }
   }
