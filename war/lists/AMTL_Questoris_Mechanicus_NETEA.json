@@ -57,6 +57,26 @@
             114,
             115,
             116
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_cerastus_knight_lancer_cerastus_shock_lance_ion_gauntlet_shield_or_ceras",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 110,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 112
+                }
+              ]
+            }
           ]
         }
       ]
@@ -113,7 +133,24 @@
           "name": "Acastus Reliquae",
           "pts": 75,
           "cost_pts": 75,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_acastus_knight_porphyrion_w_seneschal_2_magna_lascannons_2_autocannons_h",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 164,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 163
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -135,7 +172,24 @@
           "name": "Dune Crawlers",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_onager_dune_crawler_with_eradication_beamer_or_onager_dune_crawler_with_",
+              "label": "Onager Dune Crawler loadout",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 170,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 171
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "thunderbolt_squadron",

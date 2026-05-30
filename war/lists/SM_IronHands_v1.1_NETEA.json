@@ -43,6 +43,18 @@
             23,
             24,
             25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bionics",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                }
+              ]
+            }
           ]
         },
         {

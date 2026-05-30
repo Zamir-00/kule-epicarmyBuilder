@@ -120,6 +120,23 @@
             56,
             57,
             44
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_baneblade_or_shadowsword",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 16,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -142,6 +159,23 @@
             56,
             57,
             44
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_basilisk_or_manticore",
+              "label": "Choice",
+              "min": 9,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 22,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         }
       ]

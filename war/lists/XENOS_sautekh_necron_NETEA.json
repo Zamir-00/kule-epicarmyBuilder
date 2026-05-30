@@ -50,6 +50,20 @@
             25,
             7,
             5
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sautekh_warrior_unit",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -108,6 +122,23 @@
           "cost_pts": 300,
           "upgrades": [
             1
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_destroyer_or_heavy_destroyer",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 57,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            }
           ]
         },
         {

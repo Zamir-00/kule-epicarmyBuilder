@@ -60,6 +60,23 @@
             30,
             33,
             34
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_leman_russ_or_vanquisher",
+              "label": "Choice",
+              "min": 10,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -77,6 +94,23 @@
             30,
             33,
             34
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_baneblade_or_shadowsword",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         }
       ]

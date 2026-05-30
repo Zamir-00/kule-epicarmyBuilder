@@ -29,6 +29,26 @@
             109,
             110,
             117
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hypaspist_or_corpuscarii_electro_priest_or_secutor",
+              "label": "Choice",
+              "min": 10,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 121,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 122
+                },
+                {
+                  "upgrade_id": 123
+                }
+              ]
+            }
           ]
         },
         {

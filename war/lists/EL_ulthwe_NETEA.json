@@ -46,6 +46,49 @@
             59,
             53,
             54
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_add_2_guaridans_or_add_4_guardians_or_add_3_guardians_and_1_heady_weapon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_farseer_or_seer_council",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1x_guardians_and_1x_heavy_weapon_platform",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         }
       ]
@@ -63,6 +106,41 @@
             52,
             53,
             54
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_w",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 18,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {
@@ -91,7 +169,24 @@
           "name": "Windrider Troupe",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_jetbike_or_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 33,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "swords_of_vaul_troupe",

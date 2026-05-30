@@ -53,6 +53,23 @@
             45,
             46,
             50
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 7,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {
@@ -62,7 +79,24 @@
           "pts": 350,
           "cost_pts": 350,
           "units": "Farseer, 4 Wave Serpents",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 7,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -90,6 +124,41 @@
             39,
             41,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_w",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -108,7 +177,24 @@
           "name": "Windrider Troupe",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_jetbike_or_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "swords_of_vaul_troupe",

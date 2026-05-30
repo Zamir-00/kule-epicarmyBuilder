@@ -40,6 +40,20 @@
           "cost_pts": 20,
           "upgrades": [
             1
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_shining_spears",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -51,6 +65,23 @@
           "upgrades": [
             2,
             3
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 10,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -62,6 +93,23 @@
           "upgrades": [
             2,
             3
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
+              "label": "Choice",
+              "min": 9,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 10,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -73,6 +121,23 @@
           "upgrades": [
             2,
             3
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
+              "label": "Choice",
+              "min": 12,
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 10,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         }
       ]
@@ -90,6 +155,38 @@
             19,
             23,
             1
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_reapers_or_dire_avengers_or_fire_dragons_or_howling_banshees_or_str",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 4,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 5
+                },
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 9
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -112,6 +209,45 @@
           "cost_pts": 10,
           "upgrades": [
             2
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 7,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platform",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wave_serpent",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -122,6 +258,57 @@
           "cost_pts": 15,
           "upgrades": [
             2
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 7,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platform",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wraithguard",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_wave_serpent",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -147,7 +334,34 @@
           "id": 190,
           "name": "Scout Rider",
           "pts": 20,
-          "cost_pts": 20
+          "cost_pts": 20,
+          "loadout_slots": [
+            {
+              "string_id": "loadout_saim_hann_jetbikes_or_saim_hann_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 10,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_saim_hann_vyper",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "swords_of_vaul",

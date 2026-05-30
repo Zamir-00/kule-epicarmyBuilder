@@ -62,7 +62,27 @@
           "name": "Recon Cadre",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tetra_or_piranha_or_piranha_tx42",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "scorpionfish_cadre",

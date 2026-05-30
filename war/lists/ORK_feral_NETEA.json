@@ -25,6 +25,30 @@
             58,
             61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 39,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -43,6 +67,30 @@
             58,
             61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 12,
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 39,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -61,6 +109,30 @@
             58,
             61,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_boyz",
+              "label": "Choice",
+              "min": 18,
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 39,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {

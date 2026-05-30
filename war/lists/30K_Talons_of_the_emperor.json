@@ -68,6 +68,21 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tribune_or_senior_officer_shield_captain",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 2
+                },
+                {
+                  "upgrade_id": 3
+                }
+              ]
+            }
           ]
         }
       ]
@@ -117,6 +132,34 @@
             102,
             2,
             3
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_aquilion_terminators_w_lastrum_stormbolter_and_solarite_power_gauntlet_o",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 33,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            }
           ]
         },
         {
@@ -171,7 +214,27 @@
           "name": "Kataphraktoi Detachment",
           "pts": 525,
           "cost_pts": 525,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_custodes_agamatus_units_w_lastrum_boltcannon_or_custodes_agamatus_units_",
+              "label": "Custodes type",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 55,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -215,6 +278,38 @@
           "upgrades": [
             101,
             102
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_custodian_guard_or_aquilion_terminators_w_lastrum_stormbolter_and_solari",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 70,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                },
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            }
           ]
         },
         {

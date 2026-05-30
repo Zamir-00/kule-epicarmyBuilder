@@ -236,6 +236,23 @@
             91,
             95,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battlefortress_or_gunfortress",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -252,6 +269,23 @@
             91,
             95,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battlefortress_or_gunfortress",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -268,6 +302,23 @@
             91,
             95,
             110
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battlefortress_or_gunfortress",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         }
       ]

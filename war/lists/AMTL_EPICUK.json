@@ -19,6 +19,102 @@
             10,
             11,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_quake_cannon_or_volcano_cannon_or_plasma_destructor_or_deathstrike_missi",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gatling_blaster_or_turbo_laser_destructor_or_plasma_cannon_or_multiple_r",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 60,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -31,6 +127,65 @@
           "upgrades": [
             11,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gatling_blaster_or_turbo_laser_destructor_or_plasma_cannon_or_multiple_r",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 60,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -42,6 +197,32 @@
           "units": "2 Warhound Scout Titans",
           "upgrades": [
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vulcan_mega_bolter_or_rocket_launcher_or_scout_turbo_laser_or_plasma_bla",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 64,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
           ]
         },
         {
@@ -53,6 +234,32 @@
           "units": "1 Warhound Scout Titan",
           "upgrades": [
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vulcan_mega_bolter_or_rocket_launcher_or_scout_turbo_laser_or_plasma_bla",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 64,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
           ]
         }
       ]

@@ -20,6 +20,19 @@
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hearthguard",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 8,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -33,6 +46,19 @@
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hearthguard",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 8,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -46,6 +72,19 @@
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hearthguard",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 8,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -119,6 +158,32 @@
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hearthguard_or_warlord_or_warlord_with_grand_warlord_or_warlord_with_gra",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 8,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -133,6 +198,32 @@
             28,
             29,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hearthguard_or_warlord_or_warlord_with_grand_warlord_or_warlord_with_gra",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 8,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 40
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         }
       ]
@@ -279,6 +370,23 @@
           "upgrades": [
             5,
             6
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guildmaster_or_guildmaster_with_grand_warlord",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 7,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            }
           ]
         },
         {
@@ -290,6 +398,23 @@
           "upgrades": [
             5,
             6
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guildmaster_or_guildmaster_with_grand_warlord",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 7,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            }
           ]
         },
         {

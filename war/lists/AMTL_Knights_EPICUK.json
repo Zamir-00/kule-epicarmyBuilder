@@ -21,6 +21,31 @@
           "units": "1 Baron, 5 Paladins",
           "upgrades": [
             8
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_castellan_or_knight_crusader",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_seneschal",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -33,6 +58,21 @@
           "upgrades": [
             8,
             13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_knight_castellan_or_knight_crusader",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 6
+                },
+                {
+                  "upgrade_id": 7
+                }
+              ]
+            }
           ]
         }
       ]

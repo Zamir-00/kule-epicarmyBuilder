@@ -56,6 +56,41 @@
             42,
             39,
             40
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avengers_or_striking_scorpions_or_howling_banshees_or_fire_dragons_",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         }
       ]
@@ -74,6 +109,41 @@
             41,
             39,
             40
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avengers_or_striking_scorpions_or_howling_banshees_or_fire_dragons_",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -87,6 +157,41 @@
             41,
             39,
             40
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avengers_or_striking_scorpions_or_howling_banshees_or_fire_dragons_",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -158,7 +263,27 @@
           "units": "3 Nightwing Interceptors",
           "pts": 300,
           "cost_pts": 300,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_falcon_or_fire_storm_or_fire_prism",
+              "label": "Choice",
+              "min": 5,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "phoenix_bombers",

@@ -132,6 +132,18 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         },
         {
@@ -170,6 +182,18 @@
           "units": "6 Mutants, 2 Chaos Spawn, 1 Daemonic Icon",
           "upgrades": [
             41
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_light_transports",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {
@@ -193,6 +217,18 @@
           "upgrades": [
             41,
             37
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_light_transports",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {

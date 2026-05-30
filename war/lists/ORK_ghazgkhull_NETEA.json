@@ -405,6 +405,39 @@
           "cost_pts": 650,
           "upgrades": [
             81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_soopagun_or_supa_zzap_gun_or_mega_choppa",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 92,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_supa_zzap_gun_or_mega_choppa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -415,6 +448,33 @@
           "cost_pts": 850,
           "upgrades": [
             81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_twin_soopagun_or_lifta_droppa",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 93,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 96
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_lifta_droppa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 96
+                }
+              ]
+            }
           ]
         }
       ]

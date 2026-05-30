@@ -40,6 +40,24 @@
             44,
             45,
             46
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_redeemer",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -53,6 +71,23 @@
             2,
             3,
             4
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_landspeeder_tornado_or_landspeeder_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 32,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         }
       ]
@@ -83,6 +118,43 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_watch_master",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 1
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_warrior_acolyte_or_death_cult_assassins",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 9,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_cult_assassins",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         },
         {
@@ -94,6 +166,21 @@
           "units": "8 Inquisitorial Storm Trooper, 4 Chimeras",
           "upgrades": [
             36
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_valkyries_or_4_chimeras",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         }
       ]

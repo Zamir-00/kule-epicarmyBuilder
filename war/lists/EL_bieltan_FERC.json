@@ -36,6 +36,41 @@
             40,
             41,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vengeurs_or_scorpions_or_banshees_or_dragon_de_feu_or_araign_eacute_es_s",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -50,6 +85,33 @@
             83,
             84,
             45
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_plateforme_d_arme_lourde",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gardiens_or_plateforme_d_arme_lourde",
+              "label": "Choice",
+              "min": 7,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {
@@ -77,6 +139,41 @@
             40,
             41,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vengeurs_or_scorpions_or_banshees_or_dragon_de_feu_or_araign_eacute_es_s",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -95,7 +192,24 @@
           "name": "Peloton de Windriders",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_moto_jet_or_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "escadron_de_marcheurs_de_combat",

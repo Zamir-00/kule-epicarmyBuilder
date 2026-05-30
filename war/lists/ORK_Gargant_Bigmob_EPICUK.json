@@ -20,6 +20,76 @@
             38,
             43,
             34
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ultra_gatling_kannon_or_deth_kannon_or_lifta_droppa_or_twin_soopagun_or_",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_ultra_lobba_or_ultra_snappa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_twin_soopagun_or_lifta_droppa_or_deth_kannon_or_grot_ultra_missile_or_ul",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
           ]
         },
         {
@@ -33,6 +103,143 @@
             38,
             43,
             34
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_soopagun_or_grot_mega_missile_or_soopa_zzap_gun_or_lobba_or_mega_choppa_",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_lobba_or_snappa_or_mega_lobba_or_mega_snappa_or_ultra_lobba_or_ultra_sna",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grot_mega_missile_or_mega_choppa_or_wrecker_or_twin_soopagun_or_lifta_dr",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_kustom_extra_armour",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {
@@ -46,6 +253,88 @@
             38,
             43,
             34
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_soopagun_or_grot_mega_missile_or_soopa_zzap_gun_or_lobba_or_mega_choppa_",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 48
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_lobba_or_snappa_or_mega_lobba_or_mega_snappa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 49
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grot_mega_missile_or_mega_choppa_or_wrecker",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            }
           ]
         }
       ]
@@ -65,6 +354,64 @@
             36,
             38,
             43
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_soopagun_or_grot_mega_missile_or_soopa_zzap_gun_or_lobba_or_mega_choppa_",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_lobba_or_snappa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_grot_mega_missile_or_mega_choppa",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {

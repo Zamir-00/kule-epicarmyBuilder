@@ -153,6 +153,18 @@
             29,
             58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {
@@ -175,6 +187,18 @@
           "upgrades": [
             35,
             58
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {
@@ -217,6 +241,18 @@
             13,
             58,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_orkeosaurus",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            }
           ]
         },
         {

@@ -31,6 +31,41 @@
             26,
             27,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warrior_or_hive_tyrant_or_hive_mind_symbiote",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -52,6 +87,41 @@
             26,
             27,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warrior_or_hive_tyrant_or_hive_mind_symbiote",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 16,
+              "max": 16,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -71,6 +141,29 @@
             32,
             34,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_29_or_30_or_31_or_33",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 29,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         },
         {
@@ -90,6 +183,44 @@
             32,
             34,
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hive_tyrant_or_hive_mind_symbiote",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_29_or_30_or_31_or_33",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 29,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         }
       ]
@@ -116,6 +247,18 @@
             44,
             34,
             25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gargoyles",
+              "label": "Choice",
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -144,6 +287,23 @@
             43,
             44,
             25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -161,6 +321,23 @@
             43,
             44,
             25
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_termagants_or_hormagaunts",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                }
+              ]
+            }
           ]
         },
         {
@@ -274,7 +451,22 @@
           "name": "Hive Bio-Ship",
           "pts": 525,
           "cost_pts": 525,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_hive_capital_bio_ship_or_hive_cruiser_bio_ship",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
+          ]
         }
       ]
     }

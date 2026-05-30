@@ -46,6 +46,18 @@
             27,
             28,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dominatrix",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            }
           ]
         },
         {
@@ -69,6 +81,39 @@
             27,
             28,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dominatrix",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2x_tyranid_warriors_or_hive_tyrant_or_dominatrix_or_3x_tyranid_warriors",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            }
           ]
         },
         {
@@ -92,6 +137,39 @@
             27,
             28,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dominatrix",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 10
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2x_tyranid_warriors_or_hive_tyrant_or_dominatrix_or_3x_tyranid_warriors",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 10
+                },
+                {
+                  "upgrade_id": 8
+                }
+              ]
+            }
           ]
         }
       ]
@@ -107,6 +185,25 @@
           "cost_pts": 0,
           "upgrades": [
             16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_5_biovores_small_swarm_or_10_biovores_medium_swarm_or_15_biovores_large_",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 160,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 161
+                },
+                {
+                  "upgrade_id": 162
+                }
+              ]
+            }
           ]
         },
         {
@@ -127,6 +224,25 @@
           "cost_pts": 0,
           "upgrades": [
             28
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_exocrines_small_swarm_or_6_exocrines_medium_swarm_or_9_exocrines_large",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 280,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 281
+                },
+                {
+                  "upgrade_id": 282
+                }
+              ]
+            }
           ]
         },
         {
@@ -173,7 +289,73 @@
           "name": "Hierodule Bio-Titan",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorclaw_or_bile_launcher_or_bio_titan_bio_cannon_or_cluster_spines_or_",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 64,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bile_launcher",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bio_titan_bio_cannon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_cluster_spines",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 62
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pyro_acid_spray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "hierophant_bio_titan",
@@ -181,7 +363,73 @@
           "name": "Hierophant Bio-Titan",
           "pts": 525,
           "cost_pts": 525,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_razorclaw_or_bile_launcher_or_bio_titan_bio_cannon_or_cluster_spines_or_",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 64,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bile_launcher",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 60
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_bio_titan_bio_cannon",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_cluster_spines",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 62
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_pyro_acid_spray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "trygon_swarm",

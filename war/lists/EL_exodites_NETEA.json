@@ -84,7 +84,24 @@
           "name": "Megadons Troupe",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_megadons_or_void_watcher_megadons",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 19,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "great_megadons",
@@ -137,6 +154,33 @@
           "cost_pts": 150,
           "upgrades": [
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_exodite_militia_or_heavy_weapon_platforms",
+              "label": "Choice",
+              "min": 7,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platforms",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -200,7 +244,27 @@
           "name": "Eldar Knights",
           "pts": 350,
           "cost_pts": 350,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fire_gales_or_towering_destroyers_or_bright_stallions",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 35,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "corsair_nightwing",

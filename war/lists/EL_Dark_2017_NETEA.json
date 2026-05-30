@@ -79,6 +79,39 @@
           "upgrades": [
             51,
             61
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_incubi_or_2_warriors_or_1_haemonuculi_unit_1_grotesque_or_2_warp_beast",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
           ]
         }
       ]
@@ -112,6 +145,39 @@
           "upgrades": [
             73,
             74
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_incubi_or_2_warriors_or_1_haemonuculi_unit_1_grotesque_or_2_warp_beast",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
           ]
         },
         {
@@ -160,7 +226,40 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "6 Mandrakes",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_incubi_or_2_warriors_or_1_haemonuculi_unit_1_grotesque_or_2_warp_beast",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "scourges",
@@ -181,7 +280,40 @@
           "pts": 250,
           "cost_pts": 250,
           "units": "1 Vessel of Pain",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_incubi_or_2_warriors_or_1_haemonuculi_unit_1_grotesque_or_2_warp_beast",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
+          ]
         }
       ]
     },

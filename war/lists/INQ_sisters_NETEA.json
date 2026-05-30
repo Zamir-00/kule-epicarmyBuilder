@@ -26,6 +26,59 @@
             22,
             23,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battle_sister_or_celestian_sister_or_dominion_sister_or_retribution_sist",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 42,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_celestian_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dominion_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retribution_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {
@@ -65,6 +118,46 @@
             22,
             23,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_retribution_sister_or_celestian_sister_or_dominion_sister",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 35,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_celestian_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dominion_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         },
         {
@@ -108,6 +201,23 @@
           "upgrades": [
             16,
             17
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_immolator_or_repressor",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 22,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         }
       ]
@@ -130,6 +240,59 @@
             22,
             23,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_inquisitorial_storm_trooper_or_inquisitorial_veteran_warrior_acolyte_or_",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 26,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_inquisitorial_veteran_warrior_acolyte",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_inquisitorial_support_staff",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_cult_assassin",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {

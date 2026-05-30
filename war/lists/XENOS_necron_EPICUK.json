@@ -59,6 +59,23 @@
           "upgrades": [
             16,
             15
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_destroyer_or_heavy_destroyer",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 17,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                }
+              ]
+            }
           ]
         },
         {
@@ -80,7 +97,35 @@
           "id": 506,
           "name": "Monolith Maniple",
           "pts": 150,
-          "cost_pts": 150
+          "cost_pts": 150,
+          "loadout_slots": [
+            {
+              "string_id": "loadout_obelisk_or_monolith",
+              "label": "Choice",
+              "min": 2,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 19,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_monolith",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "obelisk_maniple",

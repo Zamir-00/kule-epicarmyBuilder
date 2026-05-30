@@ -142,7 +142,73 @@
           "pts": 300,
           "cost_pts": 300,
           "units": "4 Daemon Knights",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 60
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 56
+                },
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
+          ]
         }
       ]
     },

@@ -23,6 +23,26 @@
             16,
             17,
             18
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_white_scar_attack_bike_or_white_scar_bikes_or_multi_melta_attack_bike",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -36,6 +56,23 @@
             16,
             17,
             18
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_white_scar_bikes_or_multi_melta_attack_bike",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -91,6 +128,20 @@
             39,
             11,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_scout",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 34,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -121,6 +172,26 @@
             16,
             17,
             18
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_landspeeder_or_tornado_or_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 28,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         },
         {
@@ -137,6 +208,23 @@
             31,
             36,
             37
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_annihilator_or_destructor",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {

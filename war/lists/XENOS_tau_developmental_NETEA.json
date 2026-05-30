@@ -18,6 +18,33 @@
           "upgrades": [
             34,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_xv8_crisis_battlesuit",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 17,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_el_or_shas_o",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 50
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
           ]
         },
         {
@@ -39,6 +66,18 @@
             61,
             54,
             55
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2x_xv8_crisis_battlesuit",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         }
       ]
@@ -105,6 +144,23 @@
           "upgrades": [
             35,
             54
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tetra_or_piranha",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 25,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {

@@ -123,6 +123,23 @@
             27,
             28,
             29
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_motos_or_motos_d_assaut",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 16,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -136,6 +153,26 @@
             27,
             28,
             29
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_tornado_or_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 19,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            }
           ]
         },
         {
@@ -167,6 +204,23 @@
             29,
             31,
             43
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_annihilator_or_destructor",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {

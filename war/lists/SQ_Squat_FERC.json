@@ -86,6 +86,23 @@
             47,
             48,
             49
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_motos_or_trikes",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {

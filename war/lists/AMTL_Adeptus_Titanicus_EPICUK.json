@@ -100,6 +100,35 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gatling_blaster_or_laser_blaster_or_reaver_titan_power_fist_or_reaver_ti",
+              "label": "Weapons",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 70,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            }
           ]
         },
         {
@@ -134,6 +163,35 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gatling_blaster_or_laser_blaster_or_reaver_titan_power_fist_or_reaver_ti",
+              "label": "Weapons",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 70,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 75
+                }
+              ]
+            }
           ]
         },
         {
@@ -143,7 +201,40 @@
           "pts": 550,
           "cost_pts": 550,
           "units": "2 Warhound Scout Titans",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_veteran_princeps",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_rocket_launcher_or_scout_turbo_laser_or_plasma_blastgun_or_scout_inferno",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 80,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "questoris_knights",
@@ -156,6 +247,18 @@
             21,
             22,
             90
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_acastus_knight",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            }
           ]
         },
         {
@@ -168,6 +271,28 @@
             20,
             21,
             91
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_acastus_knight",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_carapace_rocket_launcher",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         }
       ]
@@ -230,6 +355,18 @@
             20,
             21,
             22
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_acastus_knight",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            }
           ]
         },
         {
@@ -241,6 +378,28 @@
           "upgrades": [
             20,
             21
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_acastus_knight",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 92
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_carapace_rocket_launcher",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         }
       ]

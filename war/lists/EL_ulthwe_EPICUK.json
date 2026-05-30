@@ -40,6 +40,58 @@
             43,
             45,
             44
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_seer_council",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_farseers_or_seer_council",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 102,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platform",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {
@@ -49,7 +101,59 @@
           "pts": 375,
           "cost_pts": 375,
           "units": "4 Waveserpents",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_seer_council",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_farseers_or_seer_council",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 102,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 103
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platform",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -85,6 +189,23 @@
           "cost_pts": 200,
           "upgrades": [
             46
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_jetbike_or_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         },
         {
@@ -95,6 +216,33 @@
           "cost_pts": 0,
           "upgrades": [
             46
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_fire_storm",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_falcon_or_fire_storm",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -160,6 +308,41 @@
             41,
             42,
             39
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_w",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         }
       ]

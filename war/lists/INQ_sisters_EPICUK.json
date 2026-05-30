@@ -26,6 +26,38 @@
             22,
             23,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_celestian_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dominion_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_retribution_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                }
+              ]
+            }
           ]
         },
         {
@@ -64,6 +96,38 @@
             22,
             23,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_celestian_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dominion_sister",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         },
         {
@@ -104,6 +168,23 @@
           "upgrades": [
             16,
             17
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_immolator_or_repressor",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 22,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         }
       ]
@@ -121,6 +202,38 @@
           "upgrades": [
             21,
             13
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_inquisitorial_storm_troopers_and_2_death_cult_assassins",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_inquisitorial_support_staff",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_death_cult_assassins_unit",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {

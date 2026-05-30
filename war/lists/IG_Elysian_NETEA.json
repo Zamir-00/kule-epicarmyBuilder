@@ -78,6 +78,23 @@
           "cost_pts": 150,
           "upgrades": [
             31
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tauros_or_tauros_venator",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 32,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         },
         {

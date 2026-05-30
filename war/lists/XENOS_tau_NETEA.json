@@ -96,6 +96,23 @@
           "upgrades": [
             35,
             54
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tetra_or_piranha",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 25,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {

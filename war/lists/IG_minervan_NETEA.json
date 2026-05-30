@@ -33,6 +33,23 @@
             62,
             63,
             64
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_basilisk_or_manticore",
+              "label": "Choice",
+              "min": 9,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -56,6 +73,32 @@
             62,
             63,
             64
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_baneblade_or_shadowsword_or_stormhammer_or_stormblade_or_stormsword",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -79,6 +122,41 @@
             62,
             63,
             64
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_thunderer_or_conqueror_or_exterminator_or_demolisher_or_leman_russ_or_ex",
+              "label": "Choice",
+              "min": 10,
+              "max": 10,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         },
         {
@@ -102,6 +180,41 @@
             62,
             63,
             64
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_thunderer_or_conqueror_or_exterminator_or_demolisher_or_leman_russ_or_ex",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
           ]
         }
       ]
@@ -289,6 +402,41 @@
           "cost_pts": 280,
           "upgrades": [
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_81_or_82_or_83_or_84_or_85_or_86_or_87_or_88",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 81,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 82
+                },
+                {
+                  "upgrade_id": 83
+                },
+                {
+                  "upgrade_id": 84
+                },
+                {
+                  "upgrade_id": 85
+                },
+                {
+                  "upgrade_id": 86
+                },
+                {
+                  "upgrade_id": 87
+                },
+                {
+                  "upgrade_id": 88
+                }
+              ]
+            }
           ]
         },
         {
