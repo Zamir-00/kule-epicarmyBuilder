@@ -27,6 +27,91 @@
             57,
             59,
             53
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gatling_cannon_or_krusha_or_loadz_o_guns_or_mega_choppa_or_snappa_or_meg",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 33,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_snappa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_krooz_missiles_or_krusha_or_lifta_droppa_or_supa_lifta_droppa_or_mega_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -44,6 +129,91 @@
             59,
             53,
             58
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_gatling_cannon_or_krusha_or_loadz_o_guns_or_mega_choppa_or_snappa_or_meg",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 33,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 47
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_snappa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_krooz_missiles_or_krusha_or_lifta_droppa_or_supa_lifta_droppa_or_mega_ch",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         },
         {
@@ -253,6 +423,58 @@
             55,
             59,
             53
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_snappa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gatling_cannon_or_loadz_o_guns_or_mega_choppa_or_snappa_or_mega_lobba_or",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 43
+                },
+                {
+                  "upgrade_id": 46
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 45
+                },
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_mega_choppa",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
           ]
         }
       ]

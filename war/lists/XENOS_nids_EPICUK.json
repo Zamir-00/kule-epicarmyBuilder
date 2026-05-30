@@ -27,6 +27,30 @@
             21,
             22,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warrior",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hormaguant",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -48,6 +72,30 @@
             21,
             22,
             24
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warrior",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hormaguant",
+              "label": "Choice",
+              "max": 12,
+              "variants": [
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -84,6 +132,20 @@
             21,
             22,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warrior",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {

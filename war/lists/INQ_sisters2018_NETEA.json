@@ -28,6 +28,28 @@
             23,
             24,
             53
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_6_battle_sisters_2_celestian_sisters",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_battle_sisters_2_dominion_sisters",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         },
         {
@@ -74,6 +96,38 @@
             23,
             24,
             53
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_battle_sisters_2_celestian_sisters",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_6_battle_sisters_2_dominion_sisters",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 34
+                }
+              ]
+            }
           ]
         },
         {
@@ -97,6 +151,31 @@
           "units": "One Mistress Character and 6 Repentia Sister Units",
           "upgrades": [
             53
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_rhino_or_repressor",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_immolator",
+              "label": "Choice",
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -107,6 +186,33 @@
           "cost_pts": 100,
           "upgrades": [
             17
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_exorcist",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_immolator_or_repressor",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 22,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 23
+                }
+              ]
+            }
           ]
         }
       ]
@@ -125,6 +231,56 @@
             21,
             13,
             19
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_inquisitorial_storm_trooper_or_inquisitorial_veteran_warrior_acolyte_or_",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 26,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_inquisitorial_veteran_warrior_acolyte",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_inquisitorial_support_staff",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_death_cult_assassin",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {

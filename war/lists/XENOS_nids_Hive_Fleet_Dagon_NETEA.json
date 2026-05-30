@@ -61,6 +61,26 @@
             117,
             118,
             120
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warriors_or_zoanthrope_or_tyranid_warrior_shrikes_wings",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 201,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 211
+                }
+              ]
+            }
           ]
         },
         {
@@ -86,6 +106,36 @@
             117,
             118,
             120
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tyranid_warriors_or_zoanthrope_or_tyranid_warrior_shrikes_wings",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 201,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 202
+                },
+                {
+                  "upgrade_id": 211
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_zoanthrope",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 202
+                }
+              ]
+            }
           ]
         }
       ]

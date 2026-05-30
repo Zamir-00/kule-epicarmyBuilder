@@ -89,6 +89,23 @@
             80,
             91,
             95
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battlefortress_or_gunfortress",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -105,6 +122,23 @@
             80,
             91,
             95
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battlefortress_or_gunfortress",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -121,6 +155,23 @@
             80,
             91,
             95
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battlefortress_or_gunfortress",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                }
+              ]
+            }
           ]
         },
         {
@@ -259,6 +310,23 @@
             79,
             80,
             87
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_or_nob_warbikes",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {
@@ -284,6 +352,23 @@
             79,
             80,
             87
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_nobz_or_nob_warbikes",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
           ]
         },
         {

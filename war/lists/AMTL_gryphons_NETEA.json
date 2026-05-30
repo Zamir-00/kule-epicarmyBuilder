@@ -52,6 +52,81 @@
             82,
             83,
             84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_turbo_laser_destructor_or_inferno_gun_or_vulcan_megabolter_or_plasma_bla",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plasma_destructor_or_support_missile",
+              "label": "Weapons",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {
@@ -66,6 +141,81 @@
             82,
             83,
             84
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_apocalypse_missile_launcher_or_inferno_gun_or_vulcan_megabolter_or_plasm",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 25
+                },
+                {
+                  "upgrade_id": 26
+                },
+                {
+                  "upgrade_id": 27
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                },
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_plasma_destructor_or_support_missile",
+              "label": "Weapons",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         }
       ]
@@ -82,6 +232,29 @@
           "upgrades": [
             80,
             82
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_inferno_gun_or_vulcan_megabolter_or_plasma_blastgun_or_turbo_laser_destr",
+              "label": "Weapons",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -93,6 +266,29 @@
           "upgrades": [
             80,
             82
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_inferno_gun_or_vulcan_megabolter_or_plasma_blastgun_or_turbo_laser_destr",
+              "label": "Weapons",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 13,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         }
       ]

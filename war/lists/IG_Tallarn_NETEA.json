@@ -52,6 +52,23 @@
             20,
             21,
             15
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_mukaali_cavalry_or_mukaali_cavalry_support",
+              "label": "Choice",
+              "min": 9,
+              "max": 9,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         }
       ]

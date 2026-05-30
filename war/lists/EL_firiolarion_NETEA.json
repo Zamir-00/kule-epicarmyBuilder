@@ -34,6 +34,61 @@
           "cost_pts": 825,
           "upgrades": [
             31
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_titan_pulsar_or_power_fist_or_psychic_lance_or_fusion_lance_or_tremor_ca",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_psychic_lance",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fusion_lance",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -46,6 +101,48 @@
           "upgrades": [
             31,
             30
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_titan_pulsar_or_power_fist_or_fusion_lance_or_tremor_cannon_or_titan_d_c",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 10,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fusion_lance",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         }
       ]
@@ -60,7 +157,27 @@
           "units": "2 Revenant Titans",
           "pts": 650,
           "cost_pts": 650,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_sonic_lance_pair_or_revenant_pulse_laser_pair_or_suncannon_pair",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "revenant_titan_single",
@@ -129,6 +246,18 @@
           "cost_pts": -150,
           "upgrades": [
             50
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wraithseer",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 52
+                }
+              ]
+            }
           ]
         },
         {

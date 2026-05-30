@@ -88,6 +88,24 @@
             64,
             65,
             66
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_vindicator_or_2_chaos_vindicators_or_3_chaos_vindicators",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 67
+                },
+                {
+                  "upgrade_id": 68
+                }
+              ]
+            }
           ]
         },
         {
@@ -139,6 +157,24 @@
             63,
             69,
             70
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_world_eater_defiler_or_2_world_eater_defilers_or_3_world_eater_defilers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
           ]
         },
         {
@@ -156,6 +192,27 @@
             57,
             71,
             72
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_land_raider_or_2_chaos_land_raiders_or_3_chaos_land_raiders_or_4_c",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 64
+                },
+                {
+                  "upgrade_id": 65
+                },
+                {
+                  "upgrade_id": 66
+                }
+              ]
+            }
           ]
         },
         {

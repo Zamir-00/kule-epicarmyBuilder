@@ -170,6 +170,75 @@
           "upgrades": [
             62,
             58
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_siege_dreadnought_or_2_chaos_siege_dreadnoughts_or_chaos_vindicato",
+              "label": "Choice",
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 63
+                },
+                {
+                  "upgrade_id": 70
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 71
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 73
+                },
+                {
+                  "upgrade_id": 74
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 75
+                },
+                {
+                  "upgrade_id": 76
+                },
+                {
+                  "upgrade_id": 69
+                },
+                {
+                  "upgrade_id": 77
+                },
+                {
+                  "upgrade_id": 78
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 79
+                },
+                {
+                  "upgrade_id": 80
+                },
+                {
+                  "upgrade_id": 81
+                },
+                {
+                  "upgrade_id": 90
+                },
+                {
+                  "upgrade_id": 91
+                }
+              ]
+            }
           ]
         },
         {

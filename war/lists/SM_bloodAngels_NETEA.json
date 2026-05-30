@@ -52,6 +52,23 @@
             31,
             32,
             33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_blood_angels_bike_unit_or_blood_angels_attack_bike",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 16,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 17
+                }
+              ]
+            }
           ]
         },
         {
@@ -95,6 +112,26 @@
             31,
             32,
             33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 28
+                },
+                {
+                  "upgrade_id": 29
+                }
+              ]
+            }
           ]
         },
         {
@@ -117,6 +154,26 @@
             32,
             33,
             23
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_baal_predator_or_baal_predator_infernus_or_baal_predator_infernus_magna_",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 19,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 44
+                },
+                {
+                  "upgrade_id": 74
+                }
+              ]
+            }
           ]
         },
         {

@@ -30,7 +30,24 @@
           "name": "Stealth Group",
           "pts": 225,
           "cost_pts": 225,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_xv15_stealthsuit_unit_or_xv95_ghostkeel_battlesuit_unit",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 62,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "vior_la_xv8_crisis_suit_cadre",

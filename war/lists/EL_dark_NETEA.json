@@ -72,6 +72,24 @@
             70,
             71,
             72
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_4_incubi_or_6_incubi_or_8_incubi",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 55
+                }
+              ]
+            }
           ]
         },
         {

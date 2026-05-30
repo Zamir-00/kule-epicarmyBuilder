@@ -84,6 +84,26 @@
             12,
             13,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {
@@ -107,6 +127,23 @@
             14,
             19,
             15
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_x_predator_destructors_or_2_x_predator_annihilators",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 26,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 27
+                }
+              ]
+            }
           ]
         },
         {

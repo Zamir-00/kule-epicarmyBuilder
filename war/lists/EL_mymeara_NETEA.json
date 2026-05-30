@@ -101,7 +101,24 @@
           "string_id": "windrider_troupe",
           "id": 502,
           "name": "Windrider Troupe",
-          "pts": 200
+          "pts": 200,
+          "loadout_slots": [
+            {
+              "string_id": "loadout_jetbikes_or_vyper",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "aspect_warrior_troupe",
@@ -113,6 +130,35 @@
             48,
             41,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dire_avenger_or_howling_banshee_or_fire_dragon_or_dark_reaper_or_swoopin",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {

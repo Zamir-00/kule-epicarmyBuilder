@@ -37,6 +37,23 @@
             25,
             26,
             27
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bike_unit_or_attack_bike",
+              "label": "Choice",
+              "min": 8,
+              "max": 8,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 14
+                }
+              ]
+            }
           ]
         },
         {
@@ -50,6 +67,26 @@
             25,
             26,
             27
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_tornado_or_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 17,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {
@@ -73,6 +110,23 @@
             27,
             31,
             35
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_annihilator_or_destructor",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {

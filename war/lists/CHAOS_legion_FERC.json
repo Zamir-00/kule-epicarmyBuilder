@@ -169,7 +169,19 @@
           "pts": 175,
           "cost_pts": 175,
           "units": "1 D&eacute;mon Majeur",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_d_eacute_mon_majeur",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "soutien_orbital",

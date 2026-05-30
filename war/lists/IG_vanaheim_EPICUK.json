@@ -22,6 +22,51 @@
             28,
             29,
             33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vendetta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_valkyrie_or_vendetta",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_vanaheim_troopers_or_2_mortar_support_or_2_sniper_support",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {
@@ -37,6 +82,51 @@
             28,
             29,
             33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vendetta",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_valkyrie_or_vendetta",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_vanaheim_troopers_or_2_mortar_support_or_2_sniper_support",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         }
       ]

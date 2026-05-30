@@ -22,6 +22,23 @@
             22,
             41,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_assault_centurion_or_devastator_centurion",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 44,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            }
           ]
         },
         {
@@ -64,6 +81,36 @@
             14,
             16,
             22
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_land_raider_achilles",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_land_raider_achilles",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            }
           ]
         },
         {
@@ -77,6 +124,26 @@
             12,
             13,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_tornado_or_land_speeder_typhoon",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                }
+              ]
+            }
           ]
         },
         {

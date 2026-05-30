@@ -364,6 +364,18 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_land_raiders",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 64
+                }
+              ]
+            }
           ]
         }
       ]

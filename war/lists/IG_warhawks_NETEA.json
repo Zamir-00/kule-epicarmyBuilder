@@ -157,6 +157,21 @@
           "cost_pts": 0,
           "upgrades": [
             31
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_lightning_strike_fighters_or_thunderbolts",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         }
       ]

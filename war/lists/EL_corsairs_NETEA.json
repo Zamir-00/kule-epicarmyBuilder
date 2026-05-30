@@ -102,6 +102,39 @@
           "cost_pts": 25,
           "upgrades": [
             16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_falcon_or_firestrorm_or_warp_hunter",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 19,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_firestrorm_or_warp_hunter",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         }
       ]

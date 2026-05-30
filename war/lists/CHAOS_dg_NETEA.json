@@ -39,6 +39,18 @@
             49,
             56,
             42
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_zzzzzz_removed_zzzzzzzz_nurgle_s_rot",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -79,7 +91,19 @@
           "pts": 200,
           "cost_pts": 200,
           "units": "4 Blight Drones",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_zzzzzz_removed_zzzzzzzz_nurgle_s_rot",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "blightlord_terminators",
@@ -101,6 +125,18 @@
             53,
             54,
             51
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_zzzzzz_removed_zzzzzzzz_nurgle_s_rot",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         }
       ]
@@ -159,6 +195,18 @@
             53,
             54,
             49
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_zzzzzz_removed_zzzzzzzz_nurgle_s_rot",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            }
           ]
         },
         {
@@ -216,6 +264,26 @@
             54,
             46,
             48
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_defiler_or_desecrator_or_plague_hulk",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 22,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 23
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         }
       ]

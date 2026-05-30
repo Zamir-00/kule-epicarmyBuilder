@@ -59,6 +59,29 @@
           "cost_pts": 200,
           "upgrades": [
             50
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_robot_or_light_artillery_or_tarantula_or_mole_mortar",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 60,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                },
+                {
+                  "upgrade_id": 63
+                }
+              ]
+            }
           ]
         },
         {
@@ -99,7 +122,34 @@
           "id": 516,
           "name": "Bikers",
           "pts": 225,
-          "cost_pts": 225
+          "cost_pts": 225,
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bike_or_trike",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_trike",
+              "label": "Choice",
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "iron_eagle",

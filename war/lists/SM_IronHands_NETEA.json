@@ -130,6 +130,23 @@
             2,
             3,
             33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_predator_destructor_or_predator_annihilator",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 35,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
           ]
         },
         {
@@ -143,6 +160,20 @@
             2,
             3,
             33
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vindicator",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 34,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -194,6 +225,23 @@
             1,
             2,
             3
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bike_unit_or_attack_bike",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 25,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         },
         {

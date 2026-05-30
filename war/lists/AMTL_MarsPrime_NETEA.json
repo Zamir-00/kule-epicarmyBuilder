@@ -129,6 +129,36 @@
           "upgrades": [
             77,
             40
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dunecrawler_icarian",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dunecrawler_onager_or_dunecrawler_annihilator_or_dunecrawler_icarian",
+              "label": "Choice",
+              "min": 5,
+              "max": 7,
+              "variants": [
+                {
+                  "upgrade_id": 56,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 57
+                },
+                {
+                  "upgrade_id": 58
+                }
+              ]
+            }
           ]
         },
         {
@@ -201,7 +231,24 @@
           "pts": 450,
           "cost_pts": 450,
           "units": "1 Seneschal",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_acastus_knight_porphyrion_or_acastus_knight_mechanicus",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 51
+                }
+              ]
+            }
+          ]
         }
       ]
     },

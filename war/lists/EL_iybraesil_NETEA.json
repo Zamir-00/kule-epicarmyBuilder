@@ -38,6 +38,66 @@
             30,
             41,
             39
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_guardians_or_heavy_weapon_platform",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 24,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_w",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_heavy_weapon_platform",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 25
+                }
+              ]
+            }
           ]
         },
         {
@@ -78,7 +138,39 @@
           "name": "Far Rider Troupe",
           "pts": 200,
           "cost_pts": 200,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_jetbike_or_vyper",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 27,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 28
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_swooping_hawk_or_shining_spear",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "relic_hunter_troupe",
@@ -97,7 +189,67 @@
           "name": "Swords of Fate Troupe",
           "pts": 300,
           "cost_pts": 300,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_42_or_fire_storm_or_fire_prism",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 42,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_fire_storm",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_dire_avenger_or_striking_scorpion_or_howling_banshee_or_fire_dragon_or_d",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 15,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 16
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 18
+                },
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "skeins_of_fate_troupe",

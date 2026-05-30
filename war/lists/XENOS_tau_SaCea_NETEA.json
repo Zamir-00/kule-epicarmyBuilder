@@ -19,6 +19,101 @@
             35,
             36,
             37
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {
@@ -35,6 +130,68 @@
             41,
             42,
             43
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         }
       ]
@@ -51,6 +208,111 @@
           "units": "6 XV9 Hazard Suits",
           "upgrades": [
             37
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {
@@ -61,6 +323,132 @@
           "cost_pts": 250,
           "upgrades": [
             44
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_hammerhead_gunship_ion_cannon_or_hammerhead_gunship_twin_fusion_cannons_",
+              "label": "Weapons",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 51,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                }
+              ]
+            }
           ]
         },
         {
@@ -74,6 +462,91 @@
             36,
             37,
             38
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {
@@ -82,7 +555,122 @@
           "name": "Sniper Group",
           "pts": 0,
           "cost_pts": 0,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "skysweep_group",
@@ -90,7 +678,122 @@
           "name": "Skysweep Group",
           "pts": 250,
           "cost_pts": 250,
-          "units": "3 Skyray Air Defense Gunships"
+          "units": "3 Skyray Air Defense Gunships",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "harassment_group",
@@ -104,6 +807,81 @@
             37,
             45,
             40
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {
@@ -117,6 +895,91 @@
             46,
             47,
             48
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            }
           ]
         },
         {
@@ -128,6 +991,101 @@
           "upgrades": [
             36,
             45
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {
@@ -150,6 +1108,121 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
           ]
         },
         {
@@ -158,7 +1231,122 @@
           "name": "KV128 Stormsurge Formation",
           "pts": 250,
           "cost_pts": 250,
-          "units": "2 KV128 Stormsurge units"
+          "units": "2 KV128 Stormsurge units",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "kx139_ta_unar_supremacy",
@@ -166,7 +1354,122 @@
           "name": "KX139 Ta'unar Supremacy",
           "pts": 225,
           "cost_pts": 225,
-          "units": "1 KX139 Ta'unar Supremacy unit"
+          "units": "1 KX139 Ta'unar Supremacy unit",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bonded_team",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_gun_drones",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 37
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_missile_broadside",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 38
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_shas_vre",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 40
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_pathfinder_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 41
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_2_breacher_teams_or_2_breacher_teams_and_1_sa_cea_devilfish",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 42
+                },
+                {
+                  "upgrade_id": 43
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_skyray",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 44
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_xv95_ghostkeel",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 45
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_additional_5_kroot_warrior",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 46
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_kroot_hound",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 47
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_3_krootox",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 48
+                }
+              ]
+            }
+          ]
         }
       ]
     },

@@ -22,6 +22,26 @@
             61,
             62,
             63
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_attack_bike_or_bike_unit_or_multi_melta_attack_bike",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 12,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 11
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {
@@ -43,6 +63,29 @@
             78,
             79,
             100
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_71_or_72_or_supreme_commander_in_land_raider_or_205",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 71,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 72
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                }
+              ]
+            }
           ]
         },
         {
@@ -77,6 +120,26 @@
             78,
             79,
             100
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_71_or_supreme_commander_in_land_raider_or_205",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 71,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 204
+                },
+                {
+                  "upgrade_id": 205
+                }
+              ]
+            }
           ]
         },
         {
@@ -100,6 +163,26 @@
             56,
             57,
             100
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_30_or_predator_anhinilator_or_supreme_commander_in_prometheus",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 30,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            }
           ]
         },
         {
@@ -197,6 +280,23 @@
             97,
             98,
             100
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_99_or_supreme_commander_in_prometheus",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 99,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 200
+                }
+              ]
+            }
           ]
         },
         {

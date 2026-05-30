@@ -29,6 +29,36 @@
             37,
             38,
             39
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_leman_russ_or_leman_russ_executioner_or_leman_russ_demolisher",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 16,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 17
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_tank_riders_6_tank_riders",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            }
           ]
         },
         {
@@ -51,6 +81,36 @@
             37,
             38,
             39
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_tank_riders_6_tank_riders",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_11_or_12_or_leman_russ_demolisher",
+              "label": "Choice",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                },
+                {
+                  "upgrade_id": 13
+                }
+              ]
+            }
           ]
         },
         {

@@ -52,6 +52,23 @@
             74,
             75,
             96
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_land_raider_helios",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -77,6 +94,23 @@
             73,
             74,
             75
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_predator_annihilator_or_predator_destructor",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 31,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {
@@ -220,6 +254,26 @@
             52,
             53,
             54
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_bike_unit_or_attack_bike_or_landspeeder",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 14,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {

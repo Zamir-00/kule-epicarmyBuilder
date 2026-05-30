@@ -53,6 +53,233 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_240_or_245_or_246_or_247_or_248_or_249_or_250_or_251_or_252_or_253_or_25",
+              "label": "Mark of Chaos",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244_or_245_or_246_or_247_or_248_or_249_or_25",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_barr",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 357
+                }
+              ]
+            }
           ]
         },
         {
@@ -116,6 +343,140 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244_or_245_or_246_or_247_or_248_or_249_or_25",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
+            }
           ]
         },
         {
@@ -157,6 +518,158 @@
                 },
                 {
                   "upgrade_id": 352
+                }
+              ]
+            }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244_or_245_or_246_or_247_or_248_or_249_or_25",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_lust",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 359
                 }
               ]
             }
@@ -207,6 +720,140 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244_or_245_or_246_or_247_or_248_or_249_or_25",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
+            }
           ]
         },
         {
@@ -238,6 +885,155 @@
             61,
             62,
             63
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_240_or_241_or_242_or_243_or_244_or_245_or_246_or_247_or_248_or_249_or_25",
+              "label": "Mark of Chaos",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 240
+                },
+                {
+                  "upgrade_id": 241
+                },
+                {
+                  "upgrade_id": 242
+                },
+                {
+                  "upgrade_id": 243
+                },
+                {
+                  "upgrade_id": 244
+                },
+                {
+                  "upgrade_id": 245
+                },
+                {
+                  "upgrade_id": 246
+                },
+                {
+                  "upgrade_id": 247
+                },
+                {
+                  "upgrade_id": 248
+                },
+                {
+                  "upgrade_id": 249
+                },
+                {
+                  "upgrade_id": 250
+                },
+                {
+                  "upgrade_id": 251
+                },
+                {
+                  "upgrade_id": 252
+                },
+                {
+                  "upgrade_id": 253
+                },
+                {
+                  "upgrade_id": 254
+                },
+                {
+                  "upgrade_id": 255
+                },
+                {
+                  "upgrade_id": 256
+                },
+                {
+                  "upgrade_id": 257
+                },
+                {
+                  "upgrade_id": 258
+                },
+                {
+                  "upgrade_id": 259
+                },
+                {
+                  "upgrade_id": 260
+                },
+                {
+                  "upgrade_id": 261
+                },
+                {
+                  "upgrade_id": 262
+                },
+                {
+                  "upgrade_id": 263
+                },
+                {
+                  "upgrade_id": 264
+                },
+                {
+                  "upgrade_id": 265
+                },
+                {
+                  "upgrade_id": 266
+                },
+                {
+                  "upgrade_id": 267
+                },
+                {
+                  "upgrade_id": 268
+                },
+                {
+                  "upgrade_id": 269
+                },
+                {
+                  "upgrade_id": 270
+                },
+                {
+                  "upgrade_id": 271
+                },
+                {
+                  "upgrade_id": 272
+                },
+                {
+                  "upgrade_id": 273
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_void_head_chaos_undivided_head_or_daemon_maw_tzeentch_head",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 353
+                }
+              ]
+            }
           ]
         },
         {
@@ -897,7 +1693,72 @@
           "pts": 550,
           "cost_pts": 550,
           "units": "Two Forgehound Chaos Warhounds",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_command_head_chaos_undivided_head_or_battle_head_chaos_undivided_head_or",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 350,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 351
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_gun_tail_chaos_undivided_tail_or_razor_tail_chaos_undivided_tail_or_barr",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 355,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 356
+                },
+                {
+                  "upgrade_id": 357
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_ch",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 102
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 104
+                },
+                {
+                  "upgrade_id": 105
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "feral_warhound_pack_chaos_warhounds_of_khorne",
@@ -906,7 +1767,57 @@
           "pts": 550,
           "cost_pts": 550,
           "units": "Two Feral Warhounds",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_battle_head_chaos_undivided_head_or_void_head_chaos_undivided_head",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 351,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 352
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_he",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 111
+                },
+                {
+                  "upgrade_id": 112
+                },
+                {
+                  "upgrade_id": 113
+                },
+                {
+                  "upgrade_id": 114
+                },
+                {
+                  "upgrade_id": 115
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "plaguehound_chaos_warhound_of_nurgle",
@@ -963,7 +1874,48 @@
           "pts": 550,
           "cost_pts": 550,
           "units": "Two Plaguehound Chaos Warhounds",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_he",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 130
+                },
+                {
+                  "upgrade_id": 131
+                },
+                {
+                  "upgrade_id": 132
+                },
+                {
+                  "upgrade_id": 133
+                },
+                {
+                  "upgrade_id": 134
+                },
+                {
+                  "upgrade_id": 135
+                },
+                {
+                  "upgrade_id": 136
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "warphound_chaos_warhound_of_tzeentch",
@@ -1033,7 +1985,63 @@
           "pts": 550,
           "cost_pts": 550,
           "units": "Two Warphound Chaos Warhounds",
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_void_head_chaos_undivided_head_or_daemon_maw_tzeentch_head",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 352,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 353
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_chaos_reaper_mega_bolter_x_2_or_chaos_reaper_mega_bolter_hellmouth_or_he",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 100,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 101
+                },
+                {
+                  "upgrade_id": 103
+                },
+                {
+                  "upgrade_id": 120
+                },
+                {
+                  "upgrade_id": 121
+                },
+                {
+                  "upgrade_id": 122
+                },
+                {
+                  "upgrade_id": 123
+                },
+                {
+                  "upgrade_id": 124
+                },
+                {
+                  "upgrade_id": 125
+                },
+                {
+                  "upgrade_id": 126
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "death_wheel_chaos_undivided",

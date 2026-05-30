@@ -103,6 +103,23 @@
           "upgrades": [
             48,
             49
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_macharius_heavy_tanks_or_macharius_omega",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 31,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 32
+                }
+              ]
+            }
           ]
         },
         {

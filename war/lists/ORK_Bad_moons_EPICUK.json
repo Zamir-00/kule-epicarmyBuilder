@@ -37,6 +37,19 @@
             67,
             68,
             69
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -63,6 +76,19 @@
             67,
             68,
             69
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -89,6 +115,19 @@
             67,
             68,
             69
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -102,6 +141,19 @@
             11,
             12,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -115,6 +167,19 @@
             11,
             12,
             67
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -128,6 +193,21 @@
             81,
             13,
             14
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            }
           ]
         },
         {
@@ -167,6 +247,21 @@
             81,
             15,
             16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_oddboy_zzap_or_oddboy_soopagun",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 68
+                },
+                {
+                  "upgrade_id": 69
+                }
+              ]
+            }
           ]
         },
         {
@@ -193,6 +288,19 @@
             43,
             68,
             69
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 2,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -206,6 +314,19 @@
             43,
             68,
             69
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -219,6 +340,19 @@
             43,
             68,
             69
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_grotz",
+              "label": "Choice",
+              "min": 6,
+              "variants": [
+                {
+                  "upgrade_id": 20,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -317,6 +451,39 @@
           "cost_pts": 650,
           "upgrades": [
             81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_soopagun_or_supa_zzap_gun_or_mega_choppa",
+              "label": "Choice",
+              "min": 3,
+              "max": 3,
+              "variants": [
+                {
+                  "upgrade_id": 92,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_supa_zzap_gun_or_mega_choppa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 94
+                },
+                {
+                  "upgrade_id": 95
+                }
+              ]
+            }
           ]
         },
         {
@@ -327,6 +494,33 @@
           "cost_pts": 850,
           "upgrades": [
             81
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_twin_soopagun_or_lifta_droppa",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 93,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 96
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_lifta_droppa",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 96
+                }
+              ]
+            }
           ]
         }
       ]

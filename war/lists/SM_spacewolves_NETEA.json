@@ -36,6 +36,21 @@
             11,
             35,
             36
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_supreme_commander_or_4_snipers",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 30
+                },
+                {
+                  "upgrade_id": 39
+                }
+              ]
+            }
           ]
         }
       ]
@@ -60,7 +75,28 @@
             35,
             36
           ],
-          "units": "6 Blood Claws"
+          "units": "6 Blood Claws",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader_or_2x_land_raider_or_2x_land_raider_",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 21
+                },
+                {
+                  "upgrade_id": 22
+                },
+                {
+                  "upgrade_id": 41
+                },
+                {
+                  "upgrade_id": 42
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "fenrisian_wolves",
@@ -121,6 +157,23 @@
             27,
             28,
             29
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_swiftclaw_bikes_or_swiftclaw_attack_bikes",
+              "label": "Weapons",
+              "min": 6,
+              "max": 6,
+              "variants": [
+                {
+                  "upgrade_id": 32,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 33
+                }
+              ]
+            }
           ]
         },
         {
@@ -184,6 +237,23 @@
             28,
             29,
             38
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_raider_or_land_raider_crusader",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 21,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 22
+                }
+              ]
+            }
           ]
         },
         {
@@ -196,6 +266,26 @@
             27,
             28,
             29
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_land_speeder_or_land_speeder_typhoon_or_land_speeder_tornado",
+              "label": "Choice",
+              "min": 5,
+              "max": 5,
+              "variants": [
+                {
+                  "upgrade_id": 18,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 19
+                },
+                {
+                  "upgrade_id": 20
+                }
+              ]
+            }
           ]
         },
         {
@@ -209,6 +299,23 @@
             28,
             29,
             38
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_predator_annihilator_or_predator_destructor",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 23,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 24
+                }
+              ]
+            }
           ]
         },
         {

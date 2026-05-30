@@ -18,6 +18,48 @@
           "units": "1 Warlock Titan",
           "upgrades": [
             10
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pulsar_or_power_fist_or_fusion_lance_or_psychic_lance_or_d_cannon_or_tre",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 53
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_psychic_lance",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 53
+                }
+              ]
+            }
           ]
         },
         {
@@ -30,6 +72,35 @@
           "upgrades": [
             10,
             12
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pulsar_or_power_fist_or_fusion_lance_or_d_cannon_or_tremor_cannon_or_bri",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 50,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 51
+                },
+                {
+                  "upgrade_id": 52
+                },
+                {
+                  "upgrade_id": 54
+                },
+                {
+                  "upgrade_id": 55
+                },
+                {
+                  "upgrade_id": 56
+                }
+              ]
+            }
           ]
         }
       ]
@@ -46,6 +117,23 @@
           "units": "1 Revenant Titan",
           "upgrades": [
             11
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_pulse_laser_or_sonic_lance",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 70,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 71
+                }
+              ]
+            }
           ]
         },
         {
@@ -57,6 +145,36 @@
           "units": "3 Wraithknights",
           "upgrades": [
             11
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_wraithcannon_or_ghostglaive_or_scattershield",
+              "label": "Choice",
+              "min": 2,
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 60,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 61
+                },
+                {
+                  "upgrade_id": 62
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_scattershield",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 62
+                }
+              ]
+            }
           ]
         },
         {

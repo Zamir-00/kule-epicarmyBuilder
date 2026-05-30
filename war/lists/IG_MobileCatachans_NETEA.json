@@ -41,7 +41,23 @@
             36,
             27
           ],
-          "units": "7 Infantry Units and 1 Supreme Commander"
+          "units": "7 Infantry Units and 1 Supreme Commander",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_valkyrie_or_vendetta",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "airborne_infantry_company",
@@ -70,7 +86,23 @@
             36,
             27
           ],
-          "units": "7 Infantry Units and 1 Commander"
+          "units": "7 Infantry Units and 1 Commander",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_valkyrie_or_vendetta",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 12
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -135,6 +167,19 @@
                 }
               ]
             }
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_valkyrie",
+              "label": "Choice",
+              "min": 3,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                }
+              ]
+            }
           ]
         },
         {
@@ -174,7 +219,58 @@
             24,
             25
           ],
-          "units": "4 Ogryn Units and 1 Bone 'ead"
+          "units": "4 Ogryn Units and 1 Bone 'ead",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_valkyrie",
+              "label": "Choice",
+              "min": 4,
+              "variants": [
+                {
+                  "upgrade_id": 11,
+                  "is_default": true
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_sniper_and_1_valkyrie_or_2_snipers_and_1_valkyrie",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 20
+                },
+                {
+                  "upgrade_id": 21
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_1_catachan_sentinel_1_drop_sentinel_or_1_catachan_sentinel_1_support_sen",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 31
+                },
+                {
+                  "upgrade_id": 32
+                },
+                {
+                  "upgrade_id": 33
+                },
+                {
+                  "upgrade_id": 34
+                },
+                {
+                  "upgrade_id": 35
+                },
+                {
+                  "upgrade_id": 36
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "vulture_punishers",
@@ -202,7 +298,34 @@
             22,
             23
           ],
-          "units": ""
+          "units": "",
+          "loadout_slots": [
+            {
+              "string_id": "loadout_vulture_or_vulture_tornado",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 71,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            },
+            {
+              "string_id": "loadout_vulture_tornado",
+              "label": "Choice",
+              "max": 2,
+              "variants": [
+                {
+                  "upgrade_id": 72
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -224,7 +347,23 @@
           "name": "Thunderbolt Squadron",
           "pts": 150,
           "cost_pts": 150,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_2_thunderbolt_fighters_or_3_thunderbolt_fighters",
+              "label": "Choice",
+              "min": 1,
+              "variants": [
+                {
+                  "upgrade_id": 61,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 62
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "marauder_bombers",

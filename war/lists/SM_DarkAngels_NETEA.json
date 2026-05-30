@@ -53,6 +53,27 @@
           "cost_pts": 200,
           "upgrades": [
             17
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
           ]
         },
         {
@@ -62,7 +83,28 @@
           "units": "6 Dark Angels Assault Marines, 1 Dark Angels Captain",
           "pts": 275,
           "cost_pts": 275,
-          "upgrades": []
+          "upgrades": [],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_dark_angels_captain_or_librarian_or_interrogator_chaplain_or_grand_maste",
+              "label": "Choice",
+              "max": 1,
+              "variants": [
+                {
+                  "upgrade_id": 13
+                },
+                {
+                  "upgrade_id": 14
+                },
+                {
+                  "upgrade_id": 15
+                },
+                {
+                  "upgrade_id": 16
+                }
+              ]
+            }
+          ]
         },
         {
           "string_id": "devastators",
@@ -148,6 +190,23 @@
             14,
             15,
             16
+          ],
+          "loadout_slots": [
+            {
+              "string_id": "loadout_ravenwing_bikes_or_ravenwing_attack_bike",
+              "label": "Choice",
+              "min": 4,
+              "max": 4,
+              "variants": [
+                {
+                  "upgrade_id": 25,
+                  "is_default": true
+                },
+                {
+                  "upgrade_id": 26
+                }
+              ]
+            }
           ]
         }
       ]
